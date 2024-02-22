@@ -1,9 +1,13 @@
-Q_TTSEM_NOMBRE:Extraction pertinente des documents :
-* "Le nombre maximal de jours de télétravail est fixé annuellement et de façon forfaitaire. Il est également pondéré en fonction du temps de travail de chaque salarié comme suit : Nombre de jours calculé sur la base d’une moyenne de 3 jours de télétravail par mois et par équivalent temps plein, sur 10 mois à l’année (déduction faite des 5 semaines de congés payés, des jours de crédit d’heures, de réunion d’équipe et de formation)."
-* "Afin de maintenir un lien suffisant entre le salarié et le groupement, le télétravailleur doit se rendre sur site, dans son bureau de rattachement, au moins 1 jour par semaine pour un salarié à temps plein, et 1 jour par quinzaine en moyenne pour un salarié à temps partiel."
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=3
+* "Les parties conviennent que le télétravail s’effectue au domicile connu de l’employeur / du service des Ressources Humaines." (Document, page_content='Les parties conviennent que le télétravail s’effectue au domicile connu de l’employeur / du service des Ressources Humaines.')
+* "Afin de maintenir un lien suffisant entre le salarié et le groupement, le télétravailleur doit se rendre sur site, dans son bureau de rattachement, au moins 1 jour par semaine pour un salarié à temps plein, et 1 jour par quinzaine en moyenne pour un salarié à temps partiel." (Document, page_content='Afin de maintenir un lien suffisant entre le salarié et le groupement, le télétravailleur doit se rendre sur site, dans son bureau de rattachement, au moins 1 jour par semaine pour un salarié à temps plein, et 1 jour par quinzaine en moyenne pour un salarié à temps partiel.')
+
+Ma réponse après raisonnement ci-dessous :
+
+nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
-Le premier paragraphe indique que le nombre de jours de télétravail est calculé sur la base d'une moyenne de 3 jours par mois et par équivalent temps plein, sur 10 mois dans l'année. Cela correspond à une moyenne de 0,5 jour par semaine. Le deuxième paragraphe indique qu'un salarié à temps plein doit se rendre sur site au moins 1 jour par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3 - 1 = 2 jours.
+
+Le document stipule que le télétravailleur doit se rendre sur site, dans son bureau de rattachement, au moins 1 jour par semaine pour un salarié à temps plein. Donc, le nombre maximum de jour de télétravail par semaine est 1.

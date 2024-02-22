@@ -1,10 +1,13 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail peut s’exercer de façon régulière, occasionnelle, en cas de circonstances exceptionnelles ou pour des raisons médicales." (Document id: 3)
-* "La Direction entend rappeler que la compétence s’acquiert dans le collectif par les échanges. Afin de préserver le lien avec sa communauté de travail, le salarié devra être présent sur site au moins 3 jours par semaine civile." (Document id: 6)
+* "Le télétravail s’effectue sur la base de 2 journées maximum par semaine civile." (Document id: 1)
+* "La possibilité de candidater est ouverte à tous les bénéficiaires, dès lors qu’ils remplissent les conditions d’éligibilité suivantes : a- Ancienneté et maîtrise de son poste L’ancienneté requise dans la Société, pour les collaborateurs ayant moins de 7 ans d’expérience professionnelle, est de 6 mois minimum de présence effective (dont 2 mois dans le service) et, pour les collaborateurs ayant une expérience professionnelle supérieure à 7 ans, de 3 mois minimum de présence effective." (Document id: 9)
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=3
+Ma réponse après raisonnement ci-dessous :
+
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-Après analyse des documents, je constate que la direction demande aux salariés d'être présent sur site au moins 3 jours par semaine civile. Cela signifie que le nombre maximum de jour de télétravail par semaine est de 2 jours. Je ne trouve pas d'autres informations dans les documents qui me permettraient de conclure à un nombre différent.
+
+Je me base sur le premier paragraphe extrait qui indique clairement que le télétravail s'effectue sur la base de 2 journées maximum par semaine civile. Cette information est confirmée indirectement par le deuxième paragraphe extrait qui indique que la possibilité de candidater au télétravail est ouverte à tous les bénéficiaires remplissant certaines conditions d'éligibilité, mais sans mentionner de limitation de jours de télétravail par semaine.

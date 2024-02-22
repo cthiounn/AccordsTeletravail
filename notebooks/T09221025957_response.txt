@@ -1,14 +1,15 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Il cessera de produire définitivement et irrévocablement ses effets à la date du 31 mai 2021." (Document(page\_content='...', metadata={'id': 0,'relevance\_score': 0.9158425}))
-* "Le présent accord est renouvelé pour une durée de (3) three months, soit jusqu’au 31 mai 2021." (Document(page\_content='...', metadata={'id': 1,'relevance\_score': 0.9152734}))
+* "Il est convenu ce qui suit." (Document 0, ligne 33)
+* "Article 1. Modification de l’article 10 « Durée de l’accord » (Document 1, ligne 2)
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=0
+nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* Les documents fournis concernent un avenant à un accord sur le télétravail, qui a été renouvelé pour une durée de trois mois jusqu'au 31 mai 2021.
-* Cependant, aucun des documents ne mentionne explicitement le nombre de jours de télétravail autorisés par semaine, ni ne mentionne le télétravail à 100% ou le full-remote sans jour de présence minimum sur site.
-* Par conséquent, je ne peux pas déterminer le nombre maximum de jours de télétravail possibles par semaine en me basant sur les informations fournies.
+Après avoir lu attentivement les documents fournis, je n'ai pas trouvé de mention explicite concernant le nombre maximum de jours de télétravail par semaine.
+
+Cependant, en vertu de la règle 2G, le nombre de jours de télétravail par semaine ne peut pas être strictement supérieur à cinq. Par conséquent, je propose la valeur maximale de 5 jours de télétravail par semaine.

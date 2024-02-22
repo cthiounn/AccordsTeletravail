@@ -1,16 +1,13 @@
 Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    * "Le télétravail se fait sur des jours fixes. L’acceptation des jours de télétravail se fera en tenant compte de la nécessité de pouvoir organiser chaque semaine, une réunion d’équipe avec la présence de chacun."
-    
-    * "Afin de préserver le lien social avec l’entreprise, la cohésion et le bon fonctionnement des équipes, le télétravail est limité de telle sorte que le collaborateur cadre soit présent dans l’entreprise au moins trois jours par semaine. Ainsi une personne à 80% ne pourra être en télétravail qu’une journée par semaine."
+* "Le télétravail est limité de telle sorte que le collaborateur cadre soit présent dans l’entreprise au moins trois jours par semaine." (Document id: 6)
+* "Afin de préserver le lien social avec l’entreprise, la cohésion et le bon fonctionnement des équipes, le télétravail est limité de telle sorte que le collaborateur non-cadre soit présent dans l’entreprise au moins trois jours par semaine." (Document id: 7)
 
-* Ma réponse : **nombrejourdeteletravailmaxparsemaine=3**
+Ma réponse après raisonnement ci-dessous :
 
-* Mon raisonnement :
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=3**
 
-    * Selon le premier paragraphe, le télétravail se fait sur des jours fixes et il faut tenir compte de la nécessité de pouvoir organiser chaque semaine, une réunion d’équipe avec la présence de chacun. Cela implique qu'il ne peut pas y avoir plus de 3 jours de télétravail par semaine.
-    
-    * Le deuxième paragraphe confirme cette limite en précisant que les collaborateurs cadres doivent être présents dans l’entreprise au moins trois jours par semaine.
-    
-    * Il n'est pas fait mention d'une possibilité de télétravail à 100% ou de full-remote dans les paragraphes analysés, donc je ne peux pas affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.
+Mon raisonnement :
+
+Après analyse des documents fournis, je constate que le télétravail est limité à trois jours par semaine aussi bien pour les collaborateurs cadres que non cadres. En effet, le document id: 6 stipule que "le télétravail est limité de telle sorte que le collaborateur cadre soit présent dans l’entreprise au moins trois jours par semaine" et le document id: 7 mentionne que "le télétravail est limité de telle sorte que le collaborateur non-cadre soit présent dans l’entreprise au moins trois jours par semaine". Par conséquent, le nombre maximal de jours de télétravail par semaine est de trois.

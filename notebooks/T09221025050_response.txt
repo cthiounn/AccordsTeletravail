@@ -1,12 +1,14 @@
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    Article 3.2.3.4. Modalités (Document id: 7)
-    > Les jours télétravaillés devront être saisis et identifiés comme tels par le salarié via Galilée selon le compteur dédié, en accord avec son encadrant.
-    > Les jours télétravaillés devront également être identifiés comme tel dans le calendrier Outlook.
-    
-* Ma réponse après raisonnement :
-    nombrejourdeteletravailmaxparsemaine=5
-* Mon raisonnement :
-    L'article 3.2.3.4. Modalités (Document id: 7) stipule que les jours télétravaillés doivent être identifiés comme tels par le salarié en accord avec son encadrant. Cependant, aucune limitation de nombre de jours de télétravail par semaine n'est mentionnée dans ce document.
-    Cependant, l'instruction 2.E mentionne que si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine. Or, dans le document fourni, il n'est pas explicitement mentionné que le télétravail est à 100% ou full-remote, mais l'absence de mention de jour de présence minimum sur site permet de conclure que le télétravail à 100% est autorisé. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 5.
+* "Le temps de présence physique du collaborateur dans les locaux de l'entreprise devra être au minimum de deux jours jour pleins par semaine" (Document id=5, relevance score=0.96382207)
+* "une répartition hebdomadaire au sein de l’équipe des jours d’exercice de l’activité en télétravail" (Document id=1, relevance score=0.9552047)
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
+
+Mon raisonnement :
+
+* Selon le document id=5, il y a un minimum de 2 jours de présence physique par semaine, donc il reste 5 jours possibles pour le télétravail.
+* Selon le document id=1, il y a une répartition hebdomadaire des jours d'exercice de l'activité en télétravail, ce qui confirme que le maximum de jours de télétravail par semaine est de 5.

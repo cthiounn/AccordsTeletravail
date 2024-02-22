@@ -1,14 +1,13 @@
 Q_TTSEM_NOMBRE:
-* Mon extraction de paragraphes pertinents provenant des documents à analyser :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    Document(page\_content='La Direction appréciera en fonction d’éléments objectifs (notamment en fonction du pourcentage de tâches réalisables en télétravail rattachées au poste concerné et aux besoins en travail présentiel du service considéré), avec le supérieur hiérarchique de l’intéressé, le **nombre de jours maximal à autoriser en télétravail** ainsi que les jours de télétravail, dans le souci de ne pas entraver le bon fonctionnement du service et de ne pas pénaliser l’activité de l’entreprise.', metadata={'id': 2,'relevance\_score': 0.95555323})
-    
-    Document(page\_content='**Le télétravail occasionnel peut être pris par journée entière ou demi-journée et ne pourra pas excéder deux (2) jours pour un (1) mois civil donné**. Selon la situation individuelle concernée, ces deux (2) jours pourront être par exception cumulés sur la même semaine.', metadata={'id': 8,'relevance\_score': 0.9448567})
+* "Le télétravail occasionnel peut être pris par journée entière ou demi-journée et ne pourra pas excéder deux (2) jours pour un (1) mois civil donné." (Document id: 5)
+* "Une présence minimale hebdomadaire au sein de l’entreprise, pouvant varier entre un (1) et quatre (4) jours sera requise pour chaque salarié en situation de télétravail," (Document id: 1)
 
-* Ma réponse après raisonnement :
+Ma réponse après raisonnement ci-dessous :
 
-    nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine=2
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    Dans le premier paragraphe, il est mentionné "le nombre de jours maximal à autoriser en télétravail". Cependant, il n'est pas explicitement indiqué que cette limite est par semaine. Par conséquent, je dois me baser sur le deuxième paragraphe qui mentionne que "le télétravail occasionnel peut être pris par journée entière ou demi-journée et ne pourra pas excéder deux (2) jours pour un (1) mois civil donné". Comme il s'agit de télétravail occasionnel, je ne peux pas garantir que cela s'applique au télétravail régulier. Cependant, c'est la seule indication explicite de limite de jours de télétravail trouvée dans les documents fournis. Je propose donc une limite de 2 jours par semaine pour le télétravail régulier.
+* Dans le premier document pertinent, il est mentionné que le télétravail occasionnel ne peut pas excéder deux jours pour un mois civil. En appliquant la règle 2.G, le nombre maximum de jours de télétravail par semaine est donc 2.

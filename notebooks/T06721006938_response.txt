@@ -1,11 +1,13 @@
-Q_TTSEM_NOMBRE:Extraction pertinente des documents :
-* "Les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié" (Document(page\_content='A cet effet, les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié\xa0: option 1\xa0: 1 jour/semaine/salarié ou option 2\xa0: 2 jours/semaine/salarié.'))
-* "L’Accord-Cadre prévoit deux formules de rythme de télétravail possible. Les parties signataires conviennent de mettre en place la formule 2 (rythme de 1 jour de télétravail par semaine et par salarié)" (Document(page\_content='Article 2-3– L’organisation du télétravail régulier \n\nArticle 2-3-1 – Le rythme de télétravail \n\nL’Accord-Cadre de Groupe prévoit deux formules de rythme de télétravail possible. Les parties signataires conviennent de mettre en place la formule 2 (rythme de 1 jour de télétravail par semaine et par salarié).'))
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Ma réponse :
-* nombrejourdeteletravailmaxparsemaine = 2
+* "Les parties au présent accord d'entreprise conviennent qu'en tout état de cause, pour les semaines où le salarié use de sa faculté de télétravailler, il devra être présent au minimum 2 jours par semaine sur son ou ses lieu(x) de travail habituel(s)." (Document id: 1)
+* "Toutefois, cet Accord-Cadre prévoit la possibilité de fixer un nombre de jours de télétravail supérieur à 1 jour par semaine et par salarié. A cet effet, les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié." (Document id: 0)
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
 
 Mon raisonnement :
-* Selon le premier document, les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié.
-* Selon le deuxième document, les parties signataires conviennent de mettre en place la formule 2 (rythme de 1 jour de télétravail par semaine et par salarié).
-* Donc, le nombre maximum de jours de télétravail par semaine est de 2.
+
+Après avoir lu attentivement les documents fournis, je constate que les parties signataires ont convenu d'un rythme de 2 jours maximum de télétravail par semaine et par salarié. Ce rythme est confirmé dans un autre document, qui précise que le salarié devra être présent au minimum 2 jours par semaine sur son lieu de travail habituel. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

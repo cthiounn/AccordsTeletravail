@@ -1,14 +1,13 @@
 Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les salariés devront être présents, ou en clientèle, a minima 3 jours par semaine dans les locaux au sein desquels les salariés exercent habituellement leur activité, et le télétravail ne pourra se faire que dans la limite d’1 jour par semaine, avec possibilité de télétravail par demi-journée." (Document ID 1)
-* "Le télétravail est mis en œuvre après demande écrite du salarié adressée à son responsable hiérarchique et au service des ressources humaines. (cf Annexes : formulaire de demande) Un retour sera fait dans le mois qui suit la demande. [...] Compte tenu de l’importance du maintien du lien avec la communauté de travail, les salariés devront être présents a minima 3 jours par semaine dans les locaux au sein desquels les salariés exercent habituellement leur activité, ou en déplacement clientèle, et le télétravail ne pourra se faire que dans la limite d’1 jour par semaine, avec possibilité de télétravail par demi-journée." (Document ID 0)
+* "Compte tenu de l’importance du maintien du lien avec la communauté de travail, les salariés devront être présents a minima 3 jours par semaine dans les locaux au sein desquels les salariés exercent habituellement leur activité, **et le télétravail ne pourra se faire que dans la limite d’1 jour par semaine**, avec possibilité de télétravail par demi-journée." (Document id 0, page_content)
+* "Ainsi une personne travaillant 4 ou 5 jours par semaine pourra télétravailler à hauteur de 1 jour maximum. Une personne travaillant 3 jours par semaine ou moins ne pourra pas télétravailler." (Document id 1, page_content)
 
-Ma réponse :
+Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine = 1
+nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
 
-* Les documents mentionnent explicitement que le télétravail ne peut se faire que dans la limite d'1 jour par semaine.
-* Par conséquent, le nombre maximal de jours de télétravail par semaine est de 1 jour.
+Après avoir lu les deux passages pertinents des documents, je constate que le télétravail ne peut se faire que dans la limite d'1 jour par semaine. Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' est affectée à la valeur 1.

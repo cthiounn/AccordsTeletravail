@@ -1,6 +1,7 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Article 12 – Organisation du télétravail : « Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés. Une présence dans l’entreprise de 3 jours minimum par semaine est requise. »
+* "Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés." (Document id: 4)
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -8,4 +9,5 @@ Ma réponse après raisonnement ci-dessous :
 
 Mon raisonnement :
 
-* Je me base sur l'article 12 – Organisation du télétravail qui stipule que « le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés ». Donc, le nombre maximum de jours de télétravail par semaine est de 2.
+* J'ai identifié dans le document id: 4 la phrase "le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés".
+* Je propose donc de répondre 'nombrejourdeteletravailmaxparsemaine=2' car c'est la limite maximale de jours de télétravail par semaine proposée dans le document.

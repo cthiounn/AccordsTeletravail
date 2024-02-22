@@ -1,13 +1,12 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance." (source: id=6, relevance\_score=0.9324789)
+* Article 4 : TRAVAIL À DISTANCE, Document(page\_content='Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance. [...] Afin de maintenir la cohésion d’équipe, chaque collaborateur devra donc s’organiser pour être présent au bureau ou en mission au minimum 3 jours / semaine.'),
 
 Ma réponse après raisonnement ci-dessous :
 
-"nombrejourdeteletravailmaxparsemaine=2"
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
 
 Mon raisonnement :
 
-* Je recherche dans les documents les mentions de télétravail et de fréquence hebdomadaire.
-* Un seul paragraphe correspond à ma recherche: "Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance."
-* Cette phrase indique clairement que le nombre maximum de jours de télétravail par semaine est de 2.
+Le document mentionne explicitement que "Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance". Donc, le nombre maximum de jours de télétravail par semaine est de 2.

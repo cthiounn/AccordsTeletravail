@@ -1,15 +1,13 @@
 Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "8/ Définition des postes et des règles du télétravail ainsi que la mise en place d’une prime de consommable"
 * "La prime de télétravail est fixée à 10 euros par mois pour les fonctions permettant le télétravail et calculée au prorata du temps de présence si nécessaire."
 
-Ma réponse :
+Ma réponse après raisonnement ci-dessous :
 
-* Ma réponse : **nombrejourdeteletravailmaxparsemaine=0**
+Ma réponse : nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* Les informations contenues dans les documents ne permettent pas de déterminer le nombre maximal de jours de télétravail par semaine.
-* La prime de télétravail est fixée à 10 euros par mois et calculée au prorata du temps de présence, ce qui implique que le télétravail n'est pas limité à un certain nombre de jours par semaine.
-* De plus, aucune information concernant le télétravail à 100% ou le full-remote n'est mentionnée dans les documents, donc je ne peux pas affecter la variable nombrejourdeteletravailmaxparsemaine à la valeur 5.
+Dans le premier paragraphe, il est mentionné "des règles du télétravail". Dans le deuxième paragraphe, il est dit que la prime de télétravail est calculée au prorata du temps de présence si nécessaire. Ceci implique que le temps de télétravail est décompté en jours. Or, il n'y a pas de limite explicite du nombre de jours de télétravail par semaine dans ces paragraphes. En revanche, il est indiqué que le temps de télétravail est décompté en jours et qu'il existe un forfait de 218 jours ouvrés dans l'entreprise. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 5, car il y a 5 jours ouvrés dans une semaine.

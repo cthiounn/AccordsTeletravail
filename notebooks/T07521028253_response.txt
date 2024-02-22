@@ -1,8 +1,13 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Dans le respect de ce principe, les salariés peuvent demander à organiser leur rythme de télétravail en déterminant – au maximum – deux journées télétravaillées chaque semaine en moyenne."
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "la direction demande que le salarié télétravailleur dispose d'au moins 3 jours de présence par semaine dans l'entreprise." (Document id: 0)
 
 Ma réponse après raisonnement ci-dessous :
+
 Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-Le paragraphe pertinent indique que les salariés peuvent demander à organiser leur rythme de télétravail en déterminant – au maximum – deux journées télétravaillées chaque semaine en moyenne. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+
+* J'extrais l'information pertinente du document id: 0 où il est indiqué que "la direction demande que le salarié télétravailleur dispose d'au moins 3 jours de présence par semaine dans l'entreprise".
+* Je déduis donc que le nombre maximum de jours de télétravail par semaine est de 2 (5 jours de la semaine - 3 jours de présence obligatoire).

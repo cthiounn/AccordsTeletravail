@@ -1,10 +1,13 @@
 Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-1. "Afin de maintenir le lien social avec la communauté de travail, l’activité exercée en télétravail à domicile pourra aller jusqu’à deux jours de télétravail par semaine." (Document(page\_content='6.2 Modalités du télétravail\n\n6.2.1 Rythme du télétravail\n\nAfin de maintenir le lien social avec la communauté de travail, l’activité exercée en télétravail à domicile pourra aller jusqu’à deux jours de télétravail par semaine.\xa0Cependant il est convenu que pour certains travailleurs comme visés au terme de l’article 4 ce rythme pourra être revu et adapté. \n\nCe plafond de deux jours par semaine constitue un maximum qui ne pourra être dépassé par les accords d’entreprise ou chartes de télétravail des entreprises du Groupe. A ce titre, ces dernières, pourront si elles le souhaitent définir un nombre de jours maximum de télétravail inférieur à ce plafond que ce soit par accord d’entreprise ou charte de télétravail, ce plafond nouvellement défini s’appliquera seul aux salariés de l’entreprise concernée.', metadata={'id': 5,'relevance\_score': 0.9253103}))
-2. "Le télétravail régulier ne pourra être exercé qu’en journée pleine et non en demi-journée, excepté pour la demi-journée des salariés travaillant sur 4,5 jours (90%)." (Document(page\_content='Dans un soucis d’équité entre les salariés au sein d’un même service, le responsable hiérarchique veillera à un traitement égalitaire quant à l’attribution des jours de semaine «\xa0télétravaillable\xa0». Une attention particulière devra être apportée notamment sur l’attribution du lundi, mercredi et vendredi.\nLe cas échéant, le responsable hiérarchique pourra organiser au sein de son équipe un roulement dans l’attribution des jours de semaines en établissant un planning des journées «\xa0télétravaillées\xa0» et non «\xa0télétravaillées\xa0». Dans cette hypothèse le salarié sera tenu de suivre le planning arrêté par sa hiérarchie.\n\nLe télétravail régulier ne pourra être exercé qu’en journée pleine et non en demi-journée, excepté pour la demi-journée des salariés travaillant sur 4,5 jours (90%). Pour la bonne organisation du service le responsable hiérarchique informe son équipe des modalités d’organisation du télétravail au sein de son service.', metadata={'id': 4,'relevance\_score': 0.9184873}))
+* "Afin de maintenir le lien social avec la communauté de travail, l’activité exercée en télétravail à domicile pourra aller jusqu’à deux jours de télétravail par semaine." (Document d'identifiant 7, métadonnées {'id': 7,'relevance\_score': 0.9647709})
+* "Le télétravail régulier ne pourra être exercé qu’en journée pleine et non en demi-journée, excepté pour la demi-journée des salariés travaillant sur 4,5 jours (90%)." (Document d'identifiant 3, métadonnées {'id': 3,'relevance\_score': 0.961346})
 
-* Ma réponse : nombrejourdeteletravailmaxparsemaine=2
-* Mon raisonnement :
+Ma réponse après raisonnement ci-dessous :
 
-Le premier paragraphe indique clairement que le nombre maximum de jours de télétravail par semaine est de deux. Bien que le deuxième paragraphe ne mentionne pas explicitement le nombre de jours de télétravail par semaine, il confirme que le télétravail régulier ne peut pas dépasser deux jours par semaine. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de deux.
+nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+En analysant les documents fournis, je me suis concentré sur les éléments pertinents pour répondre à la question posée. J'ai identifié deux passages clairs et explicites qui répondent à la question. Par conséquent, je conclus que le maximum de jours de télétravail par semaine proposé, recommandé ou limité est de 2 jours.

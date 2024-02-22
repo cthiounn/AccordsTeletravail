@@ -1,10 +1,14 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Un nouvel examen des conditions d'éligibilité au télétravail pourra être effectué si le Salarié était amené à changer de fonction, de poste, de service et de domicile. Ce nouvel examen pourra donner lieu à la cessation de la situation de télétravail." (Document id: 3)
-* "Afin notamment de préserver une certaine cohésion au sein des effectifs de la Société, les Salariés à temps plein ne travailleront qu'au maximum 2 jours par semaine en télétravail et 1 seule journée pour les Salariés à temps partiel." (Document id: 3)
+* "Les Salaries a temps plein ne travailleront qu'au maximum 2 jours par semaine en teletravail et 1 seule journee pour les Salaries a temps partiel." (Document d'ID 2)
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine = 2
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-Après avoir analysé les documents fournis, je constate que le document id: 3 contient une information pertinente concernant le nombre de jours de télétravail autorisés par semaine. En effet, il est indiqué que les salariés à temps plein ne peuvent travailler plus de 2 jours par semaine en télétravail. Cette information est confirmée dans le même document par l'absence de mentions concernant une fréquence de télétravail supérieure à 2 jours par semaine. Par conséquent, je peux conclure que le nombre maximum de jours de télétravail par semaine est de 2.
+
+* J'extrais la phrase "Les Salaries a temps plein ne travailleront qu'au maximum 2 jours par semaine en teletravail et 1 seule journee pour les Salaries a temps partiel" du document d'ID 2.
+* Je retiens que les salariés à temps plein ne peuvent pas travailler plus de 2 jours en télétravail par semaine.
+* Donc, nombrejourdeteletravailmaxparsemaine=2.

@@ -1,9 +1,12 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents :
-    * "Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein." (Document id=7)
-    * "Pour être éligible au télétravail, le salarié doit [...] exercer son activité à temps plein ou à temps partiel avec un taux d'activité au moins égal à 50% d'un temps plein." (Document id=0)
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
-* Mon raisonnement :
-    * Selon le document id=7, le nombre de jours de télétravail ne peut excéder 2 jours par semaine pour un temps plein.
-    * Le document id=0 précise que le télétravail est possible à temps plein ou à temps partiel avec un taux d'activité d'au moins 50%. Par conséquent, le nombre maximal de jours de télétravail par semaine reste inchangé, quel que soit le taux d'activité du salarié.
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* Article 3 : "Le présent accord a pour but de réglementer un télétravail dit occasionnel, sur demande du salarié pour convenance personnelle. Il ne s’agit en aucun cas de créer une réglementation permettant un télétravail permanent qu’il soit total ou partiel. Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein."
+
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+* Je me base sur l'article 3 qui stipule explicitement que "Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein". Cette limite de 2 jours par semaine est donc proposée, recommandée ou limitée pour le télétravail dans le cadre de cet accord.

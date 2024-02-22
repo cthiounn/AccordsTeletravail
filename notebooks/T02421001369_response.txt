@@ -1,13 +1,13 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Face à la crise sanitaire de la COVID 19 et consécutivement au recours massif au travail à distance exceptionnel, l’avenant à l’accord relatif au télétravail conclu le 22 octobre 2020 n’a pas pu être mis en œuvre." (Document 1)
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=0
+Ma réponse : nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* Les documents fournis ne contiennent aucune information sur le nombre de jours maximum de télétravail par semaine pour les salariés de la MSA Dordogne, Lot et Garonne.
-* De plus, aucun paragraphe ne mentionne spécifiquement le nombre de jours de télétravail autorisés par semaine, en dehors des cas de télétravail occasionnel ou ponctuel.
-* Par conséquent, je ne peux pas attribuer de valeur à la variable 'nombrejourdeteletravailmaxparsemaine'.
+* Les documents ne précisent pas le nombre maximum de jours de télétravail par semaine.
+* En vertu de la règle 2G, le nombre maximum de jours de télétravail par semaine ne peut pas être strictement supérieur à cinq.

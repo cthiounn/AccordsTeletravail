@@ -1,12 +1,12 @@
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    Article 4 Condition d'exécution du télétravail : "Afin de maintenir le lien social avec la communauté de travail, et de préserver le bon fonctionnement des activités, les parties fixent le nombre de jour de télétravail à deux jours maximum par semaine."
+* Article 4 Condition d’exécution du télétravail : "les parties fixent le nombre de jour de télétravail à deux jours maximum par semaine."
 
-* Ma réponse après raisonnement ci-dessous :
+Ma réponse :
 
-    nombrejourdeteletravailmaxparsemaine=2
+nombrejourdeteletravailmaxparsemaine=2
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    Le paragraphe extrait de l'article 4 de l'accord d'entreprise stipule clairement que le nombre de jours de télétravail autorisés par semaine est de deux jours maximum. Par conséquent, je peux affirmer que le nombre maximal de jours de télétravail par semaine est de 2, ce qui correspond à la variable 'nombrejourdeteletravailmaxparsemaine'.
+Je me suis basé sur l'article 4 intitulé "Condition d’exécution du télétravail" qui stipule que "les parties fixent le nombre de jour de télétravail à deux jours maximum par semaine". Cette information est claire et concise, elle ne nécessite pas de raisonnement particulier.

@@ -1,12 +1,13 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Le télétravail régulier débute par une période d’adaptation d’une durée égale au quart de la durée convenue de télétravail, étant rappelé que celle-ci ne peut excéder 1 an." (Document id: 2)
-* "Dans le cadre du présent accord, le télétravail peut être régulier ou occasionnel et est défini comme suit : le télétravail « régulier » peut être à temps plein ou à temps partiel et suppose la conclusion d’un avenant au contrat de travail, pour une durée déterminée qui ne peut être supérieure à 1 an" (Document id: 1)
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "le plafond annuel mentionné ci-dessus devra être respecté ainsi qu’un plafond hebdomadaire de 3 jours" (document 8)
+* "le salarié devra être physiquement présent dans l’entreprise au moins 2 jours par semaine" (document 8)
 
 Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=5
+
+Ma réponse : nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
-* D'après le document id: 1, le télétravail régulier peut être à temps plein ou à temps partiel et suppose la conclusion d’un avenant au contrat de travail, pour une durée déterminée qui ne peut être supérieure à 1 an.
-* D'après le document id: 2, la période d’adaptation n’est applicable que pour les avenants au contrat d’une durée supérieure ou égale à 1 mois. Au cours de cette période, l'employeur ou le salarié peuvent décider, unilatéralement, de mettre fin à la situation de télétravail moyennant un délai de prévenance.
-* Donc, le télétravail régulier peut aller jusqu'à une durée de 1 an, ce qui correspond à 5 jours par semaine (car 52 semaines x 5 jours = 260 jours, or 1 an = 260 jours ouvrés).
-* Comme le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.
+
+* Selon le document 8, le plafond hebdomadaire est de 3 jours. De plus, le salarié doit être physiquement présent dans l'entreprise au moins 2 jours par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3.

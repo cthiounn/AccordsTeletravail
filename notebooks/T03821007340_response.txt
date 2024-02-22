@@ -1,22 +1,12 @@
 Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    * "Le télétravail est resté la règle et la présence sur site l’exception pour tous les salariés pouvant avoir recours à ce mode d’organisation du travail."
-    
-    * "les parties ont décidé de se réunir, afin de conclure un avenant portant sur le remboursement des frais liés au télétravail."
+* "Depuis, le télétravail est resté la règle et la présence sur site l’exception pour tous les salariés pouvant avoir recours à ce mode d’organisation du travail." (Document(page\_content='PREAMBULE : Les parties ont conclu, le 20 octobre 2016 un accord d’entreprise à durée indéterminée portant sur le télétravail à domicile au sein de la société ARAYMOND France SAS.\nEn raison de la crise sanitaire de 2020 et de ses conséquences en matière économique et d’activité, la société ARaymond France a été contrainte de recourir au dispositif d’activité partielle.\nDurant le premier confinement général, et en application des dispositions légales applicables en cas d’épidémie ou de pandémie, le recours au télétravail a été généralisé pour tous les salariés en activité dont le poste et/ou leur mission permettait ledit télétravail. Depuis, le télétravail est resté la règle et la présence sur site l’exception pour tous les salariés pouvant avoir recours à ce mode d’organisation du travail.', metadata={'id': 1,'relevance\_score': 0.96155703}))
 
-* Ma réponse :
+Ma réponse après raisonnement ci-dessous :
 
-    * "nombrejourdeteletravailmaxparsemaine=5"
+nombrejourdeteletravailmaxparsemaine=5
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    * Selon le premier paragraphe, le télétravail est la règle et la présence sur site l'exception. Cependant, rien n'est précisé quant au nombre de jours de télétravail possibles par semaine.
-    
-    * Dans le deuxième paragraphe, il n'est pas non plus fait mention d'un quelconque nombre de jours de télétravail.
-    
-    * Cependant, le deuxième paragraphe mentionne que les parties se sont réunies pour conclure un avenant portant sur le remboursement des frais liés au télétravail. Ce point implique que le télétravail est autorisé de manière régulière, et non occasionnelle.
-    
-    * D'après les instructions données, si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine. Or, dans le premier paragraphe, il est dit que le télétravail est la règle et la présence sur site l'exception, ce qui implique qu'il n'y a pas de jour de présence minimum sur site.
-    
-    * Par conséquent, je peux conclure que le nombre maximal de jours de télétravail par semaine est de 5.
+Selon le paragraphe extrait, le télétravail est la règle et la présence sur site l'exception pour tous les salariés pouvant avoir recours à ce mode d'organisation du travail. Or, il n'y a pas de limitation spécifique du nombre de jours de télétravail par semaine dans le texte. De plus, il est mentionné que le télétravail est la règle, ce qui implique que les salariés peuvent télétravailler tous les jours de la semaine s'ils le souhaitent, dans la limite de 5 jours par semaine (car il y a 5 jours ouvrés dans une semaine). Par conséquent, la valeur maximale affectée à la variable nombrejourdeteletravailmaxparsemaine est 5.

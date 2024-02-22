@@ -1,13 +1,12 @@
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    Article 6: Nombre de jours de télétravail
-    "Afin d’éviter l’isolement des salariés, de conserver les interactions avec les autres services et afin de conserver un fonctionnement collectif, le télétravail sera de la responsabilité du manager et ne pourrait couvrir une semaine entière à savoir 5 jours."
+* Article 6 : "Nombre de jours de télétravail : Afin d’éviter l’isolement des salariés, de conserver les interactions avec les autres services et afin de conserver un fonctionnement collectif, le télétravail sera de la responsabilité du manager et ne pourrait couvrir une semaine entière à savoir 5 jours."
 
-* Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement ci-dessous :
 
-    nombrejourdeteletravailmaxparsemaine=3
+* nombrejourdeteletravailmaxparsemaine=5
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    Dans l'extrait pertinent, il est stipulé que le télétravail ne peut pas couvrir une semaine entière, soit 5 jours. Cela implique que le nombre maximal de jours de télétravail par semaine est inférieur à 5. Comme il n'est pas explicitement indiqué dans le texte que le nombre maximal est de 3 jours, je ne peux pas affirmer avec certitude que cette valeur est correcte. Cependant, en l'absence d'autres informations, je propose de fixer le nombre maximal de jours de télétravail par semaine à 3.
+* Je me base sur l'article 6 qui stipule que le télétravail ne peut pas couvrir une semaine entière, soit 5 jours. Donc, le nombre maximal de jours de télétravail par semaine est de 5 jours.

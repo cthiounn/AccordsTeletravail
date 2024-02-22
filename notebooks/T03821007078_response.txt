@@ -1,7 +1,14 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Disposer du matériel pour effectuer du télétravail (PC portable et ligne téléphonique fournis par RAYDIALL et connexion internet au domicile)" (Document id: 3)
-    * "Les demandes se feront par l’intermédiaire d’ADP. Le télétravail reste à la discrétion du management qui se laisse la possibilité de refuser une demande, et vice-versa." (Document id: 3)
-    * "Afin d’encadrer cette pratique et en dehors de la situation exceptionnelle actuelle, certains critères d’éligibilités ont été définis pour permettre d’apprécier ce nouveau mode d’organisation du travail. Ainsi, pour effectuer du télétravail occasionnel il faudra remplir les conditions suivantes: Avoir une performance normale (Répondre aux attentes du poste), Disposer du matériel pour effectuer du télétravail (PC portable et ligne téléphonique fournis par RAYDIALL et connexion internet au domicile), Disposer à son domicile d’un espace pour télétravailler." (Document id: 7)
-* Ma réponse : nombrejourdeteletravailmaxparsemaine = 0
-* Mon raisonnement : Les documents fournis ne contiennent aucune information sur le nombre maximal de jours de télétravail par semaine, excepté qu'ils mentionnent que le télétravail est possible en tant que télétravail occasionnel. Comme il n'y a aucune mention d'un télétravail à 100% ou d'un full-remote sans jour de présence minimale sur site, je ne peux pas non plus affecter la valeur 5 à la variable nombrejourdeteletravailmaxparsemaine.
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Pour effectuer du télétravail occasionnel il faudra remplir les conditions suivantes : Avoir une performance normale (Répondre aux attentes du poste), Disposer du matériel pour effectuer du télétravail (PC portable et ligne téléphonique fournis par RAYDIALL et connexion internet au domicile), Disposer à son domicile d’un espace pour télétravailler." (Document id: 2)
+* "Les demandes se feront par l’intermédiaire d’ADP. Le télétravail reste à la discrétion du management qui se laisse la possibilité de refuser une demande, et vice-versa." (Document id: 2)
+
+Ma réponse après raisonnement ci-dessous :
+
+nombrejourdeteletravailmaxparsemaine=5
+
+Mon raisonnement :
+
+* Les documents ne précisent pas le nombre maximum de jours de télétravail par semaine.
+* Selon la règle 2G, le nombre de jour de télétravail par semaine ne peut pas être strictement supérieur à cinq. Donc, nombrejourdeteletravailmaxparsemaine=5.

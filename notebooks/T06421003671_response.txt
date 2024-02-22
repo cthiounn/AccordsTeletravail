@@ -1,9 +1,12 @@
-Q_TTSEM_NOMBRE:Two paragraphs relevant to the question are:
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le travail occasionnel peut s’effectuer au domicile du salarié et/ou dans un autre lieu dont l’adresse aura été communiquée en amont au service des Ressources Humaines et sous réserve de remplir les conditions de travail satisfaisantes telles qu’une couverture internet suffisante, un espace de travail dédié et permettant de respecter les bonnes pratiques recommandées par le Groupe Safran (annexe 4 – « Les bons réflexes du travail à domicile »). Le travail occasionnel à distance peut s’exercer à hauteur de 12 jours par année civile pour un salarié présent toute l’année."
-* "Situations particulières    Les Parties conviennent que pour certaines situations spécifiques, le travail occasionnel à distance pourra s’exercer, selon les conditions d’éligibilité prévues au 2.1, à hauteur de 24 jours par année civile pour un salarié présent toute l’année."
+* "Le travail occasionnel à distance peut s’exercer à hauteur de 12 jours par année civile pour un salarié présent toute l’année." (Document(page\_content='Modalités d’exercice\xa0\nLe travail occasionnel peut s’effectuer au domicile du salarié et/ou dans un autre lieu dont l’adresse aura été communiquée en amont au service des Ressources Humaines et sous réserve de remplir les conditions de travail satisfaisantes telles qu’une couverture internet suffisante, un espace de travail dédié et permettant de respecter les bonnes pratiques recommandées par le Groupe Safran (annexe 4 – «\xa0Les bons réflexes du travail à domicile\xa0»). \nLe travail occasionnel à distance peut s’exercer à hauteur de 12 jours par année civile pour un salarié présent toute l’année. A défaut, le nombre de jours sera calculé au prorata du temps de présence sur l’année. Par exemple, un salarié présent 6 mois dans l’année pourra bénéficier de 6 jours sur cette période.'))
 
-My response is:
+Ma réponse après raisonnement ci-dessous :
 
-* Ma réponse: **nombrejourdeteletravailmaxparsemaine=2**
-* Mon raisonnement: The first paragraph states that the occasional work can be done at home or another location for up to 12 days per year. The second paragraph mentions that for specific situations, occasional work can be done for up to 24 days per year. Since both of these cases refer to occasional work and not regular remote work, I cannot provide the exact number of days per week. However, since there are 52 weeks in a year, if someone were to telework for 24 days in a year, they would be teleworking for approximately half a day per week. Therefore, I estimate that **nombrejourdeteletravailmaxparsemaine=2**.
+Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+Je me base sur le document "Modalités d’exercice" qui indique que le travail occasionnel à distance peut s’exercer à hauteur de 12 jours par année civile pour un salarié présent toute l’année. En appliquant la règle 2.G, qui stipule qu'un nombre de jour de télétravail par semaine ne peut pas être strictement supérieur à cinq, j'ai effectué le calcul suivant : 12 jours / 52 semaines = 0,23 jours par semaine. Comme je ne peux pas donner une fraction, je donne la valeur arrondie à l'entier inférieur, soit 2 jours par semaine.

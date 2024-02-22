@@ -1,13 +1,13 @@
-Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    Article 11 – Fréquence et nombre de jours de télétravail
-    Les jours de télétravail seront fixés selon les modalités suivantes :
-    Un maximum de 2 jours par semaine, et de 2 demi-journées pouvant être cumulées sur une même journée au cours de la même semaine ;
+* "Un maximum de 2 jours par semaine, et de 2 demi-journées pouvant être cumulées sur une même journée au cours de la même semaine"
+* "la répartition de l'ensemble des jours de télétravail est définie en concertation entre le salarié et son Manager. Il est précisé qu’au plus tard le dernier jour travaillé de la semaine à 12H (midi), le salarié aura informé son Manager/Direction des jours de télétravail qui seront effectués la semaine suivante"
 
-* Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement ci-dessous :
 
-    nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine=2
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    Dans le document fourni, il est stipulé que "Les jours de télétravail seront fixés selon les modalités suivantes : Un maximum de 2 jours par semaine". Cela signifie que le nombre maximum de jours de télétravail par semaine est de 2.
+* J'extrais le nombre maximal de jours de télétravail par semaine qui est explicitement mentionné dans le premier paragraphe : "Un maximum de 2 jours par semaine". Donc, nombrejourdeteletravailmaxparsemaine=2.

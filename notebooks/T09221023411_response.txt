@@ -1,13 +1,13 @@
 Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    * "Afin de garantir la cohésion des équipes et de prévenir les situations d'isolement, le télétravail ne pourra être exercé que dans la limite de 75% du temps de travail effectif mensuel (en jours)." (document ID 1)
-    * "Il pourra être demandé par le Responsable tout reporting utile au contrôle de l'activité du collaborateur : pour les fonctions de production : reporting identiques à ceux réalisés sur site," (document ID 7)
+* "Le télétravail ne pourra être exercé que dans la limite de 75% du temps de travail effectif mensuel (en jours)"
+* "Un minima de 4 jours mensuels de présence sur site devra être mis en œuvre."
 
-* Ma réponse :
+Ma réponse après raisonnement ci-dessous :
 
-    * "nombrejourdeteletravailmaxparsemaine=3"
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=3**
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    * Selon le document ID 1, le télétravail ne peut être exercé que dans la limite de 75% du temps de travail effectif mensuel, ce qui représente 3 jours par semaine car il y a 5 jours ouvrés dans une semaine. Cependant, le document ID 7 mentionne que des reporting peuvent être demandés par le responsable pour les fonctions de production, ce qui implique que les salariés peuvent travailler sur site. Cependant, cela ne change pas le fait que le télétravail ne peut excéder 3 jours par semaine.
+Selon le premier paragraphe, le télétravail ne peut être exercé que dans la limite de 75% du temps de travail effectif mensuel, ce qui représente 3 jours par semaine car 75% de 30 jours (un mois) représentent 22,5 jours, or 22,5 jours divisés par 4 semaines représentent 5,625 jours par semaine, or il est impossible d'avoir plus de 5 jours de télétravail par semaine. De plus, selon le deuxième paragraphe, un minima de 4 jours mensuels de présence sur site doit être mis en œuvre, ce qui signifie que le maximum de jours de télétravail par semaine est de 3 jours.

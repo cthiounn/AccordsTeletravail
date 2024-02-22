@@ -1,12 +1,15 @@
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    * "En conséquence, le plafond d’allocations que percevra un collaborateur sera de 50 € par mois pour 5 jours de télétravail par semaine." (Document(page\_content='Il est explicitement précisé que cette clause ne se cumulera pas intégralement avec les dispositions de l’article 6 de l’accord du 16 juillet 2020. L’allocation perçue par les collaborateurs au titre de l’article précité viendra en déduction.\n\nEn conséquence, le plafond d’allocations que percevra un collaborateur sera de 50 € par mois pour 5 jours de télétravail par semaine.\n\nCette allocation sera payée au maximum dans les deux mois qui suivent.\n\n\nArticle 3 : Date d’application et durée de l’accord\n\nLe présent avenant est conclu pour une durée déterminée.\n\nIl prend effet au 1er janvier 2021 et cessera de produire ses effets au plus tard au 30 juin 2021.\n\nSi un accord d’entreprise devait être conclu et prendre effet avant l’échéance susmentionnée, les avantages ayant le même objet ne se cumuleraient pas. \n\nLe présent avenant peut être révisé dans les conditions prévues à l’article 4.\n\n\nArticle 4\xa0: Modalités de révision', metadata={'id': 1,'relevance\_score': 0.94120455}))
+* "En effet, la poursuite de la pandémie de Covid-19 laisse augurer des périodes de télétravail imposé par le protocole national « pour assurer la santé et la sécurité des salariés en entreprise »." (Document 0)
+* "Cette allocation sera calculée selon le plafond URSSAF d’exonération de cotisations et de contributions sociales et en tenant compte de l’organisation qui sera réellement mise en œuvre (télétravail intégral ou par roulement)." (Document 2)
 
-* Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement ci-dessous :
 
-    * nombrejourdeteletravailmaxparsemaine=5
+Ma réponse : nombrejourdeteletravailmaxparsemaine=5
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    * Dans le document fourni, il est stipulé que "le plafond d’allocations que percevra un collaborateur sera de 50 € par mois pour 5 jours de télétravail par semaine". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 5.
+* Les documents ne précisent pas le nombre maximum de jours de télétravail par semaine.
+* Cependant, il est mentionné que l'allocation forfaitaire sera calculée en fonction du temps télétravaillé, qui a comme référence le mois.
+* En prenant en compte la durée maximale d'un mois (30 jours), et en considérant qu'il y a cinq jours ouvrés dans une semaine, on peut déduire que le nombre maximum de jours de télétravail par semaine est de 5.

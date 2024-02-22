@@ -1,9 +1,16 @@
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
-* "les parties au présent accord d’entreprise conviennent qu’en tout état de cause le salarié ne pourra pas exercer plus de 2 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme d’une journée maximum de télétravail"
-* "Les parties au présent accord retiennent la formule de télétravail suivante pour le personnel dont les postes sont éligibles conformément à l’article 2-1-2 : rythme de télétravail de 2 jours au maximum par semaine et par salarié."
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Ma réponse :
-* nombrejourdeteletravailmaxparsemaine=2
+* "Plus de 2 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme d’une journée maximum de télétravail"
+* "Plus de 3 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme de deux journées maximum de télétravail"
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse : nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
-* J'ai trouvé deux occurrences où le nombre de jours de télétravail par semaine est mentionné dans le document. Dans les deux cas, il est mentionné que le nombre maximum de jours de télétravail par semaine est de 2.
+
+* J'ai identifié deux passages pertinents dans les documents qui indiquent le nombre maximum de jours de télétravail par semaine.
+* Le premier passage indique qu'il ne peut pas y avoir plus de 2 journées de télétravail par semaine pour le personnel bénéficiant d'un avenant entérinant un rythme d'une journée maximum de télétravail.
+* Le deuxième passage indique qu'il ne peut pas y avoir plus de 3 journées de télétravail par semaine pour le personnel bénéficiant d'un avenant entérinant un rythme de deux journées maximum de télétravail.
+* Comme je dois fournir la valeur maximale, je propose le nombre de 3 jours de télétravail par semaine.

@@ -1,10 +1,15 @@
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
-* "Le salarié pourra cumuler ses jours de télétravail sur un mois." (Article 4.2)
-* "Les journées de télétravail seront planifiées par le salarié au trimestre et soumis à la validation de son responsable sans dépasser trois jours de télétravail par semaine." (Article 4.2)
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine = 3
+* "Le salarié pourra cumuler ses jours de télétravail sur un mois." (Document id: 0, page_content: '4.2 - Choix de journées de télétravail flexibles')
+* "sans dépasser trois jours de télétravail par semaine." (Document id: 0, page_content: '4.2 - Choix de journées de télétravail flexibles')
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=3**
 
 Mon raisonnement :
-* Les journées de télétravail sont planifiées par le salarié au trimestre et doivent être validées par le responsable.
-* Le nombre maximal de jours de télétravail par semaine est de trois.
+
+* Je recherche dans les documents l'information relative au nombre maximum de jours de télétravail par semaine.
+* J'extrais les informations pertinentes des documents : "Le salarié pourra cumuler ses jours de télétravail sur un mois." et "sans dépasser trois jours de télétravail par semaine."
+* En utilisant les règles fournies, je constate que le maximum de jours de télétravail par semaine est de 3.

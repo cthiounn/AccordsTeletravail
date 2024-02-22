@@ -1,10 +1,13 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "De manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum." (Document(page\_content='6.1. repartition des Jours en télétravail', metadata={'id': 0,'relevance\_score': 0.9216072}))
-* "Pour des raisons personnelles relatives à son état de santé, le collaborateur pourra établir une demande de télétravail pour une durée inférieure ou égale à deux mois, renouvelable une fois, sous réserve de l’accord express du manager et d’un justificatif médical. Dans ce cas, le collaborateur pourra être en télétravail jusqu’à 100% de son temps de travail." (Document(page\_content='7.3. AMENAGEMENT DU TELETRAVAIL POUR RAISONS DE SANTE ', metadata={'id': 5,'relevance\_score': 0.93761027}))
+* De manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum. (Document(page\_content='De manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum.', metadata={'id': 0,'relevance\_score': 0.9656225}))
+* Par exception, si l’organisation du service le nécessite de manière ponctuelle ou structurelle (séminaires, réunions nécessitant une présence physique etc.), le manager peut aménager la répartition des jours en télétravail de façon mensuelle. Dans ce cas, le collaborateur peut, avec l’accord de son manager, aménager la répartition des jours télé-travaillés de façon mensuelle. (Document(page\_content='Par exception, si l’organisation du service le nécessite de manière ponctuelle ou structurelle (séminaires, réunions nécessitant une présence physique etc.), le manager peut aménager la répartition des jours en télétravail de façon mensuelle. \n\nEn cas de circonstances exceptionnelles personnelles, le collaborateur peut, avec l’accord de son manager, aménager la répartition des jours télé-travaillés de façon mensuelle.', metadata={'id': 2,'relevance\_score': 0.96526897}))
 
-Ma réponse :
+Ma réponse après raisonnement ci-dessous :
+
 nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-Après avoir analysé les deux paragraphes pertinents, j'ai pu constater que le premier paragraphe indique que le télétravail s'exerce à raison de deux journées fixes par semaine maximum. Cependant, le deuxième paragraphe mentionne que le collaborateur peut être en télétravail jusqu'à 100% de son temps de travail, ce qui correspond à 5 jours par semaine. Néanmoins, comme il est précisé que cela ne s'applique que pour des raisons personnelles relatives à son état de santé, je considère que cela ne s'applique pas dans le cadre général du télétravail. Par conséquent, je réponds que le nombre maximum de jours de télétravail par semaine est de 2, conformément au premier paragraphe.
+
+Je me base sur le premier paragraphe extrait qui indique que le télétravail s’exerce à raison de deux journées fixes par semaine maximum. Cette limite de deux jours par semaine est confirmée dans le deuxième paragraphe extrait où il est mentionné que le collaborateur peut aménager la répartition des jours télé-travaillés de façon mensuelle, mais toujours dans la limite de deux jours par semaine.

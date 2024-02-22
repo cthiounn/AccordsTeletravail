@@ -1,9 +1,12 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents :
-    * "En bénéficient tous les salariés éligibles au télétravail régulier qui pourront avec l'accord de leur manager Modifier leur journée de télétravail dans la semaine ou le mois"
-    * "Une à deux journées complètes maximum par semaine pour les autres salariés éligibles au télétravail."
-    * "Le nombre de jours de télétravail est déterminé en accord avec le manager qui peut limiter le nombre de jours de télétravail dont peuvent bénéficier les salariés de son équipe de façon notamment à ne pas affecter l’organisation et l’activité du service."
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
-* Mon raisonnement :
-    * Les salariés éligibles au télétravail régulier peuvent télétravailler jusqu'à deux jours complets par semaine. Cette limite est imposée par l'article 10 du document, qui stipule que "l'activité exercée en télétravail ne pourra excéder Une journée complète par semaine pour les salariés éligibles au télétravail, à temps partiel Une à deux journées complètes maximum par semaine pour les autres salariés éligibles au télétravail". Cette limite peut être abaissée par le manager, qui peut limiter le nombre de jours de télétravail dont peuvent bénéficier les salariés de son équipe. Cependant, rien dans le document ne suggère qu'un salarié puisse télétravailler plus de deux jours par semaine.
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "La répartition des jours de travail : l’activité exercée en télétravail ne pourra excéder une journée complète par semaine pour les salariés éligibles au télétravail, à temps partiel. Une à deux journées complètes maximum par semaine pour les autres salariés éligibles au télétravail." (Document(page\_content='Article 10 : Répartition des jours de travail\n\nAfin, de maintenir le lien social du salarié avec sa communauté de travail, l’activité exercée en télétravail ne pourra excéder\xa0:\n\nUne journée complète par semaine pour les salariés éligibles au télétravail, à temps partiel\nUne à deux journées complètes maximum par semaine pour les autres salariés éligibles au télétravail.\n\nLe nombre de jours de télétravail est déterminé en accord avec le manager qui peut limiter le nombre de jours de télétravail dont peuvent bénéficier les salariés de son équipe de façon notamment à ne pas affecter l’organisation et l’activité du service.\n\nEn cas de congés payés, RTT ou autres absences additionnées aux journées de télétravail régulier, le manager a la faculté de demander au salarié d’être présent dans l’établissement pendant des journées habituellement télétravaillées.', metadata={'id': 3,'relevance\_score': 0.94272864}))
+
+Ma réponse après raisonnement ci-dessous :
+
+nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+Après avoir lu attentivement les documents fournis, je constate que la réponse à la question se trouve dans le document d'identifiant 3, article 10. Dans ce document, il est clairement stipulé que l'activité exercée en télétravail ne peut excéder une journée complète par semaine pour les salariés éligibles au télétravail, à temps partiel, et une à deux journées complètes maximum par semaine pour les autres salariés éligibles au télétravail. Par conséquent, la valeur maximale de la variable nombrejourdeteletravailmaxparsemaine est 2.

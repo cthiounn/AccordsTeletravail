@@ -1,20 +1,13 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    Article 2.5 – La réversibilité du télétravail
-    
-    Une fois la période d’adaptation passée, chaque partie a la possibilité de mettre un terme au télétravail à condition de prévenir l’autre partie dans un délai raisonnable d’un mois minimum. Cette demande est effectuée par courrier ou par mail. Un entretien est organisé afin d’expliquer les raisons de cette réversibilité.
-    
-    2.2.2 – Modalités de fixation des jours de télétravail
-    
-    Les journées de télétravail sont fixées par journées entières.
-    
-    Pour les fonctions qui ne permettent pas le télétravail par journée complète (exemple : postes de contremaîtres et de commerciaux), ainsi que pour les salariés du CCC, les parties conviennent que les salariés peuvent alors organiser avec leur hiérarchie des demi-journées de télétravail.
+* "Par exception bénéficient de xx jour de télétravail par semaine"
+* "Bien qu’il s’agisse d’une facilité organisationnelle, les parties rappellent que les journées de télétravail sont exclusivement réservées au travail. Le collaborateur et son manager fixent les jours de télétravail. Ces jours sont par principe fixes. Par dérogation, ces jours peuvent être mobiles."
 
-* Ma réponse :
+Ma réponse après raisonnement ci-dessous :
 
-    nombrejourdeteletravailmaxparsemaine = 0.5
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    L'extrait pertinent concernant le nombre de jours de télétravail par semaine est "Les journées de télétravail sont fixées par journées entières.". Cependant, il est également mentionné que pour certaines fonctions spécifiques, les salariés peuvent organiser des demi-journées de télétravail avec leur hiérarchie. Comme je ne suis pas capable de distinguer les cas particuliers des cas généraux, je dois supposer que la limite est de 0,5 jour par semaine.
+Dans le premier document, il est mentionné "Par exception bénéficient de xx jour de télétravail par semaine", cependant, la valeur de xx n'est pas renseignée. Dans le deuxième document, il est mentionné que "les journées de télétravail sont exclusivement réservées au travail. Le collaborateur et son manager fixent les jours de télétravail. Ces jours sont par principe fixes. Par dérogation, ces jours peuvent être mobiles.", cependant, aucune limite n'est mentionnée. En prenant en compte la règle 2G, le nombre maximal de jours de télétravail par semaine est de 5.

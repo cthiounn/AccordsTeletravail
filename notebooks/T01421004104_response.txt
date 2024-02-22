@@ -1,18 +1,15 @@
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    * "L’évolution de la situation sanitaire Covid-19 ne permet toujours pas d’envisager un retour de tous les salariés à 100% sur le site. C’est dans ce contexte que la Direction de Knorr-Bremse SPVUF et les organisations syndicales s’accordent pour que l’intégralité des dispositions de l’accord relatif à la mise en place du télétravail en période d’épidémie Covid-19 soient prolongées d’une période de quatre mois." (Document 0, page content)
-    
-    * "Pour F.O: Pour la C.G.T: D’AUTRE PART Il est convenu les dispositions suivantes: PREAMBULE Le 19 novembre 2020, la Direction de Knorr-Bremse SPVUF et les organisations syndicales FO et CGT ont signé un accord relatif à la mise en place du télétravail en période d’épidémie Covid-19. Cet accord à durée déterminée arrive à échéance le 28 février 2021. Eu égard à la propagation du virus sur le territoire national, l’état d’urgence sanitaire de nouveau déclaré depuis 17 octobre 2020 pourrait être prolongé jusqu’au 1er juin 2021." (Document 3, metadata)
+* "l’accord relatif à la mise en place du télétravail en période d’épidémie Covid-19" (document 2, première phrase)
+* "la Direction de Knorr-Bremse SPVUF et les organisations syndicales s’accordent pour que l’intégralité des dispositions de l’accord relatif à la mise en place du télétravail en période d’épidémie Covid-19 soient prolongées d’une période de quatre mois." (document 0, deuxième paragraphe)
 
-* Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement ci-dessous :
 
-    * nombrejourdeteletravailmaxparsemaine=5
+Ma réponse : nombrejourdeteletravailmaxparsemaine=5
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    * Les documents fournis ne contiennent aucune information spécifique sur le nombre de jours de télétravail autorisés par semaine, excepté le fait que le télétravail est la règle pour l'ensemble des activités qui le permettent (Document 1, page content).
-    * Cependant, selon le document 0, la Direction de Knorr-Bremse SPVUF et les organisations syndicales se sont accordées pour que l'intégralité des dispositions de l'accord relatif à la mise en place du télétravail en période d'épidémie Covid-19 soient prolongées d'une période de quatre mois.
-    * De plus, selon le document 3, l'accord relatif à la mise en place du télétravail en période d'épidémie Covid-19 a été signé le 19 novembre 2020 et arrive à échéance le 28 février 2021. Or, l'état d'urgence sanitaire a été prolongé jusqu'au 1er juin 2021.
-    * Par conséquent, il est possible que le télétravail à 100% ou le full-remote soit autorisé ou positivement évoqué dans l'accord relatif à la mise en place du télétravail en période d'épidémie Covid-19, et qu'il n'y ait pas de jour de présence minimum sur site.
-    * Dans ce cas, en appliquant les instructions données, je dois affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.
+Dans le document 2, il est mentionné un "accord relatif à la mise en place du télétravail en période d’épidémie Covid-19". Ce même accord est prolongé dans le document 0 pour une durée de quatre mois. Cependant, aucun détail concernant le nombre de jours de télétravail par semaine n'est mentionné dans ces documents.
+
+Cependant, selon la règle 2E, si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine. Or, dans le document 0, il est mentionné que l'intégralité des dispositions de l'accord relatif à la mise en place du télétravail en période d’épidémie Covid-19 sont prolongées, ce qui inclut la possibilité de télétravailler à 100%. Par conséquent, je peux déduire que le nombre maximum de jours de télétravail par semaine est de 5.

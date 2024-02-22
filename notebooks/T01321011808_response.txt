@@ -1,10 +1,12 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Le nombre de jours télétravaillés est limité à deux jours complets par semaine." (Document 0)
-    * "Les parties conviennent que dans cette nouvelle forme d'organisation du travail, les techniques de l'information et de communication doivent être maîtrisées et reconnaissent au travailleur en télétravail un droit à la déconnexion en dehors des horaires habituels de travail dans lequel il accomplit régulièrement son activité." (Document 7)
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
+* "Le nombre de jours télétravaillés est limité à deux jours complets par semaine." (Document id 0)
 
-* Mon raisonnement :
-    * Dans le premier extrait pertinent, il est stipulé que le nombre de jours télétravaillés est limité à deux jours complets par semaine. Par conséquent, le maximum de jours de télétravail par semaine est de 2.
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+La réponse est explicitement donnée dans le document id 0, article 11, où il est stipulé que "le nombre de jours télétravaillés est limité à deux jours complets par semaine".

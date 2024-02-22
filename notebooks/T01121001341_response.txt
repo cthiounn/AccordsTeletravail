@@ -1,14 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "La mise en œuvre du télétravail au sein de la MSA Grand Sud est encadrée par l’accord du 3 septembre 2020." (Document(page\_content="La mise en œuvre du télétravail au sein de la MSA Grand Sud est encadrée par l’accord du 3 septembre 2020...", metadata={'id': 2,'relevance\_score': 0.90365076}))
-* "Sur la base de l’expérimentation conduite en 2020 et des enseignements tirés du travail à distance exceptionnel en raison de la crise sanitaire, le déploiement significatif du dispositif du télétravail régulier au sein de la MSA a été souhaité par les partenaires sociaux." (Document(page\_content='Accord de prorogation de l’accord Collectif d’Entreprise \nrelatif à la mise en œuvre du télétravail\nà la Mutualité Sociale Agricole Grand Sud\n\n\n\nEntre d’une part, \n\nla caisse de MSA Grand Sud, représentée par           , Directeur Général dont le siège est situé ZAC Bonne Source, 10 rue Aristide Boucicaut, 11100 Narbonne\n\n\nEt d’autre part,\n\nle syndicat CFDT, représenté par                      ,       \nle syndicat FO, représenté par                      ,        \n\n\n\nIl a été négocié et conclu l’accord ci-après.\n\n\nPRÉAMBULE\n\nSur la base de l’expérimentation conduite en 2020 et des enseignements tirés du travail à distance exceptionnel en raison de la crise sanitaire, le déploiement significatif du dispositif du télétravail régulier au sein de la MSA a été souhaité par les partenaires sociaux.\n\nLa mise en œuvre du télétravail au sein de la MSA Grand Sud est encadrée par l’accord du 3 septembre 2020.', metadata={'id': 1,'relevance\_score': 0.65978116}))
+* "Le déploiement significatif du dispositif du télétravail régulier au sein de la MSA a été souhaité par les partenaires sociaux." (Document 1, préambule)
 
 Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=5
+Ma réponse : 'nombrejourdeteletravailmaxparsemaine=5'
 
 Mon raisonnement :
 
-* Les deux paragraphes pertinents ne contiennent pas de mention explicite du nombre de jours de télétravail autorisés par semaine.
-* Cependant, l'absence de mention de jours de présence minimum sur site associée à la mention positive du télétravail à 100% ou full-remote dans le préambule permettent de déduire que le nombre maximal de jours de télétravail par semaine est de 5.
+Selon le document 1, il y a un accord relatif à la mise en œuvre du télétravail à la Mutualité Sociale Agricole Grand Sud. Dans le préambule de cet accord, il est mentionné que le déploiement significatif du dispositif du télétravail régulier au sein de la MSA a été souhaité par les partenaires sociaux. Cependant, aucun nombre maximal de jours de télétravail par semaine n'est spécifié dans les documents fournis. En appliquant les règles données, nous savons que le nombre de jours de télétravail par semaine ne peut pas être strictement supérieur à cinq. Par conséquent, ma réponse est 'nombrejourdeteletravailmaxparsemaine=5'.

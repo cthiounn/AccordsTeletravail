@@ -1,7 +1,13 @@
-Q_TTSEM_NOMBRE:* Extraits pertinents :
-    * "La direction propose la mise en place d’une journée de télétravail sans conditions de temps de trajet, nombre de kilomètres ou encore conditions particulières liées au temps de travail pour l’ensemble des salariés hormis les stagiaires, apprentis et salariés en période d’essai."
-    * "Si tu donnes un nombre réel, ne donne pas la fraction mais un arrondi à l'entier inférieur!" (instruction)
-* Réponse :
-    * nombrejourdeteletravailmaxparsemaine=1
-* Raisonnement :
-    * Le document mentionne une journée de télétravail par semaine pour tous les salariés, sauf exceptions. Donc, en prenant l'arrondi à l'entier inférieur, la réponse est 1 jour de télétravail maximum par semaine.
+Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+    "La direction s’engage à renégocier l’accord de télétravail."
+    
+    "Dans cette attente, la direction propose la mise en place d’une journée de télétravail sans conditions de temps de trajet, nombre de kilomètres ou encore conditions particulières liées au temps de travail pour l’ensemble des salariés hormis les stagiaires, apprentis et salariés en période d’essai."
+
+* Ma réponse après raisonnement :
+
+    "nombrejourdeteletravailmaxparsemaine=1"
+
+* Mon raisonnement :
+
+    Dans le premier paragraphe, il est mentionné que la direction s'engage à renégocier l'accord de télétravail, ce qui signifie qu'il existe déjà un accord en place. Cependant, dans l'attente de cette renégociation, la direction propose la mise en place d'une journée de télétravail sans conditions particulières. Par conséquent, le nombre maximal de jours de télétravail par semaine proposé est de 1 jour, affecté à la variable "nombrejourdeteletravailmaxparsemaine".

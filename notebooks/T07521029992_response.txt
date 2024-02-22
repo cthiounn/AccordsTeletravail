@@ -1,10 +1,12 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    * "Les salariés n’ont pas d’obligation d’utiliser chaque semaine tous les jours de télétravail dont ils disposent. Par ailleurs, les salariés ne peuvent reporter les journées non télétravaillées au cours d’une semaine sur la semaine suivante afin de cumuler plus de jours de télétravail sur une autre semaine."
-    
-    * "La charge de travail à domicile doit correspondre au volume de travail effectué lorsque le salarié travaille dans les locaux du CNM, de sorte que le télétravail doit être sans incidence sur la durée du travail du collaborateur. Ainsi, le télétravailleur, quelle que soit la durée de travail (aménagement du temps de travail ou convention individuelle de forfait jours) fixée par son contrat de travail, respectera ses dispositions contractuelles notamment en ce qui concerne le repos hebdomadaire et quotidien."
+* "le nombre de jours de télétravail autorisé par semaine et par collaborateur est dans ce cas proportionnel au temps de travail par semaine du salarié concerné (2 jours de télétravail par semaine étant autorisé pour un collaborateur à temps plein ou forfait jours non réduit)"
 
-* Ma réponse : nombrejourdeteletravailmaxparsemaine=0
+Ma réponse après raisonnement ci-dessous :
 
-* Mon raisonnement : Les documents fournis ne contiennent aucune information spécifique sur le nombre maximal de jours de télétravail par semaine, sauf l'affirmation que les salariés ne sont pas tenus d'utiliser tous les jours de télétravail disponibles chaque semaine et qu'ils ne peuvent pas reporter les jours non utilisés à la semaine suivante. De plus, il est mentionné que la charge de travail à domicile doit correspondre au volume de travail effectué en présentiel, sans indication d'une limite hebdomadaire spécifique pour le télétravail.
+Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+Le paragraphe pertinent indique que 2 jours de télétravail par semaine sont autorisés pour un collaborateur à temps plein ou forfait jours non réduit. Donc, la valeur maximale affectée à la variable nombrejourdeteletravailmaxparsemaine est 2.

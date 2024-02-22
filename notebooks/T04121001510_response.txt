@@ -1,11 +1,13 @@
-Q_TTSEM_NOMBRE:Extraction pertinente des documents :
-* "Les demandes seront examinées collégialement par le Comité de Direction, après avis de l’encadrement, et la décision de l’employeur fait l’objet d’une notification au salarié dans un délai maximum de 45 jours (sauf circonstances exceptionnelles) après la date limite de dépôt des demandes. Cette décision est prise sous réserve des conditions de faisabilité tant techniques qu’organisationnelles au regard du poste, de la disponibilité du matériel informatique, et de la capacité de l’agent à travailler de manière autonome." (Doc 7)
-* "Le nombre de jours de télétravail dans une semaine est donc porté à 3j au maximum selon le temps contractuel." (Doc 4)
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Ma réponse :
-* nombrejourdeteletravailmaxparsemaine=3
+* "Le nombre de jours de télétravail dans une semaine est donc porté à 3j au maximum selon le temps contractuel." (Document id: 5, relevance score: 0.96426713)
+* "Ce crédit sera libre d’utilisation dans la limite de 3j par semaine" (Document id: 6, relevance score: 0.9643468)
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse : nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
-* Selon le document 7, la décision de l'employeur relative au télétravail est prise sous réserve des conditions de faisabilité tant techniques qu'organisationnelles.
-* Le document 4 indique que le nombre de jours de télétravail dans une semaine est porté à 3j au maximum selon le temps contractuel.
-* Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3.
+
+Après avoir lu les deux passages pertinents des documents, je constate que le maximum de jours de télétravail par semaine est de 3 jours, que ce soit pour le télétravail régulier ou le télétravail forfaitaire.

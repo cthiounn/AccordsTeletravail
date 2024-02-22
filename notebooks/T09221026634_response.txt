@@ -1,10 +1,13 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail fait l’objet d’un avenant au contrat de travail." (Document(page\_content='Le télétravail fait l’objet d’un avenant au contrat de travail...', metadata={'id': 6,'relevance\_score': 0.92478496}))
-* "Il est précisé qu’en cas de changement de poste, le collaborateur peut par principe continuer de bénéficier du télétravail sous réserve de la compatibilité de son nouveau poste avec le télétravail. Toutefois, pendant la période d’adaptation qui ne peut pas être inférieure à 6 mois, le télétravail est néanmoins suspendu de manière à permettre au collaborateur d’être mieux accompagné dans sa prise de poste." (Document(page\_content='Il est précisé qu’en cas de changement de poste, le collaborateur peut par principe continuer de bénéficier du télétravail sous réserve de la compatibilité de son nouveau poste avec le télétravail...', metadata={'id': 7,'relevance\_score': 0.92473453}))
+* "Le télétravail fait l'objet d'un avenant au contrat de travail." (Document(page\_content='Le télétravail fait l'objet d’un avenant au contrat de travail.', metadata={'id': 4,'relevance\_score': 0.960389}))
+* "Pour la cohésion des équipes, le lundi est nécessairement travaillé sur site." (Document(page\_content='Pour la cohésion des équipes, le lundi est nécessairement travaillé sur site.', metadata={'id': 5,'relevance\_score': 0.9522348}))
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=5
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
 
 Mon raisonnement :
-Après examen des documents, je n'ai pas trouvé de mention explicite du nombre de jours de télétravail autorisés par semaine. Cependant, selon l'instruction 2.E., si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine. Comme le premier paragraphe indique que le télétravail fait l'objet d'un avenant au contrat de travail, cela implique que le télétravail est possible à temps plein, sans obligation de présence sur site. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 5.
+
+Après avoir lu les deux documents pertinents, je n'ai pas trouvé de mention spécifique du nombre maximum de jours de télétravail par semaine proposé, recommandé ou limité. Cependant, en appliquant les règles données dans l'instruction, nous savons que le nombre de jours de télétravail par semaine ne peut pas être strictement supérieur à cinq. Donc, je propose **nombrejourdeteletravailmaxparsemaine=5**.

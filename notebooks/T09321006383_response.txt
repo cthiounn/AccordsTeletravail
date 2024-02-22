@@ -1,16 +1,13 @@
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    * "La mise en place du « télétravail à 100% » fera l’objet d’une convention de télétravail (Annexe 2). Celle-ci définit notamment : le lieu d’exercice des fonctions du collaborateur, à savoir son domicile"
-    
-    * "Dans le cadre du confinement, ENGIE Entreprises & Collectivités s’est doté d’une charte des bonnes pratiques. Fort du retour d’expérience de plusieurs mois de télétravail continu, il sera procédé à la mise à jour annuelle de cette charte avec les membres de la CSSCT."
+* "la mise en œuvre du «	télétravail à 100%	» sera soumise à l’avis préalable et conforme du Médecin du travail." (Document id: 5)
+* "un dispositif d’accompagnement au changement sera mis en œuvre. Des sessions de web-ex seront organisées pour informer les collaborateurs sur les spécificités du télétravail et les sensibiliser aux risques associés (par exemple les RPS, les troubles musculosquelettiques, etc…)." (Document id: 9)
 
-* Ma réponse après raisonnement :
+Ma réponse après raisonnement ci-dessous :
 
-    * nombrejourdeteletravailmaxparsemaine=5
+* nombrejourdeteletravailmaxparsemaine=5
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    * Selon le premier paragraphe, il existe une convention de télétravail qui définit le lieu d'exercice des fonctions du collaborateur à son domicile. Cependant, rien n'est mentionné quant au nombre de jours de télétravail par semaine.
-    
-    * Selon le deuxième paragraphe, il est fait mention de plusieurs mois de télétravail continu, ce qui implique que le télétravail à 100% est autorisé. De plus, il n'est pas fait mention de jour de présence minimum sur site. Par conséquent, en appliquant les instructions données, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.
+* Les documents ne précisent pas le nombre maximum de jours de télétravail par semaine. Cependant, il est mentionné que la mise en œuvre du télétravail doit être soumise à l'avis préalable et conforme du Médecin du Travail. Ce point implique que le télétravail doit être encadré et ne peut pas être illimité. De plus, il est mentionné que des sessions de web-ex seront organisées pour informer les collaborateurs sur les spécificités du télétravail et les sensibiliser aux risques associés. Ce point implique que le télétravail ne peut pas être considéré comme une activité normale et doit être exceptionnel. Par conséquent, je propose une limite maximale de 5 jours de télétravail par semaine, qui correspond au nombre de jours ouvrables dans une semaine.

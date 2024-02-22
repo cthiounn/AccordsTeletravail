@@ -1,12 +1,15 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail pourra être exercé à hauteur de 2 jours par semaine pour un salarié à temps complet et 1 jour par semaine pour un salarié au 4/5ème." (Document ID: 0)
-* "la date de début du télétravail,  le nombre et les jours de télétravail par semaine," (Document ID: 2)
+* "Le télétravail pourra être exercé à hauteur de 2 jours par semaine pour un salarié à temps complet et 1 jour par semaine pour un salarié au 4/5ème." (document d'id 1)
+* "Si le télétravail est effectué deux jours par semaine, il ne pourra pas être réalisé le vendredi et le lundi." (document d'id 1)
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
 
 Mon raisonnement :
 
-Après avoir analysé les documents fournis, je peux conclure que le nombre maximum de jours de télétravail par semaine est de 2. Cette information est mentionnée dans le document ID: 0 où il est indiqué que "Le télétravail pourra être exercé à hauteur de 2 jours par semaine pour un salarié à temps complet". De plus, dans le document ID: 2, il est mentionné que dans le formulaire de demande de télétravail régulier, il faut indiquer "le nombre et les jours de télétravail par semaine". Cependant, aucune mention n'a été faite concernant le télétravail à 100% ou le full-remote, donc je ne peux pas attribuer la valeur maximale de 5 jours.
+* La première phrase extraite du document d'id 1 indique que le télétravail peut être exercé jusqu'à 2 jours par semaine pour un salarié à temps complet.
+* La deuxième phrase extraite du même document confirme que la limite est bien de 2 jours par semaine.
+* Les autres documents ne précisent pas de limite supérieure de télétravail par semaine.

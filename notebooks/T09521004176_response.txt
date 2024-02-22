@@ -1,16 +1,15 @@
 Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    12.3) Présence requise
-    > Le manager peut requérir du collaborateur sa présence toute la semaine, par écrit et sous réserve d’un délai de prévenance d’1 semaine (avec effectivité au terme de cette semaine de prévenance, sauf commun accord sur un délai plus court), en mentionnant les circonstances qui l’exigent. Le salarié ne bénéficie d’aucun droit à report de jour(s) télétravaillable(s) d’une semaine sur l’autre. 
+* "Le télétravail régulier peut-être de 1 ou de 2 jours par semaine. Il peut être porté à un maximum de 3 jours par semaine pour des salariés en forte autonomie de travail" (Document id 1)
+* "limité à 1 jour par semaine civile pour les populations suivantes... limité à un maximum de 2 jours par semaine civile pour les..." (Document id 6)
 
-    7.1) Le télétravail hebdomadaire régulier (le ou les mêmes jours de chaque semaine civile)
-    > Le salarié télétravaille chaque semaine civile, durant le nombre de jour convenu et sur les jours de la semaine qui ont été fixés avec son manager. Le manager conserve le dernier mot, tant sur le nombre de jour de télétravail que sur la répartition sur la semaine civile. 
+Ma réponse après raisonnement ci-dessous :
+nombrejourdeteletravailmaxparsemaine=3
 
-* Ma réponse :
-
-    nombrejourdeteletravailmaxparsemaine=2
-
-* Mon raisonnement :
-
-    D'après le paragraphe 12.3), le manager peut requérir la présence du collaborateur toute la semaine, ce qui implique qu'il ne peut pas travailler à distance tous les jours de la semaine. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 2. Cette information est confirmée par le paragraphe 7.1), qui précise que le télétravail hebdomadaire régulier peut être de 1 ou 2 jours par semaine.
+Mon raisonnement :
+Après avoir lu les documents fournis, je constate qu'il existe deux types de télétravail régulier : le télétravail hebdomadaire régulier et le télétravail occasionnel.
+Pour le télétravail hebdomadaire régulier, il est stipulé que le salarié peut télétravailler jusqu'à 3 jours par semaine, selon son niveau d'autonomie.
+Pour le télétravail occasionnel, il n'y a pas de limite explicite mentionnée dans les documents.
+Cependant, il existe des limitations pour certains groupes de population, telles que les formateurs conseils/tradi, ASAV et CAF VPI, Fifties PORTABLE, qui sont limités à 1 jour par semaine civile, tandis que les CAF SICLI (RIA et désenfumage), les salariés à temps partiel 80% ou 90% (sous réserve d'être présent au moins 2 jours par semaine dans les locaux professionnels), et les salariés en temps partiel thérapeutique ou temps partiel sur préconisation de la Médecine du travail (sous réserve d'être présent au moins 1 jour par semaine dans les locaux professionnels) sont limités à un maximum de 2 jours par semaine civile.
+Par conséquent, la valeur maximale pour la variable nombrejourdeteletravailmaxparsemaine est 3.

@@ -1,10 +1,13 @@
-Q_TTSEM_NOMBRE:Extraction pertinente des documents :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le temps de présence dans les locaux devra être au minimum de 4 jours ouvrés par semaine afin de prévenir tout risque d’isolement. Le nombre de jours de télétravail est donc limité à un jour par semaine."
-* "Le temps de présence dans les locaux devra être au minimum de 3 jours ouvrés par semaine afin de prévenir tout risque d’isolement. Le nombre de jours télétravaillés est donc limité à deux jours par semaine."
+* "Les volontaires doivent répondre aux conditions cumulatives définies dans l’accord initial. Les bénéficiaires sont l’ensemble du personnel Cadres au forfait-jour, sous CDI à temps plein ou à minimum à 80%, Cadres CDD d’un minimum de 6 mois à temps plein ou à minimum à 80%, Employés et agents de maîtrise à temps plein, sous CDI ou CDD d’un minimum de 6 mois et figurant sur la liste des postes éligibles. Le nombre de jours télétravaillés est donc limité à deux jours par semaine."
 
-Ma réponse :
+Ma réponse après raisonnement ci-dessous :
+
 nombrejourdeteletravailmaxparsemaine=2
 
-Mon raisonnement :
-En analysant les deux extraits pertinents, je constate que le premier texte indique qu'un employé peut télétravailler un jour par semaine, tandis que le deuxième texte mentionne que l'employé peut télétravailler deux jours par semaine. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 2.
+Mon raisonnement :
+
+Après avoir lu attentivement les deux passages pertinents des documents fournis, je constate que le premier passage limite le nombre de jours de télétravail à un jour par semaine pour le personnel non-cadre, tandis que le deuxième passage limite le nombre de jours de télétravail à deux jours par semaine pour le personnel cadre. Parmi ces deux limitations, la plus élevée est celle concernant le personnel cadre, qui est donc fixée à deux jours de télétravail par semaine. Cette limitation est confirmée par la mention "Les volontaires doivent répondre aux conditions cumulatives définies dans l’accord initial", qui indique que cette limitation est applicable à tous les bénéficiaires du télétravail, y compris les employés non-cadres. Par conséquent, la valeur maximale de la variable "nombrejourdeteletravailmaxparsemaine" est 2.

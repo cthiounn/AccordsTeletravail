@@ -1,13 +1,14 @@
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    Article 5 – Temps de travail
-    "Le temps de travail du télétravailleur est de 35 heures par semaine. Cette durée du travail de 35 heures sera à effectuer en présentiel sur site à hauteur minimum de 24 heures, les heures restantes en télétravail."
+* "Le temps de travail du télétravailleur est de 35 heures par semaine. Cette durée du travail de 35 heures sera à effectuer en présentiel sur site à hauteur minimum de 24 heures, les heures restantes en télétravail." (Document id: 6)
+* "Les salariés en télétravail pourront exercer leur droit à la déconnexion. Ils ne sauraient être sollicité en dehors du planning fixé." (Document id: 5)
 
-* Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement ci-dessous :
 
-    nombrejourdeteletravailmaxparsemaine=5
+* nombrejourdeteletravailmaxparsemaine=3
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    Selon l'article 5, le temps de travail du télétravailleur est de 35 heures par semaine, et il doit effectuer un minimum de 24 heures sur site. Les heures restantes peuvent être effectuées en télétravail. Comme il y a 5 jours ouvrés dans une semaine, et que chaque jour compte 7 heures (35 heures / 5 jours), il reste 11 heures par semaine pour le télétravail. Donc, le nombre maximum de jours de télétravail par semaine est de 5.
+* Selon le document id: 6, le temps de travail du télétravailleur est de 35 heures par semaine, avec un minimum de 24 heures sur site. Les heures restantes peuvent être effectuées en télétravail. Comme il y a cinq jours ouvrés dans une semaine, le nombre maximum de jours de télétravail par semaine est de 35 - 24 = 11 heures / (35 / 5) = 1.857 jours, ce qui donne 1 jour de télétravail par semaine.
+* Cependant, selon le document id: 5, les salariés en télétravail peuvent exercer leur droit à la déconnexion et ne doivent pas être sollicités en dehors du planning fixé. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 5 jours - 24 heures sur site / 7 heures par jour = 3 jours. Donc, nombrejourdeteletravailmaxparsemaine=3.

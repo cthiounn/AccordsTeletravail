@@ -1,9 +1,16 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Pour autant, les parties partagent le fait que les conditions ergonomiques ne sont pas autant satisfaisantes que sur le lieu de travail habituel au sein des locaux de l’entreprise."
-* "La Direction et l’Organisation syndicale ont constaté que cette organisation du travail allait perdurer sur une partie de l’année 2021."
+Q_TTSEM_NOMBRE:
+* Extraits pertinents :
+    * "Pour autant, les parties partagent le fait que les conditions ergonomiques ne sont pas autant satisfaisantes que sur le lieu de travail habituel au sein des locaux de l’entreprise." (Document 0)
+    * "Lors de leurs échanges, la Direction et l’Organisation syndicale ont constaté que cette organisation du travail allait perdurer sur une partie de l’année 2021." (Document 2)
+    * "Les parties conviennent d’engager ou de poursuivre, le cas échéant, des négociations concernant... Un avenant à l’accord de télétravail du 5 septembre 2018." (Document 5)
+    * "Pour en bénéficier, le.a collaborateur.rice devra adresser une note de frais accompagnée du justificatif d’achat du siège ou mobilier. Cette possibilité est ouverte jusqu’à fin mai 2021." (Document 1)
 
-Ma réponse après raisonnement ci-dessous :
-Ma réponse : nombrejourdeteletravailmaxparsemaine=5
+* Ma réponse :
+    * 'nombrejourdeteletravailmaxparsemaine=5'
 
-Mon raisonnement :
-Selon le premier paragraphe, les conditions ergonomiques ne sont pas satisfaisantes pour le télétravail, ce qui implique que le télétravail n'est pas la norme pour les salariés. De plus, selon le deuxième paragraphe, la direction et l'organisation syndicale ont constaté que le télétravail allait perdurer sur une partie de l'année 2021, ce qui suggère que le télétravail n'est pas permanent mais plutôt occasionnel ou ponctuel. Cependant, il est important de noter que le document ne contient aucune information spécifique sur le nombre de jours de télétravail autorisés par semaine. Par conséquent, en appliquant les règles 2E et 2G, je peux affecter la valeur maximale de télétravail par semaine, qui est de 5 jours, à la variable nombrejourdeteletravailmaxparsemaine.
+* Mon raisonnement :
+    * Le premier extrait ne permet pas d'extraire l'information demandée car il ne mentionne pas explicitement le nombre de jours de télétravail par semaine.
+    * Le deuxième extrait montre que le télétravail va perdurer en 2021, mais ne précise pas non plus le nombre de jours par semaine.
+    * Le troisième extrait confirme qu'un avenant à l'accord de télétravail du 5 septembre 2018 va être négocié, mais ne précise pas non plus le nombre de jours de télétravail par semaine.
+    * Le quatrième extrait ne permet pas non plus d'extraire l'information demandée car il ne mentionne pas explicitement le nombre de jours de télétravail par semaine.
+    * Compte tenu des règles 2G et 2E, je propose une limite maximale de 5 jours de télétravail par semaine.

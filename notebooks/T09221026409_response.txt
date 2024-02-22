@@ -1,14 +1,13 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Tout salarié éligible peut bénéficier, selon ses souhaits, de 2 ou 3 jours de télétravail par semaine (sans cumul d’une semaine sur l’autre)"
-* "Chaque salarié peut faire une demande afin d’être inscrit comme télétravailleur via le workflow dédié à cet effet. Il y indique le nombre de jours souhaités (2 ou 3)"
+* "Tout salarié éligible peut bénéficier, selon ses souhaits, de 2 ou 3 jours de télétravail par semaine (sans cumul d’une semaine sur l’autre)" (Document(page\_content='Article 1. 2. 1. Formule de télétravail standard', metadata={'id': 0,'relevance\_score': 0.95589006}))
+* "Ce complément vise à permettre, selon le besoin des salariés concernés, d’avoir par exemple plus de jours de télétravail qu’habituellement, y compris une semaine complète." (Document(page\_content='Ce faisant, les salariés, qui se trouvent dans l’une des situations précitées, peuvent convenir avec leur manager de pouvoir faire varier d’une semaine à l’autre le positionnement de leurs jours ou demi-journées de télétravail prédéterminés tout en continuant à respecter le nombre de jours de télétravail pour lequel ils s’étaient mis d’accord lors du renseignement du workflow. ', metadata={'id': 4,'relevance\_score': 0.9681749}))
 
 Ma réponse après raisonnement ci-dessous :
-
-* nombrejourdeteletravailmaxparsemaine=3
+nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
 
-* Les paragraphes indiquent clairement que le nombre maximum de jours de télétravail par semaine est de 3.
-* Cette information est confirmée par la possibilité offerte aux salariés de demander 2 ou 3 jours de télétravail par semaine.
-* Il n'y a pas d'indication d'une possibilité de télétravail à 100% ou de full-remote sans jour de présence minimum sur site, donc la variable nombrejourdeteletravailmaxparsemaine est affectée à la valeur de 3.
+* J'extrais le nombre de jours de télétravail par semaine depuis le document 0, qui indique "2 ou 3 jours de télétravail par semaine".
+* Je retiens la valeur maximale, qui est 3 jours de télétravail par semaine.

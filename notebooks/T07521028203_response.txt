@@ -1,11 +1,13 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Un à deux jours fixes par semaine de télétravail." (document id=1, relevance_score=0.6712436)
-    * "Un jour fixe par semaine." (document id=1, relevance_score=0.6712436)
-    * "1 jour fixe de télétravail par semaine." (document id=9, relevance_score=0.9336953)
-    * "Un jour fixe par semaine." (document id=0, relevance_score=0.9350306)
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
-* Mon raisonnement :
-    * J'ai trouvé plusieurs occurrences où le nombre de jours de télétravail par semaine est mentionné. Dans le document id=1, il est mentionné "Un à deux jours fixes par semaine de télétravail" et "3 jours de télétravail supplémentaires annuels dits « modulables »". Comme je ne dois considérer que le télétravail régulier et non les jours modulables, je retiens uniquement les jours fixes par semaine. De même, dans le document id=0, il est mentionné "1 jour fixe par semaine", et dans le document id=9, il est mentionné "1 jour fixe de télétravail par semaine". Ainsi, le maximum de jours de télétravail par semaine est de 2 jours.
+* "Un à deux jours fixes par semaine de télétravail." (Document id: 0)
+* "Pour un collaborateur exerçant son activité à temps complet : Un à deux jours fixes par semaine de télétravail." (Document id: 9)
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+Après avoir lu attentivement les documents fournis, je constate que la proposition de la Direction pour un collaborateur exerçant son activité à temps complet est d'autoriser "Un à deux jours fixes par semaine de télétravail" (Document id: 0 et id: 9). Par conséquent, la valeur maximale de nombrejourdeteletravailmaxparsemaine est de 2.

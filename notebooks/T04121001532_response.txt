@@ -1,7 +1,12 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Pour les personnes qui sont en télétravail à 100 % et qui seraient en risque par rapport à leur situation d’isolement, un retour en présentiel est envisageable un jour par semaine lorsqu’ils en expriment le besoin et en accord avec la Direction de CA Titres."
-    * "Notre volonté est de limiter la circulation et le croisement de personnes en organisant le télétravail dans un esprit collectif. Des travaux ont été menés par chaque manager, en concertation avec ses équipiers, afin de déterminer les activités télétravaillables à 100% et celles qui ne le sont que partiellement."
-* Ma réponse : nombrejourdeteletravailmaxparsemaine=5
-* Mon raisonnement :
-    * Selon le premier extrait, il est possible de travailler à 100% en télétravail, ce qui implique un maximum de 5 jours par semaine. Cette information est confirmée dans le deuxième extrait où il est mentionné que des activités peuvent être télétravaillées à 100%. Ainsi, je conclus que nombrejourdeteletravailmaxparsemaine=5.
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Notre volonté est de limiter la circulation et le croisement de personnes en organisant le télétravail dans un esprit collectif. Des travaux ont été menés par chaque manager, en concertation avec ses équipiers, afin de déterminer les activités télétravaillables à 100% et celles qui ne le sont que partiellement." (Document id=4)
+
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine=5
+
+Mon raisonnement :
+
+* Selon le document id=4, certaines activités sont télétravaillables à 100%. Donc, théoriquement, il est possible de travailler depuis chez soi tous les jours de la semaine. Or, il y a cinq jours ouvrés dans une semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de cinq.

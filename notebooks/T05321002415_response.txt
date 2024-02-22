@@ -1,8 +1,12 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Le nombre de jours télétravaillés s’organise de la façon suivante Un nombre de jours télétravaillés pouvant être porté jusqu’à 3 jours par semaine sur accord du manager." (Document id=8)
-    * "Le télétravail, qu’il soit régulier ou occasionnel, peut s’effectuer au domicile principal du salarié, c'est-à-dire au domicile que le salarié a déclaré au Service RH et dont l’adresse figure sur le bulletin de paie." (Document id=9)
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine = 3
-* Mon raisonnement :
-    * Selon le Document id=8, le nombre de jours télétravaillés peut aller jusqu'à 3 jours par semaine sur accord du manager. Par conséquent, nombrejourdeteletravailmaxparsemaine = 3.
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Un nombre de jours télétravaillés pouvant être porté jusqu’à 3 jours par semaine sur accord du manager." (Document(page\_content='Rythme et organisation du télétravail régulier\n\nLe manager du télétravailleur est responsable de la planification des activités de son équipe. Le télétravail s’organise dans le respect de la durée et de l’organisation du travail en vigueur dans l’entreprise.\n\n\n\n7.1. Nombre de jours télétravaillés\n\nLe nombre de jours télétravaillés s’organise de la façon suivante\xa0: \nUn nombre de jours télétravaillés pouvant être porté jusqu’à 3 jours par semaine sur accord du manager.\nSoit 2 jours de présence sur site obligatoire minimum par semaine afin de préserver le lien social', metadata={'id': 9,'relevance\_score': 0.9493649}))
+
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine=3
+
+Mon raisonnement :
+
+* J'ai identifié dans le document 9, la phrase "Un nombre de jours télétravaillés pouvant être porté jusqu’à 3 jours par semaine sur accord du manager.", qui m'indique que le maximum de jours de télétravail par semaine est de 3.

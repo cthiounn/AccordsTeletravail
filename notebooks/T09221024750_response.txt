@@ -1,14 +1,12 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * Article 6-1 Nombre de jours de télétravail par semaine : "Le nombre de jours de télétravail par semaine est de 2"
-* Titre 2 Organisation du télétravail, Article 5 Alternance de jours de télétravail et de jours de présence sur site : "une présence sur site obligatoire de 2 jours par semaine, a minima"
 
-Ma réponse après raisonnement ci-dessous :
+Ma réponse :
 
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* Les articles 6-1 et 5 indiquent clairement que le nombre de jours de télétravail par semaine est de 2.
-* L'article 5 précise qu'il y a une présence sur site obligatoire de 2 jours par semaine, a minima, ce qui signifie que le maximum de jours de télétravail par semaine est de 2.
-* Aucune information ne suggère qu'il existe une possibilité de télétravail à 100% ou de full-remote avec aucun jour de présence minimum sur site.
+Je me base sur l'article 6-1 Nombre de jours de télétravail par semaine où il est clairement stipulé que "Le nombre de jours de télétravail par semaine est de 2". Je ne tiens pas compte des autres éléments du texte car ils ne concernent pas directement le nombre maximum de jours de télétravail par semaine.

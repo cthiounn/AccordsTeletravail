@@ -1,16 +1,14 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le salarié dispose d’un volume de 18 jours de télétravail par an (du 1er janvier au 31 décembre) qu’il pourra mobiliser en journée entière ou demi-journée. Pour les années non complètes, le nombre de jour à disposition sera calculé prorata temporis (soit 1 jour et demi par mois complet entre la date de signature et le 31 décembre)."
-* "Afin de maintenir le lien social avec la société et ses collaborateurs, le télétravail flexible est limité de sorte que le salarié soit présent dans la société au moins 4 jours par semaine (du lundi au vendredi)."
+* "Afin de maintenir le lien social avec la société et ses collaborateurs, le télétravail flexible est limité de sorte que le salarié soit présent dans la société au moins 4 jours par semaine (du lundi au vendredi)." (Document(page\_content='3-3 RYTHME DE TÉLÉTRAVAIL FLEXIBLE...', metadata={'id': 0,'relevance\_score': 0.96990955}))
+* "L'organisation en télétravail s'exerce dans le respect de l’aménagement du temps de travail applicable à chaque salarié (forfait jours ou horaires de travail). L'activité du collaborateur en télétravail s'exerce dans le respect des dispositions légales, réglementaires et conventionnelles en vigueur dans l'entreprise en matière de durée du travail." (Document(page\_content='4-1 LIEU DU TELETRAVAIL...', metadata={'id': 5,'relevance\_score': 0.962054}))
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=4
+nombrejourdeteletravailmaxparsemaine=4
 
 Mon raisonnement :
 
-* Selon le premier paragraphe, le salarié dispose de 18 jours de télétravail par an, ce qui correspond à 1,5 jour par mois.
-* Selon le deuxième paragraphe, le télétravail est limité de sorte que le salarié soit présent dans la société au moins 4 jours par semaine.
-* Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3 (1,5 x 2 = 3), car le salarié doit être présent au moins 4 jours par semaine.
-* Cependant, comme le stipule l'instruction 2G, le nombre de jours de télétravail par semaine ne peut pas être supérieur à 5.
-* Donc, le nombre maximum de jours de télétravail par semaine est de 4.
+* J'extrais le nombre maximal de jours de télétravail par semaine dans le premier paragraphe pertinent.
+* Je m'assure que ce nombre est cohérent avec les règles données dans l'instruction. Ici, le nombre maximal de jours de télétravail par semaine est bien de 4 jours, ce qui est inférieur à 5 (règle 2.G), et correspond au nombre minimal de jours de présence sur site (règle 2.E).

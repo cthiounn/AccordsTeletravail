@@ -1,9 +1,13 @@
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail régulier à temps partiel (salarié en télétravail pour un volume de jours équivalent à quelques jours de sa semaine habituelle de travail, chaque semaine)"
-* "Pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine."
+* "A compter du x, suite à la demande du salarié, il a été défini que le salarié pourra exercer son activité professionnelle en télétravail par journée ou demi-journée, à raison d’un volume pouvant atteindre X journées par semaine." (Document id: 1)
+* "Pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine." (Document id: 3)
 
-My response is:
-nombrejourdeteletravailmaxparsemaine=1
+Ma réponse après raisonnement ci-dessous :
+nombrejourdeteletravailmaxparsemaine=5
 
-My reasoning is that the document specifies that for part-time employees, the frequency of regular telework is limited to one day per week. Therefore, the maximum number of days an employee can telework regularly per week is 1.
+Mon raisonnement :
+
+* Selon le document id: 1, le salarié peut exercer son activité professionnelle en télétravail par journée ou demi-journée, à raison d’un volume pouvant atteindre X journées par semaine. Comme il n'y a pas de limitation spécifique, nous pouvons conclure que le maximum de jours de télétravail par semaine est de 5.
+* Selon le document id: 3, la fréquence du télétravail régulier sera limitée à 1 journée par semaine pour les salariés à temps partiel. Mais cela ne s'applique pas aux salariés à temps plein. Donc, le maximum de jours de télétravail par semaine pour les salariés à temps plein est de 5.

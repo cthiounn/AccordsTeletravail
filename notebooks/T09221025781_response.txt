@@ -1,9 +1,14 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Il ne pourra être exercé que pour un maximum de 10 jours par an. La répartition du temps de travail s’opère par journée ou demi-journée." (Document(page\_content='Il ne pourra être exercé que pour un maximum de 10 jours par an. La répartition du temps de travail s’opère par journée ou demi-journée. \n\n\nLes jours de télétravail ne peuvent avoir lieu\xa0:', metadata={'id': 0,'relevance\_score': 0.933594}))
-* "Le télétravailleur occasionnel peut utiliser son «\xa0droit à la déconnexion\xa0» en mettant en veille ses systèmes professionnels de communication." (Document(page\_content='Afin de respecter la vie privée du télétravailleur et aussi de garantir l’activité du service, le télétravailleur occasionnel doit être joignable et en mesure de répondre aux sollicitations aux horaires habituels correspondant à son service. En dehors de ces plages horaires, le télétravailleur occasionnel peut utiliser son «\xa0droit à la déconnexion\xa0» en mettant en veille ses systèmes professionnels de communication.\n\n\n8- Egalité de traitement\n\nLe passage au télétravail occasionnel modifie seulement la façon dont le travail est effectué et le lieu de sa réalisation, il n’affecte en rien la qualité de salarié. A ce titre, l’activité demandée au télétravailleur occasionnel est équivalente à celle des salariés effectuant intégralement leur travail dans les locaux de l’Entreprise.\n\n\n9- Equipements de télétravail du télétravailleur occasionnel', metadata={'id': 2,'relevance\_score': 0.9116864}))
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Le télétravail doit être ponctuel : Il ne pourra être exercé que pour un maximum de 10 jours par an. La répartition du temps de travail s’opère par journée ou demi-journée." (Document id: 5, page_content: '6 – Organisation du télétravail occasionnel')
+* "Le télétravailleur occasionnel doit être joignable et en mesure de répondre aux sollicitations aux horaires habituels correspondant à son service. En dehors de ces plages horaires, le télétravailleur occasionnel peut utiliser son « droit à la déconnexion » en mettant en veille ses systèmes professionnels de communication." (Document id: 2, page_content: '9- Equipements de télétravail du télétravailleur occasionnel')
 
 Ma réponse après raisonnement ci-dessous :
-nombrejourdeteletravailmaxparsemaine=0
+
+* nombrejourdeteletravailmaxparsemaine=0.2
 
 Mon raisonnement :
-Après analyse des documents fournis, je n'ai pas trouvé de paragraphe indiquant explicitement le nombre de jours de télétravail autorisés par semaine, en dehors du télétravail occasionnel ou ponctuel. Les informations fournies ne permettent pas de déterminer cette valeur. De plus, il n'est pas mentionné de télétravail à 100% ou de full-remote autorisé sans jour de présence minimum sur site. Par conséquent, la variable nombrejourdeteletravailmaxparsemaine reste à 0.
+
+* J'extrais le nombre maximal de jours de télétravail par an qui est de 10 jours (Document id: 5, page_content: '6 – Organisation du télétravail occasionnel').
+* Je divise ce nombre par le nombre de semaines dans une année (52) pour obtenir le nombre maximal de jours de télétravail par semaine, soit 10/52 = 0.1923076923076923 (arrondi à 0.2).

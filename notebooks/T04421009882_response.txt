@@ -1,8 +1,11 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Le télétravail a été généralisé pour tous les postes pour lesquels il est possible et pour lesquels l’activité se poursuit" (Document(page\_content="Consigne est donnée au personnel de :\nrester chez soi le plus possible. Le télétravail a été généralisé pour tous les\npostes pour lesquels il est possible et pour lesquels l’activité se poursuit ;", metadata={'id': 1,'relevance\_score': 0.7874338}))
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Consigne est donnée au personnel de : rester chez soi le plus possible. Le télétravail a été généralisé pour tous les postes pour lesquels il est possible et pour lesquels l’activité se poursuit;"
+* "pour les postes non aménageables en télétravail et/ou qui impliquent de se rendre sur le lieu de travail, il faut : s’assurer avant de se rendre sur le lieu de travail que l’on ne présente pas de manière manifeste de symptômes et tout particulièrement de fièvre,"
 
 Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=5
 
-Mon raisonnement :
-* Les informations données dans le document ne permettent pas de déterminer un nombre exact de jours de télétravail par semaine. Cependant, il est mentionné que le télétravail a été généralisé pour tous les postes pour lesquels il est possible. De plus, il n'y a aucune mention de jours de présence minimum sur site. Ainsi, en appliquant les instructions données, nous pouvons considérer que le télétravail à 100% ou le full-remote est autorisé, ce qui signifie que le nombre maximum de jours de télétravail par semaine est de 5.
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
+
+Mon raisonnement : Dans le premier paragraphe, il est dit que le télétravail a été généralisé pour tous les postes pour lesquels il est possible et pour lesquels l'activité se poursuit. Cependant, il n'est pas précisé de quel type de télétravail il s'agit (occasionnel ou régulier). De plus, il n'est pas mentionné de limitation quant au nombre de jours de télétravail par semaine. En revanche, dans le second paragraphe, il est mentionné que pour les postes non aménageables en télétravail, il faut se rendre sur le lieu de travail. Ceci implique que pour les postes aménageables en télétravail, il n'y a pas de restriction quant au nombre de jours de télétravail par semaine. Comme il n'y a pas de limitation explicite, je propose une limite maximale de 5 jours de télétravail par semaine, conformément à la règle 2G.

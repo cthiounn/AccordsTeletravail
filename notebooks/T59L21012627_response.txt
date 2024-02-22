@@ -1,13 +1,13 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* « Il fixe les modalités de mise en œuvre du télétravail au sein de l’association pendant l’état d’urgence sanitaire mis en place le 17 octobre 2020, à raison de la 2nde vague de l’épidémie de la COVID 19. Il a été conclu jusqu’au 28 février 2021. »
-* « Objet de l’avenant : Le présent texte a pour objet d’étendre la durée de la validité de l’accord d’entreprise du 12 novembre 2020 au regard de la poursuite de la crise sanitaire et de maintenir les règles qu’il a fixées concernant le télétravail. Article 1 : Extension de la validité de l’accord d’entreprise L’article 7 de l’accord d’entreprise relatif au télétravail pendant l’état d’urgence réinstauré le 17 octobre 2020, stipule : « L’accord est conclu jusqu’au 28 février 2021 à raison du risque épidémique. » »
+* "L’accord est conclu jusqu’au 28 février 2021 à raison du risque épidémique. Il entre en vigueur au 17 octobre 2020 de manière rétroactive."
+* "Le présent texte a pour objet d’étendre la durée de la validité de l’accord d’entreprise du 12 novembre 2020 au regard de la poursuite de la crise sanitaire et de maintenir les règles qu’il a fixées concernant le télétravail."
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=5
+nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* Les paragraphes indiquent que l'accord a été conclu jusqu'au 28 février 2021, ce qui correspond à une durée de validité de l'accord.
-* Aucun paragraphe ne précise le nombre de jours maximum de télétravail par semaine, mais l'absence de mention de jours de présence minimum sur site associée à la mention de télétravail à 100% ou full-remote dans l'accord permet de déduire que le nombre maximum de jours de télétravail par semaine est de 5.
+Selon le préambule de l'accord, celui-ci a été conclu jusqu'au 28 février 2021. Cependant, en raison de la poursuite de la crise sanitaire, la durée de l'accord a été prolongée jusqu'au 31 mai 2021. Cependant, rien dans le texte ne précise le nombre maximum de jours de télétravail par semaine. Cependant, selon la règle 2G, le nombre de jours de télétravail par semaine ne peut pas être supérieur à cinq. Par conséquent, je propose de répondre 'nombrejourdeteletravailmaxparsemaine=5'.

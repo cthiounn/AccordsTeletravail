@@ -1,14 +1,12 @@
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail ne devra pas dépasser 0,20 ETP par mois soit au plus une journée par semaine." (from Document 0)
-* "Le salarié en télétravail doit s’assurer du respect de la confidentialité, l’intégrité et la disponibilité des informations et documents que lui sont confiés et auxquels il a accès dans le cadre professionnel." (from Document 5)
+* Article 3-1- Nombre de journées travaillées : "Le télétravail ne devra pas dépasser 0,20 ETP par mois soit au plus une journée par semaine."
 
-My response is:
+Ma réponse après raisonnement ci-dessous :
 
-* Ma réponse: nombrejourdeteletravailmaxparsemaine=1
+* nombrejourdeteletravailmaxparsemaine=1
 
-My reasoning is:
+Mon raisonnement :
 
-* From Document 0, it is stated that the telework cannot exceed one day per week, which corresponds to 1 day of telework per week.
-* The other documents do not provide any additional information regarding the number of days of telework per week.
-* Therefore, I can affirm that the maximum number of days of telework per week is 1 day.
+* Je me base sur l'article 3-1- Nombre de journées travaillées qui stipule que le télétravail ne doit pas dépasser une journée par semaine.

@@ -1,10 +1,15 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Le salarié télétravailleur à temps plein devra disposer d'au moins 12 jours de présence par an dans les locaux de l’entreprise à Reims ou dans tout autre endroit où peut être organisée une réunion, une manifestation auxquelles participent d’autres salariés et le salarié télétravailleur à temps partiel de 7 jours de présence minimum." (Document(page\_content='Organisation du télétravail', metadata={'id': 1,'relevance\_score': 0.8017025}))
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Le salarié qui remplit les critères d'éligibilité dans le présent accord et qui souhaite opter pour cette organisation du travail, adresse une demande écrite à la direction. La Direction pourra également proposer à un salarié un passage en télétravail en respectant un délai de prévenance de deux mois." (Document id: 5)
+* "Afin de maintenir le lien social, la cohésion et le bon fonctionnement des équipes, le salarié télétravailleur à temps plein devra disposer d'au moins 12 jours de présence par an dans les locaux de l’entreprise à Reims ou dans tout autre endroit où peut être organisée une réunion, une manifestation auxquelles participent d’autres salariés et le salarié télétravailleur à temps partiel de 7 jours de présence minimum." (Document id: 0)
 
 Ma réponse après raisonnement ci-dessous :
+
 * nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
-* Les jours de présence minimale sur site ne concernent pas le nombre de jours de télétravail autorisés par semaine.
-* Il n'y a pas d'autres mentions de fréquence par semaine concernant le nombre de jours de télétravail autorisés dans les documents fournis.
-* Comme il n'y a pas d'autres restrictions sur le nombre de jours de télétravail par semaine, et que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué (dans le document id=9), je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.
+
+* Selon le document id: 5, le télétravail est basé sur le principe du volontariat et la direction doit donner son accord après avoir apprécié les conditions d'éligibilité.
+* Selon le document id: 0, le salarié télétravailleur à temps plein doit disposer d'au moins 12 jours de présence par an dans les locaux de l'entreprise, ce qui représente environ 1 jour par mois.
+* En appliquant le principe de déconnexion entre les périodicités (semaine, mois, trimestre, année) mentionné dans les instructions, nous pouvons considérer que le nombre de jours de télétravail par semaine ne peut pas être strictement supérieur à 5.

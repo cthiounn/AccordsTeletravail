@@ -1,15 +1,12 @@
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    > "d’une journée par semaine pour un salarié d’une ancienneté ≥ à 1an et ˂ à 2 ans,
-de 2 jours par semaine pour un salarié d’une ancienneté ≥ à 2 ans"
+* "d’une journée par semaine pour un salarié d’une ancienneté ≥ à 1an et ˂ à 2 ans, de 2 jours par semaine pour un salarié d’une ancienneté ≥ à 2 ans" (Document id=2)
 
-    > "Il est précisé qu’en cas d’absence du salarié, les journées de télétravail non effectuées par le collaborateur ne pourront pas donner lieu à un report."
+Ma réponse après raisonnement ci-dessous :
 
-* Ma réponse après raisonnement :
+Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
-    nombrejourdeteletravailmaxparsemaine=2
+Mon raisonnement :
 
-* Mon raisonnement :
-
-    Le premier paragraphe extrait indique clairement qu'un salarié d'ancienneté supérieure à 2 ans peut télétravailler 2 jours par semaine. Aucune autre information dans les documents fournis ne permet d'augmenter cette limite, donc je renvoie la valeur 2 pour la variable nombrejourdeteletravailmaxparsemaine.
+Le document indique clairement que le maximum de jours de télétravail par semaine est de 2, car il est dit "de une journée par semaine pour un salarié d’une ancienneté >= à 1an et < à 2 ans, de 2 jours par semaine pour un salarié d’une ancienneté >= à 2 ans". Donc, la variable "nombrejourdeteletravailmaxparsemaine" est affectée à la valeur maximale de 2.

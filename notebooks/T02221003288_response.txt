@@ -1,10 +1,13 @@
-Q_TTSEM_NOMBRE:Extraction pertinente des documents :
-* "Le nombre et le positionnement des jours en télétravail (le salarié devra être à minima 3 jours par semaine sur site ou en déplacement)"
-* "Le télétravail peut être mis en œuvre de manière non consécutive, par journée entière ou demi-journée de travail. Le nombre de jours de télétravail doit être limité, il est donc interdit d’être en télétravail à 100% de son temps de travail. Il est convenu que les salariés ne pourront télétravailler que 2 jours maximum par semaine"
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=2
+* "Le nombre de jours de télétravail doit être limité, il est donc interdit d’être en télétravail à 100% de son temps de travail. Il est convenu que les salariés ne pourront télétravailler que 2 jours maximum par semaine" (Document id: 0)
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-* Selon le premier paragraphe, le salarié doit être présent sur site ou en déplacement au minimum 3 jours par semaine, ce qui signifie qu'il ne peut pas télétravailler plus de 2 jours par semaine.
-* Cette information est confirmée par le deuxième paragraphe, qui stipule également que le nombre de jours de télétravail doit être limité à 2 jours maximum par semaine.
+
+* Je me base sur le document id: 0, car c'est le seul document qui mentionne explicitement le nombre maximum de jours de télétravail par semaine.
+* La phrase "Il est convenu que les salariés ne pourront télétravailler que 2 jours maximum par semaine" indique clairement que le nombre maximum de jours de télétravail par semaine est de 2.

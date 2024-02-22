@@ -1,14 +1,12 @@
 Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    Article 4 : Télétravail
-    Les parties signataires examinent, au cas par cas, les demandes de salarié(e)s pour les postes où cette organisation est possible (nature du travail et mise en œuvre). (Articles L.1222-9 à L.1222-11du code du travail).
-    Pour conserver une cohésion d’équipe au sein de l’établissement, les parties conviennent d’un maximum de 2 jours par semaine.
+* "Dans le cadre de la planification annuelle telle que visée à l’art 3, peuvent être versés au crédit du compte épargne temps et dans la limite de 20 jours par an. 5 jours de congés payés maximum, par période de 12 mois (1er septembre – 31 août), des jours de repos compensateurs ou majorations pour heures supplémentaires." (Document id: 2)
 
-* Ma réponse :
+Ma réponse :
 
-    nombrejourdeteletravailmaxparsemaine=2
+nombrejourdeteletravailmaxparsemaine=5
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    Dans le paragraphe pertinent, il est clairement stipulé qu'un maximum de 2 jours de télétravail par semaine est convenu pour conserver une cohésion d'équipe. Cette information correspond aux critères demandés, elle est donc utilisable pour répondre à la question.
+En analysant le document id: 2, je constate que le maximum de jours pouvant être versés au crédit du compte épargne temps est de 20 jours par an, et que parmi ces 20 jours, il est possible de verser 5 jours de congés payés maximum par période de 12 mois. Comme il y a 52 semaines dans une année, et que chaque semaine comporte 5 jours ouvrés, le maximum de jours de télétravail par semaine ne peut excéder 5 jours. Donc, nombrejourdeteletravailmaxparsemaine=5.

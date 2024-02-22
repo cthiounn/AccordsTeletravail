@@ -1,12 +1,12 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine." (Document(page\_content='...', metadata={'id': 0,'relevance\_score': 0.9419284}))
+* "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine." (Document id: 0)
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=2
+Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* Je me base sur le paragraphe : "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine." (Document(page\_content='...', metadata={'id': 0,'relevance\_score': 0.9419284}))
-* Cette information est claire et explicite, elle mentionne le nombre maximum de jours de télétravail par semaine, qui est de 2 jours.
+* J'ai identifié dans le document id: 0 la phrase "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine." qui indique clairement que le maximum de jours de télétravail par semaine est de 2.

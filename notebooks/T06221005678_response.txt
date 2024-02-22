@@ -1,14 +1,13 @@
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    Article 6 - Le rythme du télétravail
-    
-    Le rythme régulier du télétravail ne peut pas dépasser 2 jours maximum flottants par semaine.
+* Article 6 - Le rythme du télétravail : "Le rythme régulier du télétravail ne peut pas dépasser 2 jours maximum flottants par semaine."
 
-* Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement ci-dessous :
 
-    nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine=2
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    Je me base sur l'article 6 du document qui indique que "Le rythme régulier du télétravail ne peut pas dépasser 2 jours maximum flottants par semaine". Donc, un employé/travailleur/salarié/collaborateur peut télétravailler régulièrement jusqu'à 2 jours par semaine.
+* Je me base sur l'article 6 - Le rythme du télétravail, point 2, qui indique que "Le rythme régulier du télétravail ne peut pas dépasser 2 jours maximum flottants par semaine.".
+* J'extrais uniquement le nombre 2 car c'est la réponse à la question posée.

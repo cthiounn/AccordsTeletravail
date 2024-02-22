@@ -1,15 +1,12 @@
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    Article 5 – Télétravail – (article L 1222-9 du Code du Travail)
-    Les salariés seront en télétravail au minimum,
-    Soit deux ½ journées par semaine
-    Soit une journée complète par semaine
+* "Les salariés seront en télétravail au minimum, Soit deux ½ journées par semaine Soit une journée complète par semaine"
 
-* Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement ci-dessous :
 
-    nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine=2
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    Dans le document fourni, il est stipulé que "Les salariés seront en télétravail au minimum, soit deux ½ journées par semaine ou une journée complète par semaine". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+* Je me base sur l'article 5 du premier document qui stipule que "Les salariés seront en télétravail au minimum, Soit deux ½ journées par semaine Soit une journée complète par semaine". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

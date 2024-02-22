@@ -1,14 +1,12 @@
 Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Article 3 – Fréquence du télétravail régulier : « Le télétravail régulier prend la forme d’un forfait mensuel de jours télétravaillés selon les deux modalités suivantes… 6 jours de télétravail par mois maximum, accessible à tous les salariés éligibles… 8 jours de télétravail par mois maximum… »
-* Document(page\_content='Par exception au principe du double volontariat et conformément aux dispositions légales en vigueur, il est précisé qu’en cas de circonstances exceptionnelles, le télétravail pourra être imposé par l’employeur à l’ensemble de l’effectif, conformément à l’article L. 1222-11 du code du travail...' : cet article ne contient pas d'information utile pour la question posée.
+* Article 3 – Fréquence du télétravail régulier : "Le télétravail régulier prend la forme d’un forfait mensuel de jours télétravaillés selon les deux modalités suivantes : 6 jours de télétravail par mois maximum, accessible à tous les salariés éligibles ; 8 jours de télétravail par mois maximum, étant précisé que ce forfait n’est accessible qu’aux salariés à temps complet, soit au salarié ETAM dont le temps de travail est de 35 heures hebdomadaires ou au salarié cadre dont le forfait jours est de 206 jours"
 
-Ma réponse :
+Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine = 6
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=6**
 
 Mon raisonnement :
 
-* Je me suis basé sur l'extraction du paragraphe pertinent de l'article 3 pour conclure que le nombre maximum de jours de télétravail par semaine est de 6, car 6 jours par mois correspondent à environ 1,5 jours par semaine (6/30*5).
-* J'ai exclu l'option du télétravail à 100% ou full-remote car l'article 3 précise que le télétravail régulier est sous forme de forfait mensuel de jours télétravaillés, et non pas une possibilité illimitée de télétravail.
+Je me base sur l'extrait de l'article 3 pour conclure que le maximum de jours de télétravail par semaine est de 6 jours, car c'est la première modalité proposée et elle est accessible à tous les salariés éligibles.

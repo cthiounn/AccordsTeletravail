@@ -1,12 +1,12 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Un planning sera établi chaque mois par le manager, précisant les jours de télétravail de son équipe." (Document(page\_content="Un planning sera établi chaque mois par le manager, précisant les jours de télétravail de son équipe.", metadata={'id': 1,'relevance\_score': 0.93674034}))
-* "Les jours de télétravail seront fixés selon les modalités suivantes : 1 jour par semaine." (Document(page\_content="ARTICLE 10 - FRÉQUENCE ET NOMBRE DE JOURS TÉLÉTRAVAILLÉS\nLes jours de télétravail seront fixés selon les modalités suivantes : 1 jour par semaine.", metadata={'id': 0,'relevance\_score': 0.92660594}))
+* "la fréquence du télétravail qui sera au maximum d’un jour par semaine;" (Document(page\_content="Un planning sera établi chaque mois par le manager, précisant les jours de télétravail de son équipe.\nEn cas de modification ponctuelle de l’organisation mensuelle du jour de télétravail, le salarié doit être informé par tout moyen au moins 5 jours ouvrés à l’avance, sauf circonstance exceptionnelle.\nLorsque la demande de télétravail sera acceptée, un avenant au contrat sera conclu pour confirmer l'accord du salarié et de l'employeur ainsi que pour préciser les modalités utiles à l'exercice du télétravail et adaptées à la situation du télétravailleur, à savoir :\n-  la fréquence du télétravail qui sera au maximum d’un jour par semaine;"
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=1
+nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
 
-* Les jours de télétravail sont planifiés chaque mois par le manager et sont fixés à 1 jour par semaine. Donc, le nombre maximum de jours de télétravail par semaine est de 1.
+Je me base sur le document qui mentionne explicitement que la fréquence du télétravail sera au maximum d’un jour par semaine.

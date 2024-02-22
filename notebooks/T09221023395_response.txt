@@ -1,6 +1,14 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents :
-    * "Le principe de base de fonctionnement du télétravail régulier est de travailler **jusqu’à deux journées par semaine** à domicile"
-    * "Le télétravail doit avoir un caractère volontaire à la fois pour le salarié et l’employeur. Il peut s’exercer **jusqu’à deux jours par semaine**."
-* Ma réponse : nombrejourdeteletravailmaxparsemaine=2
-* Mon raisonnement : Les extraits pertinents indiquent clairement que le nombre maximal de jours de télétravail par semaine est de deux.
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile, par journée entière, de manière à préserver le lien social avec l’entreprise et son groupe de travail." (Document(page\_content='...', metadata={'id': 8,'relevance\_score': 0.9603552}))
+* "Par dérogation à cette règle, il sera exceptionnellement possible de travailler plus de deux journées par semaine, sous réserve de l’accord exprès de son N+1, N+2 et du service des Ressources Humaines. Le refus à cette dérogation ne donnera pas lieu à une réponse motivée." (Document(page\_content='...', metadata={'id': 5,'relevance\_score': 0.9632062}))
+
+Ma réponse après raisonnement ci-dessous :
+
+nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+* J'extrais le nombre maximum de jour de télétravail par semaine dans le premier paragraphe : "de travailler jusqu’à deux journées par semaine"
+* Je retiens la valeur maximale car elle est conforme aux instructions données dans la question.
