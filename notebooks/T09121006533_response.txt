@@ -1,7 +1,9 @@
-Q_TTSEM_NOMBRE:
-* Extraction pertinente du document :
-    * "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine"
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
-* Mon raisonnement :
-    * Le document mentionne explicitement que le nombre maximum de jours de télétravail par semaine est de deux. Cette information est contenue dans la phrase "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de two daynées par semaine". Par conséquent, je peux affirmer que le nombre maximum de jours de télétravail par semaine est de deux.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+
+* "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux daynées par semaine (de par la nature de leur function, the commercials are not concerned by this provision)."
+* "The teleworker must be connected under Teams during his working hours, corresponding to the presence periods within the company, and be reachable via this tool. He undertakes to call back or inform his correspondents within 30 minutes maximum."
+
+My response is:
+nombrejourdeteletravailmaxparsemaine=2
+
+My reasoning is that the first paragraph explicitly states that a salarié cannot work more than two daynées per week, which translates to two days of teletravail per week. The second paragraph does not provide any additional information regarding the number of days of teletravail authorized per week. Therefore, the value of nombrejourdeteletravailmaxparsemaine is 2.

@@ -1,6 +1,6 @@
 Q_TTSEM_NOMBRE:
 * Extraits pertinents :
-    * "Le télétravail doit avoir un caractère volontaire à la fois pour le salarié et l’employeur. Il constitue le cadre général du télétravail organisé dans l’UES Viveris et vise les situations dans lesquelles le salarié et l’employeur fixent à l’avance le nombre de jours maximums par semaine avec signature d’un avenant au contrat de travail. Ce nombre de jours peut être d’une à deux journées par semaine."
-    * "Par dérogation à cette règle, il sera exceptionnellement possible de travailler plus de deux journées par semaine, sous réserve de l’accord exprès de son N+1, N+2 et du service des Ressources Humaines."
-* Réponse : nombrejourdeteletravailmaxparsemaine=2
-* Raisonnement : Les extraits pertinents indiquent clairement que le nombre de jours de télétravail maximum par semaine est de deux, sauf dérogation exceptionnelle. Cette dérogation n'affecte pas la valeur de la variable car elle est soumise à des conditions particulières non mentionnées dans le document.
+    * "Le principe de base de fonctionnement du télétravail régulier est de travailler **jusqu’à deux journées par semaine** à domicile"
+    * "Le télétravail doit avoir un caractère volontaire à la fois pour le salarié et l’employeur. Il peut s’exercer **jusqu’à deux jours par semaine**."
+* Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+* Mon raisonnement : Les extraits pertinents indiquent clairement que le nombre maximal de jours de télétravail par semaine est de deux.

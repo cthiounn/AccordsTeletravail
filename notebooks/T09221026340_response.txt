@@ -1,14 +1,15 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le nombre de jours télétravaillables peut donc varier de zéro (0) à trois (3) jours par semaine au maximum"
-* "Au terme du processus et après acceptation par le manager de l’inscription du salarié au dispositif télétravail, ce dernier (ci-après désigné par le « Télétravailleur ») bénéficiera de trois (3) jours de télétravail maximum par semaine, qu’il pourra poser – ou non – conformément aux dispositions du présent titre 2."
+    Article 5.2 : Flexibilité des jours de télétravail
+    > Avec l’accord du manager, le salarié peut faire le choix de bénéficier de zéro (0) à trois (3) jours de télétravail par semaine :
 
-Ma réponse après raisonnement ci-dessous :
+    Article 6.2 : Pose de jours de télétravail
+    > Au terme du processus et après acceptation par le manager de l’inscription du salarié au dispositif télétravail, ce dernier (ci-après désigné par le « Télétravailleur ») bénéficiera de trois (3) jours de télétravail maximum par semaine, qu’il pourra poser – ou non – conformément aux dispositions du présent titre 2.
 
-* nombrejourdeteletravailmaxparsemaine=3
-
-Mon raisonnement :
-
-* Selon le premier paragraphe, le nombre de jours télétravaillables peut varier de zéro (0) à trois (3) jours par semaine au maximum.
-* Selon le deuxième paragraphe, le télétravailleur bénéficie de trois (3) jours de télétravail maximum par semaine.
-* Donc, le nombre maximum de jours de télétravail par semaine est de 3.
+* Ma réponse après raisonnement :
+    * nombrejourdeteletravailmaxparsemaine=3
+* Mon raisonnement :
+    * Selon l'article 5.2, le salarié peut bénéficier de 0 à 3 jours de télétravail par semaine.
+    * Cet article 5.2 est confirmé par l'article 6.2 qui précise que le télétravailleur bénéficie de 3 jours maximum par semaine.
+    * Donc, nombrejourdeteletravailmaxparsemaine=3.

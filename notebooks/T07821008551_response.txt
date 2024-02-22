@@ -1,14 +1,10 @@
-Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* "De manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum." (Source: T07821008551.txt)
-* "Si le collaborateur exerce initialement deux jours de télétravail par semaine : possibilité de réaliser 8 jours de télétravail sur le mois." (Source: T07821008551.txt)
+* "De manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum." (Document(page\_content='6.1. repartition des Jours en télétravail', metadata={'id': 0,'relevance\_score': 0.9216072}))
+* "Pour des raisons personnelles relatives à son état de santé, le collaborateur pourra établir une demande de télétravail pour une durée inférieure ou égale à deux mois, renouvelable une fois, sous réserve de l’accord express du manager et d’un justificatif médical. Dans ce cas, le collaborateur pourra être en télétravail jusqu’à 100% de son temps de travail." (Document(page\_content='7.3. AMENAGEMENT DU TELETRAVAIL POUR RAISONS DE SANTE ', metadata={'id': 5,'relevance\_score': 0.93761027}))
 
 Ma réponse :
-
-* nombrejourdeteletravailmaxparsemaine = 2
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-
-* Selon le premier paragraphe, le télétravail s'exerce à raison de deux journées fixes par semaine maximum. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
-* Le deuxième paragraphe ne nous apporte pas d'information supplémentaire pour répondre à la question posée.
+Après avoir analysé les deux paragraphes pertinents, j'ai pu constater que le premier paragraphe indique que le télétravail s'exerce à raison de deux journées fixes par semaine maximum. Cependant, le deuxième paragraphe mentionne que le collaborateur peut être en télétravail jusqu'à 100% de son temps de travail, ce qui correspond à 5 jours par semaine. Néanmoins, comme il est précisé que cela ne s'applique que pour des raisons personnelles relatives à son état de santé, je considère que cela ne s'applique pas dans le cadre général du télétravail. Par conséquent, je réponds que le nombre maximum de jours de télétravail par semaine est de 2, conformément au premier paragraphe.

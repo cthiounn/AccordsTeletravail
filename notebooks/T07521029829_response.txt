@@ -1,15 +1,10 @@
-Q_TTSEM_NOMBRE:
-* Extraits pertinents :
-    * "le nombre de jours télétravaillés est limité à 1 par semaine." (T07521029829.txt)
-    * "la répartition du nombre de jours télétravaillés dans la semaine" (T07521029829.txt)
-    * "Le nombre de jours télétravaillés dans la semaine" (T07521029829.txt)
-    * "Le nombre de jours de télétravail est calculé prorata temporis en cas de mise en œuvre du télétravail occasionnel en cours d’année." (T07521029829.txt)
-    * "Les récentes évolutions législatives ont permis d’accéder au télétravail à titre occasionnel qui offre plus de souplesse que le télétravail fixe et régulier." (T07521029829.txt)
-    * "Le télétravail occasionnel est défini comme une forme occasionnelle, c’est-à-dire non habituelle et ponctuelle, d’organisation et/ou de réalisation du travail, utilisant les technologies de l’information dans laquelle un travail, qui aurait également pu être réalisé dans les locaux de l’employeur, est effectué de manière occasionnelle hors de ces locaux." (T07521029829.txt)
-    * "Cette forme occasionnelle de télétravail ne peut être combinée au télétravail fixe et régulier prévu au Titre 3 du présent accord." (T07521029829.txt)
-    * "Le télétravail occasionnel est organisé sous forme d’enveloppe annuelle maximale de 35 jours ouvrés à consommer." (T07521029829.txt)
+Q_TTSEM_NOMBRE:Extraction pertinente :
 
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=1
-* Mon raisonnement :
-    * Dans le premier extrait pertinent, il est clairement stipulé que "le nombre de jours télétravaillés est limité à 1 par semaine". Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 1.
+* "Les récentes évolutions législatives ont permis d’accéder au télétravail à titre occasionnel qui offre plus de souplesse que le télétravail fixe et régulier."
+* "Le nombre de jour fixe et régulier de télétravail est d’un ou deux jours."
+
+Réponse :
+nombrejourdeteletravailmaxparsemaine=2
+
+Raisonnement :
+Le document mentionne que le télétravail fixe et régulier peut être organisé pour un ou deux jours par semaine. Il n'y a pas d'autres mentions de fréquence de télétravail par semaine dans le document.

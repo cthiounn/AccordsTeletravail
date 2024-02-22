@@ -1,15 +1,8 @@
-Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* "Le télétravail régulier se définit par une fréquence au moins hebdomadaire." (Document(page\_content='Il convient de distinguer trois types de télétravail : [...] Le télétravail régulier se définit par une fréquence au moins hebdomadaire. [...]', metadata={'source': 'T02121003194.txt'}))
-* "Le nombre de jours télétravaillés ne pourra pas être supérieur à 10 par mois de travail effectif pour les salariés à temps plein et à temps partiel." (Document(page\_content='Ces exclusions sont susceptibles d’évoluer dans le cadre du bilan annuel présenté au CSE.[...] Conditions de mise en place[...] Télétravail régulier[...] Le nombre de jours télétravaillés ne pourra pas être supérieur à 10 par mois de travail effectif pour les salariés à temps plein et à temps partiel.", metadata={'source': 'T02121003194.txt'}))
+Q_TTSEM_NOMBRE:Extraction pertinente du document :
+"Le télétravail régulier se définit par une fréquence au moins hebdomadaire."
 
 Ma réponse :
-
-* nombrejourdeteletravailmaxparsemaine=2
+nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
-
-* Selon le premier paragraphe, le télétravail régulier se définit par une fréquence au moins hebdomadaire.
-* Selon le deuxième paragraphe, le nombre de jours télétravaillés ne pourra pas être supérieur à 10 par mois de travail effectif pour les salariés à temps plein et à temps partiel.
-* Comme il y a cinq jours ouvrés dans une semaine, le nombre maximum de jours de télétravail par semaine est donc de 2 (10 jours / 5 jours = 2).
+Le document mentionne que le télétravail régulier se définit par une fréquence au moins hebdomadaire. Cependant, il ne précise pas le nombre exact de jours de télétravail par semaine. Dans les conditions générales, le nombre maximum de jours de télétravail par semaine est de 5, conformément à l'instruction 2G. Comme le document ne précise pas de nombre différent, je dois supposer que le nombre maximum de jours de télétravail par semaine est de 5.

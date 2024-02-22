@@ -1,9 +1,13 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Article 5 – Temps de travail : « Le temps de travail du télétravailleur est de 35 heures par semaine. Cette durée du travail de 35 heures sera à effectuer en présentiel sur site à hauteur minimum de 24 heures, les heures restantes en télétravail. Les 24 heures minimum sur site peuvent être effectuées en demi-journées ou en journées complètes selon un planning prédéfini en accord avec le chef de service et le directeur du pôle. »
+    Article 5 – Temps de travail
+    "Le temps de travail du télétravailleur est de 35 heures par semaine. Cette durée du travail de 35 heures sera à effectuer en présentiel sur site à hauteur minimum de 24 heures, les heures restantes en télétravail."
 
-Ma réponse après raisonnement ci-dessous :
-nombrejourdeteletravailmaxparsemaine=5
+* Ma réponse après raisonnement ci-dessous :
 
-Mon raisonnement :
-Le document mentionne positivement le télétravail à 100% ou le full-remote à l'article 5, et il n'y a pas de jour de présence minimum sur site. Donc, en appliquant les instructions 2.E, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.
+    nombrejourdeteletravailmaxparsemaine=5
+
+* Mon raisonnement :
+
+    Selon l'article 5, le temps de travail du télétravailleur est de 35 heures par semaine, et il doit effectuer un minimum de 24 heures sur site. Les heures restantes peuvent être effectuées en télétravail. Comme il y a 5 jours ouvrés dans une semaine, et que chaque jour compte 7 heures (35 heures / 5 jours), il reste 11 heures par semaine pour le télétravail. Donc, le nombre maximum de jours de télétravail par semaine est de 5.

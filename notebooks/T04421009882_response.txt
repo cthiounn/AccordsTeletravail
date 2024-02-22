@@ -1,10 +1,8 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* "Le télétravail a été généralisé pour tous les postes pour lesquels il est possible et pour lesquels l’activité se poursuit" (Document(page\_content="Consigne est donnée au personnel de :\nrester chez soi le plus possible. Le télétravail a été généralisé pour tous les\npostes pour lesquels il est possible et pour lesquels l’activité se poursuit ;", metadata={'id': 1,'relevance\_score': 0.7874338}))
 
-* "Consigne est donnée au personnel de : rester chez soi le plus possible. Le télétravail a été généralisé pour tous les postes pour lesquels il est possible et pour lesquels l’activité se poursuit;"
-* "Il sera demandé au client d’assurer le nettoyage régulier des postes de travail,"
-
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=0
+Ma réponse après raisonnement ci-dessous :
+* nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
-Après avoir analysé les documents fournis, je n'ai pas trouvé de paragraphe contenant le mot-clé "semaine" ou une notion de fréquence par semaine concernant le nombre de jours de télétravail autorisés. De plus, aucune limitation explicite du nombre de jours de télétravail par semaine n'est mentionnée. Par conséquent, conformément aux instructions données, je retourne la valeur 0 pour la variable 'nombrejourdeteletravailmaxparsemaine'.
+* Les informations données dans le document ne permettent pas de déterminer un nombre exact de jours de télétravail par semaine. Cependant, il est mentionné que le télétravail a été généralisé pour tous les postes pour lesquels il est possible. De plus, il n'y a aucune mention de jours de présence minimum sur site. Ainsi, en appliquant les instructions données, nous pouvons considérer que le télétravail à 100% ou le full-remote est autorisé, ce qui signifie que le nombre maximum de jours de télétravail par semaine est de 5.

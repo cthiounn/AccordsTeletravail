@@ -1,10 +1,11 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* "L’accord entre les parties se fera sous forme dématérialisée. Les demandes de jours de télétravail feront l’objet d’un planning prévisionnel au mois selon les règles de présentéisme définis au sein des services. [...] La mise en place du télétravail est le fruit d’un accord entre le télétravailleur et la Direction après avis du manager. [...] Le nombre de jours de télétravail dans une semaine est donc porté à 3j au maximum selon le temps contractuel." (Source : T04121001510.txt)
-* "Les collaborateurs qui demandent le télétravail régulier ont 3 choix dans la limite de 2 jours de présence au siège en fonction de leur temps contractuel : 1 jour, 2 jours, 3 jours. Les vœux ne concernent que le nombre de jours. Ceux-ci seront fixés par l’encadrement en concertation avec la Direction afin de maintenir une présence au siège équilibrée en tenant compte notamment des temps partiels et des nécessités liées au maintien de bonnes conditions de fonctionnement pour la Caf. Cette répartition sera valable sur la durée de référence. Elle est amenée chaque année à être révisée pour permettre une rotation sur les jours de télétravail dans un même service." (Source : T04121001510.txt)
+Q_TTSEM_NOMBRE:Extraction pertinente des documents :
+* "Les demandes seront examinées collégialement par le Comité de Direction, après avis de l’encadrement, et la décision de l’employeur fait l’objet d’une notification au salarié dans un délai maximum de 45 jours (sauf circonstances exceptionnelles) après la date limite de dépôt des demandes. Cette décision est prise sous réserve des conditions de faisabilité tant techniques qu’organisationnelles au regard du poste, de la disponibilité du matériel informatique, et de la capacité de l’agent à travailler de manière autonome." (Doc 7)
+* "Le nombre de jours de télétravail dans une semaine est donc porté à 3j au maximum selon le temps contractuel." (Doc 4)
 
 Ma réponse :
-nombrejourdeteletravailmaxparsemaine=3
+* nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
-Après avoir analysé les deux paragraphes pertinents, je constate que le document mentionne explicitement que le nombre de jours de télétravail dans une semaine est porté à 3j au maximum selon le temps contractuel. Par conséquent, le maximum des jours de télétravail par semaine est de 3.
+* Selon le document 7, la décision de l'employeur relative au télétravail est prise sous réserve des conditions de faisabilité tant techniques qu'organisationnelles.
+* Le document 4 indique que le nombre de jours de télétravail dans une semaine est porté à 3j au maximum selon le temps contractuel.
+* Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3.

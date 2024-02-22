@@ -1,15 +1,10 @@
-Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-    * "Le télétravail pourra être exercé trois days par semaine maximum."
-    
-    * "Les plages horaires pendant lesquelles le salarié doit impérativement pouvoir être joint, à l’exception des salariés en forfait en jours sur l’année"
+* "Le télétravail pourra être exercé trois jours par semaine maximum." (Document(page\_content='Organisation des périodes de télétravail', metadata={'id': 0,'relevance\_score': 0.92558396}))
+* "Un principe de double réversibilité, tant à l’initiative de l’employeur que du salarié. Le collaborateur et le manager peuvent mettre un terme au télétravail." (Document(page\_content='Conditions de mise en œuvre du télétravail', metadata={'id': 6,'relevance\_score': 0.90205497}))
 
-* Ma réponse après raisonnement :
+Ma réponse : nombrejourdeteletravailmaxparsemaine=3
 
-    * nombrejourdeteletravailmaxparsemaine=3
+Mon raisonnement :
 
-* Mon raisonnement :
-
-    * Dans le premier paragraphe, il est explicitement mentionné que le télétravail peut être exercé jusqu'à trois jours par semaine. Donc, nombrejourdeteletravailmaxparsemaine=3.
-    * Le deuxième paragraphe ne contribue pas à répondre à la question car il ne mentionne pas le nombre de jours de télétravail par semaine.
+* Dans le premier paragraphe, il est indiqué que le télétravail pourra être exercé trois jours par semaine maximum. Donc, le nombre maximum de jours de télétravail par semaine est de 3.

@@ -1,10 +1,13 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* "Le télétravail régulier suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine." (Source : T09221026359.txt)
-* "Il est tout de même fortement recommandé de ne pas dépasser 2 jours de télétravail par semaine." (Source : T09221026359.txt)
+* "Le télétravail régulier suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine." (Document id: 0)
+* "Le télétravailleur ou le manager concernés pourront modifier par un écrit et avec accord des deux parties (exemple : par courriel, sms, messagerie instantanée...) les jours convenus de télétravail, en respectant un délai de prévenance fixé à 48h, qui pourra être réduit en cas d'accord entre les deux parties (exemple : par courriel, sms, messagerie instantanée...)." (Document id: 4)
 
 Ma réponse :
-nombrejourdeteletravailmaxparsemaine = 2
+
+* nombrejourdeteletravailmaxparsemaine = 3
 
 Mon raisonnement :
-Après avoir analysé les deux paragraphes pertinents, j'ai pu constater que le télétravail régulier est limité à trois jours maximum par semaine, mais qu'il est fortement recommandé de ne pas dépasser deux jours de télétravail par semaine. Par conséquent, je considère que le nombre maximum de jours de télétravail par semaine est de 2.
+
+* Dans le premier paragraphe, il est stipulé que le télétravail régulier suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine. Donc, le nombre maximum de jours de télétravail par semaine est de 3.

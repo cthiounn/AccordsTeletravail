@@ -1,9 +1,10 @@
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le salarié doit être au minimum 2 days per week in face-to-face at the office (so 1 to 3 days of telework per week)"
-* "The employee can change model during the year or number of teleworked days, and only at the beginning of the month, after consultation and agreement with his hierarchical manager."
+* "Le salarié doit être au minimum 2 jours par semaine en présentiel au bureau (soit 1 à 3 jours de télétravail par semaine)"
+* "Il n’y a pas de limite en nombre de jours de télétravail."
 
-My response is:
+Ma réponse après raisonnement :
 nombrejourdeteletravailmaxparsemaine=3
 
-My reasoning is that the document states that the employee must be present at least 2 days a week in the office, which means that they can telework up to 3 days a week.
+Mon raisonnement :
+Le premier paragraphe indique qu'un salarié doit être présent au moins 2 jours par semaine au bureau, ce qui implique qu'il peut télétravailler jusqu'à 3 jours par semaine. Le deuxième paragraphe indique qu'il n'y a pas de limite en nombre de jours de télétravail, mais cela ne signifie pas qu'un salarié peut télétravailler plus de 3 jours par semaine, car cela dépend des règles de l'entreprise et du contrat de travail individuel. Dans ce contexte, je conclus que la limite maximale de télétravail par semaine est de 3 jours.

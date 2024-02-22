@@ -1,8 +1,15 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "La prime de télétravail est fixée à 10 euros par mois pour les fonctions permettant le télétravail et calculée au prorata du temps de présence si nécessaire." (Document(page\_content='8/ Définition des postes et des règles du télétravail ainsi que la mise en place d’une prime de consommable \nLa Direction propose de mettre en place des règles et une prime au travers d’une politique Groupe. \nLa prime de télétravail est fixée à 10 euros par mois pour les fonctions permettant le télétravail et calculée au prorata du temps de présence si nécessaire.'))
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=0
+* "8/ Définition des postes et des règles du télétravail ainsi que la mise en place d’une prime de consommable"
+* "La prime de télétravail est fixée à 10 euros par mois pour les fonctions permettant le télétravail et calculée au prorata du temps de présence si nécessaire."
+
+Ma réponse :
+
+* Ma réponse : **nombrejourdeteletravailmaxparsemaine=0**
 
 Mon raisonnement :
-* Les informations contenues dans le document ne permettent pas de déterminer le nombre maximal de jours de télétravail par semaine car aucun paragraphe ne précise explicitement ce nombre. De plus, rien n'indique que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué sans jour de présence minimum sur site. Par conséquent, je ne peux affecter la variable 'nombrejourdeteletravailmaxparsemaine' qu'avec la valeur 0.
+
+* Les informations contenues dans les documents ne permettent pas de déterminer le nombre maximal de jours de télétravail par semaine.
+* La prime de télétravail est fixée à 10 euros par mois et calculée au prorata du temps de présence, ce qui implique que le télétravail n'est pas limité à un certain nombre de jours par semaine.
+* De plus, aucune information concernant le télétravail à 100% ou le full-remote n'est mentionnée dans les documents, donc je ne peux pas affecter la variable nombrejourdeteletravailmaxparsemaine à la valeur 5.

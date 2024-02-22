@@ -1,10 +1,11 @@
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+Q_TTSEM_NOMBRE:
+* Extraits pertinents des documents :
+    * "Un à deux jours fixes par semaine de télétravail." (document id=1, relevance_score=0.6712436)
+    * "Un jour fixe par semaine." (document id=1, relevance_score=0.6712436)
+    * "1 jour fixe de télétravail par semaine." (document id=9, relevance_score=0.9336953)
+    * "Un jour fixe par semaine." (document id=0, relevance_score=0.9350306)
 
-* "Un à deux days fixed by week of telework."
-* "One to two days fixed per week of telework."
-
-My response is:
-
-* nombrejourdeteletravailmaxparsemaine=2
-
-My reasoning is that the documents mention a maximum of two days of fixed telework per week.
+* Ma réponse :
+    * nombrejourdeteletravailmaxparsemaine=2
+* Mon raisonnement :
+    * J'ai trouvé plusieurs occurrences où le nombre de jours de télétravail par semaine est mentionné. Dans le document id=1, il est mentionné "Un à deux jours fixes par semaine de télétravail" et "3 jours de télétravail supplémentaires annuels dits « modulables »". Comme je ne dois considérer que le télétravail régulier et non les jours modulables, je retiens uniquement les jours fixes par semaine. De même, dans le document id=0, il est mentionné "1 jour fixe par semaine", et dans le document id=9, il est mentionné "1 jour fixe de télétravail par semaine". Ainsi, le maximum de jours de télétravail par semaine est de 2 jours.

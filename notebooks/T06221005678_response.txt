@@ -1,8 +1,14 @@
-Q_TTSEM_NOMBRE:Extraction pertinente :
-* "Le rythme régulier du télétravail ne peut pas dépasser 2 jours maximum flottants par semaine." (Document(page\_content='Les intérimaires, alternants et stagiaires ne peuvent pas bénéficier du télétravail régulier. [...] Article 6 - Le rythme du télétravail [...]', metadata={'source': 'T06221005678.txt'}))
+Q_TTSEM_NOMBRE:
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Ma réponse :
-* nombrejourdeteletravailmaxparsemaine=2
+    Article 6 - Le rythme du télétravail
+    
+    Le rythme régulier du télétravail ne peut pas dépasser 2 jours maximum flottants par semaine.
 
-Mon raisonnement :
-* Dans le document fourni, un seul paragraphe contient le mot-clé "semaine" et concerne le nombre de jour de télétravail autorisé. Il s'agit de l'article 6 qui précise que "Le rythme régulier du télétravail ne peut pas dépasser 2 jours maximum flottants par semaine.". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+* Ma réponse après raisonnement ci-dessous :
+
+    nombrejourdeteletravailmaxparsemaine=2
+
+* Mon raisonnement :
+
+    Je me base sur l'article 6 du document qui indique que "Le rythme régulier du télétravail ne peut pas dépasser 2 jours maximum flottants par semaine". Donc, un employé/travailleur/salarié/collaborateur peut télétravailler régulièrement jusqu'à 2 jours par semaine.

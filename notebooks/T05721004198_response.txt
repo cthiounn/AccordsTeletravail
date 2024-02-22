@@ -1,14 +1,15 @@
 Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail est limité à 2 jours maximum par semaine dans le respect des conditions suivantes..." (Document(page\_content="ARTICLE 3-2 - Fréquence et nombre de jours de télétravail...", metadata={'source': 'T05721004198.txt'}))
-* "La nouvelle organisation du travail est soumise à une période d'adaptation de 2 mois pendant laquelle chacune des parties peut librement mettre fin au télétravail, à condition de respecter un délai de prévenance de 15 jours calendaires." (Document(page\_content="ARTICLE 16-1 - Période d'adaptation...", metadata={'source': 'T05721004198.txt'}))
+    * ARTICLE 3-2 - Fréquence et nombre de jours de télétravail
+      Le télétravail est limité à 2 jours maximum par semaine dans le respect des conditions suivantes...
 
-Ma réponse :
+* Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=2
+    * nombrejourdeteletravailmaxparsemaine=2
 
-Mon raisonnement :
+* Mon raisonnement :
 
-* Dans le premier paragraphe, il est clairement stipulé que le télétravail est limité à 2 jours maximum par semaine.
-* Dans le deuxième paragraphe, il n'y a pas d'autres informations concernant le nombre de jours de télétravail par semaine.
+    * Les informations pertinentes sont contenues dans l'article 3-2.
+    * Le texte indique clairement que "Le télétravail est limité à 2 jours maximum par semaine".
+    * Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

@@ -1,8 +1,14 @@
-Q_TTSEM_NOMBRE:Extraction pertinente des documents :
-* "L’employeur confirme que le télétravail comme mode de travail régulier, n’est pas envisagé par Ecoburotic. Ceci pour les raisons régulièrement évoquées d’organisation et d’animation des équipes." (T59V21001164.txt)
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "L’employeur confirme que le télétravail comme mode de travail régulier, n’est pas envisagé par Ecoburotic. Ceci pour les raisons régulièrement évoquées d’organisation et d’animation des équipes." (Document ID 0, page_content)
+* "Cependant, l’employeur reconnaît que le télétravail est particulièrement utile et adapté à certaines situations, telles que pandémie, intempéries, situations particulières liées au collaborateur ou à l’entreprise." (Document ID 1, page_content)
 
 Ma réponse :
+
 * nombrejourdeteletravailmaxparsemaine=0
 
 Mon raisonnement :
-* Le document mentionne explicitement que le télétravail comme mode de travail régulier n’est pas envisagé par l’employeur. Par conséquent, il n’y a pas de nombre de jour de télétravail par semaine spécifié dans le document.
+
+* Dans les documents fournis, il n'y a pas d'information spécifique sur le nombre de jours de télétravail autorisés par semaine.
+* Les informations disponibles indiquent que le télétravail comme mode de travail régulier n'est pas envisagé par l'employeur, mais il est reconnu que le télétravail est utile et adapté à certaines situations.
+* Compte tenu de ces informations, je ne peux pas attribuer de valeur maximale à nombrejourdeteletravailmaxparsemaine.

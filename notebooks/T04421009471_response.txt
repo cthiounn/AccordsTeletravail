@@ -1,9 +1,9 @@
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
-* "A compter du x, suite to the employee's request, it has been defined that the employee can perform his professional activity by teleworking one or half day, up to X days per week."
-* "Three types of telework are distinguished, corresponding to the uses observed within the company: regular part-time telework (employee working remotely for a volume equivalent to a few days of their usual weekly work, each week); full-time regular telework (employee working remotely for a volume equivalent to all the days of their usual weekly work, each week); occasional telework (employee working remotely exceptionally)"
+* "Le télétravail régulier à temps partiel (salarié en télétravail pour un volume de jours équivalent à quelques jours de sa semaine habituelle de travail, chaque semaine)"
+* "Pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine."
 
 My response is:
+nombrejourdeteletravailmaxparsemaine=1
 
-* Ma réponse: nombrejourdeteletravailmaxparsemaine=X
-* Mon raisonnement: The first paragraph indicates that the employee can telework up to X days per week. Therefore, the maximum number of days of telework per week is X.
+My reasoning is that the document specifies that for part-time employees, the frequency of regular telework is limited to one day per week. Therefore, the maximum number of days an employee can telework regularly per week is 1.

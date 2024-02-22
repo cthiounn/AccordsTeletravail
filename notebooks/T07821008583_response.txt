@@ -1,11 +1,12 @@
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* "Le télétravail régulier débute par une période d’adaptation d’une durée égale au quart de la durée convenue de télétravail, étant rappelé que celle-ci ne peut excéder 1 an." (Document id: 2)
+* "Dans le cadre du présent accord, le télétravail peut être régulier ou occasionnel et est défini comme suit : le télétravail « régulier » peut être à temps plein ou à temps partiel et suppose la conclusion d’un avenant au contrat de travail, pour une durée déterminée qui ne peut être supérieure à 1 an" (Document id: 1)
 
-* "Le choix du jour de télétravail est à l’initiative du salarié, sous réserve de l’accord du supérieur hiérarchique."
-* "Les jours de télétravail régulier et occasionnel ne se cumulent pas au cours d’un même mois."
-* "Le salarié disposera d’un volume de 94 jours de télétravail occasionnel par an"
-
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=5
+Ma réponse après raisonnement ci-dessous :
+* nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
-Le document mentionne que le choix du jour de télétravail est à l'initiative du salarié, sous réserve de l'accord du supérieur hiérarchique. Cependant, il ne précise pas de limite hebdomadaire pour le télétravail régulier. En revanche, il est mentionné que le salarié dispose d'un volume de 94 jours de télétravail occasionnel par an, mais cela ne concerne pas le télétravail régulier. Comme le télétravail régulier et occasionnel ne se cumulent pas au cours d'un même mois, nous pouvons supposer qu'il n'y a pas de limite hebdomadaire pour le télétravail régulier. De plus, il n'y a aucune mention de jour de présence minimum sur site, donc si le télétravail à 100% ou le full-remote est autorisé, alors le nombre maximal de jours de télétravail par semaine est de 5.
+* D'après le document id: 1, le télétravail régulier peut être à temps plein ou à temps partiel et suppose la conclusion d’un avenant au contrat de travail, pour une durée déterminée qui ne peut être supérieure à 1 an.
+* D'après le document id: 2, la période d’adaptation n’est applicable que pour les avenants au contrat d’une durée supérieure ou égale à 1 mois. Au cours de cette période, l'employeur ou le salarié peuvent décider, unilatéralement, de mettre fin à la situation de télétravail moyennant un délai de prévenance.
+* Donc, le télétravail régulier peut aller jusqu'à une durée de 1 an, ce qui correspond à 5 jours par semaine (car 52 semaines x 5 jours = 260 jours, or 1 an = 260 jours ouvrés).
+* Comme le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.

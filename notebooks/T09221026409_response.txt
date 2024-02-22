@@ -1,6 +1,6 @@
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Tout salarié éligible peut bénéficier, selon ses souhaits, de 2 ou 3 jours de télétravail par semaine"
+* "Tout salarié éligible peut bénéficier, selon ses souhaits, de 2 ou 3 jours de télétravail par semaine (sans cumul d’une semaine sur l’autre)"
 * "Chaque salarié peut faire une demande afin d’être inscrit comme télétravailleur via le workflow dédié à cet effet. Il y indique le nombre de jours souhaités (2 ou 3)"
 
 Ma réponse après raisonnement ci-dessous :
@@ -9,6 +9,6 @@ Ma réponse après raisonnement ci-dessous :
 
 Mon raisonnement :
 
-* Les paragraphes indiquent clairement que les salariés peuvent bénéficier de 2 ou 3 jours de télétravail par semaine.
-* Il n'y a pas d'autres mentions de fréquence de télétravail dans les autres paragraphes.
-* Il n'y a pas de mention de télétravail à 100% ou de full-remote avec absence de jour de présence minimum sur site.
+* Les paragraphes indiquent clairement que le nombre maximum de jours de télétravail par semaine est de 3.
+* Cette information est confirmée par la possibilité offerte aux salariés de demander 2 ou 3 jours de télétravail par semaine.
+* Il n'y a pas d'indication d'une possibilité de télétravail à 100% ou de full-remote sans jour de présence minimum sur site, donc la variable nombrejourdeteletravailmaxparsemaine est affectée à la valeur de 3.

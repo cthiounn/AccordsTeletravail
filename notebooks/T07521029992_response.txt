@@ -1,10 +1,10 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:
+* Extraits pertinents des documents :
 
-* "Les salariés n’ont pas d’obligation d’utiliser chaque semaine tous les jours de télétravail dont ils disposent."
-* "Si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu’il n’y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine!"
+    * "Les salariés n’ont pas d’obligation d’utiliser chaque semaine tous les jours de télétravail dont ils disposent. Par ailleurs, les salariés ne peuvent reporter les journées non télétravaillées au cours d’une semaine sur la semaine suivante afin de cumuler plus de jours de télétravail sur une autre semaine."
+    
+    * "La charge de travail à domicile doit correspondre au volume de travail effectué lorsque le salarié travaille dans les locaux du CNM, de sorte que le télétravail doit être sans incidence sur la durée du travail du collaborateur. Ainsi, le télétravailleur, quelle que soit la durée de travail (aménagement du temps de travail ou convention individuelle de forfait jours) fixée par son contrat de travail, respectera ses dispositions contractuelles notamment en ce qui concerne le repos hebdomadaire et quotidien."
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=5
+* Ma réponse : nombrejourdeteletravailmaxparsemaine=0
 
-Mon raisonnement :
-Après examen des documents fournis, je n'ai trouvé aucune information spécifiant le nombre maximal de jours de télétravail par semaine, sauf dans le cas où le télétravail à 100% ou le full-remote est autorisé et qu'il n'y a pas de jour de présence minimum sur site. Dans ce cas, d'après la règle 2.E, un employé peut télétravailler 5 jours par semaine. Comme il s'agit de la seule information pertinente et explicite sur le sujet, je conclus que nombrejourdeteletravailmaxparsemaine vaut 5.
+* Mon raisonnement : Les documents fournis ne contiennent aucune information spécifique sur le nombre maximal de jours de télétravail par semaine, sauf l'affirmation que les salariés ne sont pas tenus d'utiliser tous les jours de télétravail disponibles chaque semaine et qu'ils ne peuvent pas reporter les jours non utilisés à la semaine suivante. De plus, il est mentionné que la charge de travail à domicile doit correspondre au volume de travail effectué en présentiel, sans indication d'une limite hebdomadaire spécifique pour le télétravail.

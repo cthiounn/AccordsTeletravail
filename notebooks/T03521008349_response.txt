@@ -1,16 +1,9 @@
-Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    * "Qu’il soit régulier ou occasionnel, par principe, le télétravail est limité à deux journées par semaine." (T03521008349.txt)
-    
-    * "Il est précisé que le manager peut identifier des jours et/ou semaines pendant lesquels le télétravail est exclu en raison de l’organisation de l’activité" (T03521008349.txt)
+* "Qu’il soit régulier ou occasionnel, par principe, le télétravail est limité à deux journées par semaine." (Document(page\_content="De manière à maintenir le lien social, la cohésion et le bon fonctionnement des services mais aussi afin de prévenir l'isolement du télétravailleur, le nombre de jours en télétravail est limité.\nQu’il soit régulier ou occasionnel, par principe, le télétravail est limité à deux journées par semaine. Il est également possible d’étendre à plus de jours de télétravail par semaine pour des raisons ponctuelles et exceptionnelles avec l’accord du directeur concerné. Afin d’éviter un déplacement, le télétravail en demi-journée ne sera possible que s’il est accolé à un demi-congé ou un demi-repos, sauf demandes exceptionnelles.\nÀ cet effet, l’organisation du télétravail (la fréquence et la répartition des jours télétravaillés) au sein de chaque service est de la responsabilité du chef de service.", metadata={'id': 0,'relevance\_score': 0.93815535}))
 
-* Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=2
 
-    * nombrejourdeteletravailmaxparsemaine=2
-
-* Mon raisonnement :
-
-    * Dans le premier paragraphe extrait, il est clairement stipulé que le télétravail, qu'il soit régulier ou occasionnel, est limité à deux journées par semaine.
-    * Dans le deuxième paragraphe, il est mentionné que le manager peut identifier des jours et/ou semaines pendant lesquels le télétravail est exclu, mais cela ne mentionne pas une limitation supérieure à deux jours par semaine.
-    * Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 2.
+Mon raisonnement :
+Le paragraphe extrait stipule clairement que "le télétravail est limité à deux journées par semaine", sans distinction entre télétravail régulier et occasionnel. Par conséquent, je peux affirmer que le nombre maximal de jours de télétravail par semaine est de 2, ce qui correspond à la variable nombrejourdeteletravailmaxparsemaine.

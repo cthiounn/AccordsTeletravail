@@ -1,11 +1,9 @@
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
-
-* "Les jours de télétravail seront fixés selon les modalités suivantes : **un jour maximum par semaine**."
-
-Ma réponse :
-
-* nombrejourdeteletravailmaxparsemaine=1
-
-Mon raisonnement :
-
-* J'ai identifié dans le document une indication claire et unique du nombre maximal de jours de télétravail par semaine, qui est de un jour.
+Q_TTSEM_NOMBRE:
+* Extraits pertinents :
+    * "Les jours de télétravail seront fixés selon les modalités suivantes : un jour maximum par semaine." (Document id 0)
+    * "Les prérequis sont analysés dans le formulaire en annexe." (Document id 4)
+    * "Le télétravailleur devra affecter un espace de son domicile à l’exercice du télétravail où il aura l’équipement nécessaire à l’activité professionnelle à distance. Le télétravailleur doit s'engager à ce que cet espace de travail soit adapté à l'exercice du télétravail. Les prérequis sont analysés dans le formulaire en annexe." (Document id 2)
+* Ma réponse :
+    * nombrejourdeteletravailmaxparsemaine=1
+* Mon raisonnement :
+    * Dans le premier extrait, il est clairement stipulé qu'un maximum d'un jour de télétravail par semaine est autorisé. Bien que les prérequis soient analysés dans le formulaire en annexe, rien dans les documents ne suggère qu'il existe des exceptions permettant plus d'un jour de télétravail par semaine.

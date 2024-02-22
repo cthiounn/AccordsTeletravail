@@ -1,10 +1,14 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Le télétravail régulier prend la forme d’un forfait mensuel de jours télétravaillés selon les deux modalités suivantes... 6 jours de télétravail par mois maximum, accessible à tous les salariés éligibles" (Source : T02121003243.txt)
-    * "La charge de travail, les objectifs de production et les résultats exigés du télétravailleur doivent être équivalents à ceux des salariés en situation comparable travaillant dans les locaux de l'entreprise... Les dispositions notamment relatives à la durée maximale quotidienne, aux durées maximales hebdomadaires, au temps de repos, au temps de pause et au décompte des heures de travail s’appliquent ainsi que celles concernant les salariés en forfait jours." (Source : T02121003243.txt)
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine = 3
+* Article 3 – Fréquence du télétravail régulier : « Le télétravail régulier prend la forme d’un forfait mensuel de jours télétravaillés selon les deux modalités suivantes… 6 jours de télétravail par mois maximum, accessible à tous les salariés éligibles… 8 jours de télétravail par mois maximum… »
+* Document(page\_content='Par exception au principe du double volontariat et conformément aux dispositions légales en vigueur, il est précisé qu’en cas de circonstances exceptionnelles, le télétravail pourra être imposé par l’employeur à l’ensemble de l’effectif, conformément à l’article L. 1222-11 du code du travail...' : cet article ne contient pas d'information utile pour la question posée.
 
-* Mon raisonnement :
-    * D'après le premier extrait, le télétravail régulier peut aller jusqu'à 6 jours par mois, ce qui représente 6/4=1.5 jour par semaine en moyenne. Cependant, le deuxième extrait précise que la durée maximale hebdomadaire de travail est de 48 heures, et que le télétravailleur doit respecter les mêmes durées maximales que les autres salariés. Or, il est impossible de travailler plus de 5 jours par semaine, même en télétravail. Par conséquent, le nombre maximal de jours de télétravail par semaine est limité à 5, mais le télétravail régulier ne peut excéder 1.5 jour par semaine en moyenne.
+Ma réponse :
+
+* nombrejourdeteletravailmaxparsemaine = 6
+
+Mon raisonnement :
+
+* Je me suis basé sur l'extraction du paragraphe pertinent de l'article 3 pour conclure que le nombre maximum de jours de télétravail par semaine est de 6, car 6 jours par mois correspondent à environ 1,5 jours par semaine (6/30*5).
+* J'ai exclu l'option du télétravail à 100% ou full-remote car l'article 3 précise que le télétravail régulier est sous forme de forfait mensuel de jours télétravaillés, et non pas une possibilité illimitée de télétravail.

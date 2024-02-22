@@ -1,8 +1,10 @@
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
-* "Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine" (Document(page\_content='3.3 - Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine, et à 10 jours par mois. Les jours télé-travaillés ne sont ni cumulables ni reportables d’un mois sur l’autre....', metadata={'source': 'T05121003407.txt'}))
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes max pertinents provenant des documents à analyser :
+
+* "3.3 - Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine, et à 10 jours par mois. Les jours télé-travaillés ne sont ni cumulables ni reportables d’un mois sur l’autre."
+* "5.1 - Le médecin peut prescrire des augmentations ou réductions de droit individuel à télé-travailler dans le cadre des règles propres à l’exercice de son art."
 
 Ma réponse :
-* nombrejourdeteletravailmaxparsemaine=4
+nombrejourdeteletravailmaxparsemaine=4
 
 Mon raisonnement :
-* Le document mentionne explicitement que les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine.
+En analysant le premier paragraphe, je vois que le nombre maximum de jours de télétravail par semaine est de 4. Je ne trouve pas dans les documents d'information permettant de conclure que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué, donc je ne modifie pas la valeur de nombrejourdeteletravailmaxparsemaine.

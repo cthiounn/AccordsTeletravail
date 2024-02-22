@@ -1,18 +1,14 @@
 Q_TTSEM_NOMBRE:
 * Deux paragraphes pertinents provenant des documents à analyser :
 
-    Article 4 : Repos hebdomadaire et travail les dimanches et jours fériés
-
-    > Chaque salarié bénéficie d'au moins un jour de repos fixe dans la semaine. En raison de l'activité de la structure, un salarié peut être amené à travailler le dimanche et/ou les jours fériés selon les articles L. 3132-12 et R. 3132-5 du code du travail.
-    
-    Article 4 : Télétravail
-
-    > Les parties conviennent d’un maximum de 2 jours par semaine.
+    Article 4 : Télétravail
+    Les parties signataires examinent, au cas par cas, les demandes de salarié(e)s pour les postes où cette organisation est possible (nature du travail et mise en œuvre). (Articles L.1222-9 à L.1222-11du code du travail).
+    Pour conserver une cohésion d’équipe au sein de l’établissement, les parties conviennent d’un maximum de 2 jours par semaine.
 
 * Ma réponse :
 
-    nombrejourdeteletravailmaxparsemaine = 2
+    nombrejourdeteletravailmaxparsemaine=2
 
 * Mon raisonnement :
 
-    Dans le paragraphe "Article 4 : Télétravail", il est explicitement mentionné que les parties conviennent d'un maximum de 2 jours par semaine pour le télétravail.
+    Dans le paragraphe pertinent, il est clairement stipulé qu'un maximum de 2 jours de télétravail par semaine est convenu pour conserver une cohésion d'équipe. Cette information correspond aux critères demandés, elle est donc utilisable pour répondre à la question.

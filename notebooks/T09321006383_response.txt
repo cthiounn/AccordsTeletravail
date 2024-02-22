@@ -1,9 +1,16 @@
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+Q_TTSEM_NOMBRE:
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "La mise en place du «télétravail à 100%» fera l’objet d’une convention de télétravail (Annexe 2). Celle-ci définit notamment le lieu d’exercice des fonctions du collaborateur, à savoir son domicile,"
-* "Les collaborateurs concernés par le recours au «télétravail à 100%» bénéficieront d’une indemnité journalière forfaitaire par jour travaillé en télétravail basée sur le Barème URSSAF en vigueur au moment de la demande (à la date de la signature du présent accord l’indemnité est de 6,70 €)."
+    * "La mise en place du « télétravail à 100% » fera l’objet d’une convention de télétravail (Annexe 2). Celle-ci définit notamment : le lieu d’exercice des fonctions du collaborateur, à savoir son domicile"
+    
+    * "Dans le cadre du confinement, ENGIE Entreprises & Collectivités s’est doté d’une charte des bonnes pratiques. Fort du retour d’expérience de plusieurs mois de télétravail continu, il sera procédé à la mise à jour annuelle de cette charte avec les membres de la CSSCT."
 
-My response is:
-nombrejourdeteletravailmaxparsemaine=5
+* Ma réponse après raisonnement :
 
-My reasoning is that the document mentions positively the Télétravail à 100%, or the full-remote, and there is no mention of any day of presence minimum on site. Therefore, according to instruction 2.E, 5 days of telework is possible per week.
+    * nombrejourdeteletravailmaxparsemaine=5
+
+* Mon raisonnement :
+
+    * Selon le premier paragraphe, il existe une convention de télétravail qui définit le lieu d'exercice des fonctions du collaborateur à son domicile. Cependant, rien n'est mentionné quant au nombre de jours de télétravail par semaine.
+    
+    * Selon le deuxième paragraphe, il est fait mention de plusieurs mois de télétravail continu, ce qui implique que le télétravail à 100% est autorisé. De plus, il n'est pas fait mention de jour de présence minimum sur site. Par conséquent, en appliquant les instructions données, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.

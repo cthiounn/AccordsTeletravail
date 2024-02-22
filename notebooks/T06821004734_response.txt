@@ -1,11 +1,9 @@
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+Q_TTSEM_NOMBRE:Extraction pertinente des documents :
+* "Le nombre maximal de jours de télétravail est fixé annuellement et de façon forfaitaire. Il est également pondéré en fonction du temps de travail de chaque salarié comme suit : Nombre de jours calculé sur la base d’une moyenne de 3 jours de télétravail par mois et par équivalent temps plein, sur 10 mois à l’année (déduction faite des 5 semaines de congés payés, des jours de crédit d’heures, de réunion d’équipe et de formation)."
+* "Afin de maintenir un lien suffisant entre le salarié et le groupement, le télétravailleur doit se rendre sur site, dans son bureau de rattachement, au moins 1 jour par semaine pour un salarié à temps plein, et 1 jour par quinzaine en moyenne pour un salarié à temps partiel."
 
-* "Le nombre maximal de jours de télétravail est fixé annuellement et de façon forfaitaire. Il est également pondéré en fonction du temps de travail de chaque salarié comme suit: Nombre de jours calculé sur la base d’une moyenne de 3 jours de télétravail par mois et par équivalent temps plein, sur 10 mois à l’année (déduction faite des 5 semaines de congés payés, des jours de crédit d’heures, de réunion d’équipe et de formation)."
-* "En aucun cas le télétravail ne doit modifier, à la hausse ou à la baisse, les missions, les activités habituelles du collaborateur, ses objectifs et le nombre d’heures de travail. En effet, le recours au télétravail est sans incidence sur la charge de travail du salarié."
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=3
 
-My response is:
-
-* nombrejourdeteletravailmaxparsemaine=3
-
-My reasoning is:
-The first paragraph states that the number of days of telework is calculated based on a monthly average of 3 days per full-time equivalent employee over 10 months of the year. This implies that there are approximately 30 days of telework allowed per year, which equates to an average of 2.5 days per month or about 0.6 days per week. However, since the number of days of telework can vary depending on the employee's schedule and workload, it is difficult to determine an exact maximum number of days per week. Therefore, I will use the value of 3 days per week as an approximation, but this may not be the absolute maximum limit. The second paragraph does not provide any additional information regarding the maximum number of days of telework per week.
+Mon raisonnement :
+Le premier paragraphe indique que le nombre de jours de télétravail est calculé sur la base d'une moyenne de 3 jours par mois et par équivalent temps plein, sur 10 mois dans l'année. Cela correspond à une moyenne de 0,5 jour par semaine. Le deuxième paragraphe indique qu'un salarié à temps plein doit se rendre sur site au moins 1 jour par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3 - 1 = 2 jours.

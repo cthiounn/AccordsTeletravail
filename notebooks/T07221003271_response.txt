@@ -1,6 +1,8 @@
-Q_TTSEM_NOMBRE:* Extraction pertinente du document :
-    * "Il n'y a pas d'extraction pertinente du document fourni car il ne contient aucune information relative au nombre de jours de télétravail autorisés par semaine."
-* Ma réponse :
-    * "nombrejourdeteletravailmaxparsemaine=0"
-* Mon raisonnement :
-    * Après examen attentif du document fourni, je n'ai trouvé aucune information spécifique concernant le nombre de jours de télétravail autorisés par semaine. Par conséquent, en appliquant les règles fournies, je dois renvoyer la valeur 0 pour la variable 'nombrejourdeteletravailmaxparsemaine'.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* Document(page\_content='AVENANT A L'ACCORD LOCAL SUR LE TELETRAVAIL PENDULAIRE DU 7 JANVIER 2021', metadata={'id': 0,'relevance\_score': 0.63726944})
+
+Ma réponse après raisonnement ci-dessous :
+* nombrejourdeteletravailmaxparsemaine=0
+
+Mon raisonnement :
+* Après avoir analysé les documents fournis, je n'ai pas trouvé de paragraphe contenant le mot-clé « semaine » ou une notion de fréquence par semaine concernant le nombre de jours de télétravail autorisés. De plus, rien n'indique que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué sans jour de présence minimum sur site. Par conséquent, je ne peux pas attribuer de valeur maximale à la variable nombrejourdeteletravailmaxparsemaine.

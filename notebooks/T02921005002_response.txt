@@ -1,9 +1,10 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Le télétravail tel que défini ci-dessus s’organise chez SWM par journée ou par demi-journée, sous réserve de respecter une obligation de 2 jours de présence par semaine minimum sur le site de rattachement habituel." (Source: T02921005002.txt)
-* "Il est proposé via une formule de télétravail à jours fixes ou flexibles, le choix de la formule s’effectuant en concertation entre le télétravailleur et le manager selon les besoins liés à l’activité." (Source: T02921005002.txt)
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=2
+* "Le télétravail occasionnel ou thérapeutique sont régis par les mêmes critères d’éligibilité mais ne donnent pas lieu aux mêmes modalités que le télétravail régulier"
+* "Il est proposé via une formule de télétravail à jours fixes ou flexibles, le choix de la formule s’effectuant en concertation entre le télétravailleur et le manager selon les besoins liés à l’activité."
+
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
-Selon le premier paragraphe, le télétravail s'organise par journée ou demi-journée, mais sous réserve de respecter une obligation de 2 jours de présence par semaine minimum sur le site de rattachement habituel. Par conséquent, le nombre maximum de jour de télétravail par semaine est de 5 - 2 = 3 jours. Cependant, le deuxième paragraphe indique que le télétravail est proposé via une formule de télétravail à jours fixes ou flexibles, le choix de la formule s'effectuant en concertation entre le télétravailleur et le manager selon les besoins liés à l'activité. Cette information ne permet pas de déterminer si le nombre de jour de télétravail par semaine peut être supérieur à 3. Néanmoins, comme il n'y a pas d'autres informations permettant de revoir ce résultat, je maintiens ma réponse à nombrejourdeteletravailmaxparsemaine=2.
+Après avoir lu attentivement les documents fournis, je n'ai pas trouvé de mention explicite du nombre de jours de télétravail autorisés par semaine. Cependant, d'après le paragraphe "Le télétravail occasionnel ou thérapeutique sont régis par les mêmes critères d’éligibilité mais ne donnent pas lieu aux mêmes modalités que le télétravail régulier", nous pouvons déduire que le télétravail régulier implique une certaine fréquence hebdomadaire. De plus, le paragraphe "Il est proposé via une formule de télétravail à jours fixes ou flexibles, le choix de la formule s’effectuant en concertation entre le télétravailleur et le manager selon les besoins liés à l’activité." suggère que le télétravail régulier peut être pratiqué plusieurs jours par semaine. Compte tenu des instructions données, et en particulier de la règle 2G, je conclus que le nombre maximum de jours de télétravail par semaine est de 5.

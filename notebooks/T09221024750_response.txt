@@ -1,8 +1,14 @@
-Q_TTSEM_NOMBRE:
-* Extraction pertinente du document :
-    * "Le nombre de jours de télétravail par semaine est de 2" (Article 6-1)
-    * "Le télétravail est organisé selon un cadre hebdomadaire d’alternance de jours de présence sur site et de jours de travail hors site de travail habituel du collaborateur. Pour conserver un lien social et faciliter le fonctionnement des équipes : réunions d’équipes, entretiens individuels, ateliers projets, travaux qui ne peuvent être effectués en télétravail (impressions papier), une présence sur site obligatoire de 2 jours par semaine, a minima, est maintenue." (Article 5)
-* Ma réponse : nombrejourdeteletravailmaxparsemaine = 2
-* Mon raisonnement :
-    * Les articles 6-1 et 5 indiquent clairement que le nombre de jours de télétravail par semaine est de 2.
-    * Bien que l'article 7 évoque la possibilité d'organiser le télétravail jusqu'à 2 jours par semaine (et jusqu'à 3 ultérieurement), cela ne signifie pas que le maximum est plus élevé, car cela dépend des besoins spécifiques de chaque collaborateur. L'article 5 précise que la présence sur site obligatoire est de 2 jours par semaine, ce qui implique que le nombre maximum de jours de télétravail par semaine est de 2.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* Article 6-1 Nombre de jours de télétravail par semaine : "Le nombre de jours de télétravail par semaine est de 2"
+* Titre 2 Organisation du télétravail, Article 5 Alternance de jours de télétravail et de jours de présence sur site : "une présence sur site obligatoire de 2 jours par semaine, a minima"
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
+
+Mon raisonnement :
+
+* Les articles 6-1 et 5 indiquent clairement que le nombre de jours de télétravail par semaine est de 2.
+* L'article 5 précise qu'il y a une présence sur site obligatoire de 2 jours par semaine, a minima, ce qui signifie que le maximum de jours de télétravail par semaine est de 2.
+* Aucune information ne suggère qu'il existe une possibilité de télétravail à 100% ou de full-remote avec aucun jour de présence minimum sur site.

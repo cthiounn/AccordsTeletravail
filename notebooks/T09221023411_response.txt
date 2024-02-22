@@ -1,13 +1,13 @@
 Q_TTSEM_NOMBRE:
 * Deux paragraphes pertinents provenant des documents à analyser :
 
-    * "En tout état de cause, le télétravail ne peut être réalisé que par journées entières."
-    * "Afin de garantir la cohésion des équipes et de prévenir les situations d’isolement, le télétravail ne pourra être exercé que dans la limite de 75% du temps de travail effectif mensuel (en jours)."
+    * "Afin de garantir la cohésion des équipes et de prévenir les situations d'isolement, le télétravail ne pourra être exercé que dans la limite de 75% du temps de travail effectif mensuel (en jours)." (document ID 1)
+    * "Il pourra être demandé par le Responsable tout reporting utile au contrôle de l'activité du collaborateur : pour les fonctions de production : reporting identiques à ceux réalisés sur site," (document ID 7)
 
 * Ma réponse :
 
-    * nombrejourdeteletravailmaxparsemaine=3
+    * "nombrejourdeteletravailmaxparsemaine=3"
 
 * Mon raisonnement :
 
-    * Selon le deuxième paragraphe pertinent, le télétravail ne peut être exercé que dans la limite de 75% du temps de travail effectif mensuel, ce qui représente 3 jours par semaine (car 75% de 22 jours ouvrés par mois représentent environ 16,5 jours, or il n'est pas possible de faire 16,5 jours de télétravail par mois, donc on arrondit à l'inférieur, soit 16 jours, ce qui représente 3 jours de télétravail par semaine).
+    * Selon le document ID 1, le télétravail ne peut être exercé que dans la limite de 75% du temps de travail effectif mensuel, ce qui représente 3 jours par semaine car il y a 5 jours ouvrés dans une semaine. Cependant, le document ID 7 mentionne que des reporting peuvent être demandés par le responsable pour les fonctions de production, ce qui implique que les salariés peuvent travailler sur site. Cependant, cela ne change pas le fait que le télétravail ne peut excéder 3 jours par semaine.

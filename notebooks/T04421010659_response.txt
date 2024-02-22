@@ -1,10 +1,11 @@
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Afin de maintenir le lien social, la cohésion et le bon fonctionnement des équipes, l’entreprise établira des modalités spécifiques de fonctionnement propres à chacun des services avec l’indication des postes ouverts au télétravail et du nombre de jours de télétravail pouvant être effectué par semaine en cohérence avec les articles 3.1 et 3.2. du présent accord."
-* "Conformément à ces modalités, le planning du salarié bénéficiant du télétravail pourra prévoir soit une journée, soit au maximum deux journées, par semaine en situation de télétravail lorsque le salarié est à temps complet, et une seule journée par semaine en situation de télétravail lorsque que le salarié est à temps partiel avec une durée du travail supérieure ou égale à 80 %."
+* "Afin de maintenir le lien social, la cohésion et le bon fonctionnement des équipes, l’entreprise établira des modalités spécifiques de fonctionnement propres à chacun des services avec l’indication des postes ouverts au télétravail et du nombre de jours de télétravail pouvant être effectué par semaine en cohérence avec les articles 3.1 et 3.2. du présent accord." (Document id: 3)
 
-My response is:
+Ma réponse après raisonnement ci-dessous :
 
 * nombrejourdeteletravailmaxparsemaine=2
 
-My reasoning is that the documents state that the maximum number of days an employee can telework per week is two days, according to the company's specific policies and procedures established to maintain social links, team cohesion, and proper functioning.
+Mon raisonnement :
+
+* Les modalités spécifiques de fonctionnement des services de l'entreprise indiquent que le nombre de jours de télétravail pouvant être effectué par semaine est de 2.

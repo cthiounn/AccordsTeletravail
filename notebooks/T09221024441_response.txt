@@ -1,10 +1,10 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* "Le salarié qui remplit les critères d'éligibilité et qui souhaite bénéficier du télétravail en fait la demande par écrit (formulaire annexe 3.1 « Formulaire de demande de passage en télétravail partiel ») à son supérieur hiérarchique qui valide et organise les modalités de télétravail."
+* "Il est demandé par la Direction, que le manager et le salarié se concertent afin que la ou les journées de télétravail varient d’une semaine à l’autre afin de permettre de conserver une mixité sociale dans les établissements de l’entreprise."
 
-* "Le salarié propose s’il souhaite travailler un jour ou deux jours par semaine à son domicile" (Document(page\_content="Le salarié propose s’il souhaite travailler un jour ou deux jours par semaine à son domicile sachant que la répartition du temps de travail s’opère par journée entière.", metadata={'source': 'T09221024441.txt'}))
-* "Outre les demandes formulées à l’appui de préconisations de la médecine du travail, du respect des mesures prévus par l’article L.5213-6 du Code du Travail, les critères d’éligibilité du salarié en situation de handicap seront étudiés de la même manière que pour tout autre salarié de l’entreprise." (Document(page\_content='2.5 Modalités d’accès des travailleurs handicapés à une organisation en télétravail\nOutre les demandes formulées à l’appui de préconisations de la médecine du travail, du respect des mesures prévus par l’article L.5213-6 du Code du Travail, les critères d’éligibilité du salarié en situation de handicap seront étudiés de la même manière que pour tout autre salarié de l’entreprise.\n', metadata={'source': 'T09221024441.txt'}))
-
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=2
+Ma réponse après raisonnement ci-dessous :
+* nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
-Dans le premier paragraphe, il est mentionné que le salarié propose de travailler "un jour ou deux jours par semaine" à son domicile. Cependant, comme il est dit dans les instructions, je dois déconnecter les liens entre les périodicités, donc je ne peux pas considérer que deux jours par semaine est un maximum hebdomadaire. Mais dans le deuxième paragraphe, il n'y a pas d'autres mentions du nombre de jours de télétravail par semaine. Donc, je me base sur le premier paragraphe et je retourne nombrejourdeteletravailmaxparsemaine=2.
+* Les informations données ne permettent pas de déterminer un nombre exact de jours de télétravail par semaine, mais il est mentionné que le télétravail peut être demandé par le salarié et que la répartition du temps de travail s'opère par journée entière. De plus, il est demandé que la ou les journées de télétravail varient d'une semaine à l'autre.
+* Comme il est mentionné que le télétravail peut être demandé par le salarié et qu'il n'y a pas de mention de jour de présence minimum sur site, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5, car le télétravail à 100% ou le full-remote est autorisé.

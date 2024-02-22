@@ -1,12 +1,14 @@
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+Q_TTSEM_NOMBRE:
+* Extraits pertinents :
+    * "L’EPCC détermine le **nombre de jours télétravaillés par semaine** et la quotité de travail pouvant être exercée en télétravail." (Document(page\_content='3.2 – Nombre de jours télétravaillés', metadata={'id': 1,'relevance\_score': 0.9422767}))
+    * "Le télétravail volontaire est limité à **20 jours par an**." (Document(page\_content='2.3- Durée minimum et plafond de jours télétravaillés', metadata={'id': 0,'relevance\_score': 0.9315729}))
+    * "Le télétravail s’exerce dans les mêmes conditions et horaires que le travail au sein des locaux de l’EPCC." (Document(page\_content='2.4- Durée et aménagement du télétravail ', metadata={'id': 4,'relevance\_score': 0.92470485}))
+    * "Le télétravail s’effectue au domicile déclaré du.de la salarié.e ou dans un lieu de travail à distance, dès lors que ces lieux offrent un environnement propice au travail et à la concentration." (Document(page\_content='Enfin, toutes les mesures nécessaires seront prises par l’employeur afin d’éviter l’isolement du télétravailleur. ', metadata={'id': 5,'relevance\_score': 0.91712797}))
 
-* "Afin de préserver le lien social, la cohésion et le bon fonctionnement des équipes, le télétravail volontaire est limité à 20 days per year."
-* "The EPCC determines the number of days teleworked per week and the proportion of work that can be carried out through telework."
-
-My response is:
-
-* nombrejourdeteletravailmaxparsemaine=2
-
-My reasoning is:
-
-* The first paragraph indicates that the maximum number of days of telework per year is 20. Since there is no information about the distribution of these days over the weeks, I cannot directly answer the question about the maximum number of days of telework per week. However, since the total number of working days in a year is around 250 (5 days per week x 52 weeks), 20 days of telework per year represent approximately 8% of the total number of working days. Assuming a uniform distribution of these days over the weeks, this corresponds to 0.16 day of telework per week, i.e., around 0 or 1 day of telework per week. Therefore, I set the value of nombrejourdeteletravailmaxparsemaine to 2, which is the closest integer to 0.16.
+* Ma réponse : nombrejourdeteletravailmaxparsemaine = 20
+* Mon raisonnement :
+    * Les extraits pertinents montrent que le nombre de jours télétravaillés par semaine n'est pas explicitement mentionné dans le document.
+    * Cependant, il est dit que le télétravail volontaire est limité à 20 jours par an.
+    * Comme il n'y a pas de mention d'un nombre maximum de jours de télétravail par semaine, je suppose que le nombre de jours de télétravail par semaine n'est pas limité explicitement.
+    * Mais, comme le télétravail volontaire est limité à 20 jours par an, le nombre maximum de jours de télétravail par semaine est donc de 20/52 = 0,38, soit environ 4 jours par semaine.
+    * Donc, nombrejourdeteletravailmaxparsemaine = 4.

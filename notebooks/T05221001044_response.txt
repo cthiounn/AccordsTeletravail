@@ -1,9 +1,8 @@
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* "Le télétravail pourra s’exercer dans la limite de deux journées par semaine complète de travail, sans cumul ni report." (Document(page\_content='Assistance technique\n\nLe télétravailleur informe immédiatement la société en cas de panne, mauvais fonctionnement, détérioration, perte ou vol du matériel mis à disposition. \n\nSi nécessaire, un nouveau matériel sera fourni dans les meilleurs délais. \n\nIl est précisé que le télétravailleur qui rencontrera des problèmes techniques non inhérents à l’entreprise devra en informer son responsable hiérarchique dans les plus brefs délais, afin de déterminer les modalités de retour à l’entreprise ou le maintien en télétravail sur le reste de la journée.\nNombre de journées de télétravail  \n\nLe télétravail pourra s’exercer dans la limite de deux journées par semaine complète de travail, sans cumul ni report.'))
 
-* "Depuis 2016, le télétravail est possible pour le personnel cadre, sur la base d’un jour par semaine pour les membres du Comité de Direction, deux jours par mois pour les managers ne faisant pas partie du Comité de Direction et un jour par mois pour les cadres ne faisant pas partie des deux précédentes catégories."
-* "Le télétravail pourra s’exercer dans la limite de deux daynées par semaine complete of work, without cumul nor report."
+Ma réponse après raisonnement ci-dessous :
+* nombrejourdeteletravailmaxparsemaine = 2
 
-My response is:
-nombrejourdeteletravailmaxparsemaine=2
-
-My reasoning is that the first paragraph states that teleworking is possible for one day per week for certain employees and two days per month for others. The second paragraph also specifies that teleworking can be done for up to two days per week. Therefore, based on the information provided in the document, the maximum number of days an employee can telework regularly per week is two.
+Mon raisonnement :
+* Dans le document, il est stipulé que "Le télétravail pourra s’exercer dans la limite de deux journées par semaine complète de travail, sans cumul ni report." Cela signifie que le nombre maximum de jours de télétravail par semaine est de 2.

@@ -1,8 +1,13 @@
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
+Q_TTSEM_NOMBRE:Extraction pertinente des documents :
+* "Dans certaines situations, une certaine souplesse pourra être accordée pendant la période allant jusqu’à fin août, de l’ordre de jusqu’à 3 jours de télétravail par semaine"
 * "Un minimum de 3 jours par semaine calendaire au bureau sera observé. Ainsi, entre un et deux jours par semaine de télétravail pourront être mis en place pour un salarié à temps plein."
+* "Les collaborateurs à temps partiel suivront la même règle d’une présence minimum de 3 jours calendaires par semaine au bureau, le reste du temps de travail pouvant être en télétravail"
 
 Ma réponse :
-* nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine = 2
 
 Mon raisonnement :
-* Le document mentionne explicitement que "entre un et deux jours par semaine de télétravail" sont possibles, donc le maximum de jours de télétravail par semaine est de 2.
+* Selon le premier paragraphe, une certaine souplesse permet un maximum de 3 jours de télétravail par semaine.
+* Selon le deuxième paragraphe, un salarié à temps plein peut bénéficier d'un maximum de 2 jours de télétravail par semaine.
+* Selon le troisième paragraphe, les salariés à temps partiel doivent être présents au moins 3 jours par semaine, donc ils peuvent télétravailler au maximum 2 jours par semaine.
+* Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

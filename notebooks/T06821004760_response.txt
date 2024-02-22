@@ -1,10 +1,15 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les dispositions du présent article ne remettent pas en cause la situation des salariés en télétravail total à la date des présentes (télétravail à 100 %), mais également la situation des télétravailleurs ayant pu bénéficier de 3 jours de télétravail par semaine de par les règles appliquées dans le précédent accord"
-* "d’une journée par semaine pour un salarié d’une ancienneté ≥ à 1an et ˂ à 2 ans, de 2 jours par semaine pour un salarié d’une ancienneté ≥ à 2 ans"
+    > "d’une journée par semaine pour un salarié d’une ancienneté ≥ à 1an et ˂ à 2 ans,
+de 2 jours par semaine pour un salarié d’une ancienneté ≥ à 2 ans"
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=2
+    > "Il est précisé qu’en cas d’absence du salarié, les journées de télétravail non effectuées par le collaborateur ne pourront pas donner lieu à un report."
 
-Mon raisonnement :
-Après avoir analysé les deux paragraphes pertinents, j'ai pu constater que le premier paragraphe évoque la possibilité de bénéficier de 3 jours de télétravail par semaine, tandis que le deuxième paragraphe précise que les salariés ayant une ancienneté supérieure à 1 an et inférieure à 2 ans ont droit à une journée de télétravail par semaine, et ceux ayant une ancienneté supérieure à 2 ans ont droit à deux jours de télétravail par semaine. Par conséquent, la limite maximale de jours de télétravail par semaine est de 2 jours.
+* Ma réponse après raisonnement :
+
+    nombrejourdeteletravailmaxparsemaine=2
+
+* Mon raisonnement :
+
+    Le premier paragraphe extrait indique clairement qu'un salarié d'ancienneté supérieure à 2 ans peut télétravailler 2 jours par semaine. Aucune autre information dans les documents fournis ne permet d'augmenter cette limite, donc je renvoie la valeur 2 pour la variable nombrejourdeteletravailmaxparsemaine.

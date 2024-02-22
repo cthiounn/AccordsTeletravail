@@ -1,10 +1,10 @@
-Q_TTSEM_NOMBRE:Two paragraphs relevant to the question from the documents are:
+Q_TTSEM_NOMBRE:Extraction pertinente du document :
+* "Le salarié pourra cumuler ses jours de télétravail sur un mois." (Article 4.2)
+* "Les journées de télétravail seront planifiées par le salarié au trimestre et soumis à la validation de son responsable sans dépasser trois jours de télétravail par semaine." (Article 4.2)
 
-* "Journée(s) of telework desired in the week"
-* "The employee can cumulate his days of telework on a month. The days of telework will be planned by the employee quarterly and subject to the validation of his manager without exceeding three days of telework per week."
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine = 3
 
-My response after reasoning is:
-nombrejourdeteletravailmaxparsemaine=3
-
-My reasoning is:
-The second paragraph states that the maximum number of telework days per week is three. Therefore, the value of nombrejourdeteletravailmaxparsemaine is 3.
+Mon raisonnement :
+* Les journées de télétravail sont planifiées par le salarié au trimestre et doivent être validées par le responsable.
+* Le nombre maximal de jours de télétravail par semaine est de trois.

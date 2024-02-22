@@ -1,10 +1,12 @@
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* "L’organisation du télétravail se réalise par demi-journées ou par jours entiers en accord avec …………….. et en référence à l’horaire de travail contractuel du salarié. [...] Le salarié doit être présent à minima quatre jours par semaine sur le lieu de travail incluant tous les motifs de non–présence sur le lieu de travail (absences de toute nature, formation, missions professionnelles, télétravail)"
-* "Dans tous les cas ne seront éligibles au télétravail que les salariés travaillant sur la base de cinq jours par semaine, l’absence sur le lieu habituel de travail ne pouvant être supérieur à un jour par semaine."
+* "L’organisation du télétravail se réalise par demi-journées ou par jours entiers en accord avec …………….. et en référence à l’horaire de travail contractuel du salarié. Dans tous les cas, l’organisation devra respecter deux règles cumulatives : Le total des jours télétravaillés dans un mois calendaire ne peut excéder deux jours." (Document(page\_content='L’organisation du télétravail se réalise par demi-journées ou par jours entiers en accord avec …………….. et en référence à l’horaire de travail contractuel du salarié....', metadata={'id': 0,'relevance\_score': 0.94092584}))
+* "L’organisation du télétravail est définie sur la base de ½ journée par semaine travaillée (soit 3,5h). L’organisation du télétravail peut se réaliser de manière hebdomadaire ou mensuelle." (Document(page\_content='Ne peuvent pas être éligibles au télétravail …………………. L’organisation du télétravail est définie sur la base de ½ journée par semaine travaillée (soit 3,5h)…. ', metadata={'id': 1,'relevance\_score': 0.9271991}))
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=1
+Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-Le premier paragraphe indique que le salarié doit être présent à minima quatre jours par semaine sur le lieu de travail. Cela signifie que le maximum de jours de télétravail par semaine est de 1 jour. Cette information est confirmée dans le deuxième paragraphe qui précise que les salariés éligibles au télétravail sont ceux travaillant sur la base de cinq jours par semaine, avec une absence sur le lieu de travail ne pouvant excéder un jour par semaine.
+
+* Les deux paragraphes pertinents montrent qu'il est possible de télétravailler deux jours par mois, et que l'organisation du télétravail peut se réaliser de manière hebdomadaire. Cependant, il n'y a pas de mention spécifique du nombre de jours de télétravail possibles par semaine.
+* Comme il n'y a pas de mention spécifique du nombre de jours de télétravail possibles par semaine, je ne peux pas affecter une valeur supérieure à 2 à la variable nombrejourdeteletravailmaxparsemaine.
+* De plus, il n'y a aucune mention du télétravail à 100% ou du full-remote dans les documents fournis, donc je ne peux pas affecter la valeur 5 à la variable nombrejourdeteletravailmaxparsemaine.

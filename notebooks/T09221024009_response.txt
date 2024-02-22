@@ -1,9 +1,9 @@
-Q_TTSEM_NOMBRE:Extraction pertinente des documents :
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Pour autant, les parties partagent le fait que les conditions ergonomiques ne sont pas autant satisfaisantes que sur le lieu de travail habituel au sein des locaux de l’entreprise."
-* "Les parties conviennent d’une participation d’IFP Training, sous la forme d’un remboursement de frais à hauteur de 80 euros TTC maximum pour l’achat d’un siège ergonomique ou d’une table-bureau, participation limitée à une fois par salarié."
+* "La Direction et l’Organisation syndicale ont constaté que cette organisation du travail allait perdurer sur une partie de l’année 2021."
 
-Ma réponse :
-* nombrejourdeteletravailmaxparsemaine=0
+Ma réponse après raisonnement ci-dessous :
+Ma réponse : nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
-* Les documents fournis ne contiennent aucune information sur le nombre de jours de télétravail autorisés par semaine, ni aucune mention de télétravail à 100% ou de full-remote avec absence de jour de présence minimum sur site.
+Selon le premier paragraphe, les conditions ergonomiques ne sont pas satisfaisantes pour le télétravail, ce qui implique que le télétravail n'est pas la norme pour les salariés. De plus, selon le deuxième paragraphe, la direction et l'organisation syndicale ont constaté que le télétravail allait perdurer sur une partie de l'année 2021, ce qui suggère que le télétravail n'est pas permanent mais plutôt occasionnel ou ponctuel. Cependant, il est important de noter que le document ne contient aucune information spécifique sur le nombre de jours de télétravail autorisés par semaine. Par conséquent, en appliquant les règles 2E et 2G, je peux affecter la valeur maximale de télétravail par semaine, qui est de 5 jours, à la variable nombrejourdeteletravailmaxparsemaine.

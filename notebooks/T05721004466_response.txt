@@ -1,10 +1,10 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:
+* Extraits pertinents :
+    * "ARTICLE 4 - MISE EN PLACE DU TELETRAVAIL A TITRE EXCEPTIONNEL [...] Il est précisé que le télétravail occasionnel ne constitue pas en soi un élément essentiel du contrat."
+    * "ARTICLE 3 -  ADAPTATION DES MODALITES D’ORGANISATION DES REUNIONS [...] Cette orientation s’est notamment concrétisée par la prévision des indications de modalités de connexion à distance dans les invitations ; dans la sensibilisation des salariés aux comportements facilitant le bon déroulement des réunions à distance (et en particulier pour les réunions mêlant participants en présentiel et à distance)."
 
-* ARTICLE 4 - MISE EN PLACE DU TELETRAVAIL A TITRE EXCEPTIONNEL : "Il est précisé que le télétravail occasionnel ne constitue pas en soi un élément essentiel du contrat."
-* AUCUN AUTRE PARAGRAPHE pertinent provenant des autres documents à analyser ne mentionne le nombre de jours de télétravail maximum par semaine.
+* Ma réponse :
+    * nombrejourdeteletravailmaxparsemaine=0
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=0
-
-Mon raisonnement :
-Après avoir analysé tous les documents fournis, je n'ai trouvé aucune information spécifiant le nombre de jours maximum de télétravail par semaine, sauf dans le paragraphe ARTICLE 4 - MISE EN PLACE DU TELETRAVAIL A TITRE EXCEPTIONNEL qui mentionne que le télétravail occasionnel ne constitue pas un élément essentiel du contrat. Par conséquent, en l'absence d'autres informations, je dois affecter la variable 'nombrejourdeteletravailmaxparsemaine' à 0.
+* Mon raisonnement :
+    * Les extraits pertinents ne contiennent aucune information sur le nombre de jours de télétravail autorisés par semaine. De plus, ils mentionnent explicitement que le télétravail est mis en place de manière exceptionnelle et occasionnelle, ce qui correspond au télétravail occasionnel mentionné dans les instructions. Par conséquent, je ne peux pas fournir de réponse concernant le nombre de jours de télétravail réguliers autorisés par semaine.

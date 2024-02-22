@@ -1,8 +1,9 @@
-Q_TTSEM_NOMBRE:
-* Extraits pertinents :
-    * "Le salarié ne pourra pas exercer... plus de 2 journées de télétravail par semaine"
-    * "La planification de la journée de télétravail est réalisée... par le biais de l’outil LSRH et ce afin de permettre à tous une organisation optimum. Cette planification tient compte de la nécessité de maintien du lien social et le bon fonctionnement du service. Dans ce cadre, le responsable d’équipe peut décider d’une journée, a minima, de présence par semaine de l’ensemble de son équipe sur le lieu de travail habituel."
-* Réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
-* Raisonnement :
-    * Selon le premier extrait, le salarié ne peut pas exercer plus de 2 journées de télétravail par semaine. Par conséquent, la variable nombrejourdeteletravailmaxparsemaine est affectée à la valeur 2.
+Q_TTSEM_NOMBRE:Extraction pertinente du document :
+* "les parties au présent accord d’entreprise conviennent qu’en tout état de cause le salarié ne pourra pas exercer plus de 2 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme d’une journée maximum de télétravail"
+* "Les parties au présent accord retiennent la formule de télétravail suivante pour le personnel dont les postes sont éligibles conformément à l’article 2-1-2 : rythme de télétravail de 2 jours au maximum par semaine et par salarié."
+
+Ma réponse :
+* nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+* J'ai trouvé deux occurrences où le nombre de jours de télétravail par semaine est mentionné dans le document. Dans les deux cas, il est mentionné que le nombre maximum de jours de télétravail par semaine est de 2.

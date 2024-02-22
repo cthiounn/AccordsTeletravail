@@ -1,9 +1,13 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "ARTICLE 4 – RYTHME DU TELETRAVAIL Ayant pris la pleine mesure des impacts de ce dispositif sur l’esprit d’équipe et la qualité de la communication interpersonnelle, tout en ayant la volonté d’adapter l’organisation de l’entreprise aux méthodes d’organisation du travail modernes, l’employeur a décidé de limiter le télétravail à domicile à 4 jours par mois pour les personnes à temps plein."
+Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=1
+    * "Les 4 journées de télétravail mensuelles autorisées seront à répartir de la façon suivante : 1 jour de télétravail fixe par semaine calendaire, déterminé en accord avec le manager." (Document id=3)
+    
+    * "Le télétravail sera effectué exclusivement au domicile habituel du salarié, dont l’adresse a été déclarée au service des Ressources Humaines. Il appartient au salarié de vérifier auprès de son assurance habitation que la pratique du télétravail n’est pas exclue du périmètre de son assurance. Le cas échéant, l’entreprise pourra demander au salarié une attestation d’assurance habitation multirisques, stipulant que cette assurance n’exclut pas cette activité à domicile. Suite à ce present accord et en acceptant de signer l’avenant à son contrat de travail relatif au télétravail, le salarié atteste sur l’honneur que son logement offre des conditions d’exercice du télétravail adéquats." (Document id=8)
 
-Mon raisonnement :
-* Les informations contenues dans le document indiquent que le télétravail est limité à 4 jours par mois pour les personnes à temps plein.
-* Compte tenu de la règle 2.G, qui stipule qu'un nombre de jour de télétravail par semaine ne peut pas être strictement supérieur à cinq, et de la règle 2.E, qui stipule que si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine, je conclus que le nombre maximum de jours de télétravail par semaine est 1.
+* Ma réponse après raisonnement ci-dessous :
+
+    * nombrejourdeteletravailmaxparsemaine=1
+
+* Mon raisonnement :
+
+    * Les informations contenues dans les documents montrent qu'un salarié peut effectuer 1 jour de télétravail par semaine. Cependant, il n'est pas précisé s'il s'agit d'une limite stricte ou non. De plus, il n'est pas précisé si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué. Par conséquent, je ne peux pas affirmer avec certitude que le nombre maximum de jours de télétravail par semaine est de 1. Néanmoins, je peux affirmer que, selon les informations disponibles, le nombre maximum de jours de télétravail par semaine est de 1.

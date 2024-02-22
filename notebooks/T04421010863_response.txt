@@ -1,16 +1,10 @@
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents:
 
-> "La crise sanitaire liée à l’épidémie du covid-19 a considérablement bouleversé les modes de vies à travers le monde entier mais également les modes d’organisation du travail. Ainsi, le recours au travail à distance a augmenté de façon importante en raison de cette crise sanitaire et des mesures prises par le gouvernement pour y faire face, en particulier le confinement décidé dans le cadre de la période d’urgence sanitaire."
+* "C’est dans ce contexte qu’un accord a été conclu le 31 juillet 2020 afin d'encadrer le travail à distance au sein de la société MAISONS DU MONDE France." (Document 1)
+* "ARTICLE 2 – Modification de l’article 7 – Accompagnement et soutien psychologique" (Document 4)
 
-> "C’est dans ce contexte qu’un accord a été conclu le 31 juillet 2020 afin d'encadrer le travail à distance au sein de la société MAISONS DU MONDE France."
+My response after reasoning:
+nombrejourdeteletravailmaxparsemaine=0
 
-> "Le présent avenant complète ou révise, à compter de son entrée en vigueur, certaines des dispositions prévues par l’accord initial relatif au travail à distance."
-
-* Ma réponse après raisonnement :
-
-    nombrejourdeteletravailmaxparsemaine = 0
-
-* Mon raisonnement :
-
-Après avoir analysé les documents fournis, je n'ai pas trouvé de mention explicite du nombre maximal de jours de télétravail par semaine, ni de fréquence hebdomadaire associée au télétravail. Les extraits pertinents ne mentionnent pas non plus le télétravail à 100% ou le full-remote sans jour de présence minimum sur site. Par conséquent, conformément aux instructions, je retourne la variable 'nombrejourdeteletravailmaxparsemaine' à 0.
+My reasoning:
+The documents provided do not contain any information regarding the maximum number of days an employee can telework regularly per week. Therefore, I cannot provide a specific number and set the variable to 0.

@@ -1,9 +1,14 @@
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
-* "Le nombre de jours de télétravail imposés par semaine peut être réévalué par l’entreprise en fonction des mesures soit recommandées soit imposées par les Pouvoirs Publics."
-* "En cas de télétravail en dessous de 100%, les jours télétravaillés dans la semaine sont convenus entre le Salarié et son manager, le cas échéant après avis de la Direction des Ressources Humaines, afin de respecter une jauge dans les locaux de l’entreprise qui soit adaptée à la situation sanitaire."
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Ma réponse :
+* "Le nombre de jours de télétravail imposés par semaine peut être réévalué par l’entreprise en fonction des mesures soit recommandées soit imposées par les Pouvoirs Publics." (Document(page\_content='[...] Le nombre de jours de télétravail imposés par semaine peut être réévalué par l’entreprise en fonction des mesures soit recommandées soit imposées par les Pouvoirs Publics.[...]', metadata={'id': 1,'relevance\_score': 0.86515397}))
+* "En cas de télétravail en dessous de 100%, les jours télétravaillés dans la semaine sont convenus entre le Salarié et son manager, le cas échéant après avis de la Direction des Ressources Humaines, afin de respecter une jauge dans les locaux de l’entreprise qui soit adaptée à la situation sanitaire." (Document(page\_content='[...] En cas de télétravail en dessous de 100%, les jours télétravaillés dans la semaine sont convenus entre le Salarié et son manager, le cas échéant après avis de la Direction des Ressources Humaines, afin de respecter une jauge dans les locaux de l’entreprise qui soit adaptée à la situation sanitaire.[...]', metadata={'id': 1,'relevance\_score': 0.86515397}))
+
+Ma réponse après raisonnement ci-dessous :
+
 * nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
-* Les jours de télétravail sont fixés entre le salarié et son manager, donc il est possible de télétravailler jusqu'à 5 jours par semaine.
+
+* Les deux paragraphes extraits montrent que le nombre de jours de télétravail imposés par semaine peut être convenu entre le salarié et son manager, avec l'avis de la direction des ressources humaines si nécessaire.
+* Ce nombre est réévalué en fonction des mesures recommandées ou imposées par les pouvoirs publics.
+* Il n'y a pas de limite explicite dans le document, donc je réponds 5 car le télétravail à 100% ou le full-remote est autorisé et qu'il n'y a pas de jour de présence minimum sur site.

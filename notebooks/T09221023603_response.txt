@@ -1,16 +1,14 @@
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail régulier s’effectue à raison de deux jours par semaine maximum" (Source: T09221023603.txt)
-* "Cas n°1	: le salarié s’inscrit dans une organisation régulière de deux journées maximum de télétravail par semaine" (Source: T09221023603.txt)
+* "Le télétravail régulier s’effectue à raison de deux  jours par semaine maximum (sauf circonstance exceptionnelle visée au §V 3)" (document 0)
+* "Cette forme d’organisation du travail n’est pas compatible avec le télétravail régulier" (document 4)
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-Après analyse des documents fournis, j'ai pu trouver deux paragraphes pertinents qui répondent à la question posée. Dans le premier paragraphe, il est indiqué que "Le télétravail régulier s’effectue à raison de deux jours par semaine maximum". Ce paragraphe précise que le télétravail régulier est limité à deux jours par semaine, ce qui correspond à la variable 'nombrejourdeteletravailmaxparsemaine'.
-
-Le deuxième paragraphe confirme cette information en mentionnant que "Cas n°1	: le salarié s’inscrit dans une organisation régulière de deux journées maximum de télétravail par semaine". Cette phrase indique que le télétravail régulier ne peut excéder deux jours par semaine, ce qui correspond à la variable 'nombrejourdeteletravailmaxparsemaine'.
-
-Par conséquent, je peux conclure que la variable 'nombrejourdeteletravailmaxparsemaine' est égale à 2.
+* Selon le document 0, le télétravail régulier s’effectue à raison de deux jours par semaine maximum.
+* Ce maximum de deux jours par semaine est confirmé dans le document 4 qui précise que cette forme d’organisation du travail n’est pas compatible avec le télétravail régulier.
+* Par conséquent, nombrejourdeteletravailmaxparsemaine=2.

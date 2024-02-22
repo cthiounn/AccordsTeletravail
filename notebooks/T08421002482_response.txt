@@ -1,8 +1,9 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein." (Document(page\_content='Au jour de la signature de l’accord, les postes compatibles avec le télétravail sont\xa0:\nServices financiers (facturation, PMSI, comptabilité)\nService ressources humaines\nRéférente Dossier Patient Informatisé\nAttachée de direction\nResponsable assurance qualité \n\nArticle 3\xa0: Typologie de télétravail \nLe présent accord a pour but de réglementer un télétravail dit occasionnel, sur demande du salarié pour convenance personnelle.\nIl ne s’agit en aucun cas de créer une réglementation permettant un télétravail permanent qu’il soit total ou partiel.\nLe nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein.'))
-
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine = 2
-
-Mon raisonnement :
-* La seule occurrence de la notion de fréquence par semaine concernant le nombre de jour de télétravail autorisé se trouve dans le paragraphe "Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein.". Par conséquent, le maximum des jours de télétravail par semaine est de 2.
+Q_TTSEM_NOMBRE:
+* Extraits pertinents :
+    * "Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein." (Document id=7)
+    * "Pour être éligible au télétravail, le salarié doit [...] exercer son activité à temps plein ou à temps partiel avec un taux d'activité au moins égal à 50% d'un temps plein." (Document id=0)
+* Ma réponse :
+    * nombrejourdeteletravailmaxparsemaine=2
+* Mon raisonnement :
+    * Selon le document id=7, le nombre de jours de télétravail ne peut excéder 2 jours par semaine pour un temps plein.
+    * Le document id=0 précise que le télétravail est possible à temps plein ou à temps partiel avec un taux d'activité d'au moins 50%. Par conséquent, le nombre maximal de jours de télétravail par semaine reste inchangé, quel que soit le taux d'activité du salarié.

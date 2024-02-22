@@ -1,12 +1,8 @@
 Q_TTSEM_NOMBRE:
 * Extraits pertinents :
-    * "les jours de télétravail seront fixés dans un avenant au contrat du télétravailleur, lequel intègrera la possibilité de les modifier par commun accord des parties moyennant un délai de prévenance de 1 (une) semaine."
-    * "une journée de télétravail peut être décalée à un autre jour de la même semaine ou annulée, sous réserve [...] de respecter la règle de présence minimum de 3 (trois) jours dans les locaux de l'entreprise"
-    * "la fréquence du télétravail et les jours télétravaillés"
-* Réponse :
-    * nombrejourdeteletravailmaxparsemaine=3
-* Raisonnement :
-    * Les jours de télétravail sont fixés dans un avenant au contrat du télétravailleur et peuvent être modifiés par commun accord des parties moyennant un délai de prévenance d'une semaine.
-    * Une journée de télétravail peut être décalée à un autre jour de la même semaine ou annulée, sous réserve de respecter la règle de présence minimum de 3 jours dans les locaux de l'entreprise.
-    * La fréquence du télétravail et les jours télétravaillés doivent être précisés dans l'avenant au contrat du télétravailleur.
-    * Aucune indication sur le nombre maximum de jours de télétravail par semaine n'est donnée dans le document, mais il est mentionné une règle de présence minimum de 3 jours dans les locaux de l'entreprise par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3.
+    * ARTICLE 9 – Fréquence et nombre de jours télétravailles : "Dans le cadre d’une situation de télétravail récurrente, non justifiée par des circonstances exceptionnelles ou cas de force majeure, les jours de télétravail seront fixés dans un avenant au contrat du télétravailleur, lequel intègrera la possibilité de les modifier par commun accord des parties moyennant un délai de prévenance de 1 (une) semaine."
+    * ARTICLE 9 – Fréquence et nombre de jours télétravailles : "A la demande du Salarié télétravailleur ou à la demande de la Direction, une journée de télétravail peut être décalée à un autre jour de la même semaine ou annulée, sous réserve [...] de respecter la règle de présence minimum de 3 (trois) jours dans les locaux de l'entreprise"
+    * Lorsque la demande de télétravail est acceptée, un avenant au contrat est conclu pour confirmer l'accord du Salarié et de l'employeur ainsi que pour préciser les modalités utiles à l'exercice du télétravail et adaptées à la situation du télétravailleur, à savoir [...] - la fréquence du télétravail et les jours télétravaillés
+
+* Ma réponse : nombrejourdeteletravailmaxparsemaine = 3
+* Mon raisonnement : Les informations pertinentes se trouvent dans l'article 9 et dans l'extrait concernant l'avenant au contrat. Ces sources indiquent qu'il est possible de faire du télétravail de manière récurrente, avec une fréquence et des jours télétravaillés fixés dans un avenant au contrat. La règle de présence minimum dans les locaux de l'entreprise est de 3 jours par semaine, ce qui implique que le nombre maximum de jours de télétravail par semaine est de 2. Cependant, l'article 9 mentionne aussi la possibilité de décaler ou d'annuler une journée de télétravail, ce qui suggère que le nombre maximum de jours de télétravail par semaine est de 3.

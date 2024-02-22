@@ -1,13 +1,14 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail est organisé sur la base de jours fixes (régularité des jours de télétravail pour chaque collaborateur et non jours « volants » dans la semaine) établis dans le cadre d’un planning hebdomadaire." (Source : T08821002242.txt)
-* "6-1 Rythme du télétravail De sorte à éviter le risque d’une « distanciation » avec l’entreprise, le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein." (Source : T08821002242.txt)
+    > "6-1 Rythme du télétravail De sorte à éviter le risque d’une « distanciation » avec l’entreprise, le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein."
+    
+    > "Le temps de présence physique du collaborateur dans les locaux de l’entreprise devra donc être au minimum de 3 jours par semaine pour un temps plein."
 
-Ma réponse :
+* Ma réponse après raisonnement :
 
-* nombrejourdeteletravailmaxparsemaine=2
+    nombrejourdeteletravailmaxparsemaine=2
 
-Mon raisonnement :
+* Mon raisonnement :
 
-* Selon le premier paragraphe, le télétravail est organisé sur la base de jours fixes dans le cadre d’un planning hebdomadaire. Cela signifie qu’il y a une récurrence des jours de télétravail chaque semaine.
-* Selon le deuxième paragraphe, le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein. Cette information est confirmée dans le document, elle est donc valide.
+    Le premier paragraphe extrait stipule clairement que le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein. Cependant, il convient de vérifier s'il existe des exceptions à cette règle dans les autres paragraphes. Or, le deuxième paragraphe confirme que le maximum de jours de télétravail par semaine est bien de 2, puisqu'il impose un minimum de 3 jours de présence physique sur site. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 2, et je l'affecte à la variable nombrejourdeteletravailmaxparsemaine.

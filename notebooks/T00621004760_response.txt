@@ -1,12 +1,14 @@
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
+Q_TTSEM_NOMBRE:
+* Extraction pertinente des documents :
 
-* "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine." (from Document(page\_content='Article 2.3 Rythme du télétravail\xa0\n\nArticle 2.3.1. Rythme général du télétravail\n\nThe telework can be implemented, by whole days of work, within the limit of 1 day per week.'))
-* "Les jours de télétravail sont mobilisables par année civile\xa0; ils ne peuvent être cumulés, accolés entre eux ou à des congés ou pris en une seule fois. Ils ne sont pas fractionnables. \nLes jours de télétravail non mobilisés ne donnent pas lieu à report l’année suivante." (from Document(page\_content='Ces jours de télétravail sont mobilisables par année civile\xa0; ils ne peuvent être cumulés, accolés entre eux ou à des congés ou pris en une seule fois. Ils ne sont pas fractionnables. \nLes jours de télétravail non mobilisés ne donnent pas lieu à report l’année suivante.'))
+    Document(page\_content='Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine. Dans tous les cas, pour des raisons d’organisation de service et de maintien de rituels d’équipe en présentiel, le télétravail n’est autorisé que sur les journées du mardi et du jeudi...', metadata={'id': 0,'relevance\_score': 0.93445206})
 
-My response after reasoning is:
+    Document(page\_content='Ces jours de télétravail sont mobilisables par année civile; ils ne peuvent être cumulés, accolés entre eux ou à des congés ou pris en une seule fois. Ils ne sont pas fractionnables...', metadata={'id': 8,'relevance\_score': 0.5732731})
 
-* nombrejourdeteletravailmaxparsemaine=1
+* Ma réponse :
 
-My reasoning is:
+    nombrejourdeteletravailmaxparsemaine=1
 
-* The first paragraph states that the telework can be implemented within the limit of 1 day per week. Therefore, the maximum number of days an employee can telework regularly is 1 day per week.
+* Mon raisonnement :
+
+    Le premier document indique que le télétravail est autorisé dans la limite de 1 journée par semaine, et que le télétravail est possible uniquement les mardi et jeudi. Cependant, le deuxième document indique que les jours de télétravail ne peuvent pas être fractionnés, ce qui signifie que le télétravail ne peut pas être réparti sur plusieurs jours dans la semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 1 jour.

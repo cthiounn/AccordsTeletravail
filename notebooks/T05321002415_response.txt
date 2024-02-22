@@ -1,14 +1,8 @@
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
-
-    "Le télétravail régulier se définit comme une ou des journées de travail réalisées de manière répétée et planifiée toutes les semaines ou tous les mois."
-    
-    "Le nombre de jours télétravaillés s’organise de la façon suivante : Un nombre de jours télétravaillés pouvant être porté jusqu’à 3 jours par semaine sur accord du manager."
-
+    * "Le nombre de jours télétravaillés s’organise de la façon suivante Un nombre de jours télétravaillés pouvant être porté jusqu’à 3 jours par semaine sur accord du manager." (Document id=8)
+    * "Le télétravail, qu’il soit régulier ou occasionnel, peut s’effectuer au domicile principal du salarié, c'est-à-dire au domicile que le salarié a déclaré au Service RH et dont l’adresse figure sur le bulletin de paie." (Document id=9)
 * Ma réponse :
-
-    nombrejourdeteletravailmaxparsemaine=3
-
+    * nombrejourdeteletravailmaxparsemaine = 3
 * Mon raisonnement :
-
-    Le premier extrait définit le télétravail régulier comme incluant une dimension temporelle hebdomadaire ou mensuelle. Le deuxième extrait précise que le nombre de jours télétravaillés peut atteindre 3 par semaine. Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' est affectée à la valeur 3.
+    * Selon le Document id=8, le nombre de jours télétravaillés peut aller jusqu'à 3 jours par semaine sur accord du manager. Par conséquent, nombrejourdeteletravailmaxparsemaine = 3.

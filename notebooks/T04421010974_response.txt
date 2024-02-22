@@ -1,12 +1,11 @@
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* "Le télétravail doit être exercé par jour entier. Cependant, il est possible de déroger à ce principe pour les salariés ayant un temps de travail amenant à la réalisation de demi-journées de travail. Il sera possible dans ce cas d’accorder le télétravail par demi-journée sous réserve que l’agent respecte le temps minimum de présence de 3 jours sur site le reste de la semaine." (Source : T04421010974.txt)
-* "Pour autant, les aspirations grandissantes des collaborateurs au recours au télétravail doivent s’accompagner de la plus grande vigilance quant à la préservation du collectif de travail, vigilance partagée tant par la Direction de la Carsat Pays de la Loire que par les partenaires sociaux. Cette aspiration correspond également aux attentes de la grande majorité des salariés qui se sont prononcés nettement en faveur d’un maximum de deux jours de télétravail hebdomadaire." (Source : T04421010974.txt)
+* "Le télétravail doit être exercé par jour entier. Cependant, il est possible de déroger à ce principe pour les salariés ayant un temps de travail amenant à la réalisation de demi-journées de travail. Il sera possible dans ce cas d’accorder le télétravail par demi-journée sous réserve que l’agent respecte le temps minimum de présence de 3 jours sur site le reste de la semaine." (Document 0)
+* "Pour autant, les aspirations grandissantes des collaborateurs au recours au télétravail doivent s’accompagner de la plus grande vigilance quant à la préservation du collectif de travail, vigilance partagée tant par la Direction de la Carsat Pays de la Loire que par les partenaires sociaux. Cette aspiration correspond également aux attentes de la grande majorité des salariés qui se sont prononcés nettement en faveur d’un maximum de deux jours de télétravail hebdomadaire." (Document 5)
 
 Ma réponse :
-nombrejourdeteletravailmaxparsemaine = 2
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-
-* Selon le premier paragraphe, il est possible de déroger au principe de télétravail à temps plein pour les salariés effectuant des demi-journées de travail, avec un minimum de 3 jours de présence sur site par semaine. Cependant, cela ne précise pas le nombre maximal de jours de télétravail par semaine.
-* Selon le deuxième paragraphe, la grande majorité des salariés souhaitent bénéficier d'un maximum de deux jours de télétravail hebdomadaire. Bien que cela ne soit pas une obligation, cela nous permet de déduire que le nombre maximal de jours de télétravail par semaine est de 2.
+Le premier paragraphe indique que le télétravail doit être exercé par jour entier, mais il est possible de déroger à ce principe pour les salariés ayant un temps de travail amenant à la réalisation de demi-journées de travail. Dans ce cas, il est possible d’accorder le télétravail par demi-journée sous réserve que l’agent respecte le temps minimum de présence de 3 jours sur site le reste de la semaine. Cependant, cela ne précise pas le nombre maximum de jours de télétravail par semaine.
+Le deuxième paragraphe indique que la grande majorité des salariés se sont prononcés nettement en faveur d’un maximum de deux jours de télétravail hebdomadaire. Par conséquent, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 2.

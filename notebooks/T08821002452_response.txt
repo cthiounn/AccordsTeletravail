@@ -1,9 +1,12 @@
 Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "ANNEXE 1 LISTE DES POSTES ELIGIBLES" -> Ce document ne contient pas de réponse directe à la question posée.
+Mon extraction de paragraphes pertinents provenant des documents à analyser :
 
-Ma réponse après raisonnement ci-dessous :
-La variable 'nombrejourdeteletravailmaxparsemaine' vaut 0.
+* "ANNEXE 1 LISTE DES POSTES ELIGIBLES"
+* "Le délégué syndical, C.F.D.T"
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 0
 
 Mon raisonnement :
-Après examen attentif des documents fournis, je n'ai pas trouvé de paragraphe contenant le mot-clé "semaine" ou une notion de fréquence par semaine concernant le nombre de jours de télétravail autorisés. Par conséquent, conformément aux instructions, je n'ai pu attribuer aucune valeur à la variable 'nombrejourdeteletravailmaxparsemaine'.
+
+Après avoir analysé les deux paragraphes pertinents du document, je n'ai pas trouvé de mention explicite du nombre de jours de télétravail autorisés par semaine, ni de mention du télétravail à 100% ou du full-remote sans jour de présence minimum sur site. Par conséquent, conformément aux instructions, je retourne la variable 'nombrejourdeteletravailmaxparsemaine' à 0.

@@ -1,13 +1,8 @@
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-    Article 4. Télétravail: nombre de jours autorisés et dotation de matériel
-    Le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine, pour tous les collaborateurs DFA, selon les mêmes conditions que celles prévues dans l’accord télétravail signé le 17 septembre 2020 (hors période de type pandémie).
-
-* Ma réponse après raisonnement ci-dessous :
-
-    nombrejourdeteletravailmaxparsemaine=2
-
+* Extraits pertinents des documents :
+    * "Le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine" (Document id=0)
+    * "hors période de type pandémie" (Document id=0)
+* Ma réponse :
+    * nombrejourdeteletravailmaxparsemaine=2
 * Mon raisonnement :
-
-    Dans le document, il est clairement stipulé que "le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+    * Selon le document id=0, le nombre de jours de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine. Cependant, il est mentionné "hors période de type pandémie", ce qui implique que cette disposition ne s'applique pas actuellement en raison de la pandémie de COVID-19. Par conséquent, je ne peux pas utiliser cette information pour répondre à la question. Je dois donc me baser sur les informations générales fournies dans les documents et non sur des périodes spécifiques telles que la pandémie. Comme aucune autre information pertinente n'est fournie dans les autres documents, je maintiens ma réponse à nombrejourdeteletravailmaxparsemaine=2.

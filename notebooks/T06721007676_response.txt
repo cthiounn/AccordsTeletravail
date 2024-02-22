@@ -1,10 +1,15 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser :
 
-* "Le salarié sera en télétravail les mercredi et vendredi pendant la semaine paire, puis les mardi et jeudi en semaine impaire." (Document(page\_content='...'))
-* "La répartition des jours travaillés en entreprises et à domicile : l’alternance et le nombre de jours de télétravail hebdomadaire seront définis à la rédaction de l’avenant" (Document(page\_content='Avenant au contrat de travail...'))
+    * "Le salarié sera en télétravail les mercredi et vendredi pendant la semaine paire, puis les mardi et jeudi en semaine impaire." (Document(page\_content='doit être obligatoirement présent dans les locaux de l’entreprise le lundi\xa0;\naura un rythme de télétravail sur une base hebdomadaire tel que défini dans son avenant au contrat de travail.\n\nPar exemple un salarié sera en télétravail les mercredi et vendredi pendant la semaine paire, puis les mardi et jeudi en semaine impaire.'))
+    
+    * "La répartition des jours travaillés en entreprises et à domicile\xa0: l’alternance et le nombre de jours de télétravail hebdomadaire seront définis à la rédaction de l’avenant" (Document(page\_content='Avenant au contrat de travail\n\nLe passage en télétravail fera l’objet de la signature d’un avenant au contrat de travail.\n\nL’avenant au contrat de travail précisera notamment\xa0:\n\nLa date de démarrage du télétravail\xa0;\nLa durée et les règles de renouvellement de l’avenant\xa0;\nLa répartition des jours travaillés en entreprises et à domicile\xa0: l’alternance et le nombre de jours de télétravail hebdomadaire seront définis à la rédaction de l’avenant\xa0;\nLes conditions de réversibilité du télétravail\xa0;\nLe lieu où s’exercera le télétravail et les conditions matérielles s’y rapportant (assurances, conformité des installations…)\xa0;\nLe matériel mis à disposition.'))
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine = 2
+* Ma réponse :
 
-Mon raisonnement :
-Dans le premier paragraphe, il est mentionné que le salarié travaille deux jours par semaine en télétravail. Dans le deuxième paragraphe, il est mentionné que le nombre de jours de télétravail hebdomadaire sera défini dans l'avenant au contrat de travail. Mais dans le document fourni, il n'y a pas d'information complémentaire sur le nombre de jours de télétravail hebdomadaire. Donc, je me base sur le premier paragraphe pour répondre à la question.
+    * "nombrejourdeteletravailmaxparsemaine=2"
+
+* Mon raisonnement :
+
+    * Dans le premier paragraphe, il est mentionné que le salarié travaille deux jours par semaine en télétravail. Donc, "nombrejourdeteletravailmaxparsemaine=2".
+    * Dans le deuxième paragraphe, il est mentionné que le nombre de jours de télétravail hebdomadaire sera défini dans l'avenant au contrat de travail. Les informations fournies ne permettent pas de déterminer cette valeur.

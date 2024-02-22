@@ -1,16 +1,12 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents :
-    * "Le présent accord prévoit un quota annuel de jours de télétravail fixé à 85 jours"
-    * "les jours en télétravail sont, dans la mesure du possible, déterminés après concertation préalable et accord du manager et sont formalisés dans le cadre d’un planning spécifique."
-    * "une planification périodique indicative – si possible mensuelle - de ces jours pourra être effectuée en amont"
-    * "le temps de travail du télétravailleur est établi sur une base comparable à celle applicable dans l’entreprise, en référence au régime habituel de travail (forfait ou horaire)"
-    * "Le temps de présence physique du collaborateur dans les locaux de l'entreprise devra être au minimum de deux jours jour pleins par semaine"
-    * "Les jours télétravaillés devront être saisis et identifiés comme tels par le salarié via Galilée selon le compteur dédié, en accord avec son encadrant."
-    * "Les jours télétravaillés devront également être identifiés comme tel dans le calendrier Outlook."
-    * "Les collaborateurs devront également saisir leurs jours de présence sur site sur l’outil Rés@SFIL."
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
-
+    Article 3.2.3.4. Modalités (Document id: 7)
+    > Les jours télétravaillés devront être saisis et identifiés comme tels par le salarié via Galilée selon le compteur dédié, en accord avec son encadrant.
+    > Les jours télétravaillés devront également être identifiés comme tel dans le calendrier Outlook.
+    
+* Ma réponse après raisonnement :
+    nombrejourdeteletravailmaxparsemaine=5
 * Mon raisonnement :
-    * Le document mentionne un quota annuel de jours de télétravail fixé à 85 jours, mais ne précise pas la fréquence hebdomadaire. Cependant, il est mentionné que "les jours en télétravail sont, dans la mesure du possible, déterminés après concertation préalable et accord du manager et sont formalisés dans le cadre d’un planning spécifique". De plus, il est précisé que "une planification périodique indicative – si possible mensuelle - de ces jours pourra être effectuée en amont". Ces éléments suggèrent que les jours de télétravail sont distribués sur l'année entière, sans dépasser deux jours par semaine. En effet, il est également stipulé que "le temps de présence physique du collaborateur dans les locaux de l'entreprise devra être au minimum de deux jours jour pleins par semaine". Par ailleurs, les jours de télétravail doivent être identifiés et saisis via Galilée et Outlook, ainsi que sur l'outil Rés@SFIL pour les jours de présence sur site. Toutes ces informations concordent pour établir que le nombre maximum de jours de télétravail par semaine est de 2.
+    L'article 3.2.3.4. Modalités (Document id: 7) stipule que les jours télétravaillés doivent être identifiés comme tels par le salarié en accord avec son encadrant. Cependant, aucune limitation de nombre de jours de télétravail par semaine n'est mentionnée dans ce document.
+    Cependant, l'instruction 2.E mentionne que si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine. Or, dans le document fourni, il n'est pas explicitement mentionné que le télétravail est à 100% ou full-remote, mais l'absence de mention de jour de présence minimum sur site permet de conclure que le télétravail à 100% est autorisé. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 5.

@@ -1,7 +1,10 @@
-Q_TTSEM_NOMBRE:* Extraits pertinents :
-    * "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine"
-    * "le salarié à temps plein soit présent dans l’entreprise au moins 3 jours par semaine."
-* Réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
-* Raisonnement :
-    * Selon l'article 1, il est stipulé que le télétravail est possible deux jours par semaine. De plus, il est également mentionné que le salarié doit être présent dans l'entreprise au moins trois jours par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+Q_TTSEM_NOMBRE:Two paragraphes pertinent from the documents:
+
+* "It will now be possible to work remotely for TWO days per week: 4 configurations will therefore be possible."
+* "In order to preserve the social link with the company, cohesion and good functioning of the teams, telework is organized so that the full-time employee is present in the company at least 3 days per week."
+
+My response after reasoning:
+nombrejourdeteletravailmaxparsemaine=2
+
+My reasoning:
+The first paragraph indicates that employees can work remotely for two days per week. This information is explicitly stated and concerns regular telework, not occasional or punctual telework. Therefore, I assign the value 2 to the variable 'nombrejourdeteletravailmaxparsemaine'. The second paragraph mentions the presence of full-time employees in the company for at least three days per week, but this does not provide information about the number of days of remote work, so it is not taken into account in the reasoning.

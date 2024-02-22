@@ -1,11 +1,8 @@
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
+Q_TTSEM_NOMBRE:Extraction pertinente des documents :
+* "Il a ainsi été convenu ce qui suit : Article 1 – Mesures liées à l’évolution du régime actuel de télétravail en vigueur dans l’entreprise pour les agents de maîtrise et les Cadres des périmètres du Siège et de la Logistique Il a été convenu, par le présent accord, d’augmenter le nombre de jours de travail à deux jours par semaine permettant aux salariés concernés de recourir au télétravail en application des dispositions et du régime prévu dans l’accord du 7 décembre 2016 relatif à la mise en place du télétravail applicable au sein de l’entreprise."
 
-* "Il a été convenu, par le présent accord, d'augmenter le nombre de jours de travail à **deux jours par semaine** permettant aux salariés concernés de recourir au télétravail..."
-
-Ma réponse :
-
+Ma réponse :
 * nombrejourdeteletravailmaxparsemaine=2
 
-Mon raisonnement :
-
-* Dans le document, il est spécifié que "le nombre de jours de travail à **deux jours par semaine** permettant aux salariés concernés de recourir au télétravail...". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+Mon raisonnement :
+* Dans le document, il est mentionné que "Il a été convenu, par le présent accord, d’augmenter le nombre de jours de travail à deux jours par semaine permettant aux salariés concernés de recourir au télétravail". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

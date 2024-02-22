@@ -1,15 +1,14 @@
 Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser :
+* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
 
-    * "Une présence minimum de 2 jours par semaine du salarié dans les locaux de l’entreprise est requise..."
-    
-    * "Les managers doivent prévoir le planning mensuel de télétravail de leurs collaborateurs."
+    * "Une présence minimum de 2 jours par semaine du salarié dans les locaux de l’entreprise est requise"
+    * "Les managers doivent prévoir le planning mensuel de télétravail de leurs collaborateurs"
 
-* Ma réponse :
+* Ma réponse après raisonnement :
 
-    * "nombrejourdeteletravailmaxparsemaine=3"
+    * nombrejourdeteletravailmaxparsemaine=2
 
 * Mon raisonnement :
 
-    * Selon le premier paragraphe, une présence minimale de 2 jours par semaine est requise, ce qui implique que le nombre maximum de jours de télétravail par semaine est de 3.
-    * Cette information est confirmée dans le deuxième paragraphe, où il est mentionné que les managers doivent prévoir le planning mensuel de télétravail de leurs collaborateurs, ce qui suggère que le télétravail est limité à certains jours de la semaine.
+    * Selon le premier paragraphe, une présence minimum de 2 jours par semaine du salarié dans les locaux de l’entreprise est requise. Cela implique que le nombre maximum de jour de télétravail par semaine est de 3.
+    * Ce nombre est confirmé par le deuxième paragraphe qui mentionne que les managers doivent prévoir le planning mensuel de télétravail de leurs collaborateurs, ce qui implique que le télétravail ne peut pas être total.
