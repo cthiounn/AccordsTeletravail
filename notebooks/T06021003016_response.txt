@@ -1,10 +1,6 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* "Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés." (Source: T06021003016.txt)
-* "Une présence dans l’entreprise de 3 jours minimum par semaine est requise." (Source: T06021003016.txt)
-
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=2
-
-Mon raisonnement :
-Après analyse des documents fournis, je constate que le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés. Une présence dans l’entreprise de 3 jours minimum par semaine est requise. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+Q_TTSEM_NOMBRE:
+* Extraits pertinents :
+    * "Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés." (Source: T06021003016.txt)
+    * "Une présence dans l’entreprise de 3 jours minimum par semaine est requise." (Source: T06021003016.txt)
+* Ma réponse : nombrejourdeteletravailmaxparsemaine = 2
+* Mon raisonnement : Dans le document fourni, il est indiqué que le télétravail régulier peut être organisé jusqu'à 2 jours maximum par semaine entière de 5 jours ouvrés. Une présence dans l'entreprise de 3 jours minimum par semaine est également requise. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

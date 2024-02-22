@@ -1,15 +1,13 @@
 Q_TTSEM_NOMBRE:
 Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* "Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance." (Source: T05721004723.txt)
-* "Les managers veilleront à ce que les impératifs d’organisation et de fonctionnement de service, tout comme l’équité entre collaborateurs, soient respectés. Ainsi, les collaborateurs d’un même service ne pourront pas être tous en télétravail les mêmes jours." (Source: T05721004723.txt)
+* "Afin de maintenir la cohésion d’équipe, chaque collaborateur devra donc s’organiser pour être présent au bureau ou en mission au minimum 3 jours / semaine."
+* "Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance."
 
 Ma réponse :
 
-nombrejourdeteletravailmaxparsemaine = 2
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-Après avoir lu attentivement les deux paragraphes pertinents, je constate que les collaborateurs ont la possibilité de bénéficier de 2 jours de télétravail par semaine. Cette information est confirmée dans le premier paragraphe, où il est clairement indiqué "Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance". De plus, rien dans le deuxième paragraphe ne suggère qu'il existe une limitation supérieure à 2 jours de télétravail par semaine.
-
-Compte tenu des instructions, je ne tiens pas compte des jours de présence obligatoire sur site et je ne fais pas d'hypothèse sur une éventuelle fréquence hebdomadaire dans les autres paragraphes. Je ne trouve pas non plus d'indication d'un télétravail à 100% ou d'un full-remote autorisé sans jour de présence minimum sur site. Par conséquent, je considère que la limite maximale de télétravail par semaine est de 2 jours.
+En analysant les deux paragraphes pertinents, je constate que chaque collaborateur doit être présent au bureau ou en mission au minimum 3 jours par semaine, ce qui implique que le nombre maximum de jours de télétravail par semaine est de 2 jours. Cette information est explicitement mentionnée dans le document, donc je n'ai pas besoin de faire d'hypothèses ou de calculs de proratisation. De plus, il n'y a pas de mention de télétravail à 100% ou de full-remote dans le document, donc je ne peux pas affecter la variable nombrejourdeteletravailmaxparsemaine à la valeur 5.

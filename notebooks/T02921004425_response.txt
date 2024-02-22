@@ -2,14 +2,12 @@ Q_TTSEM_NOMBRE:
 Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Un avenant au contrat de travail est ensuite établit pour formaliser le fonctionnement du télétravail et le nombre de jours par mois de télétravail : Le nombre de journée de travail est de 4 par mois mais non consécutives"
-* "Télétravail : Un accord de télétravail a été signé le 16 novembre 2016. Cette accord permet au salarié, dont le poste est compatible avec une organisation en télétravail, de pouvoir travailler à distance. Une procédure spécifique est défini dans l’accord de télétravail, pour rappel"
+* "Un accord de télétravail a été signé le 16 novembre 2016. Cette accord permet au salarié, dont le poste est compatible avec une organisation en télétravail, de pouvoir travailler à distance. Une procédure spécifique est défini dans l’accord de télétravail, pour rappel : Les personnes éligibles au télétravail et souhaitant bénéficier de ce dispositif doit faire une demande à son manager."
 
 Ma réponse :
 
-* nombrejourdeteletravailmaxparsemaine = 0
+nombrejourdeteletravailmaxparsemaine=4
 
 Mon raisonnement :
 
-* Les informations fournies dans les documents ne permettent pas de déterminer explicitement le nombre maximum de jours de télétravail possibles par semaine.
-* Aucun paragraphe ne mentionne spécifiquement le nombre de jours de télétravail par semaine, seulement le nombre de jours par mois.
-* De plus, rien n'indique que le télétravail est possible à 100% ou en full-remote, et aucune information sur une éventuelle présence minimale sur site n'est disponible.
+Après avoir analysé les deux paragraphes pertinents, j'ai pu constater que le nombre de jours de télétravail autorisé est de 4 par mois, mais non consécutifs. Comme il n'est pas mentionné de jours de présence minimum sur site, je ne peux pas affecter la valeur 5 à la variable nombrejourdeteletravailmaxparsemaine. Par conséquent, je retourne la valeur 4 pour le nombre maximum de jours de télétravail par semaine, car 4 jours par mois correspondent à environ 1 jour par semaine.

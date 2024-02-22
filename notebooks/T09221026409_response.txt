@@ -1,14 +1,14 @@
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Tout salarié éligible peut bénéficier, selon ses souhaits, de 2 ou 3 jours de télétravail par semaine"
-* "Les parties s’accordent sur le fait d’ouvrir la possibilité de télétravail à partir de l’étranger à hauteur de 30 jours/an ; le salarié étant seul responsable de toutes les formalités nécessaires à sa décision auprès des organismes compétents et coûts afférents éventuels."
+* "Chaque salarié peut faire une demande afin d’être inscrit comme télétravailleur via le workflow dédié à cet effet. Il y indique le nombre de jours souhaités (2 ou 3)"
 
 Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=3
+* nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
 
-* Les paragraphes indiquent clairement qu'un salarié éligible peut bénéficier de 2 ou 3 jours de télétravail par semaine.
-* Il n'y a pas d'autres mentions de fréquence de télétravail par semaine dans les documents fournis.
-* Les informations ne permettent pas de déterminer si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué, et s'il n'y a pas de jour de présence minimum sur site.
+* Les paragraphes indiquent clairement que les salariés peuvent bénéficier de 2 ou 3 jours de télétravail par semaine.
+* Il n'y a pas d'autres mentions de fréquence de télétravail dans les autres paragraphes.
+* Il n'y a pas de mention de télétravail à 100% ou de full-remote avec absence de jour de présence minimum sur site.

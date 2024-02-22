@@ -1,11 +1,10 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* Article 4. Répartition du temps de travail entre domicile et entreprise "L’organisation alternative de l’activité domicile / entreprise se fait sur la base de deux (2) jours ouvrés par semaine, du mardi au vendredi pour les salariés à plein temps et les salariés à temps partiel ou à forfait jours réduit travaillant au moins à 80%."
+* "Pour la cohésion des équipes, le lundi est nécessairement travaillé sur site." (Document(page\_content='Pour la cohésion des équipes, le lundi est nécessairement travaillé sur site.', metadata={'source': 'T09221026634.txt'}))
+* "L’espace de travail dédié à l’activité professionnelle doit obéir aux règles de sécurité notamment électrique et permettre un aménagement ergonomique du poste de télétravail." (Document(page\_content='L’espace de travail dédié à l’activité professionnelle doit obéir aux règles de sécurité notamment électrique et permettre un aménagement ergonomique du poste de télétravail.', metadata={'source': 'T09221026634.txt'}))
 
 Ma réponse :
-
-* nombrejourdeteletravailmaxparsemaine=2
+nombrejourdeteletravailmaxparsemaine=0
 
 Mon raisonnement :
-
-* Je me base sur l'article 4 qui stipule que l'organisation alternative de l'activité domicile/entreprise se fait sur la base de deux jours ouvrés par semaine, du mardi au vendredi pour les salariés à plein temps et les salariés à temps partiel ou à forfait jours réduit travaillant au moins à 80%.
+Après analyse des documents fournis, je n'ai pas trouvé de paragraphe contenant le mot-clé "semaine" ou une notion de fréquence par semaine concernant le nombre de jours de télétravail autorisés. De plus, rien n'indique qu'un employé peut télétravailler à temps plein ou en full-remote sans jour de présence minimum sur site. Par conséquent, conformément aux instructions, je retourne la variable 'nombrejourdeteletravailmaxparsemaine' à 0.

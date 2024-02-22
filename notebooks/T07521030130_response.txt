@@ -1,8 +1,8 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
+* Extraits pertinents :
     * "Un rythme de trois jours en télétravail et deux jours en présentiel peut être envisagé."
     * "avec l’accord du responsable hiérarchique, un salarié pourra être amené ponctuellement à télétravailler une semaine complète"
-* Ma réponse :
-    * "nombrejourdeteletravailmaxparsemaine=3"
-* Mon raisonnement :
-    * Les extraits pertinents indiquent qu'un rythme de trois jours en télétravail et deux jours en présentiel peut être envisagé, ce qui signifie que le nombre maximum de jours de télétravail par semaine est de 3. Cependant, il est également mentionné qu'un salarié peut être amené à télétravailler une semaine complète avec l'accord du responsable hiérarchique, ce qui signifie que dans certains cas, il est possible de télétravailler 5 jours par semaine. Cependant, comme il n'est pas précisé que cela est possible de manière régulière, je ne peux pas affecter la valeur 5 à la variable 'nombrejourdeteletravailmaxparsemaine'.
+* Réponse :
+    * nombrejourdeteletravailmaxparsemaine=3
+* Raisonnement :
+    * Les extraits pertinents indiquent qu'un rythme de trois jours en télétravail et deux jours en présentiel peut être envisagé, ce qui signifie que le nombre maximum de jours de télétravail par semaine est de 3.

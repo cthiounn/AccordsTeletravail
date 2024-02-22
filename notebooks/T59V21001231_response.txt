@@ -1,9 +1,8 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* "Ainsi l’activité exercée en télétravail à domicile, ne pourra excéder une journée (fixée préalablement avec le manager) par semaine" (Source: T59V21001231.txt)
+Q_TTSEM_NOMBRE:Extraction pertinente des documents :
+* "Ainsi l'activité exercée en télétravail à domicile, ne pourra excéder une journée (fixée préalablement avec le manager) par semaine" (Source : T59V21001231.txt)
 
 Ma réponse :
-nombrejourdeteletravailmaxparsemaine=1
+* nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
-Le document mentionne explicitement qu'un salarié ne peut pas travailler plus d'une journée par semaine en télétravail. Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' est affectée à la valeur 1.
+* Dans le document, il est mentionné que "l'activité exercée en télétravail à domicile, ne pourra excéder une journée par semaine". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 1 jour.

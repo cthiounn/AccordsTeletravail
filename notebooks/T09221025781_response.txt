@@ -1,10 +1,13 @@
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Il ne pourra être exercé que pour un maximum de 10 jours par an. La répartition du temps de travail s’opère par journée ou demi-journée." (Source: T09221025781.txt)
-* "7- Organisation du travail et temps de travail En matière de gestion du temps de travail, le télétravailleur gère l’organisation de son temps de travail à domicile dans le cadre de la législation et des règles applicables chez Xelians Archivage. Il demeure soumis aux limites légales ou conventionnelles concernant la durée maximale du travail et à la durée minimale des repos (durée minimale du repos quotidien, durée minimale du repos hebdomadaire)." (Source: T09221025781.txt)
+
+* "Il ne pourra être exercé que pour un maximum de 10 jours par an. La répartition du temps de travail s’opère par journée ou demi-journée." (Document(page\_content='Il ne pourra être exercé que pour un maximum de 10 jours par an. La répartition du temps de travail s’opère par journée ou demi-journée....'))
+* "Le télétravailleur occasionnel peut utiliser son « droit à la déconnexion » en mettant en veille ses systèmes professionnels de communication." (Document(page\_content='Afin de respecter la vie privée du télétravailleur et aussi de garantir l’activité du service, le télétravailleur occasionnel doit être joignable et en mesure de répondre aux sollicitations aux horaires habituels correspondant à son service. En dehors de ces plages horaires, le télétravailleur occasionnel peut utiliser son « droit à la déconnexion » en mettant en veille ses systèmes professionnels de communication.'))
 
 Ma réponse après raisonnement ci-dessous :
+
 * nombrejourdeteletravailmaxparsemaine=0
 
 Mon raisonnement :
-* Les informations fournies dans les documents ne permettent pas de déterminer le nombre maximal de jours de télétravail par semaine, excepté qu'il ne peut excéder 10 jours par an.
-* De plus, il n'y a aucune mention de télétravail à 100% ou de full-remote dans les documents analysés.
+
+* Les informations fournies dans les documents ne permettent pas de déterminer le nombre maximal de jours de télétravail par semaine, excepté que le télétravail ne peut être exercé que pour un maximum de 10 jours par an.
+* De plus, il n'y a aucune mention de télétravail à 100% ou de full-remote dans les documents fournis.

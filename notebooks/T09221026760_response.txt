@@ -1,9 +1,8 @@
 Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser :
-
-    * "Les parties au présent accord retiennent la formule de télétravail suivante pour le personnel dont les postes sont éligibles conformément à l’article 2-1-2 : rythme de télétravail de 2 jours au maximum par semaine et par salarié."
-    
-    * "Dans ce cadre, les parties au présent accord d’entreprise conviennent qu’en tout état de cause le salarié ne pourra pas exercer plus de 2 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme d’une journée maximum de télétravail Plus de 3 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme de deux journées maximum de télétravail"
-
-* Ma réponse : nombrejourdeteletravailmaxparsemaine = 2
-* Mon raisonnement : Les deux paragraphes indiquent clairement que le nombre maximum de jours de télétravail par semaine est de 2. Il n'y a pas d'indication d'un télétravail à 100% ou full-remote sans jour de présence minimum sur site, donc je ne peux pas attribuer la valeur 5 à la variable nombrejourdeteletravailmaxparsemaine.
+* Extraits pertinents :
+    * "Le salarié ne pourra pas exercer... plus de 2 journées de télétravail par semaine"
+    * "La planification de la journée de télétravail est réalisée... par le biais de l’outil LSRH et ce afin de permettre à tous une organisation optimum. Cette planification tient compte de la nécessité de maintien du lien social et le bon fonctionnement du service. Dans ce cadre, le responsable d’équipe peut décider d’une journée, a minima, de présence par semaine de l’ensemble de son équipe sur le lieu de travail habituel."
+* Réponse :
+    * nombrejourdeteletravailmaxparsemaine=2
+* Raisonnement :
+    * Selon le premier extrait, le salarié ne peut pas exercer plus de 2 journées de télétravail par semaine. Par conséquent, la variable nombrejourdeteletravailmaxparsemaine est affectée à la valeur 2.

@@ -1,8 +1,11 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Les dispositions de l’accord relatif au télétravail alterné à domicile du 13 décembre 2017 restent en vigueur jusqu’au 31 mars 2021." (Document(page\_content='...', metadata={'source': 'T03521007469.txt'}))
-    * "Un accord d’entreprise du 13 décembre 2017, arrivé à échéance le 31 décembre 2020, prévoit les conditions d’exercice en télétravail alterné à domicile. Les parties entendent prolonger la négociation sur un nouvel accord de télétravail actuellement en cours, tout en maintenant les conditions applicables selon les termes de l’accord du 13 décembre 2017." (Document(page\_content='...', metadata={'source': 'T03521007469.txt'}))
-* Réponse :
-    * nombrejourdeteletravailmaxparsemaine = 0
-* Explication :
-    * Les documents fournis concernent l'accord d'entreprise du 13 décembre 2017, qui reste en vigueur jusqu'au 31 mars 2021. Cependant, aucune information spécifique sur le nombre maximal de jours de télétravail par semaine n'est fournie dans les extraits fournis. Par conséquent, je ne peux pas attribuer de valeur à la variable 'nombrejourdeteletravailmaxparsemaine' en dehors de zéro.
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Les dispositions de l’accord relatif au télétravail alterné à domicile du 13 décembre 2017 restent en vigueur jusqu’au 31 mars 2021." (Document(page\_content='...', metadata={'source': 'T03521007469.txt'}))
+* "Préambule Un accord d’entreprise du 13 décembre 2017, arrivé à échéance le 31 décembre 2020, prévoit les conditions d’exercice en télétravail alterné à domicile. Les parties entendent prolonger la négociation sur un nouvel accord de télétravail actuellement en cours, tout en maintenant les conditions applicables selon les termes de l’accord du 13 décembre 2017." (Document(page\_content='...', metadata={'source': 'T03521007469.txt'}))
+
+Ma réponse après raisonnement :
+Le document ne contient pas de mention explicite du nombre de jours de télétravail maximum par semaine, ni de mention du télétravail à 100% ou du full-remote. Par conséquent, je ne peux pas attribuer de valeur à la variable 'nombrejourdeteletravailmaxparsemaine'.
+
+Mon raisonnement :
+Je me suis basé sur les instructions données pour rechercher dans les deux paragraphes pertinents toute mention du nombre de jours de télétravail maximum par semaine. Comme il n'y avait aucune mention explicite de cette information, j'ai dû conclure que la variable 'nombrejourdeteletravailmaxparsemaine' ne pouvait pas être attribuée à une valeur. De plus, il n'y avait aucune mention du télétravail à 100% ou du full-remote, donc je n'ai pas pu affecter la valeur maximale de 5 jours à la variable.

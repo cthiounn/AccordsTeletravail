@@ -1,10 +1,8 @@
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "8/ Définition des postes et des règles du télétravail ainsi que la mise en place d’une prime de consommable"
-* "La prime de télétravail est fixée à 10 euros par mois pour les fonctions permettant le télétravail et calculée au prorata du temps de présence si nécessaire."
+* "La prime de télétravail est fixée à 10 euros par mois pour les fonctions permettant le télétravail et calculée au prorata du temps de présence si nécessaire." (Document(page\_content='8/ Définition des postes et des règles du télétravail ainsi que la mise en place d’une prime de consommable \nLa Direction propose de mettre en place des règles et une prime au travers d’une politique Groupe. \nLa prime de télétravail est fixée à 10 euros par mois pour les fonctions permettant le télétravail et calculée au prorata du temps de présence si nécessaire.'))
 
 Ma réponse après raisonnement ci-dessous :
 * nombrejourdeteletravailmaxparsemaine=0
 
 Mon raisonnement :
-* Les informations fournies ne permettent pas de déterminer le nombre maximal de jours de télétravail par semaine, car aucun paragraphe ne précise explicitement ce nombre.
-* De plus, aucune mention du télétravail à 100% ou du full-remote n'est faite dans les documents, donc je ne peux pas non plus me baser sur cette information pour répondre à la question.
+* Les informations contenues dans le document ne permettent pas de déterminer le nombre maximal de jours de télétravail par semaine car aucun paragraphe ne précise explicitement ce nombre. De plus, rien n'indique que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué sans jour de présence minimum sur site. Par conséquent, je ne peux affecter la variable 'nombrejourdeteletravailmaxparsemaine' qu'avec la valeur 0.

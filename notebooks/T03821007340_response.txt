@@ -1,9 +1,14 @@
-Q_TTSEM_NOMBRE:Extraction pertinente des documents :
-* "Le recours au télétravail a été généralisé pour tous les salariés en activité dont le poste et/ou leur mission permettait ledit télétravail."
-* "les parties ont décidé de se réunir, afin de conclure un avenant portant sur le remboursement des frais liés au télétravail."
+Q_TTSEM_NOMBRE:
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=0
+> "Les parties ont conclu, le 20 octobre 2016 un accord d’entreprise à durée indéterminée portant sur le télétravail à domicile au sein de la société ARAYMOND France SAS."
 
-Mon raisonnement :
-Après analyse des documents fournis, je n'ai pas trouvé de mention explicite du nombre de jours de télétravail autorisés par semaine. De plus, rien n'indique que le télétravail à 100% ou le full-remote soit autorisé sans jour de présence minimale sur site. Par conséquent, conformément aux instructions, je retourne la valeur 0 pour la variable nombrejourdeteletravailmaxparsemaine.
+> "En raison de la crise sanitaire de 2020 et de ses conséquences en matière économique et d’activité, la société ARaymond France a été contrainte de recourir au dispositif d’activité partielle. Durant le premier confinement général, et en application des dispositions légales applicables en cas d’épidémie ou de pandémie, le recours au télétravail a été généralisé pour tous les salariés en activité dont le poste et/ou leur mission permettait ledit télétravail. Depuis, le télétravail est resté la règle et la présence sur site l’exception pour tous les salariés pouvant avoir recours à ce mode d’organisation du travail."
+
+* Ma réponse après raisonnement ci-dessous :
+
+    nombrejourdeteletravailmaxparsemaine=5
+
+* Mon raisonnement :
+
+    En analysant les deux paragraphes pertinents, je peux constater que l'accord d'entreprise date du 20 octobre 2016 et qu'en raison de la crise sanitaire de 2020, le télétravail a été généralisé pour tous les salariés en activité dont le poste et/ou leur mission permettait ledit télétravail. De plus, le télétravail est resté la règle et la présence sur site l’exception pour tous les salariés pouvant avoir recours à ce mode d’organisation du travail. Par conséquent, en l'absence de toute limitation explicite du nombre de jours de télétravail par semaine dans le document et compte tenu de l'expression "le télétravail est resté la règle", je dois conclure que le télétravail est autorisé jusqu'à 5 jours par semaine, conformément à l'instruction 2.E.

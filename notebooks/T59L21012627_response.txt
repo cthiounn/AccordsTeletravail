@@ -1,14 +1,16 @@
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
 
-    *« L’accord est conclu jusqu’au 28 février 2021 à raison du risque épidémique. Il entre en vigueur au 17 octobre 2020 de manière rétroactive. Compte tenu de la poursuite des contraintes sanitaires liées au risque épidémique à la date du 31 janvier 2021, la durée de l’accord est prolongée jusqu’au 31 mai 2021 ».*
-    
-    *« Préambule : Le 12 novembre 2020, l’employeur et les organisations syndicales représentatives ont négocié puis signé un accord d’entreprise relatif au télétravail pendant l’état d’urgence réinstauré le 17 octobre 2020. Il fixe les modalités de mise en œuvre du télétravail au sein de l’association pendant l’état d’urgence sanitaire mis en place le 17 octobre 2020, à raison de la 2nde vague de l’épidémie de la COVID 19. Il a été conclu jusqu’au 28 février 2021. »*
+> « L’accord est conclu jusqu’au 28 février 2021 à raison du risque épidémique. Il entre en vigueur au 17 octobre 2020 de manière rétroactive. »
+>
+> « Compte tenu de la poursuite des contraintes sanitaires liées au risque épidémique à la date du 31 janvier 2021, la durée de l’accord est prolongée jusqu’au 31 mai 2021 »
+>
+> « Le présent texte a pour objet d’étendre la durée de la validité de l’accord d’entreprise du 12 novembre 2020 au regard de la poursuite de la crise sanitaire et de maintenir les règles qu’il a fixées concernant le télétravail. »
 
-* Réponse après raisonnement :
+* Ma réponse :
 
-    *nombrejourdeteletravailmaxparsemaine=0*
+> nombrejourdeteletravailmaxparsemaine=0
 
-* Raisonnement :
+* Mon raisonnement :
 
-    Les documents analysés ne contiennent aucune information relative au nombre maximal de jours de télétravail par semaine, ni aucune notion de fréquence par semaine concernant le nombre de jours de télétravail autorisé. Par conséquent, je ne peux pas attribuer de valeur à la variable 'nombrejourdeteletravailmaxparsemaine'.
+Le document ne contient aucune information sur le nombre de jours de télétravail possibles par semaine. Les seules informations concernent la durée de validité de l'accord, qui est prolongée jusqu'au 31 mai 2021, mais rien n'est mentionné sur le nombre de jours de télétravail autorisés durant cette période. Par conséquent, je ne peux pas attribuer de valeur à la variable 'nombrejourdeteletravailmaxparsemaine'.

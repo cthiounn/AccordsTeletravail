@@ -1,15 +1,8 @@
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Le travail occasionnel à distance peut s’exercer à hauteur de 12 jours par année civile pour un salarié présent toute l’année." (Source : T06421003671.txt)
-    * "Ces jours de travail occasionnel à distance sont positionnés dans l’outil de gestion des temps, à la convenance du salarié, dans la limite de deux jours par mois" (Source : T06421003671.txt)
-    * "Les jours de travail occasionnel à distance sont positionnés à la convenance du salarié, dans la limite de quatre jours par mois" (Source : T06421003671.txt)
+Q_TTSEM_NOMBRE:Extraction pertinente du document :
+* "Un formulaire de demande sera disponible sur INSITE. En cas de refus du manager, celui-ci devra en préciser les motifs dans le formulaire. Les jours de travail occasionnel à distance sont positionnés dans l’outil de gestion des temps, à la convenance du salarié, dans la limite de deux jours par mois"
 
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=2
 
-* Mon raisonnement :
-    * Les documents mentionnent que le télétravail occasionnel à distance peut s'exercer à hauteur de 12 jours par année civile, ce qui correspond à environ 0,23 jours par semaine.
-    * De plus, les jours de télétravail occasionnel à distance sont positionnés dans la limite de deux jours par mois, ce qui correspond à environ 0,46 jours par semaine.
-    * Cependant, un autre document mentionne que les jours de télétravail occasionnel à distance sont positionnés à la convenance du salarié, dans la limite de quatre jours par mois, ce qui correspond à environ 0,92 jours par semaine.
-    * Cependant, aucun des documents ne mentionne explicitement que le télétravail régulier est autorisé à hauteur de 5 jours par semaine, même si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué.
-    * Par conséquent, je propose la valeur maximale trouvée dans les documents, à savoir 0,92 jours par semaine, arrondie à l'entier inférieur, ce qui donne 0 jour par semaine.
+Mon raisonnement :
+Le document mentionne que les jours de travail occasionnel à distance sont limités à deux jours par mois. En appliquant les règles données, je ne peux pas déduire directement le nombre de jours de télétravail par semaine, car il n'y a pas de lien direct entre les deux. Cependant, en divisant le nombre total de jours de télétravail par mois (2) par le nombre de semaines dans un mois (environ 4,3), j'obtiens une estimation approximative de 0,46 jour de télétravail par semaine. Comme il n'est pas possible de donner une réponse fractionnaire, je dois arrondir à l'entier inférieur, ce qui donne 0 jour de télétravail par semaine. Cependant, comme le document mentionne que les jours de télétravail sont positionnés "à la convenance du salarié", il est possible que le salarié puisse choisir de travailler à distance tous les jours de la semaine pendant ces deux jours de télétravail mensuel. Dans ce cas, le nombre maximum de jours de télétravail par semaine serait de 2 divisé par le nombre de semaines dans un mois, soit environ 0,46 jour de télétravail par semaine. Encore une fois, comme il n'est pas possible de donner une réponse fractionnaire, je dois arrondir à l'entier inférieur, ce qui donne 0 jour de télétravail par semaine. Cependant, comme le document mentionne que les jours de télétravail sont positionnés "à la convenance du salarié", il est possible que le salarié puisse choisir de travailler à distance tous les jours de la semaine pendant ces deux jours de télétravail mensuel. Dans ce cas, le nombre maximum de jours de télétravail par semaine serait de 2.

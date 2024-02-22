@@ -1,7 +1,7 @@
 Q_TTSEM_NOMBRE:
-* Extraits pertinents :
-    * "Les parties fixent le nombre de jour de télétravail à deux jours maximum par semaine." (Source: T09121006419.txt)
-* Réponse :
+* Extraits pertinents des documents :
+    * "Les parties fixent le nombre de jour de télétravail à deux jours maximum par semaine." (T09121006419.txt)
+* Ma réponse :
     * nombrejourdeteletravailmaxparsemaine=2
-* Raisonnement :
+* Mon raisonnement :
     * Selon l'article 4 du document T09121006419.txt, les parties ont fixé le nombre de jour de télétravail à deux jours maximum par semaine.

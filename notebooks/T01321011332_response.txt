@@ -1,12 +1,8 @@
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* "Les salariés à temps partiel ne travaillant pas 5 jours par semaine ne peuvent télétravailler qu’un jour par semaine." (Document(page\_content='Compte tenu des principes définis ci-dessus, les salariés à temps partiel ne travaillant pas 5 jours par semaine ne peuvent télétravailler qu’un jour par semaine.\nAussi, le télétravail n’est pas une mesure envisagée de manière permanente mais seulement de manière ponctuelle, à la demande des salariés éligibles.\nLe présent accord distingue ainsi le télétravail ponctuel, entendu comme pouvant se répéter toutes les semaines à la demande du salarié et sur autorisation du supérieur hiérarchique, et le télétravail exceptionnel, entendu comme une mesure mise en place par la société dans des circonstances particulières (exemples : épidémie, force majeure, épisode de pollution, inondation, etc…).\nLe choix des jours de télétravail est proposé par le salarié via le logiciel de gestion des absences et est validé en amont par le supérieur hiérarchique. Le télétravail est pris par journées entières (la demi-journée n’étant possible qu’en cas de rationalisation d’un déplacement professionnel).', metadata={'source': 'T01321011332.txt'}))
 
-* "Le télétravail est possible, si cela est compatible avec la durée du travail des salariés concernés, à concurrence de 0 à 2 jours ouvrés maximum par semaine, non consécutifs, sous condition de présence de 3 jours sur site (non reportable, non cumulable)."
-
-Ma réponse :
-
-* nombrejourdeteletravailmaxparsemaine=2
+Ma réponse après raisonnement ci-dessous :
+* nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
-
-* Je me base sur le paragraphe "Le télétravail est possible, si cela est compatible avec la durée du travail des salariés concernés, à concurrence de 0 à 2 jours ouvrés maximum par semaine, non consécutifs, sous condition de présence de 3 jours sur site (non reportable, non cumulable).".
-* Il est indiqué que le télétravail est possible à hauteur de 2 jours ouvrés maximum par semaine.
+* Dans le premier paragraphe, il est indiqué que les salariés à temps partiel ne travaillant pas 5 jours par semaine ne peuvent télétravailler qu’un jour par semaine. Donc, même si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué, la limite est fixée à 1 jour par semaine pour les salariés à temps partiel.

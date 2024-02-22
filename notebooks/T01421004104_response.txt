@@ -1,10 +1,10 @@
-Q_TTSEM_NOMBRE:* Extraits pertinents :
-    * "l’intégralité des dispositions de l’accord relatif à la mise en place du télétravail en période d’épidémie Covid-19 soient prolongées d’une période de quatre mois"
-    * "le télétravail est un mode d’organisation de l’entreprise qui participe activement à la démarche de prévention du risque d’infection au SARS-CoV-2 et permet de limiter les interactions sociales aux abords des lieux de travail et sur les trajets domicile travail et qu’il doit être la règle pour l’ensemble des activités qui le permettent"
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=5
-* Mon raisonnement :
-    * Les dispositions de l'accord relatif à la mise en place du télétravail en période d'épidémie Covid-19 sont prolongées pour une période de quatre mois.
-    * Le télétravail doit être la règle pour l'ensemble des activités qui le permettent.
-    * Compte tenu de l'absence de limitation explicite du nombre de jours de télétravail par semaine et de la mention de "l'ensemble des activités", je considère que le télétravail à 100% ou le full-remote est autorisé.
-    * Par conséquent, en application de l'instruction 2.E, je fixe le nombre maximal de jours de télétravail par semaine à 5.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question:
+
+* "L’évolution de la situation sanitaire Covid-19 ne permet toujours pas d’envisager un retour de tous les salariés à 100% sur le site. C’est dans ce contexte que la Direction de Knorr-Bremse SPVUF et les organisations syndicales s’accordent pour que l’intégralité des dispositions de l’accord relatif à la mise en place du télétravail en période d’épidémie Covid-19 soient prolongées d’une période de quatre mois."
+* "Le télétravail est un mode d’organisation de l’entreprise qui participe activement à la démarche de prévention du risque d’infection au SARS-CoV-2 et permet de limiter les interactions sociales aux abords des lieux de travail et sur les trajets domicile travail et qu’il doit être la règle pour l’ensemble des activités qui le permettent."
+
+My response after reasoning:
+nombrejourdeteletravailmaxparsemaine = 5
+
+My reasoning:
+The first paragraph indicates that the agreement on teleworking during the Covid-19 epidemic has been extended for four months. However, it does not specify the number of days of telework per week. The second paragraph mentions that teleworking must be the rule for all activities that allow it. Given that there is no specific limit mentioned in the document and considering point 2.E, I conclude that the maximum number of days of telework per week is 5.

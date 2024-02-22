@@ -1,9 +1,14 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser :
 
-* "Il cessera de produire définitivement et irrévocablement ses effets à la date du 31 mai 2021." (Document(page\_content='Il cessera de produire définitivement et irrévocablement ses effets à la date du 31 mai 2021.\n\nArticle 2. Autres dispositions\nLes autres dispositions de l’Accord demeurent inchangées. \n\nArticle 3. Publicité\nLe présent avenant prend effet à compter de son dépôt auprès de la Direction Régionale des Entreprises, de la Concurrence, de la Consommation, du Travail et de l'Emploi (DIRECCTE). Il sera communiqué à l'ensemble du personnel de l’Entreprise conformément aux dispositions prévues par l’Accord.\n\nConformément aux dispositions de l’article D. 2231-4 du Code du travail, l’Accord, ainsi que les pièces accompagnant le dépôt prévu aux articles D.2231-6 et D.2231-7 du code du travail, seront déposés, à la diligence de l'Entreprise, sur la plateforme de téléprocédure du Ministère du Travail prévue à cet effet (www.teleaccords.travail-emploi.gouv.fr/PortailTeleprocedures/).\n\nUn exemplaire sera déposé au secrétariat-greffe du conseil des prud’hommes.', metadata={'source': 'T09221025957.txt'}))
+   > "Il cessera de produire définitivement et irrévocablement ses effets à la date du 31 mai 2021."
+   
+   > "Le présent accord est renouvelé pour une durée de (3) trois mois, soit jusqu’au 31 mai 2021."
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=0
+* Ma réponse après raisonnement :
 
-Mon raisonnement :
-Après avoir analysé les documents fournis, je n'ai pas trouvé de paragraphe contenant le mot-clé "semaine" ou une notion de fréquence par semaine concernant le nombre de jours de télétravail autorisés. De plus, rien n'indique qu'un employé peut télétravailler à temps plein (5 jours par semaine) sans jour de présence minimum sur site. Par conséquent, je ne peux pas attribuer de valeur à la variable 'nombrejourdeteletravailmaxparsemaine'.
+   nombrejourdeteletravailmaxparsemaine=0
+
+* Mon raisonnement :
+
+   Les informations contenues dans les documents ne permettent pas de déterminer le nombre maximal de jours de télétravail par semaine. En effet, aucun paragraphe ne mentionne explicitement le nombre de jours de télétravail autorisés par semaine, ni ne contient le mot-clé "semaine" ou une notion de fréquence par semaine concernant le télétravail. De plus, rien n'indique si le télétravail à 100% ou le full-remote est autorisé ou non. Par conséquent, je ne peux pas attribuer de valeur à la variable 'nombrejourdeteletravailmaxparsemaine'.

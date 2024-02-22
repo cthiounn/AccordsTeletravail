@@ -1,8 +1,12 @@
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
-* "Afin notamment de preserver une certaine cohesion au sein des effectifs de la Societe, les Salaries a temps plein ne travailleront qu'au maximum 2 jours par semaine en teletravail"
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Afin notamment de préserver une certaine cohésion au sein des effectifs de la Société, les Salariés à temps plein ne travailleront qu'au maximum 2 jours par semaine en télétravail et 1 seule journée pour les Salariés à temps partiel." (Document(page\_content="Ces mesures feront l'objet d'une appreciation au cas par cas.\n\n\nARTICLE 8. CHANGEMENT DE FONCTION, DE SERVICE, DOMICILE\n\nUn nouvel examen des conditions d'eligibilite au teletravail pourra etre effectue si le Salarie etait amene a changer de fonction, de poste, de service et de domicile.\nCe nouvel examen pourra donner lieu a la cessation de la situation de teletravail.\n\nARTICLE 9. RYTHME DE TELETRAVAIL\n\nAfin notamment de preserver une certaine cohesion au sein des effectifs de la Societe, les Salaries a temps plein ne travailleront qu'au maximum 2 jours par semaine en teletravail et 1\nseule joumee pour les Salaries a temps partiel.\nToutefois, concemant les personnes et/ou les situations visees a!'article 3.2 de!'Accord, ii est possible de deroger aux rythmes de travail prevus a l'alinea precedent, afin de faire face a la necessite d'une frequence accrue du nombre de jours teletravailles.", metadata={'source': 'T09221022859.txt'}))
+* "La Societe s'engage ace que les travailleurs handicapes qui souhaiteraient avoir recours au teletravail puissent, conformement aux dispositions de!'Article L 5213-6 du Code du Travail, beneficier des mesures appropriees facilitant leur acces au teletravail." (Document(page\_content="L'obligation pour le collaborateur de delivrer annuellement son attestation « Risque Habitation » avec la garantie civile et/ou son extension sous peine de perdre sa situation de teletravail, a effet immediat.\n\nLe Salarie dispose d'un delai de 14 jours a compter de la date de reception pour accepter la proposition d'avenant a son contrat de travail.\n\nARTICLE\t7.\tMODALITES\tD'ACCES\tAU\tTELETRAVAIL\tDES\tTRAVAILLEURS HANDICAPES\nLa Societe s'engage ace que les travailleurs handicapes qui souhaiteraient avoir recours au teletravail puissent, conformement aux dispositions de!'Article L 5213-6 du Code du Travail, beneficier des mesures appropriees facilitant leur acces au teletravail.\n\nCes mesures feront l'objet d'une appreciation au cas par cas.\n\n\nARTICLE 8. CHANGEMENT DE FONCTION, DE SERVICE, DOMICILE", metadata={'source': 'T09221022859.txt'}))
 
 Ma réponse :
-* nombrejourdeteletravailmaxparsemaine=2
+
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-* Dans le document, il est stipulé que les salariés à temps plein ne peuvent travailler plus de 2 jours par semaine en télétravail. Cette information est claire et précise, elle provient directement de l'article 9 du document.
+
+Après analyse des documents fournis, je constate que les salariés à temps plein ont la possibilité de télétravailler au maximum 2 jours par semaine. Cette information est présente dans le premier paragraphe extrait. Par conséquent, la variable nombrejourdeteletravailmaxparsemaine est affectée à la valeur 2.

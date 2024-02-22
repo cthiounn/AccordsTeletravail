@@ -1,10 +1,12 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
-* Article 2.3.1. Rythme général du télétravail : "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine."
-* Article 2.3.2. Modification du jour de télétravail : "Les salariés éligibles peuvent bénéficier de 5 jours de télétravail dans l’année..."
+* "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine." (from Document(page\_content='Article 2.3 Rythme du télétravail\xa0\n\nArticle 2.3.1. Rythme général du télétravail\n\nThe telework can be implemented, by whole days of work, within the limit of 1 day per week.'))
+* "Les jours de télétravail sont mobilisables par année civile\xa0; ils ne peuvent être cumulés, accolés entre eux ou à des congés ou pris en une seule fois. Ils ne sont pas fractionnables. \nLes jours de télétravail non mobilisés ne donnent pas lieu à report l’année suivante." (from Document(page\_content='Ces jours de télétravail sont mobilisables par année civile\xa0; ils ne peuvent être cumulés, accolés entre eux ou à des congés ou pris en une seule fois. Ils ne sont pas fractionnables. \nLes jours de télétravail non mobilisés ne donnent pas lieu à report l’année suivante.'))
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine = 1
+My response after reasoning is:
 
-Mon raisonnement :
-Après avoir analysé les deux paragraphes pertinents, j'ai pu extraire l'information spécifique dont j'ai besoin, qui est le nombre de jours de télétravail autorisés par semaine. Le premier paragraphe indique que le télétravail est possible "dans la limite de 1 journée par semaine". Par conséquent, le nombre maximum de jours de télétravail par semaine est 1.
+* nombrejourdeteletravailmaxparsemaine=1
+
+My reasoning is:
+
+* The first paragraph states that the telework can be implemented within the limit of 1 day per week. Therefore, the maximum number of days an employee can telework regularly is 1 day per week.

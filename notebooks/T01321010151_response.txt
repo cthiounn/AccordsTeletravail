@@ -1,9 +1,11 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Le télétravailleur dispose d’une priorité pour reprendre ou occuper un poste sans télétravail qui correspond à ses qualifications et compétences professionnelles." (T01321010151.txt)
-* "Le télétravail doit s’articuler avec le principe du respect de la vie privée du salarié." (T01321010151.txt)
+Q_TTSEM_NOMBRE:Extraction pertinente du document :
+* "Le télétravailleur dispose d’une priorité pour reprendre ou occuper un poste sans télétravail qui correspond à ses qualifications et compétences professionnelles."
+* "Les télétravailleurs étant physiquement présents en entreprise à hauteur a minima de 4/5 de leur temps de travail hebdomadaire le risque d’isolement apparait peu élevé."
 
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=0
+Ma réponse :
+* nombrejourdeteletravailmaxparsemaine = 4
 
 Mon raisonnement :
-* Après analyse des documents fournis, je n'ai pas trouvé de paragraphe indiquant explicitement le nombre de jours de télétravail autorisés par semaine, dans le cadre d'un télétravail régulier et non occasionnel. De plus, rien n'indique que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué, et encore moins qu'il n'y a pas de jour de présence minimum sur site. Par conséquent, je ne peux pas affecter la variable 'nombrejourdeteletravailmaxparsemaine' à une valeur supérieure à 0.
+* Les télétravailleurs sont physiquement présents en entreprise à hauteur de 4/5 de leur temps de travail hebdomadaire, ce qui signifie qu'ils passent 4 jours sur 5 en télétravail.
+* Cependant, il n'est pas explicitement mentionné que le télétravail est possible tous les jours de la semaine, il est simplement indiqué que les télétravailleurs travaillent 4 jours sur 5 en télétravail.
+* Par conséquent, je ne peux pas affirmer avec certitude que le nombre maximum de jours de télétravail par semaine est de 4, mais c'est la limite maximale possible selon les informations fournies.

@@ -1,6 +1,13 @@
-Q_TTSEM_NOMBRE:
-* Extraction pertinente du document :
-    * "Le temps de présence dans les locaux devra être au minimum de 4 jours ouvrés par semaine afin de prévenir tout risque d’isolement. Le nombre de jours de télétravail est donc limité à un jour par semaine."
-    * "Le temps de présence dans les locaux devra être au minimum de 3 jours ouvrés par semaine afin de prévenir tout risque d’isolement. Le nombre de jours télétravaillés est donc limité à deux jours par semaine."
-* Ma réponse : nombrejourdeteletravailmaxparsemaine=2
-* Mon raisonnement : Les deux phrases extraites précisent le nombre maximum de jours de télétravail par semaine pour chaque catégorie de personnel. Cette limite est respectivement d'un jour par semaine pour le personnel non-cadre et de deux jours par semaine pour le personnel cadre. Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' est affectée à la valeur 2.
+Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+> "Le temps de présence dans les locaux devra être au minimum de 3 jours ouvrés par semaine afin de prévenir tout risque d’isolement. Le nombre de jours télétravaillés est donc limité à deux jours par semaine."
+
+> "Le temps de présence dans les locaux devra être au minimum de 4 jours ouvrés par semaine afin de prévenir tout risque d’isolement. Le nombre de jours de télétravail est donc limité à un jour par semaine."
+
+* Ma réponse après raisonnement :
+
+nombrejourdeteletravailmaxparsemaine=2
+
+* Mon raisonnement :
+
+En analysant les deux paragraphes pertinents, j'ai pu extraire l'information relative au nombre de jours de télétravail autorisés par semaine pour chaque catégorie de personnel. Les personnels cadres ont droit à deux jours de télétravail par semaine, tandis que les personnels non-cadres ont droit à un jour de télétravail par semaine. Compte tenu des instructions données, je retiens la limite supérieure, soit deux jours de télétravail par semaine.

@@ -1,11 +1,16 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "La crise sanitaire liée à l’épidémie du covid-19 a considérablement bouleversé les modes de vies à travers le monde entier mais également les modes d’organisation du travail."
-* "A ce jour, la situation de travail à distance perdure et la société a souhaité compléter l’accord en vigueur."
+Q_TTSEM_NOMBRE:
+* Extraits pertinents des documents :
 
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=0
+> "La crise sanitaire liée à l’épidémie du covid-19 a considérablement bouleversé les modes de vies à travers le monde entier mais également les modes d’organisation du travail. Ainsi, le recours au travail à distance a augmenté de façon importante en raison de cette crise sanitaire et des mesures prises par le gouvernement pour y faire face, en particulier le confinement décidé dans le cadre de la période d’urgence sanitaire."
 
-Mon raisonnement :
-* Les documents fournis ne comportent aucune information sur le nombre de jours maximum de télétravail par semaine.
-* De plus, aucun paragraphe ne mentionne explicitement le nombre de jours de télétravail autorisés par semaine, ni ne comporte le mot-clé "semaine" ou une notion de fréquence par semaine concernant le télétravail.
-* Par conséquent, je ne peux pas attribuer de valeur à la variable 'nombrejourdeteletravailmaxparsemaine'.
+> "C’est dans ce contexte qu’un accord a été conclu le 31 juillet 2020 afin d'encadrer le travail à distance au sein de la société MAISONS DU MONDE France."
+
+> "Le présent avenant complète ou révise, à compter de son entrée en vigueur, certaines des dispositions prévues par l’accord initial relatif au travail à distance."
+
+* Ma réponse après raisonnement :
+
+    nombrejourdeteletravailmaxparsemaine = 0
+
+* Mon raisonnement :
+
+Après avoir analysé les documents fournis, je n'ai pas trouvé de mention explicite du nombre maximal de jours de télétravail par semaine, ni de fréquence hebdomadaire associée au télétravail. Les extraits pertinents ne mentionnent pas non plus le télétravail à 100% ou le full-remote sans jour de présence minimum sur site. Par conséquent, conformément aux instructions, je retourne la variable 'nombrejourdeteletravailmaxparsemaine' à 0.

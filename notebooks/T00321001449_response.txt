@@ -1,11 +1,7 @@
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
+Q_TTSEM_NOMBRE:* Extraits pertinents :
     * "L’employeur accorde un jour de télétravail par semaine"
     * "Les dispositions du présent accord ont pour objet de définir les règles allégées du télétravail pendant la période du 14/06/2021 jusqu’au 31/08/2021"
-    * "Les organisations syndicales représentatives de salariés et Délégués Syndicaux CFDT, Délégué Syndical FO d’autre part Il est convenu ce qui suit : Préambule Le gouvernement a annoncé et mis en œuvre des mesures de déconfinement, en lien avec l’amélioration de la situation sanitaire, qui démarrent plus particulièrement à compter du 09/06/2021. Néanmoins si ces mesures ont été prises, le gouvernement estime qu’il n’existe pas encore une absence totale de risque, ce qui suppose de ne pas annuler totalement le télétravail mais d’alléger le dispositif."
-
-* Ma réponse :
+* Réponse :
     * nombrejourdeteletravailmaxparsemaine=1
-
-* Mon raisonnement :
-    * Dans le premier extrait, il est stipulé que l'employeur accorde un jour de télétravail par semaine. Ce jour est fixe et non modifiable, donc le nombre maximal de jours de télétravail par semaine est de 1.
+* Raisonnement :
+    * Selon l'article 3, l'employeur accorde un jour de télétravail par semaine. Cette information est confirmée dans le préambule qui mentionne que la direction a décidé de maintenir le télétravail en l'état du 09/06 au 14/06, ce qui implique que le télétravail était déjà en place avant la date butoir du 14/06. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 1.

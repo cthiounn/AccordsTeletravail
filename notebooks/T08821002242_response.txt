@@ -1,11 +1,13 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* "Le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein." (Source: T08821002242.txt)
+* "Le télétravail est organisé sur la base de jours fixes (régularité des jours de télétravail pour chaque collaborateur et non jours « volants » dans la semaine) établis dans le cadre d’un planning hebdomadaire." (Source : T08821002242.txt)
+* "6-1 Rythme du télétravail De sorte à éviter le risque d’une « distanciation » avec l’entreprise, le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein." (Source : T08821002242.txt)
 
-Ma réponse après raisonnement ci-dessous :
+Ma réponse :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-Le document stipule clairement que le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein. Par conséquent, je peux affirmer que nombrejourdeteletravailmaxparsemaine=2.
+* Selon le premier paragraphe, le télétravail est organisé sur la base de jours fixes dans le cadre d’un planning hebdomadaire. Cela signifie qu’il y a une récurrence des jours de télétravail chaque semaine.
+* Selon le deuxième paragraphe, le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein. Cette information est confirmée dans le document, elle est donc valide.

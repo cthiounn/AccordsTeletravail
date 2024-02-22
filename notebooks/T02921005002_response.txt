@@ -1,10 +1,9 @@
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Le télétravail tel que défini ci-dessus s’organise chez SWM par journée ou par demi-journée, sous réserve de respecter une obligation de 2 jours de présence par semaine minimum sur le site de rattachement habituel." (Source: T02921005002.txt)
-* "Pour assurer le bon fonctionnement du service (organisation des réunions en présentiel par exemple), chaque manager peut refuser des demandes de télétravail et/ou exclure une ou plusieurs journées ou périodes du mois ou de l’année de l’exercice du télétravail." (Source: T02921005002.txt)
+* "Il est proposé via une formule de télétravail à jours fixes ou flexibles, le choix de la formule s’effectuant en concertation entre le télétravailleur et le manager selon les besoins liés à l’activité." (Source: T02921005002.txt)
 
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=2
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-* D'après le premier paragraphe extrait, le télétravail s'organise par journée ou demi-journée, mais sous réserve de respecter une obligation de 2 jours de présence par semaine minimum sur le site de rattachement habituel. Par conséquent, le nombre maximum de jour de télétravail par semaine est de 5 - 2 = 3 jours. Donc, nombrejourdeteletravailmaxparsemaine=3.
-* Cependant, le deuxième paragraphe extrait mentionne que chaque manager peut refuser des demandes de télétravail et/ou exclure une ou plusieurs journées ou périodes du mois ou de l’année de l’exercice du télétravail. Par conséquent, le nombre maximum de jour de télétravail par semaine peut être inférieur à 3 jours. Mais comme les informations ne permettent pas de déterminer cette valeur, je ne peux pas affecter une autre valeur à la variable nombrejourdeteletravailmaxparsemaine.
+Selon le premier paragraphe, le télétravail s'organise par journée ou demi-journée, mais sous réserve de respecter une obligation de 2 jours de présence par semaine minimum sur le site de rattachement habituel. Par conséquent, le nombre maximum de jour de télétravail par semaine est de 5 - 2 = 3 jours. Cependant, le deuxième paragraphe indique que le télétravail est proposé via une formule de télétravail à jours fixes ou flexibles, le choix de la formule s'effectuant en concertation entre le télétravailleur et le manager selon les besoins liés à l'activité. Cette information ne permet pas de déterminer si le nombre de jour de télétravail par semaine peut être supérieur à 3. Néanmoins, comme il n'y a pas d'autres informations permettant de revoir ce résultat, je maintiens ma réponse à nombrejourdeteletravailmaxparsemaine=2.

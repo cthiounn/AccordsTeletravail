@@ -1,10 +1,9 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Les demandes se feront par l’intermédiaire d’ADP. Le télétravail reste à la discrétion du management qui se laisse la possibilité de refuser une demande, et vice-versa."
-* "2.4 - Télétravail \nRAYDIALL a dû s’adapter à la situation sanitaire en 2020 et a mis en place le télétravail généralisé dans ce contexte particulier. \nAfin d’encadrer cette pratique et en dehors de la situation exceptionnelle actuelle, certains critères d’éligibilités ont été définis pour permettre d’apprécier ce nouveau mode d’organisation du travail. Ainsi, pour effectuer du télétravail occasionnel il faudra remplir les conditions suivantes\xa0:"
-
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=0
-
-Mon raisonnement :
-* Les informations fournies ne permettent pas de déterminer le nombre maximum de jours de télétravail par semaine, car aucun paragraphe ne comporte le mot-clé semaine ou une notion de fréquence par semaine et concerne le nombre de jour de télétravail autorisé.
-* De plus, rien n'indique que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué, et qu'il n'y a pas de jour de présence minimum sur site.
+Q_TTSEM_NOMBRE:
+* Extraits pertinents :
+    * "Disposer du matériel pour effectuer du télétravail (PC portable et ligne téléphonique fournis par RAYDIALL et connexion internet au domicile)"
+    * "Les demandes se feront par l’intermédiaire d’ADP. Le télétravail reste à la discrétion du management qui se laisse la possibilité de refuser une demande, et vice-versa."
+    * "Afin d’encadrer cette pratique et en dehors de la situation exceptionnelle actuelle, certains critères d’éligibilités ont été définis pour permettre d’apprécier ce nouveau mode d’organisation du travail. Ainsi, pour effectuer du télétravail occasionnel il faudra remplir les conditions suivantes: Avoir une performance normale (Répondre aux attentes du poste) Disposer du matériel pour effectuer du télétravail (PC portable et ligne téléphonique fournis par RAYDIALL et connexion internet au domicile) Disposer à son domicile d’un espace pour télétravailler."
+* Réponse :
+    * nombrejourdeteletravailmaxparsemaine=0
+* Raisonnement :
+    * Les informations contenues dans les documents ne permettent pas de déterminer le nombre maximal de jours de télétravail par semaine, car elles ne contiennent aucune indication quantitative sur la fréquence hebdomadaire du télétravail. De plus, rien n'indique que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué, et il n'est pas non plus précisé s'il n'y a pas de jour de présence minimum sur site.

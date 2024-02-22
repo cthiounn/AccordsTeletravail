@@ -9,4 +9,8 @@ Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-Les deux paragraphes extraits des documents indiquent clairement que le télétravail régulier s'effectue à raison de deux jours par semaine maximum. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+Après analyse des documents fournis, j'ai pu trouver deux paragraphes pertinents qui répondent à la question posée. Dans le premier paragraphe, il est indiqué que "Le télétravail régulier s’effectue à raison de deux jours par semaine maximum". Ce paragraphe précise que le télétravail régulier est limité à deux jours par semaine, ce qui correspond à la variable 'nombrejourdeteletravailmaxparsemaine'.
+
+Le deuxième paragraphe confirme cette information en mentionnant que "Cas n°1	: le salarié s’inscrit dans une organisation régulière de deux journées maximum de télétravail par semaine". Cette phrase indique que le télétravail régulier ne peut excéder deux jours par semaine, ce qui correspond à la variable 'nombrejourdeteletravailmaxparsemaine'.
+
+Par conséquent, je peux conclure que la variable 'nombrejourdeteletravailmaxparsemaine' est égale à 2.

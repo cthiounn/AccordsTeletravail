@@ -1,6 +1,10 @@
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Consigne est donnée au personnel de : rester chez soi le plus possible. Le télétravail a été généralisé pour tous les postes pour lesquels il est possible et pour lesquels l’activité se poursuit"
-    * "L'organisation du travail a été adaptée aux contraintes qui s'imposent dans le cadre de l'épidémie de Covid-19 : généralisation du recours au télétravail pour tous les postes aménageables en télétravail pour lesquels l’activité se poursuit"
-* Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
-* Mon raisonnement : Les extraits pertinents montrent que le télétravail a été généralisé pour tous les postes aménageables en télétravail, sans restriction quant au nombre de jours par semaine. De plus, aucune limitation explicite n'est mentionnée dans les documents analysés. Par conséquent, je déduis que le nombre maximal de jours de télétravail par semaine est de 5, conformément à l'instruction 2.G.
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Consigne est donnée au personnel de : rester chez soi le plus possible. Le télétravail a été généralisé pour tous les postes pour lesquels il est possible et pour lesquels l’activité se poursuit;"
+* "Il sera demandé au client d’assurer le nettoyage régulier des postes de travail,"
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=0
+
+Mon raisonnement :
+Après avoir analysé les documents fournis, je n'ai pas trouvé de paragraphe contenant le mot-clé "semaine" ou une notion de fréquence par semaine concernant le nombre de jours de télétravail autorisés. De plus, aucune limitation explicite du nombre de jours de télétravail par semaine n'est mentionnée. Par conséquent, conformément aux instructions données, je retourne la valeur 0 pour la variable 'nombrejourdeteletravailmaxparsemaine'.

@@ -8,4 +8,4 @@ Ma réponse après raisonnement ci-dessous :
 
 Mon raisonnement :
 
-* Le document mentionne explicitement qu'un salarié ne peut télétravailler plus d'un jour par semaine, sauf circonstances exceptionnelles. Cette limite est clairement définie dans le document et ne dépend pas d'autres facteurs tels que la période de référence ou le type de contrat. Par conséquent, je peux affirmer que le nombre maximal de jours de télétravail par semaine est de 1.
+* Le document contient bien une information sur la fréquence du télétravail par semaine dans l'article 39. Cette information indique qu'un salarié ne peut télétravailler plus d'un jour par semaine. Par conséquent, nombrejourdeteletravailmaxparsemaine=1.

@@ -1,13 +1,9 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
-* "A compter du x, suite à la demande du salarié, il a été défini que le salarié pourra exercer son activité professionnelle en télétravail par journée ou demi-journée, à raison d’un volume pouvant atteindre X journées par semaine."
-* "Le télétravail régulier à temps partiel (salarié en télétravail pour un volume de jours équivalent à quelques jours de sa semaine habituelle de travail, chaque semaine)"
+* "A compter du x, suite to the employee's request, it has been defined that the employee can perform his professional activity by teleworking one or half day, up to X days per week."
+* "Three types of telework are distinguished, corresponding to the uses observed within the company: regular part-time telework (employee working remotely for a volume equivalent to a few days of their usual weekly work, each week); full-time regular telework (employee working remotely for a volume equivalent to all the days of their usual weekly work, each week); occasional telework (employee working remotely exceptionally)"
 
-Ma réponse après raisonnement ci-dessous :
+My response is:
 
-* nombrejourdeteletravailmaxparsemaine=X
-
-Mon raisonnement :
-
-* Le premier paragraphe indique que le salarié peut télétravailler un volume pouvant atteindre X journées par semaine. Donc, le nombre maximum de jour de télétravail par semaine est X.
-* Le deuxième paragraphe ne donne pas de valeur numérique explicite, donc je ne peux pas utiliser cette information pour déterminer la valeur de nombrejourdeteletravailmaxparsemaine.
+* Ma réponse: nombrejourdeteletravailmaxparsemaine=X
+* Mon raisonnement: The first paragraph indicates that the employee can telework up to X days per week. Therefore, the maximum number of days of telework per week is X.

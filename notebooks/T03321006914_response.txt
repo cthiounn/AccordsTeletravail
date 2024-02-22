@@ -1,10 +1,10 @@
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 
-* "La possibilité de télétravailler est ouverte aux seuls postes pour lesquels les activités sont compatibles avec ce mode d’organisation du travail."
-* "Afin de maintenir le lien social avec l’entreprise et au sein de l’équipe, mais également de faciliter l’organisation des temps de travail collectif, l’activité exercée en télétravail ne pourra en principe excéder une journée complète et fixe par semaine pour un salarié présent à temps plein."
+* "L’activité exercée en télétravail pourra être aménagée sur plus d’un jour par semaine"
+* "l’activité exercée en télétravail ne pourra en principe excéder une journée complète et fixe par semaine pour un salarié présent à temps plein."
 
 Ma réponse :
 nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
-Le document indique que l'activité exercée en télétravail ne peut excéder une journée complète et fixe par semaine pour un salarié présent à temps plein. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 1.
+Le premier paragraphe indique que le télétravail peut être aménagé sur plus d'un jour par semaine, tandis que le deuxième paragraphe indique que l'activité exercée en télétravail ne peut excéder une journée complète et fixe par semaine pour un salarié présent à temps plein. Il n'y a pas de mention d'un télétravail à 100% ou full-remote dans le document, donc je ne peux pas affecter la variable nombrejourdeteletravailmaxparsemaine à la valeur 5.

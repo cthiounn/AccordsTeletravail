@@ -1,14 +1,9 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:Extraction pertinente des documents :
 * "Pour autant, les parties partagent le fait que les conditions ergonomiques ne sont pas autant satisfaisantes que sur le lieu de travail habituel au sein des locaux de l’entreprise."
-* "Les parties conviennent d’un participation d’IFP Training, sous la forme d’un remboursement de frais à hauteur de 80 euros TTC maximum pour l’achat d’un siège ergonomique ou d’une table-bureau, participation limitée à une fois par salarié."
+* "Les parties conviennent d’une participation d’IFP Training, sous la forme d’un remboursement de frais à hauteur de 80 euros TTC maximum pour l’achat d’un siège ergonomique ou d’une table-bureau, participation limitée à une fois par salarié."
 
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=5
+Ma réponse :
+* nombrejourdeteletravailmaxparsemaine=0
 
 Mon raisonnement :
-* Les deux paragraphes extraits ne contiennent pas d'information sur le nombre de jours de télétravail maximum par semaine.
-* Cependant, l'extrait "Pour autant, les parties partagent le fait que les conditions ergonomiques ne sont pas autant satisfaisantes que sur le lieu de travail habituel au sein des locaux de l’entreprise." indique que le télétravail est mis en place au sein de l'entreprise.
-* De plus, l'extrait "Les parties conviennent d’un participation d’IFP Training, sous la forme d’un remboursement de frais à hauteur de 80 euros TTC maximum pour l’achat d’un siège ergonomique ou d’une table-bureau, participation limitée à une fois par salarié." confirme que le télétravail est mis en place car il s'agit d'une mesure prise pour améliorer les conditions de travail des salariés en télétravail.
-* Dans le contexte actuel, où le télétravail est devenu la norme dans de nombreuses entreprises, il est probable que les salariés de l'entreprise IFP Training aient droit à du télétravail régulier.
-* D'après les instructions données, si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué ET qu'il n'y a pas de jour de présence minimum sur site, alors le nombre de jours de télétravail maximum par semaine est de 5.
-* Dans ce cas, nombrejourdeteletravailmaxparsemaine=5.
+* Les documents fournis ne contiennent aucune information sur le nombre de jours de télétravail autorisés par semaine, ni aucune mention de télétravail à 100% ou de full-remote avec absence de jour de présence minimum sur site.

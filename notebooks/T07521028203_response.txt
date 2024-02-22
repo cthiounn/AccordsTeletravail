@@ -1,12 +1,10 @@
-Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
-* "Un à deux jours fixes par semaine de télétravail." (Document(page\_content='Tenant compte de ces éléments, la Direction propose les principes suivants : \n\nPour un collaborateur exerçant son activité à temps complet :\n\nUn à deux jours fixes par semaine de télétravail.\nEt 3 jours de télétravail supplémentaires annuels dits «  modulables  » pour gérer notamment des situations exceptionnelles.   ', metadata={'source': 'T07521028203.txt'}))
+* "Un à deux days fixed by week of telework."
+* "One to two days fixed per week of telework."
 
-Ma réponse :
+My response is:
 
-nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine=2
 
-Mon raisonnement :
-
-En prenant le texte "Un à deux jours fixes par semaine de télétravail.", j'extrais l'information pertinente qui est le nombre de jours de télétravail maximum par semaine. Je retiens la valeur maximale qui est 2 jours.
+My reasoning is that the documents mention a maximum of two days of fixed telework per week.

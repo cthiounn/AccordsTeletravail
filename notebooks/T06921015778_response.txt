@@ -1,13 +1,10 @@
-Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
-    Article 3 : Modalités d’exercice du télétravail
-    Le télétravail peut être mis en œuvre, par journée entière de travail, dans la limite de 3 jours par semaine et de façon régulière.
+* "Le télétravail peut être mis en œuvre, par journée entière de travail, dans la limite de 3 jours par semaine et de façon régulière." (from Article 3)
+* "Un jour commun au bureau chaque semaine par service ou équipe est fixé par le manager." (from Article 3)
 
-* Ma réponse après raisonnement ci-dessous :
+My response after reasoning is:
+nombrejourdeteletravailmaxparsemaine=3
 
-    nombrejourdeteletravailmaxparsemaine=3
-
-* Mon raisonnement :
-
-    L'article 3 stipule que le télétravail peut être mis en œuvre dans la limite de 3 jours par semaine et de façon régulière. Donc, le nombre maximum de jours de télétravail par semaine est de 3.
+My reasoning is:
+The document explicitly states that teleworking can be implemented regularly for up to three days per week. This information is found in Article 3 of the document. Therefore, the maximum number of days an employee can telework regularly per week is three.

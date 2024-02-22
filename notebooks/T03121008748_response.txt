@@ -4,6 +4,7 @@ Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 * "Par exception, les salariés d'un service spécifique... pourront bénéficier d'une autorisation de télétravail par semaine entière dans la limite de 9 semaines par an (9 semaines x 5 jours/semaine =45 jours)."
 
 My response is:
-nombrejourdeteletravailmaxparsemaine=1
 
-My reasoning is that while the document states that employees can telework for up to 45 days per year, it also specifies that this must be done on a per-week basis. Therefore, the maximum number of days an employee can telework per week is 1. Additionally, there is no mention of full-time remote work or teleworking 100% of the time, and there is a requirement for at least one day of presence on site per week.
+* nombrejourdeteletravailmaxparsemaine=1
+
+My reasoning is that while the document states that employees can telework for up to 45 days per year, it also specifies that this should be done on a weekly basis. Therefore, the maximum number of days an employee can telework per week is 1. However, there is an exception for certain employees who can telework for up to 9 weeks per year, which amounts to 45 days or 5 days per week. Since the question asks for the maximum number of days of telework per week explicitly mentioned in the document, I chose the higher value of 5 days per week.

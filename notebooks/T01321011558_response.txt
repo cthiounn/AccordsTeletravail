@@ -1,8 +1,14 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Les jours de télétravail seront fixés selon les modalités suivantes : 1 jour par semaine." (Document(page\_content="ARTICLE 10 - FRÉQUENCE ET NOMBRE DE JOURS TÉLÉTRAVAILLÉS\nLes jours de télétravail seront fixés selon les modalités suivantes : 1 jour par semaine.\nLe télétravail doit être effectué par journée entière. A titre dérogatoire, il peut être effectué par demi-journée lorsqu’il est accolé à une demi-journée d’absence. \nLe télétravailleur reste tenu, même pendant les jours de télétravail, de se rendre dans les locaux de l'entreprise à la demande de sa hiérarchie pour participer aux réunions organisées et/ou pour le bon fonctionnement du service. Cette demande doit rester exceptionnelle. Le salarié doit être informé par tout moyen au moins 5 jours ouvrés à l’avance, sauf circonstance exceptionnelle. Elle ne justifiera pas l’octroi d’un nouveau jour de télétravail sur la même semaine.", metadata={'source': 'T01321011558.txt'}))
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
-Ma réponse après raisonnement ci-dessous :
+* "Les jours de télétravail seront fixés selon les modalités suivantes : 1 jour par semaine." (from Document(page\_content="ARTICLE 10 - FRÉQUENCE ET NOMBRE DE JOURS TÉLÉTRAVAILLÉS..."))
+* "la fréquence du télétravail qui sera au maximum d’un jour par semaine;" (from Document(page\_content="Un planning sera établi chaque mois par le manager..."))
+
+My response after reasoning is:
+
 * nombrejourdeteletravailmaxparsemaine=1
 
-Mon raisonnement :
-* Les jours de télétravail seront fixés selon les modalités suivantes : 1 jour par semaine. Donc, un employé/travailleur/salarié/collaborateur peut télétravailler régulièrement 1 jour par semaine.
+My reasoning is:
+
+* The first paragraph clearly states that the number of days of telework per week is one.
+* The second paragraph also mentions that the frequency of telework will not exceed one day per week.
+* Therefore, based on the information provided in the documents, the maximum number of days of telework per week is one.

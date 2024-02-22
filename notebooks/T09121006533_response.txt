@@ -1,13 +1,7 @@
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-    "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine (de par la nature de leur fonction, les commerciaux ne sont pas concernés par cette disposition)."
-    
-* Ma réponse après raisonnement ci-dessous :
-
-    nombrejourdeteletravailmaxparsemaine=2
-
+* Extraction pertinente du document :
+    * "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine"
+* Ma réponse :
+    * nombrejourdeteletravailmaxparsemaine=2
 * Mon raisonnement :
-
-    Le paragraphe pertinent est le suivant : "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine (de par la nature de leur fonction, les commerciaux ne sont pas concernés par cette disposition)."
-    Cette phrase indique clairement que le nombre maximal de jours de télétravail par semaine est de 2.
+    * Le document mentionne explicitement que le nombre maximum de jours de télétravail par semaine est de deux. Cette information est contenue dans la phrase "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de two daynées par semaine". Par conséquent, je peux affirmer que le nombre maximum de jours de télétravail par semaine est de deux.

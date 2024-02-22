@@ -1,13 +1,16 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise"
-* "Ou un forfait mensuel de 6 jours"
+    * "De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise"
+    * "Ou un forfait mensuel de 6 jours"
+    * "Ou un forfait annuel de 30 jours."
 
-Ma réponse après raisonnement ci-dessous :
+* Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=3
+    * nombrejourdeteletravailmaxparsemaine=3
 
-Mon raisonnement :
+* Mon raisonnement :
 
-* Selon le premier paragraphe, les collaborateurs ont la possibilité de télétravailler de 1 à 3 jours fixes par semaine. Donc, le nombre maximum de jours de télétravail par semaine est de 3.
-* Dans le deuxième paragraphe, il est mentionné un forfait mensuel de 6 jours, mais cela ne signifie pas que les collaborateurs peuvent télétravailler 6 jours par semaine, car il s'agit d'un forfait mensuel. Par conséquent, le nombre maximum de jours de télétravail par semaine reste de 3.
+    * Selon le premier paragraphe, les collaborateurs ont la possibilité de télétravailler de 1 à 3 jours fixes par semaine. Donc, le maximum de jours de télétravail par semaine est de 3.
+    * Dans le deuxième paragraphe, il est mentionné un forfait mensuel de 6 jours. Mais cela ne signifie pas que les collaborateurs peuvent télétravailler 6 jours par semaine, car cela représente le total de jours de télétravail dans le mois.
+    * De même, dans le troisième paragraphe, il est mentionné un forfait annuel de 30 jours. Cela ne signifie pas que les collaborateurs peuvent télétravailler 30 jours par semaine, car cela représente le total de jours de télétravail dans l'année.
+    * Par conséquent, le maximum de jours de télétravail par semaine est de 3.
