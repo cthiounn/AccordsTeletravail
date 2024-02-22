@@ -1,11 +1,10 @@
-Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:Two paragraphs relevant to the question are:
 
-* "Il est convenu que les salariés ne pourront télétravailler que 2 jours maximum par semaine" (Source: T02221003288.txt)
-* "Le télétravail occasionnel revêt un caractère ponctuel, irrégulier et doit répondre à un besoin du salarié, notamment de nature personnelle (panne de véhicule, grève des transports, nécessité de s’occuper d’un ascendant ou descendant, etc.)" (Source: T02221003288.txt)
+* "Il est convenu que les salariés ne pourront télétravailler que 2 jours maximum par semaine"
+* "Le télétravail peut être mis en œuvre de manière non consécutive, par journée entière ou demi-journée de travail."
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine = 2
+My response is:
 
-Mon raisonnement :
-Je me base sur le premier paragraphe extrait qui indique clairement que les salariés ne peuvent télétravailler que 2 jours maximum par semaine. Cette information est issue du document source T02221003288.txt. De plus, le deuxième paragraphe extrait confirme que le télétravail occasionnel est limité et doit répondre à un besoin personnel du salarié, ce qui exclut le télétravail régulier. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 2.
+* nombrejourdeteletravailmaxparsemaine=2
+
+My reasoning is that the first paragraph explicitly states that employees can telework for a maximum of two days per week. The second paragraph does not provide any additional information regarding the number of days of telework per week. Therefore, the value of nombrejourdeteletravailmaxparsemaine is 2.

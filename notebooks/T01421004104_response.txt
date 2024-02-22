@@ -1,11 +1,10 @@
 Q_TTSEM_NOMBRE:* Extraits pertinents :
     * "l’intégralité des dispositions de l’accord relatif à la mise en place du télétravail en période d’épidémie Covid-19 soient prolongées d’une période de quatre mois"
     * "le télétravail est un mode d’organisation de l’entreprise qui participe activement à la démarche de prévention du risque d’infection au SARS-CoV-2 et permet de limiter les interactions sociales aux abords des lieux de travail et sur les trajets domicile travail et qu’il doit être la règle pour l’ensemble des activités qui le permettent"
-    * "CHAPITRE 1 – DUREE ET ENTREE EN VIGUEUR DE L’AVENANT, Le présent avenant prend effet à compter du 1er mars 2021 pour une durée déterminée jusqu’au 30 juin 2021."
-* Réponse :
-    * nombrejourdeteletravailmaxparsemaine = 5
-* Raisonnement :
-    * Les dispositions de l'accord relatif à la mise en place du télétravail en période d'épidémie Covid-19 sont prolongées d'une période de quatre mois, soit jusqu'au 30 juin 2021.
+* Ma réponse :
+    * nombrejourdeteletravailmaxparsemaine=5
+* Mon raisonnement :
+    * Les dispositions de l'accord relatif à la mise en place du télétravail en période d'épidémie Covid-19 sont prolongées pour une période de quatre mois.
     * Le télétravail doit être la règle pour l'ensemble des activités qui le permettent.
-    * Il n'y a pas de mention de jours de présence minimum sur site, donc on peut considérer que le télétravail à 100% ou le full-remote est autorisé.
-    * Par conséquent, en appliquant les instructions données, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.
+    * Compte tenu de l'absence de limitation explicite du nombre de jours de télétravail par semaine et de la mention de "l'ensemble des activités", je considère que le télétravail à 100% ou le full-remote est autorisé.
+    * Par conséquent, en application de l'instruction 2.E, je fixe le nombre maximal de jours de télétravail par semaine à 5.

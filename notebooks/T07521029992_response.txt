@@ -1,10 +1,10 @@
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents:
 
 * "Les salariés n’ont pas d’obligation d’utiliser chaque semaine tous les jours de télétravail dont ils disposent."
-* "Si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu’il n’y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine!"
+* "Par principe, le salarié devra poser deux jours de repos acquis par mois, sous forme de jour ou de demi-journée de repos."
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine = 5
+My response after reasoning:
+nombrejourdeteletravailmaxparsemaine=0
 
-Mon raisonnement :
-Après examen des documents, je n'ai trouvé aucune information spécifiant le nombre maximal de jours de télétravail par semaine, sauf dans le cas où le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué ET qu'il n'y a pas de jour de présence minimum sur site. Dans ce cas, le nombre maximal de jours de télétravail par semaine est de 5.
+My reasoning:
+The first paragraph indicates that there is no obligation to use all available telework days each week. The second paragraph states that employees must take two days of rest per month. There is no mention of the number of telework days per week or any other period. Therefore, I cannot determine the maximum number of telework days per week based on the provided information.

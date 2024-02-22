@@ -1,11 +1,12 @@
 Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Un à deux jours fixes par semaine de télétravail." (Document(page\_content='Tenant compte de ces éléments, la Direction propose les principes suivants :... Un à deux jours fixes par semaine de télétravail...', metadata={'source': 'T07521028203.txt'}))
-* "Le télétravail ne doit pas faire obstacle à la participation des télétravailleurs à la vie du service et notamment aux réunions, aux formations et aux séminaires. Il est essentiel que le collaborateur en télétravail puisse conserver un lien fort avec le collectif de travail." (Document(page\_content='Il est expressément rappelé qu’en cas d’arrêt de travail maladie, accident du travail, maladie professionnelle ou maternité, le salarié en télétravail ne devra exercer aucune activité professionnelle.... Le télétravail ne doit pas faire obstacle à la participation des télétravailleurs à la vie du service et notamment aux réunions, aux formations et aux séminaires....', metadata={'source': 'T07521028203.txt'}))
+* "Un à deux jours fixes par semaine de télétravail." (Document(page\_content='Tenant compte de ces éléments, la Direction propose les principes suivants : \n\nPour un collaborateur exerçant son activité à temps complet :\n\nUn à deux jours fixes par semaine de télétravail.\nEt 3 jours de télétravail supplémentaires annuels dits «  modulables  » pour gérer notamment des situations exceptionnelles.   ', metadata={'source': 'T07521028203.txt'}))
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine = 2
+Ma réponse :
+
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-Après avoir lu les deux paragraphes pertinents, j'ai pu constater que les jours de télétravail sont fixés à "Un à deux jours fixes par semaine". Par conséquent, je peux affirmer que le nombre maximum de jours de télétravail par semaine est de 2.
+
+En prenant le texte "Un à deux jours fixes par semaine de télétravail.", j'extrais l'information pertinente qui est le nombre de jours de télétravail maximum par semaine. Je retiens la valeur maximale qui est 2 jours.

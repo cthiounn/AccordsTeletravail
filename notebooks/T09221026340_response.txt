@@ -1,11 +1,8 @@
-Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
+Q_TTSEM_NOMBRE:Extraction pertinente du document :
 * "Le nombre de jours télétravaillables peut donc varier de zéro (0) à trois (3) jours par semaine au maximum"
-* "Au terme du processus et après acceptation par le manager de l’inscription du salarié au dispositif télétravail, ce dernier (ci-après désigné par le « Télétravailleur ») bénéficiera de trois (3) jours de télétravail maximum par semaine, qu’il pourra poser – ou non"
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=3
+Ma réponse :
+* nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
-Les paragraphes extraits montrent que le nombre de jours télétravaillables peut varier de zéro (0) à trois (3) jours par semaine au maximum. De plus, le télétravailleur bénéficie de trois (3) jours de télétravail maximum par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3.
+* Dans le document, il est spécifié que le nombre de jours télétravaillables peut varier de zéro (0) à trois (3) jours par semaine au maximum. Donc, la variable nombrejourdeteletravailmaxparsemaine est affectée à la valeur 3.

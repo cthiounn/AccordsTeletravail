@@ -1,15 +1,8 @@
-Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* "Il a été convenu, par le présent accord, d’augmenter le nombre de jours de travail à deux jours par semaine permettant aux salariés concernés de recourir au télétravail en application des dispositions et du régime prévu dans l’accord du 7 décembre 2016 relatif à la mise en place du télétravail applicable au sein de l’entreprise."
 
-1. "Il a été convenu, par le présent accord, d’augmenter le nombre de jours de travail à deux jours par semaine permettant aux salariés concernés de recourir au télétravail en application des dispositions et du régime prévu dans l’accord du 7 décembre 2016 relatif à la mise en place du télétravail applicable au sein de l’entreprise."
-2. "Si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine!"
+Ma réponse après raisonnement ci-dessous :
+* nombrejourdeteletravailmaxparsemaine = 2
 
-* Ma réponse après raisonnement :
-
-nombrejourdeteletravailmaxparsemaine = 2
-
-* Mon raisonnement :
-
-Après avoir lu attentivement les documents fournis, je constate que le texte contient une information pertinente pour répondre à la question posée. En effet, il est stipulé que "le nombre de jours de travail à deux jours par semaine permettant aux salariés concernés de recourir au télétravail". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
-
-Je tiens à souligner que je n'ai pas pu trouver d'autres informations pertinentes dans les documents fournis pour modifier cette réponse.
+Mon raisonnement :
+* Dans le premier paragraphe extrait, il est clairement stipulé que "le nombre de jours de travail" est "augmenté à deux jours par semaine". Par conséquent, le maximum de jours de télétravail par semaine est de 2.

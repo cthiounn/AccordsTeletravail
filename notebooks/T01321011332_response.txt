@@ -2,8 +2,11 @@ Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des d
 
 * "Le télétravail est possible, si cela est compatible avec la durée du travail des salariés concernés, à concurrence de 0 à 2 jours ouvrés maximum par semaine, non consécutifs, sous condition de présence de 3 jours sur site (non reportable, non cumulable)."
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=2
+Ma réponse :
+
+* nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-Le document mentionne explicitement le nombre de jours de télétravail autorisés par semaine, qui est de 2 jours ouvrés maximum.
+
+* Je me base sur le paragraphe "Le télétravail est possible, si cela est compatible avec la durée du travail des salariés concernés, à concurrence de 0 à 2 jours ouvrés maximum par semaine, non consécutifs, sous condition de présence de 3 jours sur site (non reportable, non cumulable).".
+* Il est indiqué que le télétravail est possible à hauteur de 2 jours ouvrés maximum par semaine.

@@ -5,4 +5,4 @@ Q_TTSEM_NOMBRE:
 * Réponse :
     * nombrejourdeteletravailmaxparsemaine = 0
 * Explication :
-    * Les documents fournis concernent l'accord d'entreprise du 13 décembre 2017 et sa prolongation jusqu'au 31 mars 2021. Aucun paragraphe ne mentionne spécifiquement le nombre de jours de télétravail par semaine, ni ne mentionne le télétravail à 100% ou le full-remote sans jour de présence minimum sur site. Par conséquent, nous ne pouvons pas attribuer de valeur à la variable nombrejourdeteletravailmaxparsemaine.
+    * Les documents fournis concernent l'accord d'entreprise du 13 décembre 2017, qui reste en vigueur jusqu'au 31 mars 2021. Cependant, aucune information spécifique sur le nombre maximal de jours de télétravail par semaine n'est fournie dans les extraits fournis. Par conséquent, je ne peux pas attribuer de valeur à la variable 'nombrejourdeteletravailmaxparsemaine' en dehors de zéro.

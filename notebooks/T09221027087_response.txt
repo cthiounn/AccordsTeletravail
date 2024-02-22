@@ -1,10 +1,9 @@
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
-
+Q_TTSEM_NOMBRE:Extraction pertinente du document :
 * "Le nombre de jours de télétravail imposés par semaine peut être réévalué par l’entreprise en fonction des mesures soit recommandées soit imposées par les Pouvoirs Publics."
 * "En cas de télétravail en dessous de 100%, les jours télétravaillés dans la semaine sont convenus entre le Salarié et son manager, le cas échéant après avis de la Direction des Ressources Humaines, afin de respecter une jauge dans les locaux de l’entreprise qui soit adaptée à la situation sanitaire."
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=5
+Ma réponse :
+* nombrejourdeteletravailmaxparsemaine=5
 
-Mon raisonnement :
-Les informations du document indiquent que le nombre de jours de télétravail par semaine peut être réévalué par l'entreprise en fonction des mesures imposées par les pouvoirs publics. De plus, en cas de télétravail en dessous de 100%, les jours télétravaillés dans la semaine sont convenus entre le salarié et son manager. Cependant, aucune limite explicite n'est mentionnée dans le document concernant le nombre maximum de jours de télétravail par semaine. Par ailleurs, il est mentionné que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué et qu'il n'y a pas de jour de présence minimum sur site. Par conséquent, conformément à l'instruction 2.E, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur maximale de 5 jours de télétravail par semaine.
+Mon raisonnement :
+* Les jours de télétravail sont fixés entre le salarié et son manager, donc il est possible de télétravailler jusqu'à 5 jours par semaine.

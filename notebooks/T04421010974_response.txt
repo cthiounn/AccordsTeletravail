@@ -3,8 +3,8 @@ Q_TTSEM_NOMBRE:Extraction pertinente des documents :
 * "Le manager est invité pour la bonne organisation de son service à décider d’un jour de présence sur site commun à l’ensemble de ses collaborateurs, excluant de fait la possibilité de télétravailler le jour concerné pour l’ensemble des collaborateurs."
 
 Ma réponse :
-nombrejourdeteletravailmaxparsemaine = 3
+nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
-* D'après le premier paragraphe, il est possible de télétravailler par demi-journée, mais il faut respecter un temps minimum de présence de 3 jours sur site le reste de la semaine. Donc, le nombre maximum de jour de télétravail par semaine est de 3.
-* Le deuxième paragraphe ne change rien à cette conclusion car il s'agit d'un jour de présence sur site commun à tous les collaborateurs, ce qui ne modifie pas le nombre maximum de jour de télétravail par semaine.
+Le premier paragraphe indique qu'il est possible de déroger au principe de télétravail par jour entier pour les salariés ayant un temps de travail en demi-journées, et dans ce cas, le télétravail peut être accordé par demi-journée sous réserve que le salarié respecte un temps minimum de présence de 3 jours sur site le reste de la semaine. Cela signifie que le nombre maximum de jour de télétravail par semaine est de 3.
+Le deuxième paragraphe indique qu'un jour de présence sur site commun à l'ensemble des collaborateurs est imposé, ce qui exclut la possibilité de télétravailler ce jour-là pour l'ensemble des collaborateurs. Cela confirme que le nombre maximum de jour de télétravail par semaine est de 3.

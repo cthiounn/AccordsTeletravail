@@ -1,8 +1,13 @@
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+Q_TTSEM_NOMBRE:Two paragraphs relevant to the question from the documents are:
 
 * "Une présence minimale hebdomadaire au sein de l’entreprise, pouvant varier entre un (1) et quatre (4) jours sera requise pour chaque salarié en situation de télétravail"
 * "Alterner des jours de travail à partir de son domicile et des jours de travail au sein de l’entreprise ou sur site avec ses collègues et/ou sa hiérarchie."
 
-Based on the provided document, the maximum number of days an employee can telework regularly per week is not explicitly stated. However, based on point 2.E and the lack of any other information indicating a higher limit, I will assume that the maximum number of days an employee can telework regularly per week is 5. Therefore, the value of 'nombrejourdeteletravailmaxparsemaine' is 5.
+My response is:
 
-My reasoning is that while the document does not provide a clear answer to the question, it does state that there must be a minimum presence at the company of between 1 and 4 days per week, which implies that there is some flexibility for remote work on the other days. Additionally, point 2.E states that if the document mentions positive teleworking at 100%, or full-remote, and there is no minimum day of presence on site, then 5 days of telework is possible per week. Since the document does not specify any other limitations, I will assume that the maximum number of days an employee can telework regularly per week is 5.
+* nombrejourdeteletravailmaxparsemaine=4
+
+My reasoning is:
+
+* The first paragraph states that there must be a minimum of one day per week of presence at the company for teleworkers. This implies that there can be a maximum of four days of telework per week.
+* The second paragraph does not provide any additional information about the frequency of telework by week.

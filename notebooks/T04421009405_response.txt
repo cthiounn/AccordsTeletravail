@@ -11,5 +11,6 @@ Q_TTSEM_NOMBRE:
 
 * Mon raisonnement :
 
-    * Selon le premier paragraphe, le rythme de télétravail accordé devra permettre minimum 3 jours de présentiel sur site par semaine pour les salariés à temps plein et à temps partiel. Cela implique que le nombre maximum de jour de télétravail par semaine est de 3.
-    * Dans le deuxième paragraphe, il est mentionné que le télétravail peut se faire par demi-journée. Mais cela ne change rien au fait que le nombre maximum de jour de télétravail par semaine est de 3.
+    * Selon le premier paragraphe, le rythme de télétravail accordé doit permettre un minimum de 3 jours de présentiel sur site par semaine pour les salariés à temps plein et à temps partiel. Cependant, le texte ne précise pas s'il existe une limite maximale de jours de télétravail par semaine.
+    * Le deuxième paragraphe mentionne la possibilité de télétravailler par demi-journée, mais cela ne permet pas de déterminer un nombre maximal de jours de télétravail par semaine.
+    * Par conséquent, je propose une valeur de 3 jours de télétravail maximum par semaine, en me basant sur le premier paragraphe.

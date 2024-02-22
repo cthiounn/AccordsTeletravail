@@ -1,8 +1,10 @@
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
-
-* "Les salariés pourront effectuer jusqu'à 3 jours de télétravail par semaine, dans la limite de 6 jours par mois calendaire." (from the original agreement)
-* "If teleworking is authorized by the manager and if the nature of the tasks allows it, the employee may carry out his activity in telework up to 3 days per week, within the limit of 6 days per calendar month." (translation of the original agreement)
-
-Based on these paragraphs, the number of maximum days of telework per week is 3. Therefore, the value of 'nombrejourdeteletravailmaxparsemaine' is 3.
-
-My reasoning is based on the fact that the documents explicitly state that employees can perform up to 3 days of telework per week, which is less than the maximum number of working days in a week (5). This means that there is no possibility for employees to work more than 3 days of telework per week. The limitation of 6 days per calendar month ensures that employees do not exceed this limit over a longer period of time. However, since the question asks for the maximum number of days of telework per week, we can ignore the monthly limit and focus only on the weekly limit.
+Q_TTSEM_NOMBRE:
+* Extraits pertinents des documents :
+    * "AVENANT A L'ACCORD LOCAL SUR LE TELETRAVAIL PENDULAIRE DU 7 JANVIER 2021" (aucune information utile)
+    * "Fait au Mans, le 18 février 2021" (aucune information utile)
+    * "L'article 10.3 relatif à l'attribution de titres restaurant est supprimé ; L'article 14.4 relatif à la procédure d'agrément et de communication de l'accord est modifié comme suit : [...] Le présent accord entrera en vigueur le jour de sa signature." (aucune information utile)
+* Ma réponse : nombrejourdeteletravailmaxparsemaine = 0
+* Mon raisonnement :
+    * Les documents fournis ne contiennent aucune information relative au nombre maximal de jours de télétravail par semaine.
+    * De plus, aucune mention de télétravail à 100% ou de full-remote avec absence de jour de présence minimum sur site n'est faite dans les documents.
+    * Par conséquent, je ne peux pas attribuer une valeur supérieure à 0 à la variable nombrejourdeteletravailmaxparsemaine.

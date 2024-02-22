@@ -1,14 +1,9 @@
-Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* "Le télétravailleur dispose d’une priorité pour reprendre ou occuper un poste sans télétravail qui correspond à ses qualifications et compétences professionnelles." (T01321010151.txt)
+* "Le télétravail doit s’articuler avec le principe du respect de la vie privée du salarié." (T01321010151.txt)
 
-    * "Le télétravailleur dispose d’une priorité pour reprendre ou occuper un poste sans télétravail qui correspond à ses qualifications et compétences professionnelles."
-    
-    * "Les télétravailleurs étant physiquement présents en entreprise à hauteur a minima de 4/5 de leur temps de travail hebdomadaire le risque d’isolement apparait peu élevé."
+Ma réponse après raisonnement ci-dessous :
+* nombrejourdeteletravailmaxparsemaine=0
 
-* Ma réponse après raisonnement :
-
-    * nombrejourdeteletravailmaxparsemaine=4
-
-* Mon raisonnement :
-
-    * Selon le premier paragraphe, il n'y a pas de mention explicite du nombre de jours de télétravail par semaine. Cependant, le deuxième paragraphe indique que les télétravailleurs sont physiquement présents en entreprise à hauteur de 4/5 de leur temps de travail hebdomadaire. Par déduction, cela implique que les télétravailleurs travaillent 1 jour par semaine à distance. Donc, nombrejourdeteletravailmaxparsemaine=1. Cependant, il est important de noter que cette interprétation dépend de la façon dont l'entreprise calcule le temps de présence en entreprise et en télétravail.
+Mon raisonnement :
+* Après analyse des documents fournis, je n'ai pas trouvé de paragraphe indiquant explicitement le nombre de jours de télétravail autorisés par semaine, dans le cadre d'un télétravail régulier et non occasionnel. De plus, rien n'indique que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué, et encore moins qu'il n'y a pas de jour de présence minimum sur site. Par conséquent, je ne peux pas affecter la variable 'nombrejourdeteletravailmaxparsemaine' à une valeur supérieure à 0.

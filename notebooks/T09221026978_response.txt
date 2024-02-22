@@ -9,8 +9,8 @@ Q_TTSEM_NOMBRE:
 
 * Ma réponse après raisonnement :
 
-   nombrejourdeteletravailmaxparsemaine=5
+   `nombrejourdeteletravailmaxparsemaine=5`
 
 * Mon raisonnement :
 
-   Selon le premier paragraphe, les jours télétravaillés dans la semaine sont convenus entre le Salarié et son manager. Cependant, le deuxième paragraphe précise que l'alternance entre les jours en télétravail et les jours en entreprise s'effectue sur un rythme strictement hebdomadaire. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 5.
+   Les paragraphes pertinents indiquent que les jours de télétravail dans la semaine sont convenus entre le salarié et son manager, et que l'alternance entre les jours en télétravail et les jours en entreprise s'effectue sur un rythme strictement hebdomadaire. Ces éléments suggèrent que le nombre de jours de télétravail par semaine n'est pas limité, sauf si des contraintes sanitaires ou des accords spécifiques entre le salarié et son manager imposent une limite. Cependant, les informations fournies ne permettent pas de déterminer une telle limite. Par ailleurs, il n'est pas précisé si le télétravail à 100% ou le full-remote est autorisé ou non. En l'absence de telles informations, je dois supposer que le nombre de jours de télétravail par semaine est inférieur ou égal à 5, conformément à l'instruction 2G. Comme il est possible que le télétravail à 100% ou le full-remote soit autorisé et qu'il n'y ait pas de jour de présence minimum sur site, je dois affecter à la variable `nombrejourdeteletravailmaxparsemaine` la valeur maximale possible, qui est 5.

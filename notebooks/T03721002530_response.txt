@@ -1,14 +1,12 @@
-Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
 * "Le télétravail se fait sur des jours fixes."
-* "Afin de préserver le lien social avec l’entreprise, la cohésion et le bon fonctionnement des équipes, le télétravail est limité de telle sorte que le collaborateur non-cadre soit présent dans l’entreprise au moins trois jours par semaine."
+* "Afin de préserver le lien social avec l’entreprise, la cohésion and the good functioning of teams, the telework is limited so that the employee is present in the company at least three days per week."
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine = 3
+My response after reasoning is:
 
-Mon raisonnement :
+* nombrejourdeteletravailmaxparsemaine=3
 
-* Selon le premier paragraphe, le télétravail se fait sur des jours fixes, mais il ne précise pas le nombre maximum de jours de télétravail par semaine.
-* Selon le deuxième paragraphe, le télétravail est limité de manière à ce que le collaborateur non-cadre soit présent dans l’entreprise au moins trois jours par semaine. Cependant, cela ne s’applique qu’aux collaborateurs non-cadres.
-* Comme il n’y a pas d’autres informations explicites sur le nombre maximum de jours de télétravail par semaine, je conclus que le nombre maximum de jours de télétravail par semaine est de 3 jours.
+My reasoning is:
+
+The first paragraph indicates that telework is done on fixed days, but it does not specify the number of days. The second paragraph indicates that the employee must be present in the company at least three days a week, which implies that telework can be done for a maximum of two days a week. Therefore, the value of the variable 'nombrejourdeteletravailmaxparsemaine' is 2. However, since the instructions indicate that if the telework to 100% or the full-remote is authorized or positively mentioned without a minimum presence day on site, then the value of the variable 'nombrejourdeteletravailmaxparsemaine' should be 5, I will update the value to 5.

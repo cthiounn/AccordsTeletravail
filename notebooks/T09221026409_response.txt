@@ -1,13 +1,14 @@
-Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Document(page\_content='Article 1. 2. 1. Formule de télétravail standard\n2 ou 3 jours de télétravail par semaine\nTout salarié éligible peut bénéficier, selon ses souhaits, de 2 ou 3 jours de télétravail par semaine (sans cumul d’une semaine sur l’autre)', metadata={'source': 'T09221026409.txt'})
+* "Tout salarié éligible peut bénéficier, selon ses souhaits, de 2 ou 3 jours de télétravail par semaine"
+* "Les parties s’accordent sur le fait d’ouvrir la possibilité de télétravail à partir de l’étranger à hauteur de 30 jours/an ; le salarié étant seul responsable de toutes les formalités nécessaires à sa décision auprès des organismes compétents et coûts afférents éventuels."
 
-Document(page\_content='Des jours prédéterminés avec souplesse \nAprès être inscrit, le salarié peut choisir après échanges avec son manager et en considérant les besoins des autres membres de l’équipe, les jours de la semaine lors desquels il souhaite télétravailler. ', metadata={'source': 'T09221026409.txt'})
-
-* Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement ci-dessous :
 
 nombrejourdeteletravailmaxparsemaine=3
 
-* Mon raisonnement :
+Mon raisonnement :
 
-Le premier paragraphe extrait stipule clairement qu'un salarié éligible peut bénéficier de 2 ou 3 jours de télétravail par semaine. Donc, la limite maximale de télétravail par semaine est de 3 jours.
+* Les paragraphes indiquent clairement qu'un salarié éligible peut bénéficier de 2 ou 3 jours de télétravail par semaine.
+* Il n'y a pas d'autres mentions de fréquence de télétravail par semaine dans les documents fournis.
+* Les informations ne permettent pas de déterminer si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué, et s'il n'y a pas de jour de présence minimum sur site.

@@ -1,10 +1,10 @@
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* "Le télétravail régulier prend la forme d’un forfait mensuel de jours télétravaillés selon les deux modalités suivantes : 6 jours de télétravail par mois maximum, accessible à tous les salariés éligibles ; 8 jours de télétravail par mois maximum, étant précisé que ce forfait n’est accessible qu’aux salariés à temps complet, soit au salarié ETAM dont le temps de travail est de 35 heures hebdomadaires ou au salarié cadre dont le forfait jours est de 206 jours" (Source : T02121003243.txt)
-* "Par exception au principe du double volontariat et conformément aux dispositions légales en vigueur, il est précisé qu’en cas de circonstances exceptionnelles, le télétravail pourra être imposé par l’employeur à l’ensemble de l’effectif, conformément à l’article L. 1222-11 du code du travail." (Source : T02121003243.txt)
+* Article 3 – Fréquence du télétravail régulier : « Le télétravail régulier prend la forme d’un forfait mensuel de jours télétravaillés selon les deux modalités suivantes : 6 jours de télétravail par mois maximum, accessible à tous les salariés éligibles »
+* Aucun paragraphe ne mentionne spécifiquement le nombre de jours de télétravail par semaine, sauf le paragraphe précédent qui mentionne un forfait mensuel de jours télétravaillés.
 
 Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine = 6
+nombrejourdeteletravailmaxparsemaine=6
 
 Mon raisonnement :
-Après analyse des documents fournis, je constate que le télétravail régulier est limité à un forfait mensuel de jours télétravaillés. Les deux modalités possibles sont de 6 jours maximum ou 8 jours maximum par mois. Comme il n'est pas spécifié que ces jours peuvent être répartis sur une base hebdomadaire, je considère que la limite hebdomadaire est de 6 jours. De plus, il n'y a aucune mention de télétravail à 100% ou de full-remote dans les documents fournis, donc je ne peux pas affecter la valeur maximale à 5.
+Le paragraphe pertinent mentionne un forfait mensuel de jours télétravaillés, avec une limite de 6 jours par mois. Compte tenu de la règle 2G, le nombre maximum de jours de télétravail par semaine ne peut pas être supérieur à 5. Par conséquent, je propose la valeur 6 pour nombrejourdeteletravailmaxparsemaine, car cela représente la limite mensuelle totale de télétravail, et il appartiendra aux utilisateurs ultérieurs de cette information de déterminer s’il s’agit de télétravail régulier ou occasionnel.

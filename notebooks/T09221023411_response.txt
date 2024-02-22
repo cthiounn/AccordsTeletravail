@@ -1,11 +1,15 @@
 Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+**Extraction de deux paragraphes pertinents provenant des documents à analyser qui répondent à la question:**
 
 * "Pendant ces plages horaires, le salarié doit être joignable via les outils mis à sa disposition."
 * "Le télétravailleur s’engage à respecter les règles fixées en matière de sécurité informatique, et en particulier le Règlement intérieur et la Charte informatique."
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=0
+**Ma réponse après raisonnement:**
 
-Mon raisonnement :
-Après lecture des documents, je n'ai pas trouvé de paragraphe contenant le mot-clé "semaine" ou une notion de fréquence par semaine et concernant le nombre de jours de télétravail autorisés. De plus, rien n'indique que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué, et encore moins qu'il n'y a pas de jour de présence minimum sur site. Par conséquent, je ne peux pas affecter la variable 'nombrejourdeteletravailmaxparsemaine' à une valeur supérieure à 0.
+* nombrejourdeteletravailmaxparsemaine=0
+
+**Mon raisonnement:**
+
+* Je n'ai pas trouvé dans les documents fournis de paragraphe contenant le mot-clé "semaine" ou une notion de fréquence par semaine et concernant le nombre de jour de télétravail autorisé.
+* De plus, je n'ai pas trouvé de paragraphe indiquant explicitement un nombre maximum de jours de télétravail par semaine.
+* Par conséquent, je ne peux pas fournir de réponse autre que 0 pour la variable nombrejourdeteletravailmaxparsemaine.

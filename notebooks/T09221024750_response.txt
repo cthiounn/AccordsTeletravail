@@ -1,10 +1,8 @@
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
-
-* "Le nombre de jours of telework per week is 2, or up to 40% per week for full-time employees."
-* "For collaborators working at 60% of full time (4.5 days per week), half a day of telework will be counted as a full day of telework."
-
-My response after reasoning is:
-nombrejourdeteletravailmaxparsemaine = 2
-
-My reasoning is:
-The first paragraph states that the number of days of telework per week is 2, which is equivalent to 40% of a full-time employee's weekly hours. Therefore, the maximum number of days of telework per week is 2. The second paragraph mentions that for collaborators working at 60% of full time (4.5 days per week), half a day of telework will be counted as a full day of telework. However, this does not change the fact that the maximum number of days of telework per week is still 2. Therefore, I assign the value 2 to the variable 'nombrejourdeteletravailmaxparsemaine'.
+Q_TTSEM_NOMBRE:
+* Extraction pertinente du document :
+    * "Le nombre de jours de télétravail par semaine est de 2" (Article 6-1)
+    * "Le télétravail est organisé selon un cadre hebdomadaire d’alternance de jours de présence sur site et de jours de travail hors site de travail habituel du collaborateur. Pour conserver un lien social et faciliter le fonctionnement des équipes : réunions d’équipes, entretiens individuels, ateliers projets, travaux qui ne peuvent être effectués en télétravail (impressions papier), une présence sur site obligatoire de 2 jours par semaine, a minima, est maintenue." (Article 5)
+* Ma réponse : nombrejourdeteletravailmaxparsemaine = 2
+* Mon raisonnement :
+    * Les articles 6-1 et 5 indiquent clairement que le nombre de jours de télétravail par semaine est de 2.
+    * Bien que l'article 7 évoque la possibilité d'organiser le télétravail jusqu'à 2 jours par semaine (et jusqu'à 3 ultérieurement), cela ne signifie pas que le maximum est plus élevé, car cela dépend des besoins spécifiques de chaque collaborateur. L'article 5 précise que la présence sur site obligatoire est de 2 jours par semaine, ce qui implique que le nombre maximum de jours de télétravail par semaine est de 2.

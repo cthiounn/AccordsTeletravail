@@ -1,11 +1,6 @@
 Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* "Le télétravail s’exerce à raison d’un jour non fractionnable par semaine, dans le respect des team days." (Document(page\_content='ARTICLE 5	: ORGANISATION DU TÉLÉTRAVAIL', metadata={'source': 'T97421003113.txt'}))
-* "Afin de conserver la cohésion de son équipe et permettre une mise en œuvre facilitée du télétravail, le manager veillera à maintenir deux jours par semaine de présence sur le site d’appartenance, avec l’ensemble de ses collaborateurs télétravailleurs et non télétravailleurs (team days1)" (Document(page\_content='ARTICLE 5	: ORGANISATION DU TÉLÉTRAVAIL', metadata={'source': 'T97421003113.txt'}))
-
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine = 1
-
-Mon raisonnement :
-Après avoir lu les deux paragraphes pertinents, je constate que le télétravail s’exerce à raison d’un jour non fractionnable par semaine. Donc, le nombre maximum de jours de télétravail par semaine est de 1 jour. C’est pourquoi j’affecte à la variable nombrejourdeteletravailmaxparsemaine la valeur 1.
+* Extraits pertinents des documents :
+    * "Le télétravail s’exercera à raison d’un jour non fractionnable par semaine" (Article 5.2)
+    * "le manager veillera à maintenir deux jours par semaine de présence sur le site d’appartenance" (Article 5.1)
+* Ma réponse : nombrejourdeteletravailmaxparsemaine=1
+* Mon raisonnement : Les articles 5.1 et 5.2 indiquent clairement que le télétravail s'exerce un jour par semaine, et que deux jours par semaine doivent être passés sur le site d'appartenance. Aucune autre mention de fréquence de télétravail par semaine n'est faite dans les documents. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 1.

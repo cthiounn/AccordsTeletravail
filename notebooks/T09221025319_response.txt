@@ -1,11 +1,14 @@
-Q_TTSEM_NOMBRE:> Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Article 6 : "Afin d’éviter l’isolement des salariés, de conserver les interactions avec les autres services et afin de conserver un fonctionnement collectif, le télétravail sera de la responsabilité du manager et ne pourrait couvrir une semaine entière à savoir 5 jours."
+> Article 6: Nombre de jours de télétravail
+> Afin d’éviter l’isolement des salariés, de conserver les interactions avec les autres services et afin de conserver un fonctionnement collectif, le télétravail sera de la responsabilité du manager et ne pourrait couvrir une semaine entière à savoir 5 jours.
+> Ainsi que le salarié travaillant à temps plein ou à temps partiel, il devra être présent sur son lieu habituel de travail en fonction des obligations liées à sa fonction ou celles du service et au moins 1 jours par semaine.
 
-> Ma réponse après raisonnement ci-dessous :
+* Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine = 5
+nombrejourdeteletravailmaxparsemaine=1
 
-> Mon raisonnement :
+* Mon raisonnement :
 
-Le paragraphe pertinent indique que le télétravail ne peut pas couvrir une semaine entière, soit 5 jours. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 5.
+Après avoir analysé les documents fournis, je constate que l'article 6 mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Selon ce document, le télétravail ne peut couvrir une semaine entière, c'est-à-dire 5 jours. Cependant, le salarié doit être présent sur son lieu de travail au moins 1 jour par semaine. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 4. Cependant, comme je dois affecter le maximum des jours de télétravail par semaine dans la variable 'nombrejourdeteletravailmaxparsemaine', je vais affecter la valeur 1, qui correspond au nombre de jours de télétravail par semaine mentionné dans le document.

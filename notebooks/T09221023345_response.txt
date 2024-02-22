@@ -1,16 +1,7 @@
 Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
-
-    * "Le télétravail doit s’exercer au domicile du salarié. Celui-ci doit être conforme électriquement, être pourvu d’un accès internet de bonne qualité et faire l’objet d’une assurance habitation."
-    
+* Extraits pertinents :
+    * "Le télétravail doit s’exercer au domicile du salarié. Celui-ci doit être conforme électriquement, être pourvu d’un accès internet de bonne qualité et faire l’objet d’une assurance habitation. Le télétravail peut ponctuellement être exercé dans un autre lieu que le domicile sous les mêmes conditions de conformité (résidence secondaire, hébergement temporaire ou familial) dans ce cas, le salarié doit déclarer ce lieu d’exercice auprès de son management."
     * "Afin de tenir compte de la séniorité des collaborateurs, du degré d’autonomie et d’engagement associés, des journées de télétravail supplémentaires pourront être programmées, en accord avec le manager et dans le respect des besoins du service, à hauteur de..."
-
-* Ma réponse après raisonnement :
-
-    * nombrejourdeteletravailmaxparsemaine=5
-
-* Mon raisonnement :
-
-    * Selon le premier paragraphe, le télétravail doit s'exercer au domicile du salarié, ce qui implique que le salarié travaille depuis son domicile. Cependant, rien n'empêche le salarié de travailler tous les jours de la semaine depuis son domicile.
-    * Le deuxième paragraphe mentionne la possibilité de programmer des journées de télétravail supplémentaires en fonction de la séniorité et de l'autonomie du salarié. Cependant, cela ne précise pas de limite hebdomadaire.
-    * Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 5 jours, car c'est le nombre maximal de jours ouvrés dans une semaine.
+    * "En aucun cas le salarié ne peut se placer en situation de télétravail pendant les périodes de suspension du contrat de travail pour quelque cause que ce soit (maladie, congés, etc.)."
+* Ma réponse : nombrejourdeteletravailmaxparsemaine=5
+* Mon raisonnement : Les informations fournies ne permettent pas d'extraire un nombre de jours de télétravail maximum par semaine. Cependant, selon les instructions données, si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué ET qu'il n'y a pas de jour de présence minimum sur site, alors le nombre maximum de jours de télétravail par semaine est de 5. Or, dans le texte, il est mentionné que le télétravail peut être exercé au domicile du salarié ou dans un autre lieu, ce qui suggère que le télétravail à 100% est possible. De plus, il n'y a aucune mention d'une journée de présence minimum sur site. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 5.

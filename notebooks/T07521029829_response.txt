@@ -1,11 +1,9 @@
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "Le nombre de jour fixe et régulier de télétravail est d’un ou deux jours." (T07521029829.txt)
-    * "Le télétravail occasionnel pourra être réalisé au minimum par journée entière." (T07521029829.txt)
     * "Le télétravail fixe et régulier qui s’organise dans un cadre hebdomadaire à raison de 1 à 2 jours maximum par semaine" (T07521029829.txt)
-* Réponse :
-    * nombrejourdeteletravailmaxparsemaine = 2
-* Raisonnement :
-    * Dans le premier extrait, il est mentionné que le nombre de jour fixe et régulier de télétravail est d’un ou deux jours. Cependant, cela ne concerne que le télétravail fixe et régulier et non le télétravail occasionnel.
-    * Dans le deuxième extrait, il est mentionné que le télétravail occasionnel peut être réalisé au minimum par journée entière, mais cela ne précise pas le nombre maximum de jours par semaine.
-    * Dans le troisième extrait, il est mentionné que le télétravail fixe et régulier s’organise dans un cadre hebdomadaire à raison de 1 à 2 jours maximum par semaine. Cela correspond à la définition du télétravail régulier, et donc la variable nombrejourdeteletravailmaxparsemaine est affectée à la valeur 2.
+* Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+* Mon raisonnement :
+    * Selon le document, le nombre de jour fixe et régulier de télétravail est d’un ou deux jours par semaine.
+    * Cette information est confirmée dans un autre paragraphe où il est mentionné que le télétravail fixe et régulier s’organise dans un cadre hebdomadaire à raison de 1 à 2 jours maximum par semaine.
+    * Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

@@ -1,11 +1,18 @@
 Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+* Deux paragraphes pertinents provenant des documents à analyser :
 
     Article 8: Fréquence et nombre de jours télétravaillés
-    Le nombre de jour de télétravail ne pourra excéder 2 jours par semaine, et 1 jour pour les salariés à temps partiel selon article 2.
+    > Le nombre de jour de télétravail ne pourra excéder 2 jours par semaine, et 1 jour pour les salariés à temps partiel selon article 2.
 
-* Ma réponse après raisonnement :
-    nombrejourdeteletravailmaxparsemaine = 2
+    Article 5: Conditions de retour à une exécution du contrat de travail sans télétravail
+    > 5.1 Retour à une exécution du travail sans télétravail demandée par le salarié
+    > Le télétravailleur s’il souhaite mettre fin au télétravail devra faire sa demande par écrit auprès du service administratif et informer son supérieur hiérarchique.
+    > La date de fin du télétravail sera effective au plus tard un mois après la demande faite par le télétravailleur.
+
+* Ma réponse :
+
+    nombrejourdeteletravailmaxparsemaine=2
 
 * Mon raisonnement :
-    L'article 8 traite spécifiquement de la fréquence et du nombre de jours télétravaillés. Il est indiqué que le nombre de jour de télétravail ne pourra excéder 2 jours par semaine, et 1 jour pour les salariés à temps partiel selon article 2. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+
+    En analysant l'article 8, je peux voir que le nombre maximum de jours de télétravail par semaine est de 2 pour les salariés à temps complet. Les informations fournies ne mentionnent pas de télétravail à 100% ou de full-remote, donc je ne peux pas appliquer l'instruction 2.E. Je ne trouve pas non plus d'autres informations permettant de justifier une valeur différente de 2 pour nombrejourdeteletravailmaxparsemaine.

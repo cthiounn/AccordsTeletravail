@@ -1,12 +1,12 @@
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:
+* Extraits pertinents des documents :
+    * "Pour maintenir le lien social avec la communauté de travail, le présent accord prévoit jusqu’à deux jours de télétravail par semaine"
+    * "Des dérogations temporaires sont possibles afin de permettre un télétravail jusqu’à 100%."
 
-* "Pour maintenir le lien social avec la communauté de travail, le présent accord prévoit jusqu’à deux jours de télétravail par semaine pour une semaine de travail ‘standard’ (avec cinq jours ouvrés)."
+* Ma réponse :
+    * nombrejourdeteletravailmaxparsemaine = 2
 
-Ma réponse après raisonnement ci-dessous :
-
-* nombrejourdeteletravailmaxparsemaine = 2
-
-Mon raisonnement :
-
-* Je me base sur le paragraphe "Pour maintenir le lien social avec la communauté de travail, le présent accord prévoit jusqu’à deux jours de télétravail par semaine pour une semaine de travail ‘standard’ (avec cinq jours ouvrés)."
-* Ce paragraphe indique clairement qu'un salarié peut télétravailler jusqu'à 2 jours par semaine.
+* Mon raisonnement :
+    * L'extrait pertinent du document stipule qu'il est possible de télétravailler jusqu'à deux jours par semaine.
+    * Les dérogations temporaires pour un télétravail à 100% ne sont pas concernées par la question car elles sont temporaires et ne font pas partie du télétravail régulier.
+    * Par conséquent, la variable nombrejourdeteletravailmaxparsemaine est affectée à la valeur 2.

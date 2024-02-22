@@ -1,10 +1,11 @@
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail fait l’objet d’un avenant au contrat de travail." (Document(page\_content="...", metadata={'source': 'T09221026634.txt'}))
-* "L’organisation alternative de l’activité domicile / entreprise se fait sur la base de deux (2) jours ouvrés par semaine, du mardi au vendredi pour les salariés à plein temps et les salariés à temps partiel ou à forfait jours réduit travaillant au moins à 80%." (Document(page\_content="...", metadata={'source': 'T09221026634.txt'}))
+* Article 4. Répartition du temps de travail entre domicile et entreprise "L’organisation alternative de l’activité domicile / entreprise se fait sur la base de deux (2) jours ouvrés par semaine, du mardi au vendredi pour les salariés à plein temps et les salariés à temps partiel ou à forfait jours réduit travaillant au moins à 80%."
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=2
+Ma réponse :
+
+* nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-Après analyse du document, je constate que le télétravail est possible jusqu'à deux jours par semaine selon l'article 4 du document. Cette information est explicite et ne nécessite pas de calcul ou de supposition. Je peux donc conclure que le nombre maximum de jours de télétravail par semaine est de 2.
+
+* Je me base sur l'article 4 qui stipule que l'organisation alternative de l'activité domicile/entreprise se fait sur la base de deux jours ouvrés par semaine, du mardi au vendredi pour les salariés à plein temps et les salariés à temps partiel ou à forfait jours réduit travaillant au moins à 80%.

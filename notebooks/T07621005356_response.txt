@@ -1,11 +1,13 @@
 Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
+* Deux paragraphes pertinents provenant des documents à analyser :
 
-* "ARTICLE 9 – Fréquence et nombre de jours télétravailles Dans le cadre d’une situation de télétravail récurrente, non justifiée par des circonstances exceptionnelles ou cas de force majeure, les jours de télétravail seront fixés dans un avenant au contrat du télétravailleur, lequel intègrera la possibilité de les modifier par commun accord des parties moyennant un délai de prévenance de 1 (une) semaine."
-* "3.2. Critères d’éligibilité au télétravail [...] Les parties conviennent que le télétravail est fondé sur la capacité du Salarié à exercer ses fonctions de façon autonome. Il nécessite certaines aptitudes individuelles et des qualités professionnelles telles que la gestion du temps de travail et une bonne maîtrise des applications informatiques indispensables à son activité et une parfaite connaissance de son poste de travail."
+    ARTICLE 9 – Fréquence et nombre de jours télétravaillés
+    Dans le cadre d’une situation de télétravail récurrente, non justifiée par des circonstances exceptionnelles ou cas de force majeure, les jours de télétravail seront fixés dans un avenant au contrat du télétravailleur, lequel intègrera la possibilité de les modifier par commun accord des parties moyennant un délai de prévenance de 1 (une) semaine.
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=5
+    ARTICLE 4 – Modalités d’acceptation par le Salarié des conditions de mise en œuvre du télétravail
+    Lorsque la demande de télétravail est acceptée, un avenant au contrat est conclu pour confirmer l'accord du Salarié et de l'employeur ainsi que pour préciser les modalités utiles à l'exercice du télétravail et adaptées à la situation du télétravailleur, à savoir : la fréquence du télétravail et les jours télétravaillés.
 
-Mon raisonnement :
-Le premier paragraphe ne permet pas de déterminer le nombre maximal de jours de télétravail par semaine car il ne contient aucune information quantitative sur la fréquence du télétravail. Cependant, le deuxième paragraphe indique que le télétravail est fondé sur la capacité du salarié à gérer son temps de travail, ce qui suggère qu'il est possible de télétravailler tous les jours de la semaine si nécessaire. De plus, aucune limitation quantitative n'est mentionnée dans les autres paragraphes concernant le télétravail. Par conséquent, je suppose que le nombre maximal de jours de télétravail par semaine est de 5, conformément à l'instruction 2G. Cette hypothèse est cohérente avec l'instruction 2E, qui autorise le télétravail à 100% ou le full-remote si aucune journée de présence minimale sur site n'est requise.
+* Ma réponse : nombrejourdeteletravailmaxparsemaine=5
+* Mon raisonnement :
+
+    Selon l'article 9, le nombre de jours de télétravail est fixé dans un avenant au contrat du télétravailleur, ce qui implique qu'il peut y avoir une variabilité dans le nombre de jours télétravaillés par semaine. Cependant, l'article 4 précise que lorsque la demande de télétravail est acceptée, un avenant au contrat est conclu pour préciser les modalités utiles à l'exercice du télétravail, dont la fréquence du télétravail et les jours télétravaillés. Or, aucune limitation quantitative n'est mentionnée dans ces articles. Par ailleurs, l'article 2.E stipule qu'il n'y a pas de lien entre l'effectif d'un service et le nombre de jour de télétravail, donc je ne peux pas déduire un nombre de jour de télétravail. Enfin, l'article 2.E stipule aussi qu'en cas de télétravail à 100% ou de full-remote, et s'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine. Comme aucune limitation n'est mentionnée dans les articles analysés, je suppose que le nombre maximal de jours de télétravail par semaine est de 5.

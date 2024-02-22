@@ -1,8 +1,11 @@
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+Q_TTSEM_NOMBRE:Extraction pertinente du document :
 
-* "le télétravail « régulier » peut être à temps plein ou à temps partiel et suppose la conclusion d’un avenant au contrat de travail, pour une durée déterminée qui ne peut être supérieure à 1 an"
-* "le télétravail « occasionnel » s’effectue de manière ponctuelle et aléatoire sans régularité dans le temps, par journées ou demi-journées, dont le nombre est plafonné dans la semaine, dans le mois et dans l’année."
+* "Le choix du jour de télétravail est à l’initiative du salarié, sous réserve de l’accord du supérieur hiérarchique."
+* "Les jours de télétravail régulier et occasionnel ne se cumulent pas au cours d’un même mois."
+* "Le salarié disposera d’un volume de 94 jours de télétravail occasionnel par an"
 
-Based on the information provided in the document, the maximum number of days an employee can telework regularly per week is not explicitly stated. However, based on point 2.E, if the document mentions positively the Télétravail at 100%, or the full-remote, and there is no minimum number of days required to be present on site, then the maximum number of days an employee can telework per week is 5. Therefore, `nombrejourdeteletravailmaxparsemaine` is 5.
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=5
 
-My reasoning is that while the document does provide some information about the different types of telework arrangements available, it does not explicitly state the maximum number of days an employee can telework regularly per week. The only indication of a maximum number of days is in reference to occasional or ad-hoc telework arrangements. Additionally, the document specifies that telework arrangements can be either regular or occasional, with regular arrangements requiring a contract addendum and occasional arrangements being limited in frequency. Based on this information, I cannot determine the exact maximum number of days an employee can telework regularly per week. However, since the document does mention the possibility of full-time remote work, I am assuming that this would allow for a maximum of 5 days of telework per week.
+Mon raisonnement :
+Le document mentionne que le choix du jour de télétravail est à l'initiative du salarié, sous réserve de l'accord du supérieur hiérarchique. Cependant, il ne précise pas de limite hebdomadaire pour le télétravail régulier. En revanche, il est mentionné que le salarié dispose d'un volume de 94 jours de télétravail occasionnel par an, mais cela ne concerne pas le télétravail régulier. Comme le télétravail régulier et occasionnel ne se cumulent pas au cours d'un même mois, nous pouvons supposer qu'il n'y a pas de limite hebdomadaire pour le télétravail régulier. De plus, il n'y a aucune mention de jour de présence minimum sur site, donc si le télétravail à 100% ou le full-remote est autorisé, alors le nombre maximal de jours de télétravail par semaine est de 5.

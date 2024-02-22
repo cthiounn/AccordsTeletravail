@@ -1,10 +1,13 @@
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
-* "Le salarié pourra cumuler ses jours de télétravail sur un mois."
-* "Les journées de télétravail seront planifiées par le salarié au trimestre et soumis à la validation de son responsable sans dépasser trois jours de télétravail par semaine."
+* "Journée(s) of telework desired in the week"
+* "The employee can cumulate his days of telework on a month. The days of telework will be planned by the employee quarterly and subject to the validation of his manager without exceeding three days of telework per week."
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine = 3
+My response after reasoning is:
 
-Mon raisonnement :
-Dans le document, il est mentionné que le salarié peut cumuler ses jours de télétravail sur un mois et que les journées de télétravail sont planifiées par le salarié au trimestre et soumises à la validation de son responsable sans dépasser trois jours de télétravail par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3.
+* nombrejourdeteletravailmaxparsemaine=3
+
+My reasoning is:
+
+* The first paragraph indicates that the number of days of telework per week is requested by the employee. However, this does not specify the maximum number of days authorized by the company.
+* The second paragraph specifies that the employee can cumulate up to three days of telework per week. Therefore, the maximum number of days of telework per week is three.

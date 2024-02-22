@@ -2,8 +2,8 @@ Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents
 
 * Article 3 : « Le nombre de jours en télétravail pourra au maximum être de 4 par semaine. »
 
-Ma réponse après raisonnement :
+Ma réponse :
 nombrejourdeteletravailmaxparsemaine = 4
 
 Mon raisonnement :
-Le paragraphe pertinent de l'article 3 indique clairement que le nombre de jours en télétravail pourra au maximum être de 4 par semaine. Par conséquent, je peux affecter la valeur 4 à la variable nombrejourdeteletravailmaxparsemaine.
+Le paragraphe pertinent est l'article 3 qui stipule que le nombre de jours en télétravail pourra au maximum être de 4 par semaine. Par conséquent, je retourne la valeur 4 pour la variable 'nombrejourdeteletravailmaxparsemaine'.

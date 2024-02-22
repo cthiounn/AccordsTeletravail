@@ -1,11 +1,10 @@
-Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Le salarié dispose d’un volume de 18 jours de télétravail par an (du 1er janvier au 31 décembre) qu’il pourra mobiliser en journée entière ou demi-journée. Pour les années non complètes, le nombre de jour à disposition sera calculé prorata temporis (soit 1 jour et demi par mois complet entre la date de signature et le 31 décembre)."
 * "Afin de maintenir le lien social avec la société et ses collaborateurs, le télétravail flexible est limité de sorte que le salarié soit présent dans la société au moins 4 jours par semaine (du lundi au vendredi)."
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine = 4
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=4
 
 Mon raisonnement :
-Le document mentionne positivement le télétravail à 100%, ou le full-remote, mais il y a une journée de présence minimum sur site par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 4 jours.
+Le document mentionne explicitement que le salarié doit être présent dans la société au moins 4 jours par semaine, ce qui signifie que le nombre maximum de jours de télétravail par semaine est de 3. Cette information est cohérente avec la première phrase extraite, qui précise que le salarié dispose d'un volume de 18 jours de télétravail par an, ce qui correspond à 1,5 jour par semaine en moyenne sur une année complète. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3.

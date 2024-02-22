@@ -1,14 +1,11 @@
-Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:Extraction pertinente du document :
 
-    * "Les jours de télétravail seront fixés selon les modalités suivantes : **un jour maximum par semaine**."
-    
-    * "Ce jour ne pourra être positionné ni le lundi, ni le vendredi."
+* "Les jours de télétravail seront fixés selon les modalités suivantes : **un jour maximum par semaine**."
 
-* Ma réponse après raisonnement :
+Ma réponse :
 
-    * nombrejourdeteletravailmaxparsemaine=1
+* nombrejourdeteletravailmaxparsemaine=1
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    * Selon l'article 9, le nombre maximum de jours de télétravail par semaine est de un jour. Cependant, il est précisé que ce jour ne peut être positionné ni le lundi, ni le vendredi, ce qui implique que le télétravail ne peut être exercé que trois jours par semaine au maximum. Par conséquent, le nombre maximum de jours de télétravail par semaine est limité à 3 jours.
+* J'ai identifié dans le document une indication claire et unique du nombre maximal de jours de télétravail par semaine, qui est de un jour.

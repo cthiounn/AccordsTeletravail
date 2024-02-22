@@ -1,5 +1,7 @@
-Q_TTSEM_NOMBRE:* Extraits pertinents des documents :
-    * "La charge de travail d'un télétravailleur doit être élaborée en amont par le manageur et être équivalente à celle effectuée dans les locaux de l'entreprise."
-    * "Les horaires de télétravail sont fixés conformément aux horaires appliqués en entreprise, temps de pause compris."
-* Réponse : nombrejourdeteletravailmaxparsemaine = 0
-* Raisonnement : Les documents fournis ne contiennent aucune information spécifique concernant le nombre maximum de jours de télétravail par semaine, ni aucune mention explicite de télétravail à 100% ou de full-remote sans jour de présence minimale sur site. Par conséquent, en se basant uniquement sur les informations fournies, il est impossible de déterminer le nombre maximum de jours de télétravail par semaine.
+Q_TTSEM_NOMBRE:* Extraits pertinents :
+    * "Article 3. Mise en place du télétravail [...] La charge de travail d’un télétravailleur doit être élaborée en amont par le manageur et être équivalente à celle effectuée dans les locaux de l’entreprise."
+    * "Article 4. Durée et aménagement du temps de télétravail [...] En dehors de ces plages, les outils numériques fournis par STEPHANIX (tél- PC etc….) doivent être éteints."
+* Réponse :
+    * nombrejourdeteletravailmaxparsemaine=5
+* Raisonnement :
+    * D'après l'article 3, la charge de travail d'un télétravailleur doit être équivalente à celle effectuée dans les locaux de l'entreprise, ce qui implique que le nombre de jours de télétravail par semaine ne soit pas limité. De plus, l'article 4 précise que les outils numériques doivent être éteints en dehors des plages de travail, ce qui suggère que le télétravail peut avoir lieu tous les jours de la semaine. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 5.
