@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Afin de maintenir le lien social avec l’entreprise et au sein de l’équipe, mais également de faciliter l’organisation des temps de travail collectif, l’activité exercée en télétravail ne pourra en principe excéder une journée complète et fixe par semaine pour un salarié présent à temps plein." (Source: T03321006914.txt)
+* "L’activité en télétravail ne peut générer aucune heure supplémentaire, sauf sur demande préalable et expresse de la hiérarchie." (Source: T03321006914.txt)
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=1
+
+Mon raisonnement :
+Après analyse des documents fournis, je constate qu'un seul paragraphe mentionne explicitement le nombre de jours de télétravail par semaine, qui est limité à une journée complète et fixe par semaine pour un salarié présent à temps plein. Ce paragraphe ne mentionne aucune exception ou condition particulière qui permettrait de dépasser cette limite. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 1. La variable 'nombrejourdeteletravailmaxparsemaine' est donc affectée à la valeur 1.

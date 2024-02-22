@@ -1,0 +1,12 @@
+Q_TTSEM_NOMBRE:
+Extraits pertinents :
+
+* "Les parties conviennent de limiter la situation de télétravail à 2 (deux) jours par semaine pour les salariés à temps plein et à 1 (un) jour par semaine pour les salariés travaillant à temps partiel et dans la mesure où ce temps partiel est supérieur ou égal à 80% d’un temps plein"
+
+Ma réponse :
+
+nombrejourdeteletravailmaxparsemaine = 2
+
+Mon raisonnement :
+
+Je me base sur l'extrait pertinent du document qui indique que les parties conviennent de limiter la situation de télétravail à 2 jours par semaine pour les salariés à temps plein.

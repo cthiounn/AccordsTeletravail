@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
+
+* "Le travail occasionnel à distance peut s’exercer à hauteur de 12 jours par année civile pour un salarié présent toute l’année."
+* "Un formulaire de demande sera disponible sur INSITE. En cas de refus du manager, celui-ci devra en préciser les motifs dans le formulaire."
+
+Based on these paragraphs and the instructions provided, I cannot find any information about the maximum number of days of telework per week. The concept of weekly frequency is not mentioned in relation to the number of days of telework authorized. Therefore, I will set the value of the variable 'nombrejourdeteletravailmaxparsemaine' to 0.
+
+My response is:
+
+nombrejourdeteletravailmaxparsemaine=0

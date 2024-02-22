@@ -1,0 +1,14 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Le(s) jour(s) de télétravail seront fixés à l’avance, lors de l’accord initial. Ils pourront évoluer en accord entre les parties." (Document(page\_content='Article 8 - Fréquence et nombre de jours télétravaillés', metadata={'source': 'T07521029021.txt'}))
+* "Le télétravailleur doit organiser son temps de travail en respectant : - les durées maximales de travail, soit 10 heures par jour et 44 heures par semaine ; - les durées minimales de repos, soit 11 heures par jour et 2 jours par semaine ainsi qu'un temps de pause de 20 minutes au bout de 6 heures de travail maximum, la pause repas devant quant à elle avoir une durée minimum de 30 minutes." (Document(page\_content='Article 10 - Durée du travail', metadata={'source': 'T07521029021.txt'}))
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=5
+
+Mon raisonnement :
+
+* Selon le premier paragraphe, le(s) jour(s) de télétravail seront fixés à l’avance, ils pourront évoluer en accord entre les parties. Cependant, rien n'est mentionné sur le nombre maximum de jours de télétravail par semaine.
+* Selon le deuxième paragraphe, les durées maximales de travail sont de 10 heures par jour et 44 heures par semaine, et les durées minimales de repos sont de 11 heures par jour et 2 jours par semaine ainsi qu'un temps de pause de 20 minutes au bout de 6 heures de travail maximum, la pause repas devant quant à elle avoir une durée minimum de 30 minutes. Mais rien n'est mentionné sur le nombre maximum de jours de télétravail par semaine.
+* Cependant, selon les instructions données, si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué ET qu'il n'y a pas de jour de présence minimum sur site, alors le nombre maximum de jours de télétravail par semaine est de 5. Dans le document fourni, il est mentionné que "Le télétravail sera effectué au domicile habituel du salarié. Il pourra de même s’exercer, après information de l’employeur, dans un tiers-lieu différent des locaux de l’association, de façon régulière, occasionnelle, ou en cas de circonstances exceptionnelles ou de force majeure." Il n'est pas mentionné de jour de présence minimum sur site, donc nous pouvons en déduire que le télétravail à 100% est autorisé, et donc le nombre maximum de jours de télétravail par semaine est de 5.

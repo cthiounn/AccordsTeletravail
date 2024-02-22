@@ -1,0 +1,14 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+
+    Article 11 - Fréquence et nombre de jours en télétravail
+    > Le nombre de jours télétravaillés est limité à deux jours complets par semaine.
+    
+    Le manager peut prévoir au niveau de son équipe qu’un ou des jours de la semaine ou certaines semaines du mois ne soient pas ouverts au télétravail.
+
+* Ma réponse après raisonnement :
+    nombrejourdeteletravailmaxparsemaine = 2
+
+* Mon raisonnement :
+    Dans l'article 11, il est spécifié que "Le nombre de jours télétravaillés est limité à deux jours complets par semaine". Par ailleurs, aucune autre information dans le document ne permet de dépasser ce plafond hebdomadaire de deux jours de télétravail.
+    Je conclus donc que le nombre maximal de jours de télétravail par semaine est de 2.

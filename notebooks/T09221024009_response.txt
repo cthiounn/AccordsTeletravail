@@ -1,0 +1,15 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser :
+
+    * "Pour autant, les parties partagent le fait que les conditions ergonomiques ne sont pas autant satisfaisantes que sur le lieu de travail habituel au sein des locaux de l’entreprise."
+    * "Les parties conviennent d’un participation d’IFP Training, sous la forme d’un remboursement de frais à hauteur de 80 euros TTC maximum pour l’achat d’un siège ergonomique ou d’une table-bureau, participation limitée à une fois par salarié."
+
+* Ma réponse après raisonnement :
+
+    * nombrejourdeteletravailmaxparsemaine=0
+
+* Mon raisonnement :
+
+    * Dans les documents fournis, il n'y a pas de paragraphe clair et explicite sur le nombre de jours de télétravail autorisés par semaine.
+    * Les seuls paragraphes qui mentionnent le télétravail concernent l'ergonomie des conditions de travail et une participation financière de l'entreprise pour l'achat de matériel ergonomique.
+    * Par conséquent, je ne peux pas déterminer le nombre maximum de jours de télétravail par semaine sur la base des informations fournies.

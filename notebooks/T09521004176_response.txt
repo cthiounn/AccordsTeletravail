@@ -1,0 +1,14 @@
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Le télétravail régulier peut-être de 1 ou de 2 jours par semaine. Il peut être porté à un maximum de 3 jours par semaine pour des salariés en forte autonomie de travail (selon l’estimation partagée par le collaborateur et le manager)."
+
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine=3
+
+Mon raisonnement :
+
+* La première phrase extraite indique que le télétravail régulier peut être de 1 ou 2 jours par semaine.
+* La deuxième phrase extraite indique que le télétravail régulier peut être porté à un maximum de 3 jours par semaine pour des salariés en forte autonomie de travail.
+* Par conséquent, le nombre maximum de jours de télétravail régulier par semaine est de 3.

@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+    1. "Le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein." (Source: T08821002242.txt)
+    2. "Le temps de présence physique du collaborateur dans les locaux de l’entreprise devra donc être au minimum de 3 jours par semaine pour un temps plein." (Source: T08821002242.txt)
+
+* Ma réponse après raisonnement :
+    nombrejourdeteletravailmaxparsemaine = 2
+
+* Mon raisonnement :
+    Je me base sur le premier paragraphe pertinent qui indique que le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein. Cette information est confirmée par le deuxième paragraphe pertinent qui indique que le temps de présence physique du collaborateur dans les locaux de l’entreprise devra donc être au minimum de 3 jours par semaine pour un temps plein. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 2.

@@ -1,0 +1,14 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser :
+
+    * "L’organisation du télétravail se réalise par demi-journées ou par jours entiers en accord avec …………….. et en référence à l’horaire de travail contractuel du salarié. Dans tous les cas, l’organisation devra respecter deux règles cumulatives : Le total des jours télétravaillés dans un mois calendaire ne peut excéder deux jours."
+    
+    * "L’organisation du télétravail est définie sur la base de ½ journée par semaine travaillée (soit 3,5h). L’organisation du télétravail peut se réaliser de manière hebdomadaire ou mensuelle."
+
+* Ma réponse après raisonnement :
+
+    * nombrejourdeteletravailmaxparsemaine = 2
+
+* Mon raisonnement :
+
+    * Les deux paragraphes pertinents indiquent que le télétravail peut être organisé par demi-journées ou par jours entiers, et que la limite maximale de jours télétravaillés dans un mois calendaire est de deux jours. Cependant, il est aussi mentionné que l'organisation du télétravail peut se réaliser de manière hebdomadaire, avec une base de ½ journée par semaine travaillée. Néanmoins, il n'y a pas de mention explicite du nombre maximal de jours de télétravail par semaine. Par conséquent, je me base sur la limite mensuelle de deux jours pour déterminer le nombre maximal de jours de télétravail par semaine. Comme il n'y a pas de mention d'une semaine de cinq jours de télétravail, je ne peux pas affecter la valeur maximale de 5 à la variable nombrejourdeteletravailmaxparsemaine.

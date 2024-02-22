@@ -1,0 +1,14 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser :
+
+    * "Le télétravail récurrent s’organise par journée complète dans la limite de deux (2) jours par semaine"
+    
+    * "Méthode 1 : 1, 1,5 ou 2 jours (selon les règles évoquées au paragraphe précédent « Rythme de télétravail ») par semaine fixes"
+
+* Ma réponse après raisonnement :
+
+    * nombrejourdeteletravailmaxparsemaine = 2
+
+* Mon raisonnement :
+
+    * Les deux paragraphes pertinents montrent que le télétravail récurrent est limité à deux jours par semaine, et que la méthode 1 propose un télétravail allant jusqu'à deux jours par semaine. Ainsi, le nombre maximum de jours de télétravail par semaine est de 2.

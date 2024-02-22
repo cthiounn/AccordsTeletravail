@@ -1,0 +1,13 @@
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* Article 39 : « La fréquence du télétravail [...] la fréquence du télétravail est limitée à un (1) jour maximum par semaine »
+* Article 42 : « Pendant les jours de télétravail, le télétravailleur est tenu de respecter, selon le salarié concerné, l’horaire collectif ou les plages fixes pendant lesquelles il doit être joignable »
+
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine = 1
+
+Mon raisonnement :
+
+* Selon l'article 39, la fréquence du télétravail est limitée à un jour maximum par semaine. Donc, nombrejourdeteletravailmaxparsemaine = 1.
+* L'article 42 ne contient pas d'information utile pour répondre à la question posée.

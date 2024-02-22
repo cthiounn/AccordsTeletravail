@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
+
+* "Le nombre maximal de jours de télétravail est fixé annuellement et de façon forfaitaire. Il est également pondéré en fonction du temps de travail de chaque salarié comme suit : Nombre de jours calculé sur la base d’une moyenne de 3 jours de télétravail par mois et par équivalent temps plein, sur 10 mois à l’année (déduction faite des 5 semaines de congés payés, des jours de crédit d’heures, de réunion d’équipe et de formation)."
+* "En aucun cas le télétravail ne doit modifier, à la hausse ou à la baisse, les missions, les activités habituelles du collaborateur, ses objectifs et le nombre d’heures de travail. En effet, le recours au télétravail est sans incidence sur la charge de travail du salarié."
+
+Based on the information provided in the document, the maximum number of days an employee can telework regularly per week is three. Therefore, the value of the variable 'nombrejourdeteletravailmaxparsemaine' is 3. This is because the document states that the maximum number of days of telework is calculated based on a mean of 3 days per month and per equivalent full-time employee over 10 months of the year. However, the document does not explicitly state the maximum number of days per week, but since there are 4 weeks in a month and 10 months in a year, we can infer that the maximum number of days per week is 3.
+
+My response is: 'nombrejourdeteletravailmaxparsemaine=3'.
+
+My reasoning is that the document provides information on the maximum number of days of telework per year, which is calculated based on a mean of 3 days per month and per equivalent full-time employee over 10 months of the year. Since there are 4 weeks in a month and 10 months in a year, we can infer that the maximum number of days per week is 3. The document also states that the telework should not modify the number of hours of work, indicating that the number of days of telework is fixed and cannot be exceeded. Therefore, the maximum number of days an employee can telework regularly per week is three.

@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+
+* "Le nombre de jours of telework per week is 2, or up to 40% per week for full-time employees."
+* "For collaborators working at 60% of full time (4.5 days per week), half a day of telework will be counted as a full day of telework."
+
+My response after reasoning is:
+nombrejourdeteletravailmaxparsemaine = 2
+
+My reasoning is:
+The first paragraph states that the number of days of telework per week is 2, which is equivalent to 40% of a full-time employee's weekly hours. Therefore, the maximum number of days of telework per week is 2. The second paragraph mentions that for collaborators working at 60% of full time (4.5 days per week), half a day of telework will be counted as a full day of telework. However, this does not change the fact that the maximum number of days of telework per week is still 2. Therefore, I assign the value 2 to the variable 'nombrejourdeteletravailmaxparsemaine'.

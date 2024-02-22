@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Le Salarié pourra effectuer jusqu’à 45 jours de télétravail par année civile. La répartition de ces jours sur l’année civile s’effectuera par journée entière sur la base d’une journée par semaine." (Source: T03121008748.txt)
+* "Par exception, les salariés d’un service spécifique... pourront bénéficier d’une autorisation de télétravail par semaine entière dans la limite de 9 semaines par an (9 semaines x 5 jours/semaine =45 jours)" (Source: T03121008748.txt)
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=1
+
+Mon raisonnement :
+Les deux paragraphes pertinents montrent que le nombre maximal de jours de télétravail par an est de 45, et que la répartition de ces jours se fait sur une base d'une journée par semaine. Cependant, il est également mentionné qu'il y a une exception pour certains salariés d'un service spécifique qui peuvent bénéficier d'une autorisation de télétravail par semaine entière dans la limite de 9 semaines par an, ce qui correspond à 45 jours. Comme il n'est pas précisé si cette exception s'ajoute aux 45 jours ou les remplace, je dois considérer la limite la plus basse pour répondre à la question. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 1.

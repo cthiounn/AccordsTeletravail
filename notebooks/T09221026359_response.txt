@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Le télétravail régulier suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine."
+* "Il est tout de même fortement recommandé de ne pas dépasser 2 jours de télétravail par semaine."
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 2
+
+Mon raisonnement :
+Le document mentionne clairement que le télétravail régulier ne peut excéder trois jours par semaine, mais il est également fortement recommandé de ne pas dépasser deux jours de télétravail par semaine. Par conséquent, je considère que la limite stricte est de deux jours de télétravail par semaine, ce qui correspond à la réponse attendue.

@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "De manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum." (Source: T07821008551.txt)
+* "Si le collaborateur exerce initialement une journée de télétravail par semaine : possibilité de réaliser 4 jours en télétravail sur le mois; Si le collaborateur exerce initialement deux jours de télétravail par semaine: possibilité de réaliser 8 jours de télétravail sur le mois." (Source: T07821008551.txt)
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 2
+
+Mon raisonnement :
+Après avoir analysé les deux paragraphes pertinents, je constate que le télétravail s'exerce à raison de deux journées fixes par semaine maximum. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

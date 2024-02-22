@@ -1,0 +1,9 @@
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents :
+* "ANNEXE 1 LISTE DES POSTES ELIGIBLES"
+* "Le délégué syndical, C.F.D.T"
+
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine = 0
+
+Mon raisonnement :
+Après avoir analysé les deux paragraphes pertinents du document, je n'ai pas trouvé de mention explicite du nombre de jours de télétravail autorisés par semaine, ni de mention du télétravail à 100% ou du full-remote sans jour de présence minimum sur site. Par conséquent, conformément aux instructions, je retourne la valeur 0 pour la variable nombrejourdeteletravailmaxparsemaine.

@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Le télétravail est limité à 2 jours maximum par semaine dans le respect des conditions suivantes..." (Source : T05721004198.txt)
+* "La nouvelle organisation du travail est soumise à une période d'adaptation de 2 mois pendant laquelle chacune des parties peut librement mettre fin au télétravail, à condition de respecter un délai de prévenance de 15 jours calendaires." (Source : T05721004198.txt)
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 2
+
+Mon raisonnement :
+Après avoir analysé les documents fournis, j'ai pu trouver dans le premier paragraphe extrait que le télétravail est limité à 2 jours maximum par semaine. Par conséquent, je peux affirmer que le nombre maximal de jours de télétravail par semaine est de 2, ce qui correspond à la variable 'nombrejourdeteletravailmaxparsemaine'. Les autres informations fournies dans les documents ne concernent pas directement le nombre de jours de télétravail par semaine, mais plutôt les conditions et la période d'adaptation du télétravail.

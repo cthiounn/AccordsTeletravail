@@ -1,0 +1,12 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* Article 2.3.1. Rythme général du télétravail : "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine."
+* Article 2.3.2. Modification du jour de télétravail : "Les salariés éligibles peuvent bénéficier de 5 jours de télétravail dans l’année..."
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 1
+
+Mon raisonnement :
+
+* Selon l'article 2.3.1, le télétravail est limité à une journée par semaine. Donc, nombrejourdeteletravailmaxparsemaine = 1.

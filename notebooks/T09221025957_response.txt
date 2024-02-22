@@ -1,0 +1,8 @@
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
+
+* "Il a été conclu le présent avenant à l’accord sur le télétravail signé le 21 mai 2019 (ci-après dénommé l’« Avenant »). Cet avenant a pour objet de prolonger la durée d’applicabilité dudit accord au sein de BCA Expertise, initialement conclu pour une période déterminée de 1 an ½ jusqu’au 31 décembre 2020, puis renouvelé par avenant du 23 décembre 2020 jusqu’au 28 février 2021."
+* "Article 1. Modification de l’article 10 « Durée de l’accord » Le présent accord est renouvelé pour une durée de (3) trois mois, soit jusqu’au 31 mai 2021."
+
+Based on the information provided in the document, there is no mention of the number of days of telework per week or any other frequency by week for regular telework. Therefore, the value of the variable 'nombrejourdeteletravailmaxparsemaine' is 0.
+
+My reasoning is based on the fact that I am only extracting specific information and not making any assumptions or calculations. The document does not provide clear information about the number of days of telework per week, so I cannot give a definitive answer to this question.

@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Le télétravail s’effectue sur la base de 2 journées maximum par semaine civile." (Document(page\_content='Les jours de télétravail sont pris par journée complète, à date fixe, consécutifs ou non et modifiables en accord ou à la demande du responsable hiérarchique pour des raisons d’organisation de service... Personnel au décompte annuel en heures... Le télétravail s’effectue sur la base de 2 journées maximum par semaine civile.'))
+* "Par conséquent, le télétravail ne peut leur être autorisé les jours de présence de ces personnels." (Document(page\_content='f- Situation des tuteurs... Les tuteurs doivent assurer une fonction d’aide et de support auprès de leurs collaborateurs en apprentissage (jeunes alternants). Par conséquent, le télétravail ne peut leur être autorisé les jours de présence de ces personnels.')))
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 2
+
+Mon raisonnement :
+Après avoir lu attentivement les deux paragraphes pertinents, j'ai pu extraire l'information spécifique dont j'avais besoin. J'ai trouvé la mention du nombre de jours de télétravail maximum par semaine, qui est de 2 jours. Cette information est clairement indiquée dans le premier paragraphe pertinent, où il est stipulé que "Le télétravail s’effectue sur la base de 2 journées maximum par semaine civile.". Je n'ai pas trouvé d'autres mentions de la fréquence par semaine concernant le nombre de jours de télétravail autorisé dans les autres paragraphes.

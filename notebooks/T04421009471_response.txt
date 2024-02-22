@@ -1,0 +1,20 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+
+    3.3.2 Planification des jours de télétravail
+    > Si son activité le permet, le salarié en télétravail définit dans la semaine quels seront les jours en télétravail, en accord avec son responsable hiérarchique.
+
+    ARTICLE 1 : DURÉE ET FRÉQUENCE 
+    > A compter du x, suite à la demande du salarié, il a été défini que le salarié pourra exercer son activité professionnelle en télétravail par journée ou demi-journée, à raison d’un volume pouvant atteindre X journées par semaine.
+
+* Ma réponse après raisonnement :
+
+    nombrejourdeteletravailmaxparsemaine = 5
+
+* Mon raisonnement :
+
+    Dans le premier paragraphe, il est mentionné que le salarié en télétravail définit dans la semaine quels seront les jours en télétravail, en accord avec son responsable hiérarchique. Cette information indique que le nombre de jours de télétravail est fixé par semaine.
+
+    Dans le deuxième paragraphe, il est mentionné que le salarié pourra exercer son activité professionnelle en télétravail par journée ou demi-journée, à raison d’un volume pouvant atteindre X journées par semaine. La variable X n’a pas de valeur numérique attribuée dans le document, mais la mention de « semaine » indique que le nombre de jours de télétravail est fixé par semaine.
+
+    Comme il n’y a pas de limitation explicite du nombre de jours de télétravail par semaine dans les paragraphes analysés, et que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué sans jour de présence minimum sur site, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur maximale de 5.

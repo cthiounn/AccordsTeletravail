@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+
+* "Le temps de présence dans les locaux devra être au minimum de 4 days or worked per week in order to prevent any risk of isolation. The number of days of teleworking is therefore limited to one day per week."
+* "The time spent at the office must be a minimum of 3 days worked per week in order to prevent any risk of isolation. The number of days of telework is therefore limited to two days per week."
+
+Based on this information, the maximum number of days of telework per week is two for cadres and one for non-cadres. Therefore, the variable 'nombrejourdeteletravailmaxparsemaine' is affected with the value 2 for cadres and 1 for non-cadres.
+
+My response is: 'nombrejourdeteletravailmaxparsemaine=2' for cadres and 'nombrejourdeteletravailmaxparsemaine=1' for non-cadres.
+
+My reasoning is that the document specifies the minimum number of days that employees must be present at the office, which implies that the maximum number of days of telework per week is limited to the remaining days of the week. This is consistent with the information provided in the document, which states that the maximum number of days of telework per week is one for non-cadres and two for cadres.

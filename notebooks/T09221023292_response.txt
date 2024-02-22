@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Le télétravail peut s’effectuer sur décision de l’employeur en cas de situation exceptionnelle (notamment pandémie). Hors situation exceptionnelle, il s’organise de façon volontaire, avec le double consentement employeur-salarié. En tout état de cause, hors situation exceptionnelle, le télétravail cesse sur information d’une des parties à l’autre avec un préavis d’un mois (sauf accord réciproque pour une durée inférieure). En cas de cessation du télétravail, le salarié retrouve son poste de travail, ou un poste équivalent."
+* "La définition des postes télétravaillables relève de la décision de l’employeur. En tout état de cause, la mise en œuvre du télétravail doit rester compatible avec les objectifs de performance économique et sociale de l'entreprise."
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 0
+
+Mon raisonnement :
+Après avoir analysé les documents fournis, je n'ai pas trouvé de mention explicite du nombre de jours de télétravail autorisés par semaine, ni de mention du télétravail à 100% ou du full-remote autorisé sans jour de présence minimum sur site. Par conséquent, conformément aux instructions données, je ne peux pas attribuer de valeur à la variable nombrejourdeteletravailmaxparsemaine.

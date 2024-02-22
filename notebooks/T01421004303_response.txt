@@ -1,0 +1,12 @@
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Le télétravail pourra être exercé trois jours par semaine maximum." (Document(page\_content="...", metadata={'source': 'T01421004303.txt'}))
+
+Ma réponse après raisonnement ci-dessous :
+
+nombrejourdeteletravailmaxparsemaine=3
+
+Mon raisonnement :
+
+Je me suis basé sur le paragraphe "Organisation des périodes de télétravail" du document T01421004303.txt qui indique que "Le télétravail pourra être exercé trois jours par semaine maximum". Par conséquent, je conclus que le nombre maximal de jours de télétravail par semaine est de 3.

@@ -1,0 +1,14 @@
+Q_TTSEM_NOMBRE:* Deux paragraphes pertinents provenant des documents à analyser :
+
+1. "Consigne est donnée au personnel de : rester chez soi le plus possible. Le télétravail a été généralisé pour tous les postes pour lesquels il est possible et pour lesquels l’activité se poursuit"
+2. "L'organisation du travail a été adaptée aux contraintes qui s'imposent dans le cadre de l'épidémie de Covid-19 : généralisation du recours au télétravail pour tous les postes aménageables en télétravail pour lesquels l’activité se poursuit"
+
+* Ma réponse après raisonnement :
+
+nombrejourdeteletravailmaxparsemaine=5
+
+* Mon raisonnement :
+
+Après avoir analysé les deux paragraphes pertinents, je constate que le télétravail a été généralisé pour tous les postes pour lesquels il est possible et pour lesquels l’activité se poursuit. Cependant, aucune limitation de nombre de jours de télétravail par semaine n'est mentionnée dans ces paragraphes.
+
+Cependant, dans le deuxième paragraphe, il est mentionné que le télétravail a été généralisé pour tous les postes aménageables en télétravail pour lesquels l’activité se poursuit. Selon les instructions données, si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine. Dans les paragraphes analysés, il est mentionné que le télétravail a été généralisé pour tous les postes pour lesquels il est possible, ce qui signifie que tous les postes sont aménageables en télétravail. De plus, aucune journée de présence minimum sur site n'est mentionnée. Par conséquent, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.

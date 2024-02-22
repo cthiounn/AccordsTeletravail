@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Extraction pertinente du document :
+
+* "Le salarié pourra cumuler ses jours de télétravail sur un mois."
+* "Les journées de télétravail seront planifiées par le salarié au trimestre et soumis à la validation de son responsable sans dépasser trois jours de télétravail par semaine."
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 3
+
+Mon raisonnement :
+Dans le document, il est mentionné que le salarié peut cumuler ses jours de télétravail sur un mois et que les journées de télétravail sont planifiées par le salarié au trimestre et soumises à la validation de son responsable sans dépasser trois jours de télétravail par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3.

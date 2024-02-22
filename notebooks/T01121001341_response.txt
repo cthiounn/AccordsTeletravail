@@ -1,0 +1,14 @@
+Q_TTSEM_NOMBRE:
+* Extraits pertinents des documents :
+
+    "La mise en œuvre du télétravail au sein de la MSA Grand Sud est encadrée par l’accord du 3 septembre 2020." (Document(page\_content='Accord de prorogation de l’accord Collectif d’Entreprise \nrelatif à la mise en œuvre du télétravail\nà la Mutualité Sociale Agricole Grand Sud'))
+    
+    "Cet accord arrivant à échéance le 31 août 2021, et compte tenu du fait que les négociations de branche relatives au télétravail n’ont pas encore abouti, les partenaires sociaux ont souhaité proroger les modalités de mise en œuvre du télétravail au sein de la MSA Grand Sud issues de l’accord d’entreprise du 3 septembre 2020." (Document(page\_content="La mise en œuvre du télétravail au sein de la MSA Grand Sud est encadrée par l’accord du 3\xa0septembre 2020."))
+
+* Réponse :
+
+    nombrejourdeteletravailmaxparsemaine = 0
+
+* Raisonnement :
+
+    Les documents fournis ne contiennent pas d'information spécifique concernant le nombre maximal de jours de télétravail par semaine. Aucun paragraphe ne mentionne explicitement ce nombre. De plus, rien n'indique que le télétravail à 100% ou le full-remote soit autorisé sans jour de présence minimum sur site. Par conséquent, je ne peux pas attribuer de valeur à la variable 'nombrejourdeteletravailmaxparsemaine'.

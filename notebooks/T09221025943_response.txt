@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:* Deux paragraphes pertinents provenant des documents à analyser :
+    * "Le télétravailleur ne peut exercer en totalité son contrat de travail en dehors des locaux de l’Entreprise. En conséquence, les jours de télétravail seront fixés selon les modalités suivantes : De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise"
+    * "De 1 à 3 jours flottants par semaine ; Ou un forfait mensuel de 6 jours ; Ou un forfait annuel de 30 jours."
+* Ma réponse après raisonnement :
+    * nombrejourdeteletravailmaxparsemaine = 3
+* Mon raisonnement :
+    * Selon le premier paragraphe, le nombre de jours de télétravail fixes par semaine est compris entre 1 et 3.
+    * Selon le deuxième paragraphe, il existe également une option pour des jours flottants de télétravail par semaine, mais aucune limite supérieure n'est spécifiée.
+    * Compte tenu des instructions, je ne peux pas additionner les jours fixes et flottants pour donner une limite supérieure, car ils sont traités comme des concepts indépendants.
+    * Par conséquent, je retiens la limite supérieure spécifiée dans le premier paragraphe, à savoir 3 jours de télétravail par semaine.

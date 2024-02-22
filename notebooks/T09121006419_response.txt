@@ -1,0 +1,9 @@
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Afin de maintenir le lien social avec la communauté de travail, et de préserver le bon fonctionnement des activités, les parties fixent le nombre de jour de télétravail à deux jours maximum par semaine." (Document(page\_content='Article 4 Condition d’exécution du télétravail', metadata={'source': 'T09121006419.txt'}))
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 2
+
+Mon raisonnement :
+Le document mentionne explicitement le nombre de jours de télétravail maximum par semaine, qui est de deux jours. Cette information est claire et ne nécessite pas de calcul ou de supposition supplémentaire.

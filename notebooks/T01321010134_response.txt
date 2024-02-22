@@ -1,0 +1,14 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser :
+
+    * "Une présence minimum de 2 jours par semaine du salarié dans les locaux de l’entreprise est requise"
+    * "Les managers doivent prévoir le planning mensuel de télétravail de leurs collaborateurs"
+
+* Ma réponse après raisonnement :
+
+    * nombrejourdeteletravailmaxparsemaine = 3
+
+* Mon raisonnement :
+
+    * Selon le premier paragraphe, il y a une présence minimale de 2 jours par semaine du salarié dans les locaux de l’entreprise. Cela implique que le nombre maximum de jours de télétravail par semaine est de 5 - 2 = 3 jours.
+    * Ce résultat est cohérent avec le deuxième paragraphe qui mentionne que les managers doivent prévoir le planning mensuel de télétravail de leurs collaborateurs, ce qui suggère que le télétravail est limité à quelques jours par semaine.

@@ -1,0 +1,14 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+
+    "Afin de maintenir le lien social, la cohésion et le bon fonctionnement des équipes, la direction demande que le salarié télétravailleur dispose d'au moins 3 jours de présence par semaine dans l'entreprise."
+    
+    "Dans le respect de ce principe, les salariés peuvent demander à organiser leur rythme de télétravail en déterminant – au maximum – deux journées télétravaillées chaque semaine en moyenne."
+
+* Ma réponse après raisonnement :
+
+    nombrejourdeteletravailmaxparsemaine = 2
+
+* Mon raisonnement :
+
+    Selon le premier paragraphe, les salariés doivent assurer une présence de 3 jours par semaine dans l'entreprise. Cela signifie qu'ils peuvent télétravailler au maximum 2 jours par semaine. Dans le deuxième paragraphe, il est mentionné que les salariés peuvent demander à organiser leur rythme de télétravail en déterminant – au maximum – deux journées télétravaillées chaque semaine en moyenne. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

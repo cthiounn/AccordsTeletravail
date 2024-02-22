@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+
+    Article 4 : Télétravail
+    Les parties conviennent d’un maximum de 2 jours par semaine.
+
+* Ma réponse après raisonnement :
+    nombrejourdeteletravailmaxparsemaine = 2
+
+* Mon raisonnement :
+    Dans le document, il est stipulé que les parties conviennent d’un maximum de 2 jours par semaine pour le télétravail. Donc, un employé/travailleur/salarié/collaborateur peut télétravailler régulièrement jusqu’à 2 jours par semaine.

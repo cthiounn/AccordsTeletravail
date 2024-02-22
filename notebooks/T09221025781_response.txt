@@ -1,0 +1,23 @@
+Q_TTSEM_NOMBRE:
+* Extraits pertinents :
+    * "Il ne pourra être exercé que pour un maximum de 10 jours par an. La répartition du temps de travail s’opère par journée ou demi-journée."
+    * "Le télétravailleur occasionnel doit être joignable et en mesure de répondre aux sollicitations aux horaires habituels correspondant à son service."
+    * "Le passage au télétravail occasionnel modifie seulement la façon dont le travail est effectué et le lieu de sa réalisation, il n’affecte en rien la qualité de salarié. A ce titre, l’activité demandée au télétravailleur occasionnel est équivalente à celle des salariés effectuant intégralement leur travail dans les locaux de l’Entreprise."
+    * "Le télétravail à domicile implique obligatoirement un caractère volontaire de la part du collaborateur."
+    * "Lorsqu’un salarié souhaite bénéficier du télétravail occasionnel à domicile pour une des raisons évoquées au paragraphe 2, il adresse une demande à son responsable hiérarchique, via le formulaire prévu à cet effet (Annexe 1). Cette demande doit être adressée 3 jours avant la date de télétravail (sauf contrainte légitime)."
+    * "Le télétravailleur occasionnel prend soin de l’équipement qui lui est confié et informe immédiatement le service exploitation informatique et son responsable hiérarchique en cas de panne, de mauvais fonctionnement, de détérioration, de perte ou de vol du matériel mis à sa disposition."
+    * "L’objectif de cet accord est de poursuivre le développement de cette nouvelle organisation du travail, tout en définissant des modalités claires et homogènes de recours au télétravail occasionnel dans l’Entreprise."
+    * "Conformément à l’accord national Interprofessionnel du 19/7/2005, le télétravail occasionnel se définit, « comme une forme d’organisation du travail, utilisant les technologies de l’information et de la communication dans le cadre d’un contrat de travail et dans laquelle un travail est effectué exceptionnellement au domicile du salarié alors qu’il aurait dû être réalisé dans les locaux de l’employeur."
+    * "Le télétravail occasionnel a vocation à répondre, notamment à des circonstances inhabituelles et/ou à des situations d’urgence, empêchant le déplacement du salarié sur son lieu de travail (grève des transports en commun, pandémie, intempérie, pénurie de carburant)"
+    * "La compatibilité des postes de travail avec le télétravail dépend des tâches télé-travaillables, de l’organisation du travail du salarié, de ses relations avec ses clients, ses collègues, son hiérarchique et de l’activité de son équipe."
+    * "Le télétravailleur occasionnel doit être joignable et en mesure de répondre aux sollicitations aux horaires habituels correspondant à son service."
+    * "Le télétravailleur occasionnel prend soin de l’équipement qui lui est confié et informe immédiatement le service exploitation informatique et son responsable hiérarchique en cas de panne, de mauvais fonctionnement, de détérioration, de perte ou de vol du matériel mis à sa disposition."
+    * "Le télétravailleur occasionnel prend soin de l’équipement qui lui est confié et informe immédiatement le service exploitation informatique et son responsable hiérarchique en cas de panne, de mauvais fonctionnement, de détérioration, de perte ou de vol du matériel mis à sa disposition."
+
+* Réponse :
+
+    nombrejourdeteletravailmaxparsemaine = 0
+
+* Explication :
+
+    Les informations contenues dans les différent

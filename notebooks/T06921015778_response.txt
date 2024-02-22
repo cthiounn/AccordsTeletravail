@@ -1,0 +1,7 @@
+Q_TTSEM_NOMBRE:* Deux paragraphes pertinents provenant des documents à analyser :
+    * "Le télétravail peut être mis en œuvre, par journée entière de travail, dans la limite de 3 jours par semaine et de façon régulière." (Source: T06921015778.txt)
+    * "Un jour commun au bureau chaque semaine par service ou équipe est fixé par le manager." (Source: T06921015778.txt)
+* Ma réponse après raisonnement :
+    * nombrejourdeteletravailmaxparsemaine = 3
+* Mon raisonnement :
+    * D'après le premier paragraphe pertinent, le télétravail peut être mis en œuvre dans la limite de 3 jours par semaine et de façon régulière. Donc, le nombre maximum de jours de télétravail par semaine est de 3.

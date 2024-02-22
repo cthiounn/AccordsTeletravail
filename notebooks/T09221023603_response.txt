@@ -1,0 +1,14 @@
+Q_TTSEM_NOMBRE:Two paragraphs relevant to the question from the documents are:
+
+* "Le télétravail régulier s’effectue à raison de deux  jours par semaine maximum (sauf circonstance exceptionnelle visée au §V 3)"
+* "Cas n°1	: le salarié s’inscrit dans une organisation régulière de deux journées maximum de télétravail par semaine"
+
+My response is:
+
+* nombrejourdeteletravailmaxparsemaine=2
+
+My reasoning is:
+
+* The first paragraph states that the regular telework is done at most two days per week.
+* The second paragraph also mentions the same limit of two days per week for regular telework.
+* Therefore, based on the information provided in the documents, the maximum number of days an employee can telework regularly per week is two.

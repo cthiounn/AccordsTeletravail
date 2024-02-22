@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine." (Source: T06421003693.txt)
+* "Si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu’il n’y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine!" (Source: instruction)
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 2
+
+Mon raisonnement :
+Après analyse des documents fournis, j'ai trouvé un paragraphe qui répond à la question posée. Selon ce paragraphe, le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d'un ou deux jours entiers maximum par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2. Les instructions précisent également qu'il faut affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 2 dans ce cas.

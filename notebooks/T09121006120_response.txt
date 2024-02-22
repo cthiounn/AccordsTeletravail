@@ -1,0 +1,8 @@
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
+
+* "Les jours de télétravail doivent par principe être pris par journée entière et ne peuvent conduire le salarié à s’absenter en télétravail plus de deux daynées for une semaine of five days."
+* "Il est possible de définir des journées comme non accessible au télétravail afin de préserver le lien social, les rituels d’équipes and the collective work. The réunions will be organized on these days."
+
+Based on the information provided in the document, the maximum number of days an employee can telework regularly per week is two. Therefore, the value of the variable 'nombrejourdeteletravailmaxparsemaine' is 2. This is because the document states that the maximum number of days an employee can telework is two days per week, and there is no mention of any exceptions to this rule.
+
+My reasoning is based on the fact that the document explicitly states that the maximum number of days an employee can telework is two days per week. There is no mention of any exceptions to this rule, such as the possibility of teleworking more than two days per week if certain conditions are met. Additionally, there is no mention of the concept of teleworking on a full-time basis or of the possibility of teleworking more than two days per week if there is no mandatory presence on site. Therefore, I concluded that the maximum number of days an employee can telework regularly per week is two.

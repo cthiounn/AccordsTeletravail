@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+
+* "Le recours au télétravail a été généralisé pour tous les salariés en activité dont le poste et/ou leur mission permettait ledit télétravail."
+* "les parties ont décidé de se réunir, afin de conclure un avenant portant sur le remboursement des frais liés au télétravail."
+
+Based on the provided documents, there is no specific mention of the number of days of telework per week. However, according to point 2.E of the instructions, if the document mentions positively the Telework at 100%, or the full-remote, and there is no minimum number of days required on site, then 5 days of telework is possible per week. Therefore, the value of the variable 'nombrejourdeteletravailmaxparsemaine' is 5.
+
+My response is: 'nombrejourdeteletravailmaxparsemaine=5'.
+
+My reasoning is based on the fact that there is no specific mention of the number of days of telework per week in the documents, but according to the instructions, if the document mentions positivement the Telework at 100%, or the full-remote, and there is no minimum number of days required on site, then 5 days of telework is possible per week.

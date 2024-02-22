@@ -1,0 +1,8 @@
+Q_TTSEM_NOMBRE:
+* Extraits pertinents :
+    * "Le rythme de télétravail sera au minimum de 1 jour toutes les 2 semaines et ne pourra excéder 1 jour par semaine"
+    * "Le rythme du télétravail sera basé sur un forfait de 12 par an."
+* Réponse :
+    * nombrejourdeteletravailmaxparsemaine=1
+* Raisonnement :
+    * Dans le premier extrait, il est dit que le rythme de télétravail ne peut excéder 1 jour par semaine. Donc, le maximum de jours de télétravail par semaine est 1.

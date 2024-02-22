@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine" (Source: T05121003407.txt)
+* "Le télétravail constitue une modalité d'organisation du travail. Il s'inscrit dans le cadre de l'ordonnance du 22 Septembre 2017 et consiste pour le salarié à effectuer de façon régulière et volontaire hors des locaux de l'employeur un travail qui s'exerce habituellement dans les locaux, en utilisant les technologies numériques." (Source: T05121003407.txt)
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 4
+
+Mon raisonnement :
+En analysant le premier paragraphe pertinent, je peux voir que le nombre maximal de jours de télétravail par semaine est explicitement mentionné comme étant 4. Par conséquent, je peux affirmer que le nombre maximum de jours de télétravail par semaine est de 4, conformément aux instructions données.

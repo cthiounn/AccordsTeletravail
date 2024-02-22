@@ -1,0 +1,12 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* Article 15 – Organisation du télétravail régulier : « Les collaborateurs (hormis les commerciaux) devront être présents sur site au minimum 2 jours/plages de travail par semaine, sauf cas dérogatoires validés en amont par le manager. »
+* Article 8 – Le télétravail régulier : « Les parties conviennent de retenir une forme unique de télétravail régulier pour tous les salariés volontaires et éligibles au sens du titre II, à savoir un nombre de jours de télétravail flexible sur la semaine. Pour chaque télétravailleur, le nombre de jours de télétravail réellement pris pourra varier chaque semaine. Il dépendra à la fois des demandes des salariés et des besoins du manager justifiés par les nécessités de service. »
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 2
+
+Mon raisonnement :
+
+* Selon l'article 15, les collaborateurs doivent être présents sur site au minimum 2 jours/plages de travail par semaine, sauf cas dérogatoires. Cependant, l'article 8 mentionne un nombre de jours de télétravail flexible sur la semaine, ce qui implique que le nombre de jours de télétravail par semaine peut varier entre 0 et 5 jours. Compte tenu de l'article 15, le nombre maximum de jours de télétravail par semaine est donc limité à 2 jours.

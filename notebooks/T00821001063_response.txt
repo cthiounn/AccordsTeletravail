@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
+
+* "Le télétravail est limité à 1 jour par semaine." (from Document(page\_content='5.1.1 Télétravail habituel...'))
+* "Le télétravail est limité à un maximum de 24 days per year without carryover from one year to another." (from Document(page\_content='Configuration B...'))
+
+My response after reasoning is:
+nombrejourdeteletravailmaxparsemaine=1
+
+My reasoning is:
+The first paragraph explicitly states that teleworking is limited to 1 day per week. Therefore, the maximum number of days of telework per week is 1. The second paragraph does not provide information about the number of days of telework per week, but only per year.

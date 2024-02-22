@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Les salariés n’ont pas d’obligation d’utiliser chaque semaine tous les jours de télétravail dont ils disposent."
+* "Si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu’il n’y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine!"
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 5
+
+Mon raisonnement :
+Après examen des documents, je n'ai trouvé aucune information spécifiant le nombre maximal de jours de télétravail par semaine, sauf dans le cas où le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué ET qu'il n'y a pas de jour de présence minimum sur site. Dans ce cas, le nombre maximal de jours de télétravail par semaine est de 5.

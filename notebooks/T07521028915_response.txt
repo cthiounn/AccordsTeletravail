@@ -1,0 +1,12 @@
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Comme convenu à l’article 1, le salarié disposera de (48) jours de télétravail possibles par année civile, qu’il pourra mobiliser en journée entière. Si le salarié est embauché en cours d’année, les jours de télétravail sont proratisés."
+* "Cette forme de télétravail, dont la fréquence n’est pas définie sur les jours fixes, est établie sur un nombre maximal de jours par an qu’il est possible de « télétravailler » et selon un rythme permettant de garantir le fonctionnement optimal de l’Apur."
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=4
+
+Mon raisonnement :
+Selon le premier paragraphe, le salarié dispose de 48 jours de télétravail possibles par année civile. D'après les instructions, si le nombre de jour de télétravail annuel est inférieur à 52, ce nombre de jour de télétravail concerne du télétravail occasionnel. Donc, ici, le nombre de jour de télétravail annuel étant de 48, il s'agit de télétravail occasionnel. Or, le sujet demande de trouver le nombre de jour maximum de télétravail par semaine en excluant le télétravail occasionnel ou ponctuel. Donc, je ne peux pas utiliser cette information pour répondre à la question.
+
+Par contre, le deuxième paragraphe indique que la fréquence de télétravail n'est pas définie sur les jours fixes mais sur un nombre maximal de jours par an qu'il est possible de « télétravailler ». Cependant, il n'indique pas explicitement le nombre de jours de télétravail par semaine. Mais, comme il n'y a pas d'autres informations dans les documents fournis, je dois me baser sur celle-ci pour répondre à la question. Comme il est dit que la fréquence n'est pas définie sur les jours fixes, cela signifie que le nombre de jours de télétravail par semaine n'est pas fixe et peut varier. Cependant, comme il est aussi dit que le télétravail est établi sur un nombre maximal de jours par an qu'il est possible de « télétravailler », cela signifie qu'il y a une limite au nombre de jours de télétravail par an. Or, dans le premier paragraphe, il est indiqué que le salarié dispose de 48 jours de télétravail possibles par année civile. Donc, le nombre maximum de jours de télétravail par semaine est de 48/52 = 0,92, ce qui est inférieur à 1. Donc, le nombre maximum de jours de télétravail par semaine est de 0. Arrondi à l'entier inférieur conformément aux instructions, cela donne 0. Donc, nombrejourdeteletravailmaxparsemaine=0.

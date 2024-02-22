@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Le collaborateur formulera ses souhaits en matière de fréquence et de jour de télétravail. Chaque demande devra être validée par le manager, à l’issue d’un entretien avec le collaborateur concerné, au mieux des intérêts de l’équipe et de l’activité (rythme de travail, réunions ou déplacements récurrents, organisation de l’équipe, nécessité de permanence, etc.). Le manager pourra donc réserver des journées de travail sur site pour que le travail collaboratif reste au cœur de l’activité de son équipe." (Source : T07521030183.txt)
+* "Afin d’offrir la plus grande souplesse à l’organisation du travail, le nombre de jours en télétravail ne sera pas limité par principe, mais fera l’objet d’une appréciation au cas par cas, en bonne intelligence par le manager et le collaborateur, en fonction de l’organisation de l’équipe." (Source : T07521030183.txt)
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 5
+
+Mon raisonnement :
+Selon le premier paragraphe, chaque demande de télétravail doit être validée par le manager. Cependant, rien dans le texte ne limite le nombre de jours de télétravail par semaine, sauf si le manager le décide. Dans le deuxième paragraphe, il est mentionné que le nombre de jours en télétravail ne sera pas limité par principe. Par conséquent, en l'absence de limitation explicite dans le texte et conformément à l'instruction 2G, je fixe le nombre maximum de jours de télétravail par semaine à 5. De plus, il est mentionné que le télétravail peut être accordé à 100%, ce qui signifie que le collaborateur peut travailler depuis chez lui tous les jours de la semaine, ce qui correspond à 5 jours de télétravail par semaine.

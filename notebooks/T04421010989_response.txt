@@ -1,0 +1,13 @@
+Q_TTSEM_NOMBRE:
+* Extraits pertinents :
+    * "Un minimum de 3 jours par semaine calendaire au bureau sera observé. Ainsi, entre un et deux jours par semaine de télétravail pourront être mis en place pour un salarié à temps plein."
+    * "Dans certaines situations, une certaine souplesse pourra être accordée pendant la période allant jusqu’à fin août, de l’ordre de jusqu’à 3 jours de télétravail par semaine (mini 2 Jours de présence par semaine au bureau)"
+    * "Les collaborateurs à temps partiel suivront la même règle d’une présence minimum de 3 jours calendaires par semaine au bureau"
+
+* Réponse :
+
+    nombrejourdeteletravailmaxparsemaine = 2
+
+* Raisonnement :
+
+    Selon le premier extrait, un salarié à temps plein peut effectuer entre 1 et 2 jours de télétravail par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2. Cette limite s'applique également aux salariés à temps partiel, conformément au troisième extrait. Le deuxième extrait ne change pas cette limite car il s'agit d'une période exceptionnelle qui se termine en août.

@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance." (Document(page\_content='T05721004723.txt'))
+
+Ma réponse après raisonnement ci-dessous :
+nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+* Je me base sur le paragraphe "Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance." pour déterminer le nombre maximum de jours de télétravail par semaine.
+* Cette information est explicite et ne nécessite pas de calcul ou d'hypothèse supplémentaire.

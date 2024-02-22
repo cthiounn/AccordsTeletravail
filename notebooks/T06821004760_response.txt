@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Les dispositions du présent article ne remettent pas en cause la situation des salariés en télétravail total à la date des présentes (télétravail à 100 %), mais également la situation des télétravailleurs ayant pu bénéficier de 3 jours de télétravail par semaine de par les règles appliquées dans le précédent accord"
+* "d’une journée par semaine pour un salarié d’une ancienneté ≥ à 1an et ˂ à 2 ans, de 2 jours par semaine pour un salarié d’une ancienneté ≥ à 2 ans"
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+Après avoir analysé les deux paragraphes pertinents, j'ai pu constater que le premier paragraphe mentionne la possibilité de bénéficier de 3 jours de télétravail par semaine, tandis que le deuxième paragraphe précise que les salariés ayant une ancienneté supérieure à 1 an et inférieure à 2 ans ont droit à une journée de télétravail par semaine, et ceux ayant une ancienneté supérieure à 2 ans ont droit à deux jours de télétravail par semaine. Par conséquent, la limite maximale de jours de télétravail par semaine est de 2 jours.

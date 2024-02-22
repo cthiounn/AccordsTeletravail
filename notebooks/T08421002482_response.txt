@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:
+* Extraits pertinents des documents :
+    * "Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein." (Article 3)
+    
+* Réponse :
+   
+    nombrejourdeteletravailmaxparsemaine = 2
+
+* Raisonnement :
+   
+    La réponse est directement donnée dans l'article 3 du document.

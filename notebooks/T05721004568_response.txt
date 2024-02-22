@@ -1,0 +1,15 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser :
+
+    * "Les salariés seront en télétravail au minimum, soit deux ½ journées par semaine soit une journée complète par semaine"
+    
+    * "En cas d’empêchement liés aux nécessités de service après aval du Vice-Président de l’Association en charge de la gestion courante."
+
+* Ma réponse après raisonnement :
+
+    * nombrejourdeteletravailmaxparsemaine = 1
+
+* Mon raisonnement :
+
+    * Selon le premier paragraphe, les salariés sont en télétravail au minimum soit deux demi-journées par semaine, soit une journée complète par semaine. Donc, le nombre maximum de jour de télétravail par semaine est de 1 jour (une journée complète).
+    * La deuxième phrase ne contient pas d'information utile pour répondre à la question posée.

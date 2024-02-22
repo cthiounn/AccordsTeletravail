@@ -1,0 +1,12 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Le télétravail régulier se définit par une fréquence au moins hebdomadaire." (Document(page\_content='Il convient de distinguer trois types de télétravail : [...] Le télétravail régulier se définit par une fréquence au moins hebdomadaire. [...]', metadata={'source': 'T02121003194.txt'}))
+* "Le nombre de jours télétravaillés ne pourra pas être supérieur à 10 par mois de travail effectif pour les salariés à temps plein et à temps partiel." (Document(page\_content='Conditions de mise en place [...] Télétravail régulier [...] Le nombre de jours télétravaillés ne pourra pas être supérieur à 10 par mois de travail effectif pour les salariés à temps plein et à temps partiel. [...]', metadata={'source': 'T02121003194.txt'}))
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 2
+
+Mon raisonnement :
+Selon le premier paragraphe, le télétravail régulier se définit par une fréquence au moins hebdomadaire. Donc, il y a une notion de fréquence par semaine.
+Selon le deuxième paragraphe, le nombre de jours télétravaillés ne peut pas être supérieur à 10 par mois de travail effectif pour les salariés à temps plein et à temps partiel. Donc, en prenant en compte les règles données dans les instructions, nous savons qu'il y a 4 semaines par mois en moyenne. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 10 divisé par 4, ce qui donne 2.5. Mais comme il est dit que le nombre de jours télétravaillés ne peut pas être supérieur à 10 par mois, cela signifie qu'il ne peut pas y avoir plus de 2.5 jours de télétravail par semaine. Donc, la réponse est 2 car il n'est pas possible d'avoir un demi-jour de télétravail.

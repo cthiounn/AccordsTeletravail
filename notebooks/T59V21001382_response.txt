@@ -1,0 +1,12 @@
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* "8/ Définition des postes et des règles du télétravail ainsi que la mise en place d’une prime de consommable"
+* "La prime de télétravail est fixée à 10 euros par mois pour les fonctions permettant le télétravail et calculée au prorata du temps de présence si nécessaire."
+
+Ma réponse après raisonnement ci-dessous :
+* nombrejourdeteletravailmaxparsemaine = 0
+
+Mon raisonnement :
+* Les informations fournies ne permettent pas de déterminer le nombre maximum de jours de télétravail par semaine.
+* Il n'y a pas de mention de télétravail à 100% ou de full-remote dans les documents fournis.
+* La prime de télétravail est calculée au prorata du temps de présence, ce qui suggère que le télétravail n'est pas forcément régulier ou hebdomadaire.
+* Par conséquent, je ne peux pas attribuer de valeur maximale à nombrejourdeteletravailmaxparsemaine.

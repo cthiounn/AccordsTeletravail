@@ -1,0 +1,9 @@
+Q_TTSEM_NOMBRE:* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+    * "Qu’il soit régulier ou occasionnel, par principe, le télétravail est limité à deux journées par semaine."
+    * "Le manager peut limiter le nombre de salariés simultanément en télétravail pour l’organisation du travail et de façon à préserver la cohésion d’équipe et le lien social. En cas de pluralité de demandes au sein d’un même service, le manager portera une attention particulière au respect du principe d’égalité de traitement afin de ne léser aucun salarié éligible au télétravail."
+* Ma réponse après raisonnement :
+    * nombrejourdeteletravailmaxparsemaine = 2
+* Mon raisonnement :
+    * Dans le premier paragraphe pertinent, il est indiqué que "le télétravail est limité à deux journées par semaine".
+    * Dans le deuxième paragraphe pertinent, il n'y a pas d'information supplémentaire sur le nombre maximum de jours de télétravail par semaine.
+    * Il n'y a pas d'information sur un éventuel télétravail à 100% ou full-remote sans jour de présence minimum sur site.

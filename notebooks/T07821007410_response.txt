@@ -1,0 +1,15 @@
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
+
+* "la date de début du télétravail, nle nombre et les jours de télétravail par semaine,"
+* "Le télétravail régi par le présent avenant à l’accord sur le télétravail II est réalisé au domicile du salarié. Le logement du salarié doit disposer d’un espace de travail aménagé pour le télétravail."
+
+Based on the information provided in the document, the maximum number of days an employee can telework regularly per week is explicitly stated to be "le nombre et les jours de télétravail par semaine". However, the specific value for this variable is not provided in the text. Therefore, I cannot determine the exact number of days of telework per week.
+
+My response is:
+
+* Ma réponse: nombrejourdeteletravailmaxparsemaine = 0
+* Mon raisonnement: The document does not provide a specific value for the maximum number of days of telework per week.
+
+However, it is important to note that there is no mention of a limitation to the number of days of telework per week, except for the fact that it must be specified in the agreement between the employer and the employee. Additionally, there is no mention of any mandatory presence on site or restrictions on the number of days of telework per week.
+
+Therefore, if the telework agreement allows it, an employee could potentially telework up to 5 days per week. However, without more information, we cannot say for sure.

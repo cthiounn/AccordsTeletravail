@@ -1,0 +1,16 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser :
+
+    * "Le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile, par journée entière, de manière à préserver le lien social avec l’entreprise et son groupe de travail." (Source: T09221023395.txt)
+    
+    * "Par dérogation à cette règle, il sera exceptionnellement possible de travailler plus de deux journées par semaine, sous réserve de l’accord exprès de son N+1, N+2 et du service des Ressources Humaines. Le refus à cette dérogation ne donnera pas lieu à une réponse motivée." (Source: T09221023395.txt)
+
+* Ma réponse après raisonnement :
+
+    * nombrejourdeteletravailmaxparsemaine=2
+
+* Mon raisonnement :
+
+    * Selon le premier paragraphe, le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile.
+    * Dans le deuxième paragraphe, il est mentionné qu’il est exceptionnellement possible de travailler plus de deux journées par semaine, mais cela nécessite l’accord exprès de son N+1, N+2 et du service des Ressources Humaines. Comme il s’agit d’une dérogation exceptionnelle, je considère que la limite normale est de deux jours par semaine.
+    * Par conséquent, je conclus que nombrejourdeteletravailmaxparsemaine=2.

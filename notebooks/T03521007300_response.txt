@@ -1,0 +1,18 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+
+    "Le télétravail s’organise par journée, voire demi-journée de travail Il ne pourra pas être pris en compte d’heures isolées de télétravail Le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d’un salarié, hors prises de congés."
+    
+    "Chaque salarié doit être présent dans les locaux de l’association, a minima 2 fois par semaine pour des plages d’au moins une demi-journée"
+
+* Ma réponse après raisonnement :
+
+    nombrejourdeteletravailmaxparsemaine=2
+
+* Mon raisonnement :
+
+    Selon le premier paragraphe, le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d’un salarié, hors prises de congés. Donc, en prenant en compte la règle de déconnexion des périodicités, nous avons 1/3 de jour par mois, ce qui équivaut à environ 0,33 jour par semaine. Comme il n'est pas possible de faire de proratisation, nous allons arrondir à l'inférieur, ce qui donne 0 jour par semaine.
+    
+    Mais selon le deuxième paragraphe, chaque salarié doit être présent dans les locaux de l’association, a minima 2 fois par semaine pour des plages d’au moins une demi-journée. Donc, le nombre maximum de jour de télétravail par semaine est de 2 - 1 (demi-journée) = 1,5 jour. Nous allons arrondir à l'inférieur, ce qui donne 1 jour par semaine.
+    
+    Donc, le nombre maximum de jour de télétravail par semaine est de 2.

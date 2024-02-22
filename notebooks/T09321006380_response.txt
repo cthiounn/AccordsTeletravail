@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Afin de maintenir le lien social avec la communauté de travail, l’activité exercée en télétravail à domicile pourra aller jusqu’à deux jours de télétravail par semaine." (Source: T09321006380.txt)
+* "Ce plafond de deux jours par semaine constitue un maximum qui ne pourra être dépassé par les accords d’entreprise ou chartes de télétravail des entreprises du Groupe." (Source: T09321006380.txt)
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 2
+
+Mon raisonnement :
+Après avoir lu attentivement les deux paragraphes pertinents provenant des documents à analyser, je constate que le maximum de jours de télétravail par semaine est fixé à deux jours. Cette information est confirmée par la phrase "Ce plafond de deux jours par semaine constitue un maximum qui ne pourra être dépassé par les accords d’entreprise ou chartes de télétravail des entreprises du Groupe". Par conséquent, je peux conclure que le nombre maximal de jours de télétravail par semaine est de deux.

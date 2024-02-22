@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Les modalités du télétravail sont applicables à l’ensemble des salariés liés par un contrat de travail, à l’exception des salariés CA Titres mis à disposition d’une filiale et des équipes du Centre de relation à Distance. Pour ces derniers, un projet de déploiement du télétravail est en cours d’étude." (Source: T04121001532.txt)
+* "Notre volonté est de limiter la circulation et le croisement de personnes en organisant le télétravail dans un esprit collectif. Des travaux ont été menés par chaque manager, en concertation avec ses équipiers, afin de déterminer les activités télétravaillables à 100% et celles qui ne le sont que partiellement. L’objectif étant d’abaisser le taux de présence et de maintenir la qualité des prestations, quel que soit le secteur d’activités." (Source: T04121001532.txt)
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 5
+
+Mon raisonnement :
+Après avoir analysé les deux paragraphes pertinents, je n'ai pas trouvé de mention explicite du nombre de jours de télétravail autorisés par semaine. Cependant, il est mentionné que "les modalités du télétravail sont applicables à l’ensemble des salariés" et que des travaux ont été menés pour déterminer les activités télétravaillables à 100%. De plus, il est indiqué que l'objectif est d'abaisser le taux de présence. Par conséquent, je suppose que le télétravail à 100% est possible, ce qui correspond à 5 jours de télétravail par semaine. Je retourne donc la valeur 5 pour la variable 'nombrejourdeteletravailmaxparsemaine'.

@@ -1,0 +1,15 @@
+Q_TTSEM_NOMBRE:* Deux paragraphes pertinents provenant des documents à analyser :
+
+    * « Un salarié sera en télétravail les mercredi et vendredi pendant la semaine paire, puis les mardi et jeudi en semaine impaire. » (Source: T06721007676.txt, page_content)
+    
+    * « La répartition du temps de travail hebdomadaire est faite à l’identique entre le télétravail et l’activité dans les locaux de l’entreprise. » (Source: T06721007676.txt, page_content)
+
+* Ma réponse après raisonnement :
+
+    * nombrejourdeteletravailmaxparsemaine=2
+
+* Mon raisonnement :
+
+    * Selon le premier paragraphe pertinent, le salarié travaille deux jours par semaine en télétravail.
+    * Selon le deuxième paragraphe pertinent, la répartition du temps de travail hebdomadaire est faite à l’identique entre le télétravail et l’activité dans les locaux de l’entreprise.
+    * Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

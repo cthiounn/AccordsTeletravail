@@ -1,0 +1,15 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+
+    * "Le télétravailleur doit être présent dans son service au moins deux jours par semaine, quelle que soit la durée de son temps de travail." (T08721002004.txt)
+    
+    * "Il est convenu par les signataires au regard de la note contextuelle, la mise en oeuvre d’une période dite « de transition » de 3 mois pour 1 jour de télétravail par semaine permettant de confirmer ou d’infirmer la possibilité de poursuivre à l’issue de cette période cette nouvelle organisation sur deux jours de télétravail par semaine." (T08721002004.txt)
+
+* Ma réponse après raisonnement :
+
+    * nombrejourdeteletravailmaxparsemaine=2
+
+* Mon raisonnement :
+
+    * Selon le premier paragraphe, le télétravailleur doit être présent dans son service au moins deux jours par semaine, quelle que soit la durée de son temps de travail. Donc, le nombre maximum de jour de télétravail par semaine est de 2.
+    * Le deuxième paragraphe ne change rien à ma réponse car il s'agit d'une période de transition de 3 mois pour 1 jour de télétravail par semaine.

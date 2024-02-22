@@ -1,0 +1,13 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Les 4 journées de télétravail mensuelles autorisées seront à répartir de la façon suivante : 1 jour de télétravail fixe par semaine calendaire, déterminé en accord avec le manager." (Source : T59V21001419.txt)
+* "Le salarié et le manager veilleront à assurer un contact lors des journées de télétravail. Une communication préalable relative aux informations nécessaires à l'exécution de ses missions lors des journées de télétravail sera fournie par le manager au salarié." (Source : T59V21001419.txt)
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=1
+
+Mon raisonnement :
+
+* Selon le premier paragraphe, les 4 journées de télétravail mensuelles autorisées doivent être réparties sur une base hebdomadaire, ce qui implique qu'au maximum 1 jour de télétravail par semaine est autorisé.
+* Ce nombre est confirmé par le deuxième paragraphe, qui mentionne également la nécessité d'un contact entre le salarié et le manager lors des journées de télétravail.

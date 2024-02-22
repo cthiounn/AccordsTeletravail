@@ -1,0 +1,17 @@
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+
+* "Le salarié doit être au minimum 2 days par semaine in presentiel at the office (soit 1 to 3 days of teleworking per week)"
+* "Modèle hebdomadaire: The employee must be present at least 2 days per week in the office (so 1 to 3 days of teleworking per week)"
+
+My response is:
+
+* nombrejourdeteletravailmaxparsemaine=2
+
+My reasoning is:
+
+* The document mentions that the weekly model allows for 1 to 3 days of teleworking per week, with a minimum of 2 days of presence in the office per week. Therefore, the maximum number of days of teleworking per week is 3. However, since the question asks for the maximum number of days of teleworking per week explicitly mentioned in the document, and the document only explicitly mentions up to 3 days of teleworking per week, we cannot provide a higher value.
+* We cannot use rule 2E because the document specifies a minimum number of days of presence in the office.
+* We cannot use rule 2F because the document specifies a range of days of teleworking per week.
+* We cannot use rules 2G, 2H, or 2I because they do not apply to this specific question.
+* We cannot use rules 2J or 2K because they concern monthly or quarterly limits, not weekly limits.
+* Since there is no mention of teleworking at 100% or full-remote without a minimum number of days of presence in the office, we cannot use rule 2E.

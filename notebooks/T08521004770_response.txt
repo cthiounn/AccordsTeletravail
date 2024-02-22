@@ -1,0 +1,13 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+
+    1. "Les parties conviennent que le nombre de journée maximale de télétravail par semaine est fixé à une (1)."
+    2. "Le télétravail peut être organisé également, à raison de 3 ou 4 jours par mois, non fixes."
+
+* Ma réponse après raisonnement :
+
+    nombrejourdeteletravailmaxparsemaine = 1
+
+* Mon raisonnement :
+
+    Dans le premier paragraphe pertinent, il est clairement indiqué que le nombre de journée maximale de télétravail par semaine est fixé à une (1). Par conséquent, le maximum de jours de télétravail par semaine est de 1 jour.

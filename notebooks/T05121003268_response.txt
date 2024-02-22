@@ -1,0 +1,12 @@
+Q_TTSEM_NOMBRE:
+Extraits pertinents :
+
+* "Le salarié télétravailleur à temps plein devra disposer d'au moins 12 jours de présence par an dans les locaux de l’entreprise à Reims ou dans tout autre endroit où peut être organisée une réunion, une manifestation auxquelles participent d’autres salariés et le salarié télétravailleur à temps partiel de 7 jours de présence minimum."
+
+Ma réponse :
+
+nombrejourdeteletravailmaxparsemaine = 0
+
+Mon raisonnement :
+
+Le document ne contient aucune information sur le nombre de jours de télétravail par semaine. Les seules mentions de fréquence sont en termes annuels (12 jours de présence minimale par an pour les télétravailleurs à temps plein et 7 jours pour les télétravailleurs à temps partiel). Par ailleurs, il n'y a aucune mention de télétravail à 100% ou de full-remote sans jour de présence minimale sur site.

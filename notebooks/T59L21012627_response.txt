@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* « L’accord est conclu jusqu’au 28 février 2021 à raison du risque épidémique. Il entre en vigueur au 17 octobre 2020 de manière rétroactive. Compte tenu de la poursuite des contraintes sanitaires liées au risque épidémique à la date du 31 janvier 2021, la durée de l’accord est prolongée jusqu’au 31 mai 2021 »
+* « Préambule : Le 12 novembre 2020, l’employeur et les organisations syndicales représentatives ont négocié puis signé un accord d’entreprise relatif au télétravail pendant l’état d’urgence réinstauré le 17 octobre 2020. Il fixe les modalités de mise en œuvre du télétravail au sein de l’association pendant l’état d’urgence sanitaire mis en place le 17 octobre 2020, à raison de la 2nde vague de l’épidémie de la COVID 19. Il a été conclu jusqu’au 28 février 2021. »
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 0
+
+Mon raisonnement :
+Les informations contenues dans les documents ne permettent pas de déterminer le nombre maximum de jours de télétravail par semaine. Les paragraphes pertinents ne contiennent pas de mention explicite du nombre de jours de télétravail autorisés par semaine. De plus, il n'est pas fait mention d'un télétravail à 100% ou d'un full-remote autorisé sans jour de présence minimum sur site.

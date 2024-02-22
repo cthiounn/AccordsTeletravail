@@ -1,0 +1,9 @@
+Q_TTSEM_NOMBRE:
+* Extraits pertinents des documents :
+    * "L’employeur accorde un jour de télétravail par semaine"
+    * "Les dispositions du présent accord ont pour objet de définir les règles allégées du télétravail pendant la période du 14/06/2021 jusqu’au 31/08/2021"
+    * "La Direction avait été décidé de maintenir le télétravail en l’état du 09/06 au 14/06."
+* Réponse :
+    * nombrejourdeteletravailmaxparsemaine = 1
+* Raisonnement :
+    * Seul un jour de télétravail par semaine est accordé durant la période du 14/06/2021 au 31/08/2021. Cette information est confirmée par la mention de la Direction ayant maintenu le télétravail en l'état du 09/06 au 14/06.

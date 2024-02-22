@@ -1,0 +1,8 @@
+Q_TTSEM_NOMBRE:
+* Extraits pertinents des documents :
+    * "Les dispositions de l’accord relatif au télétravail alterné à domicile du 13 décembre 2017 restent en vigueur jusqu’au 31 mars 2021." (Document(page\_content='...', metadata={'source': 'T03521007469.txt'}))
+    * "Un accord d’entreprise du 13 décembre 2017, arrivé à échéance le 31 décembre 2020, prévoit les conditions d’exercice en télétravail alterné à domicile. Les parties entendent prolonger la négociation sur un nouvel accord de télétravail actuellement en cours, tout en maintenant les conditions applicables selon les termes de l’accord du 13 décembre 2017." (Document(page\_content='...', metadata={'source': 'T03521007469.txt'}))
+* Réponse :
+    * nombrejourdeteletravailmaxparsemaine = 0
+* Explication :
+    * Les documents fournis concernent l'accord d'entreprise du 13 décembre 2017 et sa prolongation jusqu'au 31 mars 2021. Aucun paragraphe ne mentionne spécifiquement le nombre de jours de télétravail par semaine, ni ne mentionne le télétravail à 100% ou le full-remote sans jour de présence minimum sur site. Par conséquent, nous ne pouvons pas attribuer de valeur à la variable nombrejourdeteletravailmaxparsemaine.

@@ -1,0 +1,8 @@
+Q_TTSEM_NOMBRE:Extraction pertinente des documents :
+* "Le télétravail pourra s’effectuer sur une demi-journée au minimum et au maximum 1 journée par semaine"
+
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=1
+
+Mon raisonnement :
+Je me base sur l'extraction pertinente des documents qui indique clairement que le télétravail peut s'effectuer sur une demi-journée au minimum et au maximum 1 journée par semaine. Donc, le nombre maximum de jours de télétravail par semaine est de 1.

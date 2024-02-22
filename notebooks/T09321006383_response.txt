@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Extraction pertinente des documents :
+
+* "La mise en place du « télétravail à 100 » fera l’objet d’une convention de télétravail (Annexe 2)."
+* "Les collaborateurs concernés par le recours au « télétravail à 100 » bénéficieront d’une indemnité journalière forfaitaire par jour travaillé en télétravail basée sur le Barème URSSAF en vigueur au moment de la demande (à la date de la signature du présent accord l’indemnité est de 6,70 €)."
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=5
+
+Mon raisonnement :
+Selon le premier paragraphe, il est fait mention d'une convention de télétravail pour le "télétravail à 100%". Cependant, rien n'est précisé quant au nombre de jours de télétravail par semaine. Néanmoins, le deuxième paragraphe mentionne une indemnité journalière forfaitaire pour les jours travaillés en télétravail. Or, il n'est pas précisé que cette indemnité ne s'applique que pour les jours de télétravail occasionnels ou ponctuels. De plus, le document ne précise pas de jour de présence minimum sur site. Par conséquent, en appliquant les instructions données, je considère que le "télétravail à 100%" signifie que le salarié travaille depuis son domicile tous les jours de la semaine, sauf indication contraire dans le document. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 5.

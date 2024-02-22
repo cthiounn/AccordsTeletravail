@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Compte tenu de l’importance du maintien du lien avec la communauté de travail, les salariés devront être présents, ou en clientèle, a minima 3 jours par semaine dans les locaux au sein desquels les salariés exercent habituellement leur activité, et le télétravail ne pourra se faire que dans la limite d’1 jour par semaine, avec possibilité de télétravailler par demi-journée." (Source: T07321002999.txt)
+* "Un responsable d’équipe peut librement fixer avec chaque salarié le jour de la semaine télétravaillé afin d’assurer la présence simultanée dans les locaux d’un nombre minimum de salariés." (Source: T07321002999.txt)
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 1
+
+Mon raisonnement :
+Après analyse des documents fournis, je constate que le télétravail est limité à un jour par semaine, avec la possibilité de télétravailler par demi-journée. Cependant, il n'est pas explicitement mentionné que le salarié puisse télétravailler 1,5 jour par semaine. Par conséquent, je m'appuie sur la mention explicite du document selon laquelle le télétravail ne peut se faire que dans la limite d'1 jour par semaine.

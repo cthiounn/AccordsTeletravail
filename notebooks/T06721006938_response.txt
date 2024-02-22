@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "L’Accord-Cadre de Groupe prévoit deux formules de rythme de télétravail possible. Les parties signataires conviennent de mettre en place la formule 2 (rythme de 1 jour de télétravail par semaine et par salarié). Toutefois, cet Accord-Cadre prévoit la possibilité de fixer un nombre de jours de télétravail supérieur à 1 jour par semaine et par salarié. A cet effet, les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié."
+* "Pour permettre aux salariés de maintenir un lien collectif et de prévenir le risque d’isolement, les parties au présent accord d’entreprise conviennent qu’en tout état de cause, pour les semaines où le salarié use de sa faculté de télétravailler, il devra être présent au minimum 2 jours par semaine sur son ou ses lieu(x) de travail habituel(s)."
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+Les documents mentionnent explicitement le nombre de jours de télétravail autorisé par semaine, qui est de 2 jours maximum. Il n'y a pas d'autorisation de télétravail à 100% ou de full-remote sans jour de présence minimum sur site. Par conséquent, la variable nombrejourdeteletravailmaxparsemaine est affectée à la valeur 2.

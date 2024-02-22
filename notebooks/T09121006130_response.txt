@@ -1,0 +1,8 @@
+Q_TTSEM_NOMBRE:* Extraits pertinents :
+    * "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine"
+    * "le télétravail est organisé de telle sorte que le salarié à temps plein soit présent dans l’entreprise au moins 3 jours par semaine."
+* Réponse :
+    * nombrejourdeteletravailmaxparsemaine = 2
+* Raisonnement :
+    * Selon l'article 1, il est possible d'effectuer du télétravail à raison de DEUX jours par semaine.
+    * De plus, selon le même article, le salarié doit être présent dans l'entreprise au moins 3 jours par semaine, ce qui signifie qu'il ne peut pas travailler plus de 2 jours en télétravail par semaine.

@@ -1,0 +1,18 @@
+Q_TTSEM_NOMBRE:
+* Mon extraction de paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+
+    "Le télétravail tel que défini ci-dessus s’organise chez SWM par journée ou par demi-journée, sous réserve de respecter une obligation de 2 jours de présence par semaine minimum sur le site de rattachement habituel." (Source: T02921005002.txt)
+
+    "La mise en œuvre du télétravail donne lieu à une période d’adaptation d’un à trois mois selon le choix du manager. Les objectifs de cette période sont de vérifier la compatibilité entre ce mode d’organisation et le bon fonctionnement de l’entreprise et de s’assurer que le dispositif mis en place correspond bien aux attentes de chacune des parties." (Source: T02921005002.txt)
+
+* Ma réponse après raisonnement :
+
+    nombrejourdeteletravailmaxparsemaine = 2
+
+* Mon raisonnement :
+
+    D'après le premier paragraphe extrait, le télétravail s'organise par journée ou demi-journée, mais sous réserve de respecter une obligation de 2 jours de présence par semaine minimum sur le site de rattachement habituel. Par conséquent, le nombre maximum de jour de télétravail par semaine est de 5 - 2 = 3 jours. Donc nombrejourdeteletravailmaxparsemaine = 3.
+
+    Cependant, le deuxième paragraphe extrait stipule que la mise en oeuvre du télétravail donne lieu à une période d'adaptation d'un à trois mois selon le choix du manager. Pendant cette période, chacune des parties est libre de mettre fin au télétravail moyennant un délai de prévenance de 15 jours qui peut être exceptionnellement réduit par accord des parties. Ainsi, le télétravail cessera après information motivée de la part de l’employeur lorsque celui-ci est à l’initiative de la réversibilité.
+
+    Par conséquent, pendant la période d'adaptation, le nombre maximum de jour de télétravail par semaine peut être différent de 3 jours. Mais comme je suis un expert juridique des accords d'entreprise sans compétence de programmation informatique, je ne peux pas évaluer le risque de cette différence et je dois me baser sur les informations fournies dans le document. Comme aucune autre information n'est fournie dans le document, je ne peux pas modifier ma réponse. Donc ma réponse finale est nombrejourdeteletravailmaxparsemaine = 3.

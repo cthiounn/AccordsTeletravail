@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Un accord relatif à la mise en place du télétravail a été signé au sein de la société le 17 janvier 2020. Cet accord a ouvert la possibilité aux salariés éligibles d’effectuer un jour par semaine de télétravail formalisé par un avenant au contrat de travail."
+* "Par conséquent, les parties s’engagent à signer un avenant à l’accord sur le télétravail courant juin pour une mise en place à partir du 1er juillet 2021. A Lognes, le 4 juin 2021"
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 1
+
+Mon raisonnement :
+Dans le premier paragraphe, il est mentionné qu'un accord relatif au télétravail a été signé et qu'il permet aux salariés éligibles d'effectuer un jour par semaine de télétravail. Il n'y a pas d'autres mentions de la fréquence de télétravail dans les autres paragraphes, donc je conclus que le nombre maximum de jours de télétravail par semaine est de 1.

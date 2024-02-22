@@ -1,0 +1,5 @@
+Q_TTSEM_NOMBRE:* Extraits pertinents des documents :
+    * "La charge de travail d'un télétravailleur doit être élaborée en amont par le manageur et être équivalente à celle effectuée dans les locaux de l'entreprise."
+    * "Les horaires de télétravail sont fixés conformément aux horaires appliqués en entreprise, temps de pause compris."
+* Réponse : nombrejourdeteletravailmaxparsemaine = 0
+* Raisonnement : Les documents fournis ne contiennent aucune information spécifique concernant le nombre maximum de jours de télétravail par semaine, ni aucune mention explicite de télétravail à 100% ou de full-remote sans jour de présence minimale sur site. Par conséquent, en se basant uniquement sur les informations fournies, il est impossible de déterminer le nombre maximum de jours de télétravail par semaine.

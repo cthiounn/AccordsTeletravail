@@ -1,0 +1,14 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Le télétravail se fait sur des jours fixes."
+* "Afin de préserver le lien social avec l’entreprise, la cohésion et le bon fonctionnement des équipes, le télétravail est limité de telle sorte que le collaborateur non-cadre soit présent dans l’entreprise au moins trois jours par semaine."
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 3
+
+Mon raisonnement :
+
+* Selon le premier paragraphe, le télétravail se fait sur des jours fixes, mais il ne précise pas le nombre maximum de jours de télétravail par semaine.
+* Selon le deuxième paragraphe, le télétravail est limité de manière à ce que le collaborateur non-cadre soit présent dans l’entreprise au moins trois jours par semaine. Cependant, cela ne s’applique qu’aux collaborateurs non-cadres.
+* Comme il n’y a pas d’autres informations explicites sur le nombre maximum de jours de télétravail par semaine, je conclus que le nombre maximum de jours de télétravail par semaine est de 3 jours.

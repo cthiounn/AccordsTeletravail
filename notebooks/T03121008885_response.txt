@@ -1,0 +1,10 @@
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents :
+
+* Article 10 : « Le télétravail régulier s’effectue dans la limite de 2 jours maximum par semaine. »
+* Article 11 : « Le (les) jour(s) de télétravail régulier peu(ven)t être fixé(s) au choix, dans la limite prévue à l’article 10 précité, le mardi, le jeudi ou le vendredi. »
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 2
+
+Mon raisonnement :
+Les articles 10 et 11 précisent clairement que le télétravail régulier s’effectue dans la limite de 2 jours maximum par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Les jours de télétravail seront fixés selon les modalités suivantes : 1 jour par semaine." (Source: T01321011558.txt)
+* "la fréquence du télétravail qui sera au maximum d’un jour par semaine;" (Source: T01321011558.txt)
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 1
+
+Mon raisonnement :
+Après examen des documents fournis, je constate que le maximum de jours de télétravail par semaine est explicitement mentionné comme étant "1 jour par semaine" dans deux passages différents du document. Par conséquent, je peux affirmer que le nombre maximal de jours de télétravail par semaine est de 1 jour.

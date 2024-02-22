@@ -1,0 +1,11 @@
+Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+    * "Le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine, pour tous les collaborateurs DFA"
+    
+* Ma réponse après raisonnement ci-dessous :
+
+    * nombrejourdeteletravailmaxparsemaine=2
+
+* Mon raisonnement :
+
+    * Dans le premier paragraphe, il est clairement indiqué que "Le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine". Cette information est explicite et ne nécessite pas de calcul de proratisation. Par conséquent, je peux affirmer que le nombre maximum de jours de télétravail par semaine est de 2.

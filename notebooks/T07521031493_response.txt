@@ -1,0 +1,14 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* « Option 1 - Vous serez en situation de télétravail à raison de deux jours par semaine maximum. » (Source : T07521031493.txt)
+* « En toute circonstance, vous devrez être présent au sein des locaux de la société au moins 2 jours par semaine (incluant les jours de formation éventuels, les déplacements professionnels, séminaires). » (Source : T07521031493.txt)
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+* Les paragraphes pertinents indiquent clairement que le nombre maximum de jours de télétravail par semaine est de 2.
+* Cette information est confirmée dans plusieurs passages du document, sans ambiguïté ni condition.
+* Par conséquent, je peux affirmer que nombrejourdeteletravailmaxparsemaine=2.

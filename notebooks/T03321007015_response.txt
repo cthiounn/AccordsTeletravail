@@ -1,0 +1,12 @@
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Les parties conviennent cependant que si la pandémie devait prendre fin avant le terme de cet avenant, les parties engageraient de nouvelles négociations afin de faire évoluer si besoin la durée et/ou les modalités de mise en œuvre de la phase expérimentale."
+* "Les parties signataires de l’accord Qualité de vie au travail, volet 2, sur le télétravail, conclu le 19 décembre 2019, ont convenu de proroger l’accord d’entreprise, dans toutes ses dispositions, jusqu’au 28 février 2022."
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine = 0
+
+Mon raisonnement :
+
+Après avoir analysé les documents fournis, je n'ai pas trouvé de paragraphe contenant le mot-clé "semaine" ou une notion de fréquence par semaine concernant le nombre de jours de télétravail autorisé. De plus, aucune information explicite sur le nombre maximum de jours de télétravail par semaine n'a été fournie. Par conséquent, conformément aux instructions, je retourne la variable 'nombrejourdeteletravailmaxparsemaine' à 0.

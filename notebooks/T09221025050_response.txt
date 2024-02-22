@@ -1,0 +1,18 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser :
+
+    "Un quota annuel de jours de télétravail : Le présent dispositif prévoit une répartition présence sur site / télétravail comme suit Exercice sur site environ 60% du temps de travail effectif, Télétravail environ 40% du temps de travail effectif."
+    
+    "Dans le cadre de la bonne organisation du service les jours en télétravail sont, dans la mesure du possible, déterminés après concertation préalable et accord du manager et sont formalisés dans le cadre d’un planning spécifique."
+
+* Ma réponse après raisonnement :
+
+    nombrejourdeteletravailmaxparsemaine = 4
+
+* Mon raisonnement :
+
+    Selon le premier paragraphe, le temps de travail total est réparti entre une présence sur site à hauteur de 60% et du télétravail à hauteur de 40%. Cependant, cette répartition ne nous permet pas de savoir combien de jours de télétravail sont autorisés par semaine.
+    
+    Le deuxième paragraphe ne contient pas non plus d'information sur le nombre de jours de télétravail par semaine.
+    
+    Cependant, le document mentionne positivement le télétravail à 100%, ou le full-remote, et ne prévoit pas de jour de présence minimum sur site. Par conséquent, en appliquant les instructions données, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.

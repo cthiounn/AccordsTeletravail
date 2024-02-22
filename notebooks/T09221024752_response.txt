@@ -1,0 +1,7 @@
+Q_TTSEM_NOMBRE:* Deux paragraphes pertinents provenant des documents à analyser :
+    * "La direction s’engage à renégocier l’accord de télétravail. Dans cette attente, la direction propose la mise en place d’une journée de télétravail sans conditions de temps de trajet, nombre de kilomètres ou encore conditions particulières liées au temps de travail pour l’ensemble des salariés hormis les stagiaires, apprentis et salariés en période d’essai."
+    * "Télétravail"
+* Ma réponse après raisonnement :
+    * nombrejourdeteletravailmaxparsemaine = 1
+* Mon raisonnement :
+    * Le premier paragraphe indique qu'il est proposé une journée de télétravail par semaine sans condition. Cependant, il n'est pas précisé s'il s'agit d'une journée de télétravail régulier ou occasionnel. De plus, il n'est pas précisé s'il s'agit d'une journée maximale ou non. Par conséquent, je ne peux pas affirmer avec certitude que le nombre de jours de télétravail maximal par semaine est de 1. Cependant, c'est la seule information que j'ai pu extraire du document concernant le nombre de jours de télétravail par semaine.

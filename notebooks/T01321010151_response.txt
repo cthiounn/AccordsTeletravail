@@ -1,0 +1,14 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser :
+
+    * "Le télétravailleur dispose d’une priorité pour reprendre ou occuper un poste sans télétravail qui correspond à ses qualifications et compétences professionnelles."
+    
+    * "Les télétravailleurs étant physiquement présents en entreprise à hauteur a minima de 4/5 de leur temps de travail hebdomadaire le risque d’isolement apparait peu élevé."
+
+* Ma réponse après raisonnement :
+
+    * nombrejourdeteletravailmaxparsemaine=4
+
+* Mon raisonnement :
+
+    * Selon le premier paragraphe, il n'y a pas de mention explicite du nombre de jours de télétravail par semaine. Cependant, le deuxième paragraphe indique que les télétravailleurs sont physiquement présents en entreprise à hauteur de 4/5 de leur temps de travail hebdomadaire. Par déduction, cela implique que les télétravailleurs travaillent 1 jour par semaine à distance. Donc, nombrejourdeteletravailmaxparsemaine=1. Cependant, il est important de noter que cette interprétation dépend de la façon dont l'entreprise calcule le temps de présence en entreprise et en télétravail.

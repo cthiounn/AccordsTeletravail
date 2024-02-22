@@ -1,0 +1,12 @@
+Q_TTSEM_NOMBRE:
+* Extraits pertinents :
+    * "Par exception bénéficient de xx jour de télétravail par semaine"
+    * "Les journées de télétravail sont fixées par journées entières."
+    * "Pour les fonctions qui ne permettent pas le télétravail par journée complète...les salariés peuvent alors organiser avec leur hiérarchie des demi-journées de télétravail."
+* Réponse :
+    * nombrejourdeteletravailmaxparsemaine = 1
+* Raisonnement :
+    * Dans le premier extrait, il est mentionné que certains salariés bénéficient de "xx jour de télétravail par semaine", ce qui indique qu'il est possible de télétravailler un certain nombre de jours par semaine, sans précision du nombre.
+    * Le deuxième extrait confirme que les journées de télétravail sont fixées par journées entières, ce qui signifie qu'il n'est pas possible de travailler une demi-journée en télétravail.
+    * Le troisième extrait mentionne la possibilité d'organiser des demi-journées de télétravail pour les fonctions qui ne permettent pas le télétravail par journée complète. Cependant, cela ne s'applique pas aux salariés mentionnés dans le premier extrait, qui bénéficient de jours de télétravail par semaine.
+    * Compte tenu des informations fournies, il est impossible de déterminer le nombre exact de jours de télétravail par semaine, mais il est clair qu'il est possible de télétravailler au moins un jour par semaine.

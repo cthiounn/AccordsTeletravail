@@ -1,0 +1,16 @@
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+
+   > Répartition des jours de télétravail au cours de la semaine
+   > 
+   > En cas de télétravail en dessous de 100%, les jours télétravaillés dans la semaine sont convenus entre le Salarié et son manager, le cas échéant après avis de la Direction des Ressources Humaines, afin de respecter une jauge dans les locaux de l’entreprise qui soit adaptée à la situation sanitaire.
+   > 
+   > L’alternance entre les jours en télétravail et les jours en entreprise s'effectue sur un rythme strictement hebdomadaire avec prise en compte des contraintes sanitaires :
+
+* Ma réponse après raisonnement :
+
+   nombrejourdeteletravailmaxparsemaine=5
+
+* Mon raisonnement :
+
+   Selon le premier paragraphe, les jours télétravaillés dans la semaine sont convenus entre le Salarié et son manager. Cependant, le deuxième paragraphe précise que l'alternance entre les jours en télétravail et les jours en entreprise s'effectue sur un rythme strictement hebdomadaire. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 5.
