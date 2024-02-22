@@ -1,13 +1,13 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le rythme de télétravail accordé devra permettre minimum 3 jours de présentiel sur site par semaine pour les salariés à temps plein et à temps partiel." (Document ID 0)
-* "Il sera possible de télétravailler par demi-journée" (Document ID 0)
+* "Le rythme de télétravail accordé devra permettre minimum 3 jours de présentiel sur site par semaine pour les salariés à temps plein et à temps partiel." (Document id=0)
+* "Il sera possible de télétravailler par demi-journée: Exemple: réunion le matin inter site retour possible au domicile ou en télétravail nomade." (Document id=0)
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=3**
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
 
 Mon raisonnement :
 
-* Selon le document ID 0, le rythme de télétravail accordé devra permettre minimum 3 jours de présentiel sur site par semaine pour les salariés à temps plein et à temps partiel. Cependant, il est aussi mentionné qu'il sera possible de télétravailler par demi-journée. Cependant, comme je dois déconnecter les liens entre les périodicités, je ne peux pas prendre en compte cette information. Par conséquent, la réponse est **nombrejourdeteletravailmaxparsemaine=3**.
+* Selon le document id=0, le rythme de télétravail accordé devra permettre minimum 3 jours de présentiel sur site par semaine pour les salariés à temps plein et à temps partiel. Cependant, il est aussi précisé que le télétravail peut être effectué par demi-journée. Donc, il est possible de travailler jusqu'à 5 demi-journées à distance par semaine, ce qui correspond à 5 jours de télétravail maximum par semaine.

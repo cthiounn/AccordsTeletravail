@@ -1,12 +1,13 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "d’une journée par semaine pour un salarié d’une ancienneté ≥ à 1an et ˂ à 2 ans, de 2 jours par semaine pour un salarié d’une ancienneté ≥ à 2 ans" (Document id=2)
+* Document(page\_content='d’une journée par semaine pour un salarié d’une ancienneté ≥ à 1an et ˂ à 2 ans, de 2 jours par semaine pour un salarié d’une ancienneté ≥ à 2 ans', metadata={'id': 2,'relevance\_score': 0.96343374})
+* Document(page\_content='Les parties reconnaissent que le télétravail est fondé sur la capacité du salarié à exercer ses fonctions de façon autonome et régulière. Aussi, sont éligibles au télétravail, les salariés dont l’activité en télétravail est compatible avec le fonctionnement de leur service et ne nécessitant pas un soutien managérial rapproché.', metadata={'id': 8,'relevance\_score': 0.9633885})
 
 Ma réponse après raisonnement ci-dessous :
-
-Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-Le document indique clairement que le maximum de jours de télétravail par semaine est de 2, car il est dit "de une journée par semaine pour un salarié d’une ancienneté >= à 1an et < à 2 ans, de 2 jours par semaine pour un salarié d’une ancienneté >= à 2 ans". Donc, la variable "nombrejourdeteletravailmaxparsemaine" est affectée à la valeur maximale de 2.
+* Je me base sur le premier document pertinent qui donne une limite de jours de télétravail par semaine en fonction de l'ancienneté du salarié.
+* La limite maximale est de 2 jours par semaine pour un salarié d'une ancienneté supérieure ou égale à 2 ans.

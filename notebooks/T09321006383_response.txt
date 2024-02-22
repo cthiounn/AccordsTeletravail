@@ -1,13 +1,13 @@
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "la mise en œuvre du «	télétravail à 100%	» sera soumise à l’avis préalable et conforme du Médecin du travail." (Document id: 5)
-* "un dispositif d’accompagnement au changement sera mis en œuvre. Des sessions de web-ex seront organisées pour informer les collaborateurs sur les spécificités du télétravail et les sensibiliser aux risques associés (par exemple les RPS, les troubles musculosquelettiques, etc…)." (Document id: 9)
+    * "La mise en œuvre de cette réversibilité se fera en concertation avec le Responsable des Ressources Humaines. [...] L’établissement d’une convention de télétravail" (Document id 4)
+    
+    * "La fiche d’information et d’acceptation (Annexe 1) sera annexée à la convention de télétravail (Annexe 2)" (Document id 3)
 
-Ma réponse après raisonnement ci-dessous :
+* Ma réponse après raisonnement :
 
-* nombrejourdeteletravailmaxparsemaine=5
+    * nombrejourdeteletravailmaxparsemaine=5
 
-Mon raisonnement :
+* Mon raisonnement :
 
-* Les documents ne précisent pas le nombre maximum de jours de télétravail par semaine. Cependant, il est mentionné que la mise en œuvre du télétravail doit être soumise à l'avis préalable et conforme du Médecin du Travail. Ce point implique que le télétravail doit être encadré et ne peut pas être illimité. De plus, il est mentionné que des sessions de web-ex seront organisées pour informer les collaborateurs sur les spécificités du télétravail et les sensibiliser aux risques associés. Ce point implique que le télétravail ne peut pas être considéré comme une activité normale et doit être exceptionnel. Par conséquent, je propose une limite maximale de 5 jours de télétravail par semaine, qui correspond au nombre de jours ouvrables dans une semaine.
+    * Les documents fournis ne contiennent pas directement la réponse à la question posée. Cependant, en prenant en compte les règles données, nous pouvons inférer que le nombre maximal de jours de télétravail par semaine est de 5. En effet, le télétravail à 100% signifie que le salarié travaille depuis son domicile tous les jours de la semaine. Or, il y a cinq jours ouvrés dans une semaine, donc un nombre de jour de télétravail par semaine ne peut pas être strictement supérieur à cinq.

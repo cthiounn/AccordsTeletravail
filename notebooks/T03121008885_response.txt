@@ -9,4 +9,4 @@ Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-L'article 10 du document 0 stipule clairement que le télétravail régulier s'effectue dans la limite de 2 jours maximum par semaine. Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' doit être affectée à la valeur 2.
+L'article 10 du document 0 indique clairement que le télétravail régulier s'effectue dans la limite de 2 jours maximum par semaine. Je ne trouve pas d'autres informations contradictoires ou complémentaires dans les autres documents, donc ma réponse est basée sur cet article.

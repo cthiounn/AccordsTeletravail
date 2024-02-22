@@ -1,11 +1,13 @@
 Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les parties conviennent que le nombre de journée maximale de télétravail est fixé à une (1) par semaine" (Document id: 0)
-* "Je suis autorisé(e) à effectuer une journée par semaine de télétravail" (Document id: 9)
+    Article 4.1 – DUREE MAXIMALE DE TELETRAVAIL ACCORDEE
+    Les parties conviennent que le nombre de journée maximale de télétravail est fixé à une (1) par semaine
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=1
+* Ma réponse après raisonnement ci-dessous :
 
-Mon raisonnement :
-Dans le document id: 0, il est clairement stipulé que le nombre maximal de journées de télétravail par semaine est fixé à une (1) journée. Ce point est confirmé dans le document id: 9 où il est mentionné que l'auteur est autorisé à effectuer une journée par semaine de télétravail. Par conséquent, je peux conclure que le nombre maximal de journées de télétravail par semaine est de 1.
+    nombrejourdeteletravailmaxparsemaine=1
+
+* Mon raisonnement :
+
+    L'article 4.1 stipule clairement que le nombre maximal de jours de télétravail par semaine est fixé à une (1) journée.

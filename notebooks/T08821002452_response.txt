@@ -1,10 +1,5 @@
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-- Ce document ne contient pas de mention explicite du nombre de jours de télétravail par semaine, mois, trimestre ou année.
-- Il n'y a pas non plus de mention de télétravail à 100% ou de full-remote, ni de jours de présence minimum sur site.
-
-Ma réponse après raisonnement :
-La valeur de 'nombrejourdeteletravailmaxparsemaine' est indéterminée car aucune information pertinente n'a été trouvée dans le document analysé.
-
-Mon raisonnement :
-J'ai recherché dans le document fourni toute mention explicite du nombre de jours de télétravail par semaine, mois, trimestre ou année, ainsi que toute mention de télétravail à 100% ou de full-remote, et de jours de présence minimum sur site. Comme aucune de ces informations n'a été trouvée, je suis dans l'incapacité de fournir une réponse précise à la question posée.
+Q_TTSEM_NOMBRE:* Extraits pertinents :
+ 1. "ANNEXE 1 LISTE DES POSTES ELIGIBLES"
+ 2. "Fait en 4 exemplaires À EPINAL, le 17 juin 2021 Le délégué syndical, C.F.D.T"
+* Ma réponse : nombrejourdeteletravailmaxparsemaine=0
+* Mon raisonnement : Les extraits fournis ne contiennent pas de renseignements spécifiques sur le nombre de jours de télétravail maximum par semaine.

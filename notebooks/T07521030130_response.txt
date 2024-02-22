@@ -1,13 +1,15 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le nombre de jour en télétravail est librement déterminé entre le responsable hiérarchique et le salarié, sans que ce nombre ne puisse être définitif et irréversible." (Document(page\_content='Organisation du télétravail\n\nLe responsable hiérarchique détermine avec le salarié le mode d’organisation du télétravail qui convient le mieux, en tenant compte\xa0des besoins du service, de l’activité avec les autres services, des activités collectives au sein de l’entreprise et du maintien du lien social. \n\nIl est convenu que le salarié pourra solliciter auprès de son responsable hiérarchique un entretien après trois mois suivant la mise en œuvre du télétravail, afin de partager son ressenti sur ce mode d’organisation de travail. \n\nLe nombre de jour en télétravail est librement déterminé entre le responsable hiérarchique et le salarié, sans que ce nombre ne puisse être définitif et irréversible. \n\nUn rythme de trois jours en télétravail et deux jours en présentiel peut être envisagé. Ce rythme n’est ni un droit, ni une obligation pour le salarié.', metadata={'id': 4,'relevance\_score': 0.9635554}))
-* "Ainsi, avec l’accord du responsable hiérarchique, un salarié pourra être amené ponctuellement à télétravailler une semaine complète si son activité et l’organisation le permettent, et inversement, il pourra être amené à travailler en présentiel une semaine complète pour les besoins du service, de l’activité ou de l’organisation." (Document(page\_content='Un rythme de trois jours en télétravail et deux jours en présentiel peut être envisagé. Ce rythme n’est ni un droit, ni une obligation pour le salarié. \n\nAinsi, avec l’accord du responsable hiérarchique, un salarié pourra être amené ponctuellement à télétravailler une semaine complète si son activité et l’organisation le permettent, et inversement, il pourra être amené à travailler en présentiel une semaine complète pour les besoins du service, de l’activité ou de l’organisation. \n\nAfin de garantir une certaine harmonie dans les modalités d’exécution du télétravail, les salariés devront déclarer les journées de télétravail envisagées conjointement avec le responsable hiérarchique.', metadata={'id': 0,'relevance\_score': 0.96089506}))
+* "Le nombre de jour en télétravail est librement déterminé entre le responsable hiérarchique et le salarié, sans que ce nombre ne puisse être définitif et irréversible." (Doc(page\_content='Organisation du télétravail', metadata={'id': 4,'relevance\_score': 0.9635554}))
+* "Un rythme de trois jours en télétravail et deux jours en présentiel peut être envisagé. Ce rythme n’est ni un droit, ni une obligation pour le salarié." (Doc(page\_content='Organisation du télétravail', metadata={'id': 4,'relevance\_score': 0.9635554}))
 
-Ma réponse après raisonnement ci-dessous :
-nombrejourdeteletravailmaxparsemaine=3
+Ma réponse après raisonnement :
+
+nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* La première source indique que le nombre de jours en télétravail est librement déterminé entre le responsable hiérarchique et le salarié, sans que ce nombre ne puisse être définitif et irréversible. Un rythme de trois jours en télétravail et deux jours en présentiel peut être envisagé, mais ce rythme n’est pas un droit ni une obligation pour le salarié. Donc, le nombre maximum de jours de télétravail par semaine est de 3.
-* La deuxième source confirme que le nombre maximum de jours de télétravail par semaine est de 3 car elle indique qu’avec l’accord du responsable hiérarchique, un salarié pourra être amené ponctuellement à télétravailler une semaine complète si son activité et l’organisation le permettent.
+* Selon le premier paragraphe, le nombre de jours en télétravail est librement déterminé entre le responsable hiérarchique et le salarié.
+* Selon le deuxième paragraphe, un rythme de trois jours en télétravail et deux jours en présentiel peut être envisagé, mais ce rythme n’est pas un droit ou une obligation pour le salarié.
+* Donc, le nombre maximum de jours de télétravail par semaine est de 5 jours, car il n'y a pas de limite explicite dans les documents analysés.

@@ -1,13 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les horaires de télétravail sont fixés conformément aux horaires appliqués en entreprise, temps de pause compris." (Document id: 4)
-* "Matin pause de 9h40 à 9h50 ou de 9h50 à10 h00 ou de 10h00 à 10h10 Après-midi pause de 14h40 à 14h50 ou de 14h50 à 15h00 ou de 15h00 à 15h10" (Document id: 4)
+* Article 3. Mise en place du télétravail : "La mise en place et l’organisation du télétravail en circonstances exceptionnelles telles que la pandémie COVID 19 se feront en concertation entre l’employeur et le CSE en fonction des besoins du service et des souhaits des salariés."
 
 Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=5
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
 
 Mon raisonnement :
 
-Le document ne mentionne pas explicitement le nombre maximum de jours de télétravail par semaine. Cependant, nous savons que les horaires de télétravail sont fixés conformément aux horaires appliqués en entreprise, avec des pauses matin et après-midi. Comme il y a cinq jours ouvrés dans une semaine, le nombre maximum de jours de télétravail par semaine ne peut pas être strictement supérieur à cinq.
+Dans l'extrait du document, il n'est pas spécifié le nombre maximum de jours de télétravail par semaine. En appliquant les règles 2.E et 2.F, nous pouvons déduire que le nombre maximum de jours de télétravail par semaine est de cinq jours, puisque c'est le nombre total de jours ouvrables dans une semaine.

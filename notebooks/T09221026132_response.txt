@@ -1,13 +1,17 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Il n'y a pas de lien entre l'effectif d'un service et le nombre de jour de télétravail, donc ne pas déduire un nombre de jour de télétravail!" (document non fourni, mais principe général applicable à toutes les questions)
-* "Si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine!" (document non fourni, mais principe général applicable à toutes les questions)
+
+* Document(page\_content='', metadata={'id': 3,'relevance\_score': 0.9688686})
+* Document(page\_content='', metadata={'id': 6,'relevance\_score': 0.9639276})
+* Document(page\_content='', metadata={'id': 8,'relevance\_score': 0.96345675})
 
 Ma réponse après raisonnement :
-* nombrejourdeteletravailmaxparsemaine=5
+nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
-* Je me base sur les principes généraux fournis dans les documents types pour répondre à la question.
-* En effet, il n'y a pas de lien entre l'effectif d'un service et le nombre de jour de télétravail, donc je ne peux pas déduire un nombre de jour de télétravail.
-* Cependant, si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail sont possibles par semaine.
-* Je ne peux pas affirmer avec certitude que ce soit le cas dans les documents fournis, mais je peux affirmer que c'est possible dans la mesure où rien ne s'y oppose explicitement.
+
+Après avoir lu attentivement les documents fournis, je n'ai pas trouvé de mention explicite concernant le nombre maximum de jours de télétravail par semaine.
+
+Cependant, en prenant en compte les règles données dans les instructions, nous savons que le nombre de jours de télétravail par semaine ne peut pas être strictement supérieur à cinq. En effet, il y a cinq jours ouvrés dans une semaine. Donc,
+
+nombrejourdeteletravailmaxparsemaine=5

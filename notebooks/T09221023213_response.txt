@@ -1,15 +1,13 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "En effet, la poursuite de la pandémie de Covid-19 laisse augurer des périodes de télétravail imposé par le protocole national « pour assurer la santé et la sécurité des salariés en entreprise »." (Document 0)
-* "Cette allocation sera calculée selon le plafond URSSAF d’exonération de cotisations et de contributions sociales et en tenant compte de l’organisation qui sera réellement mise en œuvre (télétravail intégral ou par roulement)." (Document 2)
+* "En effet, la poursuite de la pandémie de Covid-19 laisse augurer des périodes de télétravail imposé par le protocole national « pour assurer la santé et la sécurité des salariés en entreprise ». Par ailleurs, le calendrier 2021 prévoit la poursuite de la négociation sur les thèmes tels que l’organisation du travail en mode hybridé présentiel / télétravail, déconnexion, nombre de jours en télétravail, etc..."
+* "Cette allocation sera calculée selon le plafond URSSAF d’exonération de cotisations et de contributions sociales et en tenant compte de l’organisation qui sera réellement mise en œuvre (télétravail intégral ou par roulement)."
 
 Ma réponse après raisonnement ci-dessous :
-
-Ma réponse : nombrejourdeteletravailmaxparsemaine=5
+* nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
-
-* Les documents ne précisent pas le nombre maximum de jours de télétravail par semaine.
-* Cependant, il est mentionné que l'allocation forfaitaire sera calculée en fonction du temps télétravaillé, qui a comme référence le mois.
-* En prenant en compte la durée maximale d'un mois (30 jours), et en considérant qu'il y a cinq jours ouvrés dans une semaine, on peut déduire que le nombre maximum de jours de télétravail par semaine est de 5.
+* Les documents mentionnent que le calendrier 2021 prévoit la poursuite de la négociation sur le thème du "nombre de jours en télétravail". Cependant, ils ne précisent pas le résultat de cette négociation.
+* De plus, l'article 2 de l'accord précise que "Mutex accordera une allocation forfaitaire calculée au prorata du temps télétravaillé. Ce dernier aura comme référence le mois." Cela implique qu'il n'y a pas de limite hebdomadaire au télétravail, mais une limite mensuelle.
+* Enfin, l'article 5 de l'accord précise que "Les dispositions du présent avenant ne se cumulent pas avec des dispositions de même nature qui seraient introduites par de nouvelles dispositions légales, réglementaires ou conventionnelles." Or, l'article 2 prévoit que "la poursuite de la pandémie de Covid-19 laisse augurer des périodes de télétravail imposé par le protocole national « pour assurer la santé et la sécurité des salariés en entreprise »." Ce protocole national peut donc imposer des limites au télétravail, mais les documents ne précisent pas si c'est le cas.
+* Compte tenu de ces éléments, je propose de fixer la valeur de la variable "nombrejourdeteletravailmaxparsemaine" à 5, car c'est le nombre maximal de jours ouvrés dans une semaine.

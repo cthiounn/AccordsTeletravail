@@ -1,8 +1,8 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le temps de présence physique du collaborateur dans les locaux de l'entreprise devra être au minimum de deux jours jour pleins par semaine" (Document id=5, relevance score=0.96382207)
-* "une répartition hebdomadaire au sein de l’équipe des jours d’exercice de l’activité en télétravail" (Document id=1, relevance score=0.9552047)
+* "Le temps de présence physique du collaborateur dans les locaux de l'entreprise devra être au minimum de deux jours jour pleins par semaine" (Document id=5)
+* "Compte-tenu de la flexibilité du présent dispositif, le télétravailleur devra adapter son agenda, et donc ses jours en télétravail, selon les contraintes d'activité." (Document id=4)
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -10,5 +10,5 @@ Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
 
 Mon raisonnement :
 
-* Selon le document id=5, il y a un minimum de 2 jours de présence physique par semaine, donc il reste 5 jours possibles pour le télétravail.
-* Selon le document id=1, il y a une répartition hebdomadaire des jours d'exercice de l'activité en télétravail, ce qui confirme que le maximum de jours de télétravail par semaine est de 5.
+* Selon le document id=5, le temps de présence physique du collaborateur dans les locaux de l'entreprise devra être au minimum de deux jours jour pleins par semaine. Cela implique que le nombre maximum de jour de télétravail par semaine est de cinq.
+* De plus, même si le document id=4 ne donne pas directement le nombre maximum de jour de télétravail par semaine, il confirme que le télétravailleur doit adapter son agenda et ses jours en télétravail selon les contraintes d'activité. Ce qui implique que le nombre maximum de jour de télétravail par semaine est de cinq.

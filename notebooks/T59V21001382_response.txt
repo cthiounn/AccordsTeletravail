@@ -10,4 +10,4 @@ Ma réponse : nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-Dans le premier paragraphe, il est mentionné "des règles du télétravail". Dans le deuxième paragraphe, il est dit que la prime de télétravail est calculée au prorata du temps de présence si nécessaire. Ceci implique que le temps de télétravail est décompté en jours. Or, il n'y a pas de limite explicite du nombre de jours de télétravail par semaine dans ces paragraphes. En revanche, il est indiqué que le temps de télétravail est décompté en jours et qu'il existe un forfait de 218 jours ouvrés dans l'entreprise. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 5, car il y a 5 jours ouvrés dans une semaine.
+Le document mentionne explicitement que le Télétravail à 100% (ou autrement appelé full-remote) est autorisé, ET qu'il n'y a pas de jour de présence minimum sur site. De plus, il n'y a pas de limite explicite du nombre de jours de télétravail par semaine. Par conséquent, en appliquant les règles 2E et 2F, le nombre maximal de jours de télétravail par semaine est de 5.

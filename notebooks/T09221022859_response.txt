@@ -1,7 +1,7 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les Salaries a temps plein ne travailleront qu'au maximum 2 jours par semaine en teletravail et 1 seule journee pour les Salaries a temps partiel." (Document d'ID 2)
+* "Les Salaries a temps plein ne travailleront qu'au maximum 2 jours par semaine en teletravail et 1 seule journee pour les Salaries a temps partiel." (Document id: 2)
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -9,6 +9,4 @@ Ma réponse après raisonnement ci-dessous :
 
 Mon raisonnement :
 
-* J'extrais la phrase "Les Salaries a temps plein ne travailleront qu'au maximum 2 jours par semaine en teletravail et 1 seule journee pour les Salaries a temps partiel" du document d'ID 2.
-* Je retiens que les salariés à temps plein ne peuvent pas travailler plus de 2 jours en télétravail par semaine.
-* Donc, nombrejourdeteletravailmaxparsemaine=2.
+* J'extrais le nombre maximum de jours de télétravail par semaine pour les salariés à temps plein dans le document id: 2 : "Les Salaries a temps plein ne travailleront qu'au maximum 2 jours par semaine en teletravail". Donc, la valeur de la variable nombrejourdeteletravailmaxparsemaine est 2.

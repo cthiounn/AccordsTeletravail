@@ -2,7 +2,7 @@ Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le télétravail fixe et régulier qui s’organise dans un cadre hebdomadaire à raison de 1 à 2 jours maximum par semaine" (document id=5, page_content line 3)
-* "Le télétravail fixe et régulier ne peut se faire que par journée entière." (document id=2, page_content line 2)
+* "Le nombre de jours télétravaillés est limité à 1 par semaine" (document id=2, page_content line 2)
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -10,5 +10,6 @@ Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
 
 Mon raisonnement :
 
-* J'extrais le nombre maximum de jours de télétravail par semaine dans le document id=5, page_content line 3 : "1 à 2 jours maximum par semaine". Je retiens la valeur maximale qui est 2.
-* Je confirme cette valeur dans le document id=2, page_content line 2 où il est stipulé que le télétravail fixe et régulier ne peut se faire que par journée entière, confirmant ainsi qu'il s'agit bien de jours et non de demi-journées.
+* Selon le document id=5, le télétravail fixe et régulier s'organise dans un cadre hebdomadaire à raison de 1 à 2 jours maximum par semaine.
+* Selon le document id=2, dans les entités du groupe dans lesquelles l'organisation hebdomadaire du travail comporte moins de 5 jours travaillés, le nombre de jours télétravaillés est limité à 1 par semaine.
+* Donc, la valeur maximale de nombre de jours de télétravail par semaine est de 2.

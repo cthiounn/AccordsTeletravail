@@ -1,14 +1,14 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail peut s’effectuer sur décision de l’employeur en cas de situation exceptionnelle (notamment pandémie). Hors situation exceptionnelle, il s’organise de façon volontaire, avec le double consentement employeur-salarié." (Document(page\_content="Article 4	: Télétravail...", metadata={'id': 6,'relevance\_score': 0.9627533}))
-* "A défaut d’accord individuel différent formalisé par avenant au contrat de travail, les horaires de travail habituels seront ceux pratiqués en télétravail." (Document(page\_content='Horaires de travail …', metadata={'id': 4,'relevance\_score': 0.9138245}))
+* "Le télétravail peut s’effectuer sur décision de l’employeur en cas de situation exceptionnelle (notamment pandémie). Hors situation exceptionnelle, il s’organise de façon volontaire, avec le double consentement employeur-salarié." (Document ID 6)
+* "Une fois par an le CSE est informé du recours au télétravail dans l’entreprise." (Document ID 2)
 
-Ma réponse après raisonnement ci-dessous :
-
-* nombrejourdeteletravailmaxparsemaine=5
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* Selon le premier document, le télétravail peut être mis en place sur décision de l'employeur en cas de situation exceptionnelle, comme une pandémie. Dans ce cas, il n'y a pas de limitation explicite du nombre de jours de télétravail par semaine.
-* Cependant, selon le deuxième document, en l'absence d'accord individuel différent, les horaires de travail habituels seront ceux pratiqués en télétravail. Comme il n'y a pas de limitation explicite du nombre d'heures de travail par semaine dans les documents fournis, nous devons supposer que le nombre d'heures de travail par semaine est celui pratiqué en temps normal, c'est-à-dire cinq jours ouvrés. Par conséquent, le nombre maximum de jours de télétravail par semaine est de cinq.
+* Selon le document ID 6, le télétravail peut être mis en place sur décision de l'employeur en cas de situation exceptionnelle, mais également de manière volontaire avec le consentement de l'employeur et du salarié. Cependant, aucun nombre maximal de jours de télétravail par semaine n'est spécifié dans ce document.
+* De plus, selon le document ID 2, le CSE est informé une fois par an du recours au télétravail dans l'entreprise, mais aucune limitation du nombre de jours de télétravail par semaine n'est mentionnée.
+* Compte tenu des éléments fournis dans les documents, je propose de fixer le nombre maximal de jours de télétravail par semaine à 5, conformément à la règle 2.F.

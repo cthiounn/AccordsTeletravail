@@ -1,13 +1,15 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail s’exerce dans les mêmes conditions et horaires que le travail au sein des locaux de l’EPCC." (Document 0, page 2)
-* "Le télétravail s’effectue au domicile déclaré du.de la salarié.e ou dans un lieu de travail à distance, dès lors que ces lieux offrent un environnement propice au travail et à la concentration." (Document 5, page 1)
+* "Le télétravail s’exerce dans les mêmes conditions et horaires que le travail au sein des locaux de l’EPCC. Par conséquent, le télétravailleur soumis à l’horaire collectif, doit être joignable sur les plages horaires suivantes, selon les besoins du service : 9h à 12h30 14h à 17h30" (Document(page\_content='ARTICLE 2 : ACCES AU TELETRAVAIL OCCASIONNEL ET VOLONTAIRE...', metadata={'id': 6,'relevance\_score': 0.96435636}))
+* "Le télétravail s’effectue au domicile déclaré du.de la salarié.e ou dans un lieu de travail à distance, dès lors que ces lieux offrent un environnement propice au travail et à la concentration. Afin de respecter la vie privée du télétravailleur, celui-ci devra aménager un poste de travail dédié, garantissant une bonne ergonomie et permettant la concentration. Il s’engage également à ce que son espace de travail respecte les règles relatives à l’hygiène, la sécurité et les conditions de travail." (Document(page\_content='Régulation de la charge de travail...', metadata={'id': 5,'relevance\_score': 0.9619684}))
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=5
+nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* Selon le document 0, le télétravail s'exerce dans les mêmes conditions et horaires que le travail au sein des locaux de l'EPCC. Or, il y a 5 jours ouvrés dans une semaine. Donc, le nombre maximal de jours de télétravail par semaine ne peut pas être strictement supérieur à 5.
+* Selon le premier paragraphe, le télétravail s'exerce dans les mêmes conditions et horaires que le travail au sein des locaux de l'EPCC. Les horaires de travail au sein des locaux sont de 9h à 12h30 et de 14h à 17h30. Donc, le télétravail s'exerce pendant ces horaires.
+* Selon le deuxième paragraphe, le télétravail s'effectue au domicile du salarié ou dans un lieu de travail à distance. Ce lieu doit offrir un environnement propice au travail et à la concentration. Le salarié doit aménager un poste de travail dédié, garantissant une bonne ergonomie et permettant la concentration. Il s'engage également à ce que son espace de travail respecte les règles relatives à l'hygiène, la sécurité et les conditions de travail.
+* Il n'y a pas de limite de jours de télétravail par semaine dans les documents fournis. Mais, comme il y a cinq jours ouvrés dans une semaine, donc un nombre de jour de télétravail par semaine ne peut pas être strictement supérieur à cinq.

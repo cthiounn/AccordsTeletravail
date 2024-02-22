@@ -1,14 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Afin de maintenir un lien suffisant entre le salarié et l’organisme, et notamment, de ne pas altérer le lien avec l’équipe de travail, le télétravailleur doit être présent dans son service au moins deux jours par semaine, quelle que soit la durée de son temps de travail." (Document id=2)
-* "Il est convenu par les signataires au regard de la note contextuelle, la mise en oeuvre d’une période dite « de transition » de 3 mois pour 1 jour de télétravail par semaine permettant de confirmer ou d’infirmer la possibilité de poursuivre à l’issue de cette période cette nouvelle organisation sur deux jours de télétravail par semaine." (Document id=1)
+* "Afin de maintenir un lien suffisant entre le salarié et l’organisme, et notamment, de ne pas altérer le lien avec l’équipe de travail, le télétravailleur doit être présent dans son service au moins deux jours par semaine, quelle que soit la durée de son temps de travail." (Document d'identifiant 2, pertinence 0.96314204)
+* "Il est convenu par les signataires au regard de la note contextuelle, la mise en oeuvre d’une période dite “de transition” de 3 mois pour 1 jour de télétravail par semaine permettant de confirmer ou d’infirmer la possibilité de poursuivre à l’issue de cette période cette nouvelle organisation sur deux jours de télétravail par semaine." (Document d'identifiant 1, pertinence 0.9625638)
 
 Ma réponse après raisonnement ci-dessous :
-
 nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* Selon le document id=2, le télétravailleur doit être présent dans son service au moins deux jours par semaine, donc le nombre maximum de jour de télétravail par semaine est de 2.
-* Cette information est confirmée dans le document id=1, qui mentionne une période de transition de 3 mois pour 1 jour de télétravail par semaine, puis la possibilité de poursuivre cette nouvelle organisation sur deux jours de télétravail par semaine.
+* Selon le document d'identifiant 2, le télétravailleur doit être présent dans son service au moins deux jours par semaine, quelle que soit la durée de son temps de travail. Donc, le nombre maximum de jour de télétravail par semaine est de 2 jours.

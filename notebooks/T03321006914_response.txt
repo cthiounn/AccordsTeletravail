@@ -1,13 +1,13 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Dans des situations particulières tenant au salarié ou au poste de travail, l’activité exercée en télétravail pourra être aménagée sur plus d’un jour par semaine, notamment lorsque l’éloignement très important du domicile du Salarié implique qu’il ne puisse se rendre effectivement quotidiennement sur le site de l’Agence." (Document id: 0, page_content: '5.1.2 Exceptions')
-* "Le jour de télétravail sera fixé en concertation avec le salarié et le responsable de pôle et validé par la Direction Générale, en fonction des paramètres et conditions d'activité inhérente à Gironde Tourisme. Ainsi, le jour de télétravail pourra ou non être accolé au jour de RTT. Les Responsables de Pôles organisent les plannings de travail en adéquation avec les contraintes contextuelles et les nécessités de service. Le cas échéant, le jour de télétravail pourra être reporté à une date ultérieure." (Document id: 4, page_content: '5.1.2 Exceptions')
+* "En cas de circonstances exceptionnelles (visées au 4.2.2), le télétravail pourra être imposé sur plus d’une journée par semaine et jusqu’à la totalité du temps de travail." (Document id: 0)
+* "Lorsqu’un poste est éligible au télétravail, les modalités d’organisation du télétravail devront être compatibles avec les obligations de service, le bon fonctionnement de l’équipe et de l’entité concernée." (Document id: 3)
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=1
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
 
 Mon raisonnement :
 
-Après avoir lu les deux passages pertinents des documents, je constate que le télétravail peut être aménagé sur plus d'un jour par semaine dans des situations particulières. Cependant, il n'est pas précisé de limite maximale hebdomadaire. En revanche, dans le deuxième passage, il est mentionné que le jour de télétravail est fixé en concertation avec le salarié et le responsable de pôle et validé par la Direction Générale. De plus, les Responsables de Pôles organisent les plannings de travail en adéquation avec les contraintes contextuelles et les nécessités de service. Par conséquent, il semble que le télétravail ne soit pas illimité dans le temps et doive respecter certaines contraintes. Compte tenu de ces éléments, je propose une valeur maximale de 1 jour de télétravail par semaine.
+* Selon le document id: 0, dans des circonstances exceptionnelles, le télétravail peut être imposé sur plus d'une journée par semaine et jusqu'à la totalité du temps de travail. Cependant, selon le document id: 3, les modalités d'organisation du télétravail doivent être compatibles avec les obligations de service, le bon fonctionnement de l'équipe et de l'entité concernée. Or, un nombre de jours de télétravail supérieur à 5 jours par semaine aurait des impacts sur le fonctionnement de l'équipe et de l'entité, ainsi que sur les obligations de service. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 5 jours.

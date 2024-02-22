@@ -1,13 +1,11 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le(s) jour(s) de télétravail seront fixés à l’avance, lors de l’accord initial. Ils pourront évoluer en accord entre les parties." (Document d'id 6, page_content ligne 2)
-* "Pour pouvoir contrôler le temps de travail effectué ainsi que le respect des durées maximales de travail et des temps minima de repos, le télétravailleur relèvera ses horaires de travail pour chaque jour travaillé à son domicile et transmettra ce relevé à son supérieur hiérarchique." (Document d'id 7, page_content ligne 3)
+* Article 8 - Fréquence et nombre de jours télétravaillés : "Le(s) jour(s) de télétravail seront fixés à l’avance, lors de l’accord initial. Ils pourront évoluer en accord entre les parties. <...> **Le télétravailleur reste tenu, même pendant les jours de télétravail et en cas de demande de la direction, de se rendre dans les locaux de l'Association**, pour participer aux réunions organisées ou pour toute autre raison destinée à assurer le bon fonctionnement du service."
+* Article 11 - Consignes particulières concernant les outils informatiques : "**Pendant la période de télétravail liée aux circonstances exceptionnelles visées au 3.2.**., le télétravailleur utilisera son propre matériel. S’il n’en dispose alors pas ou bien en cas d’imprévu affectant le bon fonctionnement de son matériel durant l’exécution du télétravail, l’association pourra lui en fournir, mais toutefois dans la mesure du possible et en fonction de ses capacités. L’association veillera à fournir au salarié un accès sécurisé à un bureau virtuel,  garant de la protection et de la confidentialité de ses données personnelles."
 
-Ma réponse après raisonnement ci-dessous :
-
+Ma réponse après raisonnement :
 nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
-
-Après avoir lu attentivement les deux passages pertinents, je n'ai pas trouvé de mention spécifique relative au nombre maximum de jours de télétravail par semaine proposé, recommandé ou limité. En revanche, il est dit que le(s) jour(s) de télétravail seront fixés à l'avance et pourront évoluer en accord entre les parties. De plus, le télétravailleur doit relever ses horaires de travail pour chaque jour travaillé à son domicile et les transmettre à son supérieur hiérarchique. Ces éléments m'amènent à considérer que le nombre maximum de jours de télétravail par semaine est de cinq jours, car il s'agit du nombre de jours ouvrés dans une semaine.
+Selon l'article 8, le nombre de jours de télétravail n'est pas limité, mais il doit être fixé à l'avance et peut évoluer en accord entre les parties. Cependant, le télétravailleur doit être disponible pour se rendre dans les locaux de l'Association en cas de besoin. Selon l'article 11, ces dispositions concernent la période de télétravail liée aux circonstances exceptionnelles. Dans le cas général, rien n'est précisé concernant une limitation du nombre de jours de télétravail par semaine. En prenant en compte la règle 2.F, le nombre maximal de jours de télétravail par semaine est de 5 jours.

@@ -1,19 +1,12 @@
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    Article 2.3.1. Rythme général du télétravail
-    Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine.
+* Article 2.3.1. Rythme général du télétravail : "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine."
 
-    Partie 1: à compléter par le salarié
-    Mon emploi est-il télétravaillable?
-    Mon activité professionnelle :
-    S’effectue dans les locaux de COOPERVISION? Oui
-    Peut-être effectuée en dehors des locaux de COOPERVISION? Oui
+Ma réponse après raisonnement ci-dessous :
 
-* Ma réponse après raisonnement ci-dessous :
+Ma réponse : nombrejourdeteletravailmaxparsemaine=1
 
-    nombrejourdeteletravailmaxparsemaine=1
+Mon raisonnement :
 
-* Mon raisonnement :
-
-    L'article 2.3.1 stipule que le télétravail peut être mis en œuvre "par journée entière de travail, dans la limite de 1 journée par semaine". Par conséquent, le nombre maximal de jours de télétravail par semaine est de 1.
+* L'article 2.3.1. Rythme général du télétravail stipule que le télétravail peut être mis en œuvre "par journée entière de travail, dans la limite de 1 journée par semaine". Par conséquent, le nombre maximal de jours de télétravail par semaine est de 1.

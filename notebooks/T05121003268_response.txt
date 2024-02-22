@@ -1,15 +1,13 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le salarié qui remplit les critères d'éligibilité dans le présent accord et qui souhaite opter pour cette organisation du travail, adresse une demande écrite à la direction. La Direction pourra également proposer à un salarié un passage en télétravail en respectant un délai de prévenance de deux mois." (Document id: 5)
-* "Afin de maintenir le lien social, la cohésion et le bon fonctionnement des équipes, le salarié télétravailleur à temps plein devra disposer d'au moins 12 jours de présence par an dans les locaux de l’entreprise à Reims ou dans tout autre endroit où peut être organisée une réunion, une manifestation auxquelles participent d’autres salariés et le salarié télétravailleur à temps partiel de 7 jours de présence minimum." (Document id: 0)
+* Document(page\_content='La Direction pourra également proposer à un salarié un passage en télétravail en respectant un délai de prévenance de deux mois. Cette proposition ne s’imposera pas à ce dernier en cas de refus.<br>Au cours d’un entretien, la direction et le salarié évaluent conjointement l’opportunité d’un passage en télétravail dans l’organisation du service auquel appartient le salarié. La Direction a ensuite, au maximum, un mois pour adresser sa réponse.<br>', metadata={'id': 1,'relevance\_score': 0.9635824})
+* Document(page\_content='Pour les salariés en forfait jours, la plage de joignabilité doit être limitée à la nécessité pour le salarié de bénéficier de son repos qu’il soit quotidien ou hebdomadaire.<br>Article<br>: Gestion du temps de travail et régulation de la charge<br>Le télétravail ne doit pas être un élément qui modifie à la hausse, ou à la baisse, les missions et activités habituelles du salarié, ses objectifs, son nombre d’heures de travail ou encore sa charge. <br>Les parties rappellent de concert que le télétravail doit s’exercer dans le strict respect : <br>- des règles en matière de durées maximales, quotidienne et hebdomadaire, de travail ; <br>- du droit au repos ; <br>- du droit à la déconnexion. <br>Lors de l’entretien individuel annuel, les conditions d’exercice du télétravail et sa charge de travail peuvent être évoquées par le salarié afin que des solutions concertées soient au besoin trouvées avec son responsable hiérarchique. <br>Article<br>: Accompagnement de l’entreprise lors de la réalisation du télétravail', metadata={'id': 3,'relevance\_score': 0.9653138})
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=5
+nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* Selon le document id: 5, le télétravail est basé sur le principe du volontariat et la direction doit donner son accord après avoir apprécié les conditions d'éligibilité.
-* Selon le document id: 0, le salarié télétravailleur à temps plein doit disposer d'au moins 12 jours de présence par an dans les locaux de l'entreprise, ce qui représente environ 1 jour par mois.
-* En appliquant le principe de déconnexion entre les périodicités (semaine, mois, trimestre, année) mentionné dans les instructions, nous pouvons considérer que le nombre de jours de télétravail par semaine ne peut pas être strictement supérieur à 5.
+Après avoir lu attentivement les deux documents pertinents, je n'ai trouvé aucune information spécifiant le nombre maximum de jours de télétravail par semaine proposé, recommandé ou limité. En revanche, dans le document d'ID 3, il est mentionné que le télétravail doit respecter les règles en matière de durées maximales de travail, qui impliquent que le télétravail ne peut excéder une semaine complète (5 jours ouvrés). Par conséquent, en l'absence d'information plus précise, je propose de fixer la variable 'nombrejourdeteletravailmaxparsemaine' à la valeur maximale possible, qui est de 5 jours.

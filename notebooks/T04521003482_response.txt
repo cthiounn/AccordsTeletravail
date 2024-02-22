@@ -1,14 +1,11 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les parties s’entendent pour tenir compte des modifications conclues par avenant du 26 mars 2021 portant révision de l’article 6 de l’accord national du 30 septembre 2010 relatif à l’organisation et à l’aménagement du temps de travail au sein de Pôle emploi."
-* "De ce fait, le décompte du temps de travail pour les agents en situation de télétravail, quelle qu’en soit la cause, se réalise au moyen d’un système de badgeage virtuel à partir du poste informatique de l’agent. Les agents travaillant sur site peuvent aussi, à leur initiative, utiliser ce mode de badgeage s’ils le souhaitent."
+* "Les parties s’entendent pour tenir compte des modifications conclues par avenant du 26 mars 2021 portant révision de l’article 6 de l’accord national du 30 septembre 2010 relatif à l’organisation et à l’aménagement du temps de travail au sein de Pôle emploi." (Document 1)
+* "De ce fait, le décompte du temps de travail pour les agents en situation de télétravail, quelle qu’en soit la cause, se réalise au moyen d’un système de badgeage virtuel à partir du poste informatique de l’agent." (Document 1)
 
-Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement :
 nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
-
-En analysant les deux paragraphes pertinents, je peux voir que les parties ont convenu de tenir compte des modifications apportées à l'accord national du 30 septembre 2010 concernant l'organisation et l'aménagement du temps de travail chez Pôle Emploi. Cependant, ces modifications ne mentionnent pas explicitement le nombre maximal de jours de télétravail par semaine.
-
-Cependant, en appliquant les règles spécifiques fournies, nous pouvons déduire que le nombre maximal de jours de télétravail par semaine est de 5. En effet, selon la règle 2G, il n'est pas possible d'avoir plus de 5 jours de télétravail par semaine. Par conséquent, je propose la variable 'nombrejourdeteletravailmaxparsemaine' avec la valeur 5.
+Après avoir lu attentivement les documents fournis, je n'ai pas trouvé de mention explicite concernant le nombre maximal de jours de télétravail par semaine. Cependant, en appliquant les règles données dans les instructions, nous savons que le nombre de jours de télétravail par semaine ne peut pas être strictement supérieur à cinq. Par conséquent, je propose 'nombrejourdeteletravailmaxparsemaine=5' comme réponse.

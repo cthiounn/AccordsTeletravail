@@ -1,13 +1,14 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Pour maintenir le lien social avec la communauté de travail, le présent accord prévoit **jusqu’à deux jours** de télétravail par semaine pour une semaine de travail « standard » (avec cinq jours ouvrés)."
+* "Pour maintenir le lien social avec la communauté de travail, le présent accord prévoit **jusqu’à deux jours** de télétravail par semaine pour une semaine de travail « standard » (avec cinq jours ouvrés)." (Document id: 0, phrase 2)
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=2
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
 
 Mon raisonnement :
 
-* J'ai trouvé dans le document d'id 0 la phrase "Pour maintenir le lien social avec la communauté de travail, le présent accord prévoit **jusqu’à deux jours** de télétravail par semaine pour une semaine de travail « standard » (avec cinq jours ouvrés).".
-* Cette phrase indique clairement que le maximum de jours de télétravail par semaine est de 2 jours.
+* J'ai recherché dans les documents la mention d'un nombre maximal de jours de télétravail par semaine.
+* La réponse se trouve dans le document d'id 0, deuxième phrase.
+* Cette phrase indique clairement que le nombre maximal de jours de télétravail par semaine est de **deux**.

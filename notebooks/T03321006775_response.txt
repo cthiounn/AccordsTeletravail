@@ -1,12 +1,15 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Article 39 : "La fréquence du télétravail est limitée à un (1) jour maximum par semaine"
+Document(page\_content='La Société rappelle l’importance d’équilibrer le temps de télétravail et le temps de travail sur site, en lien avec les activités et les objectifs de l’entreprise. 
+Aux fins de garantir la préservation du lien social au sein de l’entreprise et limiter l’émergence de difficultés organisationnelles, la fréquence du télétravail est limitée à un (1) jour maximum par semaine, en dehors de circonstances exceptionnelles justifiant le recours à un télétravail plus fréquent ou cas de force majeure le nécessitant.'),
+
+Document(page\_content='Le jour télétravaillé peut être fixé, dans la limite d’un jour par semaine\xa0: \n\nDe manière fixe (par exemple tous les lundis, tous les mercredis ou un lundi sur deux)\xa0; ou\nDe manière variable, moyennant le respect d’un délai de prévenance de 48 heures.').
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=1
+nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
 
-Le document 1 contient l'information pertinente pour répondre à la question posée. Selon cet article, la fréquence du télétravail est limitée à un jour maximum par semaine. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 1.
+Je me base sur le premier document pertinent où il est clairement stipulé que "la fréquence du télétravail est limitée à un (1) jour maximum par semaine". Cette information est confirmée dans le deuxième document pertinent où il est mentionné que "le jour télétravaillé peut être fixé, dans la limite d’un jour par semaine". Par conséquent, je peux conclure que le nombre maximal de jours de télétravail par semaine est limité à 1.

@@ -1,12 +1,15 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le salarié propose s’il souhaite travailler un jour ou deux jours par semaine à son domicile" (Document d'ID 5, page_content)
+* "Le salarié qui remplit les critères d'éligibilité et qui souhaite bénéficier du télétravail en fait la demande par écrit (formulaire annexe 3.1 « Formulaire de demande de passage en télétravail partiel ») à son supérieur hiérarchique qui valide et organise les modalités de télétravail." (Document id: 3)
+* "Il sera demandé également au télétravailleur de respecter les durées maximales de travail (cf. contrat de travail) et minimales de repos (pauses matin et après-midi, pause déjeuner)." (Document id: 4)
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
 
 Mon raisonnement :
 
-* Dans le document d'ID 5, il est indiqué que "le salarié propose s’il souhaite travailler un jour ou deux jours par semaine à son domicile". Par conséquent, le nombre maximal de jours de télétravail par semaine proposé est de 2.
+* Selon le document id: 3, le salarié peut demander à bénéficier du télétravail en faisant une demande par écrit à son supérieur hiérarchique qui valide et organise les modalités de télétravail.
+* Cependant, rien dans les documents fournis ne précise le nombre maximum de jours de télétravail par semaine.
+* En appliquant les règles données dans les instructions, nous pouvons supposer que le nombre maximum de jours de télétravail par semaine est égal au nombre de jours ouvrables dans une semaine, qui est de 5 selon la règle 2.F.

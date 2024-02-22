@@ -1,12 +1,14 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Une présence minimum de 2 jours par semaine du salarié dans les locaux de l’entreprise est requise" (Document(page\_content="Une présence minimum de 2 jours par semaine du salarié dans les locaux de l’entreprise est requise car permet de conserver un lien professionnel et social direct entre le salarié et son manager, ses collègues, son site, l’entreprise.\nC’est notamment le cas pour les salariés à temps partiel et en cas de prise de congés payés ou autres absences sur une semaine.\n\nLe télétravail revêt un caractère volontaire du salarié. Toutefois, conformément à l’article L.1222-11 du code du travail, en cas de circonstances exceptionnelles, notamment de menace d'épidémie, ou en cas de force majeure, la mise en œuvre du télétravail peut être considérée comme un aménagement du poste de travail rendu nécessaire pour permettre la continuité de l'activité de l'entreprise et garantir la protection des salariés. Dans ce cas, la décision de mise en place du télétravail relève du pouvoir de direction unilatérale de l’employeur et non plus du volontariat.\n\n\nARTICLE 2. CHAMP D’APPLICATION", metadata={'id': 6,'relevance\_score': 0.9686035}))
+* "Une présence minimum de 2 jours par semaine du salarié dans les locaux de l’entreprise est requise" (Document id: 6)
+* "Le télétravail n’a pas pour effet de modifier l’activité habituelle, la charge de travail ou l’amplitude de travail applicable habituellement dans les locaux de l’entreprise. Le salarié en télétravail gère l’organisation de son temps de travail selon ses horaires habituels de travail, dans le respect des dispositions légales et conventionnelles en vigueur. Les heures supplémentaires ne sont pas autorisées pendant les périodes de télétravail, sauf demande expresse du manager." (Document id: 0)
 
 Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=3
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
 
 Mon raisonnement :
 
-Le document mentionne explicitement qu'une présence minimale de 2 jours par semaine est requise pour les salariés en télétravail. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 3 jours.
+* Selon le document id: 6, une présence minimum de 2 jours par semaine du salarié dans les locaux de l’entreprise est requise. Cela implique que le nombre maximum de jour de télétravail par semaine est de 5.
+* Ce point est confirmé dans le document id: 0, qui précise que le télétravail n’a pas pour effet de modifier l’activité habituelle, la charge de travail ou l’amplitude de travail applicable habituellement dans les locaux de l’entreprise. Le salarié en télétravail gère l’organisation de son temps de travail selon ses horaires habituels de travail, dans le respect des dispositions légales et conventionnelles en vigueur. Les heures supplémentaires ne sont pas autorisées pendant les périodes de télétravail, sauf demande expresse du manager.

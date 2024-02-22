@@ -1,13 +1,13 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "L’organisation du télétravail peut se réaliser de manière hebdomadaire ou mensuelle." (Document id: 1)
-* "Afin de maintenir la cohésion et le bon fonctionnement des équipes, il est convenu que le nombre de salarié en télétravail un jour donné ne dépasse pas 50% de l’effectif du service concerné." (Document id: 3)
+* Document(page\_content='3.2 Fréquence et nombre de jours de télétravail\n\nL’organisation du télétravail est définie sur la base de ½ journée par semaine travaillée (soit 3,5h).\n\nL’organisation du télétravail peut se réaliser de manière hebdomadaire ou mensuelle.\n\nL’organisation du télétravail se réalise par demi-journées ou par jours entiers en accord avec …………….. et en référence à l’horaire de travail contractuel du salarié.', metadata={'id': 1,'relevance\_score': 0.9647942})
+* Document(page\_content='3.3 Organisation des services\n\nAfin de maintenir la cohésion et le bon fonctionnement des équipes, il est convenu que le nombre de salarié en télétravail un jour donné ne dépasse pas 50% de l’effectif du service concerné.\n\n3.4 Caractère volontaire\n\nLe télétravail revêt un caractère volontaire pour le salarié.', metadata={'id': 3,'relevance\_score': 0.9582067})
 
 Ma réponse après raisonnement ci-dessous :
-
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=2.5**
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* Selon le document id: 1, l'organisation du télétravail peut se réaliser de manière hebdomadaire ou mensuelle. Cependant, le document id: 3 limite le nombre de salariés en télétravail à 50% de l'effectif du service concerné. Donc, chaque salarié peut théoriquement travailler en télétravail la moitié du temps, ce qui correspond à 2,5 jours par semaine.
+* Selon le document 1, l'organisation du télétravail peut se réaliser de manière hebdomadaire ou mensuelle, et elle est définie sur la base de ½ journée par semaine travaillée, soit 3,5h. Cependant, rien n'indique clairement le nombre maximum de jours de télétravail par semaine.
+* Cependant, selon le document 3, afin de maintenir la cohésion et le bon fonctionnement des équipes, il est convenu que le nombre de salarié en télétravail un jour donné ne dépasse pas 50% de l’effectif du service concerné. Donc, même si le télétravail est possible tous les jours de la semaine, il est limité à la moitié de l'effectif du service concerné chaque jour. Par conséquent, le nombre maximum de jours de télétravail par semaine est égal à 2, car cela représente la moitié de l'effectif du service concerné sur une semaine.

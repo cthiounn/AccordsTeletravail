@@ -1,16 +1,14 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail régulier se définit par une fréquence au moins hebdomadaire." (Document(page\_content='Il convient de distinguer trois types de télétravail : \nLe télétravail régulier se définit par une fréquence au moins hebdomadaire. ', metadata={'id': 3,'relevance\_score': 0.9659403}))
+* "Le télétravail régulier se définit par une fréquence au moins hebdomadaire." (Document(page\_content='Il convient de distinguer trois types de télétravail : [...] Le télétravail régulier se définit par une fréquence au moins hebdomadaire. [...]', metadata={'id': 3,'relevance\_score': 0.9659403}))
 * "Le nombre de jours télétravaillés ne pourra pas être supérieur à 10 par mois de travail effectif pour les salariés à temps plein et à temps partiel. Aucun report ne sera possible d’un mois à l’autre." (Document(page\_content='Ces exclusions sont susceptibles d’évoluer dans le cadre du bilan annuel présenté au CSE.\n\n\nConditions de mise en place\nTélétravail régulier\nLe nombre de jours télétravaillés ne pourra pas être supérieur à 10 par mois de travail effectif pour les salariés à temps plein et à temps partiel. Aucun report ne sera possible d’un mois à l’autre.\nLa fixation du(des) jour(s) télétravaillé, sera (seront) définie(s) par le manager sur une période de 1 à 12 mois. Les jours fixés seront modifiables avec accord du manager.', metadata={'id': 0,'relevance\_score': 0.95992655}))
 
 Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* J'ai identifié dans le document 0, la mention du nombre de jours télétravaillés maximum par mois qui est de 10 jours.
-* Comme je dois déconnecter les liens entre les périodicités, je dois convertir le nombre de jours par mois en nombre de jours par semaine.
-* Pour cela, je divise le nombre de jours par mois par le nombre de semaines dans un mois, soit environ 4.33.
-* Mais comme je dois arrondir à l'entier inférieur, je retiens donc un maximum de 2 jours de télétravail par semaine.
+* J'ai identifié dans le document 0, la phrase "Le nombre de jours télétravaillés ne pourra pas être supérieur à 10 par mois de travail effectif pour les salariés à temps plein et à temps partiel. Aucun report ne sera possible d’un mois à l’autre.", qui indique que le nombre maximal de jours de télétravail par mois est de 10.
+* Sachant qu'il y a cinq jours ouvrés dans une semaine, je peux donc en déduire que le nombre maximal de jours de télétravail par semaine est de 10/4 = 2.5. Or, il n'est pas possible de travailler 0.5 jour, donc le nombre maximal de jours de télétravail par semaine est de 5.

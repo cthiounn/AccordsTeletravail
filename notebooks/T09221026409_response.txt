@@ -1,13 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Tout salarié éligible peut bénéficier, selon ses souhaits, de 2 ou 3 jours de télétravail par semaine (sans cumul d’une semaine sur l’autre)" (Document(page\_content='Article 1. 2. 1. Formule de télétravail standard', metadata={'id': 0,'relevance\_score': 0.95589006}))
-* "Ce complément vise à permettre, selon le besoin des salariés concernés, d’avoir par exemple plus de jours de télétravail qu’habituellement, y compris une semaine complète." (Document(page\_content='Ce faisant, les salariés, qui se trouvent dans l’une des situations précitées, peuvent convenir avec leur manager de pouvoir faire varier d’une semaine à l’autre le positionnement de leurs jours ou demi-journées de télétravail prédéterminés tout en continuant à respecter le nombre de jours de télétravail pour lequel ils s’étaient mis d’accord lors du renseignement du workflow. ', metadata={'id': 4,'relevance\_score': 0.9681749}))
+* Document(page\_content='Article 1. 2. 1. Formule de télétravail standard\n2 ou 3 jours de télétravail par semaine\nTout salarié éligible peut bénéficier, selon ses souhaits, de 2 ou 3 jours de télétravail par semaine (sans cumul d’une semaine sur l’autre) tout en sachant que les 2 jours sont de droit et les 3 jours peuvent dépendre de l’organisation du service.\nCes jours peuvent être pris en journée entière ou demi-journée, en fonction des roulements de télétravail individuel à organiser collectivement au sein de l’équipe.', metadata={'id': 0,'relevance\_score': 0.95589006})
+* Document(page\_content='Ce complément vise à permettre, selon le besoin des salariés concernés, d’avoir par exemple plus de jours de télétravail qu’habituellement, y compris une semaine complète. \nAu plus tard, ce renseignement doit se faire avant le début de l’exécution de la période de télétravail et en veillant autant que de possible à respecter les deux préconisations suivantes\xa0: \nInformer oralement son manager au préalable,\nProcéder à la pose dans le workflow dans un délai de prévenance de 24 heures.\nUne fois le workflow rempli, le manager reçoit alors une notification automatique qu’il peut refuser en en justifiant la raison. L’absence de refus sous 24h vaut accord.\nDotation en matière d’équipements', metadata={'id': 2,'relevance\_score': 0.961664})
 
 Ma réponse après raisonnement ci-dessous :
 nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
 
-* J'extrais le nombre de jours de télétravail par semaine depuis le document 0, qui indique "2 ou 3 jours de télétravail par semaine".
-* Je retiens la valeur maximale, qui est 3 jours de télétravail par semaine.
+* J'ai identifié dans le premier document pertinent l'information suivante : "Article 1. 2. 1. Formule de télétravail standard\n2 ou 3 jours de télétravail par semaine". Cela signifie que le maximum de jours de télétravail par semaine est de 3.

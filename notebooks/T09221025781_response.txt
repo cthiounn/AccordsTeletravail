@@ -1,14 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail doit être ponctuel : Il ne pourra être exercé que pour un maximum de 10 jours par an. La répartition du temps de travail s’opère par journée ou demi-journée." (Document id: 5, page_content: '6 – Organisation du télétravail occasionnel')
-* "Le télétravailleur occasionnel doit être joignable et en mesure de répondre aux sollicitations aux horaires habituels correspondant à son service. En dehors de ces plages horaires, le télétravailleur occasionnel peut utiliser son « droit à la déconnexion » en mettant en veille ses systèmes professionnels de communication." (Document id: 2, page_content: '9- Equipements de télétravail du télétravailleur occasionnel')
+* "Il ne pourra être exercé que pour un maximum de 10 jours par an. La répartition du temps de travail s’opère par journée ou demi-journée." (Document id: 5)
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=0.2
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
 
 Mon raisonnement :
 
-* J'extrais le nombre maximal de jours de télétravail par an qui est de 10 jours (Document id: 5, page_content: '6 – Organisation du télétravail occasionnel').
-* Je divise ce nombre par le nombre de semaines dans une année (52) pour obtenir le nombre maximal de jours de télétravail par semaine, soit 10/52 = 0.1923076923076923 (arrondi à 0.2).
+Je me base sur le document id: 5 pour répondre à la question. Dans ce document, il est stipulé que le télétravail peut être exercé pour un maximum de 10 jours par an, avec une répartition par journée ou demi-journée. Comme il y a cinq jours ouvrés dans une semaine, je divise le nombre maximal de jours de télétravail par 5 pour obtenir le nombre maximum de jours de télétravail par semaine, soit 10/5 = 2. Donc, le nombre maximum de jours de télétravail par semaine est de 2. Mais, comme il est dit que la répartition du temps de travail s’opère par journée ou demi-journée, cela signifie que le télétravail peut être exercé jusqu’à cinq jours par semaine. Par conséquent, je réponds **nombrejourdeteletravailmaxparsemaine=5**.

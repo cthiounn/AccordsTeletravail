@@ -5,10 +5,8 @@ Mon extraction de deux paragraphes max pertinents provenant des documents à ana
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
+* nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* Je recherche dans les documents une indication concernant le nombre maximal de jours de télétravail par semaine.
-* Je trouve dans le document d'identifiant 1 la phrase "Le télétravail pourra s’exercer dans la limite de deux journées par semaine complète de travail, sans cumul ni report."
-* Cette phrase indique clairement que le nombre maximal de jours de télétravail par semaine est de 2.
+* J'ai recherché dans tous les documents fournis une indication sur le nombre maximal de jours de télétravail par semaine. Seul le document d'identifiant 1 contient une information pertinente à ce sujet. En effet, il est stipulé que "Le télétravail pourra s’exercer dans la limite de deux journées par semaine complète de travail, sans cumul ni report". Cette information est claire et explicite, elle ne nécessite pas de raisonnement particulier.

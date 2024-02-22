@@ -1,12 +1,14 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "L’accord sur le télétravail au domicile au sein de BNP Paribas Securities Services du 12 octobre 2016, modifié par avenants du 3 juillet 2018, du 30 septembre 2019 et du 27 octobre 2020 est prorogé pour une période de trois mois, soit jusqu’au 30 juin 2021." (Document 2, Article 1)
+* Document(page\_content='Avenant de prorogation de l’accord sur le télétravail au domicile au sein de BNP Paribas Securities Services du 12 octobre 2016 [...] Article 1	: prorogation de la durée de l’accord du 12 octobre 2016, modifié par avenants du 3 juillet 2018, du 30 septembre 2019 et du 27 octobre 2020 [...] L’accord sur le télétravail au domicile au sein de BNP Paribas Securities Services du 12 octobre 2016, modifié par avenants du 3 juillet 2018, du 30 septembre 2019 et du 27 octobre 2020 est prorogé pour une période de trois months, soit until the 30th of June 2021.', metadata={'id': 1,'relevance\_score': 0.94033754})
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
+nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-Le document fourni ne contient aucune information spécifique sur le nombre de jours de télétravail maximum par semaine. Cependant, d'après les règles données dans les instructions, si rien n'est mentionné, le nombre maximal de jours de télétravail par semaine est de 5.
+* Je me base sur le document d'identifiant 1 car il contient l'information relative à la prorogation de l'accord sur le télétravail au domicile au sein de BNP Paribas Securities Services.
+* Dans ce document, je repère l'article 1 qui stipule que l'accord sur le télétravail au domicile au sein de BNP Paribas Securities Services du 12 octobre 2016, modifié par avenants du 3 juillet 2018, du 30 septembre 2019 et du 27 octobre 2020 est prorogé pour une période de three months, soit jusqu'au 30th of June 2021.
+* Compte tenu de la règle 2.F, qui stipule qu'un nombre de jour de télétravail par semaine ne peut pas être strictly supérieur à five, et de l'absence d'information spécifique quant au nombre maximal de jours de télétravail par semaine dans le document, je propose comme réponse nombrejourdeteletravailmaxparsemaine=5.

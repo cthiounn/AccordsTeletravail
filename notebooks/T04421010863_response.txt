@@ -1,12 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Cependant, il n'y a aucune mention explicite du nombre maximum de jours de télétravail par semaine dans aucun des documents fournis."
+* Document(page\_content='C’est dans ce contexte qu’un accord a été conclu le 31 juillet 2020 afin d'encadrer le travail à distance au sein de la société MAISONS DU MONDE France. [...] ARTICLE 1 – Objet de l’avenant Le présent avenant complète ou révise, à compter de son entrée en vigueur, certaines des dispositions prévues par l’accord initial relatif au travail à distance. L’accord et le présent avenant formant un accord unique, le périmètre d’application reste le même. L’accord et le présent avenant prévoient les conditions d’accès et modalités de réalisation du télétravail en cas de circonstances exceptionnelles.', metadata={'id': 5,'relevance\_score': 0.9561111})
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=0
+nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* Je n'ai pas pu trouver de réponse explicite au nombre maximum de jours de télétravail par semaine dans aucun des documents fournis. Par conséquent, je dois répondre que le nombre maximum de jours de télétravail par semaine est zéro.
+Je me base sur l'article 2 de l'accord initial relatif au travail à distance, qui n'est pas fourni dans les documents, mais dont je fais l'hypothèse qu'il correspond à l'article 3 des documents fournis, intitulé "Modification de l'article 8.3". Cet article ne prévoit aucune limitation explicite du nombre de jours de télétravail par semaine. En revanche, il mentionne que la société verse une allocation forfaitaire des frais liés au travail à distance imposé, d'un montant de 30 euros pour un mois complet de travail à distance. Ce montant sera proratisé en fonction du temps de présence. Cette précision implique qu'il y a un temps de présence sur site, qui limite donc le nombre de jours de télétravail par semaine. Or, il n'y a pas non plus de limitation explicite de ce temps de présence sur site. Cependant, l'article 2.F des instructions précise qu'il n'y a pas de lien entre l'effectif d'un service et le nombre de jour de télétravail, donc je ne peux pas déduire un nombre de jour de télétravail à partir de l'effectif. Par ailleurs, l'article 2.E des instructions précise qu'il faut tenir compte de l'éventuelle possibilité de télétravail à 100%, mais cet article ne s'applique pas ici car l'allocation forfaitaire est proratisée en fonction du temps de présence. Enfin, l'article 2.F des instructions précise qu'il n'y a pas plus de cinq jours ouvrés dans une semaine. Donc, je réponds que le nombre maximum de jours de télétravail par semaine est cinq.

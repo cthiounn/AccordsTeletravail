@@ -1,7 +1,7 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Article 3 : "Le présent accord a pour but de réglementer un télétravail dit occasionnel, sur demande du salarié pour convenance personnelle. Il ne s’agit en aucun cas de créer une réglementation permettant un télétravail permanent qu’il soit total ou partiel. Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein."
+* Article 3 : "Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein."
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -9,4 +9,4 @@ Ma réponse après raisonnement ci-dessous :
 
 Mon raisonnement :
 
-* Je me base sur l'article 3 qui stipule explicitement que "Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein". Cette limite de 2 jours par semaine est donc proposée, recommandée ou limitée pour le télétravail dans le cadre de cet accord.
+* Je me base sur l'article 3 qui stipule que le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein.

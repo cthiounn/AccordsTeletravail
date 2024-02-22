@@ -1,13 +1,13 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Un à deux jours fixes par semaine de télétravail." (Document id: 0)
-* "Pour un collaborateur exerçant son activité à temps complet : Un à deux jours fixes par semaine de télétravail." (Document id: 9)
+* Document(page\_content='1 jour fixe de télétravail par semaine.\nEt 2 jours de télétravail supplémentaires annuels dits “modulables” pour gérer notamment des situations exceptionnelles. ', metadata={'id': 1,'relevance\_score': 0.9643562})
+* Document(page\_content='Pour un collaborateur exerçant son activité à temps complet :\n\nUn à deux jours fixes par semaine de télétravail.\nEt 3 jours de télétravail supplémentaires annuels dits “modulables” pour gérer notamment des situations exceptionnelles. ', metadata={'id': 0,'relevance\_score': 0.961471})
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+**nombrejourdeteletravailmaxparsemaine=2**
 
 Mon raisonnement :
 
-Après avoir lu attentivement les documents fournis, je constate que la proposition de la Direction pour un collaborateur exerçant son activité à temps complet est d'autoriser "Un à deux jours fixes par semaine de télétravail" (Document id: 0 et id: 9). Par conséquent, la valeur maximale de nombrejourdeteletravailmaxparsemaine est de 2.
+En analysant les deux documents pertinents, j'ai pu trouver les informations concernant le nombre maximum de jours de télétravail par semaine. Dans le premier document, il est mentionné "1 jour fixe de télétravail par semaine", ce qui correspond à un jour par semaine. Dans le deuxième document, il est mentionné "Un à deux jours fixes par semaine de télétravail", ce qui correspond à un maximum de 2 jours par semaine. Comme je dois fournir la valeur maximale, ma réponse sera **nombrejourdeteletravailmaxparsemaine=2**.

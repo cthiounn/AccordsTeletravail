@@ -1,12 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Dans le cadre de la planification annuelle telle que visée à l’art 3, peuvent être versés au crédit du compte épargne temps et dans la limite de 20 jours par an. 5 jours de congés payés maximum, par période de 12 mois (1er septembre – 31 août), des jours de repos compensateurs ou majorations pour heures supplémentaires." (Document id: 2)
+* Document(page\_content='Article 1.2 - Fonctionnement \nDans le cadre de la planification annuelle telle que visée à l’art 3, peuvent être versés au crédit du compte épargne temps et dans la limite de 20 jours par an. 5 jours de congés payés maximum, par période de 12 mois (1er septembre – 31 août), des jours de repos compensateurs ou majorations pour heures supplémentaires. \nDes jours RTT \nLa monétisation du compte épargne-temps sera prévue, à due proportion du salaire en cours au jour ou est formulée la demande. Celle-ci devra être faite 2 mois avant le versement, une fois dans l’année civile. Ne pourront être monétisés que les jours au-delà du 20ème. \nEn cas de situations exceptionnelles (Mariage, décès du conjoint, d’un enfant ou tous autres motifs prévus dans la C.C.N.E.A.C.) le salarié pourra liquider l’ensemble de son compte.', metadata={'id': 2,'relevance\_score': 0.95996475})
 
-Ma réponse :
+Ma réponse après raisonnement ci-dessous :
 
 nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-En analysant le document id: 2, je constate que le maximum de jours pouvant être versés au crédit du compte épargne temps est de 20 jours par an, et que parmi ces 20 jours, il est possible de verser 5 jours de congés payés maximum par période de 12 mois. Comme il y a 52 semaines dans une année, et que chaque semaine comporte 5 jours ouvrés, le maximum de jours de télétravail par semaine ne peut excéder 5 jours. Donc, nombrejourdeteletravailmaxparsemaine=5.
+Après examen des documents fournis, je n'ai trouvé aucune information spécifique sur le télétravail. Les informations fournies concernent principalement les congés payés, les jours de RTT et les situations exceptionnelles. En appliquant les règles 2.E et 2.F, nous pouvons conclure que le nombre maximum de jours de télétravail par semaine est de 5.

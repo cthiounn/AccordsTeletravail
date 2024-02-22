@@ -1,13 +1,16 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le salarié ne pourra pas prendre plus de 3 jours consécutifs de télétravail et les journées de télétravail devront être prises par journée entière"
-* "Le télétravail sera effectué, en principe et sauf cas exceptionnel, au domicile habituel du salarié."
+* "Le salarié ne pourra pas prendre plus de 3 jours consécutifs de télétravail et les journées de télétravail devront être prises par journée entière" (Document(page\_content='La demande de télétravail doit se faire via le logiciel ….avec un délai de prévenance de 5 jours ouvrés\xa0; \n\nLe salarié ne pourra pas prendre plus de 3 jours consécutifs de télétravail et les journées de télétravail devront être prises par journée entière\xa0; \n\nLe manager validera la demande via ce même logiciel dans un délai d’au minima 3 jours ouvrés avant leur prise\xa0;\n\nLe manager pourra cependant modifier unilatéralement ces jours convenus pour la bonne organisation globale de l’équipe.', metadata={'id': 0,'relevance\_score': 0.9669814}))
+* "Hors recours au télétravail en cas de circonstances exceptionnelles, une possible prise en charge forfaitaire des frais liés au télétravail à hauteur de 10 € par mois sera versée au télétravailleur effectuant une journée de télétravail par semaine (soit l’équivalent moyen de 4,33 jours par mois)" (Document(page\_content='12.4 Assurance en cas de recours au télétravail régulier\n\nLe salarié fournit une attestation d’assurance garantissant les risques liés au télétravail applicable au lieu où celui-ci sera exécuté. Il adresse annuellement cette attestation au moment du renouvellement de son assurance. La mise en place et le maintien du télétravail est conditionnée par cette formalité.\n\n12.5 Prise en charge des frais liés au télétravail habituel\n\nHors recours au télétravail en cas de circonstances exceptionnelles, une possible prise en charge forfaitaire des frais liés au télétravail à hauteur de 10 € par mois sera versée au télétravailleur effectuant une journée de télétravail par semaine (soit l’équivalent moyen de 4,33 jours par mois). \nL’indemnité sera versée de manière trimestrielle en fonction du nombre de jours de télétravail qui ont été effectués sur la période.', metadata={'id': 7,'relevance\_score': 0.96492594}))
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=3**
+* nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
 
-Le premier paragraphe indique que le salarié ne peut pas prendre plus de 3 jours consécutifs de télétravail. Cependant, il ne précise pas si cela signifie que le maximum de jours de télétravail par semaine est de 3. Néanmoins, le deuxième paragraphe indique que le télétravail est effectué au domicile habituel du salarié, ce qui suggère que le télétravail est probablement limité à quelques jours par semaine. En l'absence d'autres informations, je propose donc une limite maximale de 3 jours de télétravail par semaine.
+* J'ai recherché dans les documents fournis les mentions de la limite hebdomadaire de télétravail.
+* Seuls deux documents contenaient des informations pertinentes.
+* Dans le premier document, il est stipulé que "Le salarié ne pourra pas prendre plus de 3 jours consécutifs de télétravail et les journées de télétravail devront être prises par journée entière". Cela implique que la limite maximale de télétravail par semaine est de 3 jours.
+* Dans le deuxième document, il est mentionné que "une possible prise en charge forfaitaire des frais liés au télétravail à hauteur de 10 € par mois sera versée au télétravailleur effectuant une journée de télétravail par semaine". Cela confirme également que la limite maximale de télétravail par semaine est de 3 jours.

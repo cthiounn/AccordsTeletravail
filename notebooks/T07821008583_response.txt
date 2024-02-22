@@ -1,13 +1,14 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "le plafond annuel mentionné ci-dessus devra être respecté ainsi qu’un plafond hebdomadaire de 3 jours" (document 8)
-* "le salarié devra être physiquement présent dans l’entreprise au moins 2 jours par semaine" (document 8)
+* "le plafond annuel mentionné ci-dessus devra être respecté ainsi qu’un plafond hebdomadaire de 3 jours" (Document id=8, page_content="...")
+* "Dans une semaine, il y a donc 0 semaine ; dans un trimestre, 0 mois et 0 semaine; dans une année, 0 trimestre, 0 mois et 0 semaine!" (Instruction)
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=3
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=3**
 
 Mon raisonnement :
 
-* Selon le document 8, le plafond hebdomadaire est de 3 jours. De plus, le salarié doit être physiquement présent dans l'entreprise au moins 2 jours par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3.
+* J'extrais la valeur maximale de jours de télétravail par semaine qui est de 3 jours (Document id=8, page_content="...")
+* Je prends en compte la règle 2.F qui stipule qu'un nombre de jour de télétravail par semaine ne peut pas être strictement supérieur à cinq. Donc la valeur maximale est 3 jours.

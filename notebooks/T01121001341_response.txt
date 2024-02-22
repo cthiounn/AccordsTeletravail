@@ -1,12 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le déploiement significatif du dispositif du télétravail régulier au sein de la MSA a été souhaité par les partenaires sociaux." (Document 1, préambule)
+* ARTICLE 2: ENTREE EN VIGUEUR dans le document d'id 0: "Le présent accord entre en vigueur le 1er septembre 2021. Il est conclu jusqu'à : l’entrée en vigueur d’un nouvel accord d'entreprise encadrant le télétravail, et au plus tard jusqu'au 31 mars 2022."
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : 'nombrejourdeteletravailmaxparsemaine=5'
+Ma réponse : nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-Selon le document 1, il y a un accord relatif à la mise en œuvre du télétravail à la Mutualité Sociale Agricole Grand Sud. Dans le préambule de cet accord, il est mentionné que le déploiement significatif du dispositif du télétravail régulier au sein de la MSA a été souhaité par les partenaires sociaux. Cependant, aucun nombre maximal de jours de télétravail par semaine n'est spécifié dans les documents fournis. En appliquant les règles données, nous savons que le nombre de jours de télétravail par semaine ne peut pas être strictement supérieur à cinq. Par conséquent, ma réponse est 'nombrejourdeteletravailmaxparsemaine=5'.
+Selon l'article 2 du document d'id 0, l'accord actuel est valable jusqu'au 31 mars 2022. Or, d'après la règle 2.E, si le document mentionne explicitement que le Télétravail à 100% est autorisé, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine. Dans le texte, il n'est fait mention d'aucune limitation de ce type. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 5.

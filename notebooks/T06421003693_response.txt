@@ -9,4 +9,4 @@ Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* J'ai identifié dans le document id: 0 la phrase "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine." qui indique clairement que le maximum de jours de télétravail par semaine est de 2.
+J'ai identifié dans le document id: 0 la phrase "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine.", qui indique clairement que la limite maximale de jours de télétravail par semaine est de 2.

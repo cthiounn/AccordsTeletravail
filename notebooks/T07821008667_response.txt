@@ -1,12 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les parties conviennent de limiter la situation de télétravail à 2 (deux) jours par semaine" (Document(page\_content='3.3. Nombre de jours\t\nLe télétravail fonctionne sur un schéma d’alternance de périodes travaillées en présentiel et de période où l’activité est réalisée au domicile du salarié. \nLes parties conviennent de limiter la situation de télétravail à 2 (deux) jours par semaine pour les salariés à temps plein et à 1 (un) jour par semaine pour les salariés travaillant à temps partiel et dans la mesure où ce temps partiel est supérieur ou égal à 80% d’un temps plein, de telle sorte que le lien social soit maintenu avec l’équipe de travail et l’encadrement.'))
+* "Les parties conviennent de limiter la situation de télétravail à 2 (deux) jours par semaine pour les salariés à temps plein et à 1 (un) jour par semaine pour les salariés travaillant à temps partiel et dans la mesure où ce temps partiel est supérieur ou égal à 80% d’un temps plein" (Document ID 2)
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=2
+Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* J'extrais le nombre maximal de jours de télétravail par semaine qui est de 2 jours.
+Le document ID 2 stipule clairement que les parties ont convenu de limiter la situation de télétravail à 2 jours par semaine pour les salariés à temps plein. Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' est affectée à la valeur 2.

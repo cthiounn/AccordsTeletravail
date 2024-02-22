@@ -1,13 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le Salarié pourra effectuer jusqu’à 45 jours de télétravail par année civile. La répartition de ces jours sur l’année civile s’effectuera par journée entière sur la base d’une journée par semaine." (Document id: 1)
-* "Par exception, les salariés d’un service spécifique notamment les personnels rattachés aux bureaux d’études des entreprises AXIANS Fibre Sud-ouest et AXIANS Pylône services France, pourront bénéficier d’une autorisation de télétravail par semaine entière dans la limite de 9 semaines par an (9 semaines x 5 jours/semaine =45 jours)" (Document id: 5)
+* "Le Salarié pourra effectuer jusqu’à 45 jours de télétravail par année civile. La répartition de ces jours sur l’année civile s’effectuera par journée entière sur la base d’une journée par semaine." (Document ID 1)
+* "Par exception, les salariés d’un service spécifique... pourront bénéficier d’une autorisation de télétravail par semaine entière dans la limite de 9 semaines par an (9 semaines x 5 jours/semaine =45 jours)" (Document ID 5)
 
 Ma réponse après raisonnement ci-dessous :
-
 nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* Selon le document id: 1, le salarié peut effectuer jusqu'à 45 jours de télétravail par année civile, avec une répartition par journée entière sur la base d'une journée par semaine. Cela signifie qu'il est possible de télétravailler 5 jours par semaine pendant 9 semaines dans l'année, ce qui correspond à 45 jours. Donc, le nombre maximum de jours de télétravail par semaine est 5.
+* Selon le document ID 1, le salarié peut effectuer jusqu'à 45 jours de télétravail par an, ce qui correspond à 45/12 = 3.75 jours par mois en moyenne. Comme il y a 4 semaines dans un mois en moyenne, cela donne 3.75*4=15 jours par mois en moyenne. Or, comme il y a 5 jours dans une semaine, cela signifie que le nombre maximal de jours de télétravail par semaine est égal à 15/4=3.75 jours. Mais comme il n'est pas possible de travailler 0.75 jour, nous devons arrondir à l'entier supérieur, ce qui donne 4 jours par semaine. Cependant, selon le document ID 5, certains salariés peuvent bénéficier d'une autorisation de télétravail par semaine entière dans la limite de 9 semaines par an, ce qui correspond à 9*5=45 jours par an, soit 45/4=11.25 jours par mois en moyenne, ce qui donne 11.25*4/5=9 jours par semaine. Donc, le nombre maximal de jours de télétravail par semaine est égal à 9.

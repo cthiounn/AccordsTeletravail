@@ -1,13 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Afin de maintenir le lien social avec la communauté de travail, l’activité exercée en télétravail à domicile pourra aller jusqu’à deux jours de télétravail par semaine." (Document d'identifiant 7, métadonnées {'id': 7,'relevance\_score': 0.9647709})
-* "Le télétravail régulier ne pourra être exercé qu’en journée pleine et non en demi-journée, excepté pour la demi-journée des salariés travaillant sur 4,5 jours (90%)." (Document d'identifiant 3, métadonnées {'id': 3,'relevance\_score': 0.961346})
+* Document(page\_content='6.2.1 Rythme du télétravail\n\nAfin de maintenir le lien social avec la communauté de travail, l’activité exercée en télétravail à domicile pourra aller jusqu’à deux jours de télétravail par semaine.\xa0Cependant il est convenu que pour certains travailleurs comme visés au terme de l’article 4 ce rythme pourra être revu et adapté. ', metadata={'id': 7,'relevance\_score': 0.9647709})
+* Document(page\_content='Dans ce cadre, et sous réserve d’être précisé dans l’accord d’entreprise ou la charte de télétravail de l’entreprise du Groupe, les salariés de l’entreprise éligibles au télétravail pourront disposer d’un compteur de journées de télétravail «\xa0volantes\xa0» dans la limite de 10 jours par an, prorata temporis. Le cas échéant le calcul de l’arrondi se fera à l’entier inférieur. Ces journées ne constituent pas un droit du salarié.\n\nCe plafond de 10\xa0journées de télétravail «\xa0volantes\xa0» par an constitue un maximum qui ne pourra être dépassé par les accords d’entreprise ou chartes sur le télétravail des entreprises du Groupe. A ce titre, ces dernières, pourront si elles le souhaitent définir un nombre de jours maximum de télétravail inférieur à ce plafond, ce plafond nouvellement défini s’appliquera seul aux salariés de l’entreprise concernée.', metadata={'id': 1,'relevance\_score': 0.96480054})
 
 Ma réponse après raisonnement ci-dessous :
-
 nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-En analysant les documents fournis, je me suis concentré sur les éléments pertinents pour répondre à la question posée. J'ai identifié deux passages clairs et explicites qui répondent à la question. Par conséquent, je conclus que le maximum de jours de télétravail par semaine proposé, recommandé ou limité est de 2 jours.
+En prenant en compte les règles données, je me base sur le premier document qui stipule que "l’activité exercée en télétravail à domicile pourra aller jusqu’à deux jours de télétravail par semaine". Cette information est confirmée dans le deuxième document qui dit que "ce plafond de 10 journées de télétravail « volantes » par an constitue un maximum qui ne pourra être dépassé par les accords d’entreprise ou chartes sur le télétravail des entreprises du Groupe" et que "ces dernières, pourront si elles le souhaitent définir un nombre de jours maximum de télétravail inférieur à ce plafond". Par conséquent, la valeur maximale pour la variable "nombrejourdeteletravailmaxparsemaine" est 2.

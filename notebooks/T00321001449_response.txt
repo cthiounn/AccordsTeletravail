@@ -1,12 +1,6 @@
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "L’employeur accorde un jour de télétravail par semaine sur la base du volontariat." (Document 0)
-
-Ma réponse après raisonnement ci-dessous :
-
-Ma réponse : nombrejourdeteletravailmaxparsemaine=1
-
-Mon raisonnement :
-
-* Dans le document 0, il est stipulé que l'employeur accorde un jour de télétravail par semaine sur la base du volontariat. Donc, le nombre maximum de jours de télétravail par semaine est de 1.
+Q_TTSEM_NOMBRE:* Extraits pertinents :
+    * "Article 3 – Règles de maintien du télétravail: L’employeur accorde un jour de télétravail par semaine"
+* Réponse :
+    * nombrejourdeteletravailmaxparsemaine=1
+* Raisonnement :
+    * Dans l'extrait pertinent, il est stipulé que "l'employeur accorde un jour de télétravail par semaine". Par conséquent, le nombre maximal de jours de télétravail par semaine est de 1.

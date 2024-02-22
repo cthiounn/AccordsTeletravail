@@ -4,11 +4,8 @@ Mon extraction de deux paragraphes max pertinents provenant des documents à ana
 * "Les dispositions de l’accord relatif au télétravail alterné à domicile du 13 décembre 2017 restent en vigueur jusqu’au 31 mars 2021." (Document(page\_content='...', metadata={'id': 1,'relevance\_score': 0.96290314}))
 
 Ma réponse après raisonnement ci-dessous :
-nombrejourdeteletravailmaxparsemaine=5
+nombrejourdeteletravailmaxparsemaine=0
 
 Mon raisonnement :
 
-* Selon le document fourni, l'accord relatif au télétravail alterné à domicile du 13 décembre 2017 reste en vigueur jusqu'au 31 mars 2021.
-* Ce document ne mentionne pas explicitement le nombre maximum de jours de télétravail par semaine.
-* En vertu de la règle 2.G, le nombre de jour de télétravail par semaine ne peut pas être strictement supérieur à cinq.
-* Par conséquent, je propose comme réponse 'nombrejourdeteletravailmaxparsemaine=5'.
+Le document fourni ne contient pas de renseignements spécifiques sur le nombre maximum de jours de télétravail par semaine. Les dispositions de l'accord de 2017 restent en vigueur jusqu'au 31 mars 2021, mais aucune information sur le nombre de jours de télétravail n'est mentionnée dans le texte. Par conséquent, je ne peux pas affecter de valeur numérique à la variable 'nombrejourdeteletravailmaxparsemaine'.

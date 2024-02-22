@@ -1,8 +1,8 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Pour prendre en charge une partie des frais engendrés par le télétravail (électricité, chauffage, etc..), une prime mensuelle sera versée sur 11 mois, aux salariés-es concerné-es dont le montant est fonction du nombre de jours de télétravail par semaine." (Document id: 0, page_content starting with 'Pour prendre en charge...')
-* "Un groupe de salarié-es, représentatif des métiers de l’Association, travaille actuellement pour définir les conditions et modalités du télétravail au sein de AIDES." (Document id: 3, page_content starting with 'Un groupe de salarié-es...')
+* "Pour prendre en charge une partie des frais engendrés par le télétravail (électricité, chauffage, etc..), une prime mensuelle sera versée sur 11 mois, aux salariés-es concerné-es dont le montant est fonction du nombre de jours de télétravail par semaine." (Document id: 0, page_content starting with 'Néanmoins, le sujet du télétravail...')
+* "Ce travail donnera lieu à la rédaction d’une charte, qui énoncera ces conditions et modalités." (Document id: 3, page_content starting with 'Un groupe de salarié-es, représentatif...')
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -10,4 +10,4 @@ Ma réponse : nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-Après avoir lu attentivement les deux passages pertinents, je n'ai trouvé aucune information spécifiant le nombre maximum de jours de télétravail par semaine proposé, recommandé ou limité. Cependant, en prenant en compte la règle 2.G, qui stipule qu'un nombre de jour de télétravail par semaine ne peut pas être strictement supérieur à cinq, je peux conclure que le nombre maximum de jours de télétravail par semaine est de cinq. Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' doit être affectée à la valeur 5.
+Le premier paragraphe indique qu'une prime mensuelle est versée en fonction du nombre de jours de télétravail par semaine, ce qui signifie que le télétravail est possible sur une base hebdomadaire. Le deuxième paragraphe confirme que les modalités du télétravail seront définies dans une charte, mais ne contient pas d'information sur le nombre maximal de jours de télétravail par semaine. Cependant, le point 2.F de l'instruction indique qu'il n'y a pas de lien entre l'effectif d'un service et le nombre de jour de télétravail, donc je ne peux pas déduire un nombre de jour de télétravail. De plus, le point 2.E indique qu'il n'y a pas de lien entre le télétravail à 100% et le nombre de jours de télétravail par semaine. Par conséquent, je ne peux pas déterminer le nombre maximal de jours de télétravail par semaine à partir des documents fournis. Cependant, le point 2.F indique également qu'il n'y a pas plus de cinq jours ouvrés dans une semaine, donc je peux affecter la valeur maximale de 5 à la variable 'nombrejourdeteletravailmaxparsemaine'.

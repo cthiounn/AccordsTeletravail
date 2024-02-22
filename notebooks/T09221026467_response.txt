@@ -1,14 +1,11 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le nombre maximum de jours en télétravail par semaine est de deux pour les collaborateurs à temps complet, d’un jour et demi pour ceux à 90% et d’un jour pour les collaborateurs à 80%." (Document id: 0)
-* "Le collaborateur disposera d'un volume maximum de deux jours de télétravail par semaine pour un collaborateur." (Document id: 4)
+* "Le nombre maximum de jours en télétravail par semaine est de deux pour les collaborateurs à temps complet, d’un jour et demi pour ceux à 90% et d’un jour pour les collaborateurs à 80%." (Document id=0, page\_content="Le télétravail régulier")
+* "Les collaborateurs devront déclarer dans l'outil RH, le jour télétravaillé prévu au plus tard 5 jours ouvrés avant la prise de ce dernier. Dans le cas où ce dernier devait être annulé, le collaborateur procédera à son annulation via l'outil SIRH au même titre que les autres types de jours d’absences." (Document id=4, page\_content="Le collaborateur disposera d'un volume maximum de deux jours de télétravail par semaine pour un collaborateur.")
 
 Ma réponse après raisonnement ci-dessous :
-
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-
-* J'extrais la valeur maximale de jours de télétravail par semaine dans les deux documents pertinents.
-* Je retiens la valeur la plus haute qui est de 2 jours par semaine.
+Je me base sur le premier paragraphe extrait qui indique le nombre maximum de jours de télétravail par semaine pour les différents types de contrats. Je ne tiens pas compte du deuxième paragraphe extrait car il ne donne pas d'information complémentaire sur le nombre maximum de jours de télétravail par semaine.

@@ -1,11 +1,15 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Consigne est donnée au personnel de : rester chez soi le plus possible. Le télétravail a été généralisé pour tous les postes pour lesquels il est possible et pour lesquels l’activité se poursuit;"
-* "pour les postes non aménageables en télétravail et/ou qui impliquent de se rendre sur le lieu de travail, il faut : s’assurer avant de se rendre sur le lieu de travail que l’on ne présente pas de manière manifeste de symptômes et tout particulièrement de fièvre,"
+* Consigne est donnée au personnel de : rester chez soi le plus possible. Le télétravail a été généralisé pour tous les postes pour lesquels il est possible et pour lesquels l’activité se poursuit ;
+* Les parties rappellent la nécessité de respecter les règles sanitaires afin de réduire autant que possible la propagation du virus.
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
+Ma réponse : nombrejourdeteletravailmaxparsemaine=5
 
-Mon raisonnement : Dans le premier paragraphe, il est dit que le télétravail a été généralisé pour tous les postes pour lesquels il est possible et pour lesquels l'activité se poursuit. Cependant, il n'est pas précisé de quel type de télétravail il s'agit (occasionnel ou régulier). De plus, il n'est pas mentionné de limitation quant au nombre de jours de télétravail par semaine. En revanche, dans le second paragraphe, il est mentionné que pour les postes non aménageables en télétravail, il faut se rendre sur le lieu de travail. Ceci implique que pour les postes aménageables en télétravail, il n'y a pas de restriction quant au nombre de jours de télétravail par semaine. Comme il n'y a pas de limitation explicite, je propose une limite maximale de 5 jours de télétravail par semaine, conformément à la règle 2G.
+Mon raisonnement :
+
+Après avoir lu attentivement les deux paragraphes pertinents, je n'ai pas trouvé de mention explicite concernant le nombre maximum de jours de télétravail par semaine proposé, recommandé ou limité. Cependant, en prenant en compte les directives données aux employés de rester chez eux et de travailler à domicile dans la mesure du possible, ainsi que la généralisation du télétravail pour les postes aménageables, nous pouvons supposer que le télétravail est encouragé. En outre, en considérant les règles sanitaires actuellement en vigueur pour limiter la propagation du virus, il est probable que les employés soient incités à travailler depuis chez eux aussi souvent que possible.
+
+Cependant, il n'y a aucune limitation explicite quant au nombre maximal de jours de télétravail par semaine. Compte tenu des directives générales et des conseils de santé publique, nous pouvons supposer que le télétravail est possible tous les jours de la semaine. Comme il y a cinq jours ouvrés dans une semaine, je propose que la variable nombrejourdeteletravailmaxparsemaine soit égale à 5.

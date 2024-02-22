@@ -5,9 +5,7 @@ Mon extraction de deux paragraphes max pertinents provenant des documents à ana
 * "A l’échelle d’un service, il est possible de définir des journées comme non accessibles au télétravail afin de préserver le lien social, les rituels d’équipes et le travail collectif. Les réunions seront prioritairement organisées sur ces journées." (Document id: 0)
 
 Ma réponse après raisonnement ci-dessous :
-
 nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-
-Après avoir lu les deux paragraphes pertinents, je constate que les jours de télétravail doivent être pris par journée entière et ne peuvent dépasser deux journées pour une semaine de cinq jours. De plus, certaines journées peuvent être définies comme non accessibles au télétravail pour préserver le lien social, les rituels d'équipes et le travail collectif. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 2.
+Le premier paragraphe indique que le salarié ne peut pas s'absenter en télétravail plus de deux journées pour une semaine de cinq jours. Cela signifie que le maximum de jours de télétravail par semaine est de deux. Le deuxième paragraphe ne fournit pas d'information supplémentaire sur le nombre maximal de jours de télétravail par semaine.

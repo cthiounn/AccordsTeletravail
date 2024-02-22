@@ -1,12 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Article 8: Fréquence et nombre de jours télétravaillés du document d'id 0: "Le nombre de jour de télétravail ne pourra excéder 2 jours par semaine, et 1 jour pour les salariés à temps partiel selon article 2."
+* Article 8: Fréquence et nombre de jours télétravaillés du document d'identifiant 0: "Le nombre de jour de télétravail ne pourra excéder 2 jours par semaine, et 1 jour pour les salariés à temps partiel selon article 2."
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
+Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-Je me base sur l'article 8 du document d'id 0 qui limite explicitement le nombre de jours de télétravail par semaine à 2 pour les salariés à temps complet.
+Je me base sur l'article 8: Fréquence et nombre de jours télétravaillés du document d'identifiant 0 qui stipule que "Le nombre de jour de télétravail ne pourra excéder 2 jours par semaine, et 1 jour pour les salariés à temps partiel selon article 2". Je ne tiens pas compte des jours de télétravail pour les salariés à temps partiel car la question ne le demande pas. De plus, je m'assure que le nombre de jours de télétravail est bien indiqué par semaine et non par mois ou autre période temporelle grâce à la règle 2.A.

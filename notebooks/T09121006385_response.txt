@@ -1,12 +1,14 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Article 3-1- Nombre de journées travaillées : "Le télétravail ne devra pas dépasser 0,20 ETP par mois soit au plus une journée par semaine."
+* Document(page\_content='Article 3-1- Nombre de journées travaillées\n\nLe télétravail ne devra pas dépasser 0,20 ETP par mois soit au plus une journée par semaine.', metadata={'id': 1,'relevance\_score': 0.95948076})
+* Document(page\_content='Article 2-2- Formalisation et durée \n\nLe passage en télétravail est formalisé par la signature d’un avenant au contrat de travail.\n\n\nCet avenant prévoit notamment\xa0:\nl’adresse du domicile où le télétravail sera exercé\xa0;\nle jour ou les jours fixes choisis\xa0;\nles plages horaires d'accessibilité (pendant lesquelles le télétravailleur est joignable)\xa0;\n...\nla durée déterminée du télétravail\xa0(Compte tenu de la spécificité du télétravail, il est convenu qu’un avenant au contrat de travail, pour sa mise en œuvre, prévoira une durée de 6 mois pouvant être reconductible);\n...', metadata={'id': 6,'relevance\_score': 0.9661608})
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=1
+**nombrejourdeteletravailmaxparsemaine=1**
 
 Mon raisonnement :
 
-* Je me base sur l'article 3-1- Nombre de journées travaillées qui stipule que le télétravail ne doit pas dépasser une journée par semaine.
+* J'ai identifié dans le premier document pertinent la limitation du nombre de jour de télétravail par semaine à **1**. Cette information est clairement exprimée en phrase unique et non ambigüe.
+* Je n'ai pas trouvé d'autres informations pertinentes dans les autres documents.

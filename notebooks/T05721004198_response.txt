@@ -1,14 +1,12 @@
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail est limité à 2 jours maximum par semaine" (Document(page\_content="ARTICLE 3-2 - Fréquence et nombre de jours de télétravail\nLe télétravail est limité à 2 jours maximum par semaine dans le respect des conditions suivantes\xa0:", metadata={'id': 0,'relevance\_score': 0.96156275}))
+    Article 3-2 - Fréquence et nombre de jours de télétravail
+    Le télétravail est limité à 2 jours maximum par semaine dans le respect des conditions suivantes...
 
-Ma réponse après raisonnement ci-dessous :
+* Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+    nombrejourdeteletravailmaxparsemaine=2
 
-Mon raisonnement :
+* Mon raisonnement :
 
-* J'extrais la phrase "Le télétravail est limité à 2 jours maximum par semaine" du document 0.
-* Je m'appuie sur la règle 2.G qui stipule qu'un nombre de jour de télétravail par semaine ne peut pas être strictement supérieur à cinq.
-* Donc, la valeur maximale de nombrejourdeteletravailmaxparsemaine est 2.
+    Dans l'extrait pertinent, il est clairement stipulé que "Le télétravail est limité à 2 jours maximum par semaine". Par conséquent, je peux affecter la valeur 2 à la variable nombrejourdeteletravailmaxparsemaine.

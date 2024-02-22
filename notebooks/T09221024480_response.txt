@@ -1,14 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine" (Document(page\_content='Article 4. Télétravail\xa0: nombre de jours autorisés et dotation de matériel \n\nLe nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine, pour tous les collaborateurs DFA, selon les mêmes conditions que celles prévues dans l’accord télétravail signé le 17 septembre 2020 (hors période de type pandémie). ', metadata={'id': 0,'relevance\_score': 0.9624789}))
+* Document(page\_content='Article 4. Télétravail: nombre de jours autorisés et dotation de matériel \n\nLe nombre de jour de télétravail autorisés passe de 4 jours par mois à **2 jours par semaine**, pour tous les collaborateurs DFA, selon les mêmes conditions que celles prévues dans l'accord télétravail signé le 17 septembre 2020 (hors période de type pandémie).')
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
+Ma réponse : 'nombrejourdeteletravailmaxparsemaine=2'
 
 Mon raisonnement :
 
-* J'ai recherché dans les documents fournis une information correspondant au nombre maximum de jours de télétravail par semaine proposé, recommandé ou limité.
-* J'ai trouvé l'information dans le document d'identifiant 0, qui indique que "Le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine".
-* Je conclus donc que le nombre maximum de jours de télétravail par semaine proposé, recommandé ou limité est de 2 jours.
+Je me base sur le document d'identifiant 0, qui indique que "le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine". Cette information est claire et explicite, elle correspond à mon besoin, je peux donc m'arrêter là et formuler ma réponse.

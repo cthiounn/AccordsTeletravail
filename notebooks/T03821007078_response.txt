@@ -1,8 +1,8 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Pour effectuer du télétravail occasionnel il faudra remplir les conditions suivantes : Avoir une performance normale (Répondre aux attentes du poste), Disposer du matériel pour effectuer du télétravail (PC portable et ligne téléphonique fournis par RAYDIALL et connexion internet au domicile), Disposer à son domicile d’un espace pour télétravailler." (Document id: 2)
-* "Les demandes se feront par l’intermédiaire d’ADP. Le télétravail reste à la discrétion du management qui se laisse la possibilité de refuser une demande, et vice-versa." (Document id: 2)
+* "Pour effectuer du télétravail occasionnel il faudra remplir les conditions suivantes : Avoir une performance normale (Répondre aux attentes du poste) Disposer du matériel pour effectuer du télétravail (PC portable et ligne téléphonique fournis par RAYDIALL et connexion internet au domicile) Disposer à son domicile d’un espace pour télétravailler." (Document id: 4)
+* "Les demandes se feront par l’intermédiaire d’ADP. Le télétravail reste à la discrétion du management qui se laisse la possibilité de refuser une demande, et vice-versa." (Document id: 4)
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -10,5 +10,6 @@ nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* Les documents ne précisent pas le nombre maximum de jours de télétravail par semaine.
-* Selon la règle 2G, le nombre de jour de télétravail par semaine ne peut pas être strictement supérieur à cinq. Donc, nombrejourdeteletravailmaxparsemaine=5.
+* Les documents fournis ne contiennent pas d'information spécifique sur le nombre maximal de jours de télétravail par semaine proposé, recommandé ou limité.
+* Cependant, d'après la règle 2.E, si le document mentionne explicitement que le Télétravail à 100% (ou autrement appelé full-remote) est autorisé, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine.
+* Comme aucune information contraire n'est fournie dans les documents, je peux conclure que le nombre maximal de jours de télétravail par semaine est de 5.

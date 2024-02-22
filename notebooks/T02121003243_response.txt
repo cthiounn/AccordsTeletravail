@@ -1,12 +1,10 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Article 3 – Fréquence du télétravail régulier : "Le télétravail régulier prend la forme d’un forfait mensuel de jours télétravaillés selon les deux modalités suivantes : 6 jours de télétravail par mois maximum, accessible à tous les salariés éligibles ; 8 jours de télétravail par mois maximum, étant précisé que ce forfait n’est accessible qu’aux salariés à temps complet, soit au salarié ETAM dont le temps de travail est de 35 heures hebdomadaires ou au salarié cadre dont le forfait jours est de 206 jours"
+* Article 3 – Fréquence du télétravail régulier : "Le télétravail régulier prend la forme d’un forfait mensuel de jours télétravaillés selon les deux modalités suivantes : 6 jours de télétravail par mois maximum, accessible à tous les salariés éligibles ; 8 jours de télétravail par mois maximum, étant précisé que ce forfait n’est accessible qu’aux salariés à temps complet, soit au salarié ETAM dont le temps de travail est de 35 heures hebdomadaires ou au salarié cadre dont le forfait jours est de 206 jours."
 
-Ma réponse après raisonnement ci-dessous :
-
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=6**
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
-
-Je me base sur l'extrait de l'article 3 pour conclure que le maximum de jours de télétravail par semaine est de 6 jours, car c'est la première modalité proposée et elle est accessible à tous les salariés éligibles.
+Selon l'article 3, le télétravail régulier peut prendre la forme d'un forfait mensuel de jours télétravaillés, avec une limite maximale de 6 jours par mois pour tous les salariés éligibles, et une limite maximale de 8 jours par mois pour les salariés à temps complet. En appliquant la règle 2.F, nous pouvons conclure que le nombre maximum de jours de télétravail par semaine est de 5.

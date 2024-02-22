@@ -9,4 +9,4 @@ Ma réponse : nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
 
-Dans l'article 5.2, il est stipulé que "Le télétravail s’exercera à raison d’un jour non fractionnable par semaine". Par conséquent, le nombre maximal de jours de télétravail par semaine est de 1 jour.
+L'extrait de l'article 5.2 indique clairement que le télétravail s'exerce sur une base hebdomadaire et est limité à un jour par semaine. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 1.

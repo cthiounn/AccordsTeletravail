@@ -1,12 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Ainsi l’activité exercée en télétravail à domicile, ne pourra excéder une journée (fixée préalablement avec le manager) par semaine" (Document id: 0)
+* "Ainsi l’activité exercée en télétravail à domicile, ne pourra excéder une journée (fixée préalablement avec le manager) par semaine pour les salariés éligibles au télétravail." (Document id: 0)
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=1**
+Ma réponse : nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
 
-* Dans le document id: 0, il est stipulé que "l’activité exercée en télétravail à domicile, ne pourra excéder une journée (fixée préalablement avec le manager) par semaine". Par conséquent, le nombre maximal de jours de télétravail par semaine est de 1 jour.
+* Dans le document id: 0, il est stipulé que "l’activité exercée en télétravail à domicile, ne pourra excéder une journée (fixée préalablement avec le manager) par semaine pour les salariés éligibles au télétravail". Par conséquent, le nombre maximal de jours de télétravail par semaine est de 1.

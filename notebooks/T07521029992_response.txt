@@ -9,4 +9,4 @@ Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-Le paragraphe pertinent indique que 2 jours de télétravail par semaine sont autorisés pour un collaborateur à temps plein ou forfait jours non réduit. Donc, la valeur maximale affectée à la variable nombrejourdeteletravailmaxparsemaine est 2.
+Le paragraphe pertinent indique que 2 jours de télétravail par semaine sont autorisés pour un collaborateur à temps plein ou forfait jours non réduit. Donc, la variable nombrejourdeteletravailmaxparsemaine vaut 2.

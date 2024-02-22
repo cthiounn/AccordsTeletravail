@@ -5,8 +5,10 @@ Mon extraction de deux paragraphes max pertinents provenant des documents à ana
 
 Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=4
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=4**
 
 Mon raisonnement :
 
-Je me base sur l'article 3 du document 0 qui stipule que "Le nombre de jours en télétravail pourra au maximum être de 4 par semaine". Cette information est claire et concise, je n'ai pas besoin de recouper avec d'autres sources.
+* J'ai recherché dans tous les documents fournis une indication sur le nombre maximal de jours de télétravail par semaine. Seul le document 0 contient une telle information.
+* Dans ce document, il est clairement stipulé que "Le nombre de jours en télétravail pourra au maximum être de 4 par semaine".
+* Je n'ai pas trouvé d'autres indications contradictoires ou restrictives dans les autres documents, je peux donc conclure que la valeur maximale est bien de 4 jours par semaine.

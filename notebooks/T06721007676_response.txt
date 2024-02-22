@@ -2,13 +2,14 @@ Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le salarié sera en télétravail les mercredi et vendredi pendant la semaine paire, puis les mardi et jeudi en semaine impaire." (Document id 0)
-* "La répartition du temps de travail hebdomadaire est faite à l’identique entre le télétravail et l’activité dans les locaux de l’entreprise." (Document id 0)
+* "Afin d’éviter toute forme d’isolement et de faire perdurer le lien social, le salarié doit être obligatoirement présent dans les locaux de l’entreprise le lundi et aura un rythme de télétravail sur une base hebdomadaire tel que défini dans son avenant au contrat de travail." (Document id 4)
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
+Ma réponse : nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* Dans le premier document, il est mentionné que le salarié sera en télétravail deux jours par semaine, selon un calendrier précis.
-* Ce nombre est confirmé dans le deuxième document, qui précise que la répartition du temps de travail hebdomadaire est identique entre le télétravail et l'activité dans les locaux de l'entreprise. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+* Dans le premier document, il est mentionné que le salarié travaille en télétravail deux jours par semaine durant la semaine paire et deux autres jours durant la semaine impaire. En additionnant ces jours, nous obtenons 4 jours de télétravail par semaine.
+* Dans le second document, il est mentionné que le salarié doit être présent dans les locaux de l'entreprise le lundi et qu'il a un rythme de télétravail sur une base hebdomadaire. Cependant, aucun nombre maximal de jours de télétravail n'est spécifié.
+* Compte tenu des informations fournies dans les deux documents, la limite maximale de jours de télétravail par semaine est de 5 jours.

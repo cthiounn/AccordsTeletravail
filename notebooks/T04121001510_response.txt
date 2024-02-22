@@ -1,13 +1,13 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le nombre de jours de télétravail dans une semaine est donc porté à 3j au maximum selon le temps contractuel." (Document id: 5, relevance score: 0.96426713)
-* "Ce crédit sera libre d’utilisation dans la limite de 3j par semaine" (Document id: 6, relevance score: 0.9643468)
+* "Les collaborateurs qui demandent le télétravail régulier ont 3 choix dans la limite de 2 jours de présence au siège en fonction de leur temps contractuel: 1 jour, 2 jours, 3 jours" (Document id: 0)
+* "Le nombre de jours de télétravail dans une semaine est donc porté à 3j au maximum selon le temps contractuel." (Document id: 5)
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=3
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=3**
 
 Mon raisonnement :
 
-Après avoir lu les deux passages pertinents des documents, je constate que le maximum de jours de télétravail par semaine est de 3 jours, que ce soit pour le télétravail régulier ou le télétravail forfaitaire.
+Après avoir lu les documents fournis, je constate que la limite maximale de jours de télétravail par semaine est de 3 jours. Cette information est mentionnée dans deux documents différents (document id: 0 et document id: 5). Par conséquent, conformément à vos instructions, je vous communique la valeur maximale sous la forme attendue dans la variable 'nombrejourdeteletravailmaxparsemaine'.

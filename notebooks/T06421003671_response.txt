@@ -1,12 +1,13 @@
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le travail occasionnel à distance peut s’exercer à hauteur de 12 jours par année civile pour un salarié présent toute l’année." (Document(page\_content='Modalités d’exercice\xa0\nLe travail occasionnel peut s’effectuer au domicile du salarié et/ou dans un autre lieu dont l’adresse aura été communiquée en amont au service des Ressources Humaines et sous réserve de remplir les conditions de travail satisfaisantes telles qu’une couverture internet suffisante, un espace de travail dédié et permettant de respecter les bonnes pratiques recommandées par le Groupe Safran (annexe 4 – «\xa0Les bons réflexes du travail à domicile\xa0»). \nLe travail occasionnel à distance peut s’exercer à hauteur de 12 jours par année civile pour un salarié présent toute l’année. A défaut, le nombre de jours sera calculé au prorata du temps de présence sur l’année. Par exemple, un salarié présent 6 mois dans l’année pourra bénéficier de 6 jours sur cette période.'))
+    * "Le travail occasionnel à distance peut s’exercer à hauteur de 12 jours par année civile pour un salarié présent toute l’année. A défaut, le nombre de jours sera calculé au prorata du temps de présence sur l’année." (Document id: 8)
+    
+    * "Cela concerne... les salariés proches aidant (selon la définition prévue à l’article 3 du présent accord),... les salariés répondant aux conditions du congé de présence parentale ou du congé de solidarité familiale prévues aux articles L.1225-62 et L. 3142-6 du code du travail." (Document id: 5)
 
-Ma réponse après raisonnement ci-dessous :
+* Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+    * nombrejourdeteletravailmaxparsemaine=2
 
-Mon raisonnement :
+* Mon raisonnement :
 
-Je me base sur le document "Modalités d’exercice" qui indique que le travail occasionnel à distance peut s’exercer à hauteur de 12 jours par année civile pour un salarié présent toute l’année. En appliquant la règle 2.G, qui stipule qu'un nombre de jour de télétravail par semaine ne peut pas être strictement supérieur à cinq, j'ai effectué le calcul suivant : 12 jours / 52 semaines = 0,23 jours par semaine. Comme je ne peux pas donner une fraction, je donne la valeur arrondie à l'entier inférieur, soit 2 jours par semaine.
+    * Selon le document id: 8, le télétravail occasionnel peut s'exercer jusqu'à 12 jours par an pour un salarié présent toute l'année. En appliquant la règle 2.F, le nombre maximal de jours de télétravail par semaine est égal à 2 (12 jours / 52 semaines = 0.23 jours par semaine, arrondi à l'entier supérieur).

@@ -3,10 +3,10 @@ Mon extraction de deux paragraphes max pertinents provenant des documents à ana
 
 * Article 4 Condition d’exécution du télétravail : "les parties fixent le nombre de jour de télétravail à deux jours maximum par semaine."
 
-Ma réponse :
+Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=2
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
 
 Mon raisonnement :
 
-Je me suis basé sur l'article 4 intitulé "Condition d’exécution du télétravail" qui stipule que "les parties fixent le nombre de jour de télétravail à deux jours maximum par semaine". Cette information est claire et concise, elle ne nécessite pas de raisonnement particulier.
+Je me suis basé sur l'article 4 intitulé "Condition d'exécution du télétravail" qui stipule que "les parties fixent le nombre de jour de télétravail à deux jours maximum par semaine". J'ai donc affecté à la variable "nombrejourdeteletravailmaxparsemaine" la valeur maximale de 2.

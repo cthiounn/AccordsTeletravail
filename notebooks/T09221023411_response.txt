@@ -6,8 +6,8 @@ Mon extraction de deux paragraphes max pertinents provenant des documents à ana
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=3**
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
 
 Mon raisonnement :
 
-Selon le premier paragraphe, le télétravail ne peut être exercé que dans la limite de 75% du temps de travail effectif mensuel, ce qui représente 3 jours par semaine car 75% de 30 jours (un mois) représentent 22,5 jours, or 22,5 jours divisés par 4 semaines représentent 5,625 jours par semaine, or il est impossible d'avoir plus de 5 jours de télétravail par semaine. De plus, selon le deuxième paragraphe, un minima de 4 jours mensuels de présence sur site doit être mis en œuvre, ce qui signifie que le maximum de jours de télétravail par semaine est de 3 jours.
+Selon le document 0, le télétravail ne peut être exercé que dans la limite de 75% du temps de travail effectif mensuel, ce qui représente 3 jours de télétravail par semaine (75% de 4, car 5 jours est le nombre de jours ouvrés dans une semaine). Cependant, selon le document 4, un minima de 4 jours mensuels de présence sur site doit être mis en œuvre, ce qui signifie que le nombre maximal de jours de télétravail par semaine est de 5 jours (car 4 jours de présence sur site + 5 jours de télétravail = 9 jours, ce qui est supérieur au nombre de jours ouvrés dans une semaine). Par conséquent, je propose de mettre la valeur maximale à 5 jours dans la variable nombrejourdeteletravailmaxparsemaine.

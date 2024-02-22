@@ -2,12 +2,12 @@ Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le salarié doit être au minimum 2 jours par semaine en présentiel au bureau (soit 1 à 3 jours de télétravail par semaine)"
-* "Il n’y a pas de limite en nombre de jours de télétravail"
+* "Il n’y a pas de limite en nombre de jours de télétravail."
 
 Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=3
+nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-Le premier paragraphe indique que le salarié doit être au minimum 2 jours par semaine en présentiel au bureau, ce qui signifie qu'il peut travailler jusqu'à 3 jours à distance. Le deuxième paragraphe indique qu'il n'y a pas de limite en nombre de jours de télétravail, mais cela ne contredit pas le premier paragraphe car il s'agit d'un modèle différent. En conclusion, le nombre maximum de jours de télétravail par semaine est de 3.
+J'ai identifié deux paragraphes pertinents pour répondre à la question posée. Le premier paragraphe indique qu'un salarié doit être au minimum 2 jours par semaine en présentiel au bureau, ce qui implique qu'il peut travailler jusqu'à 3 jours à distance. Le deuxième paragraphe stipule qu'il n'y a pas de limite en nombre de jours de télétravail. En combinant ces informations et en prenant en compte la règle 2.F, je conclus que le nombre maximal de jours de télétravail par semaine est de 5, ce qui correspond à la variable nombrejourdeteletravailmaxparsemaine.

@@ -10,4 +10,4 @@ Ma réponse : nombrejourdeteletravailmaxparsemaine=5
 Mon raisonnement :
 
 * Les documents ne précisent pas le nombre maximum de jours de télétravail par semaine.
-* En vertu de la règle 2G, le nombre maximum de jours de télétravail par semaine ne peut pas être strictement supérieur à cinq.
+* En vertu de la règle 2.F, le nombre maximum de jours de télétravail par semaine ne peut être strictement supérieur à cinq.

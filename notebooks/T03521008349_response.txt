@@ -1,11 +1,15 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Par principe, le télétravail est limité à deux journées par semaine." (Document id=1)
-* "Les jours de télétravail seront fixés ou validés par le responsable hiérarchique selon les besoins et contraintes du service et pourront être fixés indifféremment sur tous les jours de la semaine. Il est précisé que le manager peut identifier des jours et/ou semaines pendant lesquels le télétravail est exclu en raison de l’organisation de l’activité" (Document id=3)
+* "Par principe, le télétravail est limité à deux journées par semaine." (Doc(page\_content="De manière à maintenir le lien social, la cohésion et le bon fonctionnement des services mais aussi afin de prévenir l'isolement du télétravailleur, le nombre de jours en télétravail est limité.\nQu’il soit régulier ou occasionnel, par principe, le télétravail est limité à deux journées par semaine.", metadata={'id': 1,'relevance\_score': 0.96336204}))
+* "Les jours de télétravail seront fixés ou validés par le responsable hiérarchique selon les besoins et contraintes du service et pourront être fixés indifféremment sur tous les jours de la semaine.\nIl est précisé que le manager peut identifier des jours et/ou semaines pendant lesquels le télétravail est exclu en raison de l’organisation de l’activité (jour des réunions hebdomadaires de service, jours dédiés aux tâches qui exigent une présence sur site…)." (Document(page\_content='À cet effet, l’organisation du télétravail (la fréquence et la répartition des jours télétravaillés) au sein de chaque service est de la responsabilité du chef de service. \nLes jours de télétravail seront fixés ou validés par le responsable hiérarchique selon les besoins et contraintes du service et pourront être fixés indifféremment sur tous les jours de la semaine.\nIl est précisé que le manager peut identifier des jours et/ou semaines pendant lesquels le télétravail est exclu en raison de l’organisation de l’activité (jour des réunions hebdomadaires de service, jours dédiés aux tâches qui exigent une présence sur site…).', metadata={'id': 3,'relevance\_score': 0.9632196}))
 
-Ma réponse après raisonnement :
+Ma réponse après raisonnement ci-dessous :
 nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-Le document id=1 indique clairement que "le télétravail est limité à deux journées par semaine". Le document id=3 confirme cette limite en précisant que "les jours de télétravail seront fixés ou validés par le responsable hiérarchique selon les besoins et contraintes du service et pourront être fixés indifféremment sur tous les jours de la semaine", mais ne mentionne pas la possibilité de travailler plus de deux jours par semaine. Par conséquent, je conclus que le nombre maximal de jours de télétravail par semaine est de 2.
+
+* J'ai recherché dans les documents fournis les mentions de limitation du nombre de jours de télétravail par semaine.
+* Deux documents contenaient des informations pertinentes.
+* Dans le premier document, il est clairement stipulé que "par principe, le télétravail est limité à deux journées par semaine".
+* Dans le deuxième document, il est mentionné que "les jours de télétravail seront fixés ou validés par le responsable hiérarchique selon les besoins et contraintes du service et pourront être fixés indifféremment sur tous les jours de la semaine", ce qui confirme que la limite est de deux jours par semaine.

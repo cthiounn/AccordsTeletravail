@@ -5,10 +5,10 @@ Mon extraction de deux paragraphes max pertinents provenant des documents à ana
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=1
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=1**
 
 Mon raisonnement :
 
-* Je me base sur le document id: 0, car il est le seul à donner une information quantifiable sur le nombre de jours de télétravail par semaine.
-* Selon ce document, le télétravail peut s'effectuer sur une demi-journée au minimum et au maximum 1 journée par semaine.
-* Par conséquent, le nombre maximal de jours de télétravail par semaine est de 1.
+* Je me base sur le document id: 0, car il est le seul à donner une information quantitative sur le nombre de jours de télétravail par semaine.
+* Ce document indique que le télétravail peut s'effectuer "au maximum 1 journée par semaine".
+* Par conséquent, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur maximale de 1 jour par semaine.

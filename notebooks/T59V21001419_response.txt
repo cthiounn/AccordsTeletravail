@@ -1,8 +1,8 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* ARTICLE 4 – RYTHME DU TELETRAVAIL : "l’employeur a décidé de limiter le télétravail à domicile à 4 jours par mois pour les personnes à temps plein. Les 4 journées de télétravail mensuelles autorisées seront à répartir de la façon suivante : 1 jour de télétravail fixe par semaine calendaire, déterminé en accord avec le manager."
-* ARTICLE 11 – CONDITIONS DU TELETRAVAIL ET EQUIPEMENTS DE TRAVAIL : "l’employeur a décidé de limiter le télétravail à domicile à 4 jours par mois pour les personnes à temps plein."
+* ARTICLE 4 – RYTHME DU TELETRAVAIL : « l’employeur a décidé de limiter le télétravail à domicile à 4 jours par mois pour les personnes à temps plein. Les 4 journées de télétravail mensuelles autorisées seront à répartir de la façon suivante : 1 jour de télétravail fixe par semaine calendaire, déterminé en accord avec le manager. » (Document id=2, relevance\_score=0.95564896)
+* ARTICLE 11 – CONDITIONS DU TELETRAVAIL ET EQUIPEMENTS DE TRAVAIL : « l’employeur a décidé de limiter le télétravail à domicile à 4 jours par mois pour les personnes à temps plein. » (Document id=7, relevance\_score=0.9407494)
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -10,4 +10,4 @@ nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
 
-En prenant en compte les règles 2A, 2B, 2C, 2D, 2E, 2F, 2G, 2H, 2I, 2J, 2K, je me suis concentré sur les règles 2E et 2G. En effet, la règle 2E permet de savoir que le maximum de jours de télétravail par semaine est de 5 jours. Cependant, la règle 2G nous dit que ce nombre ne peut pas être strictement supérieur à cinq. Donc, le maximum de jours de télétravail par semaine est de 1 jour.
+J'ai identifié deux passages pertinents qui indiquent que l'employeur a décidé de limiter le télétravail à domicile à 4 jours par mois pour les personnes à temps plein. Comme il y a cinq jours ouvrés dans une semaine, le nombre maximal de jours de télétravail par semaine est donc limité à un jour.

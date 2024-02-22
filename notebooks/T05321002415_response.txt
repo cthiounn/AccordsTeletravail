@@ -4,9 +4,7 @@ Mon extraction de deux paragraphes max pertinents provenant des documents à ana
 * "Un nombre de jours télétravaillés pouvant être porté jusqu’à 3 jours par semaine sur accord du manager." (Document(page\_content='Rythme et organisation du télétravail régulier\n\nLe manager du télétravailleur est responsable de la planification des activités de son équipe. Le télétravail s’organise dans le respect de la durée et de l’organisation du travail en vigueur dans l’entreprise.\n\n\n\n7.1. Nombre de jours télétravaillés\n\nLe nombre de jours télétravaillés s’organise de la façon suivante\xa0: \nUn nombre de jours télétravaillés pouvant être porté jusqu’à 3 jours par semaine sur accord du manager.\nSoit 2 jours de présence sur site obligatoire minimum par semaine afin de préserver le lien social', metadata={'id': 9,'relevance\_score': 0.9493649}))
 
 Ma réponse après raisonnement ci-dessous :
-
-* nombrejourdeteletravailmaxparsemaine=3
+nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
-
-* J'ai identifié dans le document 9, la phrase "Un nombre de jours télétravaillés pouvant être porté jusqu’à 3 jours par semaine sur accord du manager.", qui m'indique que le maximum de jours de télétravail par semaine est de 3.
+J'ai trouvé dans le document 9, une indication claire du nombre maximum de jours de télétravail par semaine, qui est de 3 jours. Cette information est pertinente car elle correspond exactement à la question posée et est issue d'un document décrivant le rythme et l'organisation du télétravail régulier.

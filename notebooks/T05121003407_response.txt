@@ -1,12 +1,14 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine" (Document(page\_content='Article 3	: Modalités du télétravail au sein de l’UES.\n\n3.3 - Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine, et à 10 jours par mois. Les jours télé-travaillés ne sont ni cumulables ni reportables d’un mois sur l’autre.', metadata={'id': 1,'relevance\_score': 0.9661867}))
+* "Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine" (Document id: 1, page_content: "Article 3	: Modalités du télétravail au sein de l’UES.")
+* "Il s’inscrit en cela dans la politique affichée de l’entreprise de développer la RSE." (Document id: 8, page_content: "2.4 - La généralisation du télétravail, au-delà de la période de crise sanitaire, nécessite de définir des règles sociales qui garantissent l’équité et contribue à faciliter l’organisation collective du travail.")
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=4
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=4**
 
 Mon raisonnement :
 
-Je me base sur l'extraction du document d'ID 1, qui indique que "Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine". Je ne trouve pas d'autres informations contradictoires ou plus restrictives dans les autres documents, je conclus donc que la limite maximale de jours de télétravail par semaine est de 4.
+* J'ai identifié dans le document id: 1, la phrase "Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine". Ceci correspond à l'information recherchée.
+* Je n'ai pas trouvé d'autres occurrences dans les autres documents qui modifieraient cette information.

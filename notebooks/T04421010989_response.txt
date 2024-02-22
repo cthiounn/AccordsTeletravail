@@ -1,15 +1,14 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Un minimum de 3 jours par semaine calendaire au bureau sera observé. Ainsi, entre un et deux jours par semaine de télétravail pourront être mis en place pour un salarié à temps plein." (Document id 0)
-* "Les collaborateurs à temps partiel suivront la même règle d’une présence minimum de 3 jours calendaires par semaine au bureau, le reste du temps de travail pouvant être en télétravail, en journées ou demi-journées." (Document id 7)
+* Document(page\_content='Un minimum of 3 days per calendar week at the office will be observed. Thus, between one and two days per week of teleworking can be implemented for a full-time employee. This can be half-days or whole days. The days of the week concerned by teleworking will be fixed, and chosen jointly between employee and hierarchical supervisor. They may be exceptionally modified, with the agreement of the hierarchical supervisor.'),
+* Document(page\_content='Les collaborateurs à temps partiel suivront la même règle d’une présence minimum de 3 days calendaires par semaine au bureau, le reste du temps de travail pouvant être en télétravail, en journées ou demi-journées.')
 
 Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=2
+**nombrejourdeteletravailmaxparsemaine=2**
 
 Mon raisonnement :
 
-* Selon le document id 0, il est possible de faire entre 1 et 2 jours de télétravail par semaine pour un salarié à temps plein.
-* Selon le document id 7, les collaborateurs à temps partiel doivent travailler au moins 3 jours par semaine au bureau, ce qui signifie qu'ils peuvent faire au maximum 2 jours de télétravail par semaine.
-* Je prends en compte la limite de 2 jours de télétravail par semaine car elle est la plus restrictive entre les deux limites trouvées dans les documents.
+* Selon le premier document, il est possible de faire entre 1 et 2 jours de télétravail par semaine.
+* Selon le deuxième document, les collaborateurs à temps partiel doivent être présents au moins 3 jours calendaires par semaine au bureau, ce qui signifie que le reste du temps peut être en télétravail. Or, il y a 5 jours ouvrés dans une semaine, donc le nombre maximum de jours de télétravail par semaine est de 5 - 3 = 2 jours.

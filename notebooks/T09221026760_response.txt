@@ -1,16 +1,10 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Plus de 2 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme d’une journée maximum de télétravail"
-* "Plus de 3 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme de deux journées maximum de télétravail"
+* Document(page\_content='En cas d’annulation d’un jour de télétravail, celui-ci est reporté de préférence dans la même semaine ou au plus tard au cours des quatre (4) semaines suivant le jour annulé et ce, sous réserve que ce report soit compatible avec l’organisation, la continuité du service et les conditions fixées ci-dessus. Dans ce cadre, les parties au présent accord d’entreprise conviennent qu’en tout état de cause le salarié ne pourra pas exercer\xa0:**plus de 2 journées de télétravail par semaine**, pour le personnel bénéficiant d’un avenant entérinant un rythme d’une journée maximum de télétravail\n**Plus de 3 journées de télétravail par semaine**, pour le personnel bénéficiant d’un avenant entérinant un rythme de deux journées maximum de télétravail', metadata={'id': 0,'relevance\_score': 0.9631029})
 
 Ma réponse après raisonnement ci-dessous :
-
-Ma réponse : nombrejourdeteletravailmaxparsemaine=3
+nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
-
-* J'ai identifié deux passages pertinents dans les documents qui indiquent le nombre maximum de jours de télétravail par semaine.
-* Le premier passage indique qu'il ne peut pas y avoir plus de 2 journées de télétravail par semaine pour le personnel bénéficiant d'un avenant entérinant un rythme d'une journée maximum de télétravail.
-* Le deuxième passage indique qu'il ne peut pas y avoir plus de 3 journées de télétravail par semaine pour le personnel bénéficiant d'un avenant entérinant un rythme de deux journées maximum de télétravail.
-* Comme je dois fournir la valeur maximale, je propose le nombre de 3 jours de télétravail par semaine.
+J'ai trouvé dans le document 0, deux mentions concernant le nombre maximal de jours de télétravail par semaine. La première limite à 2 le nombre de jours de télétravail par semaine pour le personnel bénéficiant d'un avenant entérinant un rythme d'une journée maximum de télétravail. La deuxième limite à 3 le nombre de jours de télétravail par semaine pour le personnel bénéficiant d'un avenant entérinant un rythme de deux journées maximum de télétravail. Comme je dois fournir la valeur maximale, je réponds 'nombrejourdeteletravailmaxparsemaine=3'.

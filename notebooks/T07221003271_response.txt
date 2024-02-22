@@ -1,12 +1,15 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Pas d'extraction possible car aucun des documents ne contient d'information relative au nombre maximal de jours de télétravail par semaine.
+* Document(page\_content="", metadata={'id': 0,'relevance\_score': 0.956643}) : Pas de mention du nombre de jours maximum de télétravail par semaine.
+* Document(page\_content='', metadata={'id': 1,'relevance\_score': 0.9406026}) : Pas de mention du nombre de jours maximum de télétravail par semaine.
+* Document(page\_content="Le présent avenant fera l'objet d'une diffusion identique au protocole d'accord initial.", metadata={'id': 2,'relevance\_score': 0.076090105}) : Pas de mention du nombre de jours maximum de télétravail par semaine.
+* Document(page\_content='L\'article 10.3 relatif à l\'attribution de titres restaurant est supprimé ;\nL\'article 14.4 relatif à la procédure d\'agrément et de communication de l\'accord est modifié comme suit :', metadata={'id': 3,'relevance\_score': 0.9528535}) : Pas de mention du nombre de jours maximum de télétravail par semaine.
 
 Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=0
+**Ma réponse :** nombrejourdeteletravailmaxparsemaine=0
 
 Mon raisonnement :
 
-Les documents fournis ne contiennent aucune information spécifique concernant le nombre maximal de jours de télétravail par semaine. Par conséquent, je ne peux pas fournir de réponse autre que zéro.
+Après avoir analysé les différents documents fournis, je n'ai trouvé aucune mention explicite du nombre maximum de jours de télétravail par semaine. Par conséquent, en appliquant les règles 2.A à 2.F, je conclus que le nombre de jours de télétravail maximum par semaine est égal à zéro.

@@ -1,7 +1,7 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail fait l'objet d'un avenant au contrat de travail." (Document(page\_content='Le télétravail fait l'objet d’un avenant au contrat de travail.', metadata={'id': 4,'relevance\_score': 0.960389}))
+* "Le télétravail fait l'objet d'un avenant au contrat de travail." (Document(page\_content='Le télétravail fait l’objet d’un avenant au contrat de travail.', metadata={'id': 4,'relevance\_score': 0.960389}))
 * "Pour la cohésion des équipes, le lundi est nécessairement travaillé sur site." (Document(page\_content='Pour la cohésion des équipes, le lundi est nécessairement travaillé sur site.', metadata={'id': 5,'relevance\_score': 0.9522348}))
 
 Ma réponse après raisonnement ci-dessous :
@@ -10,4 +10,5 @@ Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
 
 Mon raisonnement :
 
-Après avoir lu les deux documents pertinents, je n'ai pas trouvé de mention spécifique du nombre maximum de jours de télétravail par semaine proposé, recommandé ou limité. Cependant, en appliquant les règles données dans l'instruction, nous savons que le nombre de jours de télétravail par semaine ne peut pas être strictement supérieur à cinq. Donc, je propose **nombrejourdeteletravailmaxparsemaine=5**.
+* Selon le premier document, le télétravail fait l'objet d'un avenant au contrat de travail, mais aucune limitation de nombre de jours de télétravail par semaine n'est mentionnée.
+* Selon le deuxième document, pour la cohésion des équipes, le lundi est nécessairement travaillé sur site, ce qui implique que les autres jours de la semaine peuvent être des jours de télétravail. Comme il y a cinq jours ouvrés dans une semaine, il est donc possible de télétravailler jusqu'à cinq jours par semaine.

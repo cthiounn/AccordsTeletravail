@@ -1,7 +1,7 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail est possible dans la limite de 3 jours par semaine, à l’exception du lundi." (Document(page\_content='6.1 Télétravail pendulaire...', metadata={'id': 0,'relevance\_score': 0.9648939}))
+* "Le télétravail est possible dans la limite de 3 jours par semaine, à l’exception du lundi." (Document(page\_content='6.1 Télétravail pendulaire ', metadata={'id': 0,'relevance\_score': 0.9648939}))
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -9,4 +9,4 @@ nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
 
-Je me base sur le document 0, qui mentionne explicitement que "Le télétravail est possible dans la limite de 3 jours par semaine, à l’exception du lundi.". Cette information correspond à la directive maximale hebdomadaire de télétravail, je peux donc conclure que le nombre maximal de jours de télétravail par semaine proposé, recommandé ou limité est de 3.
+J'ai trouvé dans le document 0 une indication claire et précise du nombre maximum de jours de télétravail possibles par semaine, à savoir 3 jours. Cette information est donnée dans le paragraphe extrait et n'a pas besoin de calcul ou de raisonnement supplémentaire pour être extraite.

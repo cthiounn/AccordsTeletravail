@@ -5,8 +5,9 @@ Mon extraction de deux paragraphes max pertinents provenant des documents à ana
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
+Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* J'extrais la réponse directement du document id: 1, car il contient explicitement la réponse à la question posée.
+* J'extrais la phrase "le salarié peut télétravailler au maximum 2 jours par semaine" du document id: 1
+* Je conclus que le maximum de jours de télétravail par semaine est de 2 jours.

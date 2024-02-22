@@ -1,12 +1,12 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein." (Document id: 5)
+* Document(page\_content='6-1 Rythme du télétravail\nDe sorte à éviter le risque d’une « distanciation » avec l’entreprise, le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein.\nEn revanche, pour les collaborateurs à temps partiel, le nombre de jours maximum en télétravail est fixé à 1 jour par semaine.', metadata={'id': 5,'relevance\_score': 0.9655839})
 
-Ma réponse :
+Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=2
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=2**
 
 Mon raisonnement :
 
-Je me base sur l'article 6-1 du document id: 5 pour conclure que le nombre maximum de jours de télétravail par semaine est de 2 pour un collaborateur à temps plein.
+* J'extrais le nombre maximal de jours de télétravail par semaine pour un collaborateur à temps plein dans le document pertinent.

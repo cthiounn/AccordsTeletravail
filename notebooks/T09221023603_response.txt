@@ -1,8 +1,8 @@
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail occasionnel s’effectue à raison de deux jours par semaine maximum" (document d'id 6)
-* "Le télétravail régulier s’effectue à raison de deux jours par semaine maximum" (document d'id 0)
+* "Le télétravail occasionnel s’effectue à raison de deux  jours par semaine maximum" (document d'id 6)
+* "Le salarié en télétravail devra également être présent physiquement dans les locaux de l’entreprise 3 jours minimum par semaine. Ainsi, lorsque sur une semaine donnée, le salarié se trouve, pour au moins deux jours, absent des locaux de l’entreprise (en raison par exemple d’une formation, de congés de toute nature, d’un séminaire, d’un arrêt de travail, travail à temps partiel, …), il ne pourra pas mobiliser de journée de télétravail sur cette semaine." (document d'id 0)
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -10,4 +10,4 @@ nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-Je me suis basé sur les deux documents fournis pour répondre à la question. Dans le premier document (d'id 6), il est mentionné que le télétravail occasionnel s’effectue à raison de deux jours par semaine maximum. De même, dans le second document (d'id 0), il est mentionné que le télétravail régulier s’effectue à raison de deux jours par semaine maximum. Par conséquent, la valeur maximale du nombre de jours de télétravail par semaine est de 2.
+J'ai trouvé deux passages distincts qui indiquent le nombre maximal de jours de télétravail par semaine. Dans le premier document d'id 6, il est spécifié que "Le télétravail occasionnel s’effectue à raison de deux  jours par semaine maximum". Dans le second document d'id 0, il est mentionné que "Le salarié en télétravail devra également être présent physiquement dans les locaux de l’entreprise 3 jours minimum par semaine. Ainsi, lorsque sur une semaine donnée, le salarié se trouve, pour au moins deux jours, absent des locaux de l’entreprise (en raison par exemple d’une formation, de congés de toute nature, d’un séminaire, d’un arrêt de travail, travail à temps partiel, …), il ne pourra pas mobiliser de journée de télétravail sur cette semaine.", ce qui implique que le nombre maximal de jours de télétravail par semaine est de 2 jours.

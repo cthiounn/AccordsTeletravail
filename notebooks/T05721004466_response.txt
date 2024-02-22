@@ -1,15 +1,8 @@
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* ARTICLE 4 - MISE EN PLACE DU TELETRAVAIL A TITRE EXCEPTIONNEL : "Pour mémoire, en application de l’article L. 1222-9 du Code du Travail, le télétravail occasionnel peut être organisé sous réserve de l’accord de l’employeur. Aussi, il a été également décidé de mettre en place le télétravail auprès des collaborateurs équipés de moyens informatiques appropriés, de façon exceptionnelle notamment lors de crise sanitaire, occasionnelle été sur une durée limitée, sous réserve d’un double volontariat et de l’accord de l’employeur. Compte tenu des missions poursuivies par l’Association, le télétravail ne peut être utilisé comme un mode d’organisation du travail classique. Il est précisé que le télétravail occasionnel ne constitue pas en soi un élément essentiel du contrat."
-
-Ma réponse après raisonnement ci-dessous :
-
-Ma réponse : nombrejourdeteletravailmaxparsemaine=5
-
-Mon raisonnement :
-
-* Je me base sur l'extrait de l'article 4 pour mon raisonnement.
-* Le texte mentionne que le télétravail est mis en place de façon exceptionnelle, notamment lors de crise sanitaire, occasionnelle et sur une durée limitée.
-* Cependant, il n'y a pas de limitation spécifiée quant au nombre maximal de jours de télétravail par semaine.
-* En l'absence de toute autre information, je dois considérer que le nombre maximal de jours de télétravail par semaine est de 5, conformément à la règle 2G.
+Q_TTSEM_NOMBRE:* Extraits pertinents :
+    * "ARTICLE 4 - MISE EN PLACE DU TELETRAVAIL A TITRE EXCEPTIONNEL [...] Il est précisé que le télétravail occasionnel ne constitue pas en soi un élément essentiel du contrat." (Document ID 0)
+    
+* Ma réponse :
+    * nombrejourdeteletravailmaxparsemaine=5
+    
+* Mon raisonnement :
+    * Selon l'article 4 du document ID 0, le télétravail est mis en place de façon exceptionnelle et sur une durée limitée, sous réserve d'un double volontariat et de l'accord de l'employeur. Cependant, aucune limitation explicite du nombre de jours de télétravail par semaine n'est mentionnée dans le texte. En outre, l'article 2.F stipule qu'il n'y a pas de lien entre l'effectif d'un service et le nombre de jours de télétravail. Par conséquent, je propose une valeur maximale de 5 jours de télétravail par semaine, car c'est le nombre maximal de jours ouvrés dans une semaine.

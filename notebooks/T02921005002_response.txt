@@ -1,13 +1,11 @@
 Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    * "Le télétravail tel que défini ci-dessus s’organise chez SWM par journée ou par demi-journée, sous réserve de respecter une obligation de 2 jours de présence par semaine minimum sur le site de rattachement habituel." (Document id: 0)
-    
-    * "Tous les jours ouvrés de la semaine sont des jours télétravaillables, SWM n’émet aucune exception a priori." (Document id: 1)
+    Document(page\_content='4.1 Modalités d’organisation du télétravail\nLe télétravail tel que défini ci-dessus s’organise chez SWM\xa0par journée ou par demi-journée, sous réserve de respecter une obligation de 2 jours de présence par semaine minimum sur le site de rattachement habituel. \nIl est proposé via une formule de télétravail à jours fixes ou flexibles, le choix de la formule s’effectuant en concertation entre le télétravailleur et le manager selon les besoins liés à l’activité.', metadata={'id': 0,'relevance\_score': 0.9621869})
 
-* Ma réponse après raisonnement ci-dessous :
+* Ma réponse après raisonnement :
 
-    * nombrejourdeteletravailmaxparsemaine=5
+    nombrejourdeteletravailmaxparsemaine=5
 
 * Mon raisonnement :
 
-    * D'après le document id: 0, le télétravail s'organise par journée ou demi-journée, sous réserve de respecter une obligation de 2 jours de présence par semaine minimum sur le site de rattachement habituel. Donc, le nombre maximum de jour de télétravail par semaine est de 5.
+    Selon le document fourni, le télétravail est organisé par journée ou demi-journée, avec une obligation de 2 jours de présence minimum sur le site de rattachement habituel par semaine. Il est également proposé une formule de télétravail à jours fixes ou flexibles, en concertation entre le télétravailleur et le manager selon les besoins liés à l’activité. Cependant, il n’y a pas de limite explicite quant au nombre maximum de jours de télétravail par semaine. Compte tenu du fait que les semaines ont cinq jours ouvrés, et que le télétravail peut être organisé par journée ou demi-journée, je conclus que le nombre maximum de jours de télétravail par semaine est de cinq.

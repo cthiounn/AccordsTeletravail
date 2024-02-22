@@ -2,6 +2,7 @@ Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le nombre de jours télétravaillés est limité à deux jours complets par semaine." (Document id 0)
+* "Le manager peut prévoir au niveau de son équipe qu’un ou des jours de la semaine ou certaines semaines du mois ne soient pas ouverts au télétravail." (Document id 4)
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -9,4 +10,7 @@ Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-La réponse est explicitement donnée dans le document id 0, article 11, où il est stipulé que "le nombre de jours télétravaillés est limité à deux jours complets par semaine".
+* J'extrais le nombre de jours de télétravail maximum par semaine dans le premier document pertinent : "Le nombre de jours télétravaillés est limité à deux jours complets par semaine."
+* Je ne tiens pas compte du deuxième document pertinent car il ne propose pas de limite mais une possibilité de restriction par le manager.
+* Je ne tiens pas compte des règles de connexion des périodicités car je me concentre uniquement sur la limite hebdomadaire.
+* Je ne tiens pas compte des règles de raisonnement, de proratisation, d'effectif ou de télétravail à 100% car elles ne sont pas pertinentes pour cette question.
