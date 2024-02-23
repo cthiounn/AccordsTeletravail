@@ -1,4 +1,5 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail maximum autorisé par semaine. Les documents mentionnent seulement que le nombre de jours de télétravail est convenu entre le salarié et son manager, et que le télétravail ne doit pas modifier la durée de travail du salarié.
+Q_TTSEM:
+Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé ou limité par semaine. Les documents abordent plutôt les modalités et les conditions du télétravail, telles que les équipements nécessaires, les horaires de travail, les pauses et les breaks, la confidentialité des informations, etc. Cependant, il est mentionné que la répartition des jours de télétravail dans la semaine doit être convenue entre le salarié et son manager, mais aucun nombre n'est spécifié.
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 * "Le nombre de jours de télétravail imposés par semaine peut être réévalué par l’entreprise en fonction des mesures soit recommandées soit imposées par les Pouvoirs Publics."
 * "En cas de télétravail en dessous de 100%, les jours télétravaillés dans la semaine sont convenus entre le Salarié et son manager, le cas échéant après avis de la Direction des Ressources Humaines, afin de respecter une jauge dans les locaux de l’entreprise qui soit adaptée à la situation sanitaire."

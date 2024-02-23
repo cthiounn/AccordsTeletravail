@@ -1,10 +1,9 @@
 Q_TTSEM:
-Oui, le document contient au moins un paragraphe qui mentionne un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Il s'agit du paragraphe suivant :
+Oui, deux paragraphes mentionnent un nombre de jour de télétravail autorisé explicitement exprimé par semaine.
 
-"d’une journée par semaine pour un salarié d’une ancienneté ≥ à 1an et ˂ à 2 ans,
-de 2 jours par semaine pour un salarié d’une ancienneté ≥ à 2 ans"
+Le premier paragraphe est issu du document avec la métadonnée'source': 'T06821004760.txt' et la page\_content: 'd’une journée par semaine pour un salarié d’une ancienneté ≥ à 1an et ˂ à 2 ans,\nde 2 jours par semaine pour un salarié d’une ancienneté ≥ à 2 ans'. Ici, il est mentionné qu'un salarié d'une ancienneté supérieure à 1 an et inférieure à 2 ans a droit à un jour de télétravail par semaine, tandis qu'un salarié d'une ancienneté supérieure à 2 ans a droit à deux jours de télétravail par semaine.
 
-Cette information se trouve dans le document avec l'identifiant "T06821004760.txt".
+Le deuxième paragraphe est issu du document avec la métadonnée'source': 'T06821004760.txt' et la page\_content: 'Les dispositions du présent article ne remettent pas en cause la situation des salariés en télétravail total à la date des présentes (télétravail à 100 %), mais également la situation des télétravailleurs ayant pu bénéficier de 3 jours de télétravail par semaine de par les règles appliquées dans le précédent accord'. Ici, il est mentionné qu'un certain nombre de télétravailleurs ont droit à trois jours de télétravail par semaine.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Les dispositions du présent article ne remettent pas en cause la situation des salariés en télétravail total à la date des présentes (télétravail à 100 %), mais également la situation des télétravailleurs ayant pu bénéficier de 3 jours de télétravail par semaine de par les règles appliquées dans le précédent accord"

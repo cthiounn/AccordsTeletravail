@@ -1,5 +1,4 @@
-Q_TTSEM:
-Oui, le document 4-2 mentionne explicitement qu'un salarié éligible au télétravail peut en bénéficier "dans la limite d'un jour par semaine".
+Q_TTSEM:Oui, le document contient un paragraphe mentionnant un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Il s'agit du paragraphe 4-3, qui stipule que "Chaque salarié éligible au télétravail pourra en bénéficier dans la limite d'un jour par semaine."
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Le télétravailleur dispose d’une priorité pour reprendre ou occuper un poste sans télétravail qui correspond à ses qualifications et compétences professionnelles." (T01321010151.txt)
 * "Le télétravail doit s’articuler avec le principe du respect de la vie privée du salarié." (T01321010151.txt)

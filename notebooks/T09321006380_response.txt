@@ -1,7 +1,23 @@
 Q_TTSEM:
-Oui, le premier document mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, qui est de deux jours. Voici la partie du texte pertinente :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés ou limités explicitement exprimés par semaine. Voici les références des documents et des passages pertinents :
 
-"Afin de maintenir le lien social avec la communauté de travail, l’activité exercée en télétravail à domicile pourra aller jusqu’à **deux jours** de télétravail par semaine."
+- Document(page\_content='6.2 Modalités du télétravail', metadata={'source': 'T09321006380.txt'}):
+
+> "Afin de maintenir le lien social avec la communauté de travail, l’activité exercée en télétravail à domicile pourra aller jusqu’à deux jours de télétravail par semaine."
+
+- Document(page\_content='6.2 Modalités du télétravail', metadata={'source': 'T09321006380.txt'}):
+
+> "Ce plafond de deux jours par semaine constitue un maximum qui ne pourra être dépassé par les accords d’entreprise ou chartes de télétravail des entreprises du Groupe."
+
+- Document(page\_content='6.2 Modalités du télétravail', metadata={'source': 'T09321006380.txt'}):
+
+> "Ces dernières, pourront si elles le souhaitent définir un nombre de jours maximum de télétravail inférieur à ce plafond que ce soit par accord d’entreprise ou charte de télétravail, ce plafond nouvellement défini s’appliquera seul aux salariés de l’entreprise concernée."
+
+- Document(page\_content='Dans ce cadre, et sous réserve d’être précisé dans l’accord d’entreprise ou la charte de télétravail de l’entreprise du Groupe, les salariés de l’entreprise éligibles au télétravail pourront disposer d’un compteur de journées de télétravail « volantes » dans la limite de 10 jours par an, prorata temporis. Ces journées ne constituent pas un droit du salarié.', metadata={'source': 'T09321006380.txt'}):
+
+> "Le plafond de 10 journées de télétravail « volantes » par an constitue un maximum qui ne pourra être dépassé par les accords d’entreprise ou chartes sur le télétravail des entreprises du Groupe."
+
+Réponse : Oui, au moins un paragraphe mentionne un nombre de jours de télétravail autorisés, recommandés ou limités explicitement exprimés par semaine.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Afin de maintenir le lien social avec la communauté de travail, l’activité exercée en télétravail à domicile pourra aller jusqu’à deux jours de télétravail par semaine." (Source: T09321006380.txt)

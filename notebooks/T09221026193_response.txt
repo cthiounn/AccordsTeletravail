@@ -1,4 +1,15 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine. Les documents mentionnent un nombre maximal de jours de télétravail par mois, mais pas par semaine.
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés ou limités exprimés explicitement par semaine. Voici ces passages :
+
+- Dans le document avec la métadonnée'source': 'T09221026193.txt' et la page\_content commençant par "Ces jours hebdomadaires de télétravail..." :
+
+> Ces jours hebdomadaires de télétravail constituent la référence du télétravail régulier au titre du présent accord. L’instauration du télétravail régulier sur la base du nombre de jours précités ne peut cependant être un principe absolu... Au sein des Directions ou Département concernés, le télétravail régulier pourra être limité à un jour par semaine...
+
+- Dans le document avec la métadonnée'source': 'T09221026193.txt' et la page\_content commençant par "Organisation du télétravail régulier et flexible..." :
+
+> Nombre de jours de télétravail Télétravail régulier L’évolution de l’organisation du travail au sein de l’Entreprise doit amener chaque Direction ou Département à mettre en place le nombre de jours hebdomadaires de télétravail définis ci-dessous au plus grand nombre de collaborateurs. [...] Le tableau ci-après présente le nombre de jours de présence minimum dans les locaux de l’Entreprise en fonction du pourcentage de la durée du travail : [...] Ces jours hebdomadaires de télétravail constituent la référence du télétravail régulier au titre du présent accord.
+
+Les jours de télétravail sont explicitement exprimés par semaine dans ces extraits.
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
 * "Ces jours hebdomadaires de télétravail constituent la référence du télétravail régulier au titre du présent accord."

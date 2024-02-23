@@ -1,5 +1,5 @@
 Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
+Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé ou limité par semaine.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "Les parties s’entendent pour tenir compte des modifications conclues par avenant du 26 mars 2021 portant révision de l’article 6 de l’accord national du 30 septembre 2010 relatif à l’organisation et à l’aménagement du temps de travail au sein de Pôle emploi. De ce fait, le décompte du temps de travail pour les agents en situation de télétravail, quelle qu’en soit la cause, se réalise au moyen d’un système de badgeage virtuel à partir du poste informatique de l’agent."

@@ -1,9 +1,9 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine.
+Oui, plusieurs paragraphes mentionnent un nombre de jour de télétravail autorisé, recommandé ou limité, explicitement exprimé par semaine.
 
-Pour le personnel non-cadre, le nombre maximal de jours de télétravail par semaine est limité à un jour (page_content='Fréquence et nombre de jours travaillés').
+Pour le personnel non-cadre, le nombre de jours de télétravail est limité à un jour par semaine (page_content='Fréquence et nombre de jours travaillés').
 
-Pour le personnel cadre, le nombre maximal de jours de télétravail par semaine est limité à deux jours (page\_content='Fréquence et nombre de jours travaillés').
+Pour le personnel cadre, le nombre de jours télétravaillés est donc limité à deux jours par semaine (page_content='Fréquence et nombre de jours travaillés').
 Q_TTSEM_NOMBRE:
 * Extraction pertinente du document :
     * "Le temps de présence dans les locaux devra être au minimum de 4 jours ouvrés par semaine afin de prévenir tout risque d’isolement. Le nombre de jours de télétravail est donc limité à un jour par semaine."

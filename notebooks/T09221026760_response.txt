@@ -1,10 +1,11 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Voici ces passages :
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les extraits pertinents :
 
-- "Les parties au présent accord conviennent qu’en tout état de cause le salarié ne pourra pas exercer plus de 2 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme d’une journée maximum de télétravail"
+- "L’accord-cadre de Groupe prévoit deux formules de rythme de télétravail possible. Les parties au présent accord retiennent la formule de télétravail suivante pour le personnel dont les postes sont éligibles conformément à l’article 2-1-2 : rythme de télétravail de 2 jours au maximum par semaine et par salarié."
 
-- "Les parties au présent accord retiennent la formule de télétravail suivante pour le personnel dont les postes sont éligibles conformément à l’article 2-1-2 : rythme de télétravail de 2 jours au maximum par semaine et par salarié."
+- "Dans ce cadre, les parties au présent accord d’entreprise conviennent qu’en tout état de cause le salarié ne pourra pas exercer : plus de 2 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme d’une journée maximum de télétravail ; Plus de 3 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme de deux journées maximum de télétravail."
 
-Ces deux extraits indiquent clairement que le nombre maximal de jours de télétravail par semaine est de 2.
+Par conséquent, la réponse à votre question est affirmative : au moins un paragraphe mentionne un nombre de jours de télétravail autorisés par semaine, et il y en a même plusieurs dans le document fourni.
 Q_TTSEM_NOMBRE:
 * Deux paragraphes pertinents provenant des documents à analyser :
 

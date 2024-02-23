@@ -1,11 +1,18 @@
-Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Voici ces paragraphes :
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés explicitement exprimé par semaine. Voici ces paragraphes :
 
-- Dans le document avec la métadonnée « T07821008551.txt » et la page_content commençant par « De manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum », il est indiqué que le télétravail s’exerce à raison de deux journées fixes par semaine maximum.
+- "En fonction de la durée du travail prévue au contrat de travail, ceux-ci peuvent bénéficier d’une demi-journée, d’une journée ou d’une journée et demie de télétravail par semaine"
 
-- Dans le même document, mais avec la page_content commençant par « Dès l’embauche, le télétravail peut s’exercer à raison d’une journée entière fixe par semaine, pour une période de 6 mois, à compter de la date d’embauche », il est indiqué que le télétravail peut s’exercer à raison d’une journée entière fixe par semaine.
+- "De manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum."
 
-- Dans le document avec la métadonnée « T07821008551.txt » et la page_content commençant par « En fonction de la durée du travail prévue au contrat de travail, ceux-ci peuvent bénéficier d’une demi-journée, d’une journée ou d’une journée et demie de télétravail par semaine », il est indiqué que les salariés peuvent bénéficier d’une demi-journée, d’une journée ou d’une journée et demie de télétravail par semaine.
+- "Dès l’embauche, le télétravail peut s’exercer à raison d’une journée entière fixe par semaine,"
+
+- "Si le collaborateur exerce initialement une journée de télétravail par semaine : possibilité de réaliser 4 jours en télétravail sur le mois"
+
+- "Si le collaborateur exerce initialement deux jours de télétravail par semaine: possibilité de réaliser 8 jours de télétravail sur le mois."
+
+- "Les Parties s’accordent sur le fait qu’un collaborateur doit être présent sur son lieu de travail au minimum 3 jours par semaine."
+
+Notez que certains de ces passages mentionnent des limites hebdomadaires maximales, tandis que d'autres mentionnent des limites minimales ou des nombres de jours pouvant être effectués dans certaines circonstances.
 Q_TTSEM_NOMBRE:
 Extraction de deux paragraphes pertinents provenant des documents à analyser :
 

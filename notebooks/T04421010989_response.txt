@@ -1,5 +1,9 @@
-Q_TTSEM:
-Oui, effectivement, un paragraphe mentionne un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Il s'agit du paragraphe intitulé "Sauf cas particulier (cf paragraphe suivant), le télétravail régulier sera pratiqué selon les modalités suivantes :". Dans ce paragraphe, il est stipulé qu'un salarié à temps plein peut effectuer un maximum de deux jours de télétravail par semaine.
+Q_TTSEM:Oui, un paragraphe mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Il s'agit du paragraphe suivant :
+
+"Sauf cas particulier (cf paragraphe suivant), le télétravail régulier sera pratiqué selon les modalités suivantes :
+Un minimum de 3 jours par semaine calendaire au bureau sera observé. Ainsi, entre un et deux jours par semaine de télétravail pourront être mis en place pour un salarié à temps plein. Ce par demi-journées ou journées."
+
+Ce paragraphe indique clairement qu'un salarié à temps plein peut faire entre 1 et 2 jours de télétravail par semaine.
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 
 * "Un minimum de 3 jours par semaine calendaire au bureau sera observé. Ainsi, entre un et deux jours par semaine de télétravail pourront être mis en place pour un salarié à temps plein."

@@ -1,4 +1,5 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine.
+Q_TTSEM:
+Oui, l'Article 3 du document T00321001449.txt mentionne explicitement qu'un jour de télétravail par semaine est accordé sur la base du volontariat.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "L’employeur accorde un jour de télétravail par semaine"

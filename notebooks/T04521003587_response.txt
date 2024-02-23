@@ -1,4 +1,4 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine. Les documents mentionnent uniquement que le télétravail est possible dans la limite de 3 jours par semaine, mais cela n'indique pas si cela inclut ou non les jours supplémentaires ou exceptionnels.
+Q_TTSEM:Oui, le document 6 contient un paragraphe mentionnant un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Selon ce paragraphe, le télétravail est possible dans la limite de 3 jours par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le télétravail est possible dans la limite de 3 jours par semaine, à l’exception du lundi." (Document(page\_content='6.1 Télétravail pendulaire...', metadata={'source': 'T04521003587.txt'}))

@@ -1,4 +1,5 @@
-Q_TTSEM:Oui, le paragraphe "6.1 Nombre, répartition et fréquence des journées télétravailées" mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine qui est de "un ou deux jours entier(s) maximum par semaine". Cette information se trouve dans le document avec l'identifiant "T06421003693.txt".
+Q_TTSEM:
+Oui, le paragraphe intitulé "6.1 Nombre, répartition et fréquence des journées télétravailées" mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Il est indiqué que "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine".
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
 * "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine." (from Document(page\_content='...'))

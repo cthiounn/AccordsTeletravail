@@ -1,4 +1,13 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail maximum autorisé par semaine. Les seuls nombres de jours de télétravail mentionnés sont le nombre de jours minimum requis pour certaines catégories de salariés, mais il n'y a pas de limite maximale explicite pour la semaine.
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés ou limités exprimés explicitement par semaine. Voici ces passages :
+
+- Article 15 - Organisation du télétravail régulier : "Le nombre de jours hebdomadaire de télétravail devra respecter la règle suivante : Les collaborateurs (hormis les commerciaux) devront être présents sur site au minimum 2 jours/plages de travail par semaine..."
+
+- Article 8 - Le télétravail régulier : "Les parties conviennent de retenir une forme unique de télétravail régulier pour tous les salariés volontaires et éligibles au sens du titre II, à savoir un nombre de jours de télétravail flexible sur la semaine."
+
+- Article 9 b - formalisation : Le recours au télétravail occasionnel nécessite... "un retour express de son responsable hiérarchique dans un délai maximum d’une semaine" (implicitement, cela signifie qu'un salarié ne peut faire plus d'une demande de télétravail occasionnel toutes les semaines)
+
+- Article 10 - Autres cas de recours au télétravail : "En cas de circonstances exceptionnelles, notamment de menace d’épidémie, en cas de « force majeure » (par exemple conditions climatiques dégradées, paralysie des transports en commun, attentat), ou de pic de pollution élevé, il pourra être recouru au télétravail (hors du cadre défini pour le télétravail régulier), ce dernier devant être considéré comme un aménagement du poste de travail rendu nécessaire pour permettre la continuité de l'activité de l'entreprise et garantir la protection des salariés." (implicitement, cela signifie qu'un salarié peut être amené à faire du télétravail en cas de force majeure, mais cela reste une solution exceptionnelle et non régulière)
 Q_TTSEM_NOMBRE:
 * Deux paragraphes pertinents provenant des documents à analyser :
 

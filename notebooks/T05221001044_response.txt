@@ -1,5 +1,9 @@
 Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail maximum autorisé par semaine. Les documents mentionnent seulement que le télétravail peut s'exercer dans la limite de deux journées par semaine complète de travail, mais sans cumul ni report.
+Oui, le paragraphe suivant mentionne explicitement le nombre de journées de télétravail autorisées par semaine :
+
+> Le télétravail pourra s’exercer dans la limite de deux daynées par semaine complète de travail, sans cumul ni report.
+
+Cette information se trouve dans le document avec la métadonnée `{'source': 'T05221001044.txt'}`, dans le paragraphe intitulé "Le télétravail pourra s’exercer dans la limite de deux journées par semaine complète de travail, sans cumul ni report.".
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
 * "Le télétravail pourra s’exercer dans la limite de deux daynées par semaine complete of work, without cumul nor report."

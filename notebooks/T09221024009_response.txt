@@ -1,4 +1,4 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine.
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement le nombre de jours de télétravail autorisé, recommandé ou limité par semaine, hors jours supplémentaires ou exceptionnels.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Pour autant, les parties partagent le fait que les conditions ergonomiques ne sont pas autant satisfaisantes que sur le lieu de travail habituel au sein des locaux de l’entreprise."
 * "Les parties conviennent d’un participation d’IFP Training, sous la forme d’un remboursement de frais à hauteur de 80 euros TTC maximum pour l’achat d’un siège ergonomique ou d’une table-bureau, participation limitée à une fois par salarié."

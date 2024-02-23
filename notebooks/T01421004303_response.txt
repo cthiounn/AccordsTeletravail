@@ -1,5 +1,4 @@
-Q_TTSEM:
-Oui, le paragraphe intitulé "Organisation des périodes de télétravail" du premier document mentionne explicitement que "Le télétravail pourra être exercé trois jours par semaine maximum."
+Q_TTSEM:Oui, le paragraphe intitulé "Organisation des périodes de télétravail" du premier document mentionne que "Le télétravail pourra être exercé trois jours par semaine maximum".
 Q_TTSEM_NOMBRE:
 * Extraits pertinents :
     * "Le télétravail pourra être exercé trois jours par semaine maximum." (Document(page\_content="...", metadata={'source': 'T01421004303.txt'}))

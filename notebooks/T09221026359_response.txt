@@ -1,9 +1,4 @@
-Q_TTSEM:
-Oui, effectivement, un paragraphe mentionne un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Il s'agit du paragraphe suivant :
-
-"Le télétravail régulier suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine."
-
-Cette information se trouve dans le document associé à la métadonnée {'source': 'T09221026359.txt'} et dans le premier document de la liste.
+Q_TTSEM:Oui, un paragraphe mentionne explicitement le nombre de jours de télétravail autorisé par semaine. Il s'agit du paragraphe intitulé "4.1 Planification des jours de télétravail sur la semaine (en cas de télétravail régulier)" qui indique que "le télétravail régulier suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine".
 Q_TTSEM_NOMBRE:
 Extraction de deux paragraphes pertinents provenant des documents à analyser :
 

@@ -1,4 +1,5 @@
-Q_TTSEM:Oui, dans le document fourni, il est mentionné que "Qu’il soit régulier ou occasionnel, par principe, le télétravail est limité à deux journées par semaine."
+Q_TTSEM:
+Oui, dans le document "T03521008349.txt" à la page content 5.2, il est mentionné que "par principe, le télétravail est limité à deux journées par semaine".
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Qu’il soit régulier ou occasionnel, par principe, le télétravail est limité à deux journées par semaine." (Document(page\_content='T03521008349.txt'), ligne 115)
 

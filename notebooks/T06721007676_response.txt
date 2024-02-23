@@ -1,4 +1,4 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement le nombre de jours de télétravail autorisé, recommandé ou limité par semaine. Les documents mentionnent simplement que le télétravail est organisé sur une base hebdomadaire, mais sans préciser de nombre exact.
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
 * "Le salarié remplissant les critères d'éligibilité et souhaitant bénéficier du télétravail effectue sa demande préalable à son supérieur hiérarchique (par écrit lettre recommandée, remise en mains propres, mail…) en respectant un délai de prévenance de 2 semaines."

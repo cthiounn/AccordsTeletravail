@@ -1,4 +1,13 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
+Q_TTSEM:
+Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail autorisés par semaine :
+
+> Tenant compte de ces éléments, la Direction propose les principes suivants :
+>
+> Pour un collaborateur exerçant son activité à temps complet :
+>
+> - Un à deux jours fixes par semaine de télétravail.
+
+Donc, selon cet extrait, la direction propose un à deux jours fixes de télétravail par semaine pour un collaborateur travaillant à temps complet.
 Q_TTSEM_NOMBRE:
 Extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 

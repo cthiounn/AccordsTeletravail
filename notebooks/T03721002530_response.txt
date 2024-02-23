@@ -1,5 +1,13 @@
 Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine. Les documents mentionnent seulement que le télétravail est limité de manière à ce que les collaborateurs non-cadres soient présents dans l'entreprise au moins trois jours par semaine, mais cela ne signifie pas qu'ils peuvent travailler depuis chez eux pendant les autres jours de la semaine.
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés ou limités exprimés explicitement par semaine. Voici ces passages :
+
+- "Afin de préserver le lien social avec l’entreprise, la cohésion et le bon fonctionnement des équipes, le télétravail est limité de telle sorte que le collaborateur non-cadre soit présent dans l’entreprise au moins trois jours par semaine." (Source : T03721002530.txt)
+
+- "Afin de préserver le lien social avec l’entreprise, la cohésion et le bon fonctionnement des équipes, le télétravail est limité de telle sorte que le collaborateur cadre soit présent dans l’entreprise au moins trois jours par semaine. Ainsi une personne à 80% ne pourra être en télétravail qu’une journée par semaine." (Source : T03721002530.txt)
+
+- "Organisation du travail pour les collaborateurs non-cadres : Afin de préserver le lien social avec l’entreprise, la cohésion et le bon fonctionnement des équipes, le télétravail est limité de telle sorte que le collaborateur non-cadre soit présent dans l’entreprise au moins trois jours par semaine. Ainsi une personne à 80% ne pourra être en télétravail qu’une journée par semaine." (Source : T03721002530.txt)
+
+- "Organisation du travail pour les collaborateurs cadres : Afin de préserver le lien social avec l’entreprise, la cohésion et le bon fonctionnement des équipes, le télétravail est limité de telle sorte que le collaborateur cadre soit présent dans l’entreprise au moins trois jours par semaine. Ainsi une personne à 80% ne pourra être en télétravail qu’une journée par semaine." (Source : T03721002530.txt)
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
 * "Le télétravail se fait sur des jours fixes."

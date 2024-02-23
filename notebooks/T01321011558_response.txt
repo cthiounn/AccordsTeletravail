@@ -1,5 +1,10 @@
 Q_TTSEM:
-Oui, le troisième document mentionne explicitement qu'un salarié peut faire du télétravail jusqu'à un jour par semaine au maximum. Voici la phrase exacte : « la fréquence du télétravail qui sera au maximum d’un jour par semaine ».
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les extraits pertinents :
+
+- Article 10 : « Les jours de télétravail seront fixés selon les modalités suivantes : 1 jour par semaine. »
+- Document sur les modalités de l'avenant au contrat : « la fréquence du télétravail qui sera au maximum d’un jour par semaine; »
+
+Donc, d'après ces sources, le nombre de jours de télétravail autorisés par semaine est explicitement mentionné comme étant au maximum 1.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Les jours de télétravail seront fixés selon les modalités suivantes : 1 jour par semaine." (Document(page\_content="ARTICLE 10 - FRÉQUENCE ET NOMBRE DE JOURS TÉLÉTRAVAILLÉS\nLes jours de télétravail seront fixés selon les modalités suivantes : 1 jour par semaine.\nLe télétravail doit être effectué par journée entière. A titre dérogatoire, il peut être effectué par demi-journée lorsqu’il est accolé à une demi-journée d’absence. \nLe télétravailleur reste tenu, même pendant les jours de télétravail, de se rendre dans les locaux de l'entreprise à la demande de sa hiérarchie pour participer aux réunions organisées et/ou pour le bon fonctionnement du service. Cette demande doit rester exceptionnelle. Le salarié doit être informé par tout moyen au moins 5 jours ouvrés à l’avance, sauf circonstance exceptionnelle. Elle ne justifiera pas l’octroi d’un nouveau jour de télétravail sur la même semaine.", metadata={'source': 'T01321011558.txt'}))
 

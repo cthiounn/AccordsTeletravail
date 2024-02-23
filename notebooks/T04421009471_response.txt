@@ -1,5 +1,10 @@
-Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent explicitement un nombre de jours de télétravail maximum autorisé par semaine. Dans le premier paragraphe, il est indiqué que "la fréquence du télétravail régulier sera limitée à 1 journée par semaine". Dans le troisième paragraphe, il est également mentionné que "le salarié en télétravail définit dans la semaine quels seront les jours en télétravail, en accord avec son responsable hiérarchique" et que "dans le cas où les jours en télétravail ne peuvent être fixes, le salarié en accord avec son responsable hiérarchique, informe régulièrement ce dernier (au moins 48 heures à l'avance) des jours prévus en télétravail dans la semaine qui vient." Enfin, dans le quatrième paragraphe, il est stipulé que "à compter du x, suite à la demande du salarié, il a été défini que le salarié pourra exercer son activité professionnelle en télétravail par journée ou demi-journée, à raison d’un volume pouvant atteindre X journées par semaine."
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé ou limité, explicitement exprimé par semaine. Voici les occurrences :
+
+- "la fréquence du télétravail régulier sera limitée à 1 journée par semaine." (T04421009471.txt)
+- "le télétravail régulier aura une fréquence comprise entre 1 et 2 journées par semaine." (T04421009471.txt)
+- "Pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine." (T04421009471.txt)
+
+Référence: T04421009471.txt
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "A compter du x, suite à la demande du salarié, il a été défini que le salarié pourra exercer son activité professionnelle en télétravail par journée ou demi-journée, à raison d’un volume pouvant atteindre X journées par semaine."

@@ -1,9 +1,10 @@
-Q_TTSEM:
-Oui, le paragraphe suivant mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine :
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés explicitement exprimé par semaine. Voici les extraits pertinents :
 
-> Par exception, les salariés d’un service spécifique ; notamment les personnels rattachés aux bureaux d’études des entreprises AXIANS Fibre Sud-ouest et AXIANS Pylône services France, pour lesquels organiser une journée de télétravail par semaine peut s’avérer plus complexe pour des raisons de matériel et logiciel informatiques, pourront bénéficier d’une autorisation de télétravail par semaine entière dans la limite de 9 semaines par an (9 semaines x 5 jours/semaine =45 jours).
+- « Le Salarié pourra effectuer jusqu'à 45 jours de télétravail par année civile. La répartition de ces jours sur l'année civile s'effectuera par journée entière sur la base d'une journée par semaine. »
+- « Par exception, les salariés d'un service spécifique... pourront bénéficier d'une autorisation de télétravail par semaine entière dans la limite de 9 semaines par an (9 semaines x 5 jours/semaine =45 jours). »
+- « Le télétravail peut être favorisé au cas par cas pour des raisons de santé, de maternité ou de poste aménagé à la suite d'un accident avec l'accord du chef d'entreprise et avis médical. »
 
-Dans ce paragraphe, il est indiqué que les salariés d'un service spécifique peuvent bénéficier d'une autorisation de télétravail par semaine entière, soit 1 jour par semaine.
+Ces trois extraits mentionnent tous un nombre de jours de télétravail autorisés par semaine.
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
 * "Le Salarié pourra effectuer jusqu'à 45 jours de télétravail par année civile. La répartition de ces jours sur l'année civile s'effectuera par journée entière sur la base d'une journée par semaine."

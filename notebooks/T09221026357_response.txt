@@ -1,4 +1,15 @@
-Q_TTSEM:Oui, deux paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Le premier paragraphe indique "Le télétravail s’effectue sur la base de 2 journées maximum par semaine civile" et se trouve dans le document avec la métadonnée {'source': 'T09221026357.txt'} et le deuxième paragraphe indique "Le télétravail occasionnel permet au collaborateur de télétravailler au maximum 15 days entiers par année civile and au maximum 2 days on a semaine civile" et se trouve également dans le document avec la métadonnée {'source': 'T09221026357.txt'}.
+Q_TTSEM:
+Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail autorisés par semaine :
+
+> Personnel au décompte annuel en heures :
+>
+> Le télétravail s’effectue sur la base de 2 journées maximum par semaine civile.
+
+Cette information se trouve dans le document avec la métadonnée {'source': 'T09221026357.txt'} et dans le paragraphe :
+
+> Personnel au décompte annuel en heures :
+>
+> Le télétravail s’effectue sur la base de 2 journées maximum par semaine civile.
 Q_TTSEM_NOMBRE:
 Extraction de deux paragraphes pertinents provenant des documents à analyser :
 

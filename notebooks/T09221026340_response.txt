@@ -1,4 +1,11 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Dans le premier document, il est mentionné que "le nombre de jours télétravaillillés peut donc varier de zéro (0) à trois (3) jours par semaine". Dans le deuxième document, il est mentionné que "chaque jour de télétravail posé doit être préalablement accepté par le manager pour être effectué par le Télétravailleur" et que "les jours de télétravail doivent être posés la semaine précédente". Enfin, dans le troisième document, il est mentionné que "le salarié peut faire le choix de bénéficier de zéro (0) à trois (3) jours de télétravail par semaine" et que "la mise en place du télétravail est basée sur le principe du double volontariat : la demande de télétravail émane du salarié et nécessite un accord mutuel avec le manager".
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les occurrences :
+
+1. "Le nombre de jours télétravaillables peut donc varier de zéro (0) à trois (3) jours par semaine"
+2. "Avec l’accord du manager, le salarié peut faire le choix de bénéficier de zéro (0) à trois (3) jours de télétravail par semaine"
+3. "La mise en place du télétravail est basée sur le principe du double volontariat : la demande de télétravail émane du salarié et nécessite un accord mutuel avec le manager. Ce dernier bénéficiera de trois (3) jours de télétravail maximum par semaine"
+
+Dans tous les cas, le nombre maximal de jours de télétravail par semaine est de 3.
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 * "Le nombre de jours télétravaillables peut donc varier de zéro (0) à trois (3) jours par semaine au maximum"
 

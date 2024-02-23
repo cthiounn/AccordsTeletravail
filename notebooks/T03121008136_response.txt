@@ -1,10 +1,9 @@
-Q_TTSEM:
-Oui, le document 1 et le document 2 contiennent tous les deux l'information explicite selon laquelle le nombre maximum de jours de télétravail autorisés par semaine est de un. Voici les extraits pertinents :
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé ou recommandé par semaine. Voici les références :
 
-- Document 1 : "Les jours de télétravail seront fixés selon les modalités suivantes : **un jour maximum par semaine**."
-- Document 2 : "Les jours de télétravail seront fixés selon les modalités suivantes : **un jour maximum par semaine**."
+- Dans le document avec la métadonnée'source' = 'T03121008136.txt' et l'article 9, il est mentionné que "Les jours de télétravail seront fixés selon les modalités suivantes : un jour maximum par semaine."
+- Dans le même document mais avec la métadonnée'source' = 'T03121008136.txt' et l'article 9 (qui est identique au premier), il est mentionné que "Les jours de télétravail seront fixés selon les modalités suivantes : un jour maximum par semaine."
 
-Par conséquent, la réponse à votre question est oui, au moins un paragraphe mentionne un nombre de jour de télétravail maximum autorisé explicitement exprimé par semaine.
+Donc, dans les deux cas, il est clairement indiqué qu'un maximum d'un jour de télétravail par semaine est autorisé.
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 
 * "Les jours de télétravail seront fixés selon les modalités suivantes : **un jour maximum par semaine**."

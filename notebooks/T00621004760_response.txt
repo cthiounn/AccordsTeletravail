@@ -1,5 +1,15 @@
 Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels. Les seules mentions de jours de télétravail concernent un jour par semaine pour le télétravail régulier et un jour possible pour le télétravail occasionnel, mais ces mentions ne précisent pas qu'il s'agit d'un maximum hebdomadaire.
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés explicitement exprimé par semaine.
+
+Voici les extraits pertinents :
+
+* "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine." (Source: T00621004760.txt, Article 2.3.1.)
+* "Ponctuellement, avec l'accord préalable par mail du manager, pour des raisons d'organisation professionnelle (déplacement professionnel, réunion sur site la journée télétravaillée…) ou personnelle (hors congés payés ou RTT sur la semaine). Dans ce cas la journée de télétravail pourra être déplacée..." (Source: T00621004760.txt, Article 2.3.2.)
+* "Le télétravail occasionnel ne se cumule pas avec le télétravail régulier." (Source: T00621004760.txt, Article 2.3.3.)
+* "Les salariés éligibles peuvent bénéficier de 5 jours de télétravail dans l'année..." (Source: T00621004760.txt, Article 2.3.3.)
+* "Le choix du jour est fixé sur proposition du salarié avec l'accord préalable du manager, le mardi ou jeudi, à l'instar du télétravail régulier prévu au Chapitre 1 du présent accord." (Source: T00621004760.txt, Article 2.3.3.)
+
+Notez que ces mentions concernent toutes le télétravail régulier ou occasionnel, mais toujours avec une limitation explicite à un jour par semaine, sauf dans le cas particulier du télétravail occasionnel où jusqu'à cinq jours par an sont autorisés.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * Article 2.3.1. Rythme général du télétravail : "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine."

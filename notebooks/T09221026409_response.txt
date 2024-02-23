@@ -1,5 +1,14 @@
-Q_TTSEM:
-Oui, le document contient un paragraphe qui mentionne explicitement le nombre maximal de jours de télétravail autorisés par semaine, hors jours supplémentaires ou exceptionnels. Il s'agit de l'Article 1. 2. 1. Formule de télétravail standard, qui précise que les salariés éligibles peuvent bénéficier de "2 ou 3 jours de télétravail par semaine".
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés ou limités, exprimés explicitement par semaine. Voici les références :
+
+1. Dans le document avec la métadonnée'source': 'T09221026409.txt' et l'identifiant 'page\_content': 'Article 1. 2. 1.', il est mentionné que les salariés peuvent bénéficier de "2 ou 3 jours de télétravail par semaine".
+
+Référence : Article 1. 2. 1.
+Source : T09221026409.txt
+
+2. Dans le même document, avec la métadonnée'source': 'T09221026409.txt' et l'identifiant 'page\_content': 'Article 1. 2. 2.', il est mentionné que les salariés ayant des activités télétravaillables mais ne pouvant adhérer à la formule standard peuvent bénéficier de "35 jours de télétravail par année civile", qui peuvent être en journée ou demi-journée. Comme il est indiqué que ces jours peuvent être positionnés "selon le besoin des salariés concernés", on peut supposer qu'ils peuvent être pris de manière flexible, y compris par semaine.
+
+Référence : Article 1. 2. 2.
+Source : T09221026409.txt
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Tout salarié éligible peut bénéficier, selon ses souhaits, de 2 ou 3 jours de télétravail par semaine"

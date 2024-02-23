@@ -1,4 +1,4 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jour de télétravail maximum autorisé explicitement exprimé par semaine.
+Q_TTSEM:Non, aucun paragraphe mentionnant un nombre de jour de télétravail autorisé, recommandé ou limité explicitement exprimé par semaine n'a été trouvé dans les documents fournis.
 Q_TTSEM_NOMBRE:Extraction pertinente des documents :
 * "Le collaborateur formulera ses souhaits en matière de fréquence et de jour de télétravail. Chaque demande devra être validée par le manager, à l’issue d’un entretien avec le collaborateur concerné, au mieux des intérêts de l’équipe et de l’activité (rythme de travail, réunions ou déplacements récurrents, organisation de l’équipe, nécessité de permanence, etc.). Le manager pourra donc réserver des journées de travail sur site pour que le travail collaboratif reste au cœur de l’activité de son équipe." (T07521030183.txt)
 

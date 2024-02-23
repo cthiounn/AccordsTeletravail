@@ -1,9 +1,10 @@
-Q_TTSEM:
-Oui, le paragraphe suivant mentionne explicitement un nombre de jour de télétravail maximum autorisé par semaine :
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les références :
 
-"Le télétravail régulier. Il constitue le cadre général du télétravail organisé dans l’UES Viveris et vise les situations dans lesquelles le salarié et l’employeur fixent à l’avance le nombre de jours maximums par semaine avec signature d’un avenant au contrat de travail. Ce nombre de jours peut être d’une à deux journées par semaine."
+- Dans le document avec la métadonnée'source': 'T09221023395.txt' et l'identifiant 'T09221023395.txt', voir les paragraphes avec les identifiants suivants :
+  - 'page\_content': 'Le télétravail doit avoir un caractère volontaire à la fois pour le salarié et l’employeur.' (Article 3.1) mentionne "jusqu’à deux journées par semaine".
+  - 'page\_content': 'Le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile, par journée entière,' (Article 4.1) mentionne "jusqu’à deux journées par semaine".
 
-Ce paragraphe indique clairement que le nombre maximum de jours de télétravail par semaine dans le cadre du télétravail régulier est de deux.
+Merci de noter que je suis un modèle de langage et que ma réponse est basée sur l'analyse des documents fournis.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile, par journée entière, de manière à préserver le lien social avec l’entreprise et son groupe de travail." (Document(page\_content='...', metadata={'source': 'T09221023395.txt'}))
 

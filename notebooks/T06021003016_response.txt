@@ -1,8 +1,12 @@
-Q_TTSEM:Oui, le paragraphe suivant mentionne explicitement qu'il est possible de faire du télétravail jusqu'à 2 jours maximum par semaine :
+Q_TTSEM:Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail autorisés par semaine :
 
-"Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés."
+> Article 12 – Organisation du télétravail
+>
+> Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés.
+> Une présence dans l’entreprise de 3 jours minimum par semaine est requise.
+> [...]
 
-Source : T06021003016.txt, Article 12
+Source : T06021003016.txt, page_content « Organisation du télétravail », ligne 1.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés." (Source: T06021003016.txt)

@@ -1,5 +1,5 @@
 Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine.
+Oui, un paragraphe mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Il s'agit du paragraphe "Une présence minimum de 2 jours par semaine du salarié dans les locaux de l’entreprise est requise...". Ce paragraphe indique que la limite maximale de jours de télétravail par semaine est de 3 jours.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Une présence minimum de 2 jours par semaine du salarié dans les locaux de l’entreprise est requise"

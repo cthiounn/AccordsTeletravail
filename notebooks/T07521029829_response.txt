@@ -1,5 +1,14 @@
 Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés ou limités exprimés explicitement par semaine. Voici ces passages :
+
+- "Le télétravail peut être exécuté dans la limite de deux jours fixes par semaine maximum"
+- "Le télétravail fixe et régulier ne peut se faire que par journée entière."
+- "Le télétravail fixe et régulier ne peut se faire que par journée entière."
+- "Le télétravail peut être exécuté dans la limite de deux jours fixes par semaine maximum"
+
+Cependant, il est important de noter que cette question demandait spécifiquement des informations hors jours supplémentaires ou exceptionnels. Or, les extraits ci-dessus mentionnent des jours de télétravail "fixes" et "réguliers", ce qui pourrait être considéré comme inclus dans la catégorie "supplémentaires ou exceptionnels". 
+
+Si l'on exclut ces passages, alors aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisés, recommandés ou limités par semaine.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "Le nombre de jour fixe et régulier de télétravail est d’un ou deux jours." (T07521029829.txt)

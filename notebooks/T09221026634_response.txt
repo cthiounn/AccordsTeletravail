@@ -1,5 +1,5 @@
 Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
+Oui, le paragraphe "Article 4. Répartition du temps de travail entre domicile et entreprise" mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Il stipule que l'organisation alternative de l'activité domicile / entreprise se fait sur la base de deux (2) jours ouvrés par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * Article 4. Répartition du temps de travail entre domicile et entreprise "L’organisation alternative de l’activité domicile / entreprise se fait sur la base de deux (2) jours ouvrés par semaine, du mardi au vendredi pour les salariés à plein temps et les salariés à temps partiel ou à forfait jours réduit travaillant au moins à 80%."
