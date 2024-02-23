@@ -1,12 +1,13 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici ces passages :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine. Voici ces paragraphes :
 
-- "Personnel au décompte annuel en heures : Le télétravail s’effectue sur la base de 2 journées maximum par semaine civile."
-- "Personnel au forfait annuel en jours : Le télétravail s’effectue sur la base de 2 journées complètes de travail au maximum par semaine civile..."
-- "Le télétravail occasionnel permet au collaborateur de télétravailler au maximum 15 jours entiers par année civile et au maximum 2 jours sur une semaine civile."
-- "Afin de préserver le lien avec sa communauté de travail, le salarié devra être présent sur site au moins 3 jours par semaine civile."
+- "Le télétravail s’effectue sur la base de 2 journées maximum par semaine civile." (Source : T09221026357.txt, page_content = 'Les jours de télétravail sont pris par journée complète, à date fixe, consécutifs ou non et modifiables en accord ou à la demande du responsable hiérarchique pour des raisons d’organisation de service.\n\nLe télétravail s’organise selon deux modalités distinctes\xa0:\n\nPersonnel au décompte annuel en heures\xa0: \nLe télétravail s’effectue sur la base de 2 journées maximum par semaine civile.")
 
-Notez que dans le premier et le deuxième passage, le nombre de jours de télétravail est limité à 2 par semaine civile. Dans le troisième passage, le nombre de jours de télétravail occasionnel est limité à 2 par semaine civile. Et dans le quatrième passage, le nombre de jours où le salarié doit être présent sur site est au moins de 3 par semaine civile, ce qui implique que le nombre de jours de télétravail ne peut excéder 2 par semaine civile.
+- "Le télétravail s’effectue sur la base de 2 journées complètes de travail au maximum par semaine civile moyennant le respect d’un repos de 11H consécutives entre 2 journées de travail." (Source : T09221026357.txt, page_content = 'Personnel au forfait annuel en jours\xa0: \nLe télétravail s’effectue sur la base de 2 journées complètes de travail au maximum par semaine civile moyennant le respect d’un repos de 11H consécutives entre 2 journées de travail.')
+
+- "Le télétravail occasionnel permet au collaborateur de télétravailler au maximum 15 jours entiers par année civile et au maximum 2 jours sur une semaine civile." (Source : T09221026357.txt, page_content = 'Le télétravail occasionnel permet au collaborateur de télétravailler au maximum 15 jours entiers par année civile et au maximum 2 jours sur une semaine civile.')
+
+- "Afin de préserver le lien avec sa communauté de travail, le salarié devra être présent sur site au moins 3 jours par semaine civile." (Source : T09221026357.txt, page_content = '3.2 Nombre et nature des jours de télétravail\n\nLa Direction entend rappeler que la compétence s’acquiert dans le collectif par les échanges. Afin de préserver le lien avec sa communauté de travail, le salarié devra être présent sur site au moins 3 jours par semaine civile.')
 Q_TTSEM_NOMBRE:
 Extraction de deux paragraphes pertinents provenant des documents à analyser :
 

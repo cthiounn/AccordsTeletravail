@@ -1,9 +1,11 @@
 Q_TTSEM:
-Oui, un paragraphe mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine.
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les extraits pertinents :
 
-Voici le paragraphe en question :
+- "Le télétravail régulier consiste, sur la base du volontariat, à offrir la possibilité au collaborateur de travailler en dehors des locaux de l’entreprise jusqu’à **3 jours maximum** par semaine pour un salarié à temps complet ou 50% de son temps de travail pour un salarié à temps partiel."
 
-"Une présence minimum de 2 jours par semaine du salarié dans les locaux de l’entreprise est requise car permet de conserver un lien professionnel et social direct entre le salarié et son manager, ses collègues, son site, l’entreprise."
+- "Une présence minimum de **2 jours par semaine** du salarié dans les locaux de l’entreprise est requise..."
+
+Par conséquent, la réponse à votre question est affirmative.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Une présence minimum de 2 jours par semaine du salarié dans les locaux de l’entreprise est requise"

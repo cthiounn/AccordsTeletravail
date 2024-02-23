@@ -1,14 +1,9 @@
 Q_TTSEM:
-Oui, le document contient plusieurs mentions de nombres de jours de télétravail autorisés, recommandés, limités ou maximum. Cependant, aucune de ces mentions n'est exprimée explicitement par semaine. Elles sont toutes exprimées sur une base annuelle, à l'exception d'une mention de "jour de télétravail hebdomadaire maximum" qui est de 1 pour les stagiaires et alternants.
+Oui, le document suivant mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine :
 
-Voici les différentes mentions de nombres de jours de télétravail trouvées dans le document :
+- Document(page\_content='Dans le cadre de la bonne organisation du service les jours en télétravail sont, dans la mesure du possible, déterminés après concertation préalable et accord du manager et sont formalisés dans le cadre d’un planning spécifique.\nPour privilégier le lien collectif et préserver le bon fonctionnement de l’équipe, devront être respectés les principes suivants\xa0: \nune répartition hebdomadaire au sein de l’équipe des jours d’exercice de l’activité en télétravail\xa0; à cet effet, une planification périodique indicative – si possible mensuelle - de ces jours pourra être effectuée en amont ; cette planification pourra être adaptée par le manager en considération des nécessités.\ndans une optique de bonne animation d’équipe et pour garantir la qualité du lien social, les managers concernés, prévoiront, la présence physique simultanée de tous les membres de leur équipe, sur site, certains jours, en adéquation avec le bon fonctionnement des services. Cette présence simultanée sera également prévue lors de séminaires de travail, réunions ou formations d’équipe et devra être organisée dans le cadre d’une concertation préalable transversale.\nDans le cadre de ce dispositif, la sanctuarisation de temps «\xa0forts\xa0» (de l’entreprise, de Direction, d’équipe, de Direction, etc.) doit être une priorité.\nCes principes seront déclinés dans le cadre de règles d’équipe, qui pourront être formalisées au sein de chaque équipe. \nChaque encadrant aura la possibilité de désigner un référent télétravail au sein de son équipe, sous réserve de l’accord de ce collaborateur.', metadata={'source': 'T09221025050.txt'}).
 
-* "un quota annuel de jours de télétravail fixé à 85 jours"
-* "un quota annuel de jours de télétravail fixé à 87 jours"
-* "un quota annuel de jours réduit à 43 jours, soit un jour de télétravail hebdomadaire maximum"
-* "Le quota annuel de jours de télétravail est un maximum qui ne génère pas un droit mais relève d’une simple faculté."
-
-Par ailleurs, il est précisé que "Les collaborateurs pourront poser des jours de télétravail par demi-journée, en accord avec leur encadrant." Mais ceci ne précise pas de limite maximale.
+On peut y lire : « une **répartition hebdomadaire** au sein de l’équipe des jours d’exercice de l’activité en télétravail ».
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "un quota annuel de jours de télétravail fixé à 85 jours" (Article 3.1)

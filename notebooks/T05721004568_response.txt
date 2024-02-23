@@ -1,5 +1,15 @@
 Q_TTSEM:
-Oui, dans le document T05721004568.txt, page\_content='Article 5 – Télétravail – (article L 1222-9 du Code du Travail)', il est mentionné que « Les salariés seront en télétravail au minimum, soit deux ½ journées par semaine soit une journée complète par semaine ». Donc, le nombre de jours de télétravail autorisé est explicitement exprimé par semaine et est égal à 1 ou 2,5 jours.
+Oui, le document contient une information sur le nombre de jours de télétravail autorisé par semaine. Selon l'article 5 de l'accord d'entreprise, les salariés sont en télétravail au minimum deux demi-journées par semaine ou une journée complète par semaine.
+
+Voici le texte complet de l'article 5 :
+
+"Article 5 – Télétravail – (article L 1222-9 du Code du Travail)
+
+Les salariés seront en télétravail au minimum,
+Soit deux ½ journées par semaine
+Soit une journée complète par semaine
+
+Dans un souci d’intégration, l’organisation du télétravail pour les nouveaux embauchés sera examinée au cas par cas par la Direction."
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Les salariés seront en télétravail au minimum, Soit deux ½ journées par semaine Soit une journée complète par semaine"
 

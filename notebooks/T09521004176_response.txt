@@ -1,10 +1,12 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici les réponses extraites des documents fournis :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine. Voici ces passages extraits des documents fournis :
 
-- Article 7.1) : "Le télétravail régulier peut-être de 1 ou de 2 jours par semaine."
-- Article 8) : "limité à 1 jour par semaine civile pour les populations suivantes... limité à un maximum de 2 jours par semaine civile pour les..."
-
-Par conséquent, la réponse à votre question est affirmative : au moins un paragraphe mentionne un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine.
+- "Le télétravail régulier peut-être de 1 ou de 2 jours par semaine." (Document 3, Article 7.1)
+- "Il peut être porté à un maximum de 3 jours par semaine pour des salariés en forte autonomie de travail" (Document 3, Article 7.1)
+- "limité à 1 jour par semaine civile pour les populations suivantes : Formateurs Conseil/tradi ; ASAV et CAF VPI ; Fifties PORTABLE" (Document 4, Article 8)
+- "limité à un maximum de 2 jours par semaine civile pour les : CAF SICLI (RIA et désenfumage)" (Document 4, Article 8)
+- "limité à un jour par semaine civile pour les salariés à temps partiel 80% ou 90% (et sous réserve d’être présent a minima 2 jours par semaine dans les locaux professionnels)" (Document 4, Article 8)
+- "limité à un jour par semaine civile pour les salariés en temps partiel thérapeutique ou temps partiel sur préconisation de la Médecine du travail (et sous réserve d’être présent a minima 1 jour par semaine dans les locaux professionnels)" (Document 4, Article 8)
 Q_TTSEM_NOMBRE:
 **Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :**
 

@@ -1,10 +1,19 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici ces paragraphes :
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici ces paragraphes :
 
-- "Afin de maintenir le lien social avec la communauté de travail qui joue un rôle cardinal pour chacun des salariés, et de préserver le bon fonctionnement des activités, le nombre maximum de jours en télétravail par semaine est de deux pour les collaborateurs à temps complet, d’un jour et demi pour ceux à 90% et d’un jour pour les collaborateurs à 80%."
+- "Le collaborateur disposera d'un volume maximum de deux jours de télétravail par semaine pour un collaborateur." (T09221026467.txt, Article 3)
 
-- "Le collaborateur disposera d'un volume maximum de deux jours de télétravail par semaine pour un collaborateur."
+- "Afin de maintenir le lien social avec la communauté de travail qui joue un rôle cardinal pour chacun des salariés, et de préserver le bon fonctionnement des activités, le nombre maximum de jours en télétravail par semaine est de deux pour les collaborateurs à temps complet, d’un jour et demi pour ceux à 90% et d’un jour pour les collaborateurs à 80%." (T09221026467.txt, The telework agreement)
 
-Ces deux paragraphes mentionnent explicitement un nombre de jours de télétravail maximum par semaine, qui est de deux jours pour les collaborateurs à temps complet, un jour et demi pour ceux à 90%, et un jour pour les collaborateurs à 80% dans le premier paragraphe, et de deux jours pour un collaborateur dans le second paragraphe.
+- "Pour des raisons de sécurité pour le collaborateur et de bon fonctionnement de l'entreprise, les conditions d'exécution du télétravail seront alors réexaminées." (T09221026467.txt, Article 6)
+
+- "Le télétravailleur doit organiser son temps de travail en respectant les règles de fonctionnement identiques à celles observées sur site, à savoir les modalités en vigueur dans l'accord sur l'organisation du temps de travail pour les collaborateurs cadres et les collaborateurs non cadres du 6 janvier 2010 et ses avenants du 18 juin 2013 et du 24 juin 2015. Le collaborateur en télétravail veillera à respecter les durées maximales quotidiennes et hebdomadaires de travail et les temps de repos quotidiens obligatoires (11h). Une pause déjeuner devra également être respectée dans les mêmes conditions qu'au sein de l'Institut." (T09221026467.txt, Article 6)
+
+- "Le télétravailleur doit organiser son temps de travail en respectant les règles de fonctionnement identiques à celles observées sur site, à savoir les modalités en vigueur dans l'accord sur l'organisation du temps de travail pour les collaborateurs cadres et les collaborateurs non cadres du 6 janvier 2010 et ses avenants du 18 juin 2013 et du 24 juin 2015. Le collaborateur en télétravail veillera à respecter les durées maximales quotidiennes et hebdomadaires de travail et les temps de repos quotidiens obligatoires (11h). Une pause déjeuner devra également être respectée dans les mêmes conditions qu'au sein de l'Institut." (T09221026467.txt, Article 6)
+
+- "Le télétravailleur doit organiser son temps de travail en respectant les règles de fonctionnement identiques à celles observées sur site, à savoir les modalités en vigueur dans l'accord sur l'organisation du temps de travail pour les collaborateurs cadres et les collaborateurs non cadres du 6 janvier 2010 et ses avenants du 18 juin 2013 et du 24 juin 2015. Le collaborateur en télétravail veillera à respecter les durées maximales quotidiennes et hebdomadaires de travail et les temps de repos quotidiens obligatoires (11h). Une pause déjeuner devra également être respectée dans les mêmes conditions qu'au sein de l'Institut." (T09221026467.txt, Article 6)
+
+- "Le télétravailleur doit organiser son temps de travail en respectant les règles de fonctionnement identiques à celles observées sur site, à savoir les modalités en vigueur dans l'accord sur l'organisation du temps de travail pour les collaborateurs cadres et les collaborateurs non cadres du 6 janvier 2010 et ses avenants du 18 juin 2013
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 * "Le nombre maximum de jours en télétravail par semaine est de deux pour les collaborateurs à temps complet"
 

@@ -1,15 +1,9 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici ces paragraphes :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail par semaine. Voici ces paragraphes :
 
-- "Le nombre de jours de télétravail par semaine est de 2" (Source : T09221024750.txt, page_content = 'Article 6 \t\tNombre de jours de télétravail\n6-1 Nombre de jours de télétravail par semaine\n...')
-
-- "Par exception à la formule standard de télétravail à 40%, le nombre de jours de télétravail par semaine est de 1 jour pour les salariés travaillant à 60% d’un temps plein." (Source : T09221024750.txt, page_content = '6-4 \tSalariés à temps partiel \n...)
-
-- "Le télétravail prend la forme de jours entiers à positionner par semaine." (Source : T09221024750.txt, page_content = '6-2 - \tJours de télétravail entiers \n...)
-
-- "Pour conserver un lien social et faciliter le fonctionnement des équipes : réunions d’équipes, entretiens individuels, ateliers projets, travaux qui ne peuvent être effectués en télétravail (impressions papier), une présence sur site obligatoire de 2 jours par semaine, a minima, est maintenue." (Source : T09221024750.txt, page_content = 'Titre 2\t\tORGANISATION DU TELETRAVAIL \n\nArticle 5\t\tAlternance de jours de télétravail et de jours de présence sur site\n\n...)
-
-Note : Je suis désolé, mais je ne peux pas utiliser les expressions régulières car je n'ai pas cette compétence. J'ai donc recherché manuellement les occurrences de nombres de jours de télétravail exprimés en texte libre dans les documents fournis.
+- Article 6-1 : "Le nombre de jours de télétravail par semaine est de 2".
+- Article 6-4 : "Par exception à la formule standard de télétravail à 40%, le nombre de jours de télétravail par semaine est de 1 jour pour les salariés travaillant à 60% d'un temps plein".
+- Article 9-1 : "La journée de travail des collaborateurs s’organise dans l’amplitude de 7H30 à 19h00. Cette amplitude fixe les bornes à l’intérieur desquelles le collaborateur organise sa journée de travail en fonction de sa formule de temps de travail." (Ce paragraphe ne mentionne pas explicitement le nombre de jours de télétravail par semaine, mais il donne une indication sur l'amplitude horaire de la journée de télétravail, qui peut être utile pour calculer le nombre de jours de télétravail possibles dans une semaine.)
 Q_TTSEM_NOMBRE:
 * Extraction pertinente du document :
     * "Le nombre de jours de télétravail par semaine est de 2" (Article 6-1)

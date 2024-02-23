@@ -1,9 +1,11 @@
 Q_TTSEM:
-Oui, le document suivant contient un paragraphe mentionnant un nombre de jours de télétravail autorisés explicitement exprimé par semaine :
+Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail autorisés par semaine :
 
-- Document(page\_content='La modification des conditions d’exercice du télétravail est formalisée par un nouveau formulaire de demande de télétravail d’une durée d’un an reconductible tacitement. Ces modifications prennent effet au 1er jour du mois civil suivant.\n\n\nArticle 6. Organisation du télétravail régulier \n\n6.1 Nombre, répartition et fréquence des journées télétravailées\n\n\nLe nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine.\n\nLe télétravailleur opte pour des journées entières télétravaillées, il n’est pas possible de fractionner en demi-journées.\n\nCette/ces journée(s) de télétravail doit/doivent être positionnée(s) du lundi au vendredi.\n\n6.2 Repositionnement des journées de télétravail non prise')
+> "6.1 Nombre, répartition et fréquence des journées télétravailées
+>
+> Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine."
 
-On peut y lire que le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entiers maximum par semaine.
+Source : T06421003693.txt, page_content : 'La modification des conditions d’exercice du télétravail est formalisée par un nouveau formulaire de demande de télétravail d’une durée d’un an reconductible tacitement. Ces modifications prennent effet au 1er jour du mois civil suivant.'
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
 * "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine." (from Document(page\_content='...'))

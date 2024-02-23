@@ -1,21 +1,5 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici ces passages :
-
-- "La possibilité de télétravailler est ouverte aux seuls postes pour lesquels les activités sont compatibles avec ce mode d’organisation du travail. Ne seront notamment pas éligibles au télétravail les salariés affectés à des postes nécessitant l’utilisation d’outils qui ne peuvent, pour des raisons matérielles, d’organisation du service ou de confidentialité, être utilisés à distance. Lorsqu’un poste est éligible au télétravail, les modalités d’organisation du télétravail devront être compatibles avec les obligations de service, le bon fonctionnement de l’équipe et de l’entité concernée. A ce titre et afin de maintenir une continuité de service, et sauf situation exceptionnelle requérant l’ensemble des collaborateurs d’un pôle sur une opération à l’extérieur, chaque pôle devra assurer en permanence la présence en son sein d’au moins un collaborateur qui lui est rattaché."
-
-Dans ce passage, il est mentionné qu'un pôle doit avoir au moins un collaborateur présent en permanence, ce qui limite implicitement le nombre de jours de télétravail possibles pour les autres collaborateurs.
-
-- "Afin de maintenir le lien social avec l’entreprise et au sein de l’équipe, mais également de faciliter l’organisation des temps de travail collectif, l’activité exercée en télétravail ne pourra en principe excéder une journée complète et fixe par semaine pour un salarié présent à temps plein."
-
-Ici, il est clairement stipulé que le télétravail ne peut excéder une journée complète et fixe par semaine pour un salarié présent à temps plein.
-
-- "Pour répondre à des besoins ponctuels et/ou imprévus (tels que notamment problème de garde d’enfants, déménagement en cours des bureaux, grève, pollution ou intempéries rendant impossible le déplacement sur le lieu de travail, rendez-vous à l’extérieur en cours de journée ne rendant pas nécessaire un retour sur le lieu habituel de travail etc.) le télétravail occasionnel pourra être mis en place d’un commun accord entre l’employeur et le Salarié."
-
-Ce passage mentionne le télétravail occasionnel, qui est une forme de télétravail distincte du télétravail régulier et qui peut être mis en place en dehors des jours fixes.
-
-- "Un réexamen des critères d’éligibilité avec la Direction sera possible en cas de changement de fonction, de poste, de service, d’établissement ou de domicile du Salarié, et pourra donner lieu à la cessation de la situation de télétravail."
-
-Ce passage suggère que des changements dans la situation du salarié peuvent entraîner la cessation de la situation de télétravail, ce qui implique que le télétravail n'est pas illimité dans le temps.
+Non, aucun paragraphe mentionnant un nombre de jour de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine, n'a été trouvé dans les documents fournis.
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 
 * "La possibilité de télétravailler est ouverte aux seuls postes pour lesquels les activités sont compatibles avec ce mode d’organisation du travail."

@@ -1,10 +1,4 @@
-Q_TTSEM:Oui, le document contient plusieurs paragraphes qui mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine. Voici quelques exemples :
-
-* "le télétravail ne peut pas s’exercer les Mardi." Cette phrase implique qu'aucun jour de télétravail n'est autorisé le mardi.
-* "dans la limite de 1 jour (soit 2 demi-journées) par semaine de 5 jours travaillés" Cette phrase indique qu'un maximum de 1 jour de télétravail est autorisé par semaine.
-* "limite de 1 jour par semaine (soit 2 demi-journées)" Cette phrase indique également qu'un maximum de 1 jour de télétravail est autorisé par semaine.
-
-Il est important de noter que ces limitations hebdomadaires sont souvent accompagnées de limitations trimestrielles ou annuelles. Par exemple, "non reportables, soit une enveloppe de 52 jours (soit 104 demi-journées) par année civile".
+Q_TTSEM:Oui, le paragraphe intitulé "A – Nombre de jours télétravaillés" mentionne un nombre de jours de télétravail autorisés par semaine. Il est précisé que le télétravail ne peut pas s'exercer plus d'1 jour par semaine pour un salarié travaillant à temps complet ou titulaire d'un forfait annuel de 218 jours. Cette limitation s'applique également aux salariés travaillant à temps partiel, avec une limite de 1 jour par semaine proratisée selon le pourcentage de temps de travail.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le télétravail ne peut pas s’exercer les Mardi." (Document(page\_content='Article V – ORGANISATION DU TELETRAVAIL\n\nA – Nombre de jours télétravaillés\n\nLe télétravail ne pourra être exercé que pour les durées et les modalités maximales suivantes\xa0:\n\nLe/les jour(s) ou demi-journée(s) de télétravail peuvent s’entendre le Lundi, le Mercredi, le Jeudi et le vendredi. Le télétravail ne peut pas s’exercer les Mardi.\n\n...'))

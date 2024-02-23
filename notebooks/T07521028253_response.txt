@@ -1,9 +1,11 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé par semaine. Voici les extraits pertinents :
+Q_TTSEM:
+Oui, le document suivant contient une information sur le nombre de jours de télétravail autorisés par semaine :
 
-- "Afin de maintenir le lien social, la cohésion et le bon fonctionnement des équipes, la direction demande que le salarié télétravailleur dispose d'au moins 3 jours de présence par semaine dans l'entreprise."
-- "Dans le respect de ce principe, les salariés peuvent demander à organiser leur rythme de télétravail en déterminant – au maximum – deux journées télétravaillées chaque semaine en moyenne."
+- Organisation du télétravail
 
-Par conséquent, on peut conclure qu'il existe deux mentions différentes concernant le nombre de jours de télétravail autorisés par semaine : au moins 3 jours de présence dans l'entreprise, et au maximum 2 journées télétravaillées chaque semaine en moyenne.
+On peut y lire que « la direction demande que le salarié télétravailleur dispose d'au moins 3 jours de présence par semaine dans l'entreprise. Dans le respect de ce principe, les salariés peuvent demander à organiser leur rythme de télétravail en déterminant – au maximum – deux journées télétravaillées chaque semaine en moyenne. »
+
+Par conséquent, le nombre de jours de télétravail autorisés par semaine est de deux.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Dans le respect de ce principe, les salariés peuvent demander à organiser leur rythme de télétravail en déterminant – au maximum – deux journées télétravaillées chaque semaine en moyenne."

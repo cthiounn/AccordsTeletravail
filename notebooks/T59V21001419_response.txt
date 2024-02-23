@@ -1,11 +1,11 @@
 Q_TTSEM:
-Oui, un paragraphe mentionne explicitement un nombre de jour de télétravail autorisé par semaine. Il s'agit du document avec la métadonnée'source': 'T59V21001419.txt' et la page\_content suivante :
+Non, aucun paragraphe ne mentionne un nombre de jours de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine. Les seules mentions de nombres de jours de télétravail se trouvent dans les contextes suivants :
 
-"ARTICLE 4 – RYTHME DU TELETRAVAIL
+- 4 jours par mois pour les personnes à temps plein (document T59V21001419.txt, page_content='ARTICLE 4 – RYTHME DU TELETRAVAIL')
+- 3,2 jours par mois pour une personne à temps partiel à 80% (document T59V21001419.txt, page_content='Pour les salariés à temps partiel, les 4 jours de télétravail mensuels autorisés seront proratisés en fonction du temps de travail, le nombre de jours étant arrondi à la valeur la plus proche du résultat.')
+- 1 jour de télétravail fixe par semaine calendaire (document T59V21001419.txt, page_content='ARTICLE 4 – RYTHME DU TELETRAVAIL')
 
-Ayant pris la pleine mesure des impacts de ce dispositif sur l’esprit d’équipe et la qualité de la communication interpersonnelle, tout en ayant la volonté d’adapter l’organisation de l’entreprise aux méthodes d’organisation du travail modernes, l’employeur a décidé de limiter le télétravail à domicile à 4 jours par mois pour les personnes à temps plein. Les 4 journées de télétravail mensuelles autorisées seront à répartir de la façon suivante : 1 jour de télétravail fixe par semaine calendaire, déterminé en accord avec le manager."
-
-Le nombre de jour de télétravail autorisé par semaine est 1.
+Aucune de ces mentions ne correspond à une limitation ou un plafond hebdomadaire explicite.
 Q_TTSEM_NOMBRE:
 Extraction de deux paragraphes pertinents provenant des documents à analyser :
 

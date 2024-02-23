@@ -1,9 +1,9 @@
 Q_TTSEM:
-Oui, le document contient un paragraphe mentionnant un nombre de jour de télétravail autorisé par semaine. Il s'agit du paragraphe suivant :
+Oui, un paragraphe mentionne explicitement le nombre de jour de télétravail autorisé par semaine. Il s'agit du paragraphe suivant :
 
 "Le télétravail pourra s’effectuer sur une demi-journée au minimum et au maximum 1 journée par semaine, en fonction du temps de travail et l’organisation du temps de travail."
 
-Ce paragraphe indique clairement qu'il est possible de télétravailler une demi-journée ou une journée complète par semaine.
+Ce paragraphe indique clairement que le télétravail peut être exercé au maximum une journée par semaine.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Le télétravail pourra s’effectuer sur une demi-journée au minimum et au maximum 1 journée par semaine, en fonction du temps de travail et l’organisation du temps de travail."

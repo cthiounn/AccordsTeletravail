@@ -1,11 +1,10 @@
 Q_TTSEM:
-Oui, il y a plusieurs paragraphes qui mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum exprimé par semaine. Voici ces passages :
+Oui, il y a plusieurs paragraphes qui mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum exprimé par semaine. Voici quelques exemples :
 
-- "Au sein des Directions ou Département concernés, le télétravail régulier pourra être limité à un jour par semaine"
-- "Le tableau ci-après présente le nombre de jours de présence minimum dans les locaux de l’Entreprise en fonction du pourcentage de la durée du travail :" suivi d'un tableau où figurent des nombres de jours de télétravail hebdomadaires.
-- "Les collaborateurs en télétravail régulier peuvent bénéficier de 2 journées de télétravail supplémentaires par mois sans pouvoir excéder 10 jours de télétravail sur un même mois civil." Cette phrase implique qu'en temps normal, les collaborateurs ont droit à un certain nombre de jours de télétravail par semaine, qui peut être augmenté de 2 jours par mois, mais sans dépasser 10 jours par mois.
-
-Notez que ces mentions concernent toutes le télétravail régulier et non le télétravail flexible ou occasionnel.
+- "Le télétravail régulier pourra être limité à un jour par semaine"
+- "Le tableau ci-après présente le nombre de jours de présence minimum dans les locaux de l’Entreprise en fonction du pourcentage de la durée du travail" (avec des pourcentages traduisant des nombres de jours de télétravail par semaine)
+- "Les collaborateurs en télétravail régulier peuvent bénéficier de 2 journées de télétravail supplémentaires par mois sans pouvoir excéder 10 jours de télétravail sur un même mois civil" (ce qui implique un maximum de 5 jours par semaine)
+- "Afin de prévenir les risques d’isolement, de perte de sentiment d’appartenance à l’Entreprise, et au-delà, des impacts opérationnels que pourrait avoir une activité exercée totalement à distance, le télétravail ne peut être, au sein de l’Entreprise, une modalité continue et permanente du travail. Une limite haute de 10 jours de télétravail, par mois civil, est instituée." (ce qui implique un maximum de 2,3 jours par semaine en moyenne sur un mois)
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
 * "Ces jours hebdomadaires de télétravail constituent la référence du télétravail régulier au titre du présent accord."

@@ -1,11 +1,10 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jour de télétravail autorisé par semaine. Voici les extraits pertinents :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les réponses extraites des documents fournis :
 
-- "Les parties conviennent que le nombre de journée maximale de télétravail par semaine est fixé à une (1)."
-- "Je suis autorisé(e) à effectuer une journée par semaine de télétravail,"
-- "Article 4.1 – DUREE MAXIMALE DE TELETRAVAIL ACCORDEE [...] Les journées de télétravail sont prises par journée complète sauf demande justifiée par des motifs exceptionnels, laissés à l’appréciation du manager."
+- Article 4.1 : "Les parties conviennent que le nombre de journée maximale de télétravail par semaine est fixé à une (1)."
+- Guide de POCHE DU TELETRAVAILLEUR : "Je suis autorisé(e) à effectuer une journée par semaine de télétravail..."
 
-Ainsi, selon ces extraits, le nombre maximal de jour de télétravail par semaine est fixé à un.
+Par conséquent, la réponse à votre question est affirmative : au moins un paragraphe mentionne un nombre de jour de télétravail autorisé par semaine.
 Q_TTSEM_NOMBRE:> Extraits pertinents des documents à analyser :
 
 * Article 4.1 – DUREE MAXIMALE DE TELETRAVAIL ACCORDEE : "Les parties conviennent que le nombre de journée maximale de télétravail par semaine est fixé à une (1)."

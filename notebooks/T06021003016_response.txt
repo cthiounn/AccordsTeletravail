@@ -1,19 +1,4 @@
-Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail par semaine. Voici ces passages :
-
-- "Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés." (Source : T06021003016.txt)
-
-- "Le télétravail ponctuel ne pourra être effectué le mardi." (Source : T06021003016.txt)
-
-- "Une présence dans l’entreprise de 3 jours minimum par semaine est requise." (Source : T06021003016.txt)
-
-- "Le télétravail ponctuel intervient ponctuellement au cours de l’année et a été anticipé, prévu. Il ne présente pas une récurrence organisée. Afin de préserver le bon fonctionnement des services et le maintien de la cohésion d’équipe par une présence physique de tous les salariés, le télétravail ponctuel ne pourra être effectué le mardi." (Source : T06021003016.txt)
-
-- "Le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés." (Source : T06021003016.txt)
-
-- "Une présence dans l’entreprise de 3 jours minimum par semaine est requise." (Source : T06021003016.txt)
-
-Dans ces extraits, on voit que le télétravail régulier est limité à 2 jours maximum par semaine, tandis que le télétravail ponctuel ne peut être effectué le mardi. De plus, une présence dans l'entreprise de 3 jours minimum par semaine est requise, ce qui implique que le télétravail ne peut excéder 2 jours par semaine.
+Q_TTSEM:Oui, un paragraphe mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Selon l'article 12, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés." (Source: T06021003016.txt)

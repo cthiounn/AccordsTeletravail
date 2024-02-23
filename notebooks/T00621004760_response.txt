@@ -1,11 +1,11 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les extraits pertinents :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximums exprimés par semaine. Voici ces passages :
 
-- Article 2.3.1 : "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine."
-- Article 2.4 : "L’avenant au contrat de travail précise [...] La journée de la semaine télétravaillée"
-- Annexe 1 - Questionnaire de demande - Télétravail régulier : "Ce questionnaire s’adresse aux salariés souhaitant faire une demande de télétravail régulier, c’est-à-dire à hauteur de 1 jour par semaine."
+- Article 2.3.1 : "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine."
+- Article 2.3.2 : "Ponctuellement, avec l'accord préalable par mail du manager, pour des raisons d'organisation professionnelle (déplacement professionnel, réunion sur site la journée télétravaillée…) ou personnelle (hors congés payés ou RTT sur la semaine). Dans ce cas la journée de télétravail pourra être déplacée : Au sein de la même semaine (en changeant la journée de télétravail de mardi pour la journée de jeudi ou inversement)"
+- Annexe 1 – Questionnaire de demande - Télétravail régulier : "Ce questionnaire s’adresse aux salariés souhaitant faire une demande de télétravail régulier, c’est-à-dire à hauteur de 1 jour par semaine."
 
-Dans chaque cas, il est mentionné que le télétravail est autorisé jusqu'à un jour par semaine.
+Cependant, il convient de noter que les documents fournis ne contiennent pas d'autres mentions explicites de nombres de jours de télétravail par semaine.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * Article 2.3.1. Rythme général du télétravail : "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine."

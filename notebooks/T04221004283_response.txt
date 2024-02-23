@@ -1,12 +1,11 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les occurrences :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les occurrences trouvées :
 
-- Méthode 1 : "1, 1,5 ou 2 jours (selon les règles évoquées au paragraphe précédent « Rythme de télétravail ») par semaine fixes"
-- Méthode 2 : "1, 1,5 ou 2 jours (selon les règles évoquées au paragraphe précédent « Rythme de télétravail ») par semaine flexibles"
-- Modalités d'organisation du télétravail : "Le télétravail récurrent s’organise par journée complète dans la limite de deux (2) jours par semaine, fixé avec l’accord du supérieur hiérarchique"
-- Modalités d'organisation du télétravail : "un jour par semaine, fixé avec l’accord du supérieur hiérarchique, pour les alternants (apprentissage et contrat de professionnalisation) et stagiaires de six (6) mois et plus"
+- "un jour et demi par semaine"
+- "un jour une semaine et deux jours la semaine qui suit"
+- "1, 1,5 ou 2 jours par semaine" (x2)
 
-Par conséquent, il existe bien des mentions explicites de nombres de jours de télétravail autorisés par semaine dans les documents fournis.
+Notez que ces nombres sont exprimés en jours, mais ils sont bien associés au concept de semaine.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Le télétravail récurrent s’organise par journée complète dans la limite de deux (2) jours par semaine"

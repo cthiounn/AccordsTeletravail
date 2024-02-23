@@ -1,13 +1,10 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail par semaine. Voici les extraits pertinents :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail par semaine. Voici les occurrences trouvées :
 
-- "Le salarié est tenu de participer aux réunions, formations ou déplacements nécessaires à l’exercice de ses fonctions quand bien même ceux-ci interviendraient une journée initialement programmée en télétravail. **A l’échelle d’un service, il est possible de définir des journées comme non accessibles au télétravail afin de préserver le lien social, les rituels d’équipes et le travail collectif. Les réunions seront prioritairement organisées sur ces journées.** Les journées de télétravail sont définies dès la demande du salarié, validées par son responsable hiérarchique, sans pouvoir dépasser deux journées par semaine."
+- "Les jours de télétravail doivent par principe être pris par journée entière et ne peuvent conduire le salarié à s’absenter en télétravail plus de deux journées pour une semaine de cinq jours."
+- "A l’échelle d’un service, il est possible de définir des journées comme non accessibles au télétravail afin de préserver le lien social, les rituels d’équipes et le travail collectif. Les réunions seront prioritairement organisées sur ces journées. Les journées de télétravail sont définies dès la demande du salarié, validées par son responsable hiérarchique, sans pouvoir dépasser deux journées par semaine."
 
-- "**Les jours de télétravail doivent par principe être pris par journée entière et ne peuvent conduire le salarié à s’absenter en télétravail plus de deux journées pour une semaine de cinq jours.**"
-
-- "**Le lundi ne pourra être éligible au télétravail.**"
-
-Dans ces trois extraits, le nombre de jours de télétravail par semaine est limité à deux. Dans le premier extrait, cette limite est explicitement associée à la semaine : "deux journées par semaine". Dans les deux autres extraits, la limite de deux jours de télétravail par semaine est sous-entendue car elle est comparée à une semaine de cinq jours et au fait que le lundi n'est pas éligible au télétravail.
+Dans ces deux extraits, il est indiqué que le nombre maximal de jours de télétravail par semaine est de deux.
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
 * "Les jours de télétravail doivent par principe être pris par journée entière et ne peuvent conduire le salarié à s’absenter en télétravail plus de deux daynées pour une semaine de cinq days."

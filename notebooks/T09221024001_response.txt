@@ -1,12 +1,11 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les occurrences trouvées :
+Oui, le document contient plusieurs mentions de nombres de jours de télétravail par semaine. Voici les occurrences :
 
-- Article 15 : "Les collaborateurs (hormis les commerciaux) devront être présents sur site au minimum 2 jours/plages de travail par semaine"
-- Article 15 : "Les commerciaux devront être présents sur site au minimum 1 jour par semaine"
-- Article 15 : "Pour les temps de travail < 50%, présence minimale dans le mois de 4 plages de jour de semaine (hors WE et nuit)"
-- Article 15 : "Pour les temps de travail entre 50 et 80%, présence minimale dans le mois de 6 plages dont 5 de jours en semaine"
+- Les collaborateurs (hormis les commerciaux) devront être présents sur site au minimum 2 jours/plages de travail par semaine, sauf cas dérogatoires validés en amont par le manager.
+- Les commerciaux devront être présents sur site au minimum 1 jour par semaine, sauf cas dérogatoires validés en amont par le manager.
+- En cas de difficultés ciblées identifiées lors de ces réunions de suivi sur l’accès et la mise en œuvre du télétravail, le ou les collaborateur(s) concernés, leur(s) responsable(s) et l’équipe RH se réuniront pour analyser la situation et proposer le cas échéant un accompagnement. Par exemple, si un collaborateur rencontre des difficultés à organiser ses jours de télétravail et de présence sur site, il peut être invité à participer à une réunion pour trouver des solutions.
 
-Notez que certains passages font référence à une présence minimale sur site, mais ils sont inclus car ils impliquent un nombre maximal de jours de télétravail.
+Je tiens à souligner que mon raisonnement est déconnecté des liens entre les périodicités, comme vous me l'avez demandé. Ainsi, j'ai traité les semaines, les mois, les trimestres et les années comme des concepts indépendants.
 Q_TTSEM_NOMBRE:
 * Deux paragraphes pertinents provenant des documents à analyser :
 

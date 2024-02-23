@@ -1,12 +1,5 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail par semaine. Voici les occurrences trouvées :
-
-- "Un prorata sera effectué si le nombre hebdomadaire de jours de télétravail..."
-- "...la détermination des jours de télétravail sera décidée entre le manager et le Salarié dans l’intérêt de la bonne marche du service ou de l’équipe." (implicitement, le nombre de jours de télétravail par semaine n'est pas illimité)
-- "En cas de télétravail en dessous de 100%, les jours télétravaillés dans la semaine sont convenus entre le Salarié et son manager..."
-- "Le nombre de jours de télétravail imposés par semaine peut être réévalué par l’entreprise..."
-
-Dans ces extraits, le terme "semaine" est utilisé explicitement, ce qui permet de répondre à la question posée.
+Non, aucun paragraphe mentionnant un nombre de jour de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine n'a été trouvé dans les documents fournis.
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 * "Le nombre de jours de télétravail imposés par semaine peut être réévalué par l’entreprise en fonction des mesures soit recommandées soit imposées par les Pouvoirs Publics."
 * "En cas de télétravail en dessous de 100%, les jours télétravaillés dans la semaine sont convenus entre le Salarié et son manager, le cas échéant après avis de la Direction des Ressources Humaines, afin de respecter une jauge dans les locaux de l’entreprise qui soit adaptée à la situation sanitaire."

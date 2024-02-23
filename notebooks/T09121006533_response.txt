@@ -1,5 +1,5 @@
 Q_TTSEM:
-Oui, un paragraphe mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Il s'agit du paragraphe intitulé "4. Mise en place du télétravail" qui stipule qu'"Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine".
+Oui, le document contient un paragraphe mentionnant un nombre de jours de télétravail autorisé par semaine. Il s'agit du paragraphe intitulé "4. Mise en place du télétravail" qui précise que "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine".
 Q_TTSEM_NOMBRE:
 * Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 

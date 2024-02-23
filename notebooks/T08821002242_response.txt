@@ -1,12 +1,12 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici ces paragraphes :
+Q_TTSEM:Oui, le document contient plusieurs paragraphes mentionnant un nombre de jours de télétravail autorisé par semaine. Voici les extraits pertinents :
 
-- "De sorte à éviter le risque d’une « distanciation » avec l’entreprise, le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein." (Source : T08821002242.txt, Article 6 - Modalités d’organisation du télétravail, point 6-1 Rythme du télétravail)
+- "De sorte à éviter le risque d’une « distanciation » avec l’entreprise, le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein." (Source: T08821002242.txt)
 
-- "Le temps de présence physique du collaborateur dans les locaux de l’entreprise devra donc être au minimum de 3 jours par semaine pour un temps plein." (Source : T08821002242.txt, Article 6 - Modalités d’organisation du télétravail, point 6-2 Planification)
+- "Les jours de télétravail sont pris par journée complète, sauf demande justifiée par des motifs exceptionnels, laissés à l’appréciation du manager, situation qui devra donner lieu à un accord express et préalable dudit manager concerné par une telle demande." (Source: T08821002242.txt)
 
-- "Le salarié qui désire bénéficier du télétravail devra en faire la demande par courriel à son Manager avec copie à la Direction des Ressources Humaines. Le Manager et la Direction des Ressources Humaines valideront ou non les demandes. Ils disposeront d’un mois maximum pour formuler la réponse, et ce, à compter de la date de remise ou réception de la demande de passage au télétravail formulée par le salarié. La validation de la demande implique l’acceptation par le salarié de travailler en télétravail un jour par semaine." (Source : T08821002242.txt, Article 5 - Mise en œuvre du télétravail, point 5-1 Demande du salarié)
+- "Le temps de présence physique du collaborateur dans les locaux de l’entreprise devra donc être au minimum de 3 jours par semaine pour un temps plein." (Source: T08821002242.txt)
 
-Notez que dans le troisième paragraphe, le nombre de jours de télétravail par semaine n’est pas explicitement mentionné dans le texte, mais il est implicite puisque la validation de la demande implique l’acceptation par le salarié de travailler en télétravail un jour par semaine.
+Notez que ces mentions concernent exclusivement les jours de télétravail autorisés par semaine pour un collaborateur à temps plein.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein." (Source: T08821002242.txt)

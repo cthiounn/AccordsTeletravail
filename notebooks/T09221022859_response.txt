@@ -1,5 +1,5 @@
 Q_TTSEM:
-Oui, l'article 9 mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Les salariés à temps plein ne travailleront qu'au maximum 2 jours par semaine en télétravail et 1 seule journée pour les salariés à temps partiel.
+Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Les seules mentions de durée de télétravail se trouvent à l'Article 6 et à l'Article 11, mais elles ne précisent pas de nombre de jours par semaine.
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 * "Afin notamment de preserver une certaine cohesion au sein des effectifs de la Societe, les Salaries a temps plein ne travailleront qu'au maximum 2 jours par semaine en teletravail"
 

@@ -1,9 +1,9 @@
 Q_TTSEM:
-Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail autorisé par semaine :
+Oui, le paragraphe suivant mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine :
 
-> "Principe \nAfin de préserver le lien social avec l’entreprise, les salariés éligibles peuvent, avec accord du manager, bénéficier du télétravail dans la limite de xx jours par semaine. \nEn raison de la spécificité de leur poste, les salariés du CCC (centre contact client) peuvent bénéficier du télétravail dans la limite de 50% de leur temps de travail. Ces jours seront répartis en accord avec le service planification."
+> "Afin de préserver le lien social avec l’entreprise, les salariés éligibles peuvent, avec accord du manager, bénéficier du télétravail dans la limite de **xx** jours par semaine."
 
-Dans ce paragraphe, il est mentionné que les salariés éligibles peuvent bénéficier du télétravail dans la limite de "xx jours par semaine". Ce nombre n'est pas précisé dans le texte, mais il est clairement indiqué que le nombre de jours de télétravail est limité par semaine.
+Il s'agit du document avec le métadonnées `{'source': 'T09221025128.txt'}`, dans le paragraphe commençant par "2.2.1 – Nombre de jours de télétravail".
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
 	+ "Par exception bénéficient de xx jour de télétravail par semaine"

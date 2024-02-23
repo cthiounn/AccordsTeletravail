@@ -1,4 +1,4 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Les seuls nombres de jours de télétravail mentionnés sont "4 par mois" et "une journée de télétravail".
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement le nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Les seules mentions de jours de télétravail se trouvent dans le document 2, où il est indiqué qu'un accord de télétravail permet au salarié de travailler à distance et qu'une procédure spécifique est définie dans cet accord, ainsi que dans le document 1, où il est mentionné que le nombre de journées de télétravail est de 4 par mois mais non consécutives.
 Q_TTSEM_NOMBRE:
 Extraction de deux paragraphes pertinents provenant des documents à analyser :
 

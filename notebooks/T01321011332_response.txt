@@ -1,5 +1,5 @@
 Q_TTSEM:
-Oui, le paragraphe "Fréquence et nombre de jours de télétravail" du document 2 mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Selon ce paragraphe, le télétravail est possible à concurrence de 0 à 2 jours ouvrés maximum par semaine, non consécutifs, sous condition de présence de 3 jours sur site.
+Oui, dans le document "Accord collectif sur l’organisation du télétravail", il est mentionné que "Le télétravail est possible, si cela est compatible avec la durée du travail des salariés concernés, à concurrence de 0 à 2 jours ouvrés maximum par semaine, non consécutifs, sous condition de présence de 3 jours sur site (non reportable, non cumulable)."
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le télétravail est possible, si cela est compatible avec la durée du travail des salariés concernés, à concurrence de 0 à 2 jours ouvrés maximum par semaine, non consécutifs, sous condition de présence de 3 jours sur site (non reportable, non cumulable)."

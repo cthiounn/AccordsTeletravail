@@ -1,12 +1,21 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine. Voici ces passages :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici ces passages :
 
-- Option 1 de l'article 2 : "Vous serez en situation de télétravail à raison de deux jours par semaine maximum."
-- Option 2 de l'article 2 : "Vous serez en situation de télétravail à raison d'un jour par semaine maximum."
-- Paragraphe du document 2 : "Option 3 – Vous disposez d’un forfait mobile de 45 jours de télétravail maximum par an." (Cette option ne précise pas explicitement que le forfait est par semaine, mais c'est sous-entendu.)
-- Paragraphe du document 3 : "les salariés qui seraient soumis à un forfait annuel en jours réduit (c’est-à-dire inférieur à 209 jours) ou les salariés occupés à temps partiel (c’est-à-dire en deçà de 35 heures par semaine), ne pourront opter que pour le forfait mobile de jours de télétravail. Le nombre de jours de télétravail sera alors proratisé au regard de leur durée du travail comparée à la durée du travail en vigueur au sein de la Société (un salarié travaillant à 80 % bénéficiera d’un forfait mobile de 36 jours de télétravail)." (Cette option ne précise pas explicitement que le forfait est par semaine, mais c'est sous-entendu.)
+- "Les jours de télétravail ne pourront par ailleurs pas être pris par demi-journée et devront correspondre à une journée entière de travail. Par exception, il est possible de cumuler, sur une même semaine, les jours de télétravail au titre du télétravail régulier et un ou plusieurs jours de télétravail occasionnel (voir Titre 4 du présent accord), ce qui pourra avoir pour effet de réduire le nombre de jours de présence au sein des locaux de la Société sur une même semaine (pouvant aller jusqu’à 0 jour)."
 
-Dans tous ces cas, le nombre de jours de télétravail par semaine est explicitement mentionné ou sous-entendu.
+- "Option 2 - Vous serez en situation de télétravail à raison d’un jour par semaine maximum."
+
+- "Option 1 - Vous serez en situation de télétravail à raison de deux jours par semaine maximum."
+
+- "Il est également précisé que pour des considérations d’ordre organisationnel, les lundi et vendredi ne pourront être pris en télétravail la même semaine."
+
+- "En toute circonstance, le télétravailleur devra être présent au sein des locaux de la Société ou tout autre lieu de rendez-vous, au moins 2 jours par semaine (incluant les jours de formation éventuels, déplacements professionnels, séminaires…)"
+
+- "En conséquence, si pour une raison quelconque (hors absences ou congés) le salarié n’est pas en mesure d’être présent dans les locaux de la société 2 jours sur une même semaine, il devra renoncer à ses jours de télétravail sur ladite semaine."
+
+- "Vous serez en situation de télétravail à raison d’un jour par semaine maximum."
+
+- "Vous serez en situation de télétravail à raison de deux jours par semaine maximum."
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Option 1 - Vous serez en situation de télétravail à raison de deux jours par semaine maximum." (Source: T07521031493.txt)

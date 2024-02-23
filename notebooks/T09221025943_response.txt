@@ -3,11 +3,8 @@ Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autor
 
 - De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise
 - De 1 à 3 jours flottants par semaine
-- 1 jour de télétravail par semaine
-- 2 jours de télétravail par semaine
-- 3 jours de télétravail par semaine
-
-Référence : T09221025943.txt
+- Un forfait mensuel de 6 jours (dans ce cas, il faut diviser le nombre de jours par la période correspondante, soit 4.3 jours par semaine en moyenne)
+- Un forfait annuel de 30 jours (soit environ 0.58 jours par semaine)
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise"

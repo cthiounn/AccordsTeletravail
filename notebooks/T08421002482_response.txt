@@ -1,13 +1,5 @@
 Q_TTSEM:
-Oui, le paragraphe suivant mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine :
-
-> Article 3: Typologie de télétravail
->
-> Le présent accord a pour but de réglementer un télétravail dit occasionnel, sur demande du salarié pour convenance personnelle.
-> **Il ne s’agit en aucun cas de créer une réglementation permettant un télétravail permanent qu’il soit total ou partiel.**
-> **Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein.**
-
-Source: T08421002482.txt
+Non, aucun paragraphe mentionnant un nombre de jour de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine, n'a été trouvé dans les documents fournis.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein." (Article 3)

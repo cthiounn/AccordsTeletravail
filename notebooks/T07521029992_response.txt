@@ -1,5 +1,5 @@
 Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine.
+Oui, un paragraphe mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Dans le document intitulé "Salariés éligibles au télétravail", il est indiqué que "le nombre de jours de télétravail autorisé par semaine et par collaborateur est dans ce cas proportionnel au temps de travail par semaine du salarié concerné (2 jours de télétravail par semaine étant autorisé pour un collaborateur à temps plein ou forfait jours non réduit)".
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents:
 
 * "Les salariés n’ont pas d’obligation d’utiliser chaque semaine tous les jours de télétravail dont ils disposent."

@@ -1,4 +1,9 @@
-Q_TTSEM:Oui, un paragraphe mentionne explicitement un nombre de jours de télétravail maximum par semaine. Il s'agit du paragraphe suivant : "Le télétravail régulier à domicile ne pourra être exercé que pour un minimum d’un (1) jour par semaine et un maximum de quatre (4) jours par semaine." (source : T03321007161.txt)
+Q_TTSEM:
+Oui, un paragraphe mentionne explicitement le nombre de jours de télétravail autorisé par semaine. Il s'agit du document suivant :
+
+> Document(page\_content='Quelle que soit la partie qui exerce ce droit à réversibilité, l’exercice de ce droit devra être motivé par écrit et notifié par courriel, lettre remise en main propre contre décharge ou par lettre recommandée avec accusé de réception, et ce en respectant un délai de prévenance réciproque de quinze (15) jours, sauf accord des parties sur un délai plus court.\n\nEn cas de changement de fonction, mission, poste, service, le délai de prévenance sera réduit à une (1) semaine. \n\nA l’issue de ce délai, le salarié regagnera les locaux de l’entreprise afin d’exercer ses fonctions conformément à ses conditions de travail initiales et pour l’intégralité de son temps de travail.\nFréquence et nombre de jours télétravaillés\nLe télétravail régulier à domicile ne pourra être exercé que pour un minimum d’un (1) jour par semaine et un maximum de quatre (4) jours par semaine.', metadata={'source': 'T03321007161.txt'})
+
+Le nombre de jours de télétravail autorisés par semaine est compris entre 1 (un) et 4 (quatre).
 Q_TTSEM_NOMBRE:Two paragraphs relevant to the question from the documents are:
 
 * "Une présence minimale hebdomadaire au sein de l’entreprise, pouvant varier entre un (1) et quatre (4) jours sera requise pour chaque salarié en situation de télétravail"

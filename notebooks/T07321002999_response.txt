@@ -1,24 +1,15 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum exprimé par semaine. Voici ces passages :
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine. Voici ces passages :
 
 - "Compte tenu de l’importance du maintien du lien avec la communauté de travail, les salariés devront être présents a minima 3 jours par semaine dans les locaux au sein desquels les salariés exercent habituellement leur activité, et le télétravail ne pourra se faire que dans la limite d’1 jour par semaine, avec possibilité de télétravail par demi-journée."
 
-- "Chaque responsable d’équipe aura la possibilité de définir une ou plusieurs journées par semaine pour lesquelles l’ensemble de l’équipe devra être présente simultanément au sein des locaux. Ces journées ne pourront alors pas être télétravaillées."
+- "Chaque responsable d’équipe aura la possibilité de définir une ou plusieurs journées par semaine pour lesquelles l’ensemble de l’équipe devra être présente simultanément au sein des locaux. Ces journées ne pourront alors pas être télétravaillées. Egalement, les responsables d’équipe peuvent librement fixer avec chaque salarié le jour de la semaine télétravaillé afin d’assurer la présence simultanée dans les locaux d’un nombre minimum de salariés."
 
-- "Un jour par semaine, avec possibilité de télétravail par demi-journée."
+- "Un point à 3 mois sera fait entre le manager et le télétravailleur pour s’assurer que les conditions nécessaires au bon fonctionnement du télétravail sont bien remplies pour le télétravailleur, le manager, et le bon fonctionnement de l’organisation."
 
-- "Le télétravail ne pourra se faire que dans la limite d’1 jour par semaine, avec possibilité de télétravail par demi-journée."
+- "La période d’adaptation de 3 mois permettra à chacun de s’assurer que le mode d’organisation est compatible avec les intérêts de chacune des parties."
 
-- "...les salariés devront être présents a minima 3 jours par semaine..."
-
-- "...le télétravail ne pourra se faire que dans la limite d’1 jour par semaine..."
-
-- "...la mise en œuvre du télétravail sera possible dans des mesures définies au cas par cas, sans jamais pouvoir excéder 1 jour par semaine."
-
-- "...les salariés devront être présents a minima 3 jours par semaine dans les locaux..."
-
-- "...le télétravail ne pourra se faire que dans la limite d’1 jour par semaine..."
-
-Dans tous ces extraits, le nombre de jours de télétravail autorisé, recommandé, limité ou maximum est exprimé explicitement par semaine, il s'agit toujours d'un jour par semaine, sauf dans le premier extrait où il est question d'un maximum de trois jours de présence dans les locaux de l'entreprise et donc d'un maximum d'un jour de télétravail par semaine.
+Dans tous ces extraits, il est mentionné qu'un salarié peut télétravailler jusqu'à 1 jour par semaine, sauf exceptions mentionnées dans les mêmes documents.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Compte tenu de l’importance du maintien du lien avec la communauté de travail, les salariés devront être présents, ou en clientèle, a minima 3 jours par semaine dans les locaux au sein desquels les salariés exercent habituellement leur activité, et le télétravail ne pourra se faire que dans la limite d’1 jour par semaine, avec possibilité de télétravailler par demi-journée." (Source : T07321002999.txt)

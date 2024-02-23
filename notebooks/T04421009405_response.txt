@@ -1,11 +1,9 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum exprimé par semaine. Voici ces passages extraits des documents fournis :
+Oui, le paragraphe suivant mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine :
 
-- "Le rythme de télétravail accordé devra permettre minimum 3 jours de présentiel sur site par semaine pour les salariés à temps plein et à temps partiel."
-- "Le nombre de jours de télétravail est plafonné à 6 jours par mois."
-- "Il sera possible de télétravailler par demi-journée : Exemple : réunion le matin inter site retour possible au domicile ou en télétravail nomade."
+> "Le rythme de télétravail accordé devra permettre minimum 3 jours de présentiel sur site par semaine pour les salariés à temps plein et à temps partiel."
 
-Cependant, il convient de noter que ces mentions ne sont pas toutes exprimées directement en jours par semaine, mais plutôt en jours par mois ou en jours minimaux de présence sur site par semaine.
+Ce paragraphe indique que le rythme de télétravail doit permettre un minimum de 3 jours de présentiel sur site par semaine, ce qui signifie que le nombre maximum de jours de télétravail par semaine est de 4.
 Q_TTSEM_NOMBRE:
 * Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
 

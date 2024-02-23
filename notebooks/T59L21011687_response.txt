@@ -1,5 +1,11 @@
 Q_TTSEM:
-Oui, le paragraphe intitulé "5.1. Catégorie 1: Pour les collaborateurs du siège et des fonctions supports" mentionne explicitement un nombre de jour de télétravail autorisé par semaine. Il est indiqué que "le rythme de télétravail sera au minimum de 1 jour toutes les 2 semaines et ne pourra excéder 1 jour par semaine". Par conséquent, la réponse à votre question est oui, au moins un paragraphe mentionne un nombre de jour de télétravail autorisé par semaine.
+Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail autorisés par semaine :
+
+> 5.1. Catégorie 1 Pour les collaborateurs du siège et des fonctions supports
+>
+> Le rythme de télétravail sera au minimum de 1 jour toutes les 2 semaines et ne pourra excéder 1 jour par semaine pour les collaborateurs concernés.
+
+Donc, le nombre de jours de télétravail autorisés par semaine est de 1 jour.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le rythme de télétravail sera au minimum de 1 jour toutes les 2 semaines et ne pourra excéder 1 jour par semaine pour les collaborateurs concernés." (Document(page\_content="ARTICLE 5 - RYTHME DU TELETRAVAIL...", metadata={'source': 'T59L21011687.txt'}))

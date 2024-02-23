@@ -1,5 +1,11 @@
 Q_TTSEM:
-Oui, il y a un paragraphe qui mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Selon le document, "le planning du salarié bénéficiant du télétravail pourra prévoir soit une journée, soit au maximum deux journées, par semaine en situation de télétravail".
+Oui, il y a plusieurs paragraphes qui mentionnent un nombre de jours de télétravail autorisés par semaine. Voici quelques exemples :
+
+* "Le planning du salarié bénéficiant du télétravail pourra prévoir soit une journée, soit au maximum deux journées, par semaine en situation de télétravail"
+* "La planification du ou des deux jours de télétravail se fera sur proposition du salarié et validation de son supérieur hiérarchique. Ce dernier pourra limiter les jours de télétravail à certains jours de la semaine en fonction de l'organisation du service, de la composition de l'équipe, et de l'équité entre les salariés demandant à bénéficier du télétravail."
+* "Afin de garantir l'équité entre l'ensemble des salariés de l'équipe, le supérieur hiérarchique pourra organiser ce ou ces deux jours fixes en télétravail par semaine en cycles..."
+
+Dans tous ces cas, il est mentionné que le nombre de jours de télétravail par semaine est limité à une ou deux journées.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Conformément à ces modalités, le planning du salarié bénéficiant du télétravail pourra prévoir soit une journée, soit au maximum deux journées, par semaine en situation de télétravail lorsque le salarié est à temps complet, et une seule journée par semaine en situation de télétravail lorsque que le salarié est à temps partiel avec une durée du travail supérieure ou égale à 80 %."

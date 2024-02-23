@@ -1,4 +1,4 @@
-Q_TTSEM:Non, aucun paragraphe mentionnant un nombre de jours de télétravail autorisé, recommandé, limité ou maximum n'a été trouvé dans les documents fournis.
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
 Q_TTSEM_NOMBRE:
 * Extraction de paragraphes pertinents :
     * "La direction s’engage à renégocier l’accord de télétravail. Dans cette attente, la direction propose la mise en place d’une journée de télétravail sans conditions de temps de trajet, nombre de kilomètres ou encore conditions particulières liées au temps de travail pour l’ensemble des salariés hormis les stagiaires, apprentis et salariés en période d’essai."

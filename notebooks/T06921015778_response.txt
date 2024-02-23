@@ -7,9 +7,9 @@ Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autor
 
 - "le nombre de jours télétravaillés dans la semaine" (Source : T06921015778.txt, Article 6-3)
 
-- "Le suivi du temps de travail en télétravail est assuré de la même manière qu’au sein des locaux de l’entreprise." (Source : T06921015778.txt)
+- "pour les salariés ayant des jours fixes de télétravail, un délai de prévenance minimum de 3 jours ouvrés devra être respecté." (Source : T06921015778.txt, Événement interne et formation)
 
-- "Événement interne et formation : Afin de préserver une certaine souplesse dans l’organisation et sur demande du manager, le salarié reste tenu de se rendre dans les locaux de l’entreprise pendant les jours de télétravail, pour participer notamment aux réunions ou pour tout autre motif justifié par le bon fonctionnement du service. Dans ce cas et pour les salariés ayant des jours fixes de télétravail, un délai de prévenance minimum de 3 jours ouvrés devra être respecté." (Source : T06921015778.txt)
+- "Le suivi du temps de travail en télétravail est assuré de la même manière qu’au sein des locaux de l’entreprise." (Source : T06921015778.txt) Ici, il n'y a pas de nombre de jours spécifiques mentionnés, mais il est implicite que le suivi du temps de travail se fait par semaine.
 Q_TTSEM_NOMBRE:
 * Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 

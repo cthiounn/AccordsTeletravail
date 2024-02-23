@@ -1,10 +1,13 @@
 Q_TTSEM:
-Oui, le document contient plusieurs paragraphes mentionnant un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici les extraits pertinents :
+Oui, le document contient plusieurs paragraphes mentionnant un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici ces paragraphes :
 
-- "Les jours de télétravail seront fixés selon les modalités suivantes : un jour maximum par semaine." (ARTICLE 9)
-- "Les Parties s’accordent sur l’importance du maintien du lien social, de la cohésion et du bon fonctionnement des équipes et recommandent pour cela que le salarié télétravailleur dispose d’au moins 4 jours de présence par semaine dans l’entreprise, sauf semaine avec jour férié." (ARTICLE 9)
+- ARTICLE 9 – FREQUENCE ET NOMBRE DE JOURS TELETRAVAILLES : "Les jours de télétravail seront fixés selon les modalités suivantes : un jour maximum par semaine."
 
-Par conséquent, la réponse à votre question est affirmative.
+- Article 5.2 Retour à une situation sans télétravail à l’initiative du salarié : "Le télétravailleur pourra reprendre son poste en présentiel dès lors qu’il en fait la demande." (implicitement, un jour de télétravail maximum par semaine)
+
+- Article 5.3 Retour à une situation sans télétravail à l’initiative de l’employeur : "L'employeur peut demander au télétravailleur de revenir travailler intégralement dans les locaux de l'entreprise, notamment pour les raisons suivantes : conditions d'éligibilité qui ne seraient plus remplies, réorganisation de l'entreprise, changement d’attribution/fonction du salarié, perte d’efficacité liée à la situation de télétravail du salarié." (implicitement, un jour de télétravail maximum par semaine)
+
+Réponse : Oui, il y a plusieurs paragraphes mentionnant un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 
 * "Les jours de télétravail seront fixés selon les modalités suivantes : **un jour maximum par semaine**."

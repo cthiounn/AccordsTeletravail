@@ -1,5 +1,5 @@
 Q_TTSEM:
-Oui, le paragraphe "Article 11 – Fréquence et nombre de jours de télétravail" mentionne explicitement un nombre de jours de télétravail autorisés par semaine. Selon ce paragraphe, les jours de télétravail seront fixés selon les modalités suivantes : "Un maximum de 2 jours par semaine, et de 2 demi-journées pouvant être cumulées sur une même journée au cours de la même semaine".
+Oui, le document contient un paragraphe qui mentionne explicitement le nombre maximal de jours de télétravail autorisés par semaine. Selon l'article 11, le nombre maximal de jours de télétravail par semaine est de 2, sauf accord entre le manager et le salarié pour étendre ce nombre à la semaine entière (5 jours) sur une période de 4 semaines maximum.
 Q_TTSEM_NOMBRE:
 * Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
 

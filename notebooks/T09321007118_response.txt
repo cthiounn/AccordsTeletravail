@@ -1,10 +1,11 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail par semaine. Voici les occurrences :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail par semaine. Voici les occurrences trouvées :
 
-- "Ainsi, les salarié-es qui auront recours au télétravail 1 à 2 fois par semaine bénéficieront d’une prime de 10 (dix) €uros bruts mensuels."
-- "Ainsi, les salarié-es qui auront recours au télétravail 3 fois et plus par semaine bénéficieront d’une prime de 15 (quinze) €uros bruts mensuels."
+- Dans le document avec `metadata` égal à `{'source': 'T09321007118.txt'}`, il y a deux mentions :
+  - "Ainsi, les salarié-es qui auront recours au télétravail 1 à 2 fois par semaine bénéficieront d’une prime de 10 (dix) €uros bruts mensuels."
+  - "Ainsi, les salarié-es qui auront recours au télétravail 3 fois et plus par semaine bénéficieront d’une prime de 15 (quinze) €uros bruts mensuels."
 
-Cependant, ces mentions ne précisent pas explicitement le nombre maximal de jours de télétravail autorisés, mais plutôt les conditions pour bénéficier d'une prime spécifique.
+Il est important de noter que ces mentions ne précisent pas explicitement si ces jours de télétravail incluent ou non les jours supplémentaires ou exceptionnels, et s'ils sont soumis à une présence obligatoire sur site.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Un groupe de salarié-es, représentatif des métiers de l’Association, travaille actuellement pour définir les conditions et modalités du télétravail au sein de AIDES. Ce travail donnera lieu à la rédaction d’une charte, qui énoncera ces conditions et modalités."

@@ -1,5 +1,5 @@
 Q_TTSEM:
-Oui, un paragraphe mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Dans le document T06421003671.txt, il est indiqué que "les jours de travail occasionnel à distance sont positionnés à la convenance du salarié, dans la limite de quatre jours par mois". Comme il y a environ 4 semaines par mois, cela revient à dire que le nombre maximal de jours de télétravail autorisés par semaine est un.
+Non, aucun paragraphe ne mentionne un nombre de jours de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine. Les seules mentions de nombres de jours concernent le mois et l'année civile.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "Le travail occasionnel à distance peut s’exercer à hauteur de 12 jours par année civile pour un salarié présent toute l’année." (Source : T06421003671.txt)
