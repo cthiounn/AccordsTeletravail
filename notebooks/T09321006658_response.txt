@@ -1,5 +1,4 @@
-Q_TTSEM:
-Oui, le premier document mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, qui est de deux jours. Voici la phrase exacte : "Pour maintenir le lien social avec la communauté de travail, le présent accord prévoit jusqu’à deux jours de télétravail par semaine pour une semaine de travail ‘standard’ (avec cinq jours ouvrés)."
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine. Les documents mentionnent uniquement "jusqu'à deux jours de télétravail par semaine" mais cela signifie que ce nombre est un minimum et non un maximum.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "Pour maintenir le lien social avec la communauté de travail, le présent accord prévoit jusqu’à deux jours de télétravail par semaine"

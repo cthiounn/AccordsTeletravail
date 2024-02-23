@@ -1,4 +1,4 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail maximum autorisé par semaine. Les seuls paragraphes qui mentionnent le nombre de jours de télétravail sont ceux où il est indiqué que les salariés seront en télétravail "au minimum, soit deux ½ journées par semaine" ou "soit une journée complète par semaine", mais aucun paragraphe ne mentionne de limite maximale.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Les salariés seront en télétravail au minimum, Soit deux ½ journées par semaine Soit une journée complète par semaine"
 

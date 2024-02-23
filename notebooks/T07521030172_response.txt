@@ -1,4 +1,5 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine.
+Q_TTSEM:
+Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "L’accord sur le télétravail au domicile au sein de BNP Paribas Securities Services du 12 octobre 2016, modifié par avenants du 3 juillet 2018, du 30 septembre 2019 et du 27 octobre 2020 est prorogé pour une période de trois mois, soit jusqu’au 30 juin 2021."

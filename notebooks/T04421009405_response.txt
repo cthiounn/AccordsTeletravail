@@ -1,8 +1,4 @@
-Q_TTSEM:Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail maximum autorisé par semaine :
-
-"Le rythme de télétravail accordé devra permettre minimum 3 jours de présentiel sur site par semaine pour les salariés à temps plein et à temps partiel."
-
-Ce paragraphe indique que le nombre maximum de jours de télétravail par semaine est de 4 jours.
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine.
 Q_TTSEM_NOMBRE:
 * Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
 

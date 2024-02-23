@@ -1,5 +1,10 @@
 Q_TTSEM:
-Oui, le document contient un paragraphe mentionnant un nombre de jour de télétravail maximum autorisé explicitement exprimé par semaine. Il s'agit de l'article 9, qui stipule que "Les jours de télétravail seront fixés selon les modalités suivantes : un jour maximum par semaine."
+Oui, le document 1 et le document 2 contiennent tous les deux l'information explicite selon laquelle le nombre maximum de jours de télétravail autorisés par semaine est de un. Voici les extraits pertinents :
+
+- Document 1 : "Les jours de télétravail seront fixés selon les modalités suivantes : **un jour maximum par semaine**."
+- Document 2 : "Les jours de télétravail seront fixés selon les modalités suivantes : **un jour maximum par semaine**."
+
+Par conséquent, la réponse à votre question est oui, au moins un paragraphe mentionne un nombre de jour de télétravail maximum autorisé explicitement exprimé par semaine.
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 
 * "Les jours de télétravail seront fixés selon les modalités suivantes : **un jour maximum par semaine**."

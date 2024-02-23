@@ -1,5 +1,5 @@
 Q_TTSEM:
-Oui, dans le document fourni, il est mentionné que "Le télétravail régulier peut-être de 1 ou de 2 jours par semaine." Cela indique clairement qu'il y a un nombre maximal de jours de télétravail autorisés par semaine, qui est de 2 jours.
+Oui, le document contient un paragraphe qui mentionne un nombre de jour de télétravail maximum autorisé explicitement exprimé par semaine. Il s'agit de l'article 8, qui limite le nombre de jour télétravaillable par semaine civile pour certaines populations à 1 jour pour les formateurs conseil/tradi, ASAV et CAF VPI, Fifties PORTABLE, et à un maximum de 2 jours pour les CAF SICLI (RIA et désenfumage), les salariés à temps partiel 80% ou 90%, et les salariés en temps partiel thérapeutique ou temps partiel sur préconisation de la Médecine du travail.
 Q_TTSEM_NOMBRE:
 **Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :**
 

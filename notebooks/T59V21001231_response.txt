@@ -1,5 +1,4 @@
-Q_TTSEM:
-Oui, le paragraphe intitulé "Rythme du télétravail" mentionne explicitement qu'un salarié éligible au télétravail ne peut pas travailler plus d'une journée par semaine à son domicile. Voici la phrase exacte : "L'activité exercée en télétravail à domicile, ne pourra excéder une journée (fixée préalablement avec le manager) par semaine pour les salariés éligibles au télétravail."
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Ainsi l’activité exercée en télétravail à domicile, ne pourra excéder une journée (fixée préalablement avec le manager) par semaine" (Source: T59V21001231.txt)

@@ -1,4 +1,5 @@
-Q_TTSEM:Non, aucun paragraphe mentionnant un nombre de jour de télétravail maximum autorisé explicitement exprimé par semaine n'a été trouvé dans les documents fournis.
+Q_TTSEM:
+Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail maximum autorisé par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Le télétravail tel que défini ci-dessus s’organise chez SWM par journée ou par demi-journée, sous réserve de respecter une obligation de 2 jours de présence par semaine minimum sur le site de rattachement habituel." (Source: T02921005002.txt)
 * "Pour assurer le bon fonctionnement du service (organisation des réunions en présentiel par exemple), chaque manager peut refuser des demandes de télétravail et/ou exclure une ou plusieurs journées ou périodes du mois ou de l’année de l’exercice du télétravail." (Source: T02921005002.txt)

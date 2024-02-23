@@ -2,7 +2,7 @@ Q_TTSEM:Oui, le paragraphe suivant mentionne explicitement le nombre maximal de 
 
 > Article 8: Fréquence et nombre de jours télétravaillés
 >
-> Le nombre de jour de télétravail ne pourra excéder 2 jours par semaine, et 1 jour pour les salariés à temps partiel selon article 2.
+> Le nombre de jour de télétravail ne pourra excéder **2 jours par semaine**, et 1 jour pour les salariés à temps partiel selon article 2.
 
 Source: T03121008941.txt
 Q_TTSEM_NOMBRE:

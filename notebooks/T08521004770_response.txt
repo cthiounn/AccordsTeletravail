@@ -1,8 +1,5 @@
-Q_TTSEM:Oui, le paragraphe suivant mentionne explicitement qu'un salarié est autorisé à effectuer une journée par semaine de télétravail :
-
-> "Je suis autorisé(e) à effectuer une journée par semaine de télétravail, dans les conditions fixées par mon responsable hiérarchique, le responsable ressources humaines de la société et les dispositions de l’accord relatif à la mise en place du télétravail au sein de l’entreprise."
-
-Ce paragraphe se trouve dans le document intitulé "Guide de POCHE DU TELETRAVAILLEUR".
+Q_TTSEM:
+Oui, le premier document mentionne explicitement qu'un salarié ne peut faire plus d'une journée de télétravail par semaine. Voici la citation exacte : "Les parties conviennent que le nombre de journée maximale de télétravail par semaine est fixé à une (1)."
 Q_TTSEM_NOMBRE:> Extraits pertinents des documents à analyser :
 
 * Article 4.1 – DUREE MAXIMALE DE TELETRAVAIL ACCORDEE : "Les parties conviennent que le nombre de journée maximale de télétravail par semaine est fixé à une (1)."

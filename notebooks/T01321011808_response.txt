@@ -1,10 +1,5 @@
-Q_TTSEM:Oui, le paragraphe suivant mentionne explicitement qu'il y a un nombre maximal de jours de télétravail autorisés par semaine :
-
-> Article 11 - Fréquence et nombre de jours en télétravail
->
-> Le nombre de jours télétravaillés est limité à **deux jours complets par semaine**. Il est précisé que ces jours ne peuvent être divisés en demi-journées.
-
-La réponse à votre question est donc « Oui ».
+Q_TTSEM:
+Oui, le document contient bien un paragraphe qui mentionne un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Dans l'Article 11, il est spécifié que "Le nombre de jours télétravaillés est limité à deux jours complets par semaine."
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le nombre de jours télétravaillés est limité à deux jours complets par semaine." (T01321011808.txt)

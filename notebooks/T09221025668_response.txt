@@ -1,10 +1,5 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Voici les extraits pertinents :
-
-- « Une journée complète par semaine pour les salariés éligibles au télétravail, à temps partiel »
-- « Une à deux journées complètes maximum par semaine pour les autres salariés éligibles au télétravail »
-
-Ces deux paragraphes indiquent clairement qu'il existe une limite maximale de jours de télétravail par semaine, qui est respectivement de 1 jour pour les salariés à temps partiel et de 2 jours pour les autres salariés éligibles.
+Oui, le paragraphe intitulé "Article 10 : Répartition des jours de travail" mentionne explicitement le nombre de jours de télétravail maximum autorisé par semaine. Il est indiqué que pour les salariés travaillant à temps partiel, le télétravail ne peut excéder une journée complète par semaine. Pour les autres salariés éligibles au télétravail, le télétravail ne peut excéder une à deux journées complètes maximum par semaine.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Le ou les jours de télétravail sont choisis en concertation avec le manager et la Direction Générale, au regard des impératifs du service et du flex par équipe. [...] Une planification sera opérée en respectant le même nombre de jours télétravaillés prévus sur une semaine." (Document(page\_content='Le ou les jours de télétravail sont choisis en concertation avec le manager et la Direction Générale, au regard des impératifs du service et du flex par équipe. Le manager ou le salarié pourra demander à modifier de façon exceptionnelle le jour télétravaillé sous réserve d’un délai de prévenance minimum de 2 jours ouvrés. Le déplacement du jour télétravaillé dans la semaine nécessite l’accord du manager.\n\nPar exception, les jours de télétravail pourront être variables avec l’autorisation du manager. En tout, état de cause, une planification sera opérée en respectant le même nombre de jours télétravaillés prévus sur une semaine.', metadata={'source': 'T09221025668.txt'}))

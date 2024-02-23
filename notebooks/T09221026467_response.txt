@@ -1,12 +1,5 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Voici ces paragraphes :
-
-- "Afin de maintenir le lien social avec la communauté de travail qui joue un rôle cardinal pour chacun des salariés, et de préserver le bon fonctionnement des activités, le nombre maximum de jours en télétravail par semaine est de deux pour les collaborateurs à temps complet, d’un jour et demi pour ceux à 90% et d’un jour pour les collaborateurs à 80%."
-
-- "Le télétravail régulier [...] Le nombre maximum de jours en télétravail par semaine est de deux pour les collaborateurs à temps complet, d’un jour et demi pour ceux à 90% et d’un jour pour les collaborateurs à 80%."
-
-- "Le collaborateur disposera d'un volume maximum de deux jours de télétravail par semaine pour un collaborateur."
-
-Ces trois paragraphes mentionnent tous un nombre maximum de jours de télétravail par semaine.
+Q_TTSEM:
+Oui, deux paragraphes mentionnent explicitement un nombre de jours de télétravail maximum autorisé par semaine. Le premier paragraphe indique "le nombre maximum de jours en télétravail par semaine est de deux pour les collaborateurs à temps complet". Le deuxième paragraphe indique "le nombre maximum de jours en télétravail par semaine est de un jour et demi pour ceux à 90% et d’un jour pour les collaborateurs à 80%." Ces deux paragraphes sont issus du document avec la source T09221026467.txt.
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 * "Le nombre maximum de jours en télétravail par semaine est de deux pour les collaborateurs à temps complet"
 

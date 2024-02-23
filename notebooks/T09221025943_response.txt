@@ -1,4 +1,5 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels. Les seules mentions explicites de nombres de jours de télétravail se trouvent dans les formules de forfaits mensuels ou annuels, mais elles ne précisent pas s'il s'agit de jours maximum par semaine.
+Q_TTSEM:
+Non, aucun paragraphe mentionnant un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine n'a été trouvé dans les documents fournis.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise"

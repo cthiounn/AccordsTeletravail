@@ -1,5 +1,5 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Par exemple, l'article 6-1 mentionne que "Le nombre de jours de télétravail par semaine est de 2". De même, l'article 6-4 mentionne que "le nombre de jours de télétravail par semaine est de 1 jour pour les salariés travaillant à 60% d'un temps plein". Ces mentions sont claires et explicites quant au nombre maximal de jours de télétravail autorisés par semaine.
+Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
 Q_TTSEM_NOMBRE:
 * Extraction pertinente du document :
     * "Le nombre de jours de télétravail par semaine est de 2" (Article 6-1)

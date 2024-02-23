@@ -1,9 +1,10 @@
-Q_TTSEM:Oui, le paragraphe suivant mentionne explicitement un nombre de jour de télétravail maximum autorisé par semaine :
+Q_TTSEM:
+Oui, le paragraphe suivant mentionne explicitement le nombre de jour de télétravail maximum autorisé par semaine :
 
-> Article 4.1 – DUREE MAXIMALE DE TELETRAVAIL ACCORDEE
-> Les parties conviennent que le nombre de journée maximale de télétravail est fixé à une (1) par semaine, de sorte à éviter le risque de distanciation avec l’entreprise et l’ensemble de la collectivité de travail.
+"Article 4.1 – DUREE MAXIMALE DE TELETRAVAIL ACCORDEE
+Les parties conviennent que le nombre de journée maximale de télétravail est fixé à une (1) par semaine, de sorte à éviter le risque de distanciation avec l’entreprise et l’ensemble de la collectivité de travail."
 
-Source: T08621001524.txt
+Cette information se trouve dans le document avec l'identifiant "T08621001524.txt".
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 * "Les parties conviennent que le nombre de journée maximale de télétravail est fixé à une (1) par semaine"
 

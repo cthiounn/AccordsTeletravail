@@ -1,5 +1,4 @@
-Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Par exemple, dans le premier document, il est mentionné que "Le télétravail régulier s’effectue à raison de deux jours par semaine maximum". De même, dans le deuxième document, il est mentionné que "Le télétravail occasionnel s’effectue à raison de deux jours par semaine maximum". Ces mentions apparaissent respectivement dans les paragraphes 1 et 3 des documents fournis.
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Dans le premier et le deuxième document, il est mentionné que le télétravail régulier ou occasionnel s'effectue à raison de deux jours par semaine maximum. Dans le troisième document, il est mentionné qu'un salarié doit être présent physiquement dans les locaux de l'entreprise 3 jours minimum par semaine, ce qui implique qu'il ne peut pas travailler plus de 2 jours en télétravail.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le télétravail régulier s’effectue à raison de deux jours par semaine maximum" (Source: T09221023603.txt)

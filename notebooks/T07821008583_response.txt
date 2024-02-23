@@ -1,4 +1,4 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
+Q_TTSEM:Non, aucun paragraphe mentionnant un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine hors jours supplémentaires ou exceptionnels n'a été trouvé dans les documents fournis.
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 
 * "Le choix du jour de télétravail est à l’initiative du salarié, sous réserve de l’accord du supérieur hiérarchique."

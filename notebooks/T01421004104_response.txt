@@ -1,4 +1,5 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
+Q_TTSEM:
+Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine.
 Q_TTSEM_NOMBRE:* Extraits pertinents :
     * "l’intégralité des dispositions de l’accord relatif à la mise en place du télétravail en période d’épidémie Covid-19 soient prolongées d’une période de quatre mois"
     * "le télétravail est un mode d’organisation de l’entreprise qui participe activement à la démarche de prévention du risque d’infection au SARS-CoV-2 et permet de limiter les interactions sociales aux abords des lieux de travail et sur les trajets domicile travail et qu’il doit être la règle pour l’ensemble des activités qui le permettent"

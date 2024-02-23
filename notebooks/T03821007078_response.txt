@@ -1,4 +1,4 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Les demandes se feront par l’intermédiaire d’ADP. Le télétravail reste à la discrétion du management qui se laisse la possibilité de refuser une demande, et vice-versa."
 * "2.4 - Télétravail \nRAYDIALL a dû s’adapter à la situation sanitaire en 2020 et a mis en place le télétravail généralisé dans ce contexte particulier. \nAfin d’encadrer cette pratique et en dehors de la situation exceptionnelle actuelle, certains critères d’éligibilités ont été définis pour permettre d’apprécier ce nouveau mode d’organisation du travail. Ainsi, pour effectuer du télétravail occasionnel il faudra remplir les conditions suivantes\xa0:"

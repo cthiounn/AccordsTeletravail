@@ -1,5 +1,5 @@
 Q_TTSEM:
-Oui, le paragraphe "Compte tenu de l’importance du maintien du lien avec la communauté de travail, les salariés devront être présents, ou en clientèle, a minima 3 jours par semaine dans les locaux au sein desquels les salariés exercent habituellement leur activité, et le télétravail ne pourra se faire que dans la limite d’1 jour par semaine, avec possibilité de télétravail par demi-journée." mentionne explicitement qu'il y a une limite de 1 jour de télétravail par semaine.
+Oui, le premier document mentionne explicitement qu'un salarié ne peut télétravailler plus d'1 jour par semaine.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Compte tenu de l’importance du maintien du lien avec la communauté de travail, les salariés devront être présents, ou en clientèle, a minima 3 jours par semaine dans les locaux au sein desquels les salariés exercent habituellement leur activité, et le télétravail ne pourra se faire que dans la limite d’1 jour par semaine, avec possibilité de télétravailler par demi-journée." (Source : T07321002999.txt)

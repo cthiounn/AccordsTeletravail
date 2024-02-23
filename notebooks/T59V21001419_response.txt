@@ -1,4 +1,4 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels. Les seuls nombres de jours de télétravail maximum autorisés mentionnés concernent des plafonds mensuels, à savoir 4 jours pour les salariés à temps plein et 3,2 jours pour les salariés à temps partiel travaillant à 80%.
+Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine hors jours supplémentaires ou exceptionnels. Les seuls nombres de jours de télétravail mentionnés sont exprimés en mois.
 Q_TTSEM_NOMBRE:
 Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
