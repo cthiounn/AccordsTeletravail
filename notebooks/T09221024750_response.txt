@@ -1,8 +1,15 @@
-Q_TTSEM:Oui, le document contient plusieurs paragraphes qui mentionnent un nombre de jours de télétravail autorisés explicitement exprimé par semaine. Voici les références :
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici ces paragraphes :
 
-* Document(page\_content='Article 6 \t\tNombre de jours de télétravail', metadata={'source': 'T09221024750.txt'}), section 6-1 : "Le nombre de jours de télétravail par semaine est de 2..."
-* Document(page\_content='6-4 \tSalariés à temps partiel ', metadata={'source': 'T09221024750.txt'}), section 6-4 : "Par exception à la formule standard de télétravail à 40%, le nombre de jours de télétravail par semaine est de 1 jour..."
-* Document(page\_content='6-6 \tFormules de télétravail des autres accords d’entreprise', metadata={'source': 'T09221024750.txt'}), section 6-6 : "Les collaborateurs qui bénéficient de jours de télétravail...continuent de bénéficier des jours de télétravail en application de ces accords auxquels s’ajoute 1 ou 2 jour(s) flexible(s) de télétravail complémentaire(s)..."
+- "Le nombre de jours de télétravail par semaine est de 2" (Source : T09221024750.txt, page_content = 'Article 6 \t\tNombre de jours de télétravail\n6-1 Nombre de jours de télétravail par semaine\n...')
+
+- "Par exception à la formule standard de télétravail à 40%, le nombre de jours de télétravail par semaine est de 1 jour pour les salariés travaillant à 60% d’un temps plein." (Source : T09221024750.txt, page_content = '6-4 \tSalariés à temps partiel \n...)
+
+- "Le télétravail prend la forme de jours entiers à positionner par semaine." (Source : T09221024750.txt, page_content = '6-2 - \tJours de télétravail entiers \n...)
+
+- "Pour conserver un lien social et faciliter le fonctionnement des équipes : réunions d’équipes, entretiens individuels, ateliers projets, travaux qui ne peuvent être effectués en télétravail (impressions papier), une présence sur site obligatoire de 2 jours par semaine, a minima, est maintenue." (Source : T09221024750.txt, page_content = 'Titre 2\t\tORGANISATION DU TELETRAVAIL \n\nArticle 5\t\tAlternance de jours de télétravail et de jours de présence sur site\n\n...)
+
+Note : Je suis désolé, mais je ne peux pas utiliser les expressions régulières car je n'ai pas cette compétence. J'ai donc recherché manuellement les occurrences de nombres de jours de télétravail exprimés en texte libre dans les documents fournis.
 Q_TTSEM_NOMBRE:
 * Extraction pertinente du document :
     * "Le nombre de jours de télétravail par semaine est de 2" (Article 6-1)

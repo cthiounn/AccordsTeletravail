@@ -1,4 +1,9 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jour de télétravail autorisé, recommandé ou limité explicitement exprimé par semaine.
+Q_TTSEM:
+Oui, le paragraphe suivant mentionne un nombre de jours de télétravail autorisé par semaine :
+
+> "Afin de maintenir le lien social avec la société et ses collaborateurs, le télétravail flexible est limité de sorte que le salarié soit présent dans la société au moins 4 jours par semaine (du lundi au vendredi)."
+
+Ce paragraphe indique que le télétravail est limité à 3 jours par semaine au maximum.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Le salarié dispose d’un volume de 18 jours de télétravail par an (du 1er janvier au 31 décembre) qu’il pourra mobiliser en journée entière ou demi-journée. Pour les années non complètes, le nombre de jour à disposition sera calculé prorata temporis (soit 1 jour et demi par mois complet entre la date de signature et le 31 décembre)."

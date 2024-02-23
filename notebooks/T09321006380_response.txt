@@ -1,23 +1,25 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés ou limités explicitement exprimés par semaine. Voici les références des documents et des passages pertinents :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine. Voici ces paragraphes :
 
-- Document(page\_content='6.2 Modalités du télétravail', metadata={'source': 'T09321006380.txt'}):
+- "Dans cette situation le jour de télétravail sera reporté à une date choisie conjointement entre le salarié et le responsable hiérarchique dans la limite d’un délai maximum d’un mois sans conduire le salarié à être en télétravail plus de 3 jours sur une même semaine."
 
-> "Afin de maintenir le lien social avec la communauté de travail, l’activité exercée en télétravail à domicile pourra aller jusqu’à deux jours de télétravail par semaine."
+- "Le télétravail régulier ne pourra être exercé qu’en journée pleine et non en demi-journée, excepté pour la demi-journée des salariés travaillant sur 4,5 jours (90%). Pour la bonne organisation du service le responsable hiérarchique informe son équipe des modalités d’organisation du télétravail au sein de son service."
 
-- Document(page\_content='6.2 Modalités du télétravail', metadata={'source': 'T09321006380.txt'}):
+- "Ces journées ne constituent pas un droit du salarié."
 
-> "Ce plafond de deux jours par semaine constitue un maximum qui ne pourra être dépassé par les accords d’entreprise ou chartes de télétravail des entreprises du Groupe."
+- "Le salarié ne pourra effectuer des heures supplémentaires au-delà de sa durée contractuelle de travail sans l’accord préalable et formel de sa hiérarchie ou de toute autre personne assimilée."
 
-- Document(page\_content='6.2 Modalités du télétravail', metadata={'source': 'T09321006380.txt'}):
+- "Les journées de télétravail qui tomberaient sur une période non travaillée, type congés payés, JRTT, maladie ou encore un jour férié ne seront pas reportables."
 
-> "Ces dernières, pourront si elles le souhaitent définir un nombre de jours maximum de télétravail inférieur à ce plafond que ce soit par accord d’entreprise ou charte de télétravail, ce plafond nouvellement défini s’appliquera seul aux salariés de l’entreprise concernée."
+- "Si pour des raisons personnelles, le salarié ne peut exercer son activité à son domicile un ou des jours initialement prévus en télétravail, et avec l’accord de sa hiérarchie, il l’exercera alors dans les locaux habituels de l’entreprise dans lesquels il exerce normalement son activité sans pouvoir reporter ni cumuler ces jours de télétravail sur une autre période."
 
-- Document(page\_content='Dans ce cadre, et sous réserve d’être précisé dans l’accord d’entreprise ou la charte de télétravail de l’entreprise du Groupe, les salariés de l’entreprise éligibles au télétravail pourront disposer d’un compteur de journées de télétravail « volantes » dans la limite de 10 jours par an, prorata temporis. Ces journées ne constituent pas un droit du salarié.', metadata={'source': 'T09321006380.txt'}):
+- "Ces journées pourront être posées librement par le salarié sous réserve de la validation de sa hiérarchie et sans pour autant conduire à une absence des locaux de l’entreprise supérieure à 2 jours par semaine selon le plafond précisé au premier alinéa de l’article précédent."
 
-> "Le plafond de 10 journées de télétravail « volantes » par an constitue un maximum qui ne pourra être dépassé par les accords d’entreprise ou chartes sur le télétravail des entreprises du Groupe."
+- "La pose de ces journées de télétravail «volantes» devra respectée un délai de prévenance de 2 jours ouvrables."
 
-Réponse : Oui, au moins un paragraphe mentionne un nombre de jours de télétravail autorisés, recommandés ou limités explicitement exprimés par semaine.
+- "Le télétravailleur aura obligation de suivre scrupuleusement ces conditions."
+
+- "Au regard de la récente crise sanitaire liée au COVID-19 les parties ont souhaité rappelé les dispositions de l’article L1222-11 du Code du travail qui précise «En cas de circonstances exceptionnelles, notamment de menace d'épidémie ou en cas de force majeure, la mise en œuvre du télétravail peut être considérée comme un aménagement du poste de travail rendu nécessaire pour permettre la continuité de l'activité de l'entreprise et garantir la protection des salariés.»"
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Afin de maintenir le lien social avec la communauté de travail, l’activité exercée en télétravail à domicile pourra aller jusqu’à deux jours de télétravail par semaine." (Source: T09321006380.txt)

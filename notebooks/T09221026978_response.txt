@@ -1,5 +1,13 @@
 Q_TTSEM:
-Non, aucun paragraphe mentionnant un nombre de jour de télétravail autorisé, recommandé ou limité explicitement exprimé par semaine n'a été trouvé dans les documents fournis.
+Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail par semaine :
+
+> "Dans ces conditions, le télétravail ne saurait avoir pour conséquence de modifier ni l’horaire habituel, ni l’amplitude de travail effectif applicable en temps normal, lorsque le Salarié effectue son activité au sein des locaux de l’entreprise. **En aucun cas le télétravail ne doit modifier, à la hausse ou à la baisse, les missions et activités habituelles du Salarié, ses objectifs, sa durée de travail et sa charge de travail.**"
+>
+> "**Le Salarié en télétravail doit organiser son activité durant les jours de télétravail de sorte à respecter la prise d’un repos quotidien (entre deux journées de travail) de 11 heures minimales et la prise d’un repos hebdomadaire de 35 heures minimales incluant le repos quotidien (24 heures + 11 heures)**."
+>
+> "Conscient du risque d’interférence entre les moments liés à la vie privée et les moments liés à l’activité professionnelle induit par la situation de télétravail, et en vue de respecter le droit à la déconnexion du salarié, il est prévu une organisation du télétravail qui permette de préserver la vie personnelle."
+
+Ce paragraphe mentionne que le télétravail ne doit pas modifier la durée de travail du salarié, et que le salarié en télétravail doit organiser son activité de manière à respecter un repos quotidien et hebdomadaire minimum. Cela implique que la durée du télétravail est limitée à une certaine durée par semaine, qui n'est toutefois pas explicitement mentionnée dans le texte.
 Q_TTSEM_NOMBRE:
 * Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
 

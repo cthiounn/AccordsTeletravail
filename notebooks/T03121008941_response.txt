@@ -1,4 +1,4 @@
-Q_TTSEM:Oui, le document contient un paragraphe mentionnant un nombre de jours de télétravail autorisé par semaine. Selon l'article 8, le nombre de jours de télétravail ne peut excéder 2 jours par semaine pour les salariés à temps complet et 1 jour pour les salariés à temps partiel.
+Q_TTSEM:Oui, le document contient un paragraphe mentionnant un nombre de jours de télétravail autorisé par semaine. Il s'agit de l'article 8, qui précise que « Le nombre de jour de télétravail ne pourra excéder 2 jours par semaine ».
 Q_TTSEM_NOMBRE:
 * Deux paragraphes pertinents provenant des documents à analyser :
 

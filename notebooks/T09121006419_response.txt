@@ -1,4 +1,11 @@
-Q_TTSEM:Oui, le document contient bien un paragraphe mentionnant un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Il s'agit de l'article 4 du premier document, qui stipule que "les parties fixent le nombre de jour de télétravail à deux jours maximum par semaine".
+Q_TTSEM:
+Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail autorisé par semaine :
+
+> Article 4 Condition d’exécution du télétravail
+>
+> Afin de maintenir le lien social avec la communauté de travail, et de préserver le bon fonctionnement des activités, les parties fixent le nombre de jour de télétravail à **deux jours maximum par semaine**.
+
+Source : T09121006419.txt, page_content : "Article 4 Condition d’exécution du télétravail..."
 Q_TTSEM_NOMBRE:
 * Extraits pertinents :
     * "Les parties fixent le nombre de jour de télétravail à deux jours maximum par semaine." (Source: T09121006419.txt)

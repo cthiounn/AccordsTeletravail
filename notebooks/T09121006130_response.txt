@@ -1,5 +1,12 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Dans l'article 1 du premier document, il est mentionné que "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine". De plus, dans le même article, il est également mentionné que "4 dispositifs seront donc désormais possibles", ce qui implique que le télétravail est possible pour une durée de deux jours parmi les sept jours de la semaine. Par ailleurs, dans le troisième document, il est mentionné que "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine". Ces mentions apparaissent explicitement dans les textes fournis et concernent des jours de télétravail autorisés explicitement exprimés par semaine, hors jours supplémentaires ou exceptionnels.
+Oui, le document contient plusieurs paragraphes mentionnant un nombre de jours de télétravail autorisé par semaine. Voici les occurrences :
+
+- "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine"
+- "Temps partiel 80 % / 1 journée de télétravail possible, 3 jours sur site"
+- "Temps partiel 60 % / 1 journée de télétravail possible, 2 jours sur site"
+- "Temps partiel 40 % / pas de télétravail possible, 2 jours sur site"
+
+Dans chaque cas, le nombre de jours de télétravail par semaine est explicitement mentionné.
 Q_TTSEM_NOMBRE:* Extraits pertinents :
     * "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine"
     * "le télétravail est organisé de telle sorte que le salarié à temps plein soit présent dans l’entreprise au moins 3 jours par semaine."

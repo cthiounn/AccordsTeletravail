@@ -1,5 +1,5 @@
 Q_TTSEM:
-Oui, un paragraphe mentionne explicitement le nombre de jours de télétravail autorisé par semaine. Il s'agit du deuxième paragraphe du document 2 dans lequel il est indiqué qu'il est possible de faire jusqu'à deux jours de télétravail par semaine pour une semaine de travail "standard".
+Oui, le premier document mentionne "jusqu’à deux jours de télétravail par semaine".
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "Pour maintenir le lien social avec la communauté de travail, le présent accord prévoit jusqu’à deux jours de télétravail par semaine"

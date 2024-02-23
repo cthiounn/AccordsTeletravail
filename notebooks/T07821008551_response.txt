@@ -1,18 +1,16 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés explicitement exprimé par semaine. Voici ces paragraphes :
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici ces paragraphes :
 
-- "En fonction de la durée du travail prévue au contrat de travail, ceux-ci peuvent bénéficier d’une demi-journée, d’une journée ou d’une journée et demie de télétravail par semaine"
+- "De manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum." (Source : T07821008551.txt, page_content = 'Si la demande est refusée par le manager, le collaborateur est reçu par celui-ci qui lui expose les raisons de ce refus...')
 
-- "De manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum."
+- "Dès l’embauche, le télétravail peut s’exercer à raison d’une journée entière fixe par semaine, pour une période de 6 mois, à compter de la date d’embauche." (Source : T07821008551.txt, page_content = 'Si la demande est refusée par le manager, le collaborateur est reçu par celui-ci qui lui expose les raisons de ce refus...')
 
-- "Dès l’embauche, le télétravail peut s’exercer à raison d’une journée entière fixe par semaine,"
+- "Il appartient alors au manager, en raison de l’organisation du service, de déterminer l’organisation du télétravail pour ce collaborateur. Si le collaborateur télé-travaille un jour ou deux jours flottants par semaine, il convient qu’il télé-travaille un ou deux jours chaque semaine." (Source : T07821008551.txt, page_content = 'Pour les collaborateurs au statut Cadre au forfait, le jour en télétravail peut être éventuellement non fixé à l’avance...')
 
-- "Si le collaborateur exerce initialement une journée de télétravail par semaine : possibilité de réaliser 4 jours en télétravail sur le mois"
+- "En cas de circonstances exceptionnelles personnelles, le collaborateur peut, avec l’accord de son manager, aménager la répartition des jours télé-travaillés de façon mensuelle. Dans les deux cas, l’organisation du télétravail est la suivante : Si le collaborateur exerce initialement une journée de télétravail par semaine : possibilité de réaliser 4 jours en télétravail sur le mois ; Si le collaborateur exerce initialement deux jours de télétravail par semaine : possibilité de réaliser 8 jours de télétravail sur le mois." (Source : T07821008551.txt, page_content = '6.2. Répartition des jours en télétravail de façon mensuelle...')
 
-- "Si le collaborateur exerce initialement deux jours de télétravail par semaine: possibilité de réaliser 8 jours de télétravail sur le mois."
+- "En outre, le télétravailleur s’engage à respecter la durée de travail qui est définie dans son contrat de travail ainsi que les horaires de travail définis. Les heures supplémentaires ne peuvent être effectuées qu’à la demande du manager. Les collaborateurs s’engagent par ailleurs à respecter les durées de travail maximales quotidiennes et hebdomadaires, ainsi que les durées minimales de repos quotidiennes." (Source : T07821008551.txt, page_content = '6.3. Durée du travail...')
 
-- "Les Parties s’accordent sur le fait qu’un collaborateur doit être présent sur son lieu de travail au minimum 3 jours par semaine."
-
-Notez que certains de ces passages mentionnent des limites hebdomadaires maximales, tandis que d'autres mentionnent des limites minimales ou des nombres de jours pouvant être effectués dans certaines circonstances.
+- "En fonction de la durée du travail prévue au contrat de travail, ceux-ci peuvent bénéficier d’une demi-journée, d’une journée ou d’une journée et demie de télétravail par semaine, afin qu’ils soient présents sur site au moins trois jours par semaine." (Source : T07821008551.txt, page_content = '7.2. AMENAGEMENT DU TELETRAVAIL POUR LES FEMMES ENCEINTES...')
 Q_TTSEM_NOMBRE:
 Extraction de deux paragraphes pertinents provenant des documents à analyser :
 

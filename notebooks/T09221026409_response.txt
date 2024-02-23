@@ -1,14 +1,11 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés ou limités, exprimés explicitement par semaine. Voici les références :
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les extraits pertinents :
 
-1. Dans le document avec la métadonnée'source': 'T09221026409.txt' et l'identifiant 'page\_content': 'Article 1. 2. 1.', il est mentionné que les salariés peuvent bénéficier de "2 ou 3 jours de télétravail par semaine".
+- Article 1. 2. 1. Formule de télétravail standard : "2 ou 3 jours de télétravail par semaine"
+- Processus de mise en œuvre : "Il y indique le nombre de jours souhaités (2 ou 3)"
+- Des jours prédéterminés avec souplesse : "après échanges avec son manager et en considérant les besoins des autres membres de l’équipe, les jours de la semaine lors desquels il souhaite télétravailler. Certaines semaines, il est possible ponctuellement qu’un évènement impératif ou exceptionnel, qu’il soit professionnel ou personnel, nécessite la présence physique du salarié sur l’une de ses journées de télétravail choisies."
 
-Référence : Article 1. 2. 1.
-Source : T09221026409.txt
-
-2. Dans le même document, avec la métadonnée'source': 'T09221026409.txt' et l'identifiant 'page\_content': 'Article 1. 2. 2.', il est mentionné que les salariés ayant des activités télétravaillables mais ne pouvant adhérer à la formule standard peuvent bénéficier de "35 jours de télétravail par année civile", qui peuvent être en journée ou demi-journée. Comme il est indiqué que ces jours peuvent être positionnés "selon le besoin des salariés concernés", on peut supposer qu'ils peuvent être pris de manière flexible, y compris par semaine.
-
-Référence : Article 1. 2. 2.
-Source : T09221026409.txt
+Par conséquent, le nombre de jours de télétravail autorisés par semaine est explicitement mentionné comme étant 2 ou 3 jours.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Tout salarié éligible peut bénéficier, selon ses souhaits, de 2 ou 3 jours de télétravail par semaine"

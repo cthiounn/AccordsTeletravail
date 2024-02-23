@@ -1,4 +1,9 @@
-Q_TTSEM:Oui, l'article 3 mentionne que "Le nombre de jours en télétravail pourra au maximum être de 4 par semaine."
+Q_TTSEM:
+Oui, le document suivant mentionne un nombre de jours de télétravail explicitement exprimé par semaine :
+
+- Document(page\_content='Article 3\xa0: Typologie de télétravail \nLe présent accord a pour but de réglementer un télétravail lié à la gestion de la crise sanitaire.\nIl ne s’agit en aucun cas de créer une réglementation permettant un télétravail permanent qu’il soit total ou partiel.\nPour répondre à l’état d’urgence et à la nécessité de faire perdurer le télétravail au sein des entreprises pour les emplois qui le permettent, le nombre de jours en télétravail pourra au maximum être de 4 par semaine. \nLe nombre de jours en télétravail sera ajusté au fil de l’eau au sein des équipes et en fonction des besoins.', metadata={'source': 'T03021003019.txt'})
+
+Ce document mentionne que le nombre de jours de télétravail pourra au maximum être de 4 par semaine.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * Article 3 : « Le nombre de jours en télétravail pourra au maximum être de 4 par semaine. »

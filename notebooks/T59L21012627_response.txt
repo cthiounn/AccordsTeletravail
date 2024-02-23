@@ -1,4 +1,4 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé ou limité par semaine. Les seuls nombres de jours mentionnés sont liés à la durée de validité de l'accord.
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
 

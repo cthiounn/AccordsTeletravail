@@ -1,21 +1,10 @@
-Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Par exemple, dans le document T03821006956.txt, on peut trouver les mentions suivantes :
+Q_TTSEM:Oui, le document contient plusieurs paragraphes qui mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine. Voici quelques exemples :
 
-* "non reportables, soit une enveloppe de 52 jours (soit 104 demi-journées) par année civile" (page_content = 'Article V – ORGANISATION DU TELETRAVAIL\n\nA – Nombre de jours télétravaillés\n\nLe télétravail ne pourra être exercé que pour les durées et les modalités maximales suivantes\xa0:')
-* "non reportables, soit une enveloppe de 26 jours (soit 52 demi-journées) par année civile." (page\_content = 'Article V – ORGANISATION DU TELETRAVAIL\n\nA – Nombre de jours télétravaillés\n\nLe télétravail ne pourra être exercé que pour les durées et les modalités maximales suivantes\xa0:')
-* "non reportables, soit une enveloppe de 42 jours (soit 84 demi-journées), par année civile." (page\_content = 'Le télétravail pour un salarié travaillant à 80% ne pourra être exercé que pour un maximum de 10,5 jours (soit 21 demi-journées), par trimestre civil dans la limite de 1 jour par semaine (soit 2 demi-journées), non reportables, soit une enveloppe de 42 jours (soit 84 demi-journées), par année civile.')
-* "non reportables, soit une enveloppe de 38 jours (soit 76 demi-journées), par année civile." (page\_content = 'Le télétravail pour un salarié travaillant à 70% ne pourra être exercé que pour un maximum de 9,5 jours (soit 19 demi-journées), par trimestre civil dans la limite de 1 jour (soit 2 demi-journées), par semaine, non reportables, soit une enveloppe de 38 jours (soit 76 demi-journées), par année civile.')
-* "non reportables, soit une enveloppe de 32 jours (soit 64 demi-journées), par année civile." (page\_content = 'Le télétravail pour un salarié travaillant à 60% ne pourra être exercé que pour un maximum de 8 jours (soit 16 demi-journées), par trimestre civil dans la limite de 1 jour (soit 2 demi-journées), par semaine, non reportables, soit une enveloppe de 32 jours (soit 64 demi-journées), par année civile.')
+* "le télétravail ne peut pas s’exercer les Mardi." Cette phrase implique qu'aucun jour de télétravail n'est autorisé le mardi.
+* "dans la limite de 1 jour (soit 2 demi-journées) par semaine de 5 jours travaillés" Cette phrase indique qu'un maximum de 1 jour de télétravail est autorisé par semaine.
+* "limite de 1 jour par semaine (soit 2 demi-journées)" Cette phrase indique également qu'un maximum de 1 jour de télétravail est autorisé par semaine.
 
-Cependant, ces nombres sont exprimés en jours ou demi-journées par an, et non par semaine. Il faudrait donc convertir ces nombres en semaines pour répondre précisément à la question. En prenant comme hypothèse que l'année civile comporte 52 semaines, on obtient les résultats suivants :
-
-* 52 jours / 52 semaines = 1 jour par semaine
-* 26 jours / 52 semaines = 0,5 jour par semaine
-* 42 jours / 52 semaines = 0,8 jour par semaine
-* 38 jours / 52 semaines = 0,73 jour par semaine
-* 32 jours / 52 semaines = 0,62 jour par semaine
-
-Donc, oui, certains paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine, qui est de 1 jour dans tous les cas mentionnés ci-dessus.
+Il est important de noter que ces limitations hebdomadaires sont souvent accompagnées de limitations trimestrielles ou annuelles. Par exemple, "non reportables, soit une enveloppe de 52 jours (soit 104 demi-journées) par année civile".
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le télétravail ne peut pas s’exercer les Mardi." (Document(page\_content='Article V – ORGANISATION DU TELETRAVAIL\n\nA – Nombre de jours télétravaillés\n\nLe télétravail ne pourra être exercé que pour les durées et les modalités maximales suivantes\xa0:\n\nLe/les jour(s) ou demi-journée(s) de télétravail peuvent s’entendre le Lundi, le Mercredi, le Jeudi et le vendredi. Le télétravail ne peut pas s’exercer les Mardi.\n\n...'))

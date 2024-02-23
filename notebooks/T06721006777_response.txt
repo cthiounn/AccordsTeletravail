@@ -1,4 +1,11 @@
-Q_TTSEM:Oui, le paragraphe intitulé "Le rythme du télétravail" mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Il est fixé à 2 jours maximum par semaine. Ce paragraphe se trouve dans le document dont la méta-donnée source est 'T06721006777.txt'.
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine. Voici ces paragraphes :
+
+- "Le nombre de jours télétravaillables est fixé par journée entière à 2 jours par semaine au maximum"
+- "Il est limité à 1 journée par semaine pour les salariés qui, en application de l'article 4 de l'accord sur l'aménagement du temps de travail du 28 juin 2010, organisent leur temps de travail de manière à effectuer leurs heures sur 4,5 jours."
+- "Les parties signataires conviennent par ailleurs que tout salarié s’inscrivant dans le dispositif de télétravail régulier devra exercer son activité à minima 3 jours par semaine sur son lieu de travail de référence"
+- "Le manager, pour des raisons de services (réunion d’équipe, rendez-vous commercial, formation…) ou le salarié après information du manager pourront modifier le rythme de télétravail. La ou les journées de télétravail qui ne pourront être réalisées sur une semaine civile ne pourront pas être reportées sur une semaine suivante."
+
+Dans tous ces paragraphes, le nombre de jours de télétravail par semaine est explicitement mentionné.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le nombre de jours télétravaillables est fixé par journée entière à 2 jours par semaine au maximum, ceux-ci sont déterminés d’un commun accord entre le manager et le salarié." (T06721006777.txt)

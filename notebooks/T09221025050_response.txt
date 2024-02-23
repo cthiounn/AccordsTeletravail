@@ -1,9 +1,14 @@
 Q_TTSEM:
-Oui, le document suivant mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine :
+Oui, le document contient plusieurs mentions de nombres de jours de télétravail autorisés, recommandés, limités ou maximum. Cependant, aucune de ces mentions n'est exprimée explicitement par semaine. Elles sont toutes exprimées sur une base annuelle, à l'exception d'une mention de "jour de télétravail hebdomadaire maximum" qui est de 1 pour les stagiaires et alternants.
 
-- Document(page\_content='Le temps de présence physique du collaborateur dans les locaux de l'entreprise devra être au minimum de deux jours jour pleins par semaine...', metadata={'source': 'T09221025050.txt'})
+Voici les différentes mentions de nombres de jours de télétravail trouvées dans le document :
 
-Cependant, il est important de noter que cette information ne correspond pas directement à la question car elle précise le temps de présence physique obligatoire et non le nombre de jours de télétravail autorisés. Il n'y a pas d'autres documents mentionnant explicitement le nombre de jours de télétravail autorisés par semaine.
+* "un quota annuel de jours de télétravail fixé à 85 jours"
+* "un quota annuel de jours de télétravail fixé à 87 jours"
+* "un quota annuel de jours réduit à 43 jours, soit un jour de télétravail hebdomadaire maximum"
+* "Le quota annuel de jours de télétravail est un maximum qui ne génère pas un droit mais relève d’une simple faculté."
+
+Par ailleurs, il est précisé que "Les collaborateurs pourront poser des jours de télétravail par demi-journée, en accord avec leur encadrant." Mais ceci ne précise pas de limite maximale.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "un quota annuel de jours de télétravail fixé à 85 jours" (Article 3.1)

@@ -1,5 +1,5 @@
 Q_TTSEM:
-Non, aucun paragraphe mentionné dans les documents fournis n'exprime explicitement un nombre de jours de télétravail autorisés, recommandés ou limités par semaine.
+Non, aucun paragraphe mentionnant un nombre de jour de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine, n'a été trouvé dans les documents fournis.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Le salarié propose s’il souhaite travailler un jour ou deux jours par semaine à son domicile" (Document(page\_content="Le salarié propose s’il souhaite travailler un jour ou deux jours par semaine à son domicile sachant que la répartition du temps de travail s’opère par journée entière.", metadata={'source': 'T09221024441.txt'}))

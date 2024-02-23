@@ -1,4 +1,5 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jours de télétravail autorisé, recommandé ou limité explicitement exprimé par semaine. Les mentions de jours concernent des procédures de dépôt, de publicité et de diffusion de l'accord, mais aucun chiffre n'est associé à une période de sept jours consécutifs pour désigner un quelconque quota hebdomadaire de télétravail.
+Q_TTSEM:
+Non, aucun paragraphe ne mentionne un nombre de jours de télétravail autorisé, recommandé, limité ou maximum exprimé explicitement par semaine, hors jours supplémentaires ou exceptionnels.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "AVENANT A L'ACCORD LOCAL SUR LE TELETRAVAIL PENDULAIRE DU 7 JANVIER 2021" (aucune information utile)

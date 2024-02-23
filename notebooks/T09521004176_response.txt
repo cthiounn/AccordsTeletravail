@@ -1,5 +1,10 @@
 Q_TTSEM:
-Oui, le paragraphe "7.1) Le télétravail hebdomadaire régulier" mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Selon ce paragraphe, le télétravail hebdomadaire régulier peut être de 1 ou 2 jours par semaine, et peut être porté à un maximum de 3 jours par semaine pour des salariés en forte autonomie de travail.
+Oui, plusieurs paragraphes mentionnent un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici les réponses extraites des documents fournis :
+
+- Article 7.1) : "Le télétravail régulier peut-être de 1 ou de 2 jours par semaine."
+- Article 8) : "limité à 1 jour par semaine civile pour les populations suivantes... limité à un maximum de 2 jours par semaine civile pour les..."
+
+Par conséquent, la réponse à votre question est affirmative : au moins un paragraphe mentionne un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine.
 Q_TTSEM_NOMBRE:
 **Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :**
 

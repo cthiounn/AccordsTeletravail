@@ -1,13 +1,13 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés ou limités exprimés explicitement par semaine. Voici ces passages :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici ces occurrences :
 
-- "Afin de préserver le lien social avec l’entreprise, la cohésion et le bon fonctionnement des équipes, le télétravail est limité de telle sorte que le collaborateur non-cadre soit présent dans l’entreprise au moins trois jours par semaine." (Source : T03721002530.txt)
+- "Le télétravail est limité de telle sorte que le collaborateur non-cadre soit présent dans l’entreprise au moins trois jours par semaine." (Source : T03721002530.txt)
 
-- "Afin de préserver le lien social avec l’entreprise, la cohésion et le bon fonctionnement des équipes, le télétravail est limité de telle sorte que le collaborateur cadre soit présent dans l’entreprise au moins trois jours par semaine. Ainsi une personne à 80% ne pourra être en télétravail qu’une journée par semaine." (Source : T03721002530.txt)
+- "La détermination des jours de télétravail sera faite chaque année entre juin et septembre pour la période du 1er octobre à 30 septembre suivante, en fonction des demandes de l’ensemble des collaborateurs du service pour permettre une répartition sur l’ensemble des jours de la semaine, en dehors du jour déterminé pour les réunions de service." (Source : T03721002530.txt)
 
-- "Organisation du travail pour les collaborateurs non-cadres : Afin de préserver le lien social avec l’entreprise, la cohésion et le bon fonctionnement des équipes, le télétravail est limité de telle sorte que le collaborateur non-cadre soit présent dans l’entreprise au moins trois jours par semaine. Ainsi une personne à 80% ne pourra être en télétravail qu’une journée par semaine." (Source : T03721002530.txt)
+- "En raison de la particularité du poste de commercial, l’activité s’exerce essentiellement hors des locaux de l’entreprise. Les collaborateurs commerciaux devront être présents sur site au minimum quatre jours par mois." (Source : T03721002530.txt)
 
-- "Organisation du travail pour les collaborateurs cadres : Afin de préserver le lien social avec l’entreprise, la cohésion et le bon fonctionnement des équipes, le télétravail est limité de telle sorte que le collaborateur cadre soit présent dans l’entreprise au moins trois jours par semaine. Ainsi une personne à 80% ne pourra être en télétravail qu’une journée par semaine." (Source : T03721002530.txt)
+Je note que la première et la troisième occurrence concernent des jours de présence sur site, mais comme ils sont exprimés en relation avec des jours de télétravail, je les inclus dans ma réponse.
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
 * "Le télétravail se fait sur des jours fixes."

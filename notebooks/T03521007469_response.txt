@@ -1,5 +1,5 @@
 Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé ou limité par semaine, hors jours supplémentaires ou exceptionnels.
+Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine, hors jours supplémentaires ou exceptionnels.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "Les dispositions de l’accord relatif au télétravail alterné à domicile du 13 décembre 2017 restent en vigueur jusqu’au 31 mars 2021." (Document(page\_content='...', metadata={'source': 'T03521007469.txt'}))

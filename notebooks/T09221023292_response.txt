@@ -1,4 +1,4 @@
-Q_TTSEM:Non, aucun paragraphe mentionnant un nombre de jours de télétravail autorisé, recommandé ou limité explicitement exprimé par semaine n'a été trouvé dans les documents fournis.
+Q_TTSEM:Non, aucun paragraphe mentionnant un nombre de jours de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine, hors jours supplémentaires ou exceptionnels, n'a été trouvé dans les documents fournis.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Le télétravail peut s’effectuer sur décision de l’employeur en cas de situation exceptionnelle (notamment pandémie). Hors situation exceptionnelle, il s’organise de façon volontaire, avec le double consentement employeur-salarié. En tout état de cause, hors situation exceptionnelle, le télétravail cesse sur information d’une des parties à l’autre avec un préavis d’un mois (sauf accord réciproque pour une durée inférieure). En cas de cessation du télétravail, le salarié retrouve son poste de travail, ou un poste équivalent." (Source : T09221023292.txt)

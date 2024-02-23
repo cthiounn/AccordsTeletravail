@@ -1,10 +1,12 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés ou limités explicitement exprimés par semaine. Voici ces passages :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les occurrences :
 
-- "Le télétravail récurrent s’organise par journée complète dans la limite de deux (2) jours par semaine"
-- "un jour par semaine, fixé avec l’accord du supérieur hiérarchique, pour les alternants (apprentissage et contrat de professionnalisation) et stagiaires de six (6) mois et plus, à condition d’être présents à minima quatre (4) jours en entreprise sur la semaine, ainsi que pour les salariés à temps partiel à 80%"
-- "1, 1,5 ou 2 jours (selon les règles évoquées au paragraphe précédent « Rythme de télétravail ») par semaine fixes, positionnés en accord avec le manager"
-- "1, 1,5 ou 2 jours (selon les règles évoquées au paragraphe précédent « Rythme de télétravail ») par semaine flexibles, positionnés en accord avec le manager en respectant un délai de prévenance d’a minima 48h"
+- Méthode 1 : "1, 1,5 ou 2 jours (selon les règles évoquées au paragraphe précédent « Rythme de télétravail ») par semaine fixes"
+- Méthode 2 : "1, 1,5 ou 2 jours (selon les règles évoquées au paragraphe précédent « Rythme de télétravail ») par semaine flexibles"
+- Modalités d'organisation du télétravail : "Le télétravail récurrent s’organise par journée complète dans la limite de deux (2) jours par semaine, fixé avec l’accord du supérieur hiérarchique"
+- Modalités d'organisation du télétravail : "un jour par semaine, fixé avec l’accord du supérieur hiérarchique, pour les alternants (apprentissage et contrat de professionnalisation) et stagiaires de six (6) mois et plus"
+
+Par conséquent, il existe bien des mentions explicites de nombres de jours de télétravail autorisés par semaine dans les documents fournis.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Le télétravail récurrent s’organise par journée complète dans la limite de deux (2) jours par semaine"

@@ -1,5 +1,5 @@
 Q_TTSEM:
-Oui, un paragraphe mentionne explicitement le nombre de jours de télétravail autorisé par semaine. Il s'agit du paragraphe intitulé "Répartition des temps de travail lieu de télétravail/entreprise" issu du document avec l'identifiant "T02921004527.txt". Dans ce paragraphe, il est indiqué que "le salarié peut télétravailler au maximum 2 jours par semaine."
+Oui, un paragraphe mentionne explicitement le nombre de jours de télétravail autorisé par semaine. Il s'agit du paragraphe intitulé "Répartition des temps de travail lieu de télétravail/entreprise" qui précise que "afin de maintenir suffisamment le lien social et fonctionnel avec la communauté de travail, le salarié peut télétravailler au maximum 2 jours par semaine."
 Q_TTSEM_NOMBRE:
 * Deux paragraphes pertinents provenant des documents à analyser :
 

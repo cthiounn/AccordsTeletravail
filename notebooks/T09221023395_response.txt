@@ -1,10 +1,7 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les références :
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé par semaine. Voici les références :
 
-- Dans le document avec la métadonnée'source': 'T09221023395.txt' et l'identifiant 'T09221023395.txt', voir les paragraphes avec les identifiants suivants :
-  - 'page\_content': 'Le télétravail doit avoir un caractère volontaire à la fois pour le salarié et l’employeur.' (Article 3.1) mentionne "jusqu’à deux journées par semaine".
-  - 'page\_content': 'Le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile, par journée entière,' (Article 4.1) mentionne "jusqu’à deux journées par semaine".
-
-Merci de noter que je suis un modèle de langage et que ma réponse est basée sur l'analyse des documents fournis.
+* Dans le document avec la métadonnée'source': 'T09221023395.txt' et la page\_content commençant par '3.5. Avenant au contrat de travail', il est indiqué que 'Le jour de télétravail choisi dans la semaine'.
+* Dans le document avec la métadonnée'source': 'T09221023395.txt' et la page\_content commençant par 'Le télétravail régulier', il est indiqué que 'ce nombre de jours peut être d’une à deux journées par semaine.'
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile, par journée entière, de manière à préserver le lien social avec l’entreprise et son groupe de travail." (Document(page\_content='...', metadata={'source': 'T09221023395.txt'}))
 

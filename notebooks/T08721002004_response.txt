@@ -1,10 +1,4 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés explicitement exprimé par semaine. Voici les références :
-
-1. "Soit à raison d'un jour fixe par semaine..." (document 8)
-2. "b) Période transitoire avec possibilité de bénéficier jusqu'à 2 jours de télétravail par semaine" (document 7)
-3. "Il est convenu par les signataires... mise en oeuvre d'une période dite « de transition » de 3 mois pour 1 jour de télétravail par semaine..." (document 7)
-
-Je tiens à souligner que mon analyse se limite strictement aux documents fournis et à la question posée, sans aucune interprétation ou inférence supplémentaire.
+Q_TTSEM:Oui, le paragraphe 2.3.5 mentionne un nombre de jours de télétravail autorisés explicitement exprimé par semaine. Il est indiqué "Le choix des jours de télétravail résulte d’un accord entre les deux parties qui doit permettre d’assurer le maintien du bon fonctionnement du service d’affectation du salarié. Les jours de télétravail figurent dans l’avenant au contrat de travail du télétravailleur, qui fixe les modalités de mise en œuvre de cette organisation. Dans le cadre de l’organisation du télétravail sous forme d’enveloppe jours, l’utilisation de ces jours font l’objet d’un accord préalable entre le télétravailleur et son responsable hiérarchique. **Un salarié peut bénéficier de 25 jours de télétravail pendant une période de 3 mois**."
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Afin de maintenir un lien suffisant entre le salarié et l’organisme, et notamment, de ne pas altérer le lien avec l’équipe de travail, le télétravailleur doit être présent dans son service au moins deux jours par semaine, quelle que soit la durée de son temps de travail."
 

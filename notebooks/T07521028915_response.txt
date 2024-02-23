@@ -1,9 +1,13 @@
 Q_TTSEM:
-Oui, le document suivant mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine :
+Oui, le document contient plusieurs paragraphes mentionnant un nombre de jours de télétravail autorisés, recommandés, limités ou maximums exprimés par semaine. Voici les extraits pertinents :
 
-- Document(page\_content='Pour un salarié à temps partiel, le nombre de jours de télétravail possible par semestre sera proratisé selon le pourcentage de temps de travail et avec une limite dans tous les cas d’un jour par semaine non reportable.')
+1. "Le télétravail pour un salarié travaillant à 80% ne pourra être exercé que pour un maximum de **20 jours par semestre civil**, soit une enveloppe de 40 jours par année civile, reportable d’un semestre à l’autre."
 
-Donc, la réponse à votre question est OUI.
+2. "Le télétravail pour le salarié à temps complet ou titulaire d’un forfait annuel en jours ou titulaire d’un forfait jours réduit ne pourra être exercé que pour un maximum de **24 jours par semestre civil**, soit une enveloppe de 48 jours par année civile, reportable d’un semestre à l’autre."
+
+3. "Pour un salarié à temps partiel, le nombre de jours de télétravail possible par semestre sera proratisé selon le pourcentage de temps de travail et avec une limite dans tous les cas d’un jour par semaine non reportable."
+
+Dans ces trois exemples, les nombres de jours de télétravail par semaine sont explicitement mentionnés.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Comme convenu à l’article 1, le salarié disposera de (48) jours de télétravail possibles par année civile, qu’il pourra mobiliser en journée entière. Si le salarié est embauché en cours d’année, les jours de télétravail sont proratisés."

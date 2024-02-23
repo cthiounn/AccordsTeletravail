@@ -1,4 +1,4 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement le nombre de jours de télétravail autorisés, recommandés ou limités par semaine. Les seules mentions de télétravail concernent la prime de consommable pour les personnes ayant recours au télétravail, qui n'indique pas non plus de nombre de jours de télétravail.
+Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jour de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "8/ Définition des postes et des règles du télétravail ainsi que la mise en place d’une prime de consommable"
 * "La prime de télétravail est fixée à 10 euros par mois pour les fonctions permettant le télétravail et calculée au prorata du temps de présence si nécessaire."

@@ -1,4 +1,4 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé ou limité par semaine.
+Q_TTSEM:Oui, dans le document "T05721004723.txt" à la page_content, il est mentionné que "Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance."
 Q_TTSEM_NOMBRE:
 Extraction de deux paragraphes pertinents provenant des documents à analyser :
 

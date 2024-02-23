@@ -1,5 +1,5 @@
 Q_TTSEM:
-Non, aucun paragraphe mentionnant un nombre de jour de télétravail autorisé, recommandé ou limité explicitement exprimé par semaine n'a été trouvé dans les textes fournis.
+Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Cependant, il est indiqué que "Afin de garantir la cohésion des équipes et de prévenir les situations d’isolement, le télétravail ne pourra être exercé que dans la limite de 75% du temps de travail effectif mensuel (en jours)." Ce qui implique que le nombre maximal de jours de télétravail par mois est de 15 jours, mais cela n'est pas exprimé explicitement par semaine.
 Q_TTSEM_NOMBRE:
 **Extraction de deux paragraphes pertinents provenant des documents à analyser qui répondent à la question:**
 

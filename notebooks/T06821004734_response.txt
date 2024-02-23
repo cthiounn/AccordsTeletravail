@@ -1,9 +1,14 @@
-Q_TTSEM:
-Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail autorisé par semaine :
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum exprimé par semaine. Voici les extraits pertinents :
 
-> Nombre de jours calculé sur la base d’une moyenne de 3 jours de télétravail par mois et par équivalent temps plein, sur 10 mois à l’année (déduction faite des 5 semaines de congés payés, des jours de crédit d’heures, de réunion d’équipe et de formation).
+- "Le nombre maximal de jours de télétravail est fixé annuellement et de façon forfaitaire. Il est également pondéré en fonction du temps de travail de chaque salarié comme suit : [...] Les journées de télétravail seront proratisées pour les salariés à temps partiel de la manière suivante [...] Les journées de télétravail pourront être subdivisées en demi-journées."
 
-Cette phrase implique qu'en moyenne, il y a trois jours de télétravail par semaine et par équivalent temps plein, sur une période de 10 mois dans l'année.
+- "Le nombre maximal de jours de télétravail est fixé annuellement et de façon forfaitaire. Il est également pondéré en fonction du temps de travail de chaque salarié comme suit [...]"
+
+- "Le télétravailleur pourra librement organiser son temps de travail sous réserve de respecter les plages horaires de travail prévues dans l’accord collectif relatif à l’aménagement du temps de travail, pendant lesquelles il doit être joignable. Durant ses horaires d’activité télétravaillée, le télétravailleur est tenu de répondre au téléphone, de participer à toutes les réunions téléphoniques ou les visioconférences organisées par sa hiérarchie, et de consulter régulièrement sa messagerie."
+
+- "Les parties conviennent que le télétravail s’effectue au domicile connu de l’employeur / du service des Ressources Humaines. L’habitation doit être compatible avec l’exercice d’une activité professionnelle au regard des règles en matière d’hygiène et de sécurité au travail. Le salarié doit disposer à son domicile d’un accès internet haut débit, condition indispensable à la réalisation du télétravail à son domicile (cf. modèle d’attestation sur l’honneur en annexe 1 et justificatif à fournir)."
+
+Dans ces extraits, on peut voir que le nombre maximal de jours de télétravail est fixé annuellement et de façon forfaitaire, et qu'il est possible de subdiviser les journées de télétravail en demi-journées. On peut aussi voir que le télétravailleur doit respecter les plages horaires de travail prévues dans l’accord collectif relatif à l’aménagement du temps de travail, et qu'il doit disposer à son domicile d'un accès internet haut débit, condition indispensable à la réalisation du télétravail à son domicile.
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
 * "Le nombre maximal de jours de télétravail est fixé annuellement et de façon forfaitaire. Il est également pondéré en fonction du temps de travail de chaque salarié comme suit: Nombre de jours calculé sur la base d’une moyenne de 3 jours de télétravail par mois et par équivalent temps plein, sur 10 mois à l’année (déduction faite des 5 semaines de congés payés, des jours de crédit d’heures, de réunion d’équipe et de formation)."

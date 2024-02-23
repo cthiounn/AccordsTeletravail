@@ -1,9 +1,11 @@
-Q_TTSEM:Oui, un paragraphe mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Il s'agit du paragraphe suivant :
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé par semaine. Voici les références :
 
-"Sauf cas particulier (cf paragraphe suivant), le télétravail régulier sera pratiqué selon les modalités suivantes :
-Un minimum de 3 jours par semaine calendaire au bureau sera observé. Ainsi, entre un et deux jours par semaine de télétravail pourront être mis en place pour un salarié à temps plein. Ce par demi-journées ou journées."
+- Document(page\_content='Sauf cas particulier (cf paragraphe suivant), le télétravail régulier sera pratiqué selon les modalités suivantes :\nUn minimum de 3 jours par semaine calendaire au bureau sera observé. Ainsi, entre un et deux jours par semaine de télétravail pourront être mis en place pour un salarié à temps plein.')
 
-Ce paragraphe indique clairement qu'un salarié à temps plein peut faire entre 1 et 2 jours de télétravail par semaine.
+- Document(page\_content='Les collaborateurs à temps partiel suivront la même règle d’une présence minimum de 3 jours calendaires par semaine au bureau, le reste du temps de travail pouvant être en télétravail, en journées ou demi-journées.')
+
+Dans ces deux documents, il est mentionné qu'un salarié à temps plein peut effectuer "entre un et deux jours par semaine" de télétravail, tandis qu'un salarié à temps partiel doit assurer une présence minimum de "3 jours calendaires par semaine au bureau".
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 
 * "Un minimum de 3 jours par semaine calendaire au bureau sera observé. Ainsi, entre un et deux jours par semaine de télétravail pourront être mis en place pour un salarié à temps plein."

@@ -1,4 +1,5 @@
-Q_TTSEM:Non, aucun paragraphe mentionnant un nombre de jours de télétravail autorisé, recommandé ou limité explicitement exprimé par semaine n'a été trouvé dans les documents fournis.
+Q_TTSEM:
+Non, aucun paragraphe mentionnant un nombre de jours de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine n'a été trouvé dans les documents fournis. Les seules mentions de nombres de jours concernent le télétravail volontaire limité à 20 jours par an, mais cela ne spécifie pas s'il s'agit de jours par semaine, mois ou trimestre.
 Q_TTSEM_NOMBRE:
 * Extraction pertinente du document :
 

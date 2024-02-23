@@ -1,10 +1,17 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé ou limité, explicitement exprimé par semaine. Voici les occurrences :
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici les occurrences trouvées :
 
-- "la fréquence du télétravail régulier sera limitée à 1 journée par semaine." (T04421009471.txt)
-- "le télétravail régulier aura une fréquence comprise entre 1 et 2 journées par semaine." (T04421009471.txt)
-- "Pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine." (T04421009471.txt)
+- "Pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine." (Source : T04421009471.txt)
 
-Référence: T04421009471.txt
+- "Le télétravail régulier à temps partiel (salarié en télétravail pour un volume de jours équivalent à quelques jours de sa semaine habituelle de travail, chaque semaine)" (Source : T04421009471.txt)
+
+- "Le télétravail régulier à temps plein (salarié en télétravail pour un volume de jours équivalent à tous les jours de sa semaine habituelle de travail, chaque semaine)" (Source : T04421009471.txt)
+
+- "Un salarié souhaitant télétravailler plus de 2 jours par semaine ou à temps complet doit se rapprocher du service RH..." (Source : T04421009471.txt)
+
+- "La fréquence du télétravail régulier sera limitée à 1 journée par semaine." (Source : T04421009471.txt)
+
+Notez que certains passages font référence à des notions de "volume" ou de "quotas", mais ils ne sont pas explicitement exprimés en termes de jours par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "A compter du x, suite à la demande du salarié, il a été défini que le salarié pourra exercer son activité professionnelle en télétravail par journée ou demi-journée, à raison d’un volume pouvant atteindre X journées par semaine."

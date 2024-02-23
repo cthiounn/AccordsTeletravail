@@ -1,9 +1,12 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés ou limités explicitement exprimés par semaine. Voici les références :
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici ces paragraphes :
 
-- Document(page\_content='A cet effet, les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié\xa0: option 1\xa0: 1 jour/semaine/salarié ou option 2\xa0: 2 jours/semaine/salarié.', metadata={'source': 'T06721006938.txt'})
-- Document(page\_content='Les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié\xa0: option 1\xa0: 1 jour/semaine/salarié ou option 2\xa0: 2 jours/semaine/salarié.', metadata={'source': 'T06721006938.txt'})
+- "Pour permettre aux salariés de maintenir un lien collectif et de prévenir le risque d’isolement, les parties au présent accord d’entreprise conviennent qu’en tout état de cause, pour les semaines où le salarié use de sa faculté de télétravailler, il devra être présent au minimum 2 jours par semaine sur son ou ses lieu(x) de travail habituel(s)."
 
-Dans ces deux paragraphes, il est spécifié qu'un salarié peut faire du télétravail jusqu'à 2 jours par semaine, avec l'option d'un seul jour par semaine.
+- "Les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié\xa0: option 1\xa0: 1 jour/semaine/salarié ou option 2\xa0: 2 jours/semaine/salarié."
+
+- "L’Accord-Cadre de Groupe prévoit deux formules de rythme de télétravail possible. Les parties signataires conviennent de mettre en place la formule 2 (rythme de 1 jour de télétravail par semaine et par salarié)."
+
+Dans tous ces cas, le nombre de jours de télétravail par semaine est limité à 2, sauf dans le dernier paragraphe où il est possible de n'effectuer qu'1 jour de télétravail par semaine.
 Q_TTSEM_NOMBRE:Extraction pertinente des documents :
 * Article 2-3-1 – Le rythme de télétravail : « L’Accord-Cadre de Groupe prévoit deux formules de rythme de télétravail possible. Les parties signataires conviennent de mettre en place la formule 2 (rythme de 1 jour de télétravail par semaine et par salarié). Toutefois, cet Accord-Cadre prévoit la possibilité de fixer un nombre de jours de télétravail supérieur à 1 jour par semaine et par salarié. A cet effet, les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié »
 * A cet effet, les parties signataires convienent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié : option 1 : 1 jour/semaine/salarié ou option 2 : 2 jours/semaine/salarié

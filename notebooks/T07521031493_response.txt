@@ -1,5 +1,12 @@
 Q_TTSEM:
-Oui, il y a un paragraphe qui mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Il s'agit de l'option 2 qui stipule : "Option 2 - Vous serez en situation de télétravail à raison d’un jour par semaine maximum."
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine. Voici ces passages :
+
+- Option 1 de l'article 2 : "Vous serez en situation de télétravail à raison de deux jours par semaine maximum."
+- Option 2 de l'article 2 : "Vous serez en situation de télétravail à raison d'un jour par semaine maximum."
+- Paragraphe du document 2 : "Option 3 – Vous disposez d’un forfait mobile de 45 jours de télétravail maximum par an." (Cette option ne précise pas explicitement que le forfait est par semaine, mais c'est sous-entendu.)
+- Paragraphe du document 3 : "les salariés qui seraient soumis à un forfait annuel en jours réduit (c’est-à-dire inférieur à 209 jours) ou les salariés occupés à temps partiel (c’est-à-dire en deçà de 35 heures par semaine), ne pourront opter que pour le forfait mobile de jours de télétravail. Le nombre de jours de télétravail sera alors proratisé au regard de leur durée du travail comparée à la durée du travail en vigueur au sein de la Société (un salarié travaillant à 80 % bénéficiera d’un forfait mobile de 36 jours de télétravail)." (Cette option ne précise pas explicitement que le forfait est par semaine, mais c'est sous-entendu.)
+
+Dans tous ces cas, le nombre de jours de télétravail par semaine est explicitement mentionné ou sous-entendu.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Option 1 - Vous serez en situation de télétravail à raison de deux jours par semaine maximum." (Source: T07521031493.txt)

@@ -1,11 +1,13 @@
 Q_TTSEM:
-Oui, le paragraphe suivant mentionne explicitement le nombre de jour de télétravail autorisé par semaine :
+Oui, le paragraphe suivant mentionne explicitement un nombre de jour de télétravail limité à un (1) jour maximum par semaine :
 
-> "La Société rappelle l’importance d’équilibrer le temps de télétravail et le temps de travail sur site, en lien avec les activités et les objectifs de l’entreprise.
->
-> Aux fins de garantir la préservation du lien social au sein de l’entreprise et limiter l’émergence de difficultés organisationnelles, la fréquence du télétravail est limitée à un (1) jour maximum par semaine, en dehors de circonstances exceptionnelles justifiant le recours à un télétravail plus fréquent ou cas de force majeure le nécessitant."
+> Article 39 : La fréquence du télétravail
+> 
+> La Société rappelle l’importance d’équilibrer le temps de télétravail et le temps de travail sur site, en lien avec les activités et les objectifs de l’entreprise.
+> 
+> Aux fins de garantir la préservation du lien social au sein de l’entreprise et limiter l’émergence de difficultés organisationnelles, la fréquence du télétravail est limitée à un (1) jour maximum par semaine, en dehors de circonstances exceptionnelles justifiant le recours à un télétravail plus fréquent ou cas de force majeure le nécessitant.
 
-Source : T03321006775.txt - Article 39
+Source : T03321006775.txt
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * Article 39 : « La fréquence du télétravail [...] la fréquence du télétravail est limitée à un (1) jour maximum par semaine »

@@ -1,5 +1,5 @@
 Q_TTSEM:
-Oui, le premier document mentionne explicitement qu'un jour par semaine est autorisé pour le télétravail. Voici la phrase exacte : "Cet accord a ouvert la possibilité aux salariés éligibles d’effectuer un jour par semaine de télétravail".
+Non, aucun paragraphe ne mentionne un nombre de jour de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine.
 Q_TTSEM_NOMBRE:
 * Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 

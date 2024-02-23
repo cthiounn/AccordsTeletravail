@@ -1,11 +1,10 @@
-Q_TTSEM:
-Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail limité par semaine :
+Q_TTSEM:Oui, le paragraphe suivant mentionne explicitement que le nombre de jours de télétravail autorisés par semaine est limité à deux jours complets :
 
 > Article 11 - Fréquence et nombre de jours en télétravail
 >
 > Le nombre de jours télétravaillés est limité à deux jours complets par semaine. Il est précisé que ces jours ne peuvent être divisés en demi-journées.
 
-Source : T01321011808.txt
+Source : T01321011808.txt
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le nombre de jours télétravaillés est limité à deux jours complets par semaine." (T01321011808.txt)
