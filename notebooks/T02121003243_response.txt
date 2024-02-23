@@ -1,3 +1,4 @@
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels. Les seuls nombres de jours de télétravail maximum autorisés mentionnés sont exprimés par mois.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * Article 3 – Fréquence du télétravail régulier : « Le télétravail régulier prend la forme d’un forfait mensuel de jours télétravaillés selon les deux modalités suivantes : 6 jours de télétravail par mois maximum, accessible à tous les salariés éligibles »

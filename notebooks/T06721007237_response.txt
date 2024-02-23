@@ -1,3 +1,4 @@
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * Article 5 – Temps de travail : « Le temps de travail du télétravailleur est de 35 heures par semaine. Cette durée du travail de 35 heures sera à effectuer en présentiel sur site à hauteur minimum de 24 heures, les heures restantes en télétravail. Les 24 heures minimum sur site peuvent être effectuées en demi-journées ou en journées complètes selon un planning prédéfini en accord avec le chef de service et le directeur du pôle. »

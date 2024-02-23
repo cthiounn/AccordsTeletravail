@@ -1,3 +1,4 @@
+Q_TTSEM:Oui, le paragraphe intitulé "6-1 Rythme du télétravail" mentionne explicitement le nombre de jours maximum de télétravail autorisé par semaine. Pour un collaborateur à temps plein, ce nombre est fixé à 2 jours par semaine. Pour les collaborateurs à temps partiel, le nombre maximum de jours de télétravail par semaine est fixé à 1 jour.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein." (Source: T08821002242.txt)

@@ -1,3 +1,8 @@
+Q_TTSEM:Oui, un paragraphe mentionne explicitement le nombre de jours de télétravail maximum autorisé par semaine. Il s'agit du document suivant :
+
+Document(page_content='En cas d’annulation d’un jour de télétravail, celui-ci est reporté de préférence dans la même semaine ou au plus tard au cours des quatre (4) semaines suivant le jour annulé et ce, sous réserve que ce report soit compatible avec l’organisation, la continuité du service et les conditions fixées ci-dessus. Dans ce cadre, les parties au présent accord d’entreprise conviennent qu’en tout état de cause le salarié ne pourra pas exercer\xa0:\nplus de 2 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme d’une journée maximum de télétravail\nPlus de 3 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme de deux journées maximum de télétravail')
+
+On peut y lire : « Dans ce cadre, les parties au présent accord d’entreprise conviennent qu’en tout état de cause le salarié ne pourra pas exercer\xa0:\nplus de 2 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme d’une journée maximum de télétravail\nPlus de 3 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme de deux journées maximum de télétravail ».
 Q_TTSEM_NOMBRE:
 * Deux paragraphes pertinents provenant des documents à analyser :
 

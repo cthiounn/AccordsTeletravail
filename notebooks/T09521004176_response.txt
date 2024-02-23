@@ -1,3 +1,5 @@
+Q_TTSEM:
+Oui, dans le document fourni, il est mentionné que "Le télétravail régulier peut-être de 1 ou de 2 jours par semaine." Cela indique clairement qu'il y a un nombre maximal de jours de télétravail autorisés par semaine, qui est de 2 jours.
 Q_TTSEM_NOMBRE:
 **Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :**
 

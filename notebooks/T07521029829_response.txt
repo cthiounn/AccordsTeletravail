@@ -1,3 +1,7 @@
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Voici les occurrences :
+
+* Dans le document avec la métadonnée'source': 'T07521029829.txt', page_content: 'Le télétravail peut être exécuté dans la limite de deux jours fixes par semaine maximum dans les entités du Groupe où l’organisation hebdomadaire du travail est sur cinq jours à raison d’un minimum de 7h et plus travaillées par jour.'
+* Dans le document avec la métadonnée'source': 'T07521029829.txt', page_content: 'Le télétravail fixe et régulier ne peut se faire que par journée entière.' Cette information implique que le télétravail ne peut se faire que sur une journée complète, donc un jour par semaine au maximum.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "Le nombre de jour fixe et régulier de télétravail est d’un ou deux jours." (T07521029829.txt)

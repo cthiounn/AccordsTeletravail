@@ -1,3 +1,5 @@
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Par exemple, dans le document avec la métadonnée'source': 'T09221027244.txt' et la page\_content commençant par '4.2 - Choix de journées de télétravail flexibles', il est spécifié que "le droit à télétravail aux salariés en jour ‘fixe’" doit être accordé prioritairement et que le nombre maximal de jours de télétravail par semaine est de trois. De même, dans le document avec la métadonnée'source': 'T09221027244.txt' et la page\_content commençant par '2.1 - Critères d’éligibilité au télétravail', il est spécifié que "Le nombre de jours de télétravail est fixé à 1 par semaine pour tous."
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
 * "Journée(s) of telework desired in the week"

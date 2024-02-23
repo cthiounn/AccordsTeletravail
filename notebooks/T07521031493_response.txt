@@ -1,3 +1,10 @@
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Voici quelques exemples :
+
+* "Option 2 - Vous serez en situation de télétravail à raison d'un jour par semaine maximum." (Source : T07521031493.txt)
+* "Option 1 - Vous serez en situation de télétravail à raison de deux jours par semaine maximum." (Source : T07521031493.txt)
+* "Par exception, il est possible de cumuler, sur une même semaine, le jour de télétravail au titre du télétravail régulier et un ou plusieurs jours de télétravail occasionnel, ce qui pourra avoir pour effet de réduire le nombre de jours de présence dans les locaux de la Société sur une même semaine (pouvant aller jusqu’à 0 jours)." (Source : T07521031493.txt)
+
+Ces passages mentionnent clairement qu'il est possible de télétravailler un maximum de un ou deux jours par semaine.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Option 1 - Vous serez en situation de télétravail à raison de deux jours par semaine maximum." (Source: T07521031493.txt)

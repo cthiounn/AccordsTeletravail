@@ -1,3 +1,11 @@
+Q_TTSEM:
+Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail maximum autorisé par semaine :
+
+> Article 10: Nombre de jours de télétravail
+>
+> Le télétravail régulier s’effectue dans la limite de 2 jours maximum par semaine.
+
+Source: T03121008885.txt
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
 * "Le télétravail régulier s’effectue dans la limite de 2 days maximum par semaine." (from Document(page\_content='CHAPITRE 5	: REGLES GENERALES D’ORGANISATION DU TELETRAVAIL Article 10	: Nombre de jours de télétravail The regular telework is carried out in the limit of 2 days maximum per week. [...]'))

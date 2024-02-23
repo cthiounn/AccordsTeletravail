@@ -1,3 +1,5 @@
+Q_TTSEM:
+Oui, le document contient un paragraphe mentionnant un nombre de jour de télétravail maximum autorisé explicitement exprimé par semaine. Il s'agit de l'article 9, qui stipule que "Les jours de télétravail seront fixés selon les modalités suivantes : un jour maximum par semaine."
 Q_TTSEM_NOMBRE:Extraction pertinente du document :
 
 * "Les jours de télétravail seront fixés selon les modalités suivantes : **un jour maximum par semaine**."

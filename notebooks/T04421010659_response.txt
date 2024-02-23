@@ -1,3 +1,5 @@
+Q_TTSEM:
+Oui, le paragraphe intitulé "Circonstances normales" du premier document mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine. Lorsque le salarié est à temps complet, il peut effectuer un maximum de deux jours de télétravail par semaine, et lorsqu'il est à temps partiel avec une durée du travail supérieure ou égale à 80 %, il peut effectuer un maximum d'une journée de télétravail par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Conformément à ces modalités, le planning du salarié bénéficiant du télétravail pourra prévoir soit une journée, soit au maximum deux journées, par semaine en situation de télétravail lorsque le salarié est à temps complet, et une seule journée par semaine en situation de télétravail lorsque que le salarié est à temps partiel avec une durée du travail supérieure ou égale à 80 %."

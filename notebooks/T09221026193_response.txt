@@ -1,3 +1,5 @@
+Q_TTSEM:
+Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
 * "Ces jours hebdomadaires de télétravail constituent la référence du télétravail régulier au titre du présent accord."

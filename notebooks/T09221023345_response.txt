@@ -1,3 +1,4 @@
+Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jour de télétravail maximum autorisé explicitement exprimé par semaine, hors jours supplémentaires ou exceptionnels.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents :
     * "Le télétravail doit s’exercer au domicile du salarié. Celui-ci doit être conforme électriquement, être pourvu d’un accès internet de bonne qualité et faire l’objet d’une assurance habitation. Le télétravail peut ponctuellement être exercé dans un autre lieu que le domicile sous les mêmes conditions de conformité (résidence secondaire, hébergement temporaire ou familial) dans ce cas, le salarié doit déclarer ce lieu d’exercice auprès de son management."

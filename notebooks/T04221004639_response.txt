@@ -1,3 +1,4 @@
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
 Q_TTSEM_NOMBRE:* Extraits pertinents :
     * "Article 3. Mise en place du télétravail [...] La charge de travail d’un télétravailleur doit être élaborée en amont par le manageur et être équivalente à celle effectuée dans les locaux de l’entreprise."
     * "Article 4. Durée et aménagement du temps de télétravail [...] En dehors de ces plages, les outils numériques fournis par STEPHANIX (tél- PC etc….) doivent être éteints."

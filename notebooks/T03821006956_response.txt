@@ -1,3 +1,4 @@
+Q_TTSEM:Oui, le paragraphe intitulé "A – Nombre de jours télétravaillés" mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine. Il est précisé que le télétravail ne peut pas s'exercer plus d'1 jour par semaine pour un salarié travaillant à temps complet ou titulaire d'un forfait annuel de 218 jours. Cette information est présente dans le document source T03821006956.txt.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le télétravail ne peut pas s’exercer les Mardi." (Document(page\_content='Article V – ORGANISATION DU TELETRAVAIL\n\nA – Nombre de jours télétravaillés\n\nLe télétravail ne pourra être exercé que pour les durées et les modalités maximales suivantes\xa0:\n\nLe/les jour(s) ou demi-journée(s) de télétravail peuvent s’entendre le Lundi, le Mercredi, le Jeudi et le vendredi. Le télétravail ne peut pas s’exercer les Mardi.\n\n...'))

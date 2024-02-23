@@ -1,3 +1,9 @@
+Q_TTSEM:
+Oui, le paragraphe suivant mentionne explicitement le nombre de jour de télétravail maximum autorisé par semaine :
+
+> "Le télétravail pourra s’effectuer sur une demi-journée au minimum et au maximum 1 journée par semaine, en fonction du temps de travail et l’organisation du temps de travail."
+
+Ce paragraphe indique clairement que le télétravail peut être effectué jusqu'à un maximum de 1 jour par semaine.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Le télétravail pourra s’effectuer sur une demi-journée au minimum et au maximum 1 journée par semaine, en fonction du temps de travail et l’organisation du temps de travail."

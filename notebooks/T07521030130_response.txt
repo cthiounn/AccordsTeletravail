@@ -1,3 +1,4 @@
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail maximum autorisé par semaine. Les documents mentionnent simplement qu'un rythme de trois jours en télétravail et deux jours en présentiel peut être envisagé, mais cela n'est pas présenté comme une limite stricte.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
     * "Un rythme de trois jours en télétravail et deux jours en présentiel peut être envisagé."

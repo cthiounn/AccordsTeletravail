@@ -1,3 +1,5 @@
+Q_TTSEM:
+Oui, un paragraphe mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine. Il s'agit du paragraphe qui stipule que "Les salariés pourront effectuer jusqu'à 45 jours de télétravail par année civile. La répartition de ces jours sur l'année civile s'effectuera par journée entière sur la base d'une journée par semaine." Cela signifie que le nombre maximal de jours de télétravail autorisés par semaine est de 1 jour.
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
 * "Le Salarié pourra effectuer jusqu'à 45 jours de télétravail par année civile. La répartition de ces jours sur l'année civile s'effectuera par journée entière sur la base d'une journée par semaine."

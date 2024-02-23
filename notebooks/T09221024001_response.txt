@@ -1,3 +1,4 @@
+Q_TTSEM:Oui, le document mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine. Les collaborateurs (hormis les commerciaux) doivent être présents sur site au minimum 2 jours/plages de travail par semaine, ce qui implique que les jours de télétravail ne peuvent dépasser 3 jours par semaine. Cette information se trouve dans le premier document, dans la section "Article 15 – Organisation du télétravail régulier".
 Q_TTSEM_NOMBRE:
 * Deux paragraphes pertinents provenant des documents à analyser :
 

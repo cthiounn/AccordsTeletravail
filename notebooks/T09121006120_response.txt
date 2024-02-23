@@ -1,3 +1,9 @@
+Q_TTSEM:
+Oui, le paragraphe suivant mentionne explicitement qu'il ne peut y avoir plus de deux jours de télétravail par semaine :
+
+> Les jours de télétravail doivent par principe être pris par journée entière et ne peuvent conduire le salarié à s’absenter en télétravail plus de deux journées pour une semaine de cinq jours.
+
+Source : T09121006120.txt
 Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
 * "Les jours de télétravail doivent par principe être pris par journée entière et ne peuvent conduire le salarié à s’absenter en télétravail plus de deux daynées pour une semaine de cinq days."

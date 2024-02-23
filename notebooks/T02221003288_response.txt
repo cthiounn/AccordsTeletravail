@@ -1,3 +1,5 @@
+Q_TTSEM:
+Oui, le document 2.2 mentionne explicitement que "les salariés ne pourront télétravailler que 2 jours maximum par semaine".
 Q_TTSEM_NOMBRE:Two paragraphs relevant to the question are:
 
 * "Il est convenu que les salariés ne pourront télétravailler que 2 jours maximum par semaine"

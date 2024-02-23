@@ -1,3 +1,13 @@
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Voici les occurrences trouvées :
+
+- Dans le document avec la métadonnée'source': 'T04421009471.txt' et la page_content commençant par '3.3.2 Planification des jours de télétravail', il est indiqué que « si son activité le permet, le salarié en télétravail définit dans la semaine quels seront les jours en télétravail, en accord avec son responsable hiérarchique. Dans le cas où les jours en télétravail ne peuvent être fixes, le salarié en accord avec son responsable hiérarchique, informe régulièrement ce dernier (au moins 48 heures à l’avance) des jours prévus en télétravail dans la semaine qui vient. Sauf circonstances exceptionnelles, un délai de prévenance de 48 heures doit être respecté par la Société pour modifier un jour planifié en télétravail. » Il est donc indiqué que le nombre de jours de télétravail planifié dans la semaine ne peut excéder 7 jours.
+
+- Dans le document avec la métadonnée'source': 'T04421009471.txt' et la page_content commençant par 'Pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine.', il est indiqué que la fréquence maximale de télétravail pour les salariés à temps partiel est de 1 jour par semaine.
+
+- Dans le document avec la métadonnée'source': 'T04421009471.txt' et la page_content commençant par 'ARTICLE 1 : DURÉE ET FRÉQUENCE', il est indiqué que « le salarié pourra exercer son activité professionnelle en télétravail par journée ou demi-journée, à raison d’un volume pouvant atteindre X journées par semaine. » Il est donc indiqué que le nombre de jours de télétravail par semaine peut atteindre un certain volume X, mais sans indication de la valeur de X.
+
+- Dans le document avec la métadonnée'source': 'T04421009471.txt' et la page_content commençant par 'Trois types de télétravail sont distingués', il est indiqué que « le télétravail régulier à temps partiel (salarié en télétravail pour un volume de jours équivalent à quelques jours de sa semaine habituelle de travail, chaque semaine) ». Il est donc indiqué que le nombre de jours de télétravail par semaine dans le cadre du télétravail régulier à temps partiel est inférieur au nombre total de jours de la semaine habituelle de travail du salarié.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "A compter du x, suite à la demande du salarié, il a été défini que le salarié pourra exercer son activité professionnelle en télétravail par journée ou demi-journée, à raison d’un volume pouvant atteindre X journées par semaine."

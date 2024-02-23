@@ -1,3 +1,5 @@
+Q_TTSEM:
+Oui, le paragraphe intitulé "4. Mise en place du télétravail" mentionne explicitement qu'un salarié ne peut pas être en télétravail plus de deux journées par semaine. Cette limitation s'applique sauf pour les commerciaux dont la fonction n'est pas concernée par cette disposition.
 Q_TTSEM_NOMBRE:
 * Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 

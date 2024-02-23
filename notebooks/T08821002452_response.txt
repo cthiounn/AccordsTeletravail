@@ -1,3 +1,5 @@
+Q_TTSEM:
+Non, aucun paragraphe ne mentionne un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Les termes "jour", "jours" apparaissent plusieurs fois mais jamais associés au mot "semaine".
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 

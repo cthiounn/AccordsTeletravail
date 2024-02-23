@@ -1,3 +1,4 @@
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine.
 Q_TTSEM_NOMBRE:Extraction pertinente des documents :
 * "Le télétravail doit être exercé par jour entier. Cependant, il est possible de déroger à ce principe pour les salariés ayant un temps de travail amenant à la réalisation de demi-journées de travail. Il sera possible dans ce cas d’accorder le télétravail par demi-journée sous réserve que l’agent respecte le temps minimum de présence de 3 jours sur site le reste de la semaine."
 * "Le manager est invité pour la bonne organisation de son service à décider d’un jour de présence sur site commun à l’ensemble de ses collaborateurs, excluant de fait la possibilité de télétravailler le jour concerné pour l’ensemble des collaborateurs."

@@ -1,3 +1,5 @@
+Q_TTSEM:
+Oui, le document contient bien un paragraphe qui mentionne un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Ce paragraphe stipule que « Dans le respect de ce principe, les salariés peuvent demander à organiser leur rythme de télétravail en déterminant – au maximum – deux journées télétravaillées chaque semaine en moyenne ».
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Dans le respect de ce principe, les salariés peuvent demander à organiser leur rythme de télétravail en déterminant – au maximum – deux journées télétravaillées chaque semaine en moyenne."

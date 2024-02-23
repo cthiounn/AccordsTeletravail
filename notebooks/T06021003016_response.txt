@@ -1,3 +1,8 @@
+Q_TTSEM:Oui, le document contient un paragraphe mentionnant un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Le paragraphe se trouve dans le document avec l'identifiant "T06021003016.txt" et la page\_content suivante :
+
+"Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés."
+
+Ce paragraphe indique clairement qu'un salarié ne peut effectuer plus de 2 jours de télétravail par semaine.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés." (Source: T06021003016.txt)

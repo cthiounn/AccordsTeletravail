@@ -1,3 +1,4 @@
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Un groupe de salarié-es, représentatif des métiers de l’Association, travaille actuellement pour définir les conditions et modalités du télétravail au sein de AIDES. Ce travail donnera lieu à la rédaction d’une charte, qui énoncera ces conditions et modalités."

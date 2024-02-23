@@ -1,3 +1,11 @@
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Voici les occurrences trouvées :
+
+- Dans le premier document, il est mentionné "Un à deux jours fixes par semaine de télétravail."
+- Dans le deuxième document, il est mentionné "1 jour fixe de télétravail par semaine."
+- Dans le huitième document, il est mentionné "Les salariées peuvent dès leur 5ème mois de grossesse, et jusqu’à leur départ en congé maternité demander à télétravailler dans la limite de 3 jours par semaine."
+
+En résumé, les mentions explicites de nombres de jours de télétravail maximum autorisés par semaine sont respectivement de 2, 1 et 3 jours.
 Q_TTSEM_NOMBRE:
 Extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 

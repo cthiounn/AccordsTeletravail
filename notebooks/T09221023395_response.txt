@@ -1,3 +1,14 @@
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Voici les références :
+
+* Document(page\_content='Le télétravail régulier. Il constitue le cadre général du télétravail organisé dans l’UES Viveris et vise les situations dans lesquelles le salarié et l’employeur fixent à l’avance le nombre de jours maximums par semaine avec signature d’un avenant au contrat de travail. Ce nombre de jours peut être d’une à deux journées par semaine.\n\nLe présent accord a pour objet d’encadrer le télétravail régulier au sein de l’UES Viveris. \n\nLes spécificités du télétravail exceptionnel ou flexible sont abordées à l’article 6 de ce présent accord.\n\nARTICLE 3\xa0: CONDITIONS DE MISE EN PLACE\n\n\t3.1. Principe du double volontariat\n\nLe télétravail doit avoir un caractère volontaire à la fois pour le salarié et l’employeur.', metadata={'source': 'T09221023395.txt'})
+
+Dans ce document, il est indiqué que le télétravail régulier peut représenter « une à deux journées par semaine ».
+
+* Document(page\_content='3.5. Avenant au contrat de travail\n\nLe télétravail sera formulé par un avenant au contrat de travail. Cet avenant déterminera les modalités du télétravail.\n\nCet avenant fixera par écrit les éléments suivants\xa0:\nLa date de début du télétravail\nLe jour de télétravail choisi dans la semaine\nLe lieu d’exercice du télétravail\nLe rappel des règles de double volontariat et de double réversibilité\nLe période d’adaptation\nLa procédure d’information en cas d’accident de travail\nLes règles de sécurité applicables\n\nLa mise en œuvre du télétravail se fera en début de mois et après le retour effectif de l’avenant signé par le salarié.\n\nA l’issue du télétravail, par arrivée du terme figurant à l’avenant ou fin anticipée avant ce terme, le salarié reprend son activité professionnelle dans des conditions identiques ou similaires à celles qui lui étaient applicables avant la période de télétravail.\n\n\t3.6. Période d’adaptation', metadata={'source': 'T09221023395.txt'})
+
+Ici, il est mentionné que l'avenant au contrat de travail doit préciser « le jour de télétravail choisi dans la semaine ».
+
+Je vous confirme donc qu'au moins un paragraphe mentionne un nombre de jour de télétravail maximum autorisé explicitement exprimé par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile, par journée entière, de manière à préserver le lien social avec l’entreprise et son groupe de travail." (Document(page\_content='...', metadata={'source': 'T09221023395.txt'}))
 

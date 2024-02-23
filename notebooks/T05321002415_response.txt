@@ -1,3 +1,4 @@
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail maximum autorisé par semaine, hors jours supplémentaires ou exceptionnels.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le télétravail régulier se définit comme une ou des journées de travail réalisées de manière répétée et planifiée toutes les semaines ou tous les mois." (Document(page\_content='Au préalable, il est nécessaire de définir ces deux modes de télétravail…', metadata={'source': 'T05321002415.txt'}))

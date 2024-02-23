@@ -1,3 +1,4 @@
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail maximum autorisé par semaine.
 Q_TTSEM_NOMBRE:Extraction pertinente des documents :
 * "Le recours au télétravail a été généralisé pour tous les salariés en activité dont le poste et/ou leur mission permettait ledit télétravail."
 * "les parties ont décidé de se réunir, afin de conclure un avenant portant sur le remboursement des frais liés au télétravail."

@@ -1,3 +1,10 @@
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Voici ces paragraphes :
+
+- Article 3 : "Le télétravail peut être mis en œuvre, par journée entière de travail, dans la limite de 3 jours par semaine et de façon régulière."
+- Article 7 : "Si les conditions d'éligibilité ne sont plus remplies, l'employeur se réserve le droit de mettre fin à la situation de télétravail moyennant un délai d'un mois. Il devra en motiver les raisons par écrit sur la base des critères d'éligibilité." (Les critères d'éligibilité incluent la limitation à 3 jours de télétravail par semaine.)
+- Article 6-3 : "le nombre de jours télétravaillés dans la semaine"
+
+Réponse : Oui, il y a bien mention d'un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine dans les documents fournis.
 Q_TTSEM_NOMBRE:
 * Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 

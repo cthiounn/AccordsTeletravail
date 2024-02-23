@@ -1,3 +1,5 @@
+Q_TTSEM:
+Oui, le document contient bien une mention d'un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine. Il est indiqué que "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine". Cette information se trouve dans plusieurs paragraphes du document.
 Q_TTSEM_NOMBRE:* Extraits pertinents :
     * "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine"
     * "le télétravail est organisé de telle sorte que le salarié à temps plein soit présent dans l’entreprise au moins 3 jours par semaine."

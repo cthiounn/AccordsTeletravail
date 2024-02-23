@@ -1,3 +1,13 @@
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail maximum autorisé explicitement exprimé par semaine.
+
+Voici les extraits pertinents :
+
+* Article 2.3.1 : "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine."
+* Article 2.3.2 : "Dans ce cas la journée de télétravail pourra être déplacée [...] Au sein de la même semaine (en changeant la journée de télétravail de mardi pour la journée de jeudi ou inversement)"
+* Annexe 1 – Questionnaire de demande - Télétravail régulier : "c’est-à-dire à hauteur de 1 jour par semaine."
+
+Notez que dans le document, il est également fait mention d'un "volume de jours annuels" pour le télétravail occasionnel, mais cela ne correspond pas à la question posée qui porte spécifiquement sur la semaine.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * Article 2.3.1. Rythme général du télétravail : "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine."

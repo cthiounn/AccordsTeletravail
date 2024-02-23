@@ -1,3 +1,9 @@
+Q_TTSEM:Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail maximum autorisé par semaine :
+
+> ARTICLE 3-2 - Fréquence et nombre de jours de télétravail
+> Le télétravail est limité à **2 jours maximum par semaine** dans le respect des conditions suivantes...
+
+Source : T05721004198.txt
 Q_TTSEM_NOMBRE:
 Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
