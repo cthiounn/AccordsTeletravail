@@ -1,1 +1,1 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Les seules mentions de durée concernent le nombre maximal de jours de télétravail par an, qui est de 10 jours.
+Q_TTSEM:Non, aucun des documents fournis ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.

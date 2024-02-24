@@ -1,15 +1,1 @@
-Q_TTSEM:Oui, un paragraphe mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Il s'agit du paragraphe intitulé "Nombre de jours de télétravail par semaine" qui indique que "selon les recommandations sanitaires, il peut être imposé aux salariés un télétravail à 100%".
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "Selon les recommandations sanitaires, il peut être imposé aux salariés un télétravail à 100%." (page_content="Modalités d’exécution du télétravail")
-* "Pour les salariés en décompte horaire de leur temps de travail, la détermination des jours de télétravail sera décidée entre le manager et le Salarié dans l’intérêt de la bonne marche du service ou de l’équipe." (page_content="Modalités d’exécution du télétravail")
-
-Ma réponse après raisonnement ci-dessous :
-
-Ma réponse :
-
-nombrejourdeteletravailmaxparsemaine=5
-
-Mon raisonnement :
-
-Selon le premier paragraphe, il peut être imposé aux salariés un télétravail à 100%. Comme il n'y a pas de jour de présence minimum sur site mentionné dans le document, je peux affecter à la variable 'nombrejourdeteletravailmaxparsemaine' la valeur 5.
+Q_TTSEM:Non, aucun document ne mentionne un nombre de jour de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine.

@@ -1,14 +1,14 @@
-Q_TTSEM:Oui, un paragraphe mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Il s'agit de l'Article 3-1 intitulé "Nombre de journées travaillées" qui stipule que "Le télétravail ne devra pas dépasser 0,20 ETP par mois soit au plus une journée par semaine."
+Q_TTSEM:
+Oui, le document mentionne un nombre limite de jours de télétravail autorisés par semaine. Selon l'article 3-1 de l'accord d'entreprise, "Le télétravail ne devra pas dépasser 0,20 ETP par mois soit au plus une journée par semaine."
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Article 3-1- Nombre de journées travaillées : "Le télétravail ne devra pas dépasser 0,20 ETP par mois soit au plus une journée par semaine."
+* "Le télétravail ne devra pas dépasser 0,20 ETP par mois soit au plus une journée par semaine. (Article 3-1)"
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=1
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
 
-* J'extrais la phrase "Le télétravail ne devra pas dépasser 0,20 ETP par mois soit au plus une journée par semaine" de l'article 3-1- Nombre de journées travaillées.
-* Je conclus que le maximum de jours de télétravail par semaine est de 1 jour, conformément à l'information fournie dans le document.
-* Par conséquent, je réponds que nombrejourdeteletravailmaxparsemaine=1.
+Le document mentionne qu'un salarié en télétravail ne doit pas dépasser 0,20 Equivalent Temps Plein (ETP) par mois, ce qui correspond à une journée de télétravail par semaine. Cette information est donnée dans l'Article 3-1 du document, qui traite du nombre de journées travaillées en télétravail.

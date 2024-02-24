@@ -1,16 +1,11 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Par exemple, le paragraphe "Le télétravail régulier s’effectue à raison de deux jours par semaine maximum" indique que le télétravail régulier est limité à deux jours par semaine. De même, le paragraphe "Le télétravail occasionnel peut être accordé aux salariés qui remplissent les conditions d’éligibilité prévues à l’article III du présent accord dans la limite de deux journées par semaine" indique que le télétravail occasionnel est limité à deux journées par semaine. Enfin, le paragraphe "Le salarié en télétravail devra également être présent physiquement dans les locaux de l’entreprise 3 jours minimum par semaine" indique que le télétravail est limité à trois jours par semaine.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Oui, plusieurs documents mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Par exemple, le document 1 mentionne que "les jours de télétravail ne sont ni récupérables, ni cumulables. Si pendant une semaine donnée, le collaborateur est dans l’impossibilité de mobiliser une journée de télétravail, ce jour ne peut être ni reporté, ni cumulé. Le télétravail régulier s’effectue à raison de deux jours par semaine maximum". De même, le document 3 indique que "le télétravail devra être mis en œuvre, par journée entière de travail" et que "par principe, il est recherché de faciliter l’accès des salarié(e)s au télétravail". Ces mentions suggèrent qu'il y a une limite au nombre de jours de télétravail autorisés par semaine.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* "Le télétravail occasionnel peut être accordé aux salariés qui remplissent les conditions d’éligibilité prévues à l’article III du présent accord dans la limite de deux journées par semaine et de 10 jours par année civile."
-* "Le télétravail régulier s’effectue à raison de deux  jours par semaine maximum (sauf circonstance exceptionnelle visée au §V 3)"
+* "Les jours de télétravail ne sont ni récupérables, ni cumulables. Si pendant une semaine donnée, le collaborateur est dans l’impossibilité de mobiliser une journée de télétravail, ce jour ne peut être ni reporté, ni cumulé. Le télétravail régulier s’effectue à raison de deux jours par semaine maximum"
+* "Cas n°1 : le salarié s’inscrit dans une organisation régulière de deux journées maximum de télétravail par semaine"
 
-Ma réponse après raisonnement :
-
-* nombrejourdeteletravailmaxparsemaine=2
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-
-* Dans le premier paragraphe, il est mentionné que le télétravail occasionnel peut être accordé dans la limite de deux journées par semaine.
-* Dans le deuxième paragraphe, il est mentionné que le télétravail régulier s’effectue à raison de deux jours par semaine maximum.
-* Donc, le nombre maximum de jours de télétravail par semaine est de 2.
-* La variable 'nombrejourdeteletravailmaxparsemaine' est affectée à 2.
+Les deux paragraphes extraits des documents indiquent clairement que le télétravail régulier peut s'effectuer à raison de deux jours maximum par semaine. Ce nombre est explicite et ne dépend d'aucune condition particulière, il s'agit donc de la limite maximale de jours de télétravail par semaine.

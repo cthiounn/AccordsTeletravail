@@ -1,13 +1,26 @@
 Q_TTSEM:
-Oui, un paragraphe mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Il s'agit du paragraphe suivant : "Le collaborateur disposera d'un volume maximum de deux jours de télétravail par semaine pour un collaborateur."
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Oui, plusieurs documents mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
 
-* "Le collaborateur disposera d'un volume maximum de deux jours de télétravail par semaine pour un collaborateur." (Document page_content="Il ne peut être mis en œuvre qu'à la demande du collaborateur et après examen et accord de l'employeur.\n\nLe collaborateur disposera d'un volume maximum de deux jours de télétravail par semaine pour un collaborateur.")
+Voici quelques exemples :
 
-Ma réponse après raisonnement ci-dessous :
+* Selon l'article 3 du document 2, « Le télétravail est une possibilité ouverte aux collaborateurs de l'Institut, sur la base du volontariat. Il ne peut être mis en œuvre qu'à la demande du collaborateur et après examen et accord de l'employeur. Le collaborateur disposera d'un volume maximum de deux jours de télétravail par semaine pour un collaborateur. »
+* Selon l'article 2 du document 3, « Le nombre maximum de jours en télétravail par semaine est de deux pour les collaborateurs à temps complet, d’un jour et demi pour ceux à 90% et d’un jour pour les collaborateurs à 80%. »
+* Selon l'article 2 du document 4, « Le télétravail occasionnel a vocation à répondre à des situations individuelles inhabituelles et temporaires ou à des situations rendant impossible le déplacement sur le lieu de travail. Cette situation de télétravail occasionnel est ouverte à tous les collaborateurs disposant d'outils de travail à distance. »
+
+Il est important de noter que ces documents peuvent être soumis à des conditions particulières et des exceptions, et il est donc recommandé de les lire attentivement dans leur intégralité pour comprendre les nuances et les restrictions applicables.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Le nombre maximum de jours en télétravail par semaine est de deux pour les collaborateurs à temps complet, d’un jour et demi pour ceux à 90% et d’un jour pour les collaborateurs à 80%." (Document page_content="Collaborateurs non éligibles au télétravail")
+* "Le nombre maximum de jours en télétravail par semaine est de deux pour les collaborateurs à temps complet, d’un jour et demi pour ceux à 90% et d’un jour pour les collaborateurs à 80%." (Document page_content="Chapitre 2 ELIGIBILITE ET CONDITIONS DE TELETRAVAIL A L'INSTITUT")
+
+Ma réponse après raisonnement :
 
 * nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* J'ai recherché dans les documents fournis les mentions de la fréquence de télétravail par semaine. Seul le document contenant le paragraphe "Le collaborateur disposera d'un volume maximum de deux jours de télétravail par semaine pour un collaborateur." fournit une indication sur le nombre de jours de télétravail possibles par semaine. Par conséquent, je peux déduire que le maximum de jours de télétravail autorisés par semaine est de 2. C'est pourquoi j'affecte à la variable 'nombrejourdeteletravailmaxparsemaine' la valeur 2.
+* J'ai recherché dans les documents fournis les paragraphes pertinents qui mentionnent le nombre maximum de jours de télétravail par semaine.
+* J'ai trouvé deux paragraphes qui mentionnent explicitement le nombre maximum de jours de télétravail par semaine en fonction du temps de travail des collaborateurs.
+* Sur la base de ces informations, je conclus que le nombre maximum de jours de télétravail par semaine est de deux pour les collaborateurs à temps complet, d'un jour et demi pour ceux à 90%, et d'un jour pour les collaborateurs à 80%.
+* Je n'ai pas trouvé d'autres informations permettant de déterminer une limite supérieure à deux jours de télétravail par semaine.
+* Par conséquent, j'affecte à la variable 'nombrejourdeteletravailmaxparsemaine' la valeur 2.

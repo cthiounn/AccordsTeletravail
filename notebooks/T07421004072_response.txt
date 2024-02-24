@@ -1,13 +1,2 @@
-Q_TTSEM:Oui, un paragraphe mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Ce paragraphe se trouve dans le document avec le page\_content suivant : "Nombre de jours télétravaillés... La possibilité de télétravailler pendant les semaines comptant des congés, absences ou repos (hors repos hebdomadaire) sera par conséquent ajustée dans le respect de ce principe de présence minimale.... Le télétravail pourra s’effectuer sur une demi-journée au minimum et au maximum 1 journée par semaine, en fonction du temps de travail et l’organisation du temps de travail."
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* Document(page_content='Le télétravail pourra s’effectuer sur une demi-journée au minimum et au maximum 1 journée par semaine, en fonction du temps de travail et l’organisation du temps de travail. Le télétravail ne peut donc être que partiel. Cette journée ou demi-journée de télétravail est non sécable, non reportable et non cumulable', metadata={'source': 'T07421004072.txt'})
-* Document(page_content='La direction devra y répondre par mail dans les meilleurs délais. La mise en place du télétravail ponctuel se formalisera par l’envoi d’un mail du chef de service précisant : le / les jours télétravaillés, l’horaire de travail, le lieu du télétravail, la durée d’application de ce télétravail. Il y sera joint le présent accord, la charte du télétravail et ses annexes', metadata={'source': 'T07421004072.txt'})
-
-Ma réponse après raisonnement ci-dessous :
-
-* nombrejourdeteletravailmaxparsemaine=1
-
-Mon raisonnement :
-
-* Les paragraphes indiquent que le télétravail peut s'effectuer sur une demi-journée au minimum et au maximum 1 journée par semaine. Cela signifie que le nombre maximum de jours de télétravail par semaine est de 1 jour.
+Q_TTSEM:
+Non, aucun des documents fournis ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.

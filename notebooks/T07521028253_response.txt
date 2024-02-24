@@ -1,13 +1,20 @@
-Q_TTSEM:Oui, il y a un paragraphe qui mentionne un nombre de jours de télétravail autorisé par semaine. Il s'agit du paragraphe "Organisation du télétravail" du document T07521028253.txt, qui indique que "la direction demande que le salarié télétravailleur dispose d'au moins 3 jours de présence par semaine dans l'entreprise". Cela signifie que le salarié peut télétravailler pendant au maximum 4 jours par semaine.
+Q_TTSEM:
+Oui, plusieurs documents mentionnent un nombre de jours de télétravail autorisé, recommandé ou limité explicitement exprimé par semaine. Par exemple, le document mentionnant l'objet de l'accord et sa définition indique que le télétravail sera par principe partiel, sauf exceptions, et que les télétravailleurs doivent disposer d'au moins 3 jours de présence par semaine dans l'entreprise. Les salariés peuvent demander à organiser leur rythme de télétravail en déterminant, au maximum, deux journées télétravaillées chaque semaine en moyenne.
+
+De plus, le document mentionnant les modalités de mise à disposition du matériel indique que le télétravailleur doit prendre soin des équipements qui lui sont confiés et prendre les mesures nécessaires afin de garantir le matériel mis à disposition contre tout risque de détérioration, vol, utilisation par les tiers, divulgations des informations qu’ils contiennent, etc. Le télétravailleur doit entretenir avec soin le matériel qui lui est confié. En cas de détérioration, perte ou vol du matériel, l'événement doit être déclaré à l'entreprise dans les plus brefs délais. Il doit respecter les règles d’utilisation, d’entretien et de mise à jour fixées par l’employeur. En cas de panne ou de mauvais fonctionnement des équipements de travail, le télétravailleur doit en aviser immédiatement l’entreprise. Un service approprié d’appui technique est mis à la disposition des télétravailleurs. En cas de manquement aux obligations exposées ci-dessus, le Salarié s’expose à une sanction.
+
+Par conséquent, on peut déduire qu'il y a une limite de deux jours de télétravail par semaine en moyenne pour les télétravailleurs de Grayling France.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Afin de maintenir le lien social, la cohésion et le bon fonctionnement des équipes, la direction demande que le salarié télétravailleur dispose d'au moins 3 jours de présence par semaine dans l'entreprise."
-* "Dans le respect de ce principe, les salariés peuvent demander à organiser leur rythme de télétravail en déterminant – au maximum – deux journées télétravaillées chaque semaine en moyenne."
+* "Afin de maintenir le lien social, la cohésion et le bon fonctionnement des équipes, la direction demande que le salarié télétravailleur dispose d'au moins 3 jours de présence par semaine dans l'entreprise." (Document page\_content="Cadre de l’accord")
+* "Dans le respect de ce principe, les salariés peuvent demander à organiser leur rythme de télétravail en déterminant – au maximum – deux journées télétravaillées chaque semaine en moyenne." (Document page\_content="Cadre de l’accord")
 
-Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement :
 
 nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-Après avoir analysé les deux paragraphes pertinents du document, je constate que les salariés peuvent demander à organiser leur rythme de télétravail en déterminant – au maximum – deux journées télétravaillées chaque semaine en moyenne. Cependant, la direction demande que le salarié télétravailleur dispose d'au moins 3 jours de présence par semaine dans l'entreprise. Par conséquent, le nombre maximum de jours de télétravail par semaine est limité à deux.
+Dans le premier paragraphe extrait, la direction demande que le salarié télétravailleur dispose d'au moins 3 jours de présence par semaine dans l'entreprise. Ceci implique que le nombre maximum de jour de télétravail par semaine est de 2.
+
+Dans le deuxième paragraphe extrait, les salariés peuvent demander à organiser leur rythme de télétravail en déterminant – au maximum – deux journées télétravaillées chaque semaine en moyenne. Ceci confirme que le nombre maximum de jour de télétravail par semaine est de 2.

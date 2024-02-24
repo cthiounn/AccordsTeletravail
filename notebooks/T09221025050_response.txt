@@ -1,22 +1,17 @@
-Q_TTSEM:Oui, un paragraphe mentionne un nombre de jours de télétravail autorisé par semaine. Il s'agit de l'extrait suivant :
-
-"Un quota annuel de jours de télétravail :
-Le présent dispositif prévoit une répartition présence sur site / télétravail comme suit :
-Exercice sur site : environ 60% du temps de travail effectif,
-Télétravail : environ 40% du temps de travail effectif."
-
-Cet extrait indique que le télétravail représente environ 40% du temps de travail effectif, ce qui équivaut à environ 2 jours de télétravail par semaine, étant donné que le temps de travail effectif est généralement réparti sur cinq jours par semaine.
+Q_TTSEM:
+Oui, le document 3 mentionne un quota annuel de jours de télétravail fixé à 85 jours pour les collaborateurs en forfait annuel 209 et 213 jours, ce qui correspond à environ 40% du temps de travail effectif. Ce quota annuel est illustré comme une souplesse pour tenir compte des fluctuations de l'activité. Les collaborateurs au régime horaire à temps plein bénéficient d'un quota annuel de jours de télétravail fixé à 87 jours. Le temps de présence physique du collaborateur dans les locaux de l'entreprise doit être d'au moins deux jours jour pleins par semaine, sauf en cas de contraintes opérationnelles, de préserver le lien social dans l'entreprise et de prévenir tout phénomène d'isolement. Les collaborateurs peuvent poser des jours de télétravail par demi-journée, en accord avec leur encadrant.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Un quota annuel de jours de télétravail : Le présent dispositif prévoit une répartition présence sur site / télétravail comme suit : Exercice sur site : environ 60% du temps de travail effectif, Télétravail : environ 40% du temps de travail effectif." (Source : Document(page\_content='Article 3. Organisation du travail...', metadata={'source': 'T09221025050.txt'}))
-* "Le quota annuel de jours de télétravail est un maximum qui ne génère pas un droit mais relève d’une simple faculté. Les parties précisent expressément que les jours de télétravail non pris ne génèrent pas de reliquat et qu’aucun report en année N+1 ne sera autorisé." (Source : Document(page\_content='Article 3.2.', metadata={'source': 'T09221025050.txt'}))
+* "Un quota annuel de jours de télétravail : Le présent dispositif prévoit une répartition présence sur site / télétravail comme suit : Exercice sur site : environ 60% du temps de travail effectif, Télétravail : environ 40% du temps de travail effectif." (Document page_content='T09221025050.txt')
+* "Les parties soulignent aussi le fait que le déploiement du télétravail, généralisé et flexible, participe à l’attractivité de l’entreprise. Le présent accord a donc pour objectif de définir les conditions d’exercice et de mise en œuvre du télétravail au sein de SFIL ainsi que de garantir aux salariés concernés des conditions de travail adaptées. Il repose sur les principes généraux édictés par la loi du 22 mars 2012, l’ANI du 19 juillet 2005 et l’ordonnance n°2017-1387 du 22 septembre 2017 et l’ANI du 24 novembre 2020 notamment : Le caractère volontaire pour le salarié et l’employeur, L’absence d’impact sur le contrat de travail ou la carrière professionnelle d’un salarié qui refuserait le télétravail, La réversibilité de la situation de télétravail, Le droit à la déconnexion, L’égalité d’accès aux formations, et la garantie des mêmes droits et devoirs que les salariés sur site." (Document page_content='T09221025050.txt')
 
-Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement :
 
-* nombrejourdeteletravailmaxparsemaine = 4
+* nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* Selon le premier paragraphe, la répartition présence sur site / télétravail est d'environ 60/40. Cela implique qu'un employé peut télétravailler environ 40% du temps de travail effectif, ce qui correspond à environ 2 jours par semaine (sur une base de 5 jours de travail par semaine).
-* Ce nombre est confirmé par le deuxième paragraphe, qui précise que le quota annuel de jours de télétravail est un maximum et ne génère pas de droit. Ainsi, le nombre de jours de télétravail par semaine ne peut excéder 2.
-* Par conséquent, nombrejourdeteletravailmaxparsemaine est égal à 2.
+* Selon le premier paragraphe, le temps de travail effectif est réparti en environ 60% sur site et 40% en télétravail. Cela correspond à une limite maximale de 40% de télétravail par rapport au temps de travail effectif.
+* Or, il y a cinq jours ouvrés dans une semaine, donc un nombre de jour de télétravail par semaine ne peut pas être strictement supérieur à cinq.
+* Par ailleurs, le deuxième paragraphe indique que le télétravail est généralisé et flexible, ce qui signifie qu'il est possible de télétravailler jusqu'à 100% du temps de travail, soit 5 jours par semaine.
+* Donc, nombrejourdeteletravailmaxparsemaine=5.

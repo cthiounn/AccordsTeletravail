@@ -1,13 +1,15 @@
 Q_TTSEM:
-Oui, le paragraphe 4-3 mentionne explicitement qu'un salarié éligible au télétravail peut en bénéficier dans la limite d'un jour par semaine.
+Oui, le document mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Selon le document, "Chaque salarié éligible au télétravail pourra en bénéficier dans la limite d’un jour par semaine."
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Chaque salarié éligible au télétravail pourra en bénéficier dans la limite d’un jour par semaine. Le jour de télétravail sera déterminé par la direction après recueil des desiderata du salarié."
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=1
+Ma réponse :
+
+nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
 
-* Les informations fournies indiquent que chaque salarié éligible au télétravail peut en bénéficier dans la limite d'un jour par semaine. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 1 jour.
+Le paragraphe extrait indique clairement qu'un salarié éligible au télétravail peut en bénéficier dans la limite d'un jour par semaine. Par conséquent, la limite de jours de télétravail par semaine est de 1 jour.

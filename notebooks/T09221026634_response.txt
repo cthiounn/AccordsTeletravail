@@ -1,20 +1,2 @@
 Q_TTSEM:
-Oui, un paragraphe mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Il s'agit du document suivant :
-
-Document(page\_content='Répartition du temps de travail entre domicile et entreprise \nL’organisation alternative de l’activité domicile / entreprise se fait sur la base de deux (2) jours ouvrés par semaine, du mardi au vendredi pour les salariés à plein temps et les salariés à temps partiel ou à forfait jours réduit travaillant au moins à 80%. \nPour la cohésion des équipes, le lundi est nécessairement travaillé sur site.\nLe manager veille à une juste répartition des journées en télétravail entre collaborateurs et il peut être amené à modifier la répartition en concertation avec son équipe, en ayant le souci de la bonne organisation du service.\nLes jours de télétravail non utilisés ne sont pas reportables.\nIl est à noter que le télétravail demandé par le médecin du travail ne relève pas du présent accord.\nArticle 5. Horaires de travail\nTous les salariés en télétravail saisissent au plus tard la veille, la journée de télétravail sur l’outil de gestion du temps / planning mensuel / présence / télétravail', metadata={'source': 'T09221026634.txt'})
-
-Dans ce document, il est indiqué que « L’organisation alternative de l’activité domicile / entreprise se fait sur la base de deux (2) jours ouvrés par semaine ». Ce nombre de jours est exprimé explicitement par semaine.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* Document(page_content='Répartition du temps de travail entre domicile et entreprise \nL’organisation alternative de l’activité domicile / entreprise se fait sur la base de deux (2) jours ouvrés par semaine, du mardi au vendredi pour les salariés à plein temps et les salariés à temps partiel ou à forfait jours réduit travaillant au moins à 80%. ', metadata={'source': 'T09221026634.txt'})
-* Document(page_content='Il s’agit d’une organisation du travail incluant alternativement travail au domicile du salarié et travail au sein des locaux de l’entreprise pour prévenir l’isolement du collaborateur en maintenant un lien avec la vie de l’entreprise.\nLe télétravail fait l’objet d’un avenant au contrat de travail.\nArticle 2', metadata={'source': 'T09221026634.txt'})
-
-Ma réponse après raisonnement ci-dessous :
-
-* nombrejourdeteletravailmaxparsemaine=2
-
-Mon raisonnement :
-
-* Les deux documents pertinents pour cette question indiquent que l'organisation alternative de l'activité entre le domicile et l'entreprise se fait sur la base de deux jours ouvrés par semaine.
-* Cette organisation inclut alternativement le travail au domicile du salarié et le travail au sein des locaux de l'entreprise.
-* Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+Non, aucun des documents fournis ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.

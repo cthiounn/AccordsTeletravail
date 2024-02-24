@@ -1,18 +1,14 @@
 Q_TTSEM:
-Oui, un paragraphe mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Dans le document avec le métadonnées'source' égal à 'T04421010974.txt' et le page\_content suivant :
-
-"Cette aspiration correspond également aux attentes de la grande majorité des salariés qui se sont prononcés nettement en faveur d’un maximum de deux jours de télétravail hebdomadaire."
-
-On peut voir que la direction a fixé un maximum de deux jours de télétravail hebdomadaire.
+Oui, le document 2 mentionne un maximum de deux jours de télétravail hebdomadaire.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "La direction a souhaité accompagner l’ensemble de ses collaborateurs à travers plusieurs dispositifs dont une formation de grande ampleur au télétravail pour l’ensemble des salariés sur l’année 2021." (Document(page\_content="Cette aspiration correspond également aux attentes de la grande majorité des salariés qui se sont prononcés nettement en faveur d’un maximum de deux jours de télétravail hebdomadaire.", metadata={'source': 'T04421010974.txt'}))
-* "Le télétravail pourra être effectué dans un lieu privé différent de la résidence habituelle du salarié, sous réserve que l’adresse soit stable et déclarée à l’employeur et se trouve en France. L’ensemble des modalités appliquées à la résidence principale devront être respectées (attestation d’assurance) et le second diagnostic électrique sera à la charge exclusive du salarié" (Document(page\_content='Article 1 - Modification de l’article 1 - Champ d'application\nEst ajouté à la fin du 3ème paragraphe\xa0:', metadata={'source': 'T04421010974.txt'}))
+* "Maximum de deux jours de télétravail hebdomadaire" (Document 2, deuxième paragraphe de l'article 1)
 
 Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=2
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* Les informations fournies indiquent que la direction a souhaité accompagner l’ensemble de ses collaborateurs à travers plusieurs dispositifs dont une formation de grande ampleur au télétravail pour l’ensemble des salariés sur l’année 2021. De plus, les salariés se sont prononcés nettement en faveur d’un maximum de deux jours de télétravail hebdomadaire. Par conséquent, je peux déduire qu’un employé/travailleur/salarié/collaborateur peut télétravailler régulièrement jusqu’à 2 jours par semaine.
+Le document mentionne explicitement un maximum de deux jours de télétravail hebdomadaire. Par conséquent, le nombre de jours maximum de télétravail par semaine est de 2.

@@ -1,23 +1,16 @@
-Q_TTSEM:Oui, il y a plusieurs paragraphes qui mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici quelques exemples :
-
-* "Ainsi une personne travaillant 4 ou 5 jours par semaine pourra télétravailler à hauteur de 1 jour maximum."
-* "Une personne travaillant 3 jours par semaine ou moins ne pourra pas télétravailler."
-* "Le télétravail ne pourra se faire que dans la limite d’1 jour par semaine, avec possibilité de télétravail par demi-journée."
-* "Un calendrier prévisionnel permettra un suivi des journées télétravaillées des uns et des autres afin de garantir un bon fonctionnement du collectif. Il sera tenu par le manager pour son équipe et partagé à l’ensemble de l’équipe. Chaque responsable d’équipe aura la possibilité de définir une ou plusieurs journées par semaine pour lesquelles l’ensemble de l’équipe devra être présente simultanément au sein des locaux. Ces journées ne pourront alors pas être télétravaillées."
-
-Cependant, il convient de noter que ces mentions de nombre de jours de télétravail par semaine sont souvent associées à des conditions ou des exceptions, telles que la nécessité de présence sur site ou la possibilité de télétravailler par demi-journée.
+Q_TTSEM:
+Oui, le document 2 mentionne un nombre de jour de télétravail limité à 1 jour par semaine, avec possibilité de télétravailler par demi-journée.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Ainsi une personne travaillant 4 ou 5 jours par semaine pourra télétravailler à hauteur de 1 jour maximum." (Source : T07321002999.txt)
+* "Compte tenu de l’importance du maintien du lien avec la communauté de travail, les salariés devront être présents, ou en clientèle, a minima 3 jours par semaine dans les locaux au sein desquels les salariés exercent habituellement leur activité, et le télétravail ne pourra se faire que dans la limite d’1 jour par semaine, avec possibilité de télétravailler par demi-journée."
+* "Il est convenu que le télétravail est fondé sur la capacité du salarié à exercer ses fonctions de façon autonome et implique que son activité puisse être exercée à distance sur sa majeure partie. Il nécessite une bonne gestion du temps de travail et une bonne maitrise des applications informatiques indispensables à l’activité. Sont alors éligibles au télétravail les salariés réunissant l’ensemble des conditions suivantes : [...] Disposant d’un espace de travail dédié et adapté au télétravail, d’une connexion à haut débit et d’une installation électrique conforme."
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse :
-
-nombrejourdeteletravailmaxparsemaine=1
+* nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
 
-Après avoir analysé les documents fournis, j'ai trouvé un paragraphe pertinent qui répond à la question posée. Dans ce paragraphe, il est mentionné qu'une personne travaillant 4 ou 5 jours par semaine peut télétravailler à hauteur de 1 jour maximum. Par conséquent, le nombre maximum de jours de télétravail par semaine est limité à 1 jour. Je n'ai pas trouvé d'autres paragraphes qui mentionnent une fréquence de télétravail différente de celle-ci.
-
-Par ailleurs, je n'ai pas trouvé de preuve de l'autorisation du télétravail à 100% ou du full-remote dans les documents fournis, donc je ne peux pas affecter la valeur 5 à la variable nombrejourdeteletravailmaxparsemaine.
+* Les paragraphes indiquent qu'un salarié doit être présent dans les locaux de l'entreprise au moins 3 jours par semaine et peut télétravailler au maximum 1 jour par semaine.
+* Il n'y a pas de mention d'un télétravail à 100% ou de full-remote, ni de jour de présence minimum sur site.
+* Par conséquent, la limite de télétravail par semaine est de 1 jour.

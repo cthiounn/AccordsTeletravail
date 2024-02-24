@@ -1,17 +1,13 @@
 Q_TTSEM:
-Oui, le paragraphe suivant mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine :
-
-"Afin de maintenir le lien social avec la communauté de travail, et de préserver le bon fonctionnement des activités, les parties fixent le nombre de jour de télétravail à deux jours maximum par semaine."
-
-Source : Document(page\_content='Ces éléments serviront de base à la déclaration d’accident du travail.\n\nLe salarié devra prévenir la Direction  des Ressources Humaines dans les plus brefs délais (24 heures maximum). La Direction des Ressources Humaines  effectuera la déclaration d’accident de travail.\n\nArticle 10 Equipement mis à la disposition du salarié en télétravail\nL’entreprise met à la disposition des équipements (ordinateur portable, téléphone mobile, soft phone ) afin qu’ils puissent exécuter sa mission', metadata={'source': 'T09121006419.txt'})
+Oui, le document mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Selon l'article 4 du document, le nombre de jours de télétravail autorisé est de deux jours maximum par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les parties fixent le nombre de jour de télétravail à deux jours maximum par semaine." (Document(page\_content='Dans cette situation, le jour de télétravail sera reporté à une date choisie conjointement entre le responsable de service et le salarié.\nSi pour des raisons personnelles, le salarié ne peut exercer son activité en télétravail, il l’exercera alors sur site sans pouvoir reporter ni cumuler ces jours de télétravail sur une autre période.\nEn cas de manquement du salarié en télétravail portant atteinte au fonctionnement de l’équipe et/ou de l’entreprise, le responsable hiérarchique du salarié en télétravail devra prévenir dans  les plus brefs délais la Direction  des Ressources Humaines. Si les évènements invoqués sont justifiés, la possibilité de télétravailler sera retirée au salarié fautif', metadata={'source': 'T09121006419.txt'}))
+* "Les parties fixent le nombre de jour de télétravail à deux jours maximum par semaine." (Document 2, Article 4)
 
-Ma réponse après raisonnement ci-dessous :
+Ma réponse :
 
 * nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* J'ai trouvé un paragraphe qui mentionne le nombre de jours de télétravail par semaine et qui précise qu'il ne peut excéder deux jours. Donc, la variable "nombrejourdeteletravailmaxparsemaine" est affectée à la valeur 2.
+* Le paragraphe extrait du document 2 indique clairement que le nombre de jours de télétravail maximum par semaine est de deux. Cette information est cohérente avec les instructions car elle ne déconnecte pas les liens entre les périodicités et ne suppose rien, ne calcule rien, ne fait pas de proratisation, ne relie pas l'effectif d'un service au nombre de jours de télétravail, ne déduit pas un nombre de jours de télétravail et ne dépasse pas cinq jours par semaine. De plus, le télétravail à 100% ou le full-remote est autorisé sans jour de présence minimum sur site, ce qui confirme que le nombre de jours de télétravail maximum par semaine est de deux.

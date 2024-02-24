@@ -1,16 +1,13 @@
-Q_TTSEM:Oui, le paragraphe suivant mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine :
-
-"3.3 - Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine, et à 10 jours par mois. Les jours télé-travaillés ne sont ni cumulables ni reportables d’un mois sur l’autre."
+Q_TTSEM:Oui, le document 2 (Accord sur le télétravail pour l’UES Syndicat Général des Vignerons en date du 30 Avril 2021) mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Plus précisément, il est indiqué que "les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine" (Article 3.3).
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Paragraphe du document T05121003407.txt contenant le mot-clé "semaine" et concernant le nombre de jours de télétravail autorisé : "3.3 - Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine, et à 10 jours par mois."
+* "3.3 - Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine, et à 10 jours par mois. Les jours télé-travaillés ne sont ni cumulables ni reportables d’un mois sur l’autre."
 
 Ma réponse après raisonnement ci-dessous :
 
 Ma réponse :
-
 nombrejourdeteletravailmaxparsemaine=4
 
 Mon raisonnement :
 
-Après examen du document T05121003407.txt, je trouve que le paragraphe pertinent pour la question posée est celui qui indique que "Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine, et à 10 jours par mois.". Ainsi, le maximum de jours de télétravail possible par semaine est de 4 jours. Je conclus donc que la variable 'nombrejourdeteletravailmaxparsemaine' doit être affectée de la valeur 4.
+Le paragraphe 3.3 indique clairement qu'un employé ne peut pas travailler plus de 4 jours par semaine en télétravail. Par conséquent, je peux affecter la valeur 4 à la variable 'nombrejourdeteletravailmaxparsemaine'.

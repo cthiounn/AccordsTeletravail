@@ -1,25 +1,16 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum exprimés par semaine. Voici quelques exemples :
+Oui, le document 2 mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Selon l'article 2 de ce document, les options 1 et 2 permettent de télétravailler respectivement 2 jours maximum et 1 jour maximum par semaine. L'option 3 permet de télétravailler jusqu'à 209 jours par an, ce qui équivaut à environ 4 jours par semaine en moyenne sur une base de 52 semaines par an.
+Q_TTSEM_NOMBRE:
+**Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :**
 
-* Option 1 : "Vous serez en situation de télétravail à raison de deux jours par semaine maximum."
-* Option 2 : "Vous serez en situation de télétravail à raison d'un jour par semaine maximum."
-* Option 3 : "un forfait mobile de 45 jours de télétravail" (ce qui implique une limite maximale de 45 jours de télétravail par an)
-* "Soit de 1 ou 2 jours fixes maximum de télétravail par semaine"
+Document(page\_content='Article 2 – Organisation du temps de travail\n\nFréquence et nombre de jours télétravaillés\n\nOption 1 - Vous serez en situation de télétravail à raison de deux jours par semaine maximum. Vos jours de télétravail dans la semaine ont été, d’un commun accord, définis comme étant le [●] et le [●].', metadata={'source': 'T07521031493.txt'})
 
-Cependant, il est important de noter que ces nombres sont exprimés par semaine, ce qui peut entrer en contradiction avec l'instruction de déconnecter les liens entre les périodicités. Il faudrait donc interpréter ces nombres de manière isolée, sans les relier aux notions de semaine, de mois, de trimestre ou d'année.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Document(page\_content='Option 2 - Vous serez en situation de télétravail à raison d’un jour par semaine maximum. Votre jour de télétravail dans la semaine a été, d’un commun accord, défini comme étant le [●].', metadata={'source': 'T07521031493.txt'})
 
-* "Option 1 - Vous serez en situation de télétravail à raison de deux jours par semaine maximum."
-* "Soit de 1 ou 2 jours fixes maximum de télétravail par semaine qui seront définis d’un commun accord entre le salarié et son responsable hiérarchique"
-
-Ma réponse après raisonnement ci-dessous :
-
-Ma réponse :
+**Ma réponse après raisonnement :**
 
 nombrejourdeteletravailmaxparsemaine=2
 
-Mon raisonnement :
+**Mon raisonnement :**
 
-Après examen des documents fournis, je constate que l'option 1 propose un maximum de deux jours de télétravail par semaine. De plus, l'extrait stipule qu'il s'agit d'un maximum de 1 ou 2 jours fixes de télétravail par semaine, selon un accord conclu entre le salarié et son responsable hiérarchique. Par conséquent, le nombre maximal de jours de télétravail par semaine est limité à 2.
-
-Dans le cas où le télétravail à 100% ou le full-remote serait autorisé ou positivement mentionné, ainsi qu'en l'absence de jour de présence minimum sur site, j'aurais affecté la valeur 5 à la variable nombrejourdeteletravailmaxparsemaine. Cependant, les documents fournis ne contiennent aucune information allant dans ce sens.
+Les paragraphes extraits des documents montrent que la fréquence et le nombre de jours télétravaillés sont définis en fonction du nombre de jours par semaine. Les options 1 et 2 proposent respectivement un maximum de 2 et 1 jour de télétravail par semaine. Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' est affectée à la valeur 2, car c'est la limite maximale de jours de télétravail par semaine explicitement mentionnée dans le document.

@@ -1,16 +1,2 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail par semaine. Par exemple, dans le document avec l'identifiant 'T09321007118.txt', il est indiqué que les salariés qui auront recours au télétravail 1 à 2 fois par semaine bénéficieront d'une prime de 10 €uros bruts mensuels, tandis que ceux qui auront recours au télétravail 3 fois et plus par semaine bénéficieront d'une prime de 15 €uros bruts mensuels. Cependant, il n'est pas explicitement indiqué si ces nombres de jours constituent une limite maximale ou simplement une condition pour bénéficier d'une certaine prime. Il n'est pas non plus indiqué si ces nombres de jours constituent une obligation ou une simple possibilité.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "Pour prendre en charge une partie des frais engendrés par le télétravail (électricité, chauffage, etc..), une prime mensuelle sera versée sur 11 mois, aux salariés-es concerné-es dont le montant est fonction du nombre de jours de télétravail par semaine."
-* "Les salarié-es qui auront recours au télétravail 1 à 2 fois par semaine bénéficieront d’une prime de 10 (dix) €uros bruts mensuels. Les salarié-es qui auront recours au télétravail 3 fois et plus par semaine bénéficieront d’une prime de 15 (quinze) €uros bruts mensuels."
-
-Ma réponse après raisonnement ci-dessous :
-
-Ma réponse :
-
-nombrejourdeteletravailmaxparsemaine=3
-
-Mon raisonnement :
-
-Le document mentionne une prime mensuelle versée en fonction du nombre de jours de télétravail par semaine. Deux types de salariés sont distingués selon le nombre de jours de télétravail par semaine : ceux qui télétravaillent 1 à 2 fois par semaine et ceux qui télétravaillent 3 fois et plus par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3.
+Non, aucun document ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.

@@ -1,17 +1,17 @@
 Q_TTSEM:
-Oui, un paragraphe mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Il s'agit du paragraphe suivant : "Le télétravail sera mis en œuvre par journée entière de travail, dans la limite de deux jours par semaine."
+Oui, le document mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Le télétravail est mis en œuvre par journée entière de travail, dans la limite de deux jours par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail sera mis en œuvre par journée entière de travail, dans la limite de deux jours par semaine. Le ou les jour(s) de télétravail is/t défini(s) en accord avec le manager selon les besoins de l'équipe."
+* "Le télétravail sera mis en œuvre par journée entière de travail, dans la limite de deux jours par semaine. Le ou les jour(s) de télétravail is/ont défini(s) en accord avec le manager selon les besoins de l'équipe. Aucun jour de la semaine n’est exclu par principe du télétravail."
 * "Afin de tenir compte de la séniorité des collaborateurs, du degré d’autonomie et d’engagement associés, des journées de télétravail supplémentaires pourront être programmées, en accord avec le manager et dans le respect des besoins du service, à hauteur de : 1 jour supplémentaire maximum par mois à partir de 3 ans d’ancienneté au sein de la société ; 2 jours supplémentaires maximum par mois à partir de 5 ans d’ancienneté au sein de la société (inclus la journée mentionnée à l’alinéa précédent)"
 
-Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement :
 
 * nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* Le premier paragraphe indique que le télétravail est mis en oeuvre par journée entière de travail et que la limite est de deux jours par semaine.
-* Le deuxième paragraphe indique que des journées de télétravail supplémentaires peuvent être programmées, mais il n'indique pas que la limite de deux jours par semaine puisse être dépassée.
-* Par conséquent, la limite de deux jours par semaine s'applique toujours, même en cas de journées de télétravail supplémentaires.
-* Ainsi, le nombre maximal de jours de télétravail par semaine est de 2.
+* Selon le premier paragraphe, le télétravail est mis en œuvre par journée entière de travail et limité à deux jours par semaine.
+* Selon le deuxième paragraphe, des journées de télétravail supplémentaires peuvent être programmées en accord avec le manager et dans le respect des besoins du service, mais ces journées supplémentaires ne sont pas incluses dans la limite de deux jours par semaine.
+* Par conséquent, la limite de deux jours par semaine reste inchangée, ce qui signifie que le nombre maximum de jours de télétravail par semaine est de 2.
+* C'est pourquoi je réponds nombrejourdeteletravailmaxparsemaine=2.

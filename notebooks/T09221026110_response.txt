@@ -1,14 +1,12 @@
-Q_TTSEM:Oui, le document mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Un maximum de 2 jours par semaine et jusqu'à 5 jours sur une période de 4 semaines maximum sont autorisés.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Oui, le document mentionne un nombre maximal de jours de télétravail autorisés par semaine. Selon l'article 11, le nombre maximal de jours de télétravail par semaine est de 2 jours, et de 2 demi-journées pouvant être cumulées sur une même journée au cours de la même semaine. Après accord entre le Manager et le salarié, le nombre de jours de télétravail peut toutefois être étendu à la semaine entière (soit à 5 jours) sur une période de 4 semaines maximum, à l’issue desquelles un retour à un maximum de 3 jours de télétravail par semaine est obligatoire pendant au moins deux semaines.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les jours de télétravail seront fixés selon les modalités suivantes : Un maximum de 2 jours par semaine, et de 2 demi-journées pouvant être cumulées sur une même journée au cours de la même semaine ; Après accord entre le Manager et le salarié, le nombre de jours de télétravail peut toutefois être étendu à la semaine entière (soit à 5 jours) sur une période de 4 semaines maximum, à l’issue desquelles un retour à un maximum de 3 jours de télétravail par semaine est obligatoire pendant au moins deux semaines"
-* "Pendant la période de télétravail, le salarié organise librement son temps de travail sous réserve de respecter : les limites imposées par la législation en vigueur concernant la durée du travail ; les limites imposées par les accords collectifs en vigueur dans l’entreprise ; les limites fixées par la réglementation interne de l’entreprise (accord d’entreprise, décision unilatérale de l’employeur et usage)"
+* "Un maximum de 2 jours par semaine, et de 2 demi-journées pouvant être cumulées sur une même journée au cours de la même semaine" (Document(page\_content="Les jours de télétravail seront fixés selon les modalités suivantes : \nUn maximum de 2 jours par semaine, et de 2 demi-journées pouvant être cumulées sur une même journée au cours de la même semaine ;"))
 
-Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement :
 
-* nombrejourdeteletravailmaxparsemaine=5
+* nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* Les jours de télétravail sont limités à 2 jours par semaine, mais il est possible de les étendre à 5 jours sur une période de 4 semaines maximum. Ainsi, un salarié peut télétravailler jusqu'à 5 jours par semaine.
-* Même si le télétravail est encadré par des limites législatives, collectives et internes, rien n'indique de manière explicite qu'il existe une limite maximale de jours de télétravail par semaine.
+* Le paragraphe extrait du document indique clairement qu'un maximum de 2 jours de télétravail par semaine est autorisé, ce qui correspond à la variable 'nombrejourdeteletravailmaxparsemaine'.

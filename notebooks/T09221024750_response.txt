@@ -1,15 +1,14 @@
-Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail par semaine. Par exemple, l'article 6 mentionne que "Le nombre de jours de télétravail par semaine est de 2" et que "Ultérieurement, il pourra être décidé d'augmenter le télétravail à hauteur de 60%, soit 3 jours de télétravail par semaine". De même, l'article 6.4 mentionne une exception pour les salariés en temps partiel à 60 %, qui peuvent télétravailler un jour de plus par semaine. Enfin, l'article 6-6 mentionne que les collaborateurs qui bénéficient de jours de télétravail en application d'autres accords d'entreprise peuvent télétravailler jusqu'à un nombre maximum de jours par semaine, sans déroger à la règle des 2 jours de présence obligatoire sur site.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Oui, plusieurs documents mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Par exemple, le document 2 mentionne que "Le nombre de jours de télétravail par semaine est de 2, soit à hauteur de 40% par semaine" pour les salariés à temps plein. De même, le document 3 mentionne que "Le nombre de jours de télétravail par semaine est de 1 jour pour les salariés travaillant à 60% d'un temps plein". Le document 4 mentionne également un nombre maximal de jours de télétravail par semaine, qui est de 2 jours par semaine pour les salariés travaillant à temps plein, sauf exception pour les salariés à temps partiel à 60 % qui peuvent bénéficier de 3 jours de télétravail par semaine.
+Q_TTSEM_NOMBRE:
+**Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :**
 
-* Document(page\_content='6-2 - Jours de télétravail entiers \nLe télétravail prend la forme de jours entiers à positionner par semaine.\nPour les salariés à temps choisi à 90% (4,5 jours par semaine), la demi-journée de télétravail sera décomptée comme une journée entière de télétravail.\nEx.\xa0: Dans le cadre de la formule de temps de travail à 90%, M. ou Mme X ne travaille pas le mercredi après-midi\xa0; il/elle pourra télétravailler le mercredi matin ainsi qu’un autre jour de la semaine.', metadata={'source': 'T09221024750.txt'})
-* Document(page\_content='Article 6 \t\tNombre de jours de télétravail\n6-1 Nombre de jours de télétravail par semaine\nLe nombre de jours de télétravail par semaine est de 2  soit à hauteur de 40% par semaine pour les salariés à temps plein', metadata={'source': 'T09221024750.txt'})
+* Document(page\_content="6-1 Nombre de jours de télétravail\n6-1 Nombre de jours de télétravail par semaine\nLe nombre de jours de télétravail par semaine est de 2  soit à hauteur de 40% par semaine pour les salariés à temps plein. Il est prévu à l’article 6.4 une exception à la durée minimale de 2 jours de télétravail par semaine pour le cas des salariés en temps partiel à 60 %."),
+* Document(page\_content="Ultérieurement, il pourra être décidé d’augmenter le télétravail à hauteur de 60%, soit 3 jours de télétravail par semaine pour les salariés travaillant à temps plein.")
 
-Ma réponse après raisonnement ci-dessous :
+**Ma réponse après raisonnement :**
 
-* nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine=3
 
-Mon raisonnement :
+**Mon raisonnement :**
 
-* Les paragraphes extraits indiquent clairement que le télétravail prend la forme de jours entiers à positionner par semaine et que le nombre de jours de télétravail par semaine est de 2.
-* Par conséquent, un employé/travailleur/salarié/collaborateur peut télétravailler régulièrement jusqu'à 2 jours par semaine.
+* Le document indique que "Le nombre de jours de télétravail par semaine est de 2" et qu'il est possible d'augmenter le télétravail à 3 jours par semaine. Donc, la limite maximale de télétravail par semaine est de 3 jours.

@@ -1,13 +1,13 @@
 Q_TTSEM:
-Oui, un paragraphe mentionne un nombre de jours de télétravail autorisé par semaine. Selon l'article 3 du document, "Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein."
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Oui, le document 1 mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Selon l'article 3 de ce document, le nombre de jours de télétravail ne peut pas être supérieur à 2 jours par semaine pour un temps plein.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* Article 3 du document : "Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein."
+* "Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein." (Article 3, page_content="Au jour de la signature de l’accord, les postes compatibles avec le télétravail sont…")
 
-Ma réponse après raisonnement ci-dessous :
+Ma réponse :
 
-* nombrejourdeteletravailmaxparsemaine=2
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* J'ai trouvé dans le document l'article 3 qui mentionne le nombre de jours de télétravail par semaine, qui est limité à 2 jours pour un temps plein. Donc, la variable 'nombrejourdeteletravailmaxparsemaine' vaut 2.
+Le document mentionne explicitement le nombre maximal de jours de télétravail par semaine, qui est de 2 jours pour un temps plein. Par conséquent, un employé/travailleur/salarié/collaborateur peut télétravailler régulièrement jusqu'à 2 jours par semaine.

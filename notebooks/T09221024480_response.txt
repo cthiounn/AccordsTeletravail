@@ -1,8 +1,8 @@
 Q_TTSEM:
-Oui, un paragraphe mentionne un nombre de jours de télétravail autorisés par semaine. Il s'agit du paragraphe "Article 4. Télétravail" du document qui indique que "le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine".
+Oui, le document 1 mentionne un nombre de jours de télétravail autorisés par semaine. Selon l'article 4, le nombre de jours de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine, pour tous les collaborateurs DFA, selon les mêmes conditions que celles prévues dans l’accord télétravail signé le 17 septembre 2020 (hors période de type pandémie)"
+* "Article 4. Télétravail: nombre de jours autorisés et dotation de matériel" contenu dans le document avec page\_content="Article 4. Télétravail: nombre de jours autorisés et dotation de matériel..."
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -10,4 +10,4 @@ Ma réponse après raisonnement ci-dessous :
 
 Mon raisonnement :
 
-* Les informations données dans le document indiquent que le nombre de jours de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine. Par conséquent, le maximum de jours de télétravail possible pour un employé est de 2 jours par semaine.
+* Le paragraphe "Article 4. Télétravail: nombre de jours autorisés et dotation de matériel" indique que "Le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine". Par conséquent, un employé/travailleur/salarié/collaborateur peut télétravailler régulièrement jusqu'à 2 jours par semaine.

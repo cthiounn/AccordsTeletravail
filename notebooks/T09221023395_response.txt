@@ -1,8 +1,14 @@
-Q_TTSEM:Oui, un paragraphe mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Dans le document avec la métadonnée'source' égale à 'T09221023395.txt' et le page\_content commençant par 'Rythme du télétravail', il est indiqué que «le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile, par journée entière».
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:
+Oui, le document mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine.
 
-* "Le principe de base de fonctionnement du télétravail régulier est de travailler **jusqu’à deux journées par semaine** à domicile, par journée entière, de manière à préserver le lien social avec l’entreprise et son groupe de travail." (T09221023395.txt, page 1)
-* "En cas de situation inhabituelle ou des contraintes clients ne permettant pas le télétravail régulier, le salarié souhaitant bénéficier d’une autorisation de télétravail pour pouvoir télétravailler au maximum **deux jours par mois**" (T09221023395.txt, page 5)
+Voici le document en question :
+
+> Document(page\_content='Les jours de télétravail sont fixés en concertation avec l’encadrement direct. Il n’est pas nécessaire de rédiger un avenant au contrat de travail, des échanges de mail entre le salarié et son encadrement sont suffisants. Le télétravail régulier. Il constitue le cadre général du télétravail organisé dans l’UES Viveris et vise les situations dans lesquelles le salarié et l’employeur fixent à l’avance le nombre de jours maximums par semaine avec signature d’un avenant au contrat de travail. Ce nombre de jours peut être d’une à deux journées par semaine. Le présent accord a pour objet d’encadrer le télétravail régulier au sein de l’UES Viveris. Les spécificités du télétravail exceptionnel ou flexible sont abordées à l’article 6 de ce présent accord.')
+
+Dans ce document, il est mentionné que "le nombre de jours peut être d'une à deux journées par semaine".
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Le nombre de jours peut être d'une à deux journées par semaine." (Document 1, page content)
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -10,5 +16,5 @@ Ma réponse après raisonnement ci-dessous :
 
 Mon raisonnement :
 
-* Les deux paragraphes extraits montrent que le télétravail régulier peut aller jusqu'à deux journées par semaine. Par conséquent, le nombre maximal de jours de télétravail par semaine est limité à deux.
-* La deuxième phrase extraite montre qu'il existe une forme de télétravail appelée "télétravail flexible" qui permet de télétravailler deux jours par mois, mais cela ne change rien au fait que le télétravail régulier ne peut excéder deux jours par semaine.
+* J'extrais l'information du premier paragraphe qui indique que le nombre de jours de télétravail par semaine peut être compris entre 1 et 2. Je n'ai pas trouvé d'autres informations contradictoires dans les autres documents.
+* Je n'ai pas trouvé d'information indiquant un télétravail à 100% ou full-remote, donc je ne peux pas affecter la valeur 5 à la variable nombrejourdeteletravailmaxparsemaine.

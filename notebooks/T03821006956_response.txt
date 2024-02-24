@@ -1,22 +1,15 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum exprimé par semaine. Voici quelques exemples :
+Oui, le document mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Plus précisément, le document indique que "le télétravail ne peut pas s'exercer les Mardi" et que "le télétravail pour le salarié à temps complet ou titulaire d'un forfait annuel 218 jours ne pourra être exercé que pour un maximum de 1 jour (soit 2 demi-journées), non reportables, par semaine".
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
 
-- "Le télétravail ne pourra être exercé que pour un maximum de 13 jours (soit 26 demi-journées) par trimestre civil dans la limite de 1 jour (soit 2 demi-journées) par semaine de 5 jours travaillés, non reportables, soit une enveloppe de 52 jours (soit 104 demi-journées) par année civile." (T03821006956.txt, page content starting with 'Le télétravail ne peut pas s’exercer les Mardi.')
+* "Le télétravail ne pourra être exercé qu’au domicile du salarié. Le domicile s’entend comme un lieu de résidence habituelle en France sous la responsabilité pleine et entière du télétravailleur, tel que déclaré au service des Ressources Humaines. Ce lieu devra par ailleurs être spécifiquement mentionné dans l’avenant conclu entre le télétravailleur et la société ARAYMONDLIFE SASU. Dans ce cadre, le télétravailleur s’engage à informer le service des Ressources Humaines et son manager de tout changement du domicile précité. Tout nouveau domicile devra répondre aux exigences de télétravail telles que décrites dans le présent accord et dans l’avenant au contrat de travail." (Document 1, page content)
+* "Le télétravail pour le salarié à temps complet ou titulaire d’un forfait annuel 218 jours ne pourra être exercé que pour un maximum de 13 jours (soit 26 demi-journées) par trimestre civil dans la limite de 1 jour (soit 2 demi-journées) par semaine de 5 jours travaillés, non reportables, soit une enveloppe de 52 jours (soit 104 demi-journées) par année civile." (Document 2, page content)
 
-- "Le télétravail pour un salarié travaillant à 90% ne pourra être exercé que pour un maximum de 12 jours (soit 24 demi-journées) par trimestre civil dans la limite de 1 jour par semaine (soit 2 demi-journées), non reportables" (T03821006956.txt, page content starting with 'Le nombre de jour est arrondi au 0.5 jour supérieur le plus proche.')
-
-- "Le/les jour(s) ou demi-journée(s) de télétravail peuvent s’entendre le Lundi, le Mercredi, le Jeudi et le vendredi" (T03821006956.txt, page content starting with 'À chaque fois que l’organisation de travail l’exige, les journées ou demi-journées de télétravail demandées pourront être modifiées par le manager pour des raisons de service.')
-
-Note that these examples are not necessarily the only ones in the provided documents.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "Le télétravail pour le salarié à temps complet ou titulaire d’un forfait annuel 218 jours ne pourra être exercé que pour un maximum de 13 jours (soit 26 demi-journées) par trimestre civil dans la limite de 1 jour (soit 2 demi-journées) par semaine de 5 jours travaillés, non reportables, soit une enveloppe de 52 jours (soit 104 demi-journées) par année civile."
-* "Le télétravail pour un salarié travaillant à 90% ne pourra être exercé que pour un maximum de 12 jours (soit 24 demi-journées) par trimestre civil dans la limite de 1 jour par semaine (soit 2 demi-journées), non reportables, soit une enveloppe de 48 jours (soit 96 demi-journées), par année civile."
-
-Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement :
 
 * nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
 
-* Les paragraphes extraits indiquent que le nombre maximum de jours de télétravail par semaine est limité à 1 jour, dans la limite de 2 demi-journées. Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' est affectée de la valeur 1.
+* Le premier paragraphe ne permet pas d'extraire le nombre de jours de télétravail maximum par semaine.
+* Le deuxième paragraphe permet d'extraire le nombre de jours de télétravail maximum par semaine, qui est de 1 jour par semaine de 5 jours travaillés, non reportable.

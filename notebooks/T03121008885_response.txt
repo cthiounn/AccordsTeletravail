@@ -1,2 +1,16 @@
 Q_TTSEM:
-Non, aucun paragraphe mentionnant explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine n'a été trouvé dans les documents fournis.
+Oui, le document "T03121008885.txt" mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Selon l'article 10, le télétravail régulier s'effectue dans la limite de 2 jours maximum par semaine, et le télétravail occasionnel s'effectue dans la limite de 10 jours maximum dans l'année.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Le télétravail régulier se caractérise par une journée entière effectuée de manière régulière, sur plusieurs mois consécutifs et la signature d’un avenant au contrat de travail." (T03121008885.txt, page 1)
+* "Le télétravail régulier s’effectue dans la limite de 2 jours maximum par semaine." (T03121008885.txt, page 2)
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse :
+
+nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+Après analyse des documents, il est indiqué que le télétravail régulier peut s'effectuer dans la limite de 2 jours maximum par semaine (T03121008885.txt, page 2). Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' est affectée à la valeur 2.

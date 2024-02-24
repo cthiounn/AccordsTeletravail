@@ -1,19 +1,17 @@
-Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum exprimé par semaine. Par exemple, l'article 9b mentionne que « Le nombre de jours de télétravail occasionnel ne pourra dépasser 10 jours par an », ce qui implique une limite de 2 jours de télétravail par semaine. De même, l'article 26 mentionne une limite de 2 jours de présence sur site par semaine pour les télétravailleurs. Enfin, l'annexe jointe à l'accord mentionne une liste indicative de fonctions pouvant exiger des restrictions d'accès au télétravail, ce qui implique également une limitation du nombre de jours de télétravail pour ces fonctions.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Oui, plusieurs documents mentionnent un nombre de jours de télétravail par semaine. Par exemple, l'article 15 de l'accord d'entreprise stipule que "les collaborateurs devront être présents sur site au minimum 2 jours/plages de travail par semaine" (hors cas dérogatoires). De même, l'annexe jointe à l'accord mentionne une liste indicative de fonctions non télétravaillables, ce qui implique que les autres fonctions sont télétravaillables, avec des restrictions possibles à certaines périodes de l'année. Cependant, aucun document ne mentionne explicitement un nombre maximum de jours de télétravail par semaine.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le nombre de jours de télétravail occasionnel ne pourra dépasser 10 jours par an." (Article 9 a, T09221024001.txt)
-* "Le télétravail ne doit pas être un frein à la participation à la vie du service et aux réunions. La limite de 2 jours de présence sur site par semaine contribue au respect de cette règle essentielle." (Article 12, T09221024001.txt)
+* "Les collaborateurs devront être présents sur site au minimum 2 jours/plages de travail par semaine" (Document(page\_content="Article 15 – Organisation du télétravail régulier\n\n\nLe nombre de jours hebdomadaire de télétravail devra respecter la règle suivante :\n\nLes collaborateurs (hormis les commerciaux) devront être présents sur site au minimum 2 jours/plages de travail par semaine, sauf cas dérogatoires validés en amont par le manager. Les commerciaux devront être présents sur site au minimum 1 jour par semaine, sauf cas dérogatoires validés en amont par le manager."))
 
-Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement :
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-Après examen des documents fournis, je n'ai trouvé aucun paragraphe mentionnant explicitement le nombre de jours de télétravail autorisés par semaine, à l'exception de la limite de 2 jours de présence sur site par semaine (Article 12, T09221024001.txt). Cependant, cette limite ne concerne pas directement le nombre de jours de télétravail, mais plutôt la présence minimale requise sur site. Par conséquent, je ne peux pas déterminer un nombre exact de jours de télétravail par semaine.
-
-Cependant, l'article 12 mentionne une limite de 2 jours de présence sur site par semaine, ce qui implique qu'un employé peut théoriquement télétravailler jusqu'à 5 jours par semaine (5 jours ouvrés par semaine moins les 2 jours de présence sur site). Dans ce cas, il est important de noter que le télétravail à 100 % ou le full-remote ne sont pas explicitement mentionnés dans les documents fournis. Par conséquent, je ne peux pas garantir que le télétravail à 100 % est autorisé. Néanmoins, en l'absence d'autres limitations explicites, je propose une limite de télétravail de 2 jours par semaine, conformément à l'article 12.
-
-Compte tenu des informations fournies, je propose une limite de télétravail de 2 jours par semaine, ce qui correspond à la limite de présence sur site mentionnée dans l'article 12. Par conséquent, nombrejourdeteletravailmaxparsemaine vaut 2.
+* Le document indique que les collaborateurs doivent être présents sur site au minimum 2 jours par semaine.
+* Par déduction, cela signifie que les collaborateurs peuvent télétravailler au maximum 5 jours par semaine.
+* Cependant, le document ne précise pas explicitement le nombre maximum de jours de télétravail par semaine.
+* Je ne peux donc pas affecter une valeur supérieure à 2 à la variable 'nombrejourdeteletravailmaxparsemaine'.
+* Par ailleurs, le document ne mentionne pas de télétravail à 100% ou de full-remote, ni l'absence de jour de présence minimum sur site.
+* Je ne peux donc pas affecter la valeur 5 à la variable 'nombrejourdeteletravailmaxparsemaine'.
