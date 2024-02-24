@@ -1,8 +1,1 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement le nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Les seules mentions de nombres de jours de télétravail se trouvent dans les phrases suivantes :
-
-* "Le nombre de jours de télétravail en mode flexible ou occasionnel est fixé au maximum à 2 jours par mois civil."
-* "Les collaborateurs en télétravail régulier peuvent bénéficier de 2 journées de télétravail supplémentaires par mois sans pouvoir excéder 10 jours de télétravail sur un même mois civil."
-* "Les collaborateurs n’ayant pas opté pour le télétravail régulier, dès lors qu’ils occupent un poste éligible, peuvent bénéficier du télétravail flexible de manière ponctuelle, sous réserve : que l’organisation collective du travail le permette, de respecter les conditions relatives au lieu d’exercice mentionnées à l’Article 3 du présent accord."
-* "Les salariés télétravailleurs peuvent ainsi, dans les mêmes conditions que tout autre salarié, exercer un mandat et disposer librement de leur crédit d’heures."
-
-Aucune de ces phrases ne mentionne explicitement le nombre de jours de télétravail par semaine.
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.

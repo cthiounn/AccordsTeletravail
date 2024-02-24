@@ -1,19 +1,8 @@
-Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine. Voici les extraits pertinents :
-
-- "Le salarié est tenu de participer aux réunions, formations ou déplacements nécessaires à l’exercice de ses fonctions quand bien même ceux-ci interviendraient une journée initialement programmée en télétravail. A l’échelle d’un service, il est possible de définir des journées comme non accessibles au télétravail afin de préserver le lien social, les rituels d’équipes et le travail collectif. Les réunions seront prioritairement organisées sur ces journées. **Les journées de télétravail sont définies dès la demande du salarié, validées par son responsable hiérarchique, sans pouvoir dépasser deux journées par semaine**."
-
-- "Les journées de télétravail non prises pour quelque motif que ce soit au cours d’une semaine ne pourront donner lieu à un crédit cumulé. La réussite du télétravail, tant dans l’étude de l’éligibilité que dans sa mise en œuvre, repose sur un partenariat entre le salarié, son responsable hiérarchique et la Direction. La mise en œuvre du télétravail est subordonnée au respect des formalités suivantes : [...] Dans le cas d’une réponse favorable, un avenant à durée déterminée pour le temps de l’accord est rédigé par la Direction et proposé à la signature du salarié. **Dans le cas d’une réponse défavorable, un entretien est organisé avec le responsable hiérarchique et la Direction si besoin afin d’expliquer la décision, et une réponse écrite est transmise au salarié et au CSE par la Direction.**"
-
-- "En cas de situations exceptionnelles impactant l’entreprise et les salariés, le télétravail pourrait être appliqué à titre dérogatoire et temporaire selon les dispositions suivantes : Pour les salariés disposant d’un avenant selon les modalités décrites à l’article 2.4, **le nombre de journées effectuées en télétravail pourrait être augmenté sur une même semaine sur autorisation expresse de leur responsable hiérarchique.** Pour les autres salariés, il pourrait être envisagé avec accord de leur responsable hiérarchique de prévoir une organisation en télétravail exceptionnelle, dérogatoire et de courte durée, sous condition de faisabilité technique."
-
-- "La Direction communiquera sur cet accord lors de sa signature et mettra en œuvre les actions de communication nécessaires vis-à-vis des salariés et des responsables hiérarchiques à compter de début 2021, afin de permettre l’ouverture et l’analyse des demandes de télétravail sur le deuxième trimestre 2021 et sa mise en œuvre effective concrète après les congés d’été. La Direction s’attachera tout particulièrement à expliquer les principes de l’accord et les conditions de réussite de la mise en place du télétravail aux salariés et à leurs responsables hiérarchiques pour faciliter l’application de cet accord expérimental. Un bilan de la mise en œuvre de l’accord sur le télétravail sera présenté une fois par an aux instances représentatives du personnel compétentes."
-
-- "Au-delà de la période d’adaptation prévue à l’article 2.5, en cas de nécessité ou si le télétravail ne répond pas aux attentes et contraintes de chacun, le salarié ou le responsable hiérarchique pourront mettre fin au télétravail en respectant un délai de prévenance de 15 jours. Le salarié reprend alors son activité dans les mêmes conditions qu’antérieurement à la mise en place du télétravail. L’avenant au contrat est valable et applicable uniquement
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Par exemple : "Les journées de télétravail doivent par principe être prises par journée entière et ne peuvent conduire le salarié à s’absenter en télétravail plus de deux journées pour une semaine de cinq jours." (T09121006120.txt, page 1) et "Dans le cadre de l’expérimentation, le télétravail ne peut excéder deux jours par semaine" (T09121006120.txt, page 2).
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les jours de télétravail doivent par principe être pris par journée entière et ne peuvent conduire le salarié à s’absenter en télétravail plus de deux journées pour une semaine de cinq."
-* "Dans ce cas les responsables de service pourront l’être de façon ponctuelle au cours de l’année, en accord avec leur propre responsable hiérarchique, dans le cadre notamment de missions spécifiques (préparation des entretiens annuels de leur équipe par exemple)."
+* "Les jours de télétravail doivent par principe être pris par journée entière et ne peuvent conduire le salarié à s’absenter en télétravail plus de deux daynées pour une semaine de five days." (Document 1)
+* "Le telework ne modifies pas the content and the objectives of the function exercised. The teleworkers are tenus au respect de the quality of work and of the deadlines of execution like when they are presents on the site." (Document 3)
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -21,4 +10,6 @@ Ma réponse après raisonnement ci-dessous :
 
 Mon raisonnement :
 
-* Selon le premier paragraphe extrait, le nombre maximum de jours de télétravail par semaine est de deux. Cette information est explicite et ne nécessite pas de raisonnement supplémentaire.
+* Dans le document 1, il est indiqué que le télétravail ne peut pas dépasser deux journées par semaine.
+* Dans le document 3, il est mentionné que l'activité et les missions du salarié en télétravail doivent être équivalentes à celles des salariés de poste comparable travaillant dans les locaux de la Confédération. Aucune indication n'est donnée sur une possibilité de télétravail à 100%.
+* Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 2.

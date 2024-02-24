@@ -1,13 +1,24 @@
-Q_TTSEM:Oui, le paragraphe "7.1. Nombre de jours télétravaillés" mentionne explicitement un nombre de jours de télétravail autorisé par semaine. Il est indiqué que le nombre de jours télétravaillés peut être porté jusqu'à 3 jours par semaine sur accord du manager.
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
+Q_TTSEM:
+Oui, le paragraphe suivant mentionne explicitement un nombre de jours de télétravail autorisé par semaine :
 
-    > Un nombre de jours télétravaillés pouvant être porté jusqu’à **3 jours** par semaine sur accord du manager.
+> « 7.1. Nombre de jours télétravaillés
+> 
+> Le nombre de jours télétravaillés s’organise de la façon suivante :
+> 
+> Un nombre de jours télétravaillés pouvant être porté jusqu’à **3 jours par semaine** sur accord du manager.
+> Soit 2 jours de présence sur site obligatoire minimum par semaine afin de préserver le lien social »
 
-* Ma réponse après raisonnement :
+Par conséquent, la réponse à votre question est affirmative.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    > nombrejourdeteletravailmaxparsemaine=3
+* "Un nombre de jours télétravaillés pouvant être porté jusqu’à 3 jours par semaine sur accord du manager."
+* "Les jours télétravaillés seront définis d’un commun accord entre le salarié et le manager et un planning prévisionnel sera établi mensuellement."
 
-* Mon raisonnement :
+Ma réponse après raisonnement ci-dessous :
 
-    > Dans le premier paragraphe, il est clairement indiqué que le nombre de jours télétravaillés peut être porté jusqu'à 3 jours par semaine sur accord du manager. Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' est affectée à la valeur 3.
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=3
+
+Mon raisonnement :
+
+Dans le premier paragraphe, il est indiqué qu'un nombre de jours télétravaillés peut être porté jusqu'à 3 jours par semaine sur accord du manager. Ce paragraphe concerne le nombre de jours de télétravail autorisé et mentionne explicitement la fréquence par semaine. Par conséquent, je peux affecter à la variable 'nombrejourdeteletravailmaxparsemaine' la valeur 3.

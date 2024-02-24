@@ -1,2 +1,20 @@
 Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
+Oui, il existe au moins un paragraphe qui mentionne un nombre de jours de télétravail autorisé, recommandé, limité ou maximum exprimé explicitement par semaine. Il se trouve dans le document suivant :
+
+Document(page\_content='5-1 Télétravail régulier\n\nLes collaborateurs qui demandent le télétravail régulier ont 3 choix dans la limite de 2 jours de présence au siège en fonction de leur temps contractuel\xa0: \n1 jour\n2 jours\n3 jours \nLes vœux ne concernent que le nombre de jours. Ceux-ci seront fixés par l’encadrement en concertation avec la Direction afin de maintenir une présence au siège équilibrée en tenant compte notamment des temps partiels et des nécessités liées au maintien de bonnes conditions de fonctionnement pour la Caf. Cette répartition sera valable sur la durée de référence', metadata={'source': 'T04121001510.txt'})
+
+Dans ce document, il est mentionné que les collaborateurs qui demandent le télétravail régulier ont le choix entre travailler 1, 2 ou 3 jours par semaine. Ces jours sont fixés par l'encadrement en concertation avec la direction, et cette répartition est valable sur la durée de référence. Par conséquent, nous pouvons conclure qu'il existe bel et bien un nombre de jours de télétravail autorisé, recommandé, limité ou maximum exprimé explicitement par semaine dans ce document.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "5- Mise en place du télétravail \n2 jours de présence au siège seront obligatoires quel que soit le télétravail (régulier, forfaitaire, occasionnel)"
+* "5-1 Télétravail régulier\n\nLes collaborateurs qui demandent le télétravail régulier ont 3 choix dans la limite de 2 jours de présence au siège en fonction de leur temps contractuel\xa0: \n1 jour\n2 jours\n3 jours"
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse :
+
+nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+Après avoir analysé les deux paragraphes pertinents, j'ai constaté que les salariés ont la possibilité de travailler en télétravail régulier avec une limite de 2 jours de présence au siège par semaine. Les options proposées pour le télétravail régulier sont 1 jour, 2 jours, ou 3 jours par semaine, mais la limite de 2 jours de présence au siège implique que le maximum de jours de télétravail par semaine est de 2. Par conséquent, je conclus que nombrejourdeteletravailmaxparsemaine=2.

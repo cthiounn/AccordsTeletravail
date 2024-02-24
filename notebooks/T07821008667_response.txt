@@ -1,11 +1,14 @@
-Q_TTSEM:
-Oui, un paragraphe mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Il s'agit du paragraphe "3.3. Nombre de jours" qui indique que "Les parties conviennent de limiter la situation de télétravail à 2 (deux) jours par semaine pour les salariés à temps plein et à 1 (un) jour par semaine pour les salariés travaillant à temps partiel".
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
-* "Le télétravail fonctionne sur un schéma d’alternance de périodes travaillées en présentiel et de période où l’activité est réalisée au domicile du salarié."
-* "Les parties conviennent de limiter la situation de télétravail à 2 (deux) jours par semaine pour les salariés à temps plein et à 1 (un) jour par semaine pour les salariés travaillant à temps partiel et dans la mesure où ce temps partiel est supérieur ou égal à 80% d’un temps plein,"
+Q_TTSEM:Oui, un paragraphe mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Plus précisément, il est indiqué que "Les parties conviennent de limiter la situation de télétravail à 2 (deux) jours par semaine pour les salariés à temps plein et à 1 (un) jour par semaine pour les salariés travaillant à temps partiel et dans la mesure où ce temps partiel est supérieur ou égal à 80% d’un temps plein".
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Le télétravail fonctionne sur un schéma d’alternance de périodes travaillées en présentiel et de période où l’activité est réalisée au domicile du salarié. Les parties conviennent de limiter la situation de télétravail à 2 (deux) jours par semaine pour les salariés à temps plein et à 1 (un) jour par semaine pour les salariés travaillant à temps partiel et dans la mesure où ce temps partiel est supérieur ou égal à 80% d’un temps plein, de telle sorte que le lien social soit maintenu avec l’équipe de travail et l’encadrement." (Document page_content='T07821008667.txt', paragraph=3)
+
+Ma réponse après raisonnement ci-dessous :
 
 Ma réponse :
-nombrejourdeteletravailmaxparsemaine = 2
+
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-Le document stipule clairement que le télétravail fonctionne sur un schéma d’alternance et que les parties conviennent de limiter la situation de télétravail à 2 jours par semaine pour les salariés à temps plein. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+
+Après avoir analysé les documents fournis, je trouve que le paragraphe le plus pertinent pour répondre à la question est celui qui mentionne explicitement le nombre de jours de télétravail par semaine. Ce paragraphe se trouve dans le document avec l'identifiant "T07821008667.txt" et est situé dans le troisième paragraphe. Selon ce paragraphe, les parties conviennent de limiter la situation de télétravail à 2 (deux) jours par semaine pour les salariés à temps plein et à 1 (un) jour par semaine pour les salariés travaillant à temps partiel. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 2 (deux) jours pour les salariés à temps plein. C'est pourquoi j'affecte la variable 'nombrejourdeteletravailmaxparsemaine' à la valeur 2.

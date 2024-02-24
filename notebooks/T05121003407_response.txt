@@ -1,14 +1,16 @@
-Q_TTSEM:
-Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail autorisé par semaine :
+Q_TTSEM:Oui, le paragraphe suivant mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine :
 
-> 5.3 - Les apprentis et alternants, ainsi que les stagiaires sous convention de stage ne peuvent pas accéder au télétravail par principe de cohérence avec les obligations de tutorat de l’employeur. Une dérogation est possible après 6 mois de contrat sur demande du maître de stage ou d’apprentissage mais dans la limite de **1 jour télé-travaillé hebdomadaire** et sous réserve d’une coordination de présence avec le dit maître.
+"3.3 - Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine, et à 10 jours par mois. Les jours télé-travaillés ne sont ni cumulables ni reportables d’un mois sur l’autre."
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Source : T05121003407.txt
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
-* "Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine" (T05121003407.txt)
+* Paragraphe du document T05121003407.txt contenant le mot-clé "semaine" et concernant le nombre de jours de télétravail autorisé : "3.3 - Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine, et à 10 jours par mois."
+
+Ma réponse après raisonnement ci-dessous :
 
 Ma réponse :
-* nombrejourdeteletravailmaxparsemaine=4
+
+nombrejourdeteletravailmaxparsemaine=4
 
 Mon raisonnement :
-* Selon le document, les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine. Donc, un employé/travailleur/salarié/collaborateur peut télétravailler régulièrement jusqu'à 4 jours par semaine.
+
+Après examen du document T05121003407.txt, je trouve que le paragraphe pertinent pour la question posée est celui qui indique que "Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine, et à 10 jours par mois.". Ainsi, le maximum de jours de télétravail possible par semaine est de 4 jours. Je conclus donc que la variable 'nombrejourdeteletravailmaxparsemaine' doit être affectée de la valeur 4.

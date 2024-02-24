@@ -1,16 +1,17 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé par semaine. Voici les occurrences trouvées :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine. Voici ces passages :
 
-1. "Le nombre de jours télétravail est donc limité à deux jours par semaine." (Source : T01321011053.txt)
-2. "La journée de télétravail ne pourra être prise le lundi. Il appartient au manager de fixer avec le collaborateur, après l’expression du souhait de ce dernier le jours de la semaine télétravaillés." (Source : T01321011053.txt)
-3. "Personnel cadre : Le temps de présence dans les locaux devra être au minimum de 3 jours ouvrés par semaine afin de prévenir tout risque d’isolement. Le nombre de jours télétravaillés est donc limité à deux jours par semaine." (Source : T01321011053.txt)
-4. "Personnel non-cadre : Les salariés qui remplissent les conditions pourront télétravailler jusqu’à deux jours par semaine." (Source : T01321011053.txt)
+1. "Le nombre de jours télétravaillés est donc limité à deux jours par semaine." (Source : T01321011053.txt, page 1)
+2. "Le nombre de jours de télétravail est donc limité à un jour par semaine." (Source : T01321011053.txt, page 1)
+3. "Ces deux journées sont fixes d’une semaine sur l’autre et ne pourront-être modifiées que : Par commun accord des parties ; Unilatéralement par le manager moyennant un délai de prévenance de trois jours calendaires afin de tenir compte des impératifs de service ou du taux d’absence physique des autres membres de l’équipe." (Source : T01321011053.txt, page 2)
+4. "Le temps de présence dans les locaux devra être au minimum de 3 jours ouvrés par semaine afin de prévenir tout risque d’isolement. Le nombre de jours télétravaillés est donc limité à deux jours par semaine." (Source : T01321011053.txt, page 3)
+5. "Personnel non-cadre : Le temps de présence dans les locaux devra être au minimum de 4 jours ouvrés par semaine afin de prévenir tout risque d’isolement." (Source : T01321011053.txt, page 4)
 
-Notez que ces mentions concernent uniquement le personnel cadre et non-cadre, et non le personnel navigant.
+Dans tous ces extraits, le nombre de jours de télétravail par semaine est clairement mentionné.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Le nombre de jours télétravaillés est donc limité à deux jours par semaine." (T01321011053.txt)
-* "Le temps de présence dans les locaux devra être au minimum de 3 jours ouvrés par semaine afin de prévenir tout risque d’isolement. Le nombre de jours télétravaillés est donc limité à two days par semaine." (T01321011053.txt)
+* "Le temps de présence dans les locaux devra être au minimum de 3 jours ouvrés par semaine afin de prévenir tout risque d’isolement. Le nombre de jours télétravaillés est donc limité à deux jours par semaine." (T01321011053.txt)
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -18,6 +19,7 @@ Ma réponse après raisonnement ci-dessous :
 
 Mon raisonnement :
 
-* Dans le premier paragraphe extrait, il est clairement stipulé que le nombre de jours télétravaillés est limité à deux jours par semaine.
-* Dans le deuxième paragraphe extrait, il est également stipulé que le nombre de jours télétravaillés est limité à deux jours par semaine.
-* De plus, aucun paragraphe ne mentionne la possibilité de télétravail à 100% ou de full-remote avec une absence de jour de présence minimum sur site, donc je ne peux pas affecter la variable nombrejourdeteletravailmaxparsemaine à la valeur 5.
+* Dans le premier paragraphe, il est indiqué que "le nombre de jours télétravaillés est donc limité à deux jours par semaine".
+* Dans le deuxième paragraphe, il est indiqué que "le temps de présence dans les locaux devra être au minimum de 3 jours ouvrés par semaine afin de prévenir tout risque d’isolement. Le nombre de jours télétravaillés est donc limité à deux jours par semaine."
+* Ces deux paragraphes concernent le nombre de jours de télétravail autorisé et utilisent la notion de semaine.
+* Les informations fournies permettent de déterminer que le maximum de jours de télétravail par semaine est de 2.

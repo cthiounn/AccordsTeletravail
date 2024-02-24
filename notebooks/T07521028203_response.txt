@@ -5,14 +5,18 @@ Oui, un paragraphe mentionne un nombre de jour de télétravail autorisé explic
 
 - Un à deux jours fixes par semaine de télétravail."
 
-Ce paragraphe indique clairement qu'un collaborateur exerçant à temps complet a droit à un ou deux jours de télétravail par semaine.
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
+Ce paragraphe indique clairement qu'un collaborateur travaillant à temps complet a droit à un à deux jours fixes de télétravail par semaine.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Un à deux jours fixes par semaine de télétravail." (T07521028203.txt)
-* "1 jour fixe de télétravail par semaine." (T07521028203.txt)
+* "Un à deux jours fixes par semaine de télétravail." (Document(page\_content='T07521028203.txt'))
+* "1 jour fixe de télétravail par semaine." (Document(page\_content='T07521028203.txt'))
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=2
+Ma réponse après raisonnement ci-dessous :
 
-Mon raisonnement :
-Le document mentionne clairement qu'un collaborateur exerçant son activité à temps complet a droit à "un à deux jours fixes par semaine de télétravail" et que pour un collaborateur exerçant son activité dans le cadre d'un temps partiel d'une durée supérieure ou égale à 80%, il a droit à "1 jour fixe de télétravail par semaine". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2 jours pour les collaborateurs à temps complet et de 1 jour pour les collaborateurs à temps partiel.
+**Ma réponse** : nombrejourdeteletravailmaxparsemaine=2
+
+**Mon raisonnement** :
+
+Les deux paragraphes pertinents indiquent clairement qu'un collaborateur peut bénéficier d'un à deux jours de télétravail par semaine et d'un jour fixe de télétravail par semaine. Par conséquent, le nombre maximal de jours de télétravail par semaine est de deux.
+
+Dans le même temps, il n'y a aucune mention de télétravail à 100 % ou de full-remote avec l'absence de jour de présence minimale sur site.

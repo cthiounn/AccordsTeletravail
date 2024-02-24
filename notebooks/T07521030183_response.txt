@@ -1,1 +1,1 @@
-Q_TTSEM:Non, aucun paragraphe mentionnant un nombre de jour de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine n'a été trouvé dans les documents fournis.
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.

@@ -1,14 +1,20 @@
-Q_TTSEM:Oui, le paragraphe Article 3-2 mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Il est limité à 2 jours maximum par semaine.
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "le plafond de 2 jours par semaine" (Article 3-2)
-    * "la durée du travail ; pendant les plages de disponibilités suivantes : 9h à 12h et 14h à 17h" (Article 6)
-    * "chaque jour travaillé sur un document qu'il remettra chaque semaine" (Article 7-1)
-    * "les modalités auto-déclaratives applicables à cette organisation du temps de travail" (Article 7-2)
-    * "les plages horaires de disponibilité (art. 6)" (Article 16-2-2)
+Q_TTSEM:Oui, le paragraphe suivant mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine :
 
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
+"ARTICLE 3-2 - Fréquence et nombre de jours de télétravail
+Le télétravail est limité à 2 jours maximum par semaine dans le respect des conditions suivantes :
+le salarié devra être présent 3 jours par semaine sur le site de l’entreprise,
+dans les services constitués de plusieurs collaborateurs, chaque jour, un membre du service devra être présent afin de préserver les liens entre les différents services."
 
-* Mon raisonnement :
-    * D'après l'extrait pertinent de l'Article 3-2, le plafond de jours de télétravail par semaine est de 2. Ce nombre est confirmé dans l'Article 16-2-2 où il est dit que la Société peut demander au salarié de travailler dans les locaux de l'entreprise si le salarié ne respecte pas les plages horaires de disponibilité, impliquant que ces plages horaires sont celles du télétravail et qu'elles sont limitées à 2 jours par semaine.
+Ce paragraphe indique que le télétravail est limité à 2 jours maximum par semaine.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Le télétravail est limité à 2 jours maximum par semaine dans le respect des conditions suivantes : le salarié devra être présent 3 jours par semaine sur le site de l’entreprise, dans les services constitués de plusieurs collaborateurs, chaque jour, un membre du service devra être présent afin de préserver les liens entre les différents services." (Article 3-2)
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+Le document mentionne explicitement le nombre de jours de télétravail par semaine, qui est limité à 2 jours maximum. Par conséquent, un employé/travailleur/salarié/collaborateur peut télétravailler régulièrement jusqu'à 2 jours par semaine. C'est pourquoi j'affecte la valeur 2 à la variable 'nombrejourdeteletravailmaxparsemaine'.

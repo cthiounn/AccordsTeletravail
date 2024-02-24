@@ -1,36 +1,19 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum, exprimés explicitement par semaine. Voici ces passages :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum exprimé par semaine. Par exemple, l'article 9b mentionne que « Le nombre de jours de télétravail occasionnel ne pourra dépasser 10 jours par an », ce qui implique une limite de 2 jours de télétravail par semaine. De même, l'article 26 mentionne une limite de 2 jours de présence sur site par semaine pour les télétravailleurs. Enfin, l'annexe jointe à l'accord mentionne une liste indicative de fonctions pouvant exiger des restrictions d'accès au télétravail, ce qui implique également une limitation du nombre de jours de télétravail pour ces fonctions.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-- "La limite de 2 jours de présence sur site par semaine contribue au respect de cette règle essentielle." (Document 1)
+* "Le nombre de jours de télétravail occasionnel ne pourra dépasser 10 jours par an." (Article 9 a, T09221024001.txt)
+* "Le télétravail ne doit pas être un frein à la participation à la vie du service et aux réunions. La limite de 2 jours de présence sur site par semaine contribue au respect de cette règle essentielle." (Article 12, T09221024001.txt)
 
-- "Le nombre de jours de télétravail occasionnel ne pourra dépasser 10 jours par an." (Document 2)
+Ma réponse après raisonnement ci-dessous :
 
-- "Les commerciaux devront être présents sur site au minimum 1 jour par semaine" (Document 3)
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=2
 
-- "Pour les temps de travail < 50%, présence minimale dans le mois de 4 plages de jour de semaine (hors WE et nuit)" (Document 3)
+Mon raisonnement :
 
-- "Pour les temps de travail entre 50 et 80%, présence minimale dans le mois de 6 plages dont 5 de jours en semaine." (Document 3)
+Après examen des documents fournis, je n'ai trouvé aucun paragraphe mentionnant explicitement le nombre de jours de télétravail autorisés par semaine, à l'exception de la limite de 2 jours de présence sur site par semaine (Article 12, T09221024001.txt). Cependant, cette limite ne concerne pas directement le nombre de jours de télétravail, mais plutôt la présence minimale requise sur site. Par conséquent, je ne peux pas déterminer un nombre exact de jours de télétravail par semaine.
 
-- "Les télétravailleurs en forfait jours doivent en tout état de cause respecter les règles relatives aux durées minimales de repos quotidien et hebdomadaire." (Document 4)
+Cependant, l'article 12 mentionne une limite de 2 jours de présence sur site par semaine, ce qui implique qu'un employé peut théoriquement télétravailler jusqu'à 5 jours par semaine (5 jours ouvrés par semaine moins les 2 jours de présence sur site). Dans ce cas, il est important de noter que le télétravail à 100 % ou le full-remote ne sont pas explicitement mentionnés dans les documents fournis. Par conséquent, je ne peux pas garantir que le télétravail à 100 % est autorisé. Néanmoins, en l'absence d'autres limitations explicites, je propose une limite de télétravail de 2 jours par semaine, conformément à l'article 12.
 
-- "Les plages de disponibilité pendant lesquelles les collaborateurs en forfait jours peuvent être joints doivent respecter les temps de repos quotidien et hebdomadaire fixés par la législation." (Document 4)
-
-- "Les managers veillent à assurer une répartition équivalente de la charge de travail entre les télétravailleurs et les salariés en situation comparable travaillant dans les locaux de l’entreprise." (Document 5)
-
-- "Un échange sur les conditions d’activité du salarié et sa charge de travail a lieu de manière régulière entre le collaborateur et son manager pour faire le point sur l’exercice du télétravail et en cas de difficultés rencontrées définir des actions correctrices" (Document 5)
-
-- "Chaque année, lors d’un temps d’échange spécifique au moment de l’entretien annuel d’évaluation qui porte sur les conditions d’activité du collaborateur et sa charge de travail" (Document 5)
-
-- "Les jours de télétravail seront validés préalablement par le manager pour assurer le bon fonctionnement du service. Chaque manager veillera à lisser sur la semaine les jours de télétravail de leurs collaborateurs." (Document 6)
-
-- "Les collaborateurs du service veilleront donc à anticiper leurs demandes de jours de télétravail dans le respect le cas échéant des règles qui seront définies par le manager en charge de veiller à la bonne organisation du service" (Document 6)
-Q_TTSEM_NOMBRE:
-**Extraits pertinents:**
-
-* "La limite de 2 jours de présence sur site par semaine contribue au respect de cette règle essentielle."
-* "Chaque manager pourra prévoir, s’il l’estime nécessaire, 1 ou 2 jours fixes dans la semaine lors duquel/desquels l’ensemble de l’équipe est présente sur site."
-
-**Réponse:**
-
-*Ma réponse:* nombrejourdeteletravailmaxparsemaine=2
-*Mon raisonnement:* Les extraits pertinents indiquent que la limite de présence sur site est de 2 jours par semaine. Cependant, il est également mentionné que les managers peuvent prévoir 1 ou 2 jours fixes dans la semaine où l'équipe est présente sur site. Compte tenu de ces informations, je ne peux pas affirmer avec certitude que le nombre maximal de jours de télétravail par semaine est de 3. Par conséquent, je m'en tiens à la limite de 2 jours de télétravail par semaine mentionnée dans le premier extrait.
+Compte tenu des informations fournies, je propose une limite de télétravail de 2 jours par semaine, ce qui correspond à la limite de présence sur site mentionnée dans l'article 12. Par conséquent, nombrejourdeteletravailmaxparsemaine vaut 2.

@@ -1,26 +1,22 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail par semaine. Voici les occurrences :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail par semaine. Cependant, ces nombres ne sont pas associés à des notions de jours supplémentaires, exceptionnels ou de présence obligatoire sur site. Les paragraphes pertinents sont les suivants :
 
-1. "Selon les recommandations sanitaires, il peut être imposé aux salariés un télétravail à 100%."
-2. "Le nombre de jours de télétravail imposés par semaine peut être réévalué par l’entreprise en fonction des mesures soit recommandées soit imposées par les Pouvoirs Publics."
-3. "En cas de télétravail en dessous de 100%, les jours télétravaillés dans la semaine sont convenus entre le Salarié et son manager, le cas échéant après avis de la Direction des Ressources Humaines, afin de respecter une jauge dans les locaux de l’entreprise qui soit adaptée à la situation sanitaire."
+1. "Nombre de jours de télétravail par semaine" : Ce paragraphe mentionne explicitement un nombre de jours de télétravail par semaine, mais il ne précise pas s'il s'agit d'un nombre autorisé, recommandé, limité ou maximum.
 
-Cependant, aucun de ces passages n'indique explicitement un nombre limite ou maximum de jours de télétravail par semaine. Ils mentionnent plutôt des possibilités allant de 0 à 100%.
-Q_TTSEM_NOMBRE:
-* Extraits pertinents :
-    * "Nombre de jours de télétravail par semaine"
-    * "La détermination des jours de télétravail sera décidée entre le manager et le Salarié dans l’intérêt de la bonne marche du service ou de l’équipe."
-    * "l’autonomie dont ils disposent dans l’organisation de leur temps de travail s’accompagne de la faculté de déterminer eux-mêmes les jours de télétravail"
-    * "Le télétravail ne saurait avoir pour conséquence de modifier ni l’horaire habituel, ni l’amplitude de travail effectif applicable en temps normal"
-    * "Le Salarié en télétravail doit organiser son activité durant les jours de télétravail de sorte à respecter la prise d’un repos quotidien (entre deux journées de travail) de 11 heures minimales et la prise d’un repos hebdomadaire de 35 heures minimales incluant le repos quotidien (24 heures + 11 heures)"
-    * "Le télétravail ne peut être mis en place pour les fonctions suivantes : Afficheurs, Personnel d’atelier (hors service départ)"
-    * "Le Salarié en télétravail imposé reste tenu de l’ensemble de ses obligations contractuelles, dont le non-respect pourrait donner lieu à des sanctions."
-    * "Les modalités de déroulement du télétravail sont profondément bouleversées en cas de télétravail imposé par des circonstances collectives exceptionnelles telles que celles vécues en 2021 compte tenu de la persistance de la crise sanitaire imposant largement la poursuite du télétravail comme mode d’exécution du travail largement recommandé."
-    * "La société SMPA a notamment le souhait de prendre en compte les efforts réalisés collectivement par les Salariés dans le cadre de la crise sanitaire liée au covid-19 leur imposant d’aménager leur organisation de travail en ayant d’autre choix que d’utiliser leurs lieux et installations privés pour télétravailler massivement, lorsqu’ils ne sont pas en activité partielle"
-    * "Le Télétravailleur pourra être amené à renoncer à sa/ses journée(s) de télétravail notamment pour des projets particuliers (compétitions, briefs, présentation aux clients, etc…)"
-    * "L’activité demandée au Télétravailleur est équivalente à celle des salariés en situation comparable travaillant dans les locaux de l’entreprise"
-    * "Il revient au Salarié de s’assurer qu’il peut travailler sur son lieu de télétravail dans des conditions à la fois de confort et d’efficacité"
-    * "La situation a nécessité de poursuivre le télétravail au premier semestre 2021"
-    * "Le télétravail ne modifie en rien la notion de travail effectif ni la relation hiérarchique liée à la qualité de salarié(e) du/de la télétravailleur/télétravailleuse (ci-après le « Salarié » et le « Télétravailleur »)"
-    * "Elle sera versée pour la première fois sur le mois de paie faisant suite au mois durant lequel le présent accord a été signé, avec régularisation depuis le mois de janvier 2021, et ce jusqu’à l’échéance du présent accord."
-    * "Un prorata sera effectué si le nombre hebdomadaire de jours de télétravail évolue au cours du même mois civil, sur la base -conformément à la réglementation URSSAF- de 2,50 € par jour de télétravail imposé (étant rappelé que les jours de télétravail sont tous décomptés y compris lorsqu’il ne s’agit pas de jours entiers du
+2. "Selon les recommandations sanitaires, il peut être imposé aux salariés un télétravail à 100%." : Ce paragraphe mentionne un nombre de jours de télétravail par semaine (100%, soit 5 jours), mais il ne précise pas s'il s'agit d'un nombre autorisé, recommandé, limité ou maximum.
+
+3. "En cas de télétravail en dessous de 100%, les jours télétravaillés dans la semaine sont convenus entre le Salarié et son manager, le cas échéant après avis de la Direction des Ressources Humaines, afin de respecter une jauge dans les locaux de l’entreprise qui soit adaptée à la situation sanitaire" : Ce paragraphe suggère que le nombre de jours de télétravail par semaine peut être négocié entre le salarié et son manager, ce qui implique que ce nombre n'est pas fixe.
+
+Par conséquent, il existe bel et bien des paragraphes mentionnant un nombre de jours de télétravail par semaine, mais aucun d'entre eux ne précise explicitement s'il s'agit d'un nombre autorisé, recommandé, limité ou maximum.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Nombre de jours de télétravail par semaine" (page_content du premier document)
+* "l’alternance entre les jours en télétravail et les jours en entreprise s'effectuent sur un rythme strictement hebdomadaire" (page_content du deuxième document)
+
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine=5
+
+Mon raisonnement :
+
+* Les informations contenues dans les deux paragraphes extraits montrent que le nombre de jours de télétravail par semaine est fixé à cinq jours maximum. Ce nombre correspond au nombre de jours ouvrés dans une semaine. De plus, il n'y a pas de mention de jour de présence minimum sur site, ce qui permet d'affecter la valeur maximale de 5 jours à la variable nombrejourdeteletravailmaxparsemaine.

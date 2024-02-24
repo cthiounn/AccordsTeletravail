@@ -1,17 +1,21 @@
-Q_TTSEM:Oui, le document contient un paragraphe mentionnant un nombre de jours de télétravail autorisé par semaine. Selon l'article 5, le temps de travail d'un télétravailleur est de 35 heures par semaine, dont au moins 24 heures doivent être effectuées en présentiel sur site. Les heures restantes peuvent être effectuées en télétravail, ce qui implique que le nombre maximal de jours de télétravail par semaine est égal à cinq, sous réserve des exceptions mentionnées dans la question.
-Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:
+Oui, le paragraphe suivant mentionne explicitement un nombre de jours de télétravail par semaine :
 
-    Article 5 – Temps de travail
-    
-    Le temps de travail du télétravailleur est de 35 heures par semaine. Cette durée du travail de 35 heures sera à effectuer en présentiel sur site à hauteur minimum de 24 heures, les heures restantes en télétravail.
+"Article 3 – Lieu d’exercice du télétravail
 
-    Les plages horaires pendant lesquelles le salarié peut habituellement être contacté lorsqu’il est en situation de télétravail sont formalisées dans un planning fixé par le responsable hiérarchique après concertation avec le salarié.
+Le télétravail s’exerce de la manière suivante pour le personnel des services mentionnés à l’article 2 :
 
-* Ma réponse après raisonnement :
+le temps de travail est organisé entre présence physique sur site de minimum 24h et le temps restant en télétravail au domicile du salarié."
 
-    nombrejourdeteletravailmaxparsemaine=3
+Cela implique que le temps de télétravail est égal au temps de travail total (35 heures par semaine) moins 24 heures passées sur site, ce qui correspond à environ 1,5 jour de télétravail par semaine.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Mon raisonnement :
+* Article 5 – Temps de travail, Document(page\_content='Le temps de travail du télétravailleur est de 35 heures par semaine. Cette durée du travail de 35 heures sera à effectuer en présentiel sur site à hauteur minimum de 24 heures, les heures restantes en télétravail.\nLes 24 heures minimum sur site peuvent être effectuées en demi-journées ou en journées complètes selon un planning prédéfini en accord avec le chef de service et le directeur du pôle.', metadata={'source': 'T06721007237.txt'})
 
-    Selon l'article 5, le temps de travail du télétravailleur est de 35 heures par semaine, dont 24 heures doivent être effectuées en présentiel sur site. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3.
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine=24
+
+Mon raisonnement :
+
+* Dans le paragraphe Article 5 – Temps de travail, il est indiqué que "Le temps de travail du télétravailleur est de 35 heures par semaine. Cette durée du travail de 35 heures sera à effectuer en présentiel sur site à hauteur minimum de 24 heures, les heures restantes en télétravail.". Par conséquent, le maximum de jours de télétravail par semaine est de 24 heures, ce qui correspond à 24/24*7/24=1 jour par semaine.

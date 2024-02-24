@@ -1,8 +1,12 @@
 Q_TTSEM:
-Oui, un paragraphe mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Il s'agit du document intitulé "Au vu de sa mise en oeuvre depuis le mois de Mars 2020, il est apparu nécessaire d'apporter quelques ajustements de manière durable...". Dans ce document, il est stipulé que "Il sera désormais possible d'effectuer du télétravail à raison de DEUX jours par semaine".
+Oui, un paragraphe mentionne un nombre de jours de télétravail autorisé par semaine. Il s'agit du document suivant :
+
+Document(page\_content='Au vu de sa mise en œuvre depuis le mois de Mars 2020, il est apparu nécessaire d’apporter quelques ajustements de manière durable, hors décisions gouvernementales de situation d’urgence sanitaire pour lesquelles l’entreprise appliquerait les préconisations gouvernementales.\n\nPar conséquent les dispositions suivantes modifient les accords indiqués ci-dessus, les autres dispositions restent inchangées et demeurent applicables.\n\nLes Parties ont convenu ce qui suit\xa0:\n\n\nArticle 1\xa0: Type de dispositifs de télétravail\n\nIl sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine\xa0: 4 dispositifs seront donc désormais possibles.\n\n\n\n\n\n\nAfin de préserver le lien social avec l’entreprise, la cohésion et le bon fonctionnement des équipes, le télétravail est organisé de telle sorte que\xa0le salarié à temps plein soit présent dans l’entreprise au moins 3 jours par semaine', metadata={'source': 'T09121006130.txt'})
+
+Ce document mentionne explicitement que "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine".
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine"
+* "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine" (Document(page\_content='Au vu de sa mise en œuvre depuis le mois de Mars 2020, il est apparu nécessaire d’apporter quelques ajustements de manière durable, hors décisions gouvernementales de situation d’urgence sanitaire pour lesquelles l’entreprise appliquerait les préconisations gouvernementales.\n\nPar conséquent les dispositions suivantes modifient les accords indiqués ci-dessus, les autres dispositions restent inchangées et demeurent applicables.\n\nLes Parties ont convenu ce qui suit\xa0:\n\n\nArticle 1\xa0: Type de dispositifs de télétravail\n\nIl sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine\xa0: 4 dispositifs seront donc désormais possibles.\n\n\n\n\n\n\nAfin de préserver le lien social avec l’entreprise, la cohésion et le bon fonctionnement des équipes, le télétravail est organisé de telle sorte que\xa0le salarié à temps plein soit présent dans l’entreprise au moins 3 jours par semaine', metadata={'source': 'T09121006130.txt'}))
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -10,11 +14,4 @@ Ma réponse après raisonnement ci-dessous :
 
 Mon raisonnement :
 
-* La réponse se trouve dans le premier paragraphe extrait.
-* Les parties ont convenu que les salariés peuvent effectuer du télétravail à raison de DEUX jours par semaine.
-* Je m'assure que la réponse se trouve bien dans le texte indiqué.
-* Je ne fais aucune supposition ni d'hypothèses.
-* Je ne fais aucun calcul de proratisation.
-* Je ne fais aucun lien entre l'effectif d'un service et le nombre de jour de télétravail.
-* Le document mentionne positivement le Télétravail à 100%, mais il y a une journée de présence minimum sur site, donc je ne peux pas affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.
-* Je ne trouve pas d'autres valeurs ou informations qui me permettraient de déterminer cette valeur, donc je retourne nombrejourdeteletravailmaxparsemaine à 2.
+* J'ai identifié un paragraphe pertinent dans le premier document qui indique qu'il sera possible d'effectuer du télétravail à raison de DEUX jours par semaine. Par conséquent, un employé/travailleur/salarié/collaborateur peut télétravailler régulièrement jusqu'à 2 jours par semaine.

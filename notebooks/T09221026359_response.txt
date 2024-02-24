@@ -1,24 +1,13 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici ces paragraphes :
+Q_TTSEM:Oui, il y a un paragraphe qui mentionne un nombre de jours de télétravail autorisé par semaine. Il s'agit du paragraphe "4.1 Planification des jours de télétravail sur la semaine (en cas de télétravail régulier)" du document T09221026359.txt. Ce paragraphe précise que le télétravail régulier suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-- "Il est tout de même fortement recommandé de ne pas dépasser 2 jours de télétravail par semaine."
-- "Le télétravail régulier suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine"
-- "En cas de demande de télétravail occasionnel, le collaborateur transmet sa demande par écrit au manager concerné (courriel), moyennant un délai de prévenance de trois jours ouvrés qui peut être réduit d'un commun accord par écrit entre le collaborateur et le manager concerné" (implicitement, le télétravail occasionnel ne peut être supérieur à un jour par semaine)
+* "Le télétravail régulier suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine" (T09221026359.txt)
 
-Références :
-- Document(page\_content='Il est tout de même fortement recommandé de ne pas dépasser 2 jours de télétravail par semaine.\n\nA titre exceptionnel et sous réserve de l’existence d’une situation individuelle particulière (à titre d’exemple\xa0: un déménagement pour convenance personnelle dans une autre région que celle où se situe le site de rattachement du collaborateur), le nombre de jours maximal en télétravail pourra être revu à la hausse', metadata={'source': 'T09221026359.txt'})
-- Document(page\_content='Le télétravail peut être régulier ou occasionnel, il est effectué par principe sur les jours ouvrés de la semaine.\nLe télétravail «\xa0régulier\xa0» se caractérise par un nombre de journées entières effectuées de manière régulière, sur plusieurs mois consécutifs.\nLe télétravail\xa0«\xa0occasionnel\xa0» est effectué de manière ponctuelle, sans régularité dans le temps.\n\nArticle 2 – Conditions d’éligibilité\n\n2.1 Collaborateurs éligibles\n\nSont éligibles au télétravail les collaborateurs\xa0:\nen contrat à durée indéterminée à temps plein ou partiel à 80% minimum ayant validé leur période d’essai\xa0;\ndisposant d’une capacité d’autonomie suffisante dans le poste occupé et ayant la capacité à travailler à distance et de manière individuelle. Ils doivent avoir une bonne connaissance de leur poste de travail et savoir gérer leur temps de travail', metadata={'source': 'T09221026359.txt'})
-- Document(page\_content='Si la réponse est négative, elle est motivée par écrit par le manager. En cas de désaccord entre le collaborateur et le manager, le représentant des Ressources Humaines et le CSE pourront être sollicités.\n\nLe collaborateur pourra formuler une autre demande dans un délai de douze mois, sauf si le manager accorde un délai plus favorable.\n\n3.2.2 Télétravail occasionnel\n\nEn cas de demande de télétravail occasionnel, le collaborateur transmet sa demande par écrit au manager concerné (courriel), moyennant un délai de prévenance de trois jours ouvrés qui peut être réduit d'un commun accord par écrit entre le collaborateur et le manager concerné', metadata={'source': 'T09221026359.txt'})
-Q_TTSEM_NOMBRE:
-**Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question:**
+Ma réponse après raisonnement ci-dessous :
 
-* "Le télétravail peut être régulier ou occasionnel, il est effectué par principe sur les jours ouvrés de la semaine."
-* "Le télétravail « régulier » se caractérise par un nombre de journées entières effectuées de manière régulière, sur plusieurs mois consécutifs."
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=3
 
-**Ma réponse après raisonnement ci-dessous :**
+Mon raisonnement :
 
-* nombrejourdeteletravailmaxparsemaine=3
-
-**Mon raisonnement :**
-
-* Les paragraphes pertinents indiquent que le télétravail régulier se caractérise par un nombre de journées entières effectuées de manière régulière, sur plusieurs mois consécutifs et qu'il est effectué par principe sur les jours ouvrés de la semaine.
-* Sur la base de ces éléments, je conclus que le nombre maximum de jours de télétravail par semaine est de 3 jours.
+Après avoir analysé les documents fournis, je n'ai trouvé aucune information indiquant que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué avec une absence de jour de présence minimum sur site. Par conséquent, je me base sur les informations fournies dans le paragraphe "Le télétravail régulier suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine". Cette source indique clairement qu'un employé/travailleur/salarié/collaborateur peut télétravailler régulièrement jusqu'à 3 jours par semaine. C'est pourquoi j'affecte à la variable 'nombrejourdeteletravailmaxparsemaine' la valeur 3.

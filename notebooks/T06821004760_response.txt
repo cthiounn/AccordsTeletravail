@@ -1,16 +1,15 @@
 Q_TTSEM:
-Oui, le paragraphe suivant mentionne un nombre de jours de télétravail autorisé par semaine :
-
-"Afin de préserver le lien social dans l’entreprise, par principe, le télétravail ne peut être exercé que dans le cadre d’un nombre de jours limité en fonction de l’ancienneté du salarié concerné et à raison :
-- d’une journée par semaine pour un salarié d’une ancienneté ≥ à 1an et ˂ à 2 ans,
-- de 2 jours par semaine pour un salarié d’une ancienneté ≥ à 2 ans"
-
-Source: T06821004760.txt, Article 5 - Autres modalités d’organisation du télétravail
+Oui, un paragraphe mentionne un nombre de jours de télétravail autorisé par semaine. Il s'agit du paragraphe relatif à l'article 4, qui précise que le télétravail peut être exercé à raison d'une journée par semaine pour un salarié d'une ancienneté supérieure ou égale à 1 an et inférieure à 2 ans, et de deux jours par semaine pour un salarié d'une ancienneté supérieure ou égale à 2 ans.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Afin de préserver le lien social dans l’entreprise, par principe, le télétravail ne peut être exercé que dans le cadre d’un nombre de jours limité en fonction de l’ancienneté du salarié concerné et à raison : d’une journée par semaine pour un salarié d’une ancienneté ≥ à 1an et ˂ à 2 ans, de 2 jours par semaine pour un salarié d’une ancienneté ≥ à 2 ans"
+
+* "d’une journée par semaine pour un salarié d’une ancienneté ≥ à 1an et ˂ à 2 ans, de 2 jours par semaine pour un salarié d’une ancienneté ≥ à 2 ans"
+* "Le télétravail n’a pas pour effet de modifier l’activité habituelle, la charge de travail ou l’amplitude du temps de travail applicable habituellement au sein des locaux de l’entreprise."
 
 Ma réponse après raisonnement ci-dessous :
+
 * nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-* Dans le document, il est stipulé que le télétravail ne peut être exercé que dans le cadre d'un nombre de jours limité en fonction de l'ancienneté du salarié concerné et à raison d'une journée par semaine pour un salarié d'une ancienneté ≥ à 1an et < à 2 ans, de 2 jours par semaine pour un salarié d'une ancienneté ≥ à 2 ans. Donc, le nombre maximum de jour de télétravail par semaine est de 2.
+
+* Le premier paragraphe indique clairement qu'un salarié d'une ancienneté supérieure ou égale à 1 an et inférieure à 2 ans peut télétravailler une journée par semaine, tandis qu'un salarié d'une ancienneté supérieure ou égale à 2 ans peut télétravailler deux jours par semaine. Aucune autre information dans le document ne vient modifier ces limites, donc je peux conclure que la limite de télétravail par semaine est de 2 jours.
+* Le deuxième paragraphe confirme que l'activité, la charge de travail et l'amplitude du temps de travail ne doivent pas être modifiés par le télétravail, ce qui signifie que le nombre de jours de télétravail par semaine ne peut pas être supérieur à celui indiqué dans le premier paragraphe.

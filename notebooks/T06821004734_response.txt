@@ -1,16 +1,1 @@
-Q_TTSEM:
-Oui, le document suivant contient un paragraphe mentionnant un nombre de jours de télétravail autorisé explicitement exprimé par semaine :
-
-- Document(page\_content='Article 8 : FREQUENCE ET NOMBRE DE JOURS TELETRAVAILLES\n\nLe nombre maximal de jours de télétravail est fixé annuellement et de façon forfaitaire.\nIl est également pondéré en fonction du temps de travail de chaque salarié\xa0comme suit\xa0: \n\n\nNombre de jours calculé sur la base d’une moyenne de 3 jours de télétravail par mois et par équivalent temps plein, sur 10 mois à l’année (déduction faite des 5 semaines de congés payés, des jours de crédit d’heures, de réunion d’équipe et de formation). \nLes jours de télétravail seront proratisés pour les salariés à temps partiel de la manière suivante\xa0:\n30 / 100 x 60 = 18. Dans notre exemple, 60 représente le pourcentage d’activité du salarié. \n\nLes journées de télétravail pourront être subdivisées en demi-journées.\nUne demi-journée de télétravail est égale à 3 heures 50 de travail effectif. \nUne demi-journée de télétravail ne pourra pas être adossée à une demi-journée de congés payés ou de crédit d’heures', metadata={'source': 'T06821004734.txt'})
-
-On peut en déduire que le nombre maximal de jours de télétravail autorisé est de 3 par semaine (sur la base d'une moyenne mensuelle).
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
-* "Le nombre maximal de jours de télétravail est fixé annuellement et de façon forfaitaire. Il est également pondéré en fonction du temps de travail de chaque salarié comme suit : Nombre de jours calculé sur la base d’une moyenne de 3 jours de télétravail par mois et par équivalent temps plein, sur 10 mois à l’année (déduction faite des 5 semaines de congés payés, des jours de crédit d’heures, de réunion d’équipe et de formation)"
-
-Ma réponse :
-* nombrejourdeteletravailmaxparsemaine=3
-
-Mon raisonnement :
-* Le document mentionne une moyenne de 3 jours de télétravail par mois et par équivalent temps plein, sur 10 mois à l'année.
-* Cette information correspond à une fréquence par semaine car elle est calculée sur une base mensuelle et sur une période de 10 mois.
-* Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3.
+Q_TTSEM:Non, aucun paragraphe mentionnant explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine n'a été trouvé dans les documents fournis.

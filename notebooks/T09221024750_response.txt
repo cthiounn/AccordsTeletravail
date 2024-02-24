@@ -1,14 +1,9 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail par semaine. Voici les occurrences :
-
-* Article 6-1 : "Le nombre de jours de télétravail par semaine est de 2"
-* Article 6-2 : "Les jours de télétravail prennent la forme de jours entiers à positionner par semaine."
-* Article 6-6 : "Les collaborateurs qui bénéficient de jours de télétravail, en application de l'accord sur l'aménagement des fins de carrière et l'accompagnement des salariés partant à la retraite du 21 septembre 2020 et/ou de l'avenant relatif à l'égalité professionnelle et salariale entre les femmes et les hommes et la qualité de vie au travail du 23 juillet 2020, continuent de bénéficier des jours de télétravail en application de ces accords auxquels s'ajoute 1 ou 2 jour(s) flexible(s) de télétravail complémentaire(s) à la demande du collaborateur, en application du présent accord pour atteindre le nombre de jours maximum de télétravail par semaine sans pouvoir déroger à la règle des 2 jours de présence obligatoire sur site."
-
-Dans tous ces cas, le nombre de jours de télétravail par semaine est explicitement exprimé.
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail par semaine. Par exemple, l'article 6 mentionne que "Le nombre de jours de télétravail par semaine est de 2" et que "Ultérieurement, il pourra être décidé d'augmenter le télétravail à hauteur de 60%, soit 3 jours de télétravail par semaine". De même, l'article 6.4 mentionne une exception pour les salariés en temps partiel à 60 %, qui peuvent télétravailler un jour de plus par semaine. Enfin, l'article 6-6 mentionne que les collaborateurs qui bénéficient de jours de télétravail en application d'autres accords d'entreprise peuvent télétravailler jusqu'à un nombre maximum de jours par semaine, sans déroger à la règle des 2 jours de présence obligatoire sur site.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail prend la forme de jours entiers à positionner par semaine." (Document(page\_content='6-2 -  Jours de télétravail entiers  Le télétravail prend la forme de jours entiers à positionner par semaine.', metadata={'source': 'T09221024750.txt'}))
-* "Pour conserver un lien social et faciliter le fonctionnement des équipes : réunions d’équipes, entretiens individuels, ateliers projets, travaux qui ne peuvent être effectués en télétravail (impressions papier), une présence sur site obligatoire de 2 jours par semaine, a minima, est maintenue." (Document(page\_content='Article 5  Alternance de jours de télétravail et de jours de présence sur site  Le télétravail est organisé selon un cadre hebdomadaire d’alternance de jours de présence sur site et de jours de travail hors site de travail habituel du collaborateur.  Pour conserver un lien social et faciliter le fonctionnement des équipes : réunions d’équipes, entretiens individuels, ateliers projets, travaux qui ne peuvent être effectués en télétravail (impressions papier), une présence sur site obligatoire de 2 jours par semaine, a minima, est maintenue.', metadata={'source': 'T09221024750.txt'}))
+* Document(page\_content='6-2 - Jours de télétravail entiers \nLe télétravail prend la forme de jours entiers à positionner par semaine.\nPour les salariés à temps choisi à 90% (4,5 jours par semaine), la demi-journée de télétravail sera décomptée comme une journée entière de télétravail.\nEx.\xa0: Dans le cadre de la formule de temps de travail à 90%, M. ou Mme X ne travaille pas le mercredi après-midi\xa0; il/elle pourra télétravailler le mercredi matin ainsi qu’un autre jour de la semaine.', metadata={'source': 'T09221024750.txt'})
+* Document(page\_content='Article 6 \t\tNombre de jours de télétravail\n6-1 Nombre de jours de télétravail par semaine\nLe nombre de jours de télétravail par semaine est de 2  soit à hauteur de 40% par semaine pour les salariés à temps plein', metadata={'source': 'T09221024750.txt'})
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -16,7 +11,5 @@ Ma réponse après raisonnement ci-dessous :
 
 Mon raisonnement :
 
-* Les jours de télétravail prennent la forme de jours entiers à positionner par semaine.
-* La présence sur site obligatoire est de 2 jours par semaine, a minima.
-* Donc, le nombre maximum de jours de télétravail par semaine est de 5 - 2 = 3.
-* Cependant, le document mentionne positivement le télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site. Donc, le nombre maximum de jours de télétravail par semaine est de 5.
+* Les paragraphes extraits indiquent clairement que le télétravail prend la forme de jours entiers à positionner par semaine et que le nombre de jours de télétravail par semaine est de 2.
+* Par conséquent, un employé/travailleur/salarié/collaborateur peut télétravailler régulièrement jusqu'à 2 jours par semaine.

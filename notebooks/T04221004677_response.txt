@@ -1,12 +1,1 @@
-Q_TTSEM:
-Oui, le paragraphe "Modèle hebdomadaire" mentionne explicitement un nombre de jours de télétravail par semaine. Il stipule que "Le salarié doit être au minimum 2 jours par semaine en présentiel au bureau (soit 1 à 3 jours de télétravail par semaine)". Donc, le nombre de jours de télétravail par semaine est limité à 1, 2 ou 3.
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* "Le salarié doit être au minimum 2 jours par semaine en présentiel au bureau (soit 1 à 3 jours de télétravail par semaine)"
-* "Pour un salarié dont les missions sont éligibles au télétravail, la mise en place du télétravail revêt un caractère volontaire à l’initiative du salarié"
-
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=3
-
-Mon raisonnement :
-Le premier paragraphe indique qu'un salarié doit être présent au moins 2 jours par semaine au bureau, ce qui implique qu'il peut télétravailler jusqu'à 3 jours par semaine. Ce nombre est confirmé par le deuxième paragraphe qui précise que la mise en place du télétravail est volontaire et à l'initiative du salarié, sans mention de limitation supplémentaire.
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Les paragraphes mentionnent des nombres de jours de télétravail par mois ou sans période de temps spécifiée, mais pas par semaine.

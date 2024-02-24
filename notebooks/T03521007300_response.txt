@@ -1,14 +1,21 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de journées de télétravail autorisées par semaine. Par exemple, dans le document avec la métadonnée'source': 'T03521007300.txt', il est indiqué que "Le nombre de journées ou demi-journées autorisées en télétravail, ne représentent pas un droit de tirage pour le salarié bénéficiaire de l’autorisation, mais un nombre maximal de journées ou demi-journées de télétravail autorisées par semaine." Plus loin dans le même document, il est précisé que "Le formulaire de d’autorisation individuelle de télétravail indiquera [...] Le nombre de journées de télétravail autorisées par semaine". Ce nombre n'est pas explicitement exprimé dans le texte, mais il est clair qu'il s'agit d'un nombre maximal de journées de télétravail autorisées par semaine.
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Le nombre de journées de télétravail autorisées par semaine" (Source : T03521007300.txt)
-    * "Les plages de télétravail dans un horaire de semaine type" (Source : T03521007300.txt)
-    * "Les journées ou demi-journées autorisées en télétravail, ne représentent pas un droit de tirage pour le salarié bénéficiaire de l’autorisation, mais un nombre maximal de journées ou demi-journées de télétravail autorisées par semaine." (Source : T03521007300.txt)
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Par exemple :
 
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine = 5
+* "Le nombre de journées ou demi-journées autorisées en télétravail, ne représentent pas un droit de tirage pour le salarié bénéficiaire de l’autorisation, mais un nombre maximal de journées ou demi-journées de télétravail autorisées par semaine." (Source : T03521007300.txt, page 1)
+* "L’autorisation individuelle de télétravail prévoira les plages de télétravail dans un horaire de semaine type" (Source : T03521007300.txt, page 2)
+* "Chaque salarié doit être présent dans les locaux de l’association, a minima 2 fois par semaine pour des plages d’au moins une demi-journée" (Source : T03521007300.txt, page 2)
 
-* Mon raisonnement :
-    * Selon l'article 2 du document, chaque salarié remplit un formulaire d'autorisation individuelle de télétravail où est indiqué "Le nombre de journées de télétravail autorisées par semaine". Cette information est donc fournie dans le document.
-    * Compte tenu de la règle 2.E, il est important de vérifier si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué et s'il n'y a pas de jour de présence minimum sur site. Dans le document fourni, rien n'indique que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué. Par ailleurs, l'article 7 indique que "Chaque salarié doit être présent dans les locaux de l’association, a minima 2 fois par semaine pour des plages d’au moins une demi-journée". Par conséquent, la variable nombrejourdeteletravailmaxparsemaine reste à 5 jours par semaine.
+Cependant, aucun de ces passages n'indique explicitement le nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine. Ils indiquent simplement que le télétravail est organisé par journée ou demi-journée de travail, et que le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d'un salarié.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Chaque salarié doit être présent dans les locaux de l’association, a minima 2 fois par semaine pour des plages d’au moins une demi-journée, ce temps de présence incluant tous les motifs de missions professionnelles en dehors du lieu de travail (formation professionnelle, missions et rendez-vous professionnels)."
+* "Pour les salariés dont les plages de travail sont régulières, l’autorisation individuelle de télétravail prévoira les plages de télétravail dans un horaire de semaine type."
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+Les informations fournies indiquent que chaque salarié doit être présent dans les locaux de l’association, a minima 2 fois par semaine pour des plages d’au moins une demi-journée. Par ailleurs, pour les salariés dont les plages de travail sont régulières, l’autorisation individuelle de télétravail prévoira les plages de télétravail dans un horaire de semaine type. Ces éléments impliquent que le nombre maximum de jours de télétravail par semaine est limité à 2 jours, car les salariés doivent être présents dans les locaux de l’association au moins 2 jours par semaine.
