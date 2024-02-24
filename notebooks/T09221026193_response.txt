@@ -1,23 +1,8 @@
-Q_TTSEM:
-Oui, il y a plusieurs paragraphes qui mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum exprimé par semaine. Voici quelques exemples :
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement le nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Les seules mentions de nombres de jours de télétravail se trouvent dans les phrases suivantes :
 
-- "Le télétravail régulier pourra être limité à un jour par semaine"
-- "Le tableau ci-après présente le nombre de jours de présence minimum dans les locaux de l’Entreprise en fonction du pourcentage de la durée du travail" (avec des pourcentages traduisant des nombres de jours de télétravail par semaine)
-- "Les collaborateurs en télétravail régulier peuvent bénéficier de 2 journées de télétravail supplémentaires par mois sans pouvoir excéder 10 jours de télétravail sur un même mois civil" (ce qui implique un maximum de 5 jours par semaine)
-- "Afin de prévenir les risques d’isolement, de perte de sentiment d’appartenance à l’Entreprise, et au-delà, des impacts opérationnels que pourrait avoir une activité exercée totalement à distance, le télétravail ne peut être, au sein de l’Entreprise, une modalité continue et permanente du travail. Une limite haute de 10 jours de télétravail, par mois civil, est instituée." (ce qui implique un maximum de 2,3 jours par semaine en moyenne sur un mois)
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+* "Le nombre de jours de télétravail en mode flexible ou occasionnel est fixé au maximum à 2 jours par mois civil."
+* "Les collaborateurs en télétravail régulier peuvent bénéficier de 2 journées de télétravail supplémentaires par mois sans pouvoir excéder 10 jours de télétravail sur un même mois civil."
+* "Les collaborateurs n’ayant pas opté pour le télétravail régulier, dès lors qu’ils occupent un poste éligible, peuvent bénéficier du télétravail flexible de manière ponctuelle, sous réserve : que l’organisation collective du travail le permette, de respecter les conditions relatives au lieu d’exercice mentionnées à l’Article 3 du présent accord."
+* "Les salariés télétravailleurs peuvent ainsi, dans les mêmes conditions que tout autre salarié, exercer un mandat et disposer librement de leur crédit d’heures."
 
-* "Ces jours hebdomadaires de télétravail constituent la référence du télétravail régulier au titre du présent accord."
-* "L’évolution de l’organisation du travail au sein de l’Entreprise doit amener chaque Direction ou Département à mettre en place le nombre de jours hebdomadaires de télétravail définis ci-dessous au plus grand nombre de collaborateurs."
-
-My response is:
-
-* nombrejourdeteletravailmaxparsemaine=5
-
-My reasoning is:
-
-* The document mentions that the number of days of telework per week is defined and should be implemented for as many employees as possible.
-* There is no limitation mentioned in the document regarding the maximum number of days of telework per week, except for the fact that it cannot exceed five days per week due to the fact that there are only five working days in a week.
-* Therefore, I can infer that the maximum number of days of telework per week is five.
-* Additionally, the document does not specify any limitations or conditions that would prevent an employee from teleworking all five days of the week if they so choose.
-* Therefore, I can conclude that the variable 'nombrejourdeteletravailmaxparsemaine' should be set to 5.
+Aucune de ces phrases ne mentionne explicitement le nombre de jours de télétravail par semaine.

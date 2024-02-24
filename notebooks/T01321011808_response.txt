@@ -1,13 +1,8 @@
-Q_TTSEM:Oui, le paragraphe suivant mentionne explicitement le nombre de jours de télétravail limité par semaine :
-
-> Article 11 - Fréquence et nombre de jours en télétravail
->
-> Le nombre de jours télétravaillés est limité à deux jours complets par semaine. Il est précisé que ces jours ne peuvent être divisés en demi-journées.
-
-Source: T01321011808.txt
+Q_TTSEM:
+Oui, un paragraphe mentionne explicitement le nombre de jours de télétravail autorisé par semaine. Il s'agit de l'Article 11 qui précise que "Le nombre de jours télétravaillés est limité à deux jours complets par semaine. Il est précisé que ces jours ne peuvent être divisés en demi-journées." Cette information se trouve dans le document source T01321011808.txt.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le nombre de jours télétravaillés est limité à deux jours complets par semaine." (T01321011808.txt)
+* "Le nombre de jours télétravaillés est limité à deux jours complets par semaine. Il est précisé que ces jours ne peuvent être divisés en demi-journées." (Document(page\_content='Ces temps sont présumés être des temps de travail effectif. \n\nDurant les jours de télétravail, les collaborateurs à l’horaire devront réaliser leurs pointages habituels dans l’outil de saisie des temps. Il est expressément rappelé entre les parties que, sauf exceptions dûment validées au préalable par le manager et la Direction des ressources humaines, aucune heure excédentaire ne devra être exécutée/enregistrée. Le non-respect de cette disposition pourrait être susceptible d’entrainer l’arrêt sans délai du télétravail.\n\n\nArticle 11 - Fréquence et nombre de jours en télétravail\n\nLe nombre de jours télétravaillés est limité à deux jours complets par semaine. Il est précisé que ces jours ne peuvent être divisés en demi-journées.', metadata={'source': 'T01321011808.txt'}))
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -15,4 +10,4 @@ Ma réponse après raisonnement ci-dessous :
 
 Mon raisonnement :
 
-* Dans le document T01321011808.txt, il est spécifié que "Le nombre de jours télétravaillés est limité à deux jours complets par semaine.". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+* Les informations fournies indiquent que le nombre de jours télétravaillés est limité à deux jours complets par semaine, et qu'il n'est pas possible de diviser ces jours en demi-journées. Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' est affectée à la valeur 2.

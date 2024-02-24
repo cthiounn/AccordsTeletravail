@@ -1,9 +1,1 @@
-Q_TTSEM:Non, aucun paragraphe mentionnant un nombre de jour de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine n'a été trouvé dans les documents fournis.
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Un rythme de trois jours en télétravail et deux jours en présentiel peut être envisagé."
-    * "avec l’accord du responsable hiérarchique, un salarié pourra être amené ponctuellement à télétravailler une semaine complète"
-* Ma réponse :
-    * "nombrejourdeteletravailmaxparsemaine=3"
-* Mon raisonnement :
-    * Les extraits pertinents indiquent qu'un rythme de trois jours en télétravail et deux jours en présentiel peut être envisagé, ce qui signifie que le nombre maximum de jours de télétravail par semaine est de 3. Cependant, il est également mentionné qu'un salarié peut être amené à télétravailler une semaine complète avec l'accord du responsable hiérarchique, ce qui signifie que dans certains cas, il est possible de télétravailler 5 jours par semaine. Cependant, comme il n'est pas précisé que cela est possible de manière régulière, je ne peux pas affecter la valeur 5 à la variable 'nombrejourdeteletravailmaxparsemaine'.
+Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jour de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine. Les seules mentions de nombre de jours de télétravail se trouvent dans la phrase "Un rythme de trois jours en télétravail et deux jours en présentiel peut être envisagé." mais aucune période n'est associée à ce nombre de jours.

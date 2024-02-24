@@ -1,16 +1,1 @@
-Q_TTSEM:Non, aucun paragraphe mentionnant un nombre de jour de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine, n'a été trouvé dans les textes fournis.
-Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* "Les parties conviennent que relèvent de cette catégorie les cadres dont la durée du temps de travail ne peut être prédéterminée et qui disposent d'une réelle autonomie dans l'organisation de leur emploi du temps pour l'exercice des responsabilités qui leur sont confiées." (Document(page\_content="T09221026132.txt"))
-* "Pour ces collaborateurs, leur temps de travail sera décompté en heures sur l’année. Ils devront effectuer un maximum de 1607 heures (incluant la journée de solidarité dans l’année) sur 218 jours de travail." (Document(page\_content="T09221026132.txt"))
-
-Ma réponse :
-
-* nombrejourdeteletravailmaxparsemaine=0
-
-Mon raisonnement :
-
-* Les documents analysés ne contiennent aucune information spécifique sur le télétravail ou le nombre maximal de jours de télétravail par semaine.
-* Les informations fournies concernent principalement la gestion du temps de travail et les conditions d'emploi des cadres autonomes, sans précision quant à la possibilité de télétravail.
-* Par conséquent, je ne suis pas en mesure de fournir une réponse précise concernant le nombre maximum de jours de télétravail par semaine.
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement le nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.

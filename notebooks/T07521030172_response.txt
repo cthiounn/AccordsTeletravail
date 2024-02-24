@@ -1,12 +1,2 @@
 Q_TTSEM:
-Non, aucun paragraphe ne mentionne un nombre de jours de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine.
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "L’accord sur le télétravail au domicile au sein de BNP Paribas Securities Services du 12 octobre 2016, modifié par avenants du 3 juillet 2018, du 30 septembre 2019 et du 27 octobre 2020 est prorogé pour une période de trois mois, soit jusqu’au 30 juin 2021."
-    * "Le présent avenant est signé pour une durée déterminée de trois mois. Il cessera de plein droit de produire effet au 30 juin 2021."
-
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=0
-
-* Mon raisonnement :
-    * Les documents fournis ne contiennent aucune information spécifique concernant le nombre de jours de télétravail autorisés par semaine. Il n'y a aucune mention explicite de cette information, que ce soit sous forme de nombre ou de termes tels que "semaine" ou "fréquence hebdomadaire". De plus, rien n'indique que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué sans jour de présence minimum sur site. Par conséquent, je ne peux pas attribuer de valeur à la variable 'nombrejourdeteletravailmaxparsemaine'.
+Non, aucun paragraphe dans les documents fournis ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine, hors jours supplémentaires ou exceptionnels et hors jours de présence obligatoire sur site.

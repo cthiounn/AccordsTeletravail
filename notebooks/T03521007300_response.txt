@@ -1,16 +1,14 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Par exemple, selon l'Article 2, "Le formulaire de d’autorisation individuelle de télétravail indiquera [...] Le nombre de journées de télétravail autorisées par semaine". De même, selon l'Article 6, "Le télétravail s’organise par journée, voire demi-journée de travail ; Il ne pourra pas être pris en compte d’heures isolées de télétravail ; Le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d’un salarié, hors prises de congés." Ces passages mentionnent explicitement le nombre de jours de télétravail autorisés par semaine.
+Oui, plusieurs paragraphes mentionnent un nombre de journées de télétravail autorisées par semaine. Par exemple, dans le document avec la métadonnée'source': 'T03521007300.txt', il est indiqué que "Le nombre de journées ou demi-journées autorisées en télétravail, ne représentent pas un droit de tirage pour le salarié bénéficiaire de l’autorisation, mais un nombre maximal de journées ou demi-journées de télétravail autorisées par semaine." Plus loin dans le même document, il est précisé que "Le formulaire de d’autorisation individuelle de télétravail indiquera [...] Le nombre de journées de télétravail autorisées par semaine". Ce nombre n'est pas explicitement exprimé dans le texte, mais il est clair qu'il s'agit d'un nombre maximal de journées de télétravail autorisées par semaine.
 Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+* Extraits pertinents des documents :
+    * "Le nombre de journées de télétravail autorisées par semaine" (Source : T03521007300.txt)
+    * "Les plages de télétravail dans un horaire de semaine type" (Source : T03521007300.txt)
+    * "Les journées ou demi-journées autorisées en télétravail, ne représentent pas un droit de tirage pour le salarié bénéficiaire de l’autorisation, mais un nombre maximal de journées ou demi-journées de télétravail autorisées par semaine." (Source : T03521007300.txt)
 
-    Article 6 – Proportion du télétravail dans le temps de travail des salariés : "Le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d’un salarié, hors prises de congés."
-
-    Article 2 – Les formalités de la mise en place du télétravail : "Le nombre de journées de télétravail autorisées par semaine"
-
-* Ma réponse après raisonnement :
-
-    nombrejourdeteletravailmaxparsemaine=1
+* Ma réponse :
+    * nombrejourdeteletravailmaxparsemaine = 5
 
 * Mon raisonnement :
-
-    Selon l'article 6, le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d'un salarié, hors prises de congés. Comme il y a cinq jours ouvrés dans une semaine, cela signifie que le nombre maximum de jours de télétravail par semaine est de 1/3 x (5/7) = 0,2143 jours, soit environ 0,21 jour par semaine. Cependant, l'article 2 mentionne explicitement "Le nombre de journées de télétravail autorisées par semaine", ce qui implique que le nombre de jours de télétravail par semaine doit être un nombre entier. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 1 jour.
+    * Selon l'article 2 du document, chaque salarié remplit un formulaire d'autorisation individuelle de télétravail où est indiqué "Le nombre de journées de télétravail autorisées par semaine". Cette information est donc fournie dans le document.
+    * Compte tenu de la règle 2.E, il est important de vérifier si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué et s'il n'y a pas de jour de présence minimum sur site. Dans le document fourni, rien n'indique que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué. Par ailleurs, l'article 7 indique que "Chaque salarié doit être présent dans les locaux de l’association, a minima 2 fois par semaine pour des plages d’au moins une demi-journée". Par conséquent, la variable nombrejourdeteletravailmaxparsemaine reste à 5 jours par semaine.

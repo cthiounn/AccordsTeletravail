@@ -1,31 +1,18 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici ces paragraphes :
+Q_TTSEM:
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum, explicitement exprimés par semaine. Voici ces passages :
 
-- "De manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum." (Source : T07821008551.txt, page_content = 'Si la demande est refusée par le manager, le collaborateur est reçu par celui-ci qui lui expose les raisons de ce refus...')
+- "De manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum."
+- "Dès l’embauche, le télétravail peut s’exercer à raison d’une journée entière fixe par semaine,"
+- "Pour les collaborateurs au statut Cadre au forfait, le jour en télétravail peut être éventuellement non fixé à l’avance." (Ici, on peut comprendre qu'un seul jour de télétravail par semaine est autorisé.)
+- "Si le collaborateur télé-travaille un jour ou deux jours flottants par semaine, il convient qu’il télé-travaille un ou deux jours chaque semaine."
+- "A partir de la 18ème semaine de grossesse (5ème mois de grossesse), les salariées peuvent bénéficier d’une journée de télétravail supplémentaire par semaine"
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-- "Dès l’embauche, le télétravail peut s’exercer à raison d’une journée entière fixe par semaine, pour une période de 6 mois, à compter de la date d’embauche." (Source : T07821008551.txt, page_content = 'Si la demande est refusée par le manager, le collaborateur est reçu par celui-ci qui lui expose les raisons de ce refus...')
+* "De manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum." (Document(page\_content='Organisation du télétravail\n\n6.1. repartition des Jours en télétravail\n\nDe manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum. ', metadata={'source': 'T07821008551.txt'}))
+* "Si le collaborateur exerce initialement deux jours de télétravail par semaine\xa0: possibilité de réaliser 8 jours de télétravail sur le mois." (Document(page\_content='En cas de circonstances exceptionnelles personnelles, le collaborateur peut, avec l’accord de son manager, aménager la répartition des jours télé-travaillés de façon mensuelle.\n\nDans les deux cas, l’organisation du télétravail est la suivante\xa0: \nSi le collaborateur exerce initialement une journée de télétravail par semaine : possibilité de réaliser 4 jours en télétravail sur le mois\xa0; \nSi le collaborateur exerce initialement deux jours de télétravail par semaine\xa0: possibilité de réaliser 8 jours de télétravail sur le mois. \n\n\n6.3. Durée du travail\n\nAfin de vérifier le respect de la réglementation concernant la durée de travail, tous les collaborateurs doivent déclarer les jours télé-travaillés par le biais de l’outil du contrôle du temps de travail.\n\nEn outre, le télétravailleur s’engage à respecter la durée de travail qui est définie dans son contrat de travail ainsi que les horaires de travail définis', metadata={'source': 'T07821008551.txt'}))
 
-- "Il appartient alors au manager, en raison de l’organisation du service, de déterminer l’organisation du télétravail pour ce collaborateur. Si le collaborateur télé-travaille un jour ou deux jours flottants par semaine, il convient qu’il télé-travaille un ou deux jours chaque semaine." (Source : T07821008551.txt, page_content = 'Pour les collaborateurs au statut Cadre au forfait, le jour en télétravail peut être éventuellement non fixé à l’avance...')
-
-- "En cas d’impossibilité pour un collaborateur de télé-travailler lors du jour prévu, le télétravailleur ne pourra pas reporter sa journée de télétravail sur les semaines suivantes." (Source : T07821008551.txt, page_content = 'Pour les collaborateurs au statut Cadre au forfait, le jour en télétravail peut être éventuellement non fixé à l’avance...')
-
-- "Un collaborateur absent plus d’un mois continu pourra être amené à restituer, au prorata, l’indemnité forfaitaire déjà versée." (Source : T07821008551.txt, page_content = 'Un collaborateur absent plus d’un mois continu pourra être amené à restituer, au prorata, l’indemnité forfaitaire déjà versée.')
-
-- "Si un collaborateur, exerçant déjà le télétravail depuis au moins 6 mois, souhaite s’équiper à titre personnel pour le télétravail, il peut demander à percevoir deux années d’indemnités forfaitaires de manière anticipée. Il devra dès lors présenter une facture. En cas d’arrêt du télétravail ou en cas de départ du collaborateur avant les deux années de télétravail, ce dernier devra restituer l’indemnité forfaitaire à HEC Paris, au prorata." (Source : T07821008551.txt, page_content = 'Un collaborateur absent plus d’un mois continu pourra être amené à restituer, au prorata, l’indemnité forfaitaire déjà versée.')
-
-- "En fonction de la durée du travail prévue au contrat de travail, ceux-ci peuvent bénéficier d’une demi-journée, d’une journée ou d’une journée et demie de télétravail par semaine, afin qu’ils soient présents sur site au moins trois jours par semaine." (Source : T07821008551.txt, page_content = 'En fonction de la durée du travail prévue au contrat de travail, ceux-ci peuvent bénéficier d’une demi-journée, d’une journée ou d’une journée et demie de télétravail par semaine, afin qu’ils soient présents sur site au moins trois jours par semaine.')
-
--
-Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* "De manière générale, le télétravail s’exerce à raison de deux journées fixes par semaine maximum." (Source: T07821008551.txt)
-* "Si le collaborateur exerce initialement deux jours de télétravail par semaine : possibilité de réaliser 8 jours de télétravail sur le mois." (Source: T07821008551.txt)
-
-Ma réponse :
-
-* nombrejourdeteletravailmaxparsemaine = 2
+Ma réponse après raisonnement ci-dessous :
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-
-* Selon le premier paragraphe, le télétravail s'exerce à raison de deux journées fixes par semaine maximum. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
-* Le deuxième paragraphe ne nous apporte pas d'information supplémentaire pour répondre à la question posée.
+Après analyse des documents fournis, je constate que le télétravail est possible jusqu'à deux jours par semaine. Cette information est mentionnée dans le premier paragraphe extrait. Les autres paragraphes ne fournissent pas d'informations supplémentaires sur le nombre maximal de jours de télétravail par semaine.

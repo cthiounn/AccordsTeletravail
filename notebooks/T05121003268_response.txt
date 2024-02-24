@@ -1,19 +1,1 @@
 Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
-Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-> "Afin de maintenir le lien social, la cohésion et le bon fonctionnement des équipes, le salarié télétravailleur à temps plein devra disposer d'au moins 12 jours de présence par an dans les locaux de l’entreprise à Reims ou dans tout autre endroit où peut être organisée une réunion, une manifestation auxquelles participent d’autres salariés et le salarié télétravailleur à temps partiel de 7 jours de présence minimum."
-
-> "Le télétravail s’exercera dans le respect des dispositions légales et conventionnelles applicables en matière de temps de travail. [...] Les salariés en forfait jours gèrent librement leur temps de travail, dans le cadre d’un dialogue régulier avec leur supérieur hiérarchique, en tenant compte impérativement des contraintes organisationnelles de l’entreprise, en particuliers des exigences liées à la satisfaction des adhérents."
-
-* Ma réponse après raisonnement :
-
-nombrejourdeteletravailmaxparsemaine=5
-
-* Mon raisonnement :
-
-Le premier paragraphe indique que le salarié télétravailleur à temps plein doit disposer d'au moins 12 jours de présence par an dans les locaux de l'entreprise. Cependant, cela ne nous permet pas de déterminer le nombre maximum de jours de télétravail par semaine.
-
-Le deuxième paragraphe indique que les salariés en forfait jours gèrent librement leur temps de travail. Cependant, cela ne nous permet pas non plus de déterminer le nombre maximum de jours de télétravail par semaine.
-
-Cependant, l'instruction 2E stipule que si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine. Or, dans le document, il n'est fait aucune mention de jour de présence minimum sur site. Par conséquent, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.

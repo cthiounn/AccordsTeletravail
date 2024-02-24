@@ -1,10 +1,1 @@
 Q_TTSEM:Non, aucun paragraphe mentionnant un nombre de jours de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine n'a été trouvé dans les documents fournis.
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
-
-* "La mise en place du «télétravail à 100%» fera l’objet d’une convention de télétravail (Annexe 2). Celle-ci définit notamment le lieu d’exercice des fonctions du collaborateur, à savoir son domicile,"
-* "Les collaborateurs concernés par le recours au «télétravail à 100%» bénéficieront d’une indemnité journalière forfaitaire par jour travaillé en télétravail basée sur le Barème URSSAF en vigueur au moment de la demande (à la date de la signature du présent accord l’indemnité est de 6,70 €)."
-
-My response is:
-nombrejourdeteletravailmaxparsemaine=5
-
-My reasoning is that the document mentions positively the Télétravail à 100%, or the full-remote, and there is no mention of any day of presence minimum on site. Therefore, according to instruction 2.E, 5 days of telework is possible per week.

@@ -1,25 +1,17 @@
 Q_TTSEM:
-Oui, le paragraphe suivant mentionne un nombre de jours de télétravail autorisés explicitement exprimé par semaine :
+Oui, le paragraphe suivant mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine :
 
-> Article 10 : Répartition des jours de travail
-> 
-> Afin, de maintenir le lien social du salarié avec sa communauté de travail, l’activité exercée en télétravail ne pourra excéder
-> 
-> Une journée complète par semaine pour les salariés éligibles au télétravail, à temps partiel
-> 
-> Une à deux journées complètes maximum par semaine pour les autres salariés éligibles au télétravail.
+"Afin, de maintenir le lien social du salarié avec sa communauté de travail, l’activité exercée en télétravail ne pourra excéder :
+- Une journée complète par semaine pour les salariés éligibles au télétravail, à temps partiel
+- Une à deux journées complètes maximum par semaine pour les autres salariés éligibles au télétravail."
 
-Il est indiqué que les salariés éligibles au télétravail, à temps partiel, ne peuvent pas dépasser une journée complète de télétravail par semaine, et que les autres salariés éligibles au télétravail ne peuvent pas dépasser deux journées complètes de télétravail par semaine.
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* "Le ou les jours de télétravail sont choisis en concertation avec le manager et la Direction Générale, au regard des impératifs du service et du flex par équipe. [...] Une planification sera opérée en respectant le même nombre de jours télétravaillés prévus sur une semaine." (Document(page\_content='Le ou les jours de télétravail sont choisis en concertation avec le manager et la Direction Générale, au regard des impératifs du service et du flex par équipe. Le manager ou le salarié pourra demander à modifier de façon exceptionnelle le jour télétravaillé sous réserve d’un délai de prévenance minimum de 2 jours ouvrés. Le déplacement du jour télétravaillé dans la semaine nécessite l’accord du manager.\n\nPar exception, les jours de télétravail pourront être variables avec l’autorisation du manager. En tout, état de cause, une planification sera opérée en respectant le même nombre de jours télétravaillés prévus sur une semaine.', metadata={'source': 'T09221025668.txt'}))
-* "La réussite du télétravail nécessite une capacité du télétravailleur et du manager à s’organiser, à s’adapter à ce mode d’organisation du travail et à communiquer de manière fluide." (Document(page\_content='Les conditions d’accès au télétravail en cas de circonstances exceptionnelles sont définies au titre V du présent accord.\n\nSont éligibles au télétravail régulier les salariés\xa0:\n\nTitulaires d’un contrat à durée indéterminée ou déterminée. \n\nAvec 6 mois d’ancienneté dans le poste. \n\nA temps plein ou temps partiel travaillant au minimum à 80% du temps de travail tel qu’issu des dispositions des accords relatifs à la durée du travail en vigueur.\xa0\n\nAvec une période d’essai validée et n’étant pas en période de préavis.\n\nDisposant des aptitudes suffisantes pour tenir leur poste à distance et organiser leur travail sans soutien managérial rapproché.\n\nLa réussite du télétravail nécessite une capacité du télétravailleur et du manager à s’organiser, à s’adapter à ce mode d’organisation du travail et à communiquer de manière fluide.', metadata={'source': 'T09221025668.txt'}))
+Source : T09221025668.txt, page content, Article 10 : Répartition des jours de travail
+Q_TTSEM_NOMBRE:Extraction pertinente des documents :
+* "Le salarié s’engage à effectuer son télétravail à son domicile habituel... Une journée complète par semaine pour les salariés éligibles au télétravail, à temps partiel"
+* "Une à deux journées complètes maximum par semaine pour les autres salariés éligibles au télétravail."
 
 Ma réponse :
-nombrejourdeteletravailmaxparsemaine=2
+nombrejourdeteletravailmaxparsemaine = 2
 
 Mon raisonnement :
-Après avoir analysé les deux paragraphes pertinents, je constate que le premier paragraphe indique qu'une planification sera opérée en respectant le même nombre de jours télétravaillés prévus sur une semaine. Cependant, aucun chiffre n'est associé à cette phrase. Par conséquent, je ne peux pas utiliser cette information pour déterminer le nombre maximum de jours de télétravail par semaine.
-Le deuxième paragraphe ne contient aucune information pertinente pour répondre à la question posée.
-Par conséquent, je ne suis pas en mesure de fournir une réponse basée sur les informations fournies dans les documents. Cependant, en appliquant les instructions données, je vais affecter la valeur 0 à la variable nombrejourdeteletravailmaxparsemaine car aucune information ne permet de déterminer cette valeur.
-Cependant, en prenant en compte l'instruction 2E, je vérifie si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site. Après avoir analysé tous les documents, je constate qu'aucun d'entre eux ne mentionne explicitement le télétravail
+Après analyse des documents, je constate que le maximum de jours de télétravail par semaine pour les salariés éligibles à temps complet est de deux jours. Cette information est contenue dans les phrases "Le salarié s’engage à effectuer son télétravail à son domicile habituel... Une journée complète par semaine pour les salariés éligibles au télétravail, à temps partiel" et "Une à deux journées complètes maximum par semaine pour les autres salariés éligibles au télétravail.". Par conséquent, je peux conclure que le nombre maximum de jours de télétravail par semaine est de 2, ce qui correspond à la variable 'nombrejourdeteletravailmaxparsemaine'.

@@ -1,13 +1,2 @@
 Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
-
-* "Le choix du jour de télétravail est à l’initiative du salarié, sous réserve de l’accord du supérieur hiérarchique."
-* "Les jours de télétravail régulier et occasionnel ne se cumulent pas au cours d’un même mois."
-* "Le salarié disposera d’un volume de 94 jours de télétravail occasionnel par an"
-
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=5
-
-Mon raisonnement :
-Le document mentionne que le choix du jour de télétravail est à l'initiative du salarié, sous réserve de l'accord du supérieur hiérarchique. Cependant, il ne précise pas de limite hebdomadaire pour le télétravail régulier. En revanche, il est mentionné que le salarié dispose d'un volume de 94 jours de télétravail occasionnel par an, mais cela ne concerne pas le télétravail régulier. Comme le télétravail régulier et occasionnel ne se cumulent pas au cours d'un même mois, nous pouvons supposer qu'il n'y a pas de limite hebdomadaire pour le télétravail régulier. De plus, il n'y a aucune mention de jour de présence minimum sur site, donc si le télétravail à 100% ou le full-remote est autorisé, alors le nombre maximal de jours de télétravail par semaine est de 5.
+Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Les seuls nombres de jours de télétravail mentionnés dans les documents ne sont pas associés à une périodicité spécifique de semaine.

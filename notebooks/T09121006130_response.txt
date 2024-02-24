@@ -1,17 +1,20 @@
 Q_TTSEM:
-Oui, le document contient plusieurs paragraphes mentionnant un nombre de jours de télétravail autorisé par semaine. Voici les occurrences :
+Oui, un paragraphe mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Il s'agit du document intitulé "Au vu de sa mise en oeuvre depuis le mois de Mars 2020, il est apparu nécessaire d'apporter quelques ajustements de manière durable...". Dans ce document, il est stipulé que "Il sera désormais possible d'effectuer du télétravail à raison de DEUX jours par semaine".
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-- "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine"
-- "Temps partiel 80 % / 1 journée de télétravail possible, 3 jours sur site"
-- "Temps partiel 60 % / 1 journée de télétravail possible, 2 jours sur site"
-- "Temps partiel 40 % / pas de télétravail possible, 2 jours sur site"
+* "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine"
 
-Dans chaque cas, le nombre de jours de télétravail par semaine est explicitement mentionné.
-Q_TTSEM_NOMBRE:* Extraits pertinents :
-    * "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine"
-    * "le télétravail est organisé de telle sorte que le salarié à temps plein soit présent dans l’entreprise au moins 3 jours par semaine."
-* Réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
-* Raisonnement :
-    * Selon l'article 1, il est possible d'effectuer du télétravail à raison de deux jours par semaine.
-    * De plus, selon l'alinéa suivant, le salarié doit être présent dans l'entreprise au moins trois jours par semaine, ce qui signifie qu'il ne peut pas travailler plus de deux jours à distance.
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+* La réponse se trouve dans le premier paragraphe extrait.
+* Les parties ont convenu que les salariés peuvent effectuer du télétravail à raison de DEUX jours par semaine.
+* Je m'assure que la réponse se trouve bien dans le texte indiqué.
+* Je ne fais aucune supposition ni d'hypothèses.
+* Je ne fais aucun calcul de proratisation.
+* Je ne fais aucun lien entre l'effectif d'un service et le nombre de jour de télétravail.
+* Le document mentionne positivement le Télétravail à 100%, mais il y a une journée de présence minimum sur site, donc je ne peux pas affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.
+* Je ne trouve pas d'autres valeurs ou informations qui me permettraient de déterminer cette valeur, donc je retourne nombrejourdeteletravailmaxparsemaine à 2.

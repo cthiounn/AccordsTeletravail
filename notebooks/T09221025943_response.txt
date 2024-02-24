@@ -1,20 +1,22 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les occurrences :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici ces paragraphes :
 
-- De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise
-- De 1 à 3 jours flottants par semaine
-- Un forfait mensuel de 6 jours (dans ce cas, il faut diviser le nombre de jours par la période correspondante, soit 4.3 jours par semaine en moyenne)
-- Un forfait annuel de 30 jours (soit environ 0.58 jours par semaine)
+- "De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise"
+- "De 1 à 3 jours flottants par semaine"
+- "1 jour de télétravail par semaine ouvre droit à une indemnisation d’un montant de 5 euros par mois"
+- "2 jours de télétravail par semaine ouvrent droit à une indemnisation d’un montant de 10 euros par mois"
+- "3 jours de télétravail par semaine ouvrent droit à une indemnisation d’un montant de 15 euros par mois"
+- "1 jour supplémentaire de télétravail pourra être accordé en plus hebdomadairement après accord du manager (ou 20% de jours supplémentaires sur les forfaits mensuels ou annuels)"
+
+Ces paragraphes mentionnent explicitement un nombre de jours de télétravail autorisés par semaine, qui est compris entre 1 et 3 jours.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise"
-* "Ou un forfait mensuel de 6 jours"
+* "De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise " (Source: T09221025943.txt)
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=3
+* nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
 
-* Selon le premier paragraphe, les collaborateurs ont la possibilité de télétravailler de 1 à 3 jours fixes par semaine. Donc, le nombre maximum de jours de télétravail par semaine est de 3.
-* Dans le deuxième paragraphe, il est mentionné un forfait mensuel de 6 jours, mais cela ne signifie pas que les collaborateurs peuvent télétravailler 6 jours par semaine, car il s'agit d'un forfait mensuel. Par conséquent, le nombre maximum de jours de télétravail par semaine reste de 3.
+* Selon le paragraphe "De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise", il est possible pour les collaborateurs de télétravailler jusqu'à 3 jours par semaine. Donc, nombrejourdeteletravailmaxparsemaine=3.

@@ -1,15 +1,11 @@
 Q_TTSEM:
-Oui, le document contient un paragraphe mentionnant un nombre de jours de télétravail autorisé par semaine. Il s'agit du paragraphe intitulé "4. Mise en place du télétravail" qui précise que "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine".
-Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Oui, un paragraphe mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Il s'agit du paragraphe intitulé "2. Périmètre du présent accord" qui stipule que "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine".
+Q_TTSEM_NOMBRE:Extraction pertinente du document :
 
-    "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine (de par la nature de leur fonction, les commerciaux ne sont pas concernés par cette disposition)."
-    
-* Ma réponse après raisonnement ci-dessous :
+* "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine"
 
-    nombrejourdeteletravailmaxparsemaine=2
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=2
 
-* Mon raisonnement :
-
-    Le paragraphe pertinent est le suivant : "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine (de par la nature de leur fonction, les commerciaux ne sont pas concernés par cette disposition)."
-    Cette phrase indique clairement que le nombre maximal de jours de télétravail par semaine est de 2.
+Mon raisonnement :
+Le document mentionne explicitement que le nombre maximum de jours de télétravail par semaine est de deux. Cette information est issue du paragraphe "2. Périmètre du présent accord".

@@ -1,17 +1,2 @@
 Q_TTSEM:
-Non, aucun paragraphe des documents fournis ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine, hors jours supplémentaires ou exceptionnels et hors jours de présence obligatoire sur site.
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "Les parties conviennent cependant que si la pandémie devait prendre fin avant le terme de cet avenant, les parties engageraient de nouvelles négociations afin de faire évoluer si besoin la durée et/ou les modalités de mise en œuvre de la phase expérimentale."
-* "Les parties signataires de l’accord Qualité de vie au travail, volet 2, sur le télétravail, conclu le 19 décembre 2019, ont convenu de proroger l’accord d’entreprise, dans toutes ses dispositions, jusqu’au 28 février 2022."
-
-Ma réponse après raisonnement ci-dessous :
-
-* nombrejourdeteletravailmaxparsemaine=0
-
-Mon raisonnement :
-
-* Les informations fournies dans les documents ne permettent pas de déterminer le nombre maximal de jours de télétravail possibles par semaine.
-* De plus, aucune information relative aux modalités de télétravail n'est fournie dans les documents, empêchant ainsi de savoir si le télétravail à 100% ou le full-remote est autorisé ou non.
-* Par conséquent, je ne peux pas attribuer une valeur à la variable 'nombrejourdeteletravailmaxparsemaine'.
+Non, aucun paragraphe ne mentionne un nombre de jours de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine.

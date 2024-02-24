@@ -1,13 +1,1 @@
 Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
-
-* "Le télétravail se fait sur des jours fixes."
-* "Afin de préserver le lien social avec l’entreprise, la cohésion and the good functioning of teams, the telework is limited so that the employee is present in the company at least three days per week."
-
-My response after reasoning is:
-
-* nombrejourdeteletravailmaxparsemaine=3
-
-My reasoning is:
-
-The first paragraph indicates that telework is done on fixed days, but it does not specify the number of days. The second paragraph indicates that the employee must be present in the company at least three days a week, which implies that telework can be done for a maximum of two days a week. Therefore, the value of the variable 'nombrejourdeteletravailmaxparsemaine' is 2. However, since the instructions indicate that if the telework to 100% or the full-remote is authorized or positively mentioned without a minimum presence day on site, then the value of the variable 'nombrejourdeteletravailmaxparsemaine' should be 5, I will update the value to 5.

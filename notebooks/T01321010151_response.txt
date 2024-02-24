@@ -1,11 +1,14 @@
 Q_TTSEM:
-Non, aucun paragraphe mentionnant un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine n'a été trouvé dans les documents fournis.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Le télétravailleur dispose d’une priorité pour reprendre ou occuper un poste sans télétravail qui correspond à ses qualifications et compétences professionnelles." (T01321010151.txt)
-* "Le télétravail doit s’articuler avec le principe du respect de la vie privée du salarié." (T01321010151.txt)
+Oui, le paragraphe "4-3 – Fréquence du télétravail" mentionne explicitement qu'un salarié éligible au télétravail peut en bénéficier dans la limite d'un jour par semaine.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=0
+* "Each eligible teleworker may benefit from it within the limit of one day per week."
+* "The work time of the teleworker is articulated in the same conditions as the work time of other employees of the company."
 
-Mon raisonnement :
-* Après analyse des documents fournis, je n'ai pas trouvé de paragraphe indiquant explicitement le nombre de jours de télétravail autorisés par semaine, dans le cadre d'un télétravail régulier et non occasionnel. De plus, rien n'indique que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué, et encore moins qu'il n'y a pas de jour de présence minimum sur site. Par conséquent, je ne peux pas affecter la variable 'nombrejourdeteletravailmaxparsemaine' à une valeur supérieure à 0.
+My response after reasoning is:
+
+* nombrejourdeteletravailmaxparsemaine=1
+
+My reasoning is:
+
+* The first paragraph explicitly states that each eligible teleworker can benefit from teleworking up to one day per week. Therefore, the maximum number of days of telework per week is 1.

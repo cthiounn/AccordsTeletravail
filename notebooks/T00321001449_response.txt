@@ -1,13 +1,15 @@
 Q_TTSEM:
-Oui, l'Article 3 du document T00321001449.txt mentionne explicitement qu'un jour de télétravail par semaine est accordé sur la base du volontariat.
+Oui, le paragraphe suivant mentionne explicitement qu'un jour de télétravail par semaine est accordé sur la base du volontariat :
+
+"Article 3 – Règles de maintien du télétravail
+L’employeur accorde un jour de télétravail par semaine sur la base du volontariat"
+
+Source: T00321001449.txt, Article 3.
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
-    * "L’employeur accorde un jour de télétravail par semaine"
-    * "Les dispositions du présent accord ont pour objet de définir les règles allégées du télétravail pendant la période du 14/06/2021 jusqu’au 31/08/2021"
-    * "Les organisations syndicales représentatives de salariés et Délégués Syndicaux CFDT, Délégué Syndical FO d’autre part Il est convenu ce qui suit : Préambule Le gouvernement a annoncé et mis en œuvre des mesures de déconfinement, en lien avec l’amélioration de la situation sanitaire, qui démarrent plus particulièrement à compter du 09/06/2021. Néanmoins si ces mesures ont été prises, le gouvernement estime qu’il n’existe pas encore une absence totale de risque, ce qui suppose de ne pas annuler totalement le télétravail mais d’alléger le dispositif."
-
+    * "L’employeur accorde un jour de télétravail par semaine sur la base du volontariat"
+    * "Les dispositions du présent accord ont pour objet de définir les règles allégées du télétravail pendant la période du 14/06/2021 jusqu’au 31/08/2021 au sein de Ligier Group."
 * Ma réponse :
     * nombrejourdeteletravailmaxparsemaine=1
-
 * Mon raisonnement :
-    * Dans le premier extrait, il est stipulé que l'employeur accorde un jour de télétravail par semaine. Ce jour est fixe et non modifiable, donc le nombre maximal de jours de télétravail par semaine est de 1.
+    * Selon l'article 3 du document, l'employeur accorde un jour de télétravail par semaine sur la base du volontariat. Cette disposition est valable jusqu'au 31/08/2021. Par conséquent, un employé peut télétravailler un jour par semaine durant cette période.

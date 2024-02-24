@@ -1,23 +1,18 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici les occurrences trouvées :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici les occurrences trouvées :
 
-- Dans le document avec la métadonnée'source' égale à 'T04421009471.txt' et la page\_content commençant par '3.3.2 Planification des jours de télétravail', il est indiqué que « si son activité le permet, le salarié en télétravail définit dans la semaine quels seront les jours en télétravail, en accord avec son responsable hiérarchique. Dans le cas où les jours en télétravail ne peuvent être fixes, le salarié en accord avec son responsable hiérarchique, informe régulièrement ce dernier (au moins 48 heures à l’avance) des jours prévus en télétravail dans la semaine qui vient. Sauf circonstances exceptionnelles, un délai de prévenance de 48 heures doit être respecté par la Société pour modifier un jour planifié en télétravail. » Il n'y a pas de nombre de jours spécifiquement mentionné, mais on peut en déduire qu'il n'y a pas de limite maximale de jours de télétravail par semaine, sous réserve de l'accord du responsable hiérarchique et de l'accomplissement des prestations opérationnelles.
+- "Pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine."
+- "Un salarié souhaitant télétravailler plus de 2 jours par semaine ou à temps complet doit se rapprocher du service RH..."
+- "...à raison d’un volume pouvant atteindre X journées par semaine."
+- "Si son activité le permet, le salarié en télétravail définit dans la semaine quels seront les jours en télétravail, en accord avec son responsable hiérarchique."
 
-- Dans le document avec la métadonnée'source' égale à 'T04421009471.txt' et la page\_content commençant par 'Pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine.', il est indiqué que la fréquence du télétravail régulier pour les salariés à temps partiel est limitée à une journée par semaine.
+Notez que dans certains cas, le nombre de jours n'est pas explicitement donné mais plutôt décrit comme variable ou défini par le salarié et son responsable hiérarchique.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
-- Dans le document avec la métadonnée'source' égale à 'T04421009471.txt' et la page\_content commençant par 'ARTICLE 1 : DURÉE ET FRÉQUENCE', il est indiqué que le salarié pourra exercer son activité professionnelle en télétravail par journée ou demi-journée, à raison d’un volume pouvant atteindre X journées par semaine. La valeur de X n'est pas précisée dans le texte, mais il est fait référence à un volume de jours de télétravail par semaine.
+* "Pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine."
+* "Un salarié souhaitant télétravailler plus de 2 jours par semaine ou à temps complet doit se rapprocher du service RH pour étudier les motivations et définir son éligibilité"
 
-Notez que je suis un expert juridique et non un programmeur informatique, donc je ne peux pas vous aider à peupler et mettre à jour une base de données. Je peux simplement vous fournir les informations pertinentes extraites des documents fournis, en me concentrant uniquement sur le nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+My response is:
+nombrejourdeteletravailmaxparsemaine=2
 
-* "A compter du x, suite à la demande du salarié, il a été défini que le salarié pourra exercer son activité professionnelle en télétravail par journée ou demi-journée, à raison d’un volume pouvant atteindre X journées par semaine."
-* "Le télétravail régulier à temps partiel (salarié en télétravail pour un volume de jours équivalent à quelques jours de sa semaine habituelle de travail, chaque semaine)"
-
-Ma réponse après raisonnement ci-dessous :
-
-* nombrejourdeteletravailmaxparsemaine=X
-
-Mon raisonnement :
-
-* Le premier paragraphe indique que le salarié peut télétravailler un volume pouvant atteindre X journées par semaine. Donc, le nombre maximum de jour de télétravail par semaine est X.
-* Le deuxième paragraphe ne donne pas de valeur numérique explicite, donc je ne peux pas utiliser cette information pour déterminer la valeur de nombrejourdeteletravailmaxparsemaine.
+My reasoning is that the first paragraph states that for part-time employees, the frequency of regular telework is limited to one day per week. The second paragraph suggests that a salaried employee wishing to work more than two days per week or full time must consult with the HR department to study their motivations and eligibility. This implies that working more than two days per week is possible but requires approval. Therefore, the maximum number of days of telework per week is two.

@@ -1,15 +1,20 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les occurrences :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici les occurrences :
 
-- "Il est convenu par les signataires au regard de la note contextuelle, la mise en oeuvre d’une période dite « de transition » de 3 mois pour 1 jour de télétravail par semaine"
-- "Soit d’une enveloppe jours de télétravail, définie à hauteur de 25 jours pendant une période de 3 mois (période de réversibilité) et d’une période de 3 mois supplémentaire (période de transition) ; avec possibilité à l’issue de 6 mois de bénéficier de 50 jours maximum sur une année civile."
+- "Le télétravail est organisé au sein de la caisse sous deux formes... Soit à raison d'un jour fixe par semaine..." (Source : T08721002004.txt, page_content line 11)
+- "Soit d'une enveloppe jours de télétravail, définie à hauteur de 25 jours pendant une période de 3 mois... avec possibilité à l'issue de 6 mois de bénéficier de 50 jours maximum sur une année civile" (Source : T08721002004.txt, page_content line 13)
+- "Période transitoire avec possibilité de bénéficier jusqu'à 2 jours de télétravail par semaine" (Source : T08721002004.txt, page_content line 1)
+- "Mise en oeuvre d’une période dite « de transition » de 3 mois pour 1 jour de télétravail par semaine" (Source : T08721002004.txt, page_content line 2)
+- "A l’issue de cette période, il peut être mis fin, par accord des parties, au télétravail avant le terme initialement prévu dans l’avenant au contrat de travail, sous réserve de respecter un préavis, qui sauf accord des parties est de 30 jours pour l’employeur et de 15 jours pour le salarié. Le salarié retrouve son poste et ses conditions de travail antérieures." (Source : T08721002004.txt, page_content line 10)
 
-Cependant, ces nombres sont associés à des périodes de temps spécifiques (période de transition et période de réversibilité). Il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine, hors jours supplémentaires ou exceptionnels et hors jours de présence obligatoire sur site, qui ne soit pas associée à une période de temps spécifique.
+Réponse : Oui, il existe des mentions de nombres de jours de télétravail autorisés, recommandés, limités ou maximum par semaine dans les paragraphes fournis.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Afin de maintenir un lien suffisant entre le salarié et l’organisme, et notamment, de ne pas altérer le lien avec l’équipe de travail, le télétravailleur doit être présent dans son service au moins deux jours par semaine, quelle que soit la durée de son temps de travail."
 
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=2
+* "Période transitoire avec possibilité de bénéficier jusqu’à 2 jours de télétravail par semaine"
+* "Soit à raison d’un jour fixe par semaine quel que soit son temps de travail pendant une période de 3 mois (période de réversibilité) et d’une période de 3 mois supplémentaire (période de transition)… Soit d’une enveloppe jours de télétravail, définie à hauteur de 25 jours pendant une période de 3 mois (période de réversibilité) et d’une période de 3 mois supplémentaire (période de transition)… avec possibilité à l’issue de 6 mois de bénéficier de 50 jours maximum sur une année civile"
+
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-* Les informations fournies indiquent que le télétravailleur doit être présent dans son service au moins deux jours par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2, ce qui correspond à la variable 'nombrejourdeteletravailmaxparsemaine'.
+Après analyse des deux paragraphes pertinents, je constate que le maximum de jours de télétravail par semaine est de 2 jours. En effet, il est mentionné "Période transitoire avec possibilité de bénéficier jusqu’à 2 jours de télétravail par semaine". De plus, dans le deuxième paragraphe, il est mentionné que le télétravail est possible "un jour fixe par semaine", ce qui confirme que le maximum de jours de télétravail par semaine est de 2.

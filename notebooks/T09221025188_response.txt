@@ -1,15 +1,2 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement le nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
-Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* "Le salarié ne pourra pas prendre plus de 3 jours consécutifs de télétravail et les journées de télétravail devront être prises par journée entière"
-* "Le temps de travail d’un télétravailleur est évalué au regard du temps de présence dans les locaux de l’employeur et de celui réalisé en situation de télétravail."
-
-Ma réponse :
-
-* nombrejourdeteletravailmaxparsemaine=3
-
-Mon raisonnement :
-
-* Les informations fournies indiquent que le salarié ne peut pas prendre plus de 3 jours consécutifs de télétravail, ce qui implique que le nombre maximum de jours de télétravail par semaine est de 3.
-* Cette information est confirmée par la phrase "Le temps de travail d’un télétravailleur est évalué au regard du temps de présence dans les locaux de l’employeur et de celui réalisé en situation de télétravail.", qui montre que le télétravail est considéré comme une exception au temps de présence dans les locaux de l’employeur, et non comme une activité normale à temps plein.
+Q_TTSEM:
+Non, aucun paragraphe ne mentionne explicitement le nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.

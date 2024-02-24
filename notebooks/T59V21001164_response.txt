@@ -1,9 +1,1 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
-Q_TTSEM_NOMBRE:Extraction pertinente des documents :
-* "L’employeur confirme que le télétravail comme mode de travail régulier, n’est pas envisagé par Ecoburotic. Ceci pour les raisons régulièrement évoquées d’organisation et d’animation des équipes." (T59V21001164.txt)
-
-Ma réponse :
-* nombrejourdeteletravailmaxparsemaine=0
-
-Mon raisonnement :
-* Le document mentionne explicitement que le télétravail comme mode de travail régulier n’est pas envisagé par l’employeur. Par conséquent, il n’y a pas de nombre de jour de télétravail par semaine spécifié dans le document.
+Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jour de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine.

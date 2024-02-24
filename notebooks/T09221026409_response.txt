@@ -1,22 +1,18 @@
 Q_TTSEM:
 Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les occurrences :
 
-- Article 1. 2. 1. Formule de télétravail standard : "2 ou 3 jours de télétravail par semaine"
-- Article 1. 2. 2. Formules de télétravail occasionnel : "35 jours de télétravail par année civile (sans cumul d’une année sur l’autre), qui peuvent être en journée ou demi-journée"
-- Article 1. 2. 3. Cas d’exceptions : "plus de 3 jours de télétravail par semaine"
-
-Dans ces trois cas, le nombre de jours de télétravail par semaine est explicitement mentionné.
+- "2 ou 3 jours de télétravail par semaine" (Source : T09221026409.txt, page_content : '2 ou 3 jours de télétravail par semaine')
+- "Des jours prédéterminés avec souplesse" (Source : T09221026409.txt, page_content : 'Des jours prédéterminés avec souplesse')
+- "Une enveloppe de 15 jours maximum par année civile (sans cumul d’une année sur l’autre)" (Source : T09221026409.txt, page_content : 'Une enveloppe de 15 jours maximum par année civile (sans cumul d’une année sur l’autre)')
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Tout salarié éligible peut bénéficier, selon ses souhaits, de 2 ou 3 jours de télétravail par semaine"
-* "Les parties s’accordent sur le fait d’ouvrir la possibilité de télétravail à partir de l’étranger à hauteur de 30 jours/an ; le salarié étant seul responsable de toutes les formalités nécessaires à sa décision auprès des organismes compétents et coûts afférents éventuels."
+* "2. 1. Formule de télétravail standard\n2 ou 3 jours de télétravail par semaine"
+* "Des jours prédéterminés avec souplesse"
 
 Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=3
+Ma réponse : nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
 
-* Les paragraphes indiquent clairement qu'un salarié éligible peut bénéficier de 2 ou 3 jours de télétravail par semaine.
-* Il n'y a pas d'autres mentions de fréquence de télétravail par semaine dans les documents fournis.
-* Les informations ne permettent pas de déterminer si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué, et s'il n'y a pas de jour de présence minimum sur site.
+Le premier paragraphe indique clairement que la formule de télétravail standard propose 2 ou 3 jours de télétravail par semaine. Comme il n'y a pas d'autres informations contradictoires dans les autres paragraphes, je peux conclure que le nombre maximum de jours de télétravail par semaine est de 3.

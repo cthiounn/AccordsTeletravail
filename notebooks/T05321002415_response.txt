@@ -1,15 +1,13 @@
-Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Les seules mentions de nombres de jours concernent le télétravail occasionnel, qui peut être effectué jusqu'à 8 jours dans l'année, mais cela n'est pas spécifique à une semaine en particulier.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Oui, le paragraphe "7.1. Nombre de jours télétravaillés" mentionne explicitement un nombre de jours de télétravail autorisé par semaine. Il est indiqué que le nombre de jours télétravaillés peut être porté jusqu'à 3 jours par semaine sur accord du manager.
+Q_TTSEM_NOMBRE:
+* Extraits pertinents des documents :
 
-* "Le télétravail régulier se définit comme une ou des journées de travail réalisées de manière répétée et planifiée toutes les semaines ou tous les mois." (Document(page\_content='Au préalable, il est nécessaire de définir ces deux modes de télétravail…', metadata={'source': 'T05321002415.txt'}))
-* "Le nombre de jours télétravaillés s’organise de la façon suivante : Un nombre de jours télétravaillés pouvant être porté jusqu’à 3 jours par semaine sur accord du manager. Soit 2 jours de présence sur site obligatoire minimum par semaine afin de préserver le lien social" (Document(page\_content='Rythme et organisation du télétravail régulier…', metadata={'source': 'T05321002415.txt'}))
+    > Un nombre de jours télétravaillés pouvant être porté jusqu’à **3 jours** par semaine sur accord du manager.
 
-Ma réponse après raisonnement ci-dessous :
+* Ma réponse après raisonnement :
 
-* nombrejourdeteletravailmaxparsemaine=3
+    > nombrejourdeteletravailmaxparsemaine=3
 
-Mon raisonnement :
+* Mon raisonnement :
 
-* Selon le premier paragraphe, le télétravail régulier se définit comme une ou des journées de travail réalisées de manière répétée et planifiée toutes les semaines ou tous les mois. Cela signifie que le télétravail régulier peut être effectué plusieurs jours par semaine.
-* Selon le deuxième paragraphe, le nombre de jours télétravaillés peut être porté jusqu’à 3 jours par semaine sur accord du manager. Cela signifie que la limite maximale de jours de télétravail par semaine est de 3.
+    > Dans le premier paragraphe, il est clairement indiqué que le nombre de jours télétravaillés peut être porté jusqu'à 3 jours par semaine sur accord du manager. Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' est affectée à la valeur 3.

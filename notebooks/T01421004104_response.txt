@@ -1,11 +1,1 @@
-Q_TTSEM:Non, aucun paragraphe des documents fournis ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
-Q_TTSEM_NOMBRE:* Extraits pertinents :
-    * "l’intégralité des dispositions de l’accord relatif à la mise en place du télétravail en période d’épidémie Covid-19 soient prolongées d’une période de quatre mois"
-    * "le télétravail est un mode d’organisation de l’entreprise qui participe activement à la démarche de prévention du risque d’infection au SARS-CoV-2 et permet de limiter les interactions sociales aux abords des lieux de travail et sur les trajets domicile travail et qu’il doit être la règle pour l’ensemble des activités qui le permettent"
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=5
-* Mon raisonnement :
-    * Les dispositions de l'accord relatif à la mise en place du télétravail en période d'épidémie Covid-19 sont prolongées pour une période de quatre mois.
-    * Le télétravail doit être la règle pour l'ensemble des activités qui le permettent.
-    * Compte tenu de l'absence de limitation explicite du nombre de jours de télétravail par semaine et de la mention de "l'ensemble des activités", je considère que le télétravail à 100% ou le full-remote est autorisé.
-    * Par conséquent, en application de l'instruction 2.E, je fixe le nombre maximal de jours de télétravail par semaine à 5.
+Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jours de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine.

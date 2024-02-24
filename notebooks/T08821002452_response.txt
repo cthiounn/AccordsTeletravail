@@ -1,14 +1,2 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jours de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine.
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "ANNEXE 1 LISTE DES POSTES ELIGIBLES"
-* "Fait en 4 exemplaires A EPINAL, le 17 juin 2021 Le délégué syndical, Le Directeur Général, C.F.D.T"
-
-Ma réponse après raisonnement ci-dessous :
-
-nombrejourdeteletravailmaxparsemaine=0
-
-Mon raisonnement :
-
-Les informations fournies dans les documents ne contiennent aucune indication concernant le nombre de jours maximum de télétravail par semaine pour les salariés. Les paragraphes extraits ne comportent aucune mention du mot-clé "semaine" ou d'une notion de fréquence par semaine relative au nombre de jours de télétravail autorisés. De plus, aucune mention n'est faite d'un télétravail à 100% ou d'un full-remote sans jour de présence minimum sur site. Par conséquent, conformément aux instructions, je retourne la variable 'nombrejourdeteletravailmaxparsemaine' à 0.
+Q_TTSEM:
+Non, aucun paragraphe ne mentionne un nombre de jours de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine.

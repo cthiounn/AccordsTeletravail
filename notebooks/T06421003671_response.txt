@@ -1,17 +1,2 @@
 Q_TTSEM:
-Non, aucun paragraphe ne mentionne un nombre de jours de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine. Les seules mentions de nombres de jours concernent le mois et l'année civile.
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Le travail occasionnel à distance peut s’exercer à hauteur de 12 jours par année civile pour un salarié présent toute l’année." (Source : T06421003671.txt)
-    * "Ces jours de travail occasionnel à distance sont positionnés dans l’outil de gestion des temps, à la convenance du salarié, dans la limite de deux jours par mois" (Source : T06421003671.txt)
-    * "Les jours de travail occasionnel à distance sont positionnés à la convenance du salarié, dans la limite de quatre jours par mois" (Source : T06421003671.txt)
-
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
-
-* Mon raisonnement :
-    * Les documents mentionnent que le télétravail occasionnel à distance peut s'exercer à hauteur de 12 jours par année civile, ce qui correspond à environ 0,23 jours par semaine.
-    * De plus, les jours de télétravail occasionnel à distance sont positionnés dans la limite de deux jours par mois, ce qui correspond à environ 0,46 jours par semaine.
-    * Cependant, un autre document mentionne que les jours de télétravail occasionnel à distance sont positionnés à la convenance du salarié, dans la limite de quatre jours par mois, ce qui correspond à environ 0,92 jours par semaine.
-    * Cependant, aucun des documents ne mentionne explicitement que le télétravail régulier est autorisé à hauteur de 5 jours par semaine, même si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué.
-    * Par conséquent, je propose la valeur maximale trouvée dans les documents, à savoir 0,92 jours par semaine, arrondie à l'entier inférieur, ce qui donne 0 jour par semaine.
+Non, aucun paragraphe mentionnant un nombre de jours de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine, n'a été trouvé dans les documents fournis.

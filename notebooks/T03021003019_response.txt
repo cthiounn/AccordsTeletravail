@@ -1,11 +1,2 @@
 Q_TTSEM:
-Oui, le document contient un paragraphe mentionnant un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Il s'agit de l'article 3, qui stipule que "Le nombre de jours en télétravail pourra au maximum être de 4 par semaine."
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* Article 3 : « Le nombre de jours en télétravail pourra au maximum être de 4 par semaine. »
-
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine = 4
-
-Mon raisonnement :
-Le paragraphe pertinent est l'article 3 qui stipule que le nombre de jours en télétravail pourra au maximum être de 4 par semaine. Par conséquent, je retourne la valeur 4 pour la variable 'nombrejourdeteletravailmaxparsemaine'.
+Non, aucun paragraphe mentionnant un nombre de jours de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine n'a été trouvé dans les documents fournis.

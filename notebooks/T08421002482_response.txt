@@ -1,9 +1,2 @@
 Q_TTSEM:
-Non, aucun paragraphe mentionnant un nombre de jour de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine, n'a été trouvé dans les documents fournis.
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Le nombre de jours de télétravail ne pourra pas être supérieur à 2 jours par semaine pour un temps plein." (Article 3)
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
-* Mon raisonnement :
-    * Selon l'article 3, le nombre de jours de télétravail ne peut excéder 2 jours par semaine pour un temps plein.
+Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine. Les documents mentionnent uniquement que le nombre de jours de télétravail ne peut pas être supérieur à 2 jours par semaine pour un temps plein, mais cela ne constitue pas une mention explicite d'un nombre de jours de télétravail.

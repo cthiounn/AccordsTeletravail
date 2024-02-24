@@ -1,11 +1,1 @@
-Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Les documents mentionnent simplement qu'un salarié peut télétravailler "une journée par semaine" ou "de façon partielle et régulière à distance", mais ces mentions ne sont pas quantifiées de manière précise.
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* "Ainsi l’activité exercée en télétravail à domicile, ne pourra excéder une journée (fixée préalablement avec le manager) par semaine" (Source: T59V21001231.txt)
-
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=1
-
-Mon raisonnement :
-Le document mentionne explicitement qu'un salarié ne peut pas travailler plus d'une journée par semaine en télétravail. Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' est affectée à la valeur 1.
+Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jours de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine.

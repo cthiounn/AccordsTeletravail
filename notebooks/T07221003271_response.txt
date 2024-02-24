@@ -1,12 +1,1 @@
-Q_TTSEM:
-Non, aucun paragraphe ne mentionne un nombre de jours de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine.
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "AVENANT A L'ACCORD LOCAL SUR LE TELETRAVAIL PENDULAIRE DU 7 JANVIER 2021" (aucune information utile)
-    * "Fait au Mans, le 18 février 2021" (aucune information utile)
-    * "L'article 10.3 relatif à l'attribution de titres restaurant est supprimé ; L'article 14.4 relatif à la procédure d'agrément et de communication de l'accord est modifié comme suit : [...] Le présent accord entrera en vigueur le jour de sa signature." (aucune information utile)
-* Ma réponse : nombrejourdeteletravailmaxparsemaine = 0
-* Mon raisonnement :
-    * Les documents fournis ne contiennent aucune information relative au nombre maximal de jours de télétravail par semaine.
-    * De plus, aucune mention de télétravail à 100% ou de full-remote avec absence de jour de présence minimum sur site n'est faite dans les documents.
-    * Par conséquent, je ne peux pas attribuer une valeur supérieure à 0 à la variable nombrejourdeteletravailmaxparsemaine.
+Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jours de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine.

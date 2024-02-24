@@ -1,12 +1,2 @@
 Q_TTSEM:
-Oui, un paragraphe mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Dans le document intitulé "Salariés éligibles au télétravail", il est indiqué que "le nombre de jours de télétravail autorisé par semaine et par collaborateur est dans ce cas proportionnel au temps de travail par semaine du salarié concerné (2 jours de télétravail par semaine étant autorisé pour un collaborateur à temps plein ou forfait jours non réduit)".
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents:
-
-* "Les salariés n’ont pas d’obligation d’utiliser chaque semaine tous les jours de télétravail dont ils disposent."
-* "Par principe, le salarié devra poser deux jours de repos acquis par mois, sous forme de jour ou de demi-journée de repos."
-
-My response after reasoning:
-nombrejourdeteletravailmaxparsemaine=0
-
-My reasoning:
-The first paragraph indicates that there is no obligation to use all available telework days each week. The second paragraph states that employees must take two days of rest per month. There is no mention of the number of telework days per week or any other period. Therefore, I cannot determine the maximum number of telework days per week based on the provided information.
+Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine.

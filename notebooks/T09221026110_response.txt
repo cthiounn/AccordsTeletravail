@@ -1,16 +1,24 @@
 Q_TTSEM:
-Oui, le document contient un paragraphe qui mentionne explicitement le nombre maximal de jours de télétravail autorisés par semaine. Selon l'article 11, le nombre maximal de jours de télétravail par semaine est de 2, sauf accord entre le manager et le salarié pour étendre ce nombre à la semaine entière (5 jours) sur une période de 4 semaines maximum.
-Q_TTSEM_NOMBRE:
-* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine. Voici les extraits pertinents :
 
-    Article 11 – Fréquence et nombre de jours de télétravail
-    Les jours de télétravail seront fixés selon les modalités suivantes :
-    Un maximum de 2 jours par semaine, et de 2 demi-journées pouvant être cumulées sur une même journée au cours de la même semaine ;
+- "Les jours de télétravail seront fixés selon les modalités suivantes : Un maximum de 2 jours par semaine, et de 2 demi-journées..." (Source : T09221026110.txt, page_content)
 
-* Ma réponse après raisonnement :
+- "...le nombre de jours de télétravail peut toutefois être étendu à la semaine entière (soit à 5 jours) sur une période de 4 semaines maximum..." (Source : T09221026110.txt, page_content)
 
-    nombrejourdeteletravailmaxparsemaine=2
+- "Il est précisé qu’au plus tard le dernier jour travaillé de la semaine à 12H (midi), le salarié aura informé son Manager/Direction des jours de télétravail qui seront effectués la semaine suivante" (Source : T09221026110.txt, page_content)
 
-* Mon raisonnement :
+- "La décision de mettre en œuvre du télétravail pour circonstances exceptionnelles dépendra donc du ressort du Responsable Hiérarchique du Salarié concerné. En cas de grève ou perturbation significative des transports en commun annoncée par les médias ou en cas d'intempéries ayant des répercussions sur les conditions de transports ou de travail, il est convenu que le télétravailleur a la possibilité de modifier ses jours de télétravail afin d'exercer son activité à son domicile sans que cela ne modifie pour autant l’organisation mensuelle des journées de télétravail, après avoir obtenu l’accord préalable de son Manager." (Source : T09221026110.txt, page_content)
 
-    Dans le document, il est clairement stipulé que les jours de télétravail seront fixés selon les modalités suivantes : "Un maximum de 2 jours par semaine, et de 2 demi-journées pouvant être cumulées sur une même journée au cours de la même semaine". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+- "Cette lettre d’adhésion précisera les modalités utiles à l'exercice du télétravail et adaptées à la situation du télétravailleur, à savoir :... la fréquence du télétravail;" (Source : T09221026110.txt, page_content)
+
+- "En cas de recours occasionnel au télétravail, telle que par exemple une situation médicale préalablement validée par le Médecin du travail, la demande de télétravail est effectuée en concertation entre le salarié et son Manager et l'accord entre les parties est formalisé par écrit et par tout moyen (e-mail, courrier ou outil informatique interne)." (Source : T09221026110.txt, page_content)
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Les jours de télétravail seront fixés selon les modalités suivantes : Un maximum de 2 jours par semaine, et de 2 demi-journées pouvant être cumulées sur une même journée au cours de la même semaine"
+* "Après accord entre le Manager et le salarié, le nombre de jours de télétravail peut toutefois être étendu à la semaine entière (soit à 5 jours) sur une période de 4 semaines maximum, à l’issue desquelles un retour à un maximum de 3 jours de télétravail par semaine est obligatoire pendant au moins deux semaines"
+
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine = 3
+
+Mon raisonnement :
+Le premier paragraphe indique un maximum de 2 jours de télétravail par semaine, et le deuxième paragraphe indique qu'après accord entre le Manager et le salarié, le nombre de jours de télétravail peut être étendu à la semaine entière (soit 5 jours) sur une période de 4 semaines maximum. Donc, le maximum de jours de télétravail par semaine est de 3.

@@ -1,10 +1,1 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
-Q_TTSEM_NOMBRE:
-* Extraction de paragraphes pertinents :
-    * "La direction s’engage à renégocier l’accord de télétravail. Dans cette attente, la direction propose la mise en place d’une journée de télétravail sans conditions de temps de trajet, nombre de kilomètres ou encore conditions particulières liées au temps de travail pour l’ensemble des salariés hormis les stagiaires, apprentis et salariés en période d’essai."
-    * "Ce budget sera attribué de manière individuelle suivant les recommandations des responsables de département et la validation du management et des Ressources Humaines et sera répartit par service."
-* Ma réponse : nombrejourdeteletravailmaxparsemaine=1
-* Mon raisonnement :
-    * Le premier paragraphe indique qu'une journée de télétravail est proposée sans conditions particulières liées au temps de travail. Cependant, il ne précise pas si cette journée est par semaine, mois ou autre.
-    * Le deuxième paragraphe ne contient aucune information sur le nombre de jours de télétravail.
-    * Compte tenu des informations disponibles, je ne peux pas déterminer le nombre maximal de jours de télétravail par semaine. Cependant, comme une journée de télétravail est proposée, je peux affirmer que le nombre maximum est supérieur à zéro. Par conséquent, je retourne la valeur 1 pour nombrejourdeteletravailmaxparsemaine.
+Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jour de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine.

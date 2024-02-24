@@ -1,11 +1,1 @@
-Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
-
-* "Le télétravail régulier se définit par une fréquence au moins hebdomadaire."
-* "Le nombre de jours télétravaillés ne pourra pas être supérieur à 10 par mois de travail effectif pour les salariés à temps plein et à temps partiel."
-
-My response is:
-nombrejourdeteletravailmaxparsemaine=2
-
-My reasoning is that the teletravail régulier occurs at least once a week and the number of days teleworked cannot exceed 10 per month of effective work for full-time and part-time employees. Since there are approximately 4 weeks in a month, this means that the maximum number of days teleworked per week would be 10/4 = 2.5 days. However, since the company specifies that the number of days teleworked cannot exceed 10 per month, it is likely that they mean to limit telework to 2 days per week. Therefore, I have set the value of nombrejourdeteletravailmaxparsemaine to 2.
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.

@@ -1,15 +1,1 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
-Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-    Article 8 - Fréquence et nombre de jours télétravaillés
-
-    Le(s) jour(s) de télétravail seront fixés à l’avance, lors de l’accord initial. Ils pourront évoluer en accord entre les parties.
-
-* Ma réponse après raisonnement ci-dessous :
-
-    nombrejourdeteletravailmaxparsemaine=5
-
-* Mon raisonnement :
-
-    Selon l'article 8, le(s) jour(s) de télétravail seront fixés à l'avance et pourront évoluer en accord entre les parties. Cependant, rien dans le document ne précise le nombre maximum de jours de télétravail par semaine, sauf dans le cas où le télétravail est à 100% ou en full-remote, ce qui n'est pas mentionné dans le document. Donc, en appliquant les instructions, nous ne pouvons pas déterminer le nombre maximum de jours de télétravail par semaine. Mais, comme il n'y a aucune limitation explicite dans le document, nous pouvons supposer que le nombre maximum est de 5 jours par semaine.
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement le nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.

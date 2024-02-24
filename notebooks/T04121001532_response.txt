@@ -1,17 +1,1 @@
 Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "Notre volonté est de limiter la circulation et le croisement de personnes en organisant le télétravail dans un esprit collectif. Des travaux ont été menés par chaque manager, en concertation avec ses équipiers, afin de déterminer les activités télétravaillables à 100% et celles qui ne le sont que partiellement. L’objectif étant d’abaisser le taux de présence et de maintenir la qualité des prestations, quel que soit le secteur d’activités."
-* "Au regard des résultats de ces travaux, le taux moyen de présence sur site est maintenu à 21% des effectifs (CDI, CDD, Alternants, ESN, hors équipes CRD et Facilit, hors salariés dits «vulnérables» et ceux vivant avec des personnes vulnérables)."
-
-Ma réponse après raisonnement ci-dessous :
-
-* nombrejourdeteletravailmaxparsemaine=5
-
-Mon raisonnement :
-
-* Selon le premier paragraphe, les activités sont télétravaillables à 100%.
-* Dans le deuxième paragraphe, le taux de présence sur site est maintenu à 21%, ce qui implique que le taux de télétravail est de 79%.
-* Comme il est indiqué que les activités sont télétravaillables à 100%, on peut en déduire que le télétravail est possible tous les jours de la semaine.
-* De plus, il n'y a pas de mention de jours de présence minimum sur site, donc en appliquant les instructions données, on peut considérer que le télétravail à 100% est autorisé.
-* Par conséquent, le nombre maximal de jours de télétravail par semaine est de 5, ce qui correspond à la variable nombrejourdeteletravailmaxparsemaine.

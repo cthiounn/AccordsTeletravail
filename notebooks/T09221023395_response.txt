@@ -1,16 +1,23 @@
-Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé par semaine. Voici les références :
+Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici ces paragraphes :
 
-- Document(page\_content='3.6. Période d’adaptation', metadata={'source': 'T09221023395.txt'}): un à deux jours par semaine
-- Document(page\_content='4.4. Participation de l’employeur au télétravail', metadata={'source': 'T09221023395.txt'}): au moins un jour par semaine
-- Document(page\_content='4.7. Contrôle du temps de travail', metadata={'source': 'T09221023395.txt'}): jusqu'à deux jours par semaine
+- "Le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile, par journée entière" (Source : T09221023395.txt, page_content : Rythme du télétravail)
 
-Je tiens à souligner que ces nombres sont exprimés en jours et non en semaines, conformément à votre instruction de déconnecter les liens entre les périodicités.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile, par journée entière, de manière à préserver le lien social avec l’entreprise et son groupe de travail." (Document(page\_content='...', metadata={'source': 'T09221023395.txt'}))
+- "Le télétravail régulier. Il constitue le cadre général du télétravail organisé dans l’UES Viveris et vise les situations dans lesquelles le salarié et l’employeur fixent à l’avance le nombre de jours maximums par semaine avec signature d’un avenant au contrat de travail. Ce nombre de jours peut être d’une à deux journées par semaine." (Source : T09221023395.txt, page_content : Il n’est pas nécessaire de rédiger un avenant au contrat de travail, des échanges de mail entre le salarié et son encadrement sont suffisants.)
 
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=2
+- "En cas de situation inhabituelle ou des contraintes clients ne permettant pas le télétravail régulier, le salarié souhaitant bénéficier d’une autorisation de télétravail pour pouvoir télétravailler au maximum deux jours par mois" (Source : T09221023395.txt, page_content : Télétravail flexible)
 
-Mon raisonnement :
-* Dans le document, il est clairement stipulé que le télétravail régulier fonctionne sur la base de deux journées par semaine au maximum. Cette information est présente dans le premier paragraphe cité, qui décrit les principes fondamentaux du télétravail régulier. Par conséquent, je peux affirmer avec certitude que le nombre maximal de jours de télétravail par semaine est de 2, ce qui correspond à la variable 'nombrejourdeteletravailmaxparsemaine'.
+- "Il est rappelé que le salarié en télétravail exceptionnel pendant au moins un jour par semaine sur une période complète et continue d’au moins un mois, pourra demander à bénéficier d’un remboursement forfaitaire à hauteur de 10€/mois." (Source : T09221023395.txt, page_content : ARTICLE 7 : ENTREE EN VIGUEUR ET DUREE DE L’ACCORD)
+Q_TTSEM_NOMBRE:
+* Mon extraction de paragraphes pertinents provenant des documents à analyser qui répondent à la question :
+
+    "Le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile, par journée entière,"
+    
+    "En cas de situation inhabituelle ou des contraintes clients ne permettant pas le télétravail régulier, le salarié souhaitant bénéficier d’une autorisation de télétravail pour pouvoir télétravailler au maximum deux jours par mois"
+
+* Ma réponse après raisonnement :
+
+    nombrejourdeteletravailmaxparsemaine=2
+
+* Mon raisonnement :
+
+    Dans le premier paragraphe, il est clairement stipulé que le télétravail régulier se fait jusqu'à deux journées par semaine. Donc, le nombre maximum de jours de télétravail par semaine est de 2.

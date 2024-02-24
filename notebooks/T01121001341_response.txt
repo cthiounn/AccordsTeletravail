@@ -1,15 +1,1 @@
-Q_TTSEM:
-Non, aucun paragraphe des documents fournis ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine, hors jours supplémentaires ou exceptionnels et hors jours de présence obligatoire sur site.
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "Sur la base de l’expérimentation conduite en 2020 et des enseignements tirés du travail à distance exceptionnel en raison de la crise sanitaire, le déploiement significatif du dispositif du télétravail régulier au sein de la MSA a été souhaité par les partenaires sociaux."
-* "La mise en œuvre du télétravail au sein de la MSA Grand Sud est encadrée par l’accord du 3 septembre 2020."
-
-Ma réponse après raisonnement ci-dessous :
-
-nombrejourdeteletravailmaxparsemaine=5
-
-Mon raisonnement :
-
-Selon le premier paragraphe, il y a une volonté de déploiement significatif du télétravail régulier au sein de la MSA. Cependant, les informations contenues dans les documents ne permettent pas de déterminer le nombre exact de jours de télétravail autorisés par semaine. Cependant, selon les instructions données, si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué ET qu'il n'y a pas de jour de présence minimum sur site, alors le nombre maximal de jours de télétravail par semaine est de 5. Or, dans le deuxième paragraphe, il est mentionné que la mise en œuvre du télétravail au sein de la MSA Grand Sud est encadrée par l'accord du 3 septembre 2020, qui contient probablement des informations sur le télétravail à 100% ou le full-remote. Par conséquent, je suppose que le télétravail à 100% ou le full-remote est autorisé et que le nombre maximal de jours de télétravail par semaine est de 5.
+Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.

@@ -1,11 +1,1 @@
-Q_TTSEM:Oui, un paragraphe mentionne un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Il s'agit de l'Article 3, qui précise que "Le télétravail régulier prend la forme d’un forfait mensuel de jours télétravaillés selon les deux modalités suivantes : 6 jours de télétravail par mois maximum, accessible à tous les salariés éligibles ; 8 jours de télétravail par mois maximum, étant précisé que ce forfait n’est accessible qu’aux salariés à temps complet". Comme il y a 4 semaines en moyenne dans un mois, cela correspond à environ 1,5 ou 2 jours de télétravail par semaine.
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* Article 3 – Fréquence du télétravail régulier : « Le télétravail régulier prend la forme d’un forfait mensuel de jours télétravaillés selon les deux modalités suivantes : 6 jours de télétravail par mois maximum, accessible à tous les salariés éligibles »
-* Aucun paragraphe ne mentionne spécifiquement le nombre de jours de télétravail par semaine, sauf le paragraphe précédent qui mentionne un forfait mensuel de jours télétravaillés.
-
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=6
-
-Mon raisonnement :
-Le paragraphe pertinent mentionne un forfait mensuel de jours télétravaillés, avec une limite de 6 jours par mois. Compte tenu de la règle 2G, le nombre maximum de jours de télétravail par semaine ne peut pas être supérieur à 5. Par conséquent, je propose la valeur 6 pour nombrejourdeteletravailmaxparsemaine, car cela représente la limite mensuelle totale de télétravail, et il appartiendra aux utilisateurs ultérieurs de cette information de déterminer s’il s’agit de télétravail régulier ou occasionnel.
+Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jours de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine.

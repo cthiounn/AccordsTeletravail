@@ -1,18 +1,16 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine. Voici ces passages :
+Q_TTSEM:
+Oui, un paragraphe mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Il s'agit du premier document qui précise que "le télétravail est possible dans la limite de 3 jours par semaine".
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-- "Le télétravail est possible dans la limite de 3 jours par semaine, à l’exception du lundi." (T04521003587.txt, page 2)
-- "Sont ainsi éligibles au télétravail les salariés remplissant les conditions suivantes : [...] Bénéficiant d’une autonomie suffisante en termes de mission et de connaissances des moyens informatiques ; • Dont les fonctions peuvent, partiellement ou totalement, être réalisées à distance." (T04521003587.txt, page 3)
-- "Ne sont pas éligibles au télétravail les salariés dont le poste implique par nature, une présence physique dans les locaux ou sur le patrimoine de l’entreprise, notamment en raison de la nature des fonctions, des contraintes matérielles et/ou techniques ; ainsi les secrétaires d’accueil, les employés d’immeubles et agents de propreté sont exclus du dispositif" (T04521003587.txt, page 3)
+* "Le télétravail est possible dans la limite de 3 jours par semaine, à l’exception du lundi." (Document(page\_content='Le télétravail est possible dans la limite de 3 jours par semaine, à l’exception du lundi.', metadata={'source': 'T04521003587.txt'}))
+* "Il organise donc impérativement son activité sur cinq jours maximum par semaine." (Document(page\_content='Il organise donc impérativement son activité sur cinq jours maximum par semaine.', metadata={'source': 'T04521003587.txt'}))
 
-Dans ces trois extraits, il est mentionné que le télétravail est possible dans la limite de 3 jours par semaine. Les salariés doivent bénéficier d'une autonomie suffisante en termes de mission et de connaissances des moyens informatiques et leurs fonctions doivent pouvoir être réalisées à distance. À l'inverse, certains salariés ne sont pas éligibles au télétravail car leur poste implique une présence physique dans les locaux de l'entreprise.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Ma réponse :
 
-* "Le télétravail est possible dans la limite de 3 jours par semaine, à l’exception du lundi." (Document(page\_content='6.1 Télétravail pendulaire...', metadata={'source': 'T04521003587.txt'}))
-
-Ma réponse après raisonnement ci-dessous :
-
-* nombrejourdeteletravailmaxparsemaine=3
+nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
 
-* J'ai trouvé dans le document une indication du nombre de jours de télétravail possibles par semaine, qui est de 3 jours. Cette indication est donnée dans le paragraphe "6.1 Télétravail pendulaire" où il est dit "Le télétravail est possible dans la limite de 3 jours par semaine, à l’exception du lundi". Donc, je peux répondre que le nombre maximum de jours de télétravail par semaine est de 3.
+* Dans le premier paragraphe, il est clairement indiqué que le télétravail est possible dans la limite de 3 jours par semaine.
+* Dans le deuxième paragraphe, il est confirmé que l'activité du salarié doit être organisée sur cinq jours maximum par semaine.
+* Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3.
