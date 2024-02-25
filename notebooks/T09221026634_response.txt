@@ -1,1 +1,2 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans le document fourni.
+Q_TTSEM:
+Yes, there is at least one mention of the number of days of telework authorized, recommended, limited or maximum per week. According to Article 4 of the document, the organization of telework is based on two (2) days per week, from Tuesday to Friday for full-time and part-time employees working at least 80%. However, the Monday is necessarily worked on site for team cohesion.

@@ -1,1 +1,23 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé ou recommandé dans les documents. Voici quelques exemples :
+
+* "Le télétravail sera mis en œuvre par journée entière de travail, dans la limite de deux jours par semaine."
+* "Le télétravail est ouvert aux salariés à l'issue d'une période minimale d'un mois révolu au sein de l'entreprise, hors période de suspension du contrat de travail (congés, RTT, congé maladie, etc..)."
+* "Les salariés devront joindre à ce document une attestation d’assurance du lieu de télétravail. Les salariés devront remettre à l'employeur une attestation sur l'honneur indiquant que le logement est électriquement conforme, qu'il dispose d'un accès à internet de bonne qualité et qu'il s'engage à respecter les bonnes pratiques présentées."
+* "Le télétravail doit s’exercer au domicile du salarié. Celui-ci doit être conforme électriquement, être pourvu d’un accès internet de bonne qualité et faire l’objet d’une assurance habitation."
+* "Le télétravail sera mis en œuvre par journée entière de travail, dans la limite de deux jours par semaine. Le ou les jour(s) de télétravail is/sont défini(s) en accord avec le manager selon les besoins de l'équipe."
+* "Les salariés devront remettre à l'employeur une attestation sur l'honneur indiquant que le logement est électriquement conforme, qu'il dispose d'un accès à internet de bonne qualité et qu'il s'engage à respecter les bonnes pratiques présentées. Un modèle d'attestation sera mis à la disposition des salariés."
+
+Il est important de noter que ces mentions font référence à un nombre de jours de télétravail autorisé ou recommandé, mais elles ne précisent pas explicitement si ce nombre représente une limite maximale ou non. Il est donc possible que d'autres documents ou sources de données contiennent des informations complémentaires sur ce point.
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Le télétravail sera mis en œuvre par journée entière de travail, dans la limite de deux jours par semaine."
+* "Le personnel d’accueil, dont l’essentiel des tâches nécessite une présence physique sur site, est néanmoins éligible a une journée de télétravail par mois"
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+Après analyse des documents, je constate que le télétravail est mis en œuvre par journée entière de travail, dans la limite de deux jours par semaine. Cependant, il existe une exception pour le personnel d'accueil qui est éligible à une journée de télétravail par mois. Cette exception ne concerne pas le nombre maximum de jours de télétravail par semaine, car il s'agit d'une catégorie spécifique de travailleurs qui ne sont pas représentatifs de l'ensemble des employés. Par conséquent, je peux affirmer que le nombre maximum de jours de télétravail par semaine est de 2.

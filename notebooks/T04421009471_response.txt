@@ -1,15 +1,23 @@
-Q_TTSEM:Oui, il y a une mention à un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Pour les salariés à temps partiel, la fréquence du télétravail régulier est limitée à 1 journée par semaine.
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés, recommandés ou limités explicitement exprimés par semaine dans les documents fournis. Voici quelques exemples :
+
+* Selon l'article 2.1, la fréquence du télétravail régulier est comprise entre 1 et 2 journées par semaine pour les salariés à temps plein. Pour les salariés à temps partiel, la fréquence du télétravail régulier est limitée à 1 journée par semaine.
+* Selon le document 0, le télétravail est organisé en journée pleine, mais il est envisageable de le fractionner en demi-journées.
+* Selon le document 1, un salarié souhaitant télétravailler plus de 2 jours par semaine ou à temps complet doit se rapprocher du service RH pour étudier les motivations et définir son éligibilité.
+
+En résumé, il est mentionné explicitement dans les documents que le nombre de jours de télétravail par semaine est limité à 2 pour les salariés à temps plein, 1 pour les salariés à temps partiel, et qu'il est possible de télétravailler plus de 2 jours par semaine ou à temps complet sous certaines conditions.
 Q_TTSEM_NOMBRE:
 * Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-> "De manière à concilier flexibilité de l’organisation du travail et prévention des risques psychosociaux pouvant être générés par le travail à distance (notamment la perte de lien avec la communauté de travail), le télétravail régulier aura une fréquence comprise entre 1 et 2 journées par semaine."
-
 > "Pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine."
+
+> "2.E - Si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine!"
 
 * Ma réponse après raisonnement :
 
-NombreJourDeteletravailMaxParSemaine=2
+    nombrejourdeteletravailmaxparsemaine=1
 
 * Mon raisonnement :
 
-Après recherche dans les documents, je n'ai trouvé aucune information allant au delà de 2 jours de télétravail par semaine. De plus, les instructions stipulent que les semaines, les mois, les trimestres et les années sont des concepts indépendants, donc je ne peux pas déduire un nombre de jour de télétravail par semaine à partir d'une autre période de temps.
+    Dans le document, il est stipulé que pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine. Donc, le nombre maximum de jours de télétravail par semaine est de 1 jour.
+
+    Cependant, il est aussi mentionné que si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine. Mais dans le document, je ne trouve pas de preuve de l'autorisation du télétravail à 100% ou du full-remote sans jour de présence minimum sur site. Donc, je maintiens ma réponse précédente.

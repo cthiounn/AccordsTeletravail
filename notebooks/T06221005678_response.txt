@@ -1,13 +1,20 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Le rythme régulier du télétravail ne peut pas dépasser 2 jours maximum flottants par semaine.
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
 
-* Article 6 - Le rythme du télétravail du document T06221005678.txt : "Le rythme régulier du télétravail ne peut pas dépasser 2 jours maximum flottants par semaine."
+* Article 6 : "Le rythme régulier du télétravail ne peut pas dépasser 2 jours maximum flottants par semaine."
+* Article 6 : "Pour les salariés travaillant sur 4 jours, le nombre de jour de télétravail maximum par semaine sera de 1 jour."
+* Article 10 : "Chaque partie peut modifier le jour de télétravail planifié en respectant un délai de prévenance de sept jours."
 
-Ma réponse après raisonnement ci-dessous :
+Notez que ces mentions se réfèrent uniquement au télétravail régulier et non au télétravail occasionnel.
+Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-nombrejourdeteletravailmaxparsemaine=2
+Article 6 - Le rythme du télétravail
 
-Mon raisonnement :
+Le rythme régulier du télétravail ne peut pas dépasser 2 jours maximum flottants par semaine.
 
-Le paragraphe pertinent est issu du document T06221005678.txt. Il indique que le rythme régulier du télétravail ne peut pas dépasser 2 jours maximum flottants par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+* Ma réponse après raisonnement ci-dessous :
+
+Nombrejourdeteletravailmaxparsemaine=2
+
+* Mon raisonnement :
+
+Après recherche dans les documents fournis, je n'ai trouvé qu'un seul paragraphe pertinent pour répondre à la question posée. Il s'agit de l'article 6 intitulé "Le rythme du télétravail" qui précise que "le rythme régulier du télétravail ne peut pas dépasser 2 jours maximum flottants par semaine". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

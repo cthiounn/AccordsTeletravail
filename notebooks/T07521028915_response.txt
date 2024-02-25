@@ -1,1 +1,25 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné que le télétravail ne doit pas être un frein à la participation du salarié à la vie du service et que le salarié doit rester en contact avec son ou ses responsables hiérarchiques, ses collègues et ses relations professionnelles pendant sa journée de télétravail. Il est également mentionné que les salariés ne peuvent pas poser leur journée de télétravail les lundis et jeudis, lors des réunions d'équipe dont l'absence physique du salarié nuirait à la bonne continuité du service, et lors de périodes ou évènements particuliers qui nécessiteraient de neutraliser transitoirement le télétravail.
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés, recommandés, limités ou maximum, exprimés par semaine dans les documents fournis. Voici quelques exemples :
+
+* Selon l'article 3.2, "le salarié disposera de (48) jours de télétravail possibles par année civile, qu’il pourra mobiliser en journée entière". Cela représente environ 0,92 jour par semaine.
+* Selon l'article 3.2, "le télétravail pour le salarié à temps complet ou titulaire d’un forfait annuel en jours ou titulaire d’un forfait jours réduit ne pourra être exercé que pour un maximum de 24 jours par semestre civil, soit une enveloppe de 48 jours par année civile, reportable d’un semestre à l’autre". Cela représente environ 0,92 jour par semaine.
+* Selon l'article 3.2, "Pour un salarié à temps partiel, le nombre de jours de télétravail possible par semestre sera proratisé selon le pourcentage de temps de travail et avec une limite dans tous les cas d’un jour par semaine non reportable". Cela représente 0,2 jour par semaine pour un salarié à temps partiel travaillant à 50%.
+* Selon l'article 3.2, "les jours de télétravail comme les jours de travail dans les locaux de L’APUR peuvent entre autres inclure des rendez-vous ou des réunions à l’extérieur prévus sur l’agenda électronique". Il n'y a pas de limitation explicite du nombre de jours de télétravail par semaine dans ce cas, mais il est précisé que les jours de télétravail peuvent inclure des rendez-vous ou des réunions à l’extérieur.
+
+Il est important de noter que ces nombres de jours de télétravail par semaine sont des valeurs approximatives, car ils sont calculés sur une base annuelle et doivent être proratisés pour obtenir une valeur par semaine.
+Q_TTSEM_NOMBRE:
+**Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :**
+
+* "Le télétravail pour un salarié travaillant à 90% ne pourra être exercé que pour un maximum de 22 jours par semestre civil, soit une enveloppe de 44 jours par année civile reportable d’un semestre à l’autre."
+* "Le télétravail pour un salarié travaillant à 80% ne pourra être exercé que pour un maximum de 20 jours par semestre civil, soit une enveloppe de 40 jours par année civile, reportable d’un semestre à l’autre."
+
+**Ma réponse après raisonnement :**
+
+* nombrejourdeteletravailmaxparsemaine=2
+
+**Mon raisonnement :**
+
+* Les deux paragraphes indiquent que le télétravail peut être exercé pour un maximum de 22 jours par semestre civil pour un salarié travaillant à 90% et pour un maximum de 20 jours par semestre civil pour un salarié travaillant à 80%. Comme il y a deux semestres dans une année civile, cela correspond respectivement à 44 et 40 jours par an.
+* Ces jours peuvent être reportés d'un semestre à l'autre, ce qui implique qu'ils ne sont pas limités à une certaine période de l'année.
+* Cependant, il n'est pas indiqué que le télétravail à 100% ou le full-remote est autorisé ou fortement positivement évoqué, et il n'est pas non plus indiqué qu'il n'y a pas de jour de présence minimum sur site.
+* Par conséquent, en se basant sur les informations fournies, nous ne pouvons conclure que le nombre maximum de jours de télétravail par semaine est de 5.
+* Nous devons donc nous en tenir à la limite de 2 jours par semaine mentionnée dans les paragraphes pertinents.

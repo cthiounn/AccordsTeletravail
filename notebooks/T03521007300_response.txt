@@ -1,8 +1,8 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d’un salarié, hors prises de congés.
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé par semaine. Selon l'article 6, le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d'un salarié, hors prises de congés. De plus, chaque salarié doit être présent dans les locaux de l'association, a minima 2 fois par semaine pour des plages d'au moins une demi-journée.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le nombre de journées ou demi-journées autorisées en télétravail, ne représentent pas un droit de tirage pour le salarié bénéficiaire de l’autorisation, mais un nombre maximal de journées ou demi-journées de télétravail autorisées par semaine."
-* "Si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine!"
+* "Le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d’un salarié, hors prises de congés." (Source: Document(page\_content='Article 6 – Proportion du télétravail dans le temps de travail des salariés', metadata={'source': 'T03521007300.txt'}))
+* "Chacun de ces salariés pourra demander la modification d’une plage de télétravail, pour des raisons liées au travail, en soumettant sa demande au minimum 7 jours à l’avance." (Source: Document(page\_content='Article 7– Planification des jours télétravaillés', metadata={'source': 'T03521007300.txt'}))
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -10,8 +10,8 @@ nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-Après avoir analysé les documents fournis, j'ai pu trouver dans le premier paragraphe extrait que le nombre de journées ou demi-journées autorisées en télétravail représente un nombre maximal de journées ou demi-journées de télétravail autorisées par semaine. Cependant, le document ne précise pas le nombre exact de jours de télétravail autorisés par semaine.
-
-Cependant, dans le deuxième paragraphe extrait, il est mentionné que si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail sont possibles par semaine. Comme le document mentionne le télétravail à 100% et qu'il n'y a pas de jour de présence minimum sur site, nous pouvons en déduire que le nombre maximum de jours de télétravail par semaine est de 5.
-
-Par conséquent, je propose de répondre à la question en affectant à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.
+* Selon le paragraphe "Le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d’un salarié, hors prises de congés.", nous savons que le nombre maximum de jours de télétravail par semaine est de 1/3\*5=5/3≈1.67 jours.
+* Cependant, selon le paragraphe "Chacun de ces salariés pourra demander la modification d’une plage de télétravail, pour des raisons liées au travail, en soumettant sa demande au minimum 7 jours à l’avance.", nous voyons que le télétravail est organisé par plage et non par jour entier. De plus, il n'y a pas de limitation de plage de télétravail par semaine.
+* Par ailleurs, selon le paragraphe "Pour les salariés dont les horaires sont soumis à la planification des face-à-face pédagogiques ou de rendez-vous extérieurs, leur autorisation individuelle de télétravail ne pourra prévoir les plages de télétravail dans un horaire de semaine type", nous voyons que le télétravail peut être accordé sans limitation de plage de télétravail par semaine.
+* Enfin, selon le paragraphe "Si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine!", nous voyons que si le télétravail à 100% ou le full-remote est autorisé ou fortement positivement évoqué ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail par semaine sont possibles. Or, dans le document fourni, rien n'indique qu'il y a une limitation de jours de présence sur site.
+* Donc, en prenant en compte tous ces éléments, nous pouvons conclure que le nombre maximum de jours de télétravail par semaine est de 5.

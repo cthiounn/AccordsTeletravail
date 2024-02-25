@@ -1,13 +1,13 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Les journées de télétravail sont définies dès la demande du salarié, validées par son responsable hiérarchique, sans pouvoir dépasser deux journées par semaine.
+Q_TTSEM:Oui, il est mentionné que le nombre de jours de télétravail ne peut dépasser deux journées par semaine.
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-> Les journées de télétravail sont définies dès la demande du salarié, validées par son responsable hiérarchique, sans pouvoir dépasser deux journées par semaine.
+* "Les journées de télétravail sont définies dès la demande du salarié, validées par son responsable hiérarchique, sans pouvoir dépasser deux journées par semaine."
 
-* Ma réponse après raisonnement ci-dessous :
+Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=2
+Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
-* Mon raisonnement :
+Mon raisonnement :
 
-Je me base sur le paragraphe "Les journées de télétravail sont définies dès la demande du salarié, validées par son responsable hiérarchique, sans pouvoir dépasser deux journées par semaine." pour conclure que le nombre maximum de jours de télétravail par semaine est de 2.
+Le paragraphe "Les journées de télétravail sont définies dès la demande du salarié, validées par son responsable hiérarchique, sans pouvoir dépasser deux journées par semaine." indique clairement que le nombre maximum de jour de télétravail par semaine est de 2. Cette information est explicite et ne nécessite pas de calcul de proratisation ou de supposition.

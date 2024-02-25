@@ -1,7 +1,9 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé par semaine. L'article 3 de l'accord stipule que "l'employeur accorde un jour de télétravail par semaine".
-Q_TTSEM_NOMBRE:* Extrait pertinent du document :
+Q_TTSEM:
+Oui, l'article 3 de l'accord stipule que "l'employeur accorde un jour de télétravail par semaine sur la base du volontariat".
+Q_TTSEM_NOMBRE:* Extraits pertinents :
     * "L’employeur accorde un jour de télétravail par semaine"
+    * "La journée de télétravail sera fixée de manière fixe et en accord avec le management."
 * Réponse :
     * nombrejourdeteletravailmaxparsemaine=1
 * Raisonnement :
-    * Selon l'article 3 du document, l'employeur accorde un jour de télétravail par semaine.
+    * Selon l'article 3, l'employeur accorde un jour de télétravail par semaine. Cette information est confirmée dans l'article 3 et est exprimée en jours par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 1.

@@ -1,1 +1,22 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné que les collaborateurs peuvent poser des jours de télétravail par demi-journée, en accord avec leur encadrant, et que le temps de présence physique du collaborateur dans les locaux de l'entreprise doit être d'au moins deux jours par semaine.
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.
+
+Voici quelques exemples :
+
+* Selon l'article 3.1, le principe est un dispositif flexible basé sur un quota annuel de jours en télétravail, avec une répartition présence sur site / télétravail de 60% / 40%. Cela implique qu'un collaborateur travaille en moyenne 2 jours par semaine sur site et 3 jours par semaine en télétravail.
+* Selon l'article 3.2.1, des dérogations pourront être accordées par l'encadrement, compte tenu de contraintes opérationnelles ou des dynamiques individuelles, qui pourra augmenter le pourcentage de télétravail jusqu'à environ 45%, soit une augmentation du quota annuel à 100 jours de télétravail maximum (85 jours + 15 jours de télétravail dérogatoire).
+* Selon l'article 3.2.3.4, les jours télétravaillés devront être saisis et identifiés comme tels par le salarié via Galilée selon le compteur dédié, en accord avec son encadrant. Les jours télétravaillés devront également être identifiés comme tel dans le calendrier Outlook. Les collaborateurs devront également saisir leurs jours de présence sur site sur l’outil Rés@SFIL.
+
+Il est important de noter que ces mentions ne sont pas forcément explicites ou directes, mais elles peuvent être déduites des informations fournies dans les documents.
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* Article 3.1.: "Un quota annuel de jours de télétravail... Exercice sur site... Télétravail... environ 40% du temps de travail effectif."
+* Article 3.2.1.: "Des dérogations pourront être accordées... jusqu'à environ 45% d'exercice à distance, soit une augmentation du quota annuel à 100 jours de télétravail maximum"
+
+Ma réponse après raisonnement :
+
+nombrejourdeteletravailmaxparsemaine=5
+
+Mon raisonnement :
+
+Après analyse des documents, je constate que le texte mentionne un quota annuel de jours de télétravail fixé à 85 jours pour les collaborateurs en forfait annuel 209 et 213 jours, et 87 jours pour les collaborateurs au régime horaire à temps plein. Cependant, il est précisé que des dérogations pourront être accordées par l'encadrement, après validation du membre COMEX, compte tenu de contraintes opérationnelles ou des dynamiques individuelles, ce qui pourra conduire à une augmentation du quota annuel à 100 jours de télétravail maximum. De plus, il est stipulé que le temps de présence physique du collaborateur dans les locaux de l'entreprise devra être au minimum de deux jours par semaine. Par conséquent, en prenant en compte les dérogations possibles, le nombre maximum de jours de télétravail par semaine est de 5 jours. Ainsi, nombrejourdeteletravailmaxparsemaine=5.

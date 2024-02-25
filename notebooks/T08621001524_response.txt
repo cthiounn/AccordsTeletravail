@@ -1,11 +1,16 @@
-Q_TTSEM:Oui
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "ARTICLE 4.4– MATERIEL MIS A DISPOSITION ET FRAIS PROFESSIONNEL Il est convenu que, conformément aux règles d’éligibilité fixées ci-après, le télétravailleur utilise exclusivement le matériel fourni par la Direction pour exercer ses missions à domicile, à savoir Un ordinateur portable professionnel, Le cas échéant, un téléphone mobile professionnel si le salarié en possédait déjà un dans le cadre de ses fonctions."
-* "TITRE V. PRESERVATION DE LA SANTE ET SECURITE DU TELETRAVAILLEUR ARTICLE 5.1 – DROIT A LA DECONNEXION Les parties réaffirment l’importance de l’usage professionnel des outils numériques et de communication mis à sa disposition et de la nécessaire régulation de leur utilisation pour assurer le respect des temps de repos et de congés, ainsi que l’équilibre entre la vie privée et familiale, et la vie professionnelle de ses collaborateurs."
+Q_TTSEM:Oui, il y a une mention à un nombre de jour de télétravail autorisé par semaine. Selon l'article 4.1, le nombre de journée maximale de télétravail est fixé à une (1) par semaine.
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=5
+* "Les parties conviennent que le nombre de journée maximale de télétravail est fixé à une (1) par semaine" (Source : Document(page\_content="TITRE IV. MODALITES D’ORGANISATION DU TELETRAVAIL..."))
+* "Si tu donnes un nombre réel, ne donne pas la fraction mais un arrondi à l’entier inférieur!" (Source : instruction donnée dans la question)
+
+Ma réponse après raisonnement :
+
+* nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
-* Les informations fournies ne permettent pas de déterminer un nombre exact de jours de télétravail par semaine, mais l'article 4.4 mentionne que le télétravailleur utilise exclusivement le matériel fourni par la direction pour exercer ses missions à domicile, ce qui suggère que le télétravail est régulier.
-* Compte tenu de l'instruction 2.E, qui permet le télétravail à 100% ou le full-remote si aucune journée de présence minimale sur site n'est requise, et de l'absence de mention de limitations de jours de télétravail dans les articles analysés, je suppose que le nombre maximum de jours de télétravail par semaine est de 5.
+
+* J'ai identifié dans le document un paragraphe qui indique clairement le nombre maximal de jours de télétravail par semaine, qui est de 1 jour.
+* Ce nombre est inférieur à 5, donc il ne s'agit pas de télétravail à 100% ou de full-remote.
+* Je n'ai pas trouvé d'autres paragraphes qui mentionnent le nombre de jours de télétravail par semaine, donc je m'arrête là.

@@ -1,14 +1,20 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Le télétravail ne peut se faire que dans la limite d'1 jour par semaine, avec possibilité de télétravail par demi-journée.
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine dans les documents fournis. Voici quelques exemples :
+
+* Les salariés doivent être présents a minima 3 jours par semaine dans les locaux au sein desquels les salariés exercent habituellement leur activité, et le télétravail ne pourra se faire que dans la limite d’1 jour par semaine, avec possibilité de télétravail par demi-journée.
+* Une personne travaillant 4 ou 5 jours par semaine pourra télétravailler à hauteur de 1 jour maximum.
+* Pour les salariés étant amenés à se déplacer régulièrement en clientèle, la mise en œuvre du télétravail sera possible dans des mesures définies au cas par cas, sans jamais pouvoir excéder 1 jour par semaine.
+* Tout salarié pourra solliciter de télétravailler de manière occasionnelle afin de répondre à des situations inhabituelles et temporaires. Le nombre de jours télétravaillés de manière occasionnelle ne pourra excéder 5 (cinq) jours par année civile.
 Q_TTSEM_NOMBRE:
-**Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question:**
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Compte tenu de l’importance du maintien du lien avec la communauté de travail, les salariés devront être présents, ou en clientèle, a minima 3 jours par semaine dans les locaux au sein desquels les salariés exercent habituellement leur activité, et le télétravail ne pourra se faire que dans la limite d’1 jour par semaine, avec possibilité de télétravailler par demi-journée."
-* "Enfin, il est rappelé que l’organisation du télétravail repose sur une relation de confiance entre le salarié et l’employeur et sur la faculté donnée à l’employeur d’apprécier les résultats par rapport aux objectifs chiffrés. Le télétravail sera effectué au domicile habituel du salarié. Le télétravailleur devra affecter un espace de son domicile à l'exercice du télétravail où il aura l'équipement nécessaire à l'activité professionnelle à distance. Le télétravailleur doit s'engager à ce que cet espace de travail soit adapté à l'exercice du travail en télétravail : disposant d’une bonne connexion internet, de calme, respectant les mesures de sécurité et de confidentialité nécessaires à l’exercice des missions."
+> "Compte tenu de l’importance du maintien du lien avec la communauté de travail, les salariés devront être présents, ou en clientèle, a minima 3 jours par semaine dans les locaux au sein desquels les salariés exercent habituellement leur activité, et le télétravail ne pourra se faire que dans la limite d’1 jour par semaine, avec possibilité de télétravailler par demi-journée."
 
-**Ma réponse après raisonnement :**
+> "Ainsi une personne travaillant 4 ou 5 jours par semaine pourra télétravailler à hauteur de 1 jour maximum."
 
-nombrejourdeteletravailmaxparsemaine=1
+* Ma réponse après raisonnement :
 
-**Mon raisonnement :**
+    nombrejourdeteletravailmaxparsemaine=1
 
-Après avoir analysé les documents fournis, je n'ai trouvé qu'un seul paragraphe pertinent qui répond directement à la question posée. Selon ce paragraphe, les salariés peuvent télétravailler jusqu'à 1 jour par semaine, avec possibilité de télétravailler par demi-journée. Par conséquent, je peux conclure que le nombre maximum de jours de télétravail par semaine est de 1.
+* Mon raisonnement :
+
+    Les paragraphes extraits montrent clairement qu'un salarié peut télétravailler au maximum 1 jour par semaine. Cette information est explicite et ne nécessite pas de calcul de proratisation ou de supposition.

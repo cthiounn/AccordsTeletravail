@@ -1,4 +1,11 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Plus de 2 journées de télétravail par semaine ne sont pas autorisées pour le personnel bénéficiant d'un avenant entérinant un rythme d'une journée maximum de télétravail. De même, plus de 3 journées de télétravail par semaine ne sont pas autorisées pour le personnel bénéficiant d'un avenant entérinant un rythme de deux journées maximum de télétravail.
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
+
+* Selon l'article 2-3-1 du document 3, le rythme de télétravail est de 2 jours au maximum par semaine et par salarié.
+* Selon l'article 2-3-2 du document 0, le télétravail s'organise à la journée, mais le salarié et le manager peuvent, d'un commun accord, convenir que le télétravail soit organisé sur la demi-journée. Dans ce cas, la demi-journée de télétravail compte pour une journée complète.
+* Selon l'article 2-3-2 du document 1, le rythme définitif du télétravail, 1 jour ou 2 jours, est arrêté par avenant au contrat de travail après discussion entre le salarié et son manager.
+* Selon l'article 2-3-2 du document 2, le télétravailleur ne peut pas exercer plus de 2 journées de télétravail par semaine, pour le personnel bénéficiant d'un avenant entérinant un rythme d'une journée maximum de télétravail, ni plus de 3 journées de télétravail par semaine, pour le personnel bénéficiant d'un avenant entérinant un rythme de deux journées maximum de télétravail.
+
+Il est important de noter que ces mentions peuvent varier en fonction des postes et des situations individuelles des salariés.
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
@@ -10,4 +17,4 @@ nombrejourdeteletravailmaxparsemaine = 2
 
 Mon raisonnement :
 
-La réponse est donnée directement dans le premier paragraphe extrait.
+Le paragraphe pertinent a été identifié dans le premier document grâce à la recherche des mots-clés "semaine" et "télétravail". Le texte indique clairement que le rythme de télétravail maximal par semaine et par salarié est de 2 jours. Par conséquent, la variable 'nombrejourdeteletravailmaxparsemaine' est affectée à la valeur 2.

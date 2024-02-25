@@ -1,5 +1,5 @@
 Q_TTSEM:
-Oui, il y a une mention d'un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Les salariés à temps plein ne peuvent travailler plus de 2 jours par semaine en télétravail et les salariés à temps partiel, 1 seule journée.
+Oui, il y a une mention d'un nombre de jour de télétravail autorisé par semaine. Selon l'article 9 de l'Accord, les salariés à temps plein ne peuvent travailler plus de 2 jours par semaine en télétravail, et les salariés à temps partiel ne peuvent travailler qu'un seul jour par semaine en télétravail.
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
@@ -10,4 +10,4 @@ nombrejourdeteletravailmaxparsemaine = 2
 
 Mon raisonnement :
 
-Je me base sur le paragraphe extrait qui indique que les salariés à temps plein ne travaillent qu'au maximum 2 jours par semaine en télétravail. Donc, la variable 'nombrejourdeteletravailmaxparsemaine' vaut 2.
+Je me base sur le paragraphe extrait qui indique clairement que les salariés à temps plein ne peuvent travailler plus de 2 jours par semaine en télétravail. Je ne tiens pas compte des autres paragraphes qui ne font pas référence au nombre de jours de télétravail par semaine ou qui concernent le télétravail occasionnel ou ponctuel.

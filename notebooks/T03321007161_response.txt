@@ -1,12 +1,1 @@
-Q_TTSEM:
-Oui, il y a une mention d'un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Le télétravail régulier à domicile ne peut être exercé que pour un minimum d'un (1) jour par semaine et un maximum de quatre (4) jours par semaine.
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* "Une présence minimale hebdomadaire au sein de l’entreprise, pouvant varier entre un (1) et quatre (4) jours sera requise pour chaque salarié en situation de télétravail"
-* "Le télétravail occasionnel peut être pris par journée entière ou demi-journée et ne pourra pas excéder deux (2) jours pour un (1) mois civil donné. Selon la situation individuelle concernée, ces deux (2) jours pourront être par exception cumulés sur la même semaine."
-
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine = 2
-
-Mon raisonnement :
-Le premier paragraphe indique qu'une présence minimale hebdomadaire au sein de l'entreprise est requise pour chaque salarié en situation de télétravail, ce qui signifie qu'il ne peut pas y avoir plus de 4 jours de présence sur site par semaine. Comme le télétravail occasionnel ne peut pas excéder 2 jours par semaine, le nombre maximal de jours de télétravail par semaine est de 2.
+Q_TTSEM:Non, il n'y a aucune mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il y a des mentions de limites de jours de télétravail pour un mois civil donné, comme dans le document d'ID 2 où il est mentionné que "le télétravail occasionnel peut être pris par journée entière ou demi-journée et ne pourra pas excéder deux (2) jours pour un (1) mois civil donné".

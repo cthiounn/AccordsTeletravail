@@ -1,1 +1,13 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné que le télétravail est possible dans la limite de 3 jours par semaine pour le télétravail pendulaire, mais cela ne s'applique pas aux autres types de télétravail (occasionnel et exceptionnel).
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisé par semaine. Dans le document 2, il est indiqué que "le télétravail est possible dans la limite de 3 jours par semaine".
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Par principe, l’activité est exercée dans le cadre d’un télétravail pendulaire alternant des périodes de travail à domicile et dans les locaux de l’entreprise. Le télétravail est possible dans la limite de 3 jours par semaine, à l’exception du lundi." (Source: T04521003587.txt, page_content='6.1 Télétravail pendulaire')
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse : nombrejourdeteletravailmaxparsemaine=3
+
+Mon raisonnement :
+
+* Selon le paragraphe extrait, le télétravail est possible dans la limite de 3 jours par semaine, à l’exception du lundi. Donc, le nombre maximum de jours de télétravail par semaine est de 3.

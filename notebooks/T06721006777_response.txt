@@ -1,9 +1,15 @@
-Q_TTSEM:Oui, il y a une mention à un nombre de jours de télétravail autorisé, recommandé, limité ou maximum, explicitement exprimé par semaine. Il s'agit de 2 jours maximum par semaine, comme indiqué dans le document 1 : "Le nombre de jours télétravaillables est fixé par journée entière à 2 jours par semaine au maximum".
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
+
+* Selon le document 0, le nombre de jours télétravaillables est fixé par journée entière à 2 jours par semaine au maximum.
+* Selon le document 5, le nombre de jours télétravaillables est fixé par journée entière à 2 jours par semaine au maximum.
+* Selon le document 1, le nombre de jours télétravaillables est fixé par journée entière à 2 jours par semaine au maximum.
+
+En addition, selon le document 0, il est limité à 1 journée par semaine pour les salariés qui, en application de l’article 4 de l’accord sur l’aménagement du temps de travail du 28 juin 2010, organisent leur temps de travail de manière à effectuer leurs heures sur 4,5 jours. Et, les parties signataires conviennent par ailleurs que tout salarié s’inscrivant dans le dispositif de télétravail régulier devra exercer son activité à minima 3 jours par semaine sur son lieu de travail de référence afin de préserver le collectif de travail.
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le nombre de jours télétravaillables est fixé par journée entière à 2 jours par semaine au maximum"
-* "Les parties signataires conviennent par ailleurs que tout salarié s’inscrivant dans le dispositif de télétravail régulier devra exercer son activité à minima 3 jours par semaine sur son lieu de travail de référence"
+* "Le nombre de jours télétravaillllables est fixé par journée entière à 2 jours par semaine au maximum"
+* "Les parties signataires conviennent par ailleurs que tout salarié s’inscrivant dans le dispositif de télétravail régulier devra exercer son activité à minima 3 jours par semaine sur son lieu de travail de référence afin de préserver le collectif de travail."
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -11,4 +17,4 @@ Ma réponse : nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-Après analyse des documents fournis, je constate que le nombre maximum de jours de télétravail par semaine est fixé à 2 jours. Ce point est mentionné dans le paragraphe "Le nombre de jours télétravaillables est fixé par journée entière à 2 jours par semaine au maximum". De plus, il n'y a aucune mention d'une possibilité de télétravail à 100% ou de full-remote sans jour de présence minimum sur site. Par conséquent, la variable nombrejourdeteletravailmaxparsemaine est affectée à la valeur 2.
+Le document mentionne que le nombre de jours télétravaillables est fixé par journée entière à 2 jours par semaine au maximum. Cependant, il est également stipulé que les salariés en télétravail régulier doivent exercer leur activité à minima 3 jours par semaine sur leur lieu de travail de référence. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2 jours.

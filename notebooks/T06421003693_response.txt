@@ -1,9 +1,20 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d'un ou deux jours entier(s) maximum par semaine.
+Q_TTSEM:
+Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
+
+* Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d'un ou deux jours entier(s) maximum par semaine (article 6.1).
+* Le télétravailleur opte pour des journées entières télétravaillées, il n'est pas possible de fractionner en demi-journées (article 6.1).
+* Cette/ces journée(s) de télétravail doit/doivent être positionnée(s) du lundi au vendredi (article 6.1).
+* Le télétravail peut s'exercer en tout lieu situé en France métropolitaine, l'adresse de celui-ci étant renseignée dans la demande de télétravail. Tout changement d'adresse (y compris temporaire) est signalé pour information et par écrit à la hiérarchie (attestation sur l'honneur dans le cas des résidences secondaires) (document 3, section 2.3.1).
+
+Il est important de noter que ces mentions peuvent varier en fonction des politiques spécifiques de l'entreprise et des accords conclus entre les parties prenantes.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine." (Document(page\_content='Lorsque cette demande vise une modification des conditions d’exercice du télétravail, un nouvel entretien entre le chef de département ou de service et le salarié en télétravail permet d’examiner la possibilité de reconduire ce mode d’organisation du travail selon les nouvelles conditions souhaitées.\n\nLa modification des conditions d’exercice du télétravail est formalisée par un nouveau formulaire de demande de télétravail d’une durée d’un an reconductible tacitement. Ces modifications prennent effet au 1er jour du mois civil suivant.\n\n\nArticle 6. Organisation du télétravail régulier \n\n6.1 Nombre, répartition et fréquence des journées télétravailées\n\n\nLe nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine.\n\nLe télétravailleur opte pour des journées entières télétravaillées, il n’est pas possible de fractionner en demi-journées.\n\nCette/ces journée(s) de télétravail doit/doivent être positionnée(s) du lundi au vendredi.\n\n...', metadata={'source': 'T06421003693.txt'}))
+
+* "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine." (Document(page\_content='Lorsque cette demande vise une modification des conditions d’exercice du télétravail, un nouvel entretien entre le chef de département ou de service et le salarié en télétravail permet d’examiner la possibilité de reconduire ce mode d’organisation du travail selon les nouvelles conditions souhaitées.\n\nLa modification des conditions d’exercice du télétravail est formalisée par un nouveau formulaire de demande de télétravail d’une durée d’un an reconductible tacitement. Ces modifications prennent effet au 1er jour du mois civil suivant.\n\n\nArticle 6. Organisation du télétravail régulier \n\n6.1 Nombre, répartition et fréquence des journées télétravailées\n\n\nLe nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine.\n\nLe télétravailleur opte pour des journées entières télétravaillées, il n’est pas possible de fractionner en demi-journées.\n\nCette/ces journée(s) de télétravail doit/doivent être positionnée(s) du lundi au vendredi.\n\n...'))
 
 Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine = 2
+
+* nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-* Dans le document, il est indiqué que "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine.". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+
+* Je me suis basé sur le paragraphe "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine." pour conclure que le nombre maximum de jours de télétravail par semaine est de 2.

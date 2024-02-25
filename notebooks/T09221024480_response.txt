@@ -1,4 +1,4 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisés par semaine. Le nombre de jours de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine.
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisés par semaine. Selon l'article 4 du document 1, le nombre de jours de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine pour tous les collaborateurs DFA.
 Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
 * "Le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine, pour tous les collaborateurs DFA, selon les mêmes conditions que celles prévues dans l’accord télétravail signé le 17 septembre 2020 (hors période de type pandémie)"

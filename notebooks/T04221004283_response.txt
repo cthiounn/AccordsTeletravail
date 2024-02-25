@@ -1,12 +1,14 @@
-Q_TTSEM:
-Oui, il y a une mention d'un nombre de jour de télétravail autorisé par semaine. Selon le document, la méthode 1 du télétravail permet de travailler 1, 1,5 ou 2 jours par semaine en accord avec le manager, et la méthode 2 permet de travailler 1, 1,5 ou 2 jours par semaine en accord avec le manager avec un délai de prévenance d'au moins 48h.
+Q_TTSEM:Yes, there is at least one mention of a specific number of days allowed for telework per week in the documents you provided. According to document 0, the two methods of telework organization allow for "1, 1,5 or 2 days" of telework per week.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Méthode 1 : 1, 1,5 ou 2 jours (selon les règles évoquées au paragraphe précédent « Rythme de télétravail ») par semaine fixes"
-* "Méthode 2 : 1, 1,5 ou 2 jours (selon les règles évoquées au paragraphe précédent « Rythme de télétravail ») par semaine flexibles"
+* "Méthode 1 : 1, 1,5 ou 2 jours (selon les règles évoquées au paragraphe précédent « Rythme de télétravail ») par semaine fixes, positionnés en accord avec le manager (compris comme étant le même jour ou les mêmes deux jours toutes les semaines) ; Ouvert sur tous les jours de la semaine."
+* "Il sera possible, au cours de la période couverte par l’accord, de modifier la méthode d’organisation du télétravail (méthode fixe ou variable) sous réserve de justification opérationnelle, changement d’équipe, de missions, de poste et sous réserve de la validation du manager et du référent RH du salarié."
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine = 2
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine = 2
 
 Mon raisonnement :
-Les deux méthodes d'organisation du télétravail proposées permettent de télétravailler un nombre maximal de 2 jours par semaine, soit 2*5=10 jours par mois et 10*12=120 jours par an. Cette limite de 2 jours par semaine est explicite dans le document et ne dépend pas de la périodicité (semaine, mois, trimestre, année).
+
+* Selon le premier paragraphe, le nombre maximum de jours de télétravail par semaine est de 2 jours.
+* La deuxième phrase ne contient pas d'information utile pour répondre à la question.

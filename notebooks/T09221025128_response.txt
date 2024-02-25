@@ -1,17 +1,24 @@
-Q_TTSEM:
-Oui, il y a une mention d'un nombre de jours de télétravail autorisé par semaine. Selon l'article 2.1, les salariés éligibles peuvent bénéficier du télétravail dans la limite de xx jours par semaine. Cependant, la valeur numérique "xx" n'est pas précisée dans le document fourni.
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés ou recommandés par semaine dans les documents fournis. Voici quelques exemples :
+
+* Dans le document avec l'ID 0, il est mentionné que les salariés éligibles peuvent bénéficier du télétravail "dans la limite de xx jours par semaine" (bien que le nombre exact ne soit pas précisé).
+* Dans le même document, il est également mentionné que les salariés du CCC peuvent bénéficier du télétravail "dans la limite de 50% de leur temps de travail".
+* Dans le document avec l'ID 3, il est mentionné que les salariés en situation de handicap peuvent bénéficier de "3 jours de télétravail par semaine".
+
+Notez que ces mentions ne sont pas contradictoires et peuvent s'appliquer à différents types de salariés ou de situations.
 Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+**Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question:**
 
-* "Afin de préserver le lien social avec l’entreprise, les salariés éligibles peuvent, avec accord du manager, bénéficier du télétravail dans la limite de xx jours par semaine."
-* "Ils peuvent bénéficier de 3 jours de télétravail par semaine."
+* Article 2.1 Principe : "Afin de préserver le lien social avec l’entreprise, les salariés éligibles peuvent, avec accord du manager, bénéficier du télétravail dans la limite de xx jours par semaine."
+* Article 2.2.1 Exceptions : "Par exception bénéficient de xx jour de télétravail par semaine : Les salariés en CDI ayant validé leur période d’essai, mais ayant moins de 6 mois d’ancienneté ; Les alternants à compter de la 2e de présence dans l’entreprise."
 
-Ma réponse après raisonnement :
+**Ma réponse après raisonnement ci-dessous :**
 
-nombrejourdeteletravailmaxparsemaine=3
+nombrejourdeteletravailmaxparsemaine=5
 
-Mon raisonnement :
+**Mon raisonnement :**
 
-Après analyse des documents fournis, je constate que deux paragraphes mentionnent le nombre de jours de télétravail par semaine. Dans le premier paragraphe, il est mentionné que les salariés éligibles peuvent bénéficier du télétravail dans la limite de "xx" jours par semaine. Cependant, la valeur numérique de "xx" n'est pas précisée dans le texte. Dans le second paragraphe, il est indiqué que les salariés peuvent bénéficier de 3 jours de télétravail par semaine.
+Le premier paragraphe indique que les salariés éligibles peuvent bénéficier du télétravail dans la limite de xx jours par semaine. Cependant, ce paragraphe ne précise pas quel est le nombre maximum de jours de télétravail par semaine.
 
-Compte tenu des informations disponibles, je propose de fixer la variable 'nombrejourdeteletravailmaxparsemaine' à la valeur 3, qui correspond au nombre maximum de jours de télétravail par semaine explicitement mentionné dans le document.
+Le deuxième paragraphe indique que certains salariés bénéficient de xx jour de télétravail par semaine en raison de leur statut particulier (CDD ou alternants avec moins de 6 mois d'ancienneté). Cependant, ce paragraphe ne précise pas non plus quel est le nombre maximum de jours de télétravail par semaine pour les autres salariés.
+
+Cependant, le document mentionne positivement le Télétravail à 100%, ou le full-remote, et ne prévoit pas de jour de présence minimum sur site. Par conséquent, en application de l'instruction 2.E, je conclus que le nombre maximum de jours de télétravail par semaine est de 5.

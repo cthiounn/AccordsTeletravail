@@ -1,2 +1,23 @@
-Q_TTSEM:
-Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Les seules mentions explicites de nombres de jours concernent des jours supplémentaires ou exceptionnels, ou des jours de présence obligatoire sur site.
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés, recommandés ou limités explicitement exprimés par semaine dans les documents fournis. Voici quelques exemples :
+
+* "De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise"
+* "De 1 à 3 jours flottants par semaine"
+* "Un forfait mensuel de 6 jours"
+* "Un forfait annuel de 30 jours"
+* "1 jour supplémentaire de télétravail pourra être accordé en plus hebdomadairement (ou 20% de jours supplémentaires sur les forfaits mensuels ou annuels)" (pour les seniors, les femmes enceintes et les collaborateurs en RQTH)
+
+Il est important de noter que ces nombres de jours peuvent varier en fonction de certaines conditions ou situations particulières, telles que l'âge, l'état de santé ou les fonctions du collaborateur.
+Q_TTSEM_NOMBRE:
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+    "De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise"
+    
+    "De 1 à 3 jours flottants par semaine"
+
+* Ma réponse après raisonnement ci-dessous :
+
+    nombrejourdeteletravailmaxparsemaine=3
+
+* Mon raisonnement :
+
+    Les paragraphes extraits indiquent clairement qu'un collaborateur peut télétravailler de 1 à 3 jours par semaine, ce qui correspond aux instructions données. La variable 'nombrejourdeteletravailmaxparsemaine' est donc affectée à la valeur 3.

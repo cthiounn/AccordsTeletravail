@@ -1,1 +1,13 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.
+Q_TTSEM:Oui, il est mentionné que "Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance."
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance." (Source: <T05721004723.txt>)
+
+Ma réponse après raisonnement ci-dessous :
+
+nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+Le document mentionne positivement le télétravail à hauteur de 2 jours par semaine. Il n'y a pas de mention d'un nombre de jours de présence minimum sur site. Par conséquent, je peux conclure que le nombre maximum de jours de télétravail par semaine est de 2.

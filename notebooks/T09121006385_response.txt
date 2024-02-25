@@ -1,5 +1,4 @@
-Q_TTSEM:
-Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Le télétravail ne doit pas dépasser 0,20 Equivalent Temps Plein (ETP) par mois, soit au plus une journée par semaine.
+Q_TTSEM:Oui, selon le document 0, le télétravail ne doit pas dépasser 0,20 Equivalent Temps Plein (ETP) par mois, ce qui correspond à une journée par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 * "Le télétravail ne devra pas dépasser 0,20 ETP par mois soit au plus une journée par semaine." (Document 1, Article 3-1)
 

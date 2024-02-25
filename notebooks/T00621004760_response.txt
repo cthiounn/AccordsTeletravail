@@ -1,15 +1,15 @@
 Q_TTSEM:
-Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Selon l'article 2.3.1, le télétravail est possible "dans la limite de 1 journée par semaine".
+Oui, il y a une mention d'une limite de 1 journée par semaine pour le télétravail. Cette limite est spécifiée dans le document 0, article 2.3.1.
 Q_TTSEM_NOMBRE:
 * Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Article 2.3.1. Rythme général du télétravail
-> Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine.
+    Article 2.3.1. Rythme général du télétravail
+    Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine.
 
 * Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=1
+    nombrejourdeteletravailmaxparsemaine=1
 
 * Mon raisonnement :
 
-Après avoir lu l'article 2.3.1. Rythme général du télétravail, il est stipulé que "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine.". Cela signifie qu'un employé ne peut pas travailler plus d'une journée entière par semaine en télétravail. Donc, le nombre maximum de jours de télétravail par semaine est 1.
+    Le paragraphe "Article 2.3.1. Rythme général du télétravail" stipule que "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine.". Donc, le nombre maximum de jours de télétravail par semaine est de 1.

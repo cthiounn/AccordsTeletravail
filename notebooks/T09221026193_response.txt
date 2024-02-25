@@ -1,11 +1,21 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Selon le document, le nombre de jours de télétravail régulier hebdomadaire est défini en fonction du pourcentage de la durée du travail et varie entre 1 et 4 jours par semaine. Ce nombre constitue la référence du télétravail régulier au titre de l'accord.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés, recommandés, limités ou maximum par semaine dans les documents fournis. Voici quelques exemples :
 
-* "Le tableau ci-après présente le nombre de jours de présence minimum dans les locaux de l’Entreprise en fonction du pourcentage de la durée du travail :"
-* "Au sein des Directions ou Département concernés, le télétravail régulier pourra être limité à un jour par semaine,"
+* Dans le document d'ID 3, il est mentionné que "le nombre de jours de télétravail en mode flexible ou occasionnel est fixé au maximum à 2 jours par mois civil" et que "les collaborateurs en télétravail régulier peuvent bénéficier de 2 journées de télétravail supplémentaires par mois sans pouvoir excéder 10 jours de télétravail sur un même mois civil".
+* Dans le document d'ID 0, il est mentionné que pour bénéficier du télétravail, le collaborateur doit disposer d'un espace dédié au travail sur un lieu de télétravail en France métropolitaine, permettant d'assurer la bonne exécution de son activité professionnelle, la confidentialité attendue et l'installation de son matériel professionnel, et que cette disposition ne s'applique pas au télétravail occasionnel ou imposé par des circonstances exceptionnelles.
+* Dans le document d'ID 1, il est mentionné que le collaborateur qui souhaite télétravailler de façon occasionnelle, adresse une demande écrite au minimum deux (2) jours ouvrés avant la date souhaitée, sous format de courrier électronique avec accusé de réception, à son Responsable hiérarchique.
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=1
+Cependant, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine dans tous les documents fournis. Par exemple, dans le document d'ID 4, il est mentionné que le télétravailleur exerce son activité professionnelle depuis un lieu prédéfini dans le cadre des dispositions légales et conventionnelles en vigueur au sein de l'Entreprise, mais il n'y a pas de mention explicite d'un nombre de jours de télétravail par semaine.
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
 
-Mon raisonnement :
-Le premier paragraphe indique que le télétravail régulier est basé sur un nombre de jours hebdomadaires, qui constitue la référence du télétravail régulier au titre du présent accord. Le deuxième paragraphe précise que dans certaines directions ou départements, le télétravail régulier peut être limité à un jour par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 1.
+    * "L’instauration du télétravail régulier sur la base du nombre de jours précités ne peut cependant être un principe absolu, notamment au sein de certaines Directions ou Département dont les caractéristiques d’activités pourraient les amener à en réduire le volume individuel pour certains métiers tout en respectant les principes généraux fixés au sein du présent accord."
+    
+    * "Le nombre de jours de télétravail en mode flexible ou occasionnel est fixé au maximum à 2 jours par mois civil."
+
+* Ma réponse après raisonnement :
+
+    * nombrejourdeteletravailmaxparsemaine=5
+
+* Mon raisonnement :
+
+    * Selon le premier paragraphe, le télétravail régulier ne peut être un principe absolu et peut être réduit en fonction des caractéristiques d'activités de certaines directions ou départements. Cependant, le deuxième paragraphe précise que le nombre de jours de télétravail en mode flexible ou occasionnel est fixé au maximum à 2 jours par mois civil, soit environ 0.5 jour par semaine. Or, selon les instructions, il faut déconnecter les liens entre les périodicités et considérer les semaines, les mois, les trimestres et les années comme des concepts indépendants. Par conséquent, même si le télétravail régulier peut être réduit en dessous de 5 jours par semaine, le télétravail occasionnel ou flexible ne peut excéder 0.5 jour par semaine. Dans ce cas, nombrejourdeteletravailmaxparsemaine=5.

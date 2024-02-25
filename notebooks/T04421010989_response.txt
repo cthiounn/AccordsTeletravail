@@ -1,17 +1,21 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Un minimum de 1 jour et un maximum de 2 jours de télétravail par semaine sont autorisés pour un salarié à temps plein, en dehors des jours de présence obligatoire sur site.
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés ou recommandés par semaine dans les documents fournis. Voici un résumé :
+
+- Télétravail régulier : un minimum de 1 à 2 jours par semaine calendaire, avec un minimum de 3 jours de présence au bureau.
+- Télétravail occasionnel : quelques jours de télétravail, de manière non-récurrente, qui ne dépassent pas un certain nombre de jours non précisé dans les documents.
+- Contexte exceptionnel et extérieur à l'entreprise : certains salariés peuvent être en télétravail à temps plein en fonction des recommandations des autorités.
+
+Notez que ces règles peuvent varier en fonction du statut du salarié (temps plein, temps partiel, nouvel employé, etc.).
 Q_TTSEM_NOMBRE:
 * Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-> Un minimum de 3 jours par semaine calendaire au bureau sera observé. Ainsi, entre un et deux jours par semaine de télétravail pourront être mis en place pour un salarié à temps plein. Ce par demi-journées ou journées. Les jours de la semaine concernés par le télétravail seront fixes, et choisis conjointement entre collaborateur et responsable hiérarchique. Ils pourront être exceptionnellement modifiés, sur accord du responsable hiérarchique.
+> Un minimum de 3 jours par semaine calendaire au bureau sera observé. Ainsi, entre un et deux jours par semaine de télétravail pourront être mis en place pour un salarié à temps plein.
+
+> Les collaborateurs à temps partiel suivront la même règle d’une présence minimum de 3 jours calendaires par semaine au bureau, le reste du temps de travail pouvant être en télétravail.
 
 * Ma réponse après raisonnement ci-dessous :
 
-**nombrejourdeteletravailmaxparsemaine=2**
-
 * Mon raisonnement :
 
-Je me base sur le paragraphe suivant :
+    Le premier paragraphe indique qu'un salarié à temps plein peut effectuer "entre un et deux jours par semaine" de télétravail. Le deuxième paragraphe indique que les salariés à temps partiel peuvent effectuer "le reste du temps de travail" en télétravail, après avoir passé une journée minimale de trois jours par semaine au bureau. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 2 + 2 = 4 jours.
 
-> Un minimum de 3 jours par semaine calendaire au bureau sera observé. Ainsi, entre un et deux jours par semaine de télétravail pourront être mis en place pour un salarié à temps plein.
-
-Cette phrase indique clairement que le maximum de jours de télétravail par semaine est de 2.
+    Donc, `nombrejourdeteletravailmaxparsemaine=4`.

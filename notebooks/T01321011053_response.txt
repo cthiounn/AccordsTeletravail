@@ -1,5 +1,4 @@
-Q_TTSEM:
-Oui, il y a une mention d'un nombre de jour de télétravail autorisé par semaine. Pour le personnel non-cadre, le nombre de jours de télétravail est limité à un jour par semaine. Pour le personnel cadre, le nombre de jours télétravaillés est limité à deux jours par semaine.
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés par semaine dans les documents fournis. Pour le personnel non-cadre, le nombre de jours de télétravail est limité à un jour par semaine (peut être modulé en deux demi-journées), tandis que pour le personnel cadre, le nombre de jours télétravaillés est limité à deux jours par semaine (peut aussi être modulé en demi-journées). Ces limites ne peuvent être dépassées sauf exceptions telles qu'un commun accord des parties ou un délai de prévenance de trois jours calendaires pour le manager.
 Q_TTSEM_NOMBRE:* Extraits pertinents des documents :
     * "Le nombre de jours de télétravail est donc limité à un jour par semaine." (Document 1, Personal non-cadre)
     * "Le nombre de jours télétravaillés est donc limité à deux jours par semaine." (Document 1, Personal cadre)

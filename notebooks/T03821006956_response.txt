@@ -1,14 +1,19 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail maximum par semaine. Le télétravail ne peut pas s'exercer plus d'1 jour par semaine, dans la limite de 2 demi-journées. Cette limite s'applique pour les salariés à temps complet ou titulaires d'un forfait annuel de 218 jours, ainsi que pour les salariés à temps partiel ou titulaires d'un forfait annuel en jours réduit, avec une limite proratisée selon le pourcentage de temps de travail.
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
+
+* Selon l'article V - paragraphe A du document 0, le télétravail pour un salarié à temps complet ou titulaire d'un forfait annuel 218 jours ne peut être exercé que pour un maximum de 1 jour (soit 2 demi-journées) par semaine de 5 jours travaillés.
+* Selon l'article V - paragraphe A du document 0, pour un salarié à temps partiel ou titulaire d'un forfait annuel en jours réduit, le nombre de jour de télétravail possible par trimestre sera proratisé selon le pourcentage de temps de travail et avec une limite dans tous les cas de 1 jour par semaine (soit 2 demi-journées).
+* Selon le document 1, les jours de télétravail non utilisés dans le quota annuel, trimestriel, mensuel ou hebdomadaire ne donneront lieu à aucune compensation de quelque type que ce soit. Le télétravail n’étant qu’une modalité d’organisation du temps de travail proposée au salarié et non un droit acquis.
+
+Il est important de noter que ces limites peuvent varier en fonction du statut et du temps de travail du salarié.
 Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+**Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :**
 
-* "Le télétravail pour le salarié à temps complet ou titulaire d’un forfait annuel 218 jours ne pourra être exercé que pour un maximum de 13 jours (soit 26 demi-journées) par trimestre civil dans la limite de 1 jour (soit 2 demi-journées) par semaine de 5 jours travaillés, non reportables, soit une enveloppe de 52 jours (soit 104 demi-journées) par année civile."
-* "Le télétravail ne pourra être exercé que pour les durées et les modalités maximales suivantes"
+* Article V – ORGANISATION DU TELETRAVAIL, A – Nombre de jours télétravaillés, Le/les jour(s) ou demi-journée(s) de télétravail peuvent s’entendre le Lundi, le Mercredi, le Jeudi et le vendredi. Le télétravail ne peut pas s’exercer les Mardi. Le télétravail pour le salarié à temps complet ou titulaire d’un forfait annuel 218 jours ne pourra être exercé que pour un maximum de 13 jours (soit 26 demi-journées) par trimestre civil dans la limite de 1 jour (soit 2 demi-journées) par semaine de 5 jours travaillés, non reportables, soit une enveloppe de 52 jours (soit 104 demi-journées) par année civile.
 
-Ma réponse après raisonnement ci-dessous :
+**Ma réponse après raisonnement ci-dessous :**
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=1
+* nombrejourdeteletravailmaxparsemaine=1
 
-Mon raisonnement :
+**Mon raisonnement :**
 
-Le premier paragraphe indique que le télétravail peut être exercé pour un maximum de 1 jour par semaine de 5 jours travaillés, non reportables. Cela signifie que le nombre maximum de jours de télétravail par semaine est de 1. Cette information est confirmée dans le deuxième paragraphe où il est indiqué que le télétravail peut être exercé pour un maximum de 1 jour par semaine.
+* J'ai recherché dans les documents fournis les termes "semaine" ou "week", associés à une notion de fréquence de télétravail. Seul le paragraphe extrait ci-dessus correspond à ma recherche. Il indique que le télétravail peut être exercé "dans la limite de 1 jour (soit 2 demi-journées) par semaine". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 1 jour.

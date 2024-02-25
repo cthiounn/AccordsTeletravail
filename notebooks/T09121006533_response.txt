@@ -1,10 +1,10 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Il est indiqué que "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine".
-Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Oui, il est mentionné dans le document avec l'ID 5 que "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine".
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* "Il est entendu que le recours au télétravail ne remet pas en cause le lien de subordination ainsi que les liens hiérarchiques existants au sein de l’Entreprise." (document 1, page 1)
+* "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine (de par la nature de leur fonction, les commerciaux ne sont pas concernés par cette disposition). Aucun report de ces jours ne sera accordé." (document 2, page 1)
 
-> "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine (de par la nature de leur fonction, les commerciaux ne sont pas concernés par cette disposition). Aucun report de ces jours ne sera accordé."
+Ma réponse après raisonnement ci-dessous :
+* nombrejourdeteletravailmaxparsemaine = 2
 
-* Ma réponse après raisonnement ci-dessous :
-
-* Mon raisonnement : Le paragraphe indique que le nombre maximal de jours de télétravail par semaine est de deux. Cette limite ne peut être dépassée, sauf dans le cas où le télétravail à 100% ou le full-remote est autorisé ou fortement positivement évoqué et qu'il n'y a pas de jour de présence minimum sur site. Cependant, dans le document fourni, il n'y a aucune indication allant dans ce sens.
-
-Par conséquent, **nombrejourdeteletravailmaxparsemaine=2**.
+Mon raisonnement :
+* D'après le paragraphe extrait du document 2, il est stipulé qu'un salarié ne peut pas être en télétravail plus de deux journées par semaine. Cette limite de deux jours par semaine est confirmée dans le paragraphe du document 1 qui précise que le lien de subordination et les liens hiérarchiques existants au sein de l’Entreprise ne sont pas remis en cause par le télétravail. Ainsi, je peux conclure que la limite maximale de télétravail par semaine est de deux jours.

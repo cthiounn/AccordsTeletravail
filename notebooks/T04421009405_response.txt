@@ -1,16 +1,21 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail maximum par semaine. Le nombre de jours de télétravail est plafonné à 6 jours par mois, ce qui correspond à environ 1,5 jour par semaine.
-Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
 
-> "Le rythme de télétravail accordé devra permettre minimum 3 jours de présentiel sur site par semaine pour les salariés à temps plein et à temps partiel."
+* "Le nombre de jours de télétravail est plafonné à 6 jours par mois." (Document 8)
+* "Le rythme de télétravail accordé devra permettre minimum 3 jours de présentiel sur site par semaine pour les salariés à temps plein et à temps partiel." (Document 8)
+* "Il sera possible de télétravailler par demi-journée : Exemple : réunion le matin inter site retour possible au domicile ou en télétravail nomade." (Document 8)
+* "La définition de ce seuil ne concerne pas le personnel dont l’activité s’effectue principalement de manière itinérante (commerciaux, SAV etc)." (Document 8)
 
-> "Le nombre de jours de télétravail est plafonné à 6 jours par mois."
+Notez que certains de ces exemples expriment le nombre de jours de télétravail en termes mensuels plutôt qu'hebdomadaires, mais ils peuvent néanmoins être considérés comme des limites ou des plafonds sur le nombre de jours de télétravail par semaine.
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* Ma réponse après raisonnement :
+* "Le rythme de télétravail accordé devra permettre minimum 3 jours de présentiel sur site par semaine pour les salariés à temps plein et à temps partiel."
+* "Le nombre de jours de télétravail est plafonné à 6 jours par mois."
 
-Nombre de jours maximum de télétravail par semaine : 3
+Ma réponse :
 
-* Mon raisonnement :
+nombrejourdeteletravailmaxparsemaine=3
 
-Le premier paragraphe indique que le rythme de télétravail doit permettre un minimum de 3 jours de présentiel sur site par semaine pour les salariés à temps plein et à temps partiel. Par déduction, cela implique que le nombre maximum de jours de télétravail par semaine est de 3 jours.
+Mon raisonnement :
 
-Variable 'nombrejourdeteletravailmaxparsemaine' = 3
+Le premier paragraphe indique que le rythme de télétravail doit permettre un minimum de 3 jours de présentiel sur site par semaine pour les salariés à temps plein et à temps partiel. Cela implique que le nombre maximum de jours de télétravail par semaine est de 2 jours. Cette information est confirmée par le deuxième paragraphe qui indique que le nombre de jours de télétravail est plafonné à 6 jours par mois, ce qui correspond à une moyenne de 1,5 jour par semaine (6 jours par mois / 4 semaines par mois). Par conséquent, le nombre maximum de jours de télétravail par semaine est limité à 2 jours.

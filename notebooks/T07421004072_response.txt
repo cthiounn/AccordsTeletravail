@@ -1,14 +1,1 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Le télétravail peut s'effectuer "sur une demi-journée au minimum et au maximum 1 journée par semaine".
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "Le télétravail pourra s’effectuer sur une demi-journée au minimum et au maximum 1 journée par semaine"
-* "Le télétravail ne doit pas aboutir à une absence totale ou à une faible, voire dérisoire, durée de présence du salarié sur site. Le travail du salarié doit ainsi être très majoritairement réalisé au sein de l’association."
-
-Ma réponse après raisonnement ci-dessous :
-
-Ma réponse : nombrejourdeteletravailmaxparsemaine=1
-
-Mon raisonnement :
-
-Le premier paragraphe indique clairement que le télétravail peut s'effectuer sur une demi-journée au minimum et au maximum 1 journée par semaine. Cependant, le deuxième paragraphe indique que le télétravail ne doit pas aboutir à une absence totale ou à une faible, voire dérisoire, durée de présence du salarié sur site. Le télétravail doit ainsi être très majoritairement réalisé au sein de l'association. Par conséquent, le nombre maximum de jour de télétravail par semaine est limité à 1 jour.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.

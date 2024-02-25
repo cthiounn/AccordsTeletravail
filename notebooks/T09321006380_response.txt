@@ -1,13 +1,18 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail maximum explicitement exprimé par semaine. Le plafond de deux jours par semaine ne peut être dépassé par les accords d'entreprise ou chartes de télétravail des entreprises du Groupe. Les entreprises peuvent définir un nombre de jours maximum de télétravail inférieur à ce plafond, qui s'appliquera seul aux salariés de l'entreprise concernée.
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail maximum par semaine. Selon l'article 6.2.3, le nombre maximum de jours de travail accomplis en télétravail par année pleine et par salarié est limité à 2 jours par semaine effectivement travaillée. Cette limite ne s'applique pas en cas de recours au télétravail prévu aux articles 5.2 et 5.3 du présent accord ou en cas de situation d'organisation spécifique propre aux entreprises du Groupe.
+
+De plus, selon l'article 6.2.2, les journées de télétravail "volantes" ne peuvent conduire à une absence des locaux de l'entreprise supérieure à 2 jours par semaine.
+
+Enfin, selon l'article 2, dans un souci d'équité entre les salariés au sein d'un même service, le responsable hiérarchique veillera à un traitement égalitaire quant à l'attribution des jours de semaine "télétravaillable". Une attention particulière devra être apportée notamment sur l'attribution du lundi, mercredi et vendredi. Le télétravail régulier ne pourra être exercé qu'en journée pleine et non en demi-journée, excepté pour la demi-journée des salariés travaillant sur 4,5 jours (90%). Pour la bonne organisation du service, le responsable hiérarchique informe son équipe des modalités d'organisation du télétravail au sein de son service.
 Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* "Ce plafond de deux jours par semaine constitue un maximum qui ne pourra être dépassé par les accords d’entreprise ou chartes de télétravail des entreprises du Groupe." (Document(page\_content='Ce plafond de deux jours par semaine constitue un maximum qui ne pourra être dépassé par les accords d’entreprise ou chartes de télétravail des entreprises du Groupe. A ce titre, ces dernières, pourront si elles le souhaitent définir un nombre de jours maximum de télétravail inférieur à ce plafond que ce soit par accord d’entreprise ou charte de télétravail, ce plafond nouvellement défini s’appliquera seul aux salariés de l’entreprise concernée.'))
+* "Le plafond de deux jours par semaine constitue un maximum qui ne pourra être dépassé par les accords d’entreprise ou chartes de télétravail des entreprises du Groupe." (Document(page\_content='Ce plafond de deux jours par semaine constitue un maximum qui ne pourra être dépassé par les accords d’entreprise ou chartes de télétravail des entreprises du Groupe. A ce titre, ces dernières, pourront si elles le souhaitent définir un nombre de jours maximum de télétravail inférieur à ce plafond, ce plafond nouvellement défini s’appliquera seul aux salariés de l’entreprise concernée.'))
+* "Ces journées pourront être posées librement par le salarié sous réserve de la validation de sa hiérarchie et sans pour autant conduire à une absence des locaux de l’entreprise supérieure à 2 jours par semaine selon le plafond précisé au premier alinéa de l’article précédent." (Document(page\_content='Dans ce cadre, et sous réserve d’être précisé dans l’accord d’entreprise ou la charte de télétravail de l’entreprise du Groupe, les salariés de l’entreprise éligibles au télétravail pourront disposer d’un compteur de journées de télétravail « volantes » dans la limite de 10 jours par an, prorata temporis. Le cas échéant le calcul de l’arrondi se fera à l’entier inférieur. Ces journées ne constituent pas un droit du salarié. '))
 
-Ma réponse après raisonnement ci-dessous :
+Ma réponse :
 
 nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-Le paragraphe pertinent indique clairement que le plafond de télétravail par semaine est de deux jours. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 2.
+Après avoir analysé les deux paragraphes pertinents, j'ai pu trouver la mention du plafond de deux jours par semaine qui ne peut être dépassé par les accords d'entreprise ou chartes de télétravail des entreprises du Groupe. Cette information est suffisamment claire et explicite pour conclure que le nombre maximum de jours de télétravail par semaine est de 2.

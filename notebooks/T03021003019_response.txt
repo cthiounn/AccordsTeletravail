@@ -1,4 +1,5 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail maximum par semaine. Le nombre de jours en télétravail pourra au maximum être de 4 par semaine.
+Q_TTSEM:
+Oui, il y a une mention d'un nombre de jours de télétravail maximum par semaine dans le document. Le nombre maximum de jours en télétravail est de 4 par semaine.
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
@@ -10,4 +11,4 @@ Ma réponse après raisonnement ci-dessous :
 
 Mon raisonnement :
 
-* Dans l'article 3, il est spécifié que le nombre de jours en télétravail pourra au maximum être de 4 par semaine. Donc, nombrejourdeteletravailmaxparsemaine=4.
+* Je me suis concentré sur les articles qui parlent explicitement du nombre de jours de télétravail autorisés par semaine. J'ai trouvé l'article 3 qui stipule que le nombre de jours en télétravail pourra au maximum être de 4 par semaine. Donc, nombrejourdeteletravailmaxparsemaine=4.

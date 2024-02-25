@@ -1,4 +1,9 @@
-Q_TTSEM:Oui, il y a une mention à un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Le nombre de jours télétravaillés s’organise de la façon suivante : "Un nombre de jours télétravaillés pouvant être porté jusqu’à 3 jours par semaine sur accord du manager."
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
+
+* Pour le télétravail régulier, le nombre de jours télétravaillés peut être porté jusqu'à 3 jours par semaine sur accord du manager, avec un minimum de 2 jours de présence sur site obligatoire par semaine.
+* Pour le télétravail occasionnel, chaque salarié répondant aux critères d'éligibilité peut télétravailler au maximum 8 jours dans l'année. Il s'agit d'une limite et non d'un droit.
+
+Merci pour votre confiance!
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
@@ -10,7 +15,5 @@ nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
 
-* J'ai identifié un paragraphe qui répond à la question posée.
-* Ce paragraphe indique qu'un salarié peut porter le nombre de jours télétravaillés jusqu'à 3 par semaine sur accord du manager.
-* Je n'ai pas trouvé d'autres paragraphes qui mentionnent le nombre de jours de télétravail par semaine, donc je considère que la limite est de 3 jours par semaine.
-* Je n'ai pas trouvé d'autres informations qui pourraient modifier cette limite, donc je conclus que la variable 'nombrejourdeteletravailmaxparsemaine' vaut 3.
+* J'ai trouvé dans le document une indication claire et explicite du nombre maximum de jours de télétravail par semaine, qui est de 3 jours. Cette information est donnée dans le paragraphe "Un nombre de jours télétravaillés pouvant être porté jusqu’à 3 jours par semaine sur accord du manager." (Source: T05321002415.txt)
+* Je n'ai pas trouvé d'autres informations contradictoires ou complémentaires dans les autres documents fournis.

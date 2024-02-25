@@ -1,2 +1,15 @@
 Q_TTSEM:
-Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné qu'"Afin de garantir la cohésion des équipes et de prévenir les situations d’isolement, le télétravail ne pourra être exercé que dans la limite de 75% du temps de travail effectif mensuel (en jours)" et qu'"Un minima de 4 jours mensuels de présence sur site devra être mis en œuvre."
+Oui, il y a une mention d'une limitation du nombre de jours télétravaillés. Selon le document, le télétravail ne peut être exercé que dans la limite de 75% du temps de travail effectif mensuel (en jours).
+Q_TTSEM_NOMBRE:
+**Extraction de deux paragraphes pertinents provenant des documents à analyser qui répondent à la question:**
+
+* "Pendant ces plages horaires, le salarié doit être joignable via les outils mis à sa disposition."
+* "Le télétravail ne saurait modifier l’amplitude de travail du collaborateur."
+
+**Ma réponse:**
+
+*nombrejourdeteletravailmaxparsemaine=5*
+
+**Mon raisonnement:**
+
+Je n'ai pas trouvé de paragraphe qui mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Cependant, d'après les informations fournies, je peux conclure que le télétravail s'inscrit dans une relation basée sur la confiance mutuelle entre le collaborateur et son responsable, et que le télétravailleur est censé exercer son activité de manière autonome à son domicile. De plus, il n'y a pas de limitation explicite du nombre de jours de télétravail par semaine, et le télétravail ne modifie pas l'amplitude de travail du collaborateur. Par conséquent, en l'absence de restrictions explicites, je suppose que le nombre maximum de jours de télétravail par semaine est de 5 jours, ce qui correspond au nombre total de jours ouvrables dans une semaine.

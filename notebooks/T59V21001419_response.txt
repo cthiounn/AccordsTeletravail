@@ -1,1 +1,15 @@
-Q_TTSEM:Non, il n'y a pas de mention d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine dans les documents fournis. Les seules mentions de nombres de jours de télétravail se trouvent dans les documents et sont exprimées par mois.
+Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Les salariés à temps plein ont droit à 1 jour de télétravail fixe par semaine calendaire, déterminé en accord avec le manager.
+Q_TTSEM_NOMBRE:
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+    "Les 4 journées de télétravail mensuelles autorisées seront à répartir de la façon suivante : 1 jour de télétravail fixe par semaine calendaire, déterminé en accord avec le manager."
+    
+    "Le télétravailleur devra être joignable pendant ses horaires de travail par e-mail (courriel), via les systèmes de messagerie instantanée professionnels et par téléphone via TEAMS ou via un téléphone professionnel s’il a été mis à sa disposition par l’entreprise du fait des obligations liées à sa fonction."
+
+* Ma réponse après raisonnement ci-dessous :
+
+    nombrejourdeteletravailmaxparsemaine=1
+
+* Mon raisonnement :
+
+    Les quatre journées de télétravail mensuelles autorisées sont à répartir sur le mois, et incluent un jour de télétravail fixe par semaine calendaire. Donc, un salarié peut télétravailler un jour par semaine au maximum.
