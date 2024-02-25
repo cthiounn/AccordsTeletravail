@@ -1,1 +1,1 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jour de télétravail autorisé, recommandé, limité ou maximum explicitement exprimé par semaine. Les seules mentions de nombre de jours de télétravail se trouvent dans la phrase "Un rythme de trois jours en télétravail et deux jours en présentiel peut être envisagé." mais aucune période n'est associée à ce nombre de jours.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.

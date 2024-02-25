@@ -1,2 +1,11 @@
-Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine.
+Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Le nombre de jours de télétravail autorisé par semaine et par collaborateur est dans ce cas proportionnel au temps de travail par semaine du salarié concerné (2 jours de télétravail par semaine étant autorisé pour un collaborateur à temps plein ou forfait jours non réduit).
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* "Le nombre de jours de teletravail autorise par semaine et par collaborateur est dans ce cas proportionnel au temps de travail par semaine du salarié concerne (2 jours de teletravail par semaine etant autorise pour un collaborateur a temps plein ou forfait jours non reduit)"
+* "L’objectif est que tout collaborateur du CNM soit en presentiel dans les locaux du CNM a minima 3 jours par semaine"
+
+Ma réponse après raisonnement :
+* nombrejourdeteletravailmaxparsemaine = 2
+
+Mon raisonnement :
+* Selon le premier paragraphe, le nombre de jours de télétravail autorisé par semaine et par collaborateur est proportionnel au temps de travail par semaine du salarié concerné. Comme il n'y a pas d'autres éléments dans le document qui modifient cette information, je peux en déduire que le maximum de jours de télétravail par semaine est de 2.
+* Le deuxième paragraphe ne contient pas d'information utile pour répondre à la question car il ne précise pas le nombre de jours de télétravail possibles par semaine.

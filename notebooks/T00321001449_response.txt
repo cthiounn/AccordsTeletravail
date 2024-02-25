@@ -1,15 +1,7 @@
-Q_TTSEM:
-Oui, le paragraphe suivant mentionne explicitement qu'un jour de télétravail par semaine est accordé sur la base du volontariat :
-
-"Article 3 – Règles de maintien du télétravail
-L’employeur accorde un jour de télétravail par semaine sur la base du volontariat"
-
-Source: T00321001449.txt, Article 3.
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "L’employeur accorde un jour de télétravail par semaine sur la base du volontariat"
-    * "Les dispositions du présent accord ont pour objet de définir les règles allégées du télétravail pendant la période du 14/06/2021 jusqu’au 31/08/2021 au sein de Ligier Group."
-* Ma réponse :
+Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé par semaine. L'article 3 de l'accord stipule que "l'employeur accorde un jour de télétravail par semaine".
+Q_TTSEM_NOMBRE:* Extrait pertinent du document :
+    * "L’employeur accorde un jour de télétravail par semaine"
+* Réponse :
     * nombrejourdeteletravailmaxparsemaine=1
-* Mon raisonnement :
-    * Selon l'article 3 du document, l'employeur accorde un jour de télétravail par semaine sur la base du volontariat. Cette disposition est valable jusqu'au 31/08/2021. Par conséquent, un employé peut télétravailler un jour par semaine durant cette période.
+* Raisonnement :
+    * Selon l'article 3 du document, l'employeur accorde un jour de télétravail par semaine.

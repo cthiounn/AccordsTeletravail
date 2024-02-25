@@ -1,20 +1,12 @@
-Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les références :
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Selon l'article 6-2, le salarié peut télétravailler jusqu'à 3 jours par semaine.
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-- Article 3 : "Le télétravail peut être mis en œuvre, par journée entière de travail, dans la limite de 3 jours par semaine et de façon régulière."
-- Article 6 : "Les salariés à temps partiel doivent être présents au bureau au minimum 2 jours par semaine."
+* "un jour commun au bureau chaque semaine par service ou équipe est fixé par le manager." (Document(page\_content="Le choix des jours (ou du jour) de télétravail dans la semaine est fait, après concertation, par le manager. Ces jours peuvent être fixes chaque semaine ou variables d’une semaine à l’autre.\n\t\t\nUn jour commun au bureau chaque semaine par service ou équipe est fixé par le manager.\n\n\nÉvénement externe\xa0: Nonobstant les jours de télétravail fixés, le salarié dont la fonction l’exige doit se rendre auprès du client ou du partenaire, et doit participer à tout évènement externe en présentiel, selon les besoins de sa mission.\n\nÉvénement interne et formation\xa0: Afin de préserver une certaine souplesse dans l’organisation et sur demande du manager, le salarié reste tenu de se rendre dans les locaux de l’entreprise pendant les jours de télétravail, pour participer notamment aux réunions ou pour tout autre motif justifié par le bon fonctionnement du service. \nDans ce cas et pour les salariés ayant des jours fixes de télétravail, un délai de prévenance minimum de 3 jours ouvrés devra être respecté.\n\nIl devra également assister aux formations en présentiel, externes ou internes, pour lesquelles il aura été convoqué.\n\nSi pour des raisons professionnelles ou personnelles, le(s) jour(s) prévu(s) télétravaillé(s) ne pourrai(en)t l’être, le salarié peut demander à modifier son jour de télétravail, mais uniquement dans le cadre de la semaine concernée.\n\nDans tous les cas, les jours de télétravail ne sont pas reportables ou cumulables d’une semaine à l’autre.\n\n\nArticle 4 : Conditions d’éligibilité\n\n4-1 Conditions liées au poste\n\nNe sont pas éligibles au télétravail, les salariés dont le poste est incompatible avec la situation de télétravail, c'est-à-dire les salariés dont le poste requiert leur présence physique permanente sur le site de rattachement.\xa0\n\nLe CSE sera consulté sur les décisions qui amèneraient à considérer un poste comme incompatible avec le télétravail. \n\n4-2 Conditions liées au salarié", metadata={'source': 'T06921015778.txt'}))
 
-Ces deux paragraphes explicitent clairement que le nombre maximal de jours de télétravail par semaine est de 3, et que les salariés à temps partiel doivent être présents au bureau au minimum 2 jours par semaine.
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
-
-* Article 3: "Le télétravail peut être mis en œuvre, par journée entière de travail, dans la limite de 3 jours par semaine et de façon régulière."
-* Article 5: "Le télétravail s’exerce au domicile principal du salarié déclaré à l’entreprise."
-
-Ma réponse :
-
-* nombrejourdeteletravailmaxparsemaine = 3
+Ma réponse après raisonnement ci-dessous :
+nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
 
-* Je me base sur l'article 3 qui mentionne explicitement le nombre de jours de télétravail autorisés par semaine, à savoir 3 jours.
-* Les autres articles ne mentionnent pas de fréquence par semaine concernant le nombre de jours de télétravail autorisé.
+Après analyse des documents, je n'ai pas trouvé de valeur explicite relative au nombre maximum de jours de télétravail par semaine, sauf dans le paragraphe "un jour commun au bureau chaque semaine par service ou équipe est fixé par le manager" qui implique que les salariés peuvent télétravailler 5 jours par semaine. De plus, aucune limitation n'est mentionnée dans les documents analysés, et aucune information ne permet de déterminer une valeur différente. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 5.

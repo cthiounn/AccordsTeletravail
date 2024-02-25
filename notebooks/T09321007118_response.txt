@@ -1,15 +1,1 @@
-Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail par semaine. Voici les occurrences :
-
-- Dans le document avec `metadata={'source': 'T09321007118.txt'}`, page_content = 'Pour prendre en charge une partie des frais engendrés par le télétravail (électricité, chauffage, etc..), une prime mensuelle sera versée sur 11 mois, aux salariés-es concerné-es dont le montant est fonction du nombre de jours de télétravail par semaine. Ainsi, les salarié-es qui auront recours au télétravail 1 à 2 fois par semaine bénéficieront d’une prime de 10 (dix) €uros bruts mensuels. Ainsi, les salarié-es qui auront recours au télétravail 3 fois et plus par semaine bénéficieront d’une prime de 15 (quinze) €uros bruts mensuels.'
-
-Le paragraphe mentionne explicitement le nombre de jours de télétravail par semaine, à savoir "1 à 2 fois par semaine" et "3 fois et plus par semaine".
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Pour prendre en charge une partie des frais engendrés par le télétravail (électricité, chauffage, etc..), une prime mensuelle sera versée sur 11 mois, aux salariés-es concerné-es dont le montant est fonction du nombre de jours de télétravail par semaine."
-* "Un groupe de salarié-es, représentatif des métiers de l’Association, travaille actuellement pour définir les conditions et modalités du télétravail au sein de AIDES."
-
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=2
-
-Mon raisonnement :
-* Les salariés qui ont recours au télétravail 1 à 2 fois par semaine bénéficient d'une prime de 10 euros bruts mensuels, et ceux qui ont recours au télétravail 3 fois et plus par semaine bénéficient d'une prime de 15 euros bruts mensuels. Donc, le nombre maximum de jours de télétravail par semaine est de 2, car au-delà, la prime mensuelle serait de 15 euros bruts.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.

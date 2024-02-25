@@ -1,18 +1,1 @@
-Q_TTSEM:
-Oui, un paragraphe mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Il s'agit du paragraphe suivant :
-
-"Pour un collaborateur exerçant son activité à temps complet :
-
-- Un à deux jours fixes par semaine de télétravail."
-
-Ce paragraphe indique clairement qu'un collaborateur exerçant à temps complet a droit à un ou deux jours de télétravail par semaine.
-Q_TTSEM_NOMBRE:Extraction pertinente du document :
-
-* "Un à deux jours fixes par semaine de télétravail." (T07521028203.txt)
-* "1 jour fixe de télétravail par semaine." (T07521028203.txt)
-
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=2
-
-Mon raisonnement :
-Le document mentionne clairement qu'un collaborateur exerçant son activité à temps complet a droit à "un à deux jours fixes par semaine de télétravail" et que pour un collaborateur exerçant son activité dans le cadre d'un temps partiel d'une durée supérieure ou égale à 80%, il a droit à "1 jour fixe de télétravail par semaine". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2 jours pour les collaborateurs à temps complet et de 1 jour pour les collaborateurs à temps partiel.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.

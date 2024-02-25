@@ -1,1 +1,12 @@
-Q_TTSEM:Non, aucun paragraphe n'exprime explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Le télétravail est possible, si cela est compatible avec la durée du travail des salariés concernés, à concurrence de 0 à 2 jours ouvrés maximum par semaine, non consécutifs, sous condition de présence de 3 jours sur site (non reportable, non cumulable).
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* "Le télétravail est possible, si cela est compatible avec la durée du travail des salariés concernés, à concurrence de 0 à 2 jours ouvrés maximum par semaine, non consécutifs, sous condition de présence de 3 jours sur site (non reportable, non cumulable)."
+* "Elles réaffirment enfin l'importance du maintien du lien avec la communauté de travail et entendent, à cette fin, limiter le nombre de jours de télétravail par semaine."
+
+Ma réponse après raisonnement :
+* nombrejourdeteletravailmaxparsemaine = 2
+
+Mon raisonnement :
+* Dans le premier paragraphe extrait, il est clairement indiqué que le télétravail est possible à hauteur de 2 jours ouvrés maximum par semaine.
+* Dans le deuxième paragraphe extrait, il est confirmé que le nombre de jours de télétravail par semaine est limité.
+* Aucune autre indication dans les documents analysés ne permet de modifier cette réponse.

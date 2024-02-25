@@ -1,14 +1,13 @@
-Q_TTSEM:Oui, le paragraphe intitulé "Article 39 : La fréquence du télétravail" mentionne explicitement que la fréquence du télétravail est limitée à un (1) jour maximum par semaine. Cette information se trouve dans le document avec l'identifiant "T03321006775.txt".
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
+Q_TTSEM:
+Oui, il y a une mention d'un jour de télétravail maximum par semaine.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    Document(page\_content="Le jour télétravaillé peut être fixé, dans la limite d’un jour par semaine...", metadata={'source': 'T03321006775.txt'}),
-    Document(page\_content='La fréquence du télétravail est limitée à un (1) jour maximum par semaine...', metadata={'source': 'T03321006775.txt'})
+* "La fréquence du télétravail est limitée à un (1) jour maximum par semaine" (Document(page\_content="...", metadata={'source': 'T03321006775.txt'}))
 
-* Ma réponse :
+Ma réponse après raisonnement ci-dessous :
 
-    nombrejourdeteletravailmaxparsemaine=1
+nombrejourdeteletravailmaxparsemaine=1
 
-* Mon raisonnement :
+Mon raisonnement :
 
-    Deux passages différents des documents mentionnent explicitement la limite d'un jour de télétravail par semaine. Aucune autre mention de fréquence hebdomadaire n'est faite dans les autres documents. Par conséquent, je conclus que le nombre maximal de jours de télétravail par semaine est de 1.
+Je me base sur l'extraction du paragraphe pertinent pour répondre à la question.

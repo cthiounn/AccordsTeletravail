@@ -1,20 +1,14 @@
-Q_TTSEM:Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici ces paragraphes :
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Les parties signataires conviennent d'un rythme de 2 jours maximum de télétravail par semaine et par salarié.
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-- "Les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié." (page_content='A cet effet, les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié.')
+* "Pour rappel et conformément à l’Accord-cadre de Groupe, l’exercice du télétravail n’a aucune incidence sur la durée du travail applicable aux salariés, qui restent soumis aux dispositions de l’accord de Groupe sur le temps de travail actuellement en vigueur."
+* "L’Accord-Cadre de Groupe prévoit deux formules de rythme de télétravail possible. Les parties signataires conviennent de mettre en place la formule 2 (rythme de 1 jour de télétravail par semaine et par salarié). Toutefois, cet Accord-Cadre prévoit la possibilité de fixer un nombre de jours de télétravail supérieur à 1 jour par semaine et par salarié. A cet effet, les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié."
 
-- "L’Accord-Cadre de Groupe prévoit deux formules de rythme de télétravail possible. Les parties signataires conviennent de mettre en place la formule 2 (rythme de 1 jour de télétravail par semaine et par salarié)." (page_content='Article 2-3– L’organisation du télétravail régulier Article 2-3-1 – Le rythme de télétravail L’Accord-Cadre de Groupe prévoit deux formules de rythme de télétravail possible. Les parties signataires conviennent de mettre en place la formule 2 (rythme de 1 jour de télétravail par semaine et par salarié).')
+Ma réponse :
 
-- "Les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié." (page_content='Toutefois, cet Accord-Cadre prévoit la possibilité de fixer un nombre de jours de télétravail supérieur à 1 jour par semaine et par salarié. A cet effet, les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié')
-
-Ces paragraphes mentionnent explicitement le nombre de jours de télétravail autorisés par semaine, qui est de 2 jours maximum.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "Les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié." (Document(page\_content='A cet effet, les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié.\n\nA cet effet, les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié\xa0: option 1\xa0: 1 jour/semaine/salarié ou option 2\xa0: 2 jours/semaine/salarié.'))
-
-Ma réponse après raisonnement ci-dessous :
-
-* nombrejourdeteletravailmaxparsemaine=2
+nombrejourdeteletravailmaxparsemaine = 2
 
 Mon raisonnement :
 
-* Je me base sur le paragraphe "Les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié." pour conclure que le nombre maximum de jours de télétravail par semaine est de 2.
+Je me suis basé sur le deuxième paragraphe extrait pour répondre à la question. Il est indiqué que les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié. Donc, le nombre maximum de jours de télétravail par semaine est de 2.

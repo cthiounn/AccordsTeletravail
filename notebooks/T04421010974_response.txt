@@ -1,1 +1,19 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
+Q_TTSEM:
+Oui, il y a une mention d'un nombre de jour de télétravail maximum autorisé par semaine. Le document mentionne que "les aspirations grandissantes des collaborateurs au recours au télétravail doivent s’accompagner de la plus grande vigilance quant à la préservation du collectif de travail, vigilance partagée tant par la Direction de la Carsat Pays de la Loire que par les partenaires sociaux. Cette aspiration correspond également aux attentes de la grande majorité des salariés qui se sont prononcés nettement en faveur d’un maximum de deux jours de télétravail hebdomadaire."
+Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+Document(page\_content='Article 11 -Modification de l’article 4.1 – Choix des jours de télétravail\nA la suite du 1er paragraphe est ajoutée un 2ème paragraphe\xa0: \n\nLe télétravail doit être exercé par jour entier. Cependant, il est possible de déroger à ce principe pour les salariés ayant un temps de travail amenant à la réalisation de demi-journées de travail. Il sera possible dans ce cas d’accorder le télétravail par demi-journée sous réserve que l’agent respecte le temps minimum de présence de 3 jours sur site le reste de la semaine. ')
+
+Document(page\_content='Les paragraphes 4 et 5 deviennent le paragraphe 6 ainsi rédigé\xa0: \n\nDans les cas de nécessité de service décrits ci-dessous, le salarié pourra être amené à renoncer à son jour de télétravail après un délai de prévenance raisonnable, sauf en cas d’évènement non prévisible (panne informatique, absence maladie d’un collègue impactant la continuité de service…)\xa0:\nRéunions, formations, missions ou toute autre mobilisation à la demande de l’employeur devant se tenir le jour en télétravail\xa0; les impératifs personnels ne permettant pas de répondre à cette sollicitation devront faire l’objet d’une validation par le responsable\xa0;\nContraintes particulières liées au fonctionnement de certains services et unités de travail pendant les périodes de congés scolaires ;')
+
+* Ma réponse après raisonnement :
+
+nombrejourdeteletravailmaxparsemaine=5
+
+* Mon raisonnement :
+
+Le deuxième paragraphe de l'article 11 de l'accord d'entreprise stipule que le télétravail doit être exercé par jour entier, mais il est possible de déroger à ce principe pour les salariés ayant un temps de travail amenant à la réalisation de demi-journées de travail. Dans ce cas, il sera possible d'accorder le télétravail par demi-journée sous réserve que l'agent respecte le temps minimum de présence de 3 jours sur site le reste de la semaine. Cela signifie qu'un salarié peut théoriquement télétravailler 4 demi-journées dans la semaine, ce qui équivaut à 5 jours de télétravail par semaine.
+
+Le paragraphe 6 ne précise pas le nombre de jours de télétravail par semaine, mais il mentionne que dans certains cas de nécessité de service, le salarié pourra être amené à renoncer à son jour de télétravail après un délai de prévenance raisonnable. Cela suggère que le télétravail est autorisé à hauteur d'un jour par semaine au minimum, mais ne précise pas de maximum.
+
+Compte tenu de ces éléments, je conclus que le nombre maximum de jours de télétravail par semaine est de 5, ce qui est cohérent avec l'hypothèse où un salarié travaille 4 demi-journées en télétravail et est présent sur site le reste du temps.

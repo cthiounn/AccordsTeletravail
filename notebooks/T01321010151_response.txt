@@ -1,14 +1,13 @@
-Q_TTSEM:
-Oui, le paragraphe "4-3 – Fréquence du télétravail" mentionne explicitement qu'un salarié éligible au télétravail peut en bénéficier dans la limite d'un jour par semaine.
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+Q_TTSEM:Oui, chaque salarié éligible au télétravail peut en bénéficier dans la limite d'un jour par semaine.
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Each eligible teleworker may benefit from it within the limit of one day per week."
-* "The work time of the teleworker is articulated in the same conditions as the work time of other employees of the company."
+* "Chaque salarié éligible au télétravail pourra en bénéficier dans la limite d’un jour par semaine." (Source: T01321010151.txt)
 
-My response after reasoning is:
+Ma réponse après raisonnement ci-dessous :
 
-* nombrejourdeteletravailmaxparsemaine=1
+nombrejourdeteletravailmaxparsemaine = 1
 
-My reasoning is:
+Mon raisonnement :
 
-* The first paragraph explicitly states that each eligible teleworker can benefit from teleworking up to one day per week. Therefore, the maximum number of days of telework per week is 1.
+Après avoir lu l'ensemble des documents fournis, je n'ai trouvé qu'un seul paragraphe pertinent pour répondre à la question posée. En effet, dans le document T01321010151.txt, il est clairement stipulé que "Chaque salarié éligible au télétravail pourra en bénéficier dans la limite d’un jour par semaine.". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 1.

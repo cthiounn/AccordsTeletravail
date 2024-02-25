@@ -1,17 +1,14 @@
-Q_TTSEM:
-Oui, le paragraphe suivant mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine :
+Q_TTSEM:Oui, il y a une mention à un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Les salariés éligibles au télétravail régulier peuvent en bénéficier une à deux journées complètes maximum par semaine.
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-"Afin, de maintenir le lien social du salarié avec sa communauté de travail, l’activité exercée en télétravail ne pourra excéder :
-- Une journée complète par semaine pour les salariés éligibles au télétravail, à temps partiel
-- Une à deux journées complètes maximum par semaine pour les autres salariés éligibles au télétravail."
+* "En bénéficient tous les salariés éligibles au télétravail régulier qui pourront avec l’accord de leur manager Modifier leur journée de télétravail dans la semaine ou le mois,"
+* "Le manager ou le salarié pourra demander à modifier de façon exceptionnelle le jour télétravaillé sous réserve d’un délai de prévenance minimum de 2 jours ouvrés."
 
-Source : T09221025668.txt, page content, Article 10 : Répartition des jours de travail
-Q_TTSEM_NOMBRE:Extraction pertinente des documents :
-* "Le salarié s’engage à effectuer son télétravail à son domicile habituel... Une journée complète par semaine pour les salariés éligibles au télétravail, à temps partiel"
-* "Une à deux journées complètes maximum par semaine pour les autres salariés éligibles au télétravail."
+Ma réponse après raisonnement :
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine = 2
+nombrejourdeteletravailmaxparsemaine=5
 
 Mon raisonnement :
-Après analyse des documents, je constate que le maximum de jours de télétravail par semaine pour les salariés éligibles à temps complet est de deux jours. Cette information est contenue dans les phrases "Le salarié s’engage à effectuer son télétravail à son domicile habituel... Une journée complète par semaine pour les salariés éligibles au télétravail, à temps partiel" et "Une à deux journées complètes maximum par semaine pour les autres salariés éligibles au télétravail.". Par conséquent, je peux conclure que le nombre maximum de jours de télétravail par semaine est de 2, ce qui correspond à la variable 'nombrejourdeteletravailmaxparsemaine'.
+
+Le premier paragraphe indique que les salariés éligibles au télétravail régulier peuvent modifier leur journée de télétravail dans la semaine ou le mois. Cependant, il ne précise pas le nombre maximum de jours de télétravail par semaine. Le deuxième paragraphe confirme que le télétravail peut être modifié dans la semaine, mais ne précise pas non plus le nombre maximum de jours de télétravail par semaine. Cependant, les instructions indiquent que si le télétravail à 100% ou le full-remote est autorisé ou fortement positivement évoqué ET qu'il n'y a pas de jour de présence minimum sur site, alors le nombre maximum de jours de télétravail par semaine est de 5. Dans les documents fournis, il n'y a aucune indication d'une limite inférieure à 5 jours de télétravail par semaine, donc je conclus que nombrejourdeteletravailmaxparsemaine=5.

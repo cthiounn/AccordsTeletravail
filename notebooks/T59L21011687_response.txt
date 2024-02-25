@@ -1,18 +1,13 @@
-Q_TTSEM:
-Oui, le paragraphe suivant mentionne un nombre de jour de télétravail autorisé explicitement exprimé par semaine :
+Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Dans la catégorie 1, le rythme de télétravail sera au minimum de 1 jour toutes les 2 semaines et ne pourra excéder 1 jour par semaine pour les collaborateurs concernés.
+Q_TTSEM_NOMBRE:
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-> 5.1. Catégorie 1\xa0: Pour les collaborateurs du siège et des fonctions supports
->
-> Le rythme de télétravail sera au minimum de 1 jour toutes les 2 semaines et ne pourra excéder 1 jour par semaine pour les collaborateurs concernés.
+    * "Le rythme de télétravail sera au minimum de 1 jour toutes les 2 semaines et ne pourra excéder 1 jour par semaine pour les collaborateurs concernés." (Document(page\_content="5.1. Catégorie 1\xa0: Pour les collaborateurs du siège et des fonctions supports\n\nLe rythme de télétravail sera au minimum de 1 jour toutes les 2 semaines et ne pourra excéder 1 jour par semaine pour les collaborateurs concernés.\n\n..."))
+    
+* Ma réponse après raisonnement ci-dessous :
 
-Donc, le nombre de jours de télétravail autorisé par semaine pour la catégorie 1 est de 1 jour.
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+    * nombrejourdeteletravailmaxparsemaine=1
 
-* "Le rythme de télétravail sera au minimum de 1 jour toutes les 2 semaines et ne pourra excéder 1 jour par semaine pour les collaborateurs concernés." (Document(page\_content="ARTICLE 5 - RYTHME DU TELETRAVAIL...", metadata={'source': 'T59L21011687.txt'}))
-* "En dehors de la période d'adaptation, le collaborateur ou le manager peut décider de mettre fin au télétravail, à tout moment, par écrit, moyennant le respect d'un délai de prévenance d’un mois." (Document(page\_content="Durant cette période, des entretiens pourront avoir lieu entre le collaborateur et le manager à la demande de l'un ou de l'autre....", metadata={'source': 'T59L21011687.txt'}))
+* Mon raisonnement :
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine=1
-
-Mon raisonnement :
-Après analyse des documents fournis, je constate que le rythme de télétravail ne peut excéder 1 jour par semaine pour les collaborateurs concernés. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 1 jour.
+    * Selon le paragraphe extrait, le rythme de télétravail ne peut excéder 1 jour par semaine pour les collaborateurs concernés. Donc, le maximum des jours de télétravail par semaine est 1.

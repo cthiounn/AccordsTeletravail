@@ -1,8 +1,11 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne explicitement le nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Les seules mentions de nombres de jours de télétravail se trouvent dans les phrases suivantes :
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Selon le document, le nombre de jours de télétravail régulier hebdomadaire est défini en fonction du pourcentage de la durée du travail et varie entre 1 et 4 jours par semaine. Ce nombre constitue la référence du télétravail régulier au titre de l'accord.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le nombre de jours de télétravail en mode flexible ou occasionnel est fixé au maximum à 2 jours par mois civil."
-* "Les collaborateurs en télétravail régulier peuvent bénéficier de 2 journées de télétravail supplémentaires par mois sans pouvoir excéder 10 jours de télétravail sur un même mois civil."
-* "Les collaborateurs n’ayant pas opté pour le télétravail régulier, dès lors qu’ils occupent un poste éligible, peuvent bénéficier du télétravail flexible de manière ponctuelle, sous réserve : que l’organisation collective du travail le permette, de respecter les conditions relatives au lieu d’exercice mentionnées à l’Article 3 du présent accord."
-* "Les salariés télétravailleurs peuvent ainsi, dans les mêmes conditions que tout autre salarié, exercer un mandat et disposer librement de leur crédit d’heures."
+* "Le tableau ci-après présente le nombre de jours de présence minimum dans les locaux de l’Entreprise en fonction du pourcentage de la durée du travail :"
+* "Au sein des Directions ou Département concernés, le télétravail régulier pourra être limité à un jour par semaine,"
 
-Aucune de ces phrases ne mentionne explicitement le nombre de jours de télétravail par semaine.
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=1
+
+Mon raisonnement :
+Le premier paragraphe indique que le télétravail régulier est basé sur un nombre de jours hebdomadaires, qui constitue la référence du télétravail régulier au titre du présent accord. Le deuxième paragraphe précise que dans certaines directions ou départements, le télétravail régulier peut être limité à un jour par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 1.

@@ -1,2 +1,16 @@
-Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine. Cependant, il est mentionné que "Pour maintenir le lien social avec la communauté de travail, le présent accord prévoit jusqu'à deux jours de télétravail par semaine pour une semaine de travail'standard' (avec cinq jours ouvrés)" ce qui implique que le nombre maximal de jours de télétravail par semaine est de 2.
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Selon l'accord, le télétravail s'effectue jusqu'à deux jours par semaine pour une semaine de travail "standard".
+Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+Document(page\_content='Pour maintenir le lien social avec la communauté de travail, le présent accord prévoit jusqu’à deux jours de télétravail par semaine pour une semaine de travail “standard” (avec cinq jours ouvrés).', metadata={'source': 'T09321006658.txt'})
+
+Document(page\_content='Le salarié comme la direction peuvent mettre fin au télétravail ultérieurement à la période d’adaptation. Lorsque le salarié est à l’initiative de ce changement, il en informe par écrit son manager (en mettant en copie son RRH).', metadata={'source': 'T09321006658.txt'})
+
+* Ma réponse après raisonnement ci-dessous :
+
+nombrejourdeteletravailmaxparsemaine = 2
+
+* Mon raisonnement :
+
+Après avoir analysé les documents fournis, je constate que le texte contient une information pertinente pour répondre à la question posée. Le premier paragraphe indique que "le présent accord prévoit jusqu’à deux jours de télétravail par semaine pour une semaine de travail ‘standard’ (avec cinq jours ouvrés)". Ce paragraphe spécifie explicitement le nombre de jours de télétravail autorisés par semaine, qui est de deux jours.
+
+Par conséquent, je peux répondre à la question en utilisant la variable 'nombrejourdeteletravailmaxparsemaine' et en affectant la valeur de 2 à cette variable.

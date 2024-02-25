@@ -1,15 +1,12 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine. Voici ces occurrences :
+Oui, il y a une mention d'un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Le télétravail régulier à domicile ne peut être exercé que pour un minimum d'un (1) jour par semaine et un maximum de quatre (4) jours par semaine.
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-1. "Le télétravail régulier à domicile ne pourra être exercé que pour un minimum d’un (1) jour par semaine et un maximum de quatre (4) jours par semaine."
-2. "La Direction appréciera en fonction d’éléments objectifs (notamment en fonction du pourcentage de tâches réalisables en télétravail rattachées au poste concerné et aux besoins en travail présentiel du service considéré), avec le supérieur hiérarchique de l’intéressé, le nombre de jours maximal à autoriser en télétravail ainsi que les jours de télétravail, dans le souci de ne pas entraver le bon fonctionnement du service et de ne pas pénaliser l’activité de l’entreprise."
+* "Une présence minimale hebdomadaire au sein de l’entreprise, pouvant varier entre un (1) et quatre (4) jours sera requise pour chaque salarié en situation de télétravail"
+* "Le télétravail occasionnel peut être pris par journée entière ou demi-journée et ne pourra pas excéder deux (2) jours pour un (1) mois civil donné. Selon la situation individuelle concernée, ces deux (2) jours pourront être par exception cumulés sur la même semaine."
 
-Notez que dans le deuxième cas, le nombre de jours maximal à autoriser en télétravail est sujet à une appréciation basée sur des éléments objectifs, et non un nombre fixe.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Le télétravail régulier à domicile ne pourra être exercé que pour un minimum d’un (1) jour par semaine et un maximum de quatre (4) jours par semaine." (Document(page\_content='Le principe d’un télétravail régulier dit alterné ou pendulaire\nLe télétravail régulier à domicile ne pourra être exercé que pour un minimum d’un (1) jour par semaine et un maximum de quatre (4) jours par semaine.\n\nIl s’agit donc d’alterner des jours de travail à partir de son domicile et des jours de travail au sein de l’entreprise ou sur site avec ses collègues et/ou sa hiérarchie.\nCritères d’éligibilité\nSont éligibles au télétravail régulier les salariés remplissant les conditions cumulatives suivantes\xa0: \nÊtre en CDD ou en CDI, avoir une ancienneté minimale au sein de l’entreprise de six (6) mois et un temps de travail minimal\nL’ancienneté minimale de 6 mois au sein de l’entreprise vise à assurer aux nouveaux arrivants une intégration et une assimilation de l’entreprise efficiente, permettant notamment de conférer une autonomie indispensable à l’exercice du télétravail', metadata={'source': 'T03321007161.txt'}))
-
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine = 4
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine = 2
 
 Mon raisonnement :
-* Dans le premier paragraphe extrait, il est clairement indiqué que le télétravail régulier à domicile ne peut être exercé que pour un minimum d’un (1) jour par semaine et un maximum de quatre (4) jours par semaine. Donc, la variable nombrejourdeteletravailmaxparsemaine est affectée à la valeur maximale de 4.
+Le premier paragraphe indique qu'une présence minimale hebdomadaire au sein de l'entreprise est requise pour chaque salarié en situation de télétravail, ce qui signifie qu'il ne peut pas y avoir plus de 4 jours de présence sur site par semaine. Comme le télétravail occasionnel ne peut pas excéder 2 jours par semaine, le nombre maximal de jours de télétravail par semaine est de 2.

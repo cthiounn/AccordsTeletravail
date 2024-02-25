@@ -1,22 +1,15 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les occurrences :
+Oui, il y a une mention d'un nombre de jours de télétravail autorisés explicitement exprimé par semaine. Lors des circonstances normales, le planning du salarié bénéficiant du télétravail peut prévoir soit une journée, soit au maximum deux journées, par semaine en situation de télétravail lorsque le salarié est à temps complet, et une seule journée par semaine en situation de télétravail lorsque que le salarié est à temps partiel avec une durée du travail supérieure ou égale à 80 %.
+Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-1. "Le planning du salarié bénéficiant du télétravail pourra prévoir soit une journée, soit au maximum deux journées, par semaine en situation de télétravail"
-2. "Le télétravail ne peut être organisé qu’en journée entière. Il est précisé que le télétravail pourra être organisé en demi-journée à la seule condition que la demi-journée de télétravail soit couplée avec une demi-journée de RTT (cf. Article 1.5 de l’accord collectif d’entreprise fixant les modalités d’aménagement du temps de travail pour l’ensemble du personnel sédentaire de la Compagnie Maritime Nantaise en date du 1er Juin 2021) ou de récupération (cf. Article 1.4 de l’accord sus-évoqué) pour les salariés non forfaitaires, et avec une demi-journée de repos supplémentaire lié au forfait (cf. Article 2.3 de l’accord sus-évoqué) pour les salariés soumis à un forfait."
-3. "Le télétravail est ouvert au salarié dont le travail peut être réalisé de façon partielle ou totale, et régulière, à distance. N’est pas éligible au télétravail, le salarié ayant une activité qui, par sa nature requiert d’être exercée physiquement dans les locaux de l’entreprise (notamment l’ensemble du personnel navigant), ou ayant une activité qui porte sur des données confidentielles ne pouvant être réalisée à l’extérieur des locaux de l’entreprise, ou nécessitant l'utilisation de logiciels ou de matériels ne pouvant pas être utilisés en dehors de l'entreprise."
-4. "Le télétravail est ouvert au salarié dont le travail et l’activité à distance ne perturbent pas, en raison de la configuration de son équipe, de son service ou de l’entreprise, l’organisation et le fonctionnement de ceux-ci."
-5. "Le salarié demandant à bénéficier du télétravail devra remplir l’ensemble des critères suivants : [...] La planification du ou des deux jours de télétravail se fera sur proposition du salarié et validation de son supérieur hiérarchique."
-6. "Afin de ne pas complexifier la gestion du planning de l’équipe, la planification du ou des deux jours de télétravail par semaine, pour les salariés demandant à bénéficier du télétravail, devra être établie au minimum sur une période de 6 mois."
-7. "La situation normale est une planification d’un ou de deux jours fixes en télétravail par semaine pendant cette période de 6 mois."
+> Conformément à ces modalités, le planning du salarié bénéficiant du télétravail pourra prévoir soit une journée, soit au maximum deux journées, par semaine en situation de télétravail lorsque le salarié est à temps complet, et une seule journée par semaine en situation de télétravail lorsque que le salarié est à temps partiel avec une durée du travail supérieure ou égale à 80 %.
 
-Les paragraphes 1, 5, 6 et 7 mentionnent explicitement "deux jours" de télétravail par semaine. Les paragraphes 2, 3 et 4 mentionnent la possibilité de télétravail "partielle ou totale, et régulière" ou "de façon partielle ou totale, et régulière". Cependant, ces formulations ne permettent pas de conclure avec certitude à un nombre de jours de télétravail autorisés, recommandés, limités ou maximum par semaine.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+> Le télétravail ne peut être organisé qu’en journée entière. Il est précisé que le télétravail pourra être organisé en demi-journée à la seule condition que la demi-journée de télétravail soit couplée avec une demi-journée de RTT ou de récupération pour les salariés non forfaitaires, et avec une demi-journée de repos supplémentaire lié au forfait pour les salariés soumis à un forfait. En aucun cas, la demi-journée de télétravail ne pourra être couplée avec une demi-journée de congé payé.
 
-* "Le planning du salarié bénéficiant du télétravail pourra prévoir soit une journée, soit au maximum deux journées, par semaine en situation de télétravail"
-* "Cependant, afin de garantir l’équité entre l’ensemble des salariés de l’équipe, le supérieur hiérarchique pourra organiser ce ou ces deux jours fixes en télétravail par semaine en cycles..."
+* Ma réponse après raisonnement :
 
-Ma réponse après raisonnement :
 nombrejourdeteletravailmaxparsemaine=2
 
-Mon raisonnement :
-Les paragraphes extraits montrent que le nombre maximum de jours de télétravail par semaine est de deux. Cette information est explicite et ne nécessite pas de calcul ou de supposition supplémentaire. De plus, il n'y a aucune mention de télétravail à 100% ou de full-remote dans les documents fournis, donc nous ne pouvons pas affecter la valeur 5 à la variable nombrejourdeteletravailmaxparsemaine.
+* Mon raisonnement :
+
+Le premier paragraphe extrait stipule que le salarié peut télétravailler "soit une journée, soit au maximum deux journées" par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

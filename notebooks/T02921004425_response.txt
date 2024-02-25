@@ -1,1 +1,2 @@
-Q_TTSEM:Non, aucun paragraphe ne mentionne un nombre de jour de télétravail autorisé, recommandé, limité ou maximum exprimé explicitement par semaine. Les seuls nombres de jours de télétravail mentionnés sont exprimés en mois et sont de 4 jours non consécutifs par mois.
+Q_TTSEM:
+Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.

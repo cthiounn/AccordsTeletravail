@@ -1,2 +1,1 @@
-Q_TTSEM:
-Non, aucun paragraphe ne mentionne explicitement un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Les documents mentionnent seulement que l'accord d'origine a été conclu jusqu'au 28 février 2021 et a été prolongé jusqu'au 31 mai 2021, mais ils ne spécifient pas de nombre de jours de télétravail par semaine.

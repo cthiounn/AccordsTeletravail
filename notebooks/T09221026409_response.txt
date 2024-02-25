@@ -1,18 +1,2 @@
 Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de jours de télétravail autorisés par semaine. Voici les occurrences :
-
-- "2 ou 3 jours de télétravail par semaine" (Source : T09221026409.txt, page_content : '2 ou 3 jours de télétravail par semaine')
-- "Des jours prédéterminés avec souplesse" (Source : T09221026409.txt, page_content : 'Des jours prédéterminés avec souplesse')
-- "Une enveloppe de 15 jours maximum par année civile (sans cumul d’une année sur l’autre)" (Source : T09221026409.txt, page_content : 'Une enveloppe de 15 jours maximum par année civile (sans cumul d’une année sur l’autre)')
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "2. 1. Formule de télétravail standard\n2 ou 3 jours de télétravail par semaine"
-* "Des jours prédéterminés avec souplesse"
-
-Ma réponse après raisonnement ci-dessous :
-
-Ma réponse : nombrejourdeteletravailmaxparsemaine=3
-
-Mon raisonnement :
-
-Le premier paragraphe indique clairement que la formule de télétravail standard propose 2 ou 3 jours de télétravail par semaine. Comme il n'y a pas d'autres informations contradictoires dans les autres paragraphes, je peux conclure que le nombre maximum de jours de télétravail par semaine est de 3.
+Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Les mentions concernant le nombre de jours de télétravail se réfèrent généralement à des périodes plus longues, telles qu'un mois, un trimestre ou une année civile.

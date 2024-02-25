@@ -1,14 +1,17 @@
-Q_TTSEM:
-Oui, plusieurs paragraphes mentionnent un nombre de journées de télétravail autorisées par semaine. Par exemple, dans le document avec la métadonnée'source': 'T03521007300.txt', il est indiqué que "Le nombre de journées ou demi-journées autorisées en télétravail, ne représentent pas un droit de tirage pour le salarié bénéficiaire de l’autorisation, mais un nombre maximal de journées ou demi-journées de télétravail autorisées par semaine." Plus loin dans le même document, il est précisé que "Le formulaire de d’autorisation individuelle de télétravail indiquera [...] Le nombre de journées de télétravail autorisées par semaine". Ce nombre n'est pas explicitement exprimé dans le texte, mais il est clair qu'il s'agit d'un nombre maximal de journées de télétravail autorisées par semaine.
-Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Le nombre de journées de télétravail autorisées par semaine" (Source : T03521007300.txt)
-    * "Les plages de télétravail dans un horaire de semaine type" (Source : T03521007300.txt)
-    * "Les journées ou demi-journées autorisées en télétravail, ne représentent pas un droit de tirage pour le salarié bénéficiaire de l’autorisation, mais un nombre maximal de journées ou demi-journées de télétravail autorisées par semaine." (Source : T03521007300.txt)
+Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d’un salarié, hors prises de congés.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine = 5
+* "Le nombre de journées ou demi-journées autorisées en télétravail, ne représentent pas un droit de tirage pour le salarié bénéficiaire de l’autorisation, mais un nombre maximal de journées ou demi-journées de télétravail autorisées par semaine."
+* "Si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine!"
 
-* Mon raisonnement :
-    * Selon l'article 2 du document, chaque salarié remplit un formulaire d'autorisation individuelle de télétravail où est indiqué "Le nombre de journées de télétravail autorisées par semaine". Cette information est donc fournie dans le document.
-    * Compte tenu de la règle 2.E, il est important de vérifier si le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué et s'il n'y a pas de jour de présence minimum sur site. Dans le document fourni, rien n'indique que le télétravail à 100% ou le full-remote est autorisé ou positivement évoqué. Par ailleurs, l'article 7 indique que "Chaque salarié doit être présent dans les locaux de l’association, a minima 2 fois par semaine pour des plages d’au moins une demi-journée". Par conséquent, la variable nombrejourdeteletravailmaxparsemaine reste à 5 jours par semaine.
+Ma réponse après raisonnement ci-dessous :
+
+nombrejourdeteletravailmaxparsemaine=5
+
+Mon raisonnement :
+
+Après avoir analysé les documents fournis, j'ai pu trouver dans le premier paragraphe extrait que le nombre de journées ou demi-journées autorisées en télétravail représente un nombre maximal de journées ou demi-journées de télétravail autorisées par semaine. Cependant, le document ne précise pas le nombre exact de jours de télétravail autorisés par semaine.
+
+Cependant, dans le deuxième paragraphe extrait, il est mentionné que si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail sont possibles par semaine. Comme le document mentionne le télétravail à 100% et qu'il n'y a pas de jour de présence minimum sur site, nous pouvons en déduire que le nombre maximum de jours de télétravail par semaine est de 5.
+
+Par conséquent, je propose de répondre à la question en affectant à la variable nombrejourdeteletravailmaxparsemaine la valeur 5.
