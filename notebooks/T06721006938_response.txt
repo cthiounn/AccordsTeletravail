@@ -1,24 +1,17 @@
-Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
 
-Voici quelques exemples :
+* Selon le document avec l'identifiant 0, les parties signataires conviennent d'un rythme de 2 jours maximum de télétravail par semaine et par salarié.
+* D'après le document avec l'identifiant 4, les parties signataires conviennent d'un rythme de 2 jours maximum de télétravail par semaine et par salarié, avec deux options possibles : 1 jour/semaine/salarié ou 2 jours/semaine/salarié.
+* En se basant sur le document avec l'identifiant 9, l'Accord-Cadre de Groupe prévoit deux formules de rythme de télétravail possible, dont une qui prévoit un rythme de 1 jour de télétravail par semaine et par salarié.
 
-* Article 2-3-1 : "L’Accord-Cadre de Groupe prévoit deux formules de rythme de télétravail possible. Les parties signataires conviennent de mettre en place la formule 2 (rythme de 1 jour de télétravail par semaine et par salarié)."
-* Article 2-3-1 : "Toutefois, cet Accord-Cadre prévoit la possibilité de fixer un nombre de jours de télétravail supérieur à 1 jour par semaine et par salarié. A cet effet, les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié."
-* Article 2-3-1 : "Pour permettre aux salariés de maintenir un lien collectif et de prévenir le risque d’isolement, les parties au présent accord d’entreprise conviennent qu’en tout état de cause, pour les semaines où le salarié use de sa faculté de télétravailler, il devra être présent au minimum 2 jours par semaine sur son ou ses lieu(x) de travail habituel(s)."
-* Article 2-3-3 : "Il est précisé que les jours de télétravail initialement fixés, en accord avec le manager, doivent être respectés autant que possible. Cependant, pour des raisons d’organisation, qualité de service, de continuité de service ou de sécurité, le manager peut exceptionnellement annuler un jour de télétravail."
-* Article 2-3-3 : "Le salarié peut également demander à annuler exceptionnellement une journée de télétravail initialement fixée lorsque sa présence sur site est rendue nécessaire (exemple : tenue d’une réunion qui nécessite sa présence)."
+Par conséquent, la réponse à votre question est oui.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Il est important de noter que ces mentions ne sont pas forcément explicites ou directes, mais on peut les déduire des différentes dispositions mentionnées dans les documents.
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "L’Accord-Cadre de Groupe prévoit deux formules de rythme de télétravail possible. Les parties signataires conviennent de mettre en place la formule 2 (rythme de 1 jour de télétravail par semaine et par salarié). Toutefois, cet Accord-Cadre prévoit la possibilité de fixer un nombre de jours de télétravail supérieur à 1 jour par semaine et par salarié. A cet effet, les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié."
-* "Pour permettre aux salariés de maintenir un lien collectif et de prévenir le risque d’isolement, les parties au présent accord d’entreprise conviennent qu’en tout état de cause, pour les semaines où le salarié use de sa faculté de télétravailler, il devra être présent au minimum 2 jours par semaine sur son ou ses lieu(x) de travail habituel(s)."
+* "Les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié" (T06721006938.txt)
+* "Pour permettre aux salariés de maintenir un lien collectif et de prévenir le risque d’isolement, les parties au présent accord d’entreprise conviennent qu’en tout état de cause, pour les semaines où le salarié use de sa faculté de télétravail, il devra être présent au minimum 2 jours par semaine sur son ou ses lieu(x) de travail habituel(s)" (T06721006938.txt)
 
 Ma réponse après raisonnement ci-dessous :
-
 nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-
-Le premier paragraphe indique que les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié. Donc, le nombre maximum de jours de télétravail par semaine est de 2.
+Le premier paragraphe indique que le nombre maximum de jours de télétravail par semaine et par salarié est de 2. Cependant, le deuxième paragraphe indique que les salariés doivent être présents au minimum 2 jours par semaine sur leur lieu de travail habituel, ce qui implique que les jours de télétravail ne peuvent excéder 3 jours par semaine. Compte tenu des instructions données, je retiens le nombre maximum de jours de télétravail par semaine et par salarié, soit 2 jours.

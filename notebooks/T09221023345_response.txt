@@ -1,23 +1,23 @@
-Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé ou recommandé dans les documents. Voici quelques exemples :
+Q_TTSEM:Oui, il y a plusieurs mentions concernant le nombre de jours de télétravail autorisés, recommandés ou limités par semaine. Voici quelques exemples tirés des documents fournis :
 
-* "Le télétravail sera mis en œuvre par journée entière de travail, dans la limite de deux jours par semaine."
-* "Le télétravail est ouvert aux salariés à l'issue d'une période minimale d'un mois révolu au sein de l'entreprise, hors période de suspension du contrat de travail (congés, RTT, congé maladie, etc..)."
-* "Les salariés devront joindre à ce document une attestation d’assurance du lieu de télétravail. Les salariés devront remettre à l'employeur une attestation sur l'honneur indiquant que le logement est électriquement conforme, qu'il dispose d'un accès à internet de bonne qualité et qu'il s'engage à respecter les bonnes pratiques présentées."
-* "Le télétravail doit s’exercer au domicile du salarié. Celui-ci doit être conforme électriquement, être pourvu d’un accès internet de bonne qualité et faire l’objet d’une assurance habitation."
-* "Le télétravail sera mis en œuvre par journée entière de travail, dans la limite de deux jours par semaine. Le ou les jour(s) de télétravail is/sont défini(s) en accord avec le manager selon les besoins de l'équipe."
-* "Les salariés devront remettre à l'employeur une attestation sur l'honneur indiquant que le logement est électriquement conforme, qu'il dispose d'un accès à internet de bonne qualité et qu'il s'engage à respecter les bonnes pratiques présentées. Un modèle d'attestation sera mis à la disposition des salariés."
+* "Le télétravail sera mis en œuvre par journée entière de travail, dans la limite de deux jours par semaine." (Document d'identifiant 7)
+* "Les salariés en temps partiel sont éligibles au prorata de leur temps de travail." (Document d'identifiant 6)
+* "Le personnel d’accueil, dont l’essentiel des tâches nécessite une présence physique sur site, est néanmoins éligible a une journée de télétravail par mois" (Document d'identifiant 2)
+* "afin de permettre la cohésion au sein de l’équipe, un jour de la semaine, arrêté par le management, est réservé pour les réunions et les évènements d’équipe (team building, repas, petits déjeuners, etc.), pendant lequel le télétravail n’est pas permis." (Document d'identifiant 5)
 
-Il est important de noter que ces mentions font référence à un nombre de jours de télétravail autorisé ou recommandé, mais elles ne précisent pas explicitement si ce nombre représente une limite maximale ou non. Il est donc possible que d'autres documents ou sources de données contiennent des informations complémentaires sur ce point.
+Il est donc possible de conclure qu'il existe bien des mentions concernant le nombre de jours de télétravail autorisés, recommandés ou limités par semaine dans les documents fournis.
 Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Two relevant paragraphs from the documents analyzed that answer the question are:
 
-* "Le télétravail sera mis en œuvre par journée entière de travail, dans la limite de deux jours par semaine."
-* "Le personnel d’accueil, dont l’essentiel des tâches nécessite une présence physique sur site, est néanmoins éligible a une journée de télétravail par mois"
+* "Le télétravail sera mis en œuvre par journée entière de travail, dans la limite de deux jours par semaine. The or days of telework is/are defined in agreement with the manager according to the needs of the team."
+* "In order to take into account the seniority of employees, the degree of autonomy and commitment associated with it, additional days of telework can be scheduled by mutual agreement with the manager and within the needs of the department, up to one additional day per month after three years of seniority in the company and two additional days per month after five years of seniority in the company (including the day mentioned above). This or these additional day(s) of telework will not be cumulative or transferable, they must therefore be taken in the calendar month."
 
-Ma réponse après raisonnement ci-dessous :
+My response after reasoning is:
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine=2
 
-Mon raisonnement :
+My reasoning is:
 
-Après analyse des documents, je constate que le télétravail est mis en œuvre par journée entière de travail, dans la limite de deux jours par semaine. Cependant, il existe une exception pour le personnel d'accueil qui est éligible à une journée de télétravail par mois. Cette exception ne concerne pas le nombre maximum de jours de télétravail par semaine, car il s'agit d'une catégorie spécifique de travailleurs qui ne sont pas représentatifs de l'ensemble des employés. Par conséquent, je peux affirmer que le nombre maximum de jours de télétravail par semaine est de 2.
+Based on the first paragraph, the maximum number of days of telework per week is two. However, the second paragraph indicates that additional days of telework may be granted for employees who meet certain criteria such as seniority and level of autonomy. These additional days cannot be transferred or accumulated and must be taken in the calendar month. Therefore, the maximum number of days of telework per week could potentially be higher than two, but this would depend on individual circumstances and cannot be determined solely based on the information provided in the documents.
+
+However, since the question specifically asks for the maximum number of days of telework per week explicitly stated in the documents, I would still respond with nombrejourdeteletravailmaxparsemaine=2.

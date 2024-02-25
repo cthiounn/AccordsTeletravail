@@ -1,1 +1,1 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.
+Q_TTSEM:Non, il n'y a aucune mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans ces documents. Cependant, il est mentionné que le télétravail peut s'effectuer sur une demi-journée au minimum et au maximum 1 journée par semaine, mais cela ne constitue pas une limite stricte car cela dépend du temps de travail et de l'organisation du temps de travail.

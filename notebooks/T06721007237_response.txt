@@ -1,2 +1,1 @@
-Q_TTSEM:
-Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Les seules mentions de durée concernent la durée maximale de la période d'essai et la durée de l'accord elle-même.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné que le temps de travail d'un télétravailleur est organisé entre une présence physique sur site de minimum 24 heures et le temps restant en télétravail au domicile du salarié.

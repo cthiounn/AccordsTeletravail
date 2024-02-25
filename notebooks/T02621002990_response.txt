@@ -1,14 +1,11 @@
-Q_TTSEM:
-Oui, il est mentionné qu'en ce qui concerne le télétravail, les parties conviennent d'un maximum de 2 jours par semaine.
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Les parties conviennent d'un maximum de 2 jours par semaine pour le télétravail.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents:
 
-* "Pour conserver une cohésion d’équipe au sein de l’établissement, les parties conviennent d’un maximum de 2 jours par semaine." (Article 4, Document(page\_content="Article 4 : Télétravail : [...]"))
+* "Les cadres, (groupe 3 et 4 autonome, de par leur fonction), bénéficient des dispositions relatives à la réduction du temps de travail, et peuvent conclure une convention de forfaits en jours sur l’année."
+* "La détermination du nombre de jours travaillés est la suivante: Socle de base de 225 jours – 23 jours de RTT (base 39h/semaine) = 202 days"
 
-Ma réponse après raisonnement ci-dessous :
+My response after reasoning:
+nombrejourdeteletravailmaxparsemaine=202
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=2
-
-Mon raisonnement :
-
-Le document mentionne explicitement le nombre de jours de télétravail autorisés par semaine, qui est de 2 jours. Cette information est donnée dans l'article 4 du document analysé.
+My reasoning:
+The document states that cadres can conclude a convention of forfaits en jours sur l’année and their socle de base is 225 days. This means that they have a maximum of 225 working days in a year. After subtracting 23 days of RTT, we get 202 working days in a year. Since there are five working days in a week, the maximum number of telework days per week would be 202/52=3.88, which we round down to 3. Therefore, nombrejourdeteletravailmaxparsemaine=3. However, if there is no requirement for presence on site and teleworking is fully allowed or strongly encouraged, then nombrejourdeteletravailmaxparsemaine=5.

@@ -1,15 +1,15 @@
 Q_TTSEM:
-Oui, il y a une mention d'une limitation du nombre de jours télétravaillés. Selon le document, le télétravail ne peut être exercé que dans la limite de 75% du temps de travail effectif mensuel (en jours).
+Oui, il y a une mention d'un nombre de jour de télétravail autorisé et limité. Selon l'article 6.4, le télétravail ne peut être exercé que dans la limite de 75% du temps de travail effectif mensuel (en jours). Un minima de 4 jours mensuels de présence sur site doit être mis en œuvre.
 Q_TTSEM_NOMBRE:
-**Extraction de deux paragraphes pertinents provenant des documents à analyser qui répondent à la question:**
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question (limité chacun à deux phrases max) :
 
-* "Pendant ces plages horaires, le salarié doit être joignable via les outils mis à sa disposition."
 * "Le télétravail ne saurait modifier l’amplitude de travail du collaborateur."
+* "Il n’y a ainsi aucun impact ni sur la durée du travail, ni sur son aménagement."
 
-**Ma réponse:**
+Ma réponse après raisonnement ci-dessous :
 
-*nombrejourdeteletravailmaxparsemaine=5*
+Ma réponse : **nombrejourdeteletravailmaxparsemaine=0**
 
-**Mon raisonnement:**
+Mon raisonnement :
 
-Je n'ai pas trouvé de paragraphe qui mentionne explicitement le nombre de jours de télétravail autorisés par semaine. Cependant, d'après les informations fournies, je peux conclure que le télétravail s'inscrit dans une relation basée sur la confiance mutuelle entre le collaborateur et son responsable, et que le télétravailleur est censé exercer son activité de manière autonome à son domicile. De plus, il n'y a pas de limitation explicite du nombre de jours de télétravail par semaine, et le télétravail ne modifie pas l'amplitude de travail du collaborateur. Par conséquent, en l'absence de restrictions explicites, je suppose que le nombre maximum de jours de télétravail par semaine est de 5 jours, ce qui correspond au nombre total de jours ouvrables dans une semaine.
+Après analyse des documents fournis, je n'ai pas trouvé de paragraphe contenant le mot-clé "semaine" ou une notion de fréquence par semaine et concernant le nombre de jour de télétravail autorisé. De plus, rien n'indique qu'un employé peut télétravailler régulièrement plus de 0 jour par semaine. Par conséquent, je retourne la variable 'nombrejourdeteletravailmaxparsemaine' à 0.

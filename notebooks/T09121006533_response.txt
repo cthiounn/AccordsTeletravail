@@ -1,10 +1,14 @@
-Q_TTSEM:Oui, il est mentionné dans le document avec l'ID 5 que "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine".
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Il est entendu que le recours au télétravail ne remet pas en cause le lien de subordination ainsi que les liens hiérarchiques existants au sein de l’Entreprise." (document 1, page 1)
-* "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine (de par la nature de leur fonction, les commerciaux ne sont pas concernés par cette disposition). Aucun report de ces jours ne sera accordé." (document 2, page 1)
+Q_TTSEM:Oui, il est mentionné qu'un salarié ne peut pas être en télétravail plus de deux journées par semaine.
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine = 2
+* "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine (de par la nature de leur fonction, les commerciaux ne sont pas concernés par cette disposition). Aucun report de ces jours ne sera accordé." (Source : T09121006533.txt)
+* "Les managers porteront néanmoins une attention particulière aux salariés en situation de handicap ou aidant familial." (Source : T09121006533.txt)
+
+Ma réponse :
+
+nombrejourdeteletravailmaxparsemaine = 2
 
 Mon raisonnement :
-* D'après le paragraphe extrait du document 2, il est stipulé qu'un salarié ne peut pas être en télétravail plus de deux journées par semaine. Cette limite de deux jours par semaine est confirmée dans le paragraphe du document 1 qui précise que le lien de subordination et les liens hiérarchiques existants au sein de l’Entreprise ne sont pas remis en cause par le télétravail. Ainsi, je peux conclure que la limite maximale de télétravail par semaine est de deux jours.
+
+Après avoir analysé les documents fournis, je constate que le texte mentionne explicitement qu'un salarié ne peut pas être en télétravail plus de deux journées par semaine. Cette limitation est valable pour tous les salariés, sauf les commerciaux qui ne sont pas concernés par cette disposition. Les managers doivent également porter une attention particulière aux salariés en situation de handicap ou aidant familial, mais cela ne modifie pas la limite de deux jours de télétravail par semaine. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 2.

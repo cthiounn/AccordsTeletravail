@@ -1,9 +1,15 @@
-Q_TTSEM:Oui, selon le document 0, le télétravail ne doit pas dépasser 0,20 Equivalent Temps Plein (ETP) par mois, ce qui correspond à une journée par semaine.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Le télétravail ne devra pas dépasser 0,20 ETP par mois soit au plus une journée par semaine." (Document 1, Article 3-1)
+Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Le télétravail ne doit pas dépasser 0,20 Equivalent Temps Plein (ETP) par mois, soit au plus une journée par semaine. Cette information se trouve dans le document d'identifiant 1 et de pertinence score 0,9600739.
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine=1
+* "Le télétravail ne devra pas dépasser 0,20 ETP par mois soit au plus une journée par semaine." (Document(page\_content='Article 3- Organisation du télétravail\n\nArticle 3-1- Nombre de journées travaillées\n\nLe télétravail ne devra pas dépasser 0,20  ETP\xa0 par mois soit au plus une journée par semaine.\n \nArticle 3-2- Plages horaires et charge de travail', metadata={'source': 'T09121006385.txt'}))
+* "l’adresse du domicile où le télétravail sera exercé\xa0;\nle jour ou les jours fixes choisis\xa0;" (Document(page\_content='Cet avenant prévoit notamment\xa0:\nl’adresse du domicile où le télétravail sera exercé\xa0;\nle jour ou les jours fixes choisis\xa0;\n...', metadata={'source': 'T09121006385.txt'}))
+
+Ma réponse :
+
+* nombrejourdeteletravailmaxparsemaine = 1
 
 Mon raisonnement :
-* Selon le paragraphe du document, le télétravail ne devra pas dépasser 0,20 ETP par mois, ce qui correspond à une journée par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 1.
+
+* Dans le premier paragraphe pertinent, il est clairement indiqué que le télétravail ne doit pas dépasser "au plus une journée par semaine". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 1.
+* Les autres paragraphes ne contiennent pas d'informations pertinentes pour répondre à la question posée.

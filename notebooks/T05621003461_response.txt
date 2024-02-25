@@ -1,18 +1,1 @@
-Q_TTSEM:
-Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine dans le document 4.
-
-"L’EPCC détermine le nombre de jours télétravaillés par semaine et la quotité de travail pouvant être exercée en télétravail."
-Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-    "Le télétravail s’effectue au domicile déclaré du.de la salarié.e ou dans un lieu de travail à distance, dès lors que ces lieux offrent un environnement propice au travail et à la concentration. Afin de respecter la vie privée du télétravailleur, celui-ci devra aménager un poste de travail dédié, garantissant une bonne ergonomie et permettant la concentration. Il s’engage également à ce que son espace de travail respecte les règles relatives à l’hygiène, la sécurité et les conditions de travail."
-    
-    "Le télétravailleur, soumis à l’horaire collectif, relèvera ses horaires de travail pour chaque jour travaillé à son domicile et transmettra ce relevé à son supérieur hiérarchique qui le contrôlera."
-
-* Ma réponse après raisonnement ci-dessous :
-
-    nombrejourdeteletravailmaxparsemaine=5
-
-* Mon raisonnement :
-
-    Les paragraphes extraits montrent que le télétravail est possible à domicile ou dans un lieu de travail à distance, et que le télétravailleur doit relever ses horaires de travail pour chaque jour travaillé à son domicile et transmettre ce relevé à son supérieur hiérarchique qui le contrôle. Ces éléments montrent que le télétravail est possible de manière régulière et non limitée dans le temps, et que le nombre de jours de télétravail par semaine n'est pas limité explicitement dans le document. Cependant, comme le télétravail est possible à domicile ou dans un lieu de travail à distance, nous pouvons supposer que le nombre de jours de télétravail par semaine est limité à 5 jours, conformément à l'instruction donnée dans la question. En effet, il est peu probable qu'un employé puisse travailler plus de 5 jours par semaine en télétravail, car cela nuirait à sa vie privée et à sa santé. Par conséquent, je propose de répondre 'nombrejourdeteletravailmaxparsemaine=5'.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans ces documents. Cependant, il est mentionné que le télétravail volontaire est limité à 20 jours par an, mais cela ne précise pas si cela s'applique spécifiquement à la semaine.

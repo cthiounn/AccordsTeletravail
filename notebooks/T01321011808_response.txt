@@ -1,15 +1,12 @@
-Q_TTSEM:Oui, il est spécifié dans le document que le nombre de jours télétravaillés est limité à deux jours complets par semaine et que ces jours ne peuvent être divisés en demi-journées.
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail limité à deux jours complets par semaine. Cette information est extraite du document d'identifiant 0 et de pertinence 0.9664423.
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* Extraits pertinents des documents :
+    * "Le nombre de jours télétravaillés est limité à deux jours complets par semaine." (Source: T01321011808.txt)
+    * "Afin de limiter le recours au congé pathologique du fait des allers / retours domicile / lieu de travail, les salariées qui en font la demande, pourront bénéficier de 5 jours de télétravail durant les 12 semaines précédant le début du congé maternité." (Source: T01321011808.txt)
 
-    Article 11 - Fréquence et nombre de jours en télétravail
-
-    Le nombre de jours télétravaillés est limité à deux jours complets par semaine. Il est précisé que ces jours ne peuvent être divisés en demi-journées.
-
-* Ma réponse après raisonnement ci-dessous :
-
-    nombrejourdeteletravailmaxparsemaine=2
+* Ma réponse :
+    * nombrejourdeteletravailmaxparsemaine = 2
 
 * Mon raisonnement :
-
-    Le document mentionne explicitement le nombre de jours de télétravail autorisés par semaine, qui est de deux jours complets. Il n'y a pas d'autres mentions de fréquence par semaine dans le document.
+    * Dans le premier extrait, il est clairement stipulé que le nombre de jours télétravaillés est limité à deux jours complets par semaine. Par conséquent, le maximum de jours de télétravail par semaine est de 2.
+    * Même si le deuxième extrait mentionne également 5 jours de télétravail, cela ne correspond pas à une situation régulière mais plutôt exceptionnelle et temporaire, car elle est limitée aux 12 semaines précédant le congé maternité.

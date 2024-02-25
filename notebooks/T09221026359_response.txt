@@ -1,22 +1,21 @@
-Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé ou limité par semaine dans les documents fournis :
 
-* Le télétravail régulier suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine (document 1).
-* Il est tout de même fortement recommandé de ne pas dépasser 2 jours de télétravail par semaine (document 1).
-* Les jours de présence minimum au sein des locaux permettent de conserver un lien professionnel et social direct entre le télétravailleur et son manager, ses collègues, son établissement, son Société (document 1).
-* La journée de télétravail non effectuée ne pourra cependant pas être reportée d'une semaine sur l'autre (document 1).
-* Pour les collaborateurs relevant d’un régime en heures, les plages horaires pendant lesquelles le télétravailleur doit être joignable sont correspondant aux plages horaires en vigueur appliquées habituellement dans les locaux de la Société pour le collaborateur concerné (document 3).
-* Pour les collaborateurs relevant d’un régime au forfait heures (modalité 2 Syntec), les plages horaires pendant lesquelles le télétravailleur doit être joignable sont définies en concertation entre le collaborateur et son manager, afin d’assurer notamment la bonne exécution des missions qui lui sont confiées (document 3).
-* Pour les collaborateurs relevant d’un régime au forfait jours, les plages horaires pendant lesquelles le télétravailleur doit être joignable sont celles définies par le télétravail, celui-ci organisant lui-même son temps de travail en respectant les durées minimales de repos quotidien et hebdomadaire ; il s’assure toutefois d’être suffisamment et facilement joignable pour permettre la bonne exécution de ses missions (document 3).
-* L'amplitude horaire des plages définies devra impérativement permettre au télétravailleur de respecter les durées minimales légales de repos quotidien et hebdomadaires, conformément à la législation en vigueur (document 3).
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+* Le télétravail régulier "suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine. Il est tout de même fortement recommandé de ne pas dépasser 2 jours de télétravail par semaine." (Document 0)
+* La Société peut annuler une journée de télétravail ou suspendre le télétravail pendant une courte durée, mais cette suspension ne peut excéder quatre semaines (Document 1)
+* Toute révision des dispositions de télétravail pourra être demandée par les collaborateurs concernés et un nouvel avenant sera signé entre les parties (Document 5)
+* L'accord s'applique aux collaborateurs disposant déjà d'une ou plusieurs journées de télétravail formalisées dans un avenant au contrat de travail (Document 8)
+* Le télétravail régulier se caractérise par un nombre de journées entières effectuées de manière régulière, sur plusieurs mois consécutifs (Document 2)
+* L'avenant de mise en place du télétravail régulier peut prévoir une période d'adaptation d'une durée maximale de deux mois (Document 6)
+* Le télétravailleur pourra toujours décider de venir travailler sur site lors d'une journée initialement prévue en télétravail, sous réserve de prévenir le manager concerné par tout moyen (Document 7)
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail peut être régulier ou occasionnel, il est effectué par principe sur les jours ouvrés de la semaine." (Document 1)
-* "Le télétravail régulier suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine. Il est tout de même fortement recommandé de ne pas dépasser 2 jours de télétravail par semaine." (Document 2)
+* "Le télétravail régulier suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine." (T09221026359.txt)
+* "Le collaborateur et le manager concernés devront déterminer ensemble le ou les jours de la semaine qui seront en principe effectués en télétravail." (T09221026359.txt)
 
-Ma réponse :
+Ma réponse après raisonnement ci-dessous :
 
-nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
 
-Après analyse des documents fournis, je constate que le télétravail régulier peut être effectué sur une base hebdomadaire et que la limite maximale est fixée à trois jours par semaine. Cependant, il est fortement recommandé de ne pas dépasser deux jours de télétravail par semaine. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 2.
+* Dans le premier paragraphe, il est indiqué que le télétravail régulier suppose à minima une journée en télétravail par semaine, sans pouvoir excéder trois jours de télétravail par semaine. Donc, le nombre maximum de jours de télétravail par semaine est de 3.

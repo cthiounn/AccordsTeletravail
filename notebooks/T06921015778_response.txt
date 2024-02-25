@@ -1,22 +1,17 @@
-Q_TTSEM:
-Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisés par semaine dans les documents fournis. Voici quelques exemples :
-
-* Selon l'article 4-1, les salariés dont le poste requiert leur présence physique permanente sur le site de rattachement ne sont pas éligibles au télétravail.
-* Selon l'article 6-1, le télétravail est mis en œuvre par accord des parties, sur initiative du salarié, et le salarié qui souhaite se placer en situation de télétravail doit en formuler la demande écrite auprès de son manager tout en informant le service RH.
-* Selon l'article 6-2, la demande de mise en œuvre du télétravail est examinée dans le cadre d'un entretien avec le manager au cours duquel les conditions de télétravail du salarié sont étudiées au regard des critères d'éligibilité fixés par l'article 4 du présent accord.
-* Selon l'article 8-2, les frais liés à l’exercice du télétravail sont pris en charge par l’entreprise sous forme d’allocation forfaitaire globale. L’indemnité forfitaire est versée mensuellement en paie et son montant est de 10 € par mois pour 1 jour de télétravail par semaine, 20 € par mois pour 2 jours de télétravail par semaine, 30 € par mois pour 3 jours de télétravail par semaine et plus.
-* Selon l'article 11-1, afin de prévenir les risques d’isolement, les difficultés dans la gestion de la charge de travail ou autre difficulté liée au télétravail, le salarié a une réunion hebdomadaire avec son manager en individuel, un entretien individuel est organisé par le manager, supervisé par le service RH, qui portera sur l’organisation du télétravail, la charge de travail, et l’articulation entre la vie personnelle et la vie professionnelle du salarié. Cet entretien aura lieu chaque trimestre la première année de télétravail, puis chaque semestre. De plus, des règles relatives à la déconnexion sont mises en place.
-
-Cependant, aucun de ces documents ne mentionne explicitement un nombre de jour de télétravail autorisé, recommandé, limité ou maximum, de manière absolue et définitive. Les modalités de télétravail peuvent varier en fonction des différents facteurs tels que les critères d'éligibilité, les accords entre les parties, les conditions de travail, etc.
+Q_TTSEM:Oui, il est mentionné que le télétravail peut être mis en œuvre "par journée entière de travail, dans la limite de 3 jours par semaine et de façon régulière" (document avec id 5).
 Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-    Article 3 du document 7 : "Le télétravail peut être mis en œuvre, par journée entière de travail, dans la limite de 3 jours par semaine et de façon régulière."
+    * "Le télétravail peut être mis en œuvre, par journée entière de travail, dans la limite de 3 jours par semaine et de façon régulière." (Source: T06921015778.txt)
+    
+    * "Les jours de télétravail ne sont pas reportables ou cumulables d’une semaine à l’autre." (Source: T06921015778.txt)
 
-* Ma réponse après raisonnement ci-dessous :
+* Ma réponse après raisonnement :
 
-    nombrejourdeteletravailmaxparsemaine=3
+    * nombrejourdeteletravailmaxparsemaine=3
 
 * Mon raisonnement :
 
-    Selon l'article 3 du document 7, le télétravail peut être mis en œuvre dans la limite de 3 jours par semaine et de façon régulière. Donc, le nombre maximum de jours de télétravail par semaine est de 3.
+    * Selon le premier paragraphe extrait, le télétravail peut être mis en œuvre jusqu'à 3 jours par semaine de manière régulière.
+    * Le deuxième paragraphe extrait confirme que les jours de télétravail ne sont pas cumulables d'une semaine à l'autre, ce qui signifie qu'un salarié ne peut pas travailler plus de 3 jours en télétravail par semaine.
+    * Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 3.

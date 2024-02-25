@@ -1,14 +1,16 @@
 Q_TTSEM:
-Oui, il y a une mention à un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Selon le document, "Le télétravail pourra être exercé trois jours par semaine maximum."
+Oui, il y a une mention à un nombre de jour de télétravail autorisé par semaine. Le télétravail pourra être exercé trois jours par semaine maximum.
 Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail pourra être exercé trois jours par semaine maximum." (Document(page\_content="... Organisation des périodes de télétravail\nLe télétravail pourra être exercé trois jours par semaine maximum....", metadata={'source': 'T01421004303.txt'}))
+    * "Organisation des périodes de télétravail\nLe télétravail pourra être exercé trois jours par semaine maximum." (Document(page\_content="Période d’adaptation\n...\nOrganisation des périodes de télétravail\nLe télétravail pourra être exercé trois jours par semaine maximum....", metadata={'source': 'T01421004303.txt'}))
+    
+    * "L’accord vise en particulier à garantir que le télétravail demeure une solution efficace et soit réalisé dans l’intérêt mutuel des salariés et de la structure.\nLe télétravail repose sur un accord de confiance entre le télétravailleur et son manager" (Document(page\_content='ACCORD RELATIF AU TELETRAVAIL\n...\nLe télétravail repose sur un accord de confiance entre le télétravailleur et son manager', metadata={'source': 'T01421004303.txt'}))
 
-Ma réponse après raisonnement ci-dessous :
+* Ma réponse après raisonnement :
 
-nombrejourdeteletravailmaxparsemaine=3
+    * nombrejourdeteletravailmaxparsemaine=3
 
-Mon raisonnement :
+* Mon raisonnement :
 
-Je me suis basé sur le paragraphe "Organisation des périodes de télétravail" du document fourni qui indique que "Le télétravail pourra être exercé trois jours par semaine maximum". Cette information est claire et précise, elle ne nécessite pas de calcul ou d'hypothèse supplémentaire.
+    * Selon le premier paragraphe pertinent, le télétravail peut être exercé trois jours par semaine maximum. Donc, en prenant en compte les instructions, je peux affecter à la variable nombrejourdeteletravailmaxparsemaine la valeur 3.

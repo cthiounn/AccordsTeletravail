@@ -1,19 +1,20 @@
-Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés ou recommandés par semaine dans les documents fournis. Voici quelques exemples :
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés par semaine dans les documents fournis. Voici un résumé :
 
-* Pour un collaborateur exerçant son activité à temps complet, l'article 7 mentionne qu'il peut y avoir un à deux jours fixes de télétravail par semaine, ainsi que 3 jours de télétravail supplémentaires annuels dits "modulables".
-* Pour un collaborateur exerçant son activité dans le cadre d'un temps partiel d'une durée supérieure ou égale à 80%, l'article 1 mentionne qu'il peut y avoir 1 jour fixe de télétravail par semaine, ainsi que 2 jours de télétravail supplémentaires annuels dits "modulables".
-* Pour les femmes enceintes, l'article 4 mentionne qu'elles peuvent demander à télétravailler dans la limite de 3 jours par semaine à partir de leur 5ème mois de grossesse, et jusqu'à 5 jours par semaine deux semaines avant leur départ en congé prénatal.
+- Pour un collaborateur travaillant à temps complet, il est possible de télétravailler **un à deux jours fixes par semaine**, ainsi que **3 jours supplémentaires annuels modulables**.
+- Pour un collaborateur travaillant à temps partiel d'au moins 80%, il est possible de télétravailler **1 jour fixe par semaine**, ainsi que **2 jours supplémentaires annuels modulables**.
+- Pendant la grossesse, une salariée peut demander à télétravailler **jusqu'à 3 jours par semaine** et, deux semaines avant son départ en congé prénatal, **5 jours par semaine**.
+- Il n'y a pas de mention d'un nombre maximal de jours de télétravail hebdomadaires pour les situations exceptionnelles ou en cas de grève des transports en commun, d'incidents techniques exceptionnels, ou d'activation du plan de continuité d'activité.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
-Il est important de noter que ces nombres de jours de télétravail peuvent varier en fonction des circonstances et des accords entre les parties concernées.
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* "Un à deux jours fixes par semaine de télétravail." (Source: T07521028203.txt)
+* "1 jour fixe de télétravail par semaine." (Source: T07521028203.txt)
 
-* "1 jour fixe de télétravail par semaine." (Source: <T07521028203.txt>)
+My response after reasoning is:
 
-Ma réponse après raisonnement ci-dessous :
+* nombrejourdeteletravailmaxparsemaine=2
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=1
+My reasoning is:
 
-Mon raisonnement :
-
-Le document mentionne explicitement qu'un salarié peut effectuer "1 jour fixe de télétravail par semaine". Par conséquent, je peux affirmer que le nombre maximal de jours de télétravail par semaine est de 1.
+* The first paragraph states that there can be "Un à deux jours fixes par semaine de télétravail". This means that the maximum number of days an employee can telework per week is two.
+* The second paragraph states that there can be "1 jour fixe de télétravail par semaine". This also means that the maximum number of days an employee can telework per week is one.
+* However, since the first paragraph takes precedence over the second and it mentions that the number of days can be up to two, I will set the value of 'nombrejourdeteletravailmaxparsemaine' to 2.

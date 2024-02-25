@@ -1,23 +1,18 @@
-Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés, recommandés ou limités explicitement exprimés par semaine dans les documents fournis. Voici quelques exemples :
+Q_TTSEM:
+Oui, plusieurs documents mentionnent un nombre de jours de télétravail autorisé ou recommandé par semaine :
 
-* Selon l'article 2.1, la fréquence du télétravail régulier est comprise entre 1 et 2 journées par semaine pour les salariés à temps plein. Pour les salariés à temps partiel, la fréquence du télétravail régulier est limitée à 1 journée par semaine.
-* Selon le document 0, le télétravail est organisé en journée pleine, mais il est envisageable de le fractionner en demi-journées.
-* Selon le document 1, un salarié souhaitant télétravailler plus de 2 jours par semaine ou à temps complet doit se rapprocher du service RH pour étudier les motivations et définir son éligibilité.
+- Document 2 : "Même en cas de fixation de jours récurrents sur la semaine, la priorité doit rester à la réalisation des prestations opérationnelles. Le télétravail ne peut être opposé en cas de besoin impromptu sur la journée prévue, tout comme le nombre de jours peut être amené à varier selon les aléas opérationnels." Cette phrase suggère qu'il y a un nombre de jours de télétravail fixé à l'avance, mais qui peut être modifié en cas de besoin.
 
-En résumé, il est mentionné explicitement dans les documents que le nombre de jours de télétravail par semaine est limité à 2 pour les salariés à temps plein, 1 pour les salariés à temps partiel, et qu'il est possible de télétravailler plus de 2 jours par semaine ou à temps complet sous certaines conditions.
-Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+- Document 7 : "Le télétravail régulier aura une fréquence comprise entre 1 et 2 journées par semaine. Ces journées peuvent être fixes ou fluctuantes selon l’activité du salarié." Ici, il est clairement indiqué que le télétravail régulier peut avoir lieu jusqu'à deux jours par semaine.
 
-> "Pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine."
+- Document 9 : "Pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine." Dans ce document, il est spécifié que les salariés à temps partiel ne peuvent faire de télétravail que pendant une journée par semaine.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents:
 
-> "2.E - Si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine!"
+* "Le télétravail régulier aura une fréquence comprise entre 1 et 2 journées par semaine. Ces journées peuvent être fixes ou fluctuantes selon l’activité du salarié." (from 'T04421009471.txt')
+* "Si son activité le permet, le salarié en télétravail définit dans la semaine quels seront les jours en télétravail, en accord avec son responsable hiérarchique." (from 'T04421009471.txt')
 
-* Ma réponse après raisonnement :
+My response after reasoning:
+nombrejourdeteletravailmaxparsemaine=2
 
-    nombrejourdeteletravailmaxparsemaine=1
-
-* Mon raisonnement :
-
-    Dans le document, il est stipulé que pour les salariés à temps partiel, la fréquence du télétravail régulier sera limitée à 1 journée par semaine. Donc, le nombre maximum de jours de télétravail par semaine est de 1 jour.
-
-    Cependant, il est aussi mentionné que si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu'il n'y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine. Mais dans le document, je ne trouve pas de preuve de l'autorisation du télétravail à 100% ou du full-remote sans jour de présence minimum sur site. Donc, je maintiens ma réponse précédente.
+My reasoning:
+The first paragraph clearly states that the regular telework has a frequency of between 1 and 2 days per week. This information is provided explicitly in the context of regular telework, so we can use this value. The second paragraph reinforces the idea that the number of days in telework is defined by the employee and their manager on a weekly basis, but it does not provide a specific numerical value. Therefore, I will consider the maximum value given in the first paragraph, which is 2 days per week.

@@ -1,16 +1,14 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail limité à deux journées par semaine. Cette limitation peut être étendue à plus de jours de télétravail par semaine pour des raisons ponctuelles et exceptionnelles avec l'accord du directeur concerné.
-Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail limité. Par principe, le télétravail est limité à deux journées par semaine. Il est également possible d'étendre à plus de jours de télétravail par semaine pour des raisons ponctuelles et exceptionnelles avec l'accord du directeur concerné.
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
 
-Document(page_content='5.2 Nombre de jours de télétravail\nLa mise en place du télétravail ne doit pas générer de perturbations dans la réalisation des activités du service. Elle doit permettre d’assurer la poursuite de l’activité professionnelle dans les meilleures conditions possibles en utilisant les moyens de communication (téléphone, outils collaboratifs…) afin de maintenir la qualité du travail tant du côté du salarié que de l’entreprise.\nDe manière à maintenir le lien social, la cohésion et le bon fonctionnement des services mais aussi afin de prévenir l'isolement du télétravailleur, le nombre de jours en télétravail est limité.\nQu’il soit régulier ou occasionnel, par principe, le télétravail est limité à deux daynées par semaine. Il est également possible d’étendre à plus de days of teleworking per week by agreement with the director concerned.', metadata={'source': 'T03521008349.txt'})
+1. "Qu’il soit régulier ou occasionnel, par principe, le télétravail est limité à deux journées par semaine."
+2. "Le manager peut limiter le nombre de salariés simultanément en télétravail pour l’organisation du travail et de façon à préserver la cohésion d’équipe et le lien social."
 
-* Ma réponse après raisonnement ci-dessous :
+* Ma réponse après raisonnement :
 
-nombrejourdeteletravailmaxparsemaine=2
+    nombrejourdeteletravailmaxparsemaine=2
 
 * Mon raisonnement :
 
-Le paragraphe pertinent est le suivant : "De manière à maintenir le lien social, la cohésion et le bon fonctionnement des services mais aussi afin de prévenir l'isolement du télétravailleur, le nombre de jours en télétravail est limité.\nQu’il soit régulier ou occasionnel, par principe, le télétravail est limité à deux daynées par semaine. Il est également possible d’étendre à plus de days of teleworking per week by agreement with the director concerned.".
-
-Ce paragraphe indique que le nombre de jours de télétravail par semaine est limité à deux, sauf accord contraire avec le directeur concerné.
-
-Par conséquent, je réponds "nombrejourdeteletravailmaxparsemaine=2".
+    Le premier paragraphe indique que le télétravail est limité à deux journées par semaine. Le deuxième paragraphe confirme cette limitation en mentionnant que le manager peut limiter le nombre de salariés simultanément en télétravail pour l’organisation du travail et de façon à préserver la cohésion d’équipe et le lien social. Aucune mention n’est faite d’une limite supérieure à deux jours de télétravail par semaine.

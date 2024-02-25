@@ -1,20 +1,23 @@
-Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé par semaine dans les documents fournis.
+Q_TTSEM:
+Oui, il y a plusieurs mentions d'un nombre de jours de télétravail par semaine dans les documents fournis. Voici quelques exemples :
 
-Dans le document avec l'ID 4, il est mentionné que "Le passage en télétravail de chaque salarié suppose le respect des conditions cumulatives suivantes : [...] 3.1 - Principe du double volontariat et d’une confiance mutuelle [...] L’organisation du télétravail repose sur une relation de confiance entre le salarié et l’employeur, mais également sur la faculté de ce dernier d’apprécier les résultats du salarié par rapport aux objectifs fixés." Cela suggère qu'il n'y a pas de limite maximale de jours de télétravail par semaine, mais que cela dépend des objectifs fixés et de l'appréciation de l'employeur.
+* Selon le document 0, "le télétravail régulier constitue le cadre général du télétravail organisé dans l'entreprise et vise les situations dans lesquelles le salarié et l'employeur fixent à l'avance le nombre de jours hebdomadaires durant lesquels le salarié effectuera ses tâches en télétravail."
+* Selon le document 1, dans le formulaire de demande de télétravail régulier, il faut préciser "le nombre et les jours de télétravail par semaine".
+* Selon le document 3, le salarié qui souhaite en bénéficier doit en faire la demande "en utilisant le formulaire de demande de télétravail régulier (annexe du présent avenant à l’accord sur le télétravail II) auprès de son supérieur hiérarchique" et ce dernier dispose d'un délai de 15 jours pour accepter ou refuser la demande.
+* Selon le document 5, si le client impose plus de 2 jours par semaine de télétravail, le salarié pourra télétravailler depuis son domicile ou travailler et réaliser sa mission dans les locaux de son Agence de rattachement s’il ne souhaite pas télétravailler.
 
-Dans le document avec l'ID 8, il est mentionné que "En cas d’accord entre le responsable hiérarchique et le salarié, ces derniers fixeront par écrit dans le formulaire de demande de télétravail régulier, joint en annexe du présent avenant à l’accord sur le télétravail II, les éléments suivants : la date de début du télétravail, le nombre et les jours de télétravail par semaine, les horaires spécifiques s’il y a lieu, l’adresse du lieu depuis laquelle le télétravail sera exercé, le matériel mis à disposition." Cela montre qu'il est possible de fixer un nombre de jours de télétravail par semaine dans le formulaire de demande de télétravail régulier.
+Il est donc mentionné à plusieurs reprises que le nombre de jours de télétravail par semaine est un élément important du télétravail régulier et qu'il doit être fixé à l'avance par l'employeur et le salarié.
+Q_TTSEM_NOMBRE:
+* Extraits pertinents des documents :
+    * "le nombre et les jours de télétravail par semaine" (Source : T07821007410.txt)
+    * "Si le télétravail est effectué deux jours par semaine, il ne pourra pas être réalisé le vendredi et le lundi." (Source : T07821007410.txt)
+    * "Le télétravail régulier constitue le cadre général du télétravail organisé dans l’entreprise et vise les situations dans lesquelles le salarié et l’employeur fixent à l’avance le nombre de jours hebdomadaires durant lesquels le salarié effectuera ses tâches en télétravail." (Source : T07821007410.txt)
 
-Dans le même document, il est également mentionné que "Si le télétravail est effectué deux jours par semaine, il ne pourra pas être réalisé le vendredi et le lundi." Cela montre qu'il y a une limitation à deux jours de télétravail par semaine.
+* Ma réponse :
+    * nombrejourdeteletravailmaxparsemaine=2
 
-Enfin, dans le document avec l'ID 3, il est fourni un formulaire de demande de télétravail régulier qui comporte une section intitulée "Nombre et jours de télétravail par semaine" avec des cases à cocher pour un, deux, trois ou quatre jours de télétravail par semaine. Cela suggère qu'il est possible de choisir un nombre de jours de télétravail par semaine compris entre un et quatre.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "Le télétravail pourra être exercé à hauteur de 2 jours par semaine pour un salarié à temps complet et 1 jour par semaine pour un salarié au 4/5ème." (Document(page\_content='...', metadata={'source': 'T07821007410.txt'}))
-
-Ma réponse après raisonnement ci-dessous :
-
-Ma réponse : nombrejourdeteletravailmaxparsemaine=2
-
-Mon raisonnement :
-
-Le paragraphe pertinent indique que le télétravail pourra être exercé à hauteur de 2 jours par semaine pour un salarié à temps complet. Donc, le nombre maximum de jours de télétravail par semaine est de 2.
+* Mon raisonnement :
+    * Les documents mentionnent explicitement le nombre de jours de télétravail par semaine, qui est fixé par écrit dans le formulaire de demande de télétravail régulier.
+    * Dans l'extrait pertinent, il est mentionné que "si le télétravail est effectué deux jours par semaine", ce qui implique que le nombre maximum de jours de télétravail par semaine est de 2.
+    * Bien que le document mentionne que le télétravail peut être effectué en alternance, il ne précise pas de manière explicite que le nombre de jours de télétravail par semaine peut être supérieur à 2.
+    * Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 2.

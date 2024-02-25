@@ -1,16 +1,12 @@
 Q_TTSEM:
-Oui, il est mentionné qu'il sera désormais possible d'effectuer du télétravail à raison de DEUX jours par semaine.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Il sera désormais possible d'effectuer du télétravail à raison de DEUX jours par semaine.
+Q_TTSEM_NOMBRE:Two paragraphes from the documents that answer the question are:
 
 * "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine"
-* "Le télétravail est organisé de telle sorte que le salarié à temps plein soit présent dans l’entreprise au moins 3 jours par semaine."
+* "Temps partiel 80 % / 1 journée de télétravail possible, 3 jours sur site"
 
-Ma réponse après raisonnement ci-dessous :
+My response after reasoning is:
+nombrejourdeteletravailmaxparsemaine=2
 
-* nombrejourdeteletravailmaxparsemaine=2
-
-Mon raisonnement :
-
-* Selon l'article 1, il sera désormais possible d'effectuer du télétravail à raison de DEUX jours par semaine.
-* Dans le même article, il est précisé que le télétravail est organisé de telle sorte que le salarié à temps plein soit présent dans l’entreprise au moins 3 jours par semaine.
-* Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+My reasoning is:
+The first paragraph states that teleworking is possible for two days per week. The second paragraph states that for a part-time worker with an 80% schedule, one day of teleworking is possible and three days must be spent on site. Therefore, the maximum number of days of telework per week is two.

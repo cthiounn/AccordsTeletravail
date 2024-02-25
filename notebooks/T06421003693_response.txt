@@ -1,20 +1,11 @@
-Q_TTSEM:
-Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
-
-* Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d'un ou deux jours entier(s) maximum par semaine (article 6.1).
-* Le télétravailleur opte pour des journées entières télétravaillées, il n'est pas possible de fractionner en demi-journées (article 6.1).
-* Cette/ces journée(s) de télétravail doit/doivent être positionnée(s) du lundi au vendredi (article 6.1).
-* Le télétravail peut s'exercer en tout lieu situé en France métropolitaine, l'adresse de celui-ci étant renseignée dans la demande de télétravail. Tout changement d'adresse (y compris temporaire) est signalé pour information et par écrit à la hiérarchie (attestation sur l'honneur dans le cas des résidences secondaires) (document 3, section 2.3.1).
-
-Il est important de noter que ces mentions peuvent varier en fonction des politiques spécifiques de l'entreprise et des accords conclus entre les parties prenantes.
+Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé par semaine. Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d'un ou deux jours entiers maximum par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine." (Document(page\_content='Lorsque cette demande vise une modification des conditions d’exercice du télétravail, un nouvel entretien entre le chef de département ou de service et le salarié en télétravail permet d’examiner la possibilité de reconduire ce mode d’organisation du travail selon les nouvelles conditions souhaitées.\n\nLa modification des conditions d’exercice du télétravail est formalisée par un nouveau formulaire de demande de télétravail d’une durée d’un an reconductible tacitement. Ces modifications prennent effet au 1er jour du mois civil suivant.\n\n\nArticle 6. Organisation du télétravail régulier \n\n6.1 Nombre, répartition et fréquence des journées télétravailées\n\n\nLe nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine.\n\nLe télétravailleur opte pour des journées entières télétravaillées, il n’est pas possible de fractionner en demi-journées.\n\nCette/ces journée(s) de télétravail doit/doivent être positionnée(s) du lundi au vendredi.\n\n...'))
+* "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine." (T06421003693.txt)
+* "Lors des réunions de négociation, les organisations syndicales et la Direction ont ouvert la possibilité pour les salariés en fin de carrière d’augmenter le nombre de jours de télétravail possibles par semaine de 2 à 3 jours maximum." (T06421003693.txt)
 
-Ma réponse après raisonnement ci-dessous :
-
-* nombrejourdeteletravailmaxparsemaine=2
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-
-* Je me suis basé sur le paragraphe "Le nombre de jours télétravaillés prévus par le formulaire de demande de télétravail est d’un ou deux jours entier(s) maximum par semaine." pour conclure que le nombre maximum de jours de télétravail par semaine est de 2.
+Dans le premier paragraphe, il est stipulé que le nombre de jours télétravaillés par semaine est au maximum de deux jours. Cependant, dans le deuxième paragraphe, il est mentionné que lors des réunions de négociation, les organisations syndicales et la direction ont ouvert la possibilité pour les salariés en fin de carrière d’augmenter le nombre de jours de télétravail possibles par semaine de 2 à 3 jours maximum. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2 pour tous les salariés sauf pour ceux en fin de carrière qui peuvent bénéficier de 3 jours de télétravail par semaine. Comme il n'y a pas de restriction hebdomadaire pour les salariés en fin de carrière, je propose de renseigner la variable 'nombrejourdeteletravailmaxparsemaine' à la valeur maximale de 2, qui correspond au nombre de jours de télétravail par semaine pour la majorité des salariés.

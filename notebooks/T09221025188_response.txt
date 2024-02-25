@@ -1,11 +1,14 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail maximum par semaine. Les salariés éligibles ont la possibilité de bénéficier du télétravail sous réserve de respecter un temps de présence minimum sur site de 170 jours par an et par salariés, soit environ 3,25 jours de télétravail par semaine. Ce nombre de jours maximum peut être revu annuellement et communiqué au salarié au plus tard le 15 décembre de chaque année.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail maximum autorisés par an. Selon le document 1 et 2, le nombre de jours télétravaillés maximum est de 47 jours en 2020 et 48 jours en 2021. Cependant, il n'y a pas de mention d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum exprimé par semaine.
+Q_TTSEM_NOMBRE:* Extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les salariés éligibles ont la possibilité de bénéficier du télétravail sous réserve de respecter un temps de présence minimum sur site de 170 jours par an et par salariés."
-* "Le télétravail ne doit pas avoir pour effet d’entraîner un dépassement des durées maximales de temps de travail ou le non-respect des durées minimales de temps de repos. Il appartient conjointement à la Direction et au télétravailleur, en raison de la spécificité de sa situation de travail, de veiller au respect des dispositions légales ou conventionnelles relatives au temps de travail et de repos."
+    "Hors recours au télétravail en cas de circonstances exceptionnelles, une possible prise en charge forfaitaire des frais liés au télétravail à hauteur de 10 € par mois sera versée au télétravailleur effectuant une journée de télétravail par semaine (soit l’équivalent moyen de 4,33 jours par mois)."
+    
+    "Le salarié ne pourra pas prendre plus de 3 jours consécutifs de télétravail et les journées de télétravail devront être prises par journée entière."
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=3
+* Ma réponse après raisonnement :
 
-Mon raisonnement :
-Le document mentionne que les salariés doivent respecter un temps de présence minimum sur site de 170 jours par an, ce qui implique que les salariés peuvent travailler en télétravail le reste du temps. Comme il y a 52 semaines dans une année, cela signifie que les salariés peuvent théoriquement travailler en télétravail jusqu'à 35 semaines par an (52 semaines - 170 jours / 5 jours par semaine = 35). Cependant, le document mentionne également que le télétravail ne doit pas entraîner un dépassement des durées maximales de temps de travail ou le non-respect des durées minimales de temps de repos. Par conséquent, le nombre de jours de télétravail par semaine peut être limité en fonction des dispositions légales ou conventionnelles relatives au temps de travail et de repos. Dans l'absence de précisions sur ces dispositions, je propose une limite de 3 jours de télétravail par semaine.
+    nombrejourdeteletravailmaxparsemaine=3
+
+* Mon raisonnement :
+
+    Dans le premier paragraphe, il est dit que le télétravail est possible une journée par semaine. Dans le deuxième paragraphe, il est dit que le salarié ne peut pas prendre plus de 3 jours consécutifs de télétravail, ce qui implique qu'il est possible de travailler en télétravail 3 jours par semaine. Cependant, il n'est pas précisé si cela est possible de manière continue ou non. Je retiens donc la limite de 3 jours par semaine car elle est explicitement mentionnée dans le document.

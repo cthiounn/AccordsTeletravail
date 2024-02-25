@@ -1,10 +1,17 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisés par semaine. Selon l'article 4 du document 1, le nombre de jours de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine pour tous les collaborateurs DFA.
-Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé par semaine. Le document indique que "Le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine".
+Q_TTSEM_NOMBRE:
+* Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* "Le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine, pour tous les collaborateurs DFA, selon les mêmes conditions que celles prévues dans l’accord télétravail signé le 17 septembre 2020 (hors période de type pandémie)"
+    * "Le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine" (Source: T09221024480.txt)
+    
+    * "Ainsi un kit télétravail peut être demandé, sur validation du manager et des RH. Ce kit comprend (au choix cumulatif ou non) la possibilité de prêt d’un second écran informatique, un casque jabra, et un fauteuil." (Source: T09221024480.txt)
 
-Ma réponse :
-nombrejourdeteletravailmaxparsemaine = 2
+* Ma réponse :
 
-Mon raisonnement :
-Le document mentionne explicitement le nombre de jours de télétravail autorisés par semaine, qui est de 2. Il n'y a pas d'autres mentions de fréquence par semaine concernant le nombre de jours de télétravail autorisé dans le document.
+    * nombrejourdeteletravailmaxparsemaine=2
+
+* Mon raisonnement :
+
+    * Dans le premier paragraphe, il est clairement indiqué que "le nombre de jour de télétravail autorisés passe de 4 jours par mois à 2 jours par semaine". Cette information est confirmée dans le préambule où il est dit que "la société DFA a mis en œuvre un projet de réorganisation de l’activité de la Société et ses conséquences sur l’emploi (...) en matière de santé, sécurité et conditions de travail", ce qui inclut le télétravail.
+    
+    * Le deuxième paragraphe ne contient pas d'information sur le nombre de jours de télétravail autorisés, mais simplement la description d'un kit de télétravail qui peut être demandé par les salariés.

@@ -1,69 +1,11 @@
-Q_TTSEM:
-Oui, il y a une mention d'un nombre de jours de télétravail autorisé par semaine. Selon l'article V de l'accord, le salarié peut télétravailler au maximum 2 jours par semaine. Ce plafond peut être temporairement augmenté en cas de situation individuelle particulière.
-Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail maximum par semaine. Le salarié peut télétravailler au maximum 2 jours par semaine, sauf dérogation temporaire et justifiée.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question:
 
-> Article II – Bénéficiaires
->
-> Le télétravail est accessible aux salariés de l’UES Arkade dans les conditions fixées au présent accord.
->
-> Le télétravail peut concerner les salariés ayant au minimum 6 mois d’ancienneté dans l’Entreprise.
->
-> [...]
->
-> Article III – Accès au télétravail
->
-> Le télétravail peut être déployé auprès des activités pour lesquelles les conditions de faisabilité technique et organisationnelle et de respect de sécurité et de confidentialité des informations sont remplies.
->
-> L’accès au télétravail pourra s’étendre à d’autres activités au regard des différentes évolutions futures.
->
-> En outre, l’organisation du télétravail ne doit pas porter atteinte au fonctionnement du service.
->
-> Le télétravail s’inscrit dans une relation basée sur la confiance mutuelle entre le salarié et son manager et la capacité du télétravailleur à exercer son activité de manière autonome en dehors des locaux de l’entreprise.
->
-> Sur la compatibilité du poste de travail
->
-> Les tâches à effectuer doivent être réalisables à distance.
->
-> La compatibilité du poste au télétravail est menée au regard notamment :
->
-> Des contraintes techniques (accès aux outils informatiques, données, documents ou équipements),
->
-> Des impératifs de sécurité des données traitées ou des opérations réalisées,
->
-> De la nécessité d’une présence dans les locaux (interactions humaines, interventions sur site…),
->
-> De l’organisation du service (maintien de la qualité de service, nombre de salariés présents sur site, ancienneté de l’équipe, …),
->
-> De la faisabilité d’une réalisation des tâches à distance.
->
-> La situation de télétravail est réexaminée en cas de changement de poste.
->
-> Sur l’examen de la candidature du salarié
->
-> L’examen, réalisé par le manager en concertation avec les services des ressources humaines, porte sur :
->
-> la maîtrise du poste occupé,
->
-> l’autonomie dans l’organisation du travail et dans la gestion du temps de travail,
->
-> le niveau de sécurité exigée des opérations et des données exploitées,
->
-> les différentes contraintes techniques ou d’organisation.
+* "Afin de maintenir suffisamment le lien social et fonctionnel avec la communauté de travail, the employee can telework a maximum of 2 days per week." ("T02921004527.txt")
+* "The number of days and the days of telework are set, by mutual agreement between the employee and the manager, according to the organization of the structure and the activity of the employees in telework situation." ("T02921004527.txt")
 
-* Ma réponse après raisonnement :
+My response after reasoning:
+nombrejourdeteletravailmaxparsemaine = 2
 
-nombrejourdeteletravailmaxparsemaine=2
-
-* Mon raisonnement :
-
-Après avoir analysé les documents fournis, je n'ai trouvé aucune indication explicite concernant le nombre maximum de jours de télétravail par semaine, sauf dans le paragraphe suivant :
-
-> Article V – Organisation du télétravail
->
-> Répartition des temps de travail lieu de télétravail/entreprise
->
-> Afin de maintenir suffisamment le lien social et fonctionnel avec la communauté de travail, le salarié peut télétravailler au maximum 2 jours par semaine.
-
-Ce paragraphe indique clairement que le nombre maximum de jours de télétravail par semaine est de 2. Par conséquent, je peux conclure que :
-
-nombrejourdeteletravailmaxparsemaine=2
+My reasoning:
+The first paragraph clearly states that the maximum number of days an employee can telework is two per week. The second paragraph does not provide a specific number but confirms that the number of days is determined by mutual agreement between the employee and the manager, with consideration for the organization of the structure and the activity of the employees in telework situation. However, since the first paragraph sets a maximum of two days per week, we can assume that this is the maximum number of days an employee can telework regularly, unless there are exceptional circumstances. Therefore, I assign the value 2 to the variable 'nombrejourdeteletravailmaxparsemaine'.

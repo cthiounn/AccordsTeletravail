@@ -1,23 +1,15 @@
-Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé ou limité explicitement exprimé par semaine dans les documents fournis.
+Q_TTSEM:Oui, il y a une mention à un nombre de jour de télétravail autorisé par semaine. Pour un collaborateur à temps plein, le nombre maximum de jours en télétravail est fixé à 2 jours par semaine. Pour les collaborateurs à temps partiel, le nombre maximum en télétravail est fixé à 1 jour par semaine.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
-Voici quelques exemples :
+* "The number of days maximum in telework is fixed at 2 days per week for a full-time employee."
+* "Unless there are exceptional circumstances, working time is organized by full days."
 
-* Article 6-1 du document 6 : "De sorte à éviter le risque d’une « distanciation » avec l’entreprise, le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein."
-* Article 6-1 du document 6 : "Pour les collaborateurs à temps partiel, le nombre de jours maximum en télétravail est fixé à 1 jour par semaine."
-* Article 6-2 du document 2 : "Le télétravail est organisé sur la base de jours fixes (régularité des jours de télétravail pour chaque collaborateur et non jours « volants » dans la semaine) établis dans le cadre d’un planning hebdomadaire."
-* Article 6-3 du document 2 : "En cas d’absence, quel qu’en soit le motif, ou de jour férié coïncidant avec une journée habituellement télétravaillée, le collaborateur ne pourra exiger le report du jour de télétravail."
-* Article 6-4 du document 2 : "La durée de travail est identique qu’il soit sur site ou en télétravail. Les dispositions relatives notamment à la durée maximale quotidienne, aux durées maximales hebdomadaires, au temps de repos, au temps de pause et au décompte des heures de travail s’appliquent de la même manière."
+My response after reasoning is:
 
-Notez que certains de ces exemples concernent des limitations sur le nombre de jours de télétravail, tandis que d'autres concernent des plannings hebdomadaires ou des durées de travail.
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* nombrejourdeteletravailmaxparsemaine=2
 
-* "Le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein." (Document(page\_content='6-2 Planification', metadata={'source': 'T08821002242.txt'}))
+My reasoning is:
 
-Ma réponse après raisonnement ci-dessous :
-
-nombrejourdeteletravailmaxparsemaine=2
-
-Mon raisonnement :
-
-Je me suis basé sur l'extraction du paragraphe pertinent pour répondre à la question. J'ai recherché dans les documents fournis les occurrences du mot-clé "semaine" ou une notion de fréquence par semaine concernant le nombre de jours de télétravail autorisé. J'ai trouvé une occurrence dans le paragraphe "6-2 Planification". Par conséquent, je peux répondre que, selon les informations du document, un employé/travailleur/salarié/collaborateur peut télétravailler régulièrement jusqu'à 2 jours par semaine.
+* The document states that the maximum number of days in telework is 2 days per week for a full-time employee.
+* There is no mention of any other arrangement or possibility for more days of telework per week.
+* Therefore, the maximum number of days of telework per week is 2.

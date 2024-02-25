@@ -1,20 +1,11 @@
-Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé ou recommandé par semaine dans les documents fournis.
+Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Dans le document avec l'ID 3, il est indiqué que le télétravail régulier "vise les situations dans lesquelles le salarié et l’employeur fixent à l’avance le nombre de jours maximums par semaine avec signature d’un avenant au contrat de travail. Ce nombre de jours peut être d’une à deux journées par semaine."
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question:
 
-Voici quelques exemples :
+* "Le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile, par journée entière, de manière à préserver le lien social avec l’entreprise et son groupe de travail." (Source: T09221023395.txt)
+* "Le télétravail régulier. Il constitue le cadre général du télétravail organisé dans l’UES Viveris et vise les situations dans lesquelles le salarié et l’employeur fixent à l’avance le nombre de jours maximums par semaine avec signature d’un avenant au contrat de travail. Ce nombre de jours peut être d’une à deux journées par semaine." (Source: T09221023395.txt)
 
-* Selon l'article 4.1, le principe de base de fonctionnement du télétravail régulier est de travailler jusqu'à deux journées par semaine à domicile.
-* Selon l'article 6.1, dans le cas du télétravail flexible, le salarié souhaitant bénéficier d'une autorisation de télétravail pour pouvoir télétravailler au maximum deux jours par mois.
-* Selon le document sur les critères d'éligibilité au télétravail, les salariés peuvent télétravailler jusqu'à deux jours par semaine à domicile, par journée entière.
+My response after reasoning:
+nombrejourdeteletravailmaxparsemaine=2
 
-Il est important de noter que ces limites peuvent varier selon les situations et les accords entre les parties concernées.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* "Le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile, par journée entière,"
-* "Par dérogation à cette règle, il sera exceptionnellement possible de travailler plus de deux journées par semaine, sous réserve de l’accord exprès de son N+1, N+2 et du service des Ressources Humaines."
-
-Ma réponse après raisonnement :
-* nombrejourdeteletravailmaxparsemaine=2
-
-Mon raisonnement :
-* Selon le premier paragraphe, le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile. Donc, sans indication contraire, le nombre maximum de jour de télétravail par semaine est de 2.
-* Le deuxième paragraphe confirme que le nombre maximum de jour de télétravail par semaine est de 2, sauf en cas de dérogation exceptionnelle.
-* Il n'y a pas d'indication d'autorisation de télétravail à 100% ou de full-remote dans les paragraphes fournis, donc je ne peux pas affecter la valeur 5 à la variable nombrejourdeteletravailmaxparsemaine.
+My reasoning:
+The principle of the regular telework is to work up to two days per week at home, by full day, in order to preserve the social link with the company and its working group. The regular telework framework applies to situations where the employee and the employer agree in advance on the number of days per week, with a contract amendment. This number of days can be one or two days per week. Therefore, based on the information provided in the documents, the maximum number of days of regular telework per week is two.

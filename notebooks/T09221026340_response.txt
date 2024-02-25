@@ -1,20 +1,22 @@
 Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
 
-* Article 5.1 : "Le nombre de jours télétravaillables peut donc varier de zéro (0) à trois (3) jours par semaine au maximum"
-* Article 5.2 : "Avec l'accord du manager, le salarié peut faire le choix de bénéficier de zéro (0) à trois (3) jours de télétravail par semaine"
-* Article 16 : "Pendant ses jours de travail en dehors de locaux de l'Entreprise, les Parties conviennent que le Télétravailleur doit pouvoir être joint a minima [...] de 9h00 à 12h00, et de 14h00 à 17h00."
+* Selon le document avec l'identifiant 1, le salarié peut faire le choix de bénéficier de zéro (0) à trois (3) jours de télétravail par semaine.
+* Selon le document avec l'identifiant 2, le nombre de jours télétravaillables peut donc varier de zéro (0) à trois (3) jours par semaine au maximum.
+* Selon le document avec l'identifiant 3, chaque jour de télétravail posé doit être préalablement accepté par le manager pour être effectué par le Télétravailleur, et les jours de télétravail doivent être posés la semaine précédente afin de respecter un délai de prévenance.
+* Selon le document avec l'identifiant 6, tout salarié s’inscrivant dans le dispositif de télétravail habituel devra exercer son métier a minima deux (2) jours par semaine sur son Lieu de référence.
 
-Il est donc mentionné à plusieurs reprises que le nombre de jours de télétravail par semaine peut varier entre 0 et 3, et que le salarié doit être joignable pendant certaines plages horaires lorsqu'il travaille à distance.
-Q_TTSEM_NOMBRE:
-**Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question:**
+En résumé, il est possible de conclure que les documents mentionnent explicitement qu'un salarié peut faire le choix de bénéficier de zéro (0) à trois (3) jours de télétravail par semaine, et que le nombre de jours télétravaillables peut donc varier de zéro (0) à trois (3) jours par semaine au maximum.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
-* Article 5.2 : Flexibilité des jours de télétravail : "Avec l’accord du manager, le salarié peut faire le choix de bénéficier de zéro (0) à trois (3) jours de télétravail par semaine"
-* Article 5.1 : Nombre de jours d’exercice du métier sur le lieu de référence : "Tout salarié s’inscrivant dans le dispositif de télétravail habituel devra exercer son métier a minima deux (2) jours par semaine sur son Lieu de référence. Les deux (2) jours de présence sur le Lieu de référence sont nécessaires pour préserver le collectif de travail."
+* "Article 5.2 : Flexibility of days of teleworking \nThe employee may choose to benefit from zero (0) to three (3) days of teleworking per week: \nin a fixed and recurring manner, \nin a variable manner, \nin a fixed and variable manner."
+* "Article 6.2 : Posing days of teleworking \nAfter acceptance by the manager of the registration of the employee in the telework system, this one (hereinafter referred to as the 'Teleworker') will benefit from a maximum of three (3) days of teleworking per week, which he can pose - or not - according to the provisions of this title 2."
 
-**Ma réponse après raisonnement :**
+My response after reasoning is:
 
-nombrejourdeteletravailmaxparsemaine=3
+* nombrejourdeteletravailmaxparsemaine=3
 
-**Mon raisonnement :**
+My reasoning is:
 
-Le premier paragraphe indique que le salarié peut bénéficier de 0 à 3 jours de télétravail par semaine. Le deuxième paragraphe indique que le salarié doit être présent sur son lieu de référence au moins deux jours par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3.
+* The first paragraph states that the employee can choose to benefit from zero (0) to three (3) days of teleworking per week.
+* The second paragraph also mentions that the employee can benefit from a maximum of three (3) days of teleworking per week.
+* Therefore, based on the information provided in the document, the maximum number of days of teleworking per week is three (3).

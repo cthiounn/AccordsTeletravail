@@ -1,10 +1,15 @@
-Q_TTSEM:
-Oui, il y a une mention d'un nombre de jours de télétravail autorisé par semaine dans le document. Selon l'article 6, le télétravail ne peut pas couvrir une semaine entière, c'est-à-dire 5 jours. Le salarié doit être présent sur son lieu habituel de travail en fonction des obligations liées à sa fonction ou celle du service et au moins 1 jour par semaine.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-* Article 6 : "Afin d’éviter l’isolement des salariés, de conserver les interactions avec les autres services et afin de conserver un fonctionnement collectif, le télétravail sera de la responsabilité du manager et ne pourrait couvrir une semaine entière à savoir 5 jours."
+Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail. Selon l'article 6, le télétravail ne peut pas couvrir une semaine entière, c'est-à-dire 5 jours, et le salarié doit être présent sur son lieu habituel de travail en fonction des obligations liées à sa fonction ou celles du service et au moins 1 jour par semaine.
+Q_TTSEM_NOMBRE:
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-Ma réponse après raisonnement ci-dessous :
-* nombrejourdeteletravailmaxparsemaine = 5
+    Article 6 du document 1 : "Afin d’éviter l’isolement des salariés, de conserver les interactions avec les autres services et afin de conserver un fonctionnement collectif, le télétravail sera de la responsabilité du manager et ne pourrait couvrir une semaine entière à savoir 5 jours."
 
-Mon raisonnement :
-* Selon l'article 6, le télétravail ne peut pas couvrir une semaine entière, soit 5 jours. Donc, le nombre maximum de jours de télétravail par semaine est de 5.
+    Metadata du document 3 : "* au jour de la signature du présent accord les dispositions prévues par l’URSSAF sont les suivantes* : exonération de cotisations et contributions sociales dans la limite de 10 € par mois pour un salarié effectuant une journée de télétravail par semaine (20 € par mois pour deux jours de télétravail par semaine, 30 € par mois pour trois jours de télétravail par semaine, etc.)"
+
+* Ma réponse après raisonnement :
+
+    nombrejourdeteletravailmaxparsemaine=3
+
+* Mon raisonnement :
+
+    Selon l'article 6 du document 1, le télétravail ne peut pas couvrir une semaine entière, c'est-à-dire 5 jours. Cependant, selon la metadata du document 3, il est possible de bénéficier d'une exonération de cotisations et contributions sociales dans la limite de 10 € par mois pour un salarié effectuant une journée de télétravail par semaine, 20 € par mois pour deux jours de télétravail par semaine, 30 € par mois pour trois jours de télétravail par semaine, etc. Ceci suggère que le nombre maximum de jours de télétravail par semaine est de 3.

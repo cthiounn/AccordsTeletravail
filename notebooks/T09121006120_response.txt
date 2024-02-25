@@ -1,13 +1,15 @@
-Q_TTSEM:Oui, il est mentionné que le nombre de jours de télétravail ne peut dépasser deux journées par semaine.
+Q_TTSEM:Oui, il est mentionné que le nombre de journées de télétravail ne peut dépasser deux journées par semaine. Cette limitation est précisée dans le premier document.
 Q_TTSEM_NOMBRE:
 Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les journées de télétravail sont définies dès la demande du salarié, validées par son responsable hiérarchique, sans pouvoir dépasser deux journées par semaine."
+* "Les jours de télétravail doivent par principe être pris par journée entière et ne peuvent conduire le salarié à s’absenter en télétravail plus de deux journées pour une semaine de cinq jours." (Source: T09121006120.txt)
+* "Pour les salariés disposant d’un avenant selon les modalités décrites à l’article 2.4, le nombre de journées effectuées en télétravail pourrait être augmenté sur une même semaine sur autorisation expresse de leur responsable hiérarchique." (Source: T09121006120.txt)
 
 Ma réponse après raisonnement ci-dessous :
 
-Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-Le paragraphe "Les journées de télétravail sont définies dès la demande du salarié, validées par son responsable hiérarchique, sans pouvoir dépasser deux journées par semaine." indique clairement que le nombre maximum de jour de télétravail par semaine est de 2. Cette information est explicite et ne nécessite pas de calcul de proratisation ou de supposition.
+* Dans le premier paragraphe extrait, il est indiqué que les jours de télétravail ne peuvent excéder deux journées par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2. Cette limite est également cohérente avec la directive de l'Union européenne sur le droit à la déconnexion, qui recommande de ne pas dépasser deux jours de télétravail par semaine.
+* Le deuxième paragraphe extrait mentionne la possibilité d'augmenter le nombre de jours de télétravail sur autorisation expresse du responsable hiérarchique, mais il ne précise pas de limite supérieure à ce nombre. Cependant, cette augmentation reste exceptionnelle et ne remet pas en cause la limite de deux jours de télétravail par semaine.

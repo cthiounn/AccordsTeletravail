@@ -1,12 +1,1 @@
-Q_TTSEM:Oui, il est mentionné que le travail occasionnel à distance est cumulable avec les dispositifs de télétravail cités ci-dessus, dans la limite de 2 jours par semaine.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "Il est précisé que le travail occasionnel à distance est cumulable avec les dispositifs de télétravail cités ci-dessus, dans la limite de 2 jours par semaine."
-
-Ma réponse après raisonnement ci-dessous :
-
-Ma réponse : nombrejourdeteletravailmaxparsemaine=2
-
-Mon raisonnement :
-
-Après analyse du document, je constate qu'un paragraphe contient bien le mot-clé "semaine" et concerne le nombre de jour de télétravail autorisé. Il s'agit du paragraphe "Il est précisé que le travail occasionnel à distance est cumulable avec les dispositifs de télétravail cités ci-dessus, dans la limite de 2 jours par semaine.". Par conséquent, la variable "nombrejourdeteletravailmaxparsemaine" est affectée à la valeur 2.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Il y a une mention d'un nombre maximal de jours de télétravail par année civile, mais cela ne correspond pas à une base hebdomadaire.

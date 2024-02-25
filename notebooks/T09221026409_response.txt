@@ -1,27 +1,18 @@
-Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés, recommandés ou limités dans les documents fournis. Voici quelques exemples :
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés et recommandés. Selon l'article 1.2.1, les salariés éligibles peuvent bénéficier de 2 ou 3 jours de télétravail par semaine. Les 2 jours sont de droit et les 3 jours peuvent dépendre de l'organisation du service. Ces jours peuvent être pris en journée entière ou demi-journée. En outre, les salariés qui bénéficient de la formule de télétravail standard disposent d'une enveloppe de 35 jours complémentaires maximum, par année civile, qui peuvent être positionnés en journée ou en demi-journée.
+Q_TTSEM_NOMBRE:
+* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* Selon l'article 1.2.2, les salariés qui ne peuvent pas prendre la formule de télétravail standard mais qui ont des activités télétravaillables peuvent bénéficier de 35 jours de télétravail par année civile, qui peuvent être en journée ou demi-journée.
-* Selon l'article 1.2.3, les salariés qui ne veulent pas prendre la formule de télétravail standard peuvent bénéficier de 15 jours maximum par année civile.
-* Selon l'article 1.3.2, les salariés qui se trouvent dans l'une des situations précitées peuvent convenir avec leur manager de pouvoir faire varier d'une semaine à l'autre le positionnement de leurs jours ou demi-journées de télétravail prédéterminés tout en continuant à respecter le nombre de jours de télétravail pour lequel ils s'étaient mis d'accord lors du renseignement du workflow.
-* Selon l'article 1.3.4, le télétravail ne doit pas être un élément qui modifie à la hausse, ou à la baisse, les missions et activités habituelles du salarié, ses objectifs, son nombre d'heures de travail ou encore sa charge.
+> Article 1. 2. 1. Formule de télétravail standard
+> 2 ou 3 days of telework per week
+> The employee can benefit, according to his wishes, from 2 or 3 days of telework per week (without cumulating one week over the other) knowing that the 2 days are a right and the 3 days may depend on the organization of the department.
 
-Il est important de noter que ces mentions font référence à un nombre de jours de télétravail par année civile, et non par semaine.
-Q_TTSEM_NOMBRE:* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+> Processus de mise en œuvre
+> Each employee can make a request to be registered as a teleworker via the dedicated workflow. He indicates the number of desired days (2 or 3) and confirms the acknowledgment of mandatory information such as the telework and disconnection charters, as well as the e-learning training on telework.
 
-Document(page\_content='Article 1. 2. 2. Formules de télétravail occasionnel\nLes parties, conscientes que certains salariés ne souhaitent ou ne peuvent pas s’inscrire dans la formule de télétravail dite « standard », ont décidé de créer deux dispositifs alternatifs.\nPour les salariés qui ne peuvent pas prendre la formule de télétravail standard mais qui ont des activités télétravaillables (possibilité de télétravailler moins de 2 jours par semaine ou de manière épisodiques ou discontinues)\n')
+* Ma réponse après raisonnement ci-dessous :
 
-Document(page\_content='Ce faisant, les salariés, qui se trouvent dans l’une des situations précitées, peuvent convenir avec leur manager de pouvoir faire varier d’une semaine à l’autre le positionnement de leurs jours ou demi-journées de télétravail prédéterminés tout en continuant à respecter le nombre de jours de télétravail pour lequel ils s’étaient mis d’accord lors du renseignement du workflow. \nBénéfice de jours variables complémentaires\nAfin de maintenir la souplesse de télétravail créée par le précèdent système et apprécié des salariés, les bénéficiaires de la formule de télétravail standard disposent d’une enveloppe de 35 jours complémentaires maximum, par année civile (sans cumul d’une année sur l’autre), qui peuvent être positionnés en journée ou en demi-journée.\nCe complément vise à permettre, selon le besoin des salariés concernés, d’avoir par exemple plus de jours de télétravail qu’habituellement, y compris une semaine complète. \n')
-
-* Ma réponse après raisonnement :
-
-nombrejourdeteletravailmaxparsemaine=5
+> nombrejourdeteletravailmaxparsemaine=3
 
 * Mon raisonnement :
 
-Le premier paragraphe indique qu'il existe une formule de télétravail occasionnel pour les salariés qui ne peuvent pas prendre la formule standard mais qui ont des activités télétravaillables, avec la possibilité de télétravailler moins de 2 jours par semaine. Cependant, cette information ne permet pas de déterminer le nombre maximum de jours de télétravail par semaine.
-
-Le deuxième paragraphe indique que les bénéficiaires de la formule de télétravail standard disposent d'une enveloppe de 35 jours complémentaires maximum par an, qui peuvent être positionnés en journée ou en demi-journée, et ce complément vise à permettre aux salariés d'avoir par exemple plus de jours de télétravail qu'habituellement, y compris une semaine complète. Cette information suggère que le nombre maximum de jours de télétravail par semaine est de 5, car elle mentionne la possibilité d'avoir une semaine complète de télétravail, ce qui correspond à 5 jours par semaine. Cependant, cette information ne permet pas de le confirmer car elle ne précise pas si cette semaine complète de télétravail est possible chaque semaine ou non.
-
-Cependant, le troisième paragraphe indique qu'il est possible de faire varier d'une semaine à l'autre le positionnement de leurs jours ou demi-journées de télétravail prédéterminés tout en continuant à respecter le nombre de jours de télétravail pour lequel ils s'étaient mis d'accord lors du renseignement du workflow. Donc, il est possible de travailler 5 jours par semaine, mais cela dépend de l'accord entre le salarié et son manager.
-
-Donc, je propose de répondre 'nombrejourdeteletravailmaxparsemaine=5' car il est possible de travailler 5 jours par semaine, mais cela dépend de l'accord entre le salarié et son manager.
+> Les articles 1.2.1 et 1.2.2 indiquent que les salariés peuvent bénéficier de 2 ou 3 jours de télétravail par semaine. L'article 1.2.1 précise que les 2 jours sont un droit et que les 3 jours peuvent dépendre de l'organisation du service. L'article 1.2.2 indique que les salariés qui ne peuvent pas prendre la formule de télétravail standard mais qui ont des activités télétravaillables peuvent bénéficier de 35 jours de télétravail par année civile, qui peuvent être en journée ou demi-journée. Cependant, ces 35 jours ne sont pas exprimés en jours par semaine, mais en jours par année civile. Par conséquent, je me base sur les informations de l'article 1.2.1 pour répondre à la question. Ainsi, le nombre maximum de jours de télétravail par semaine est de 3.

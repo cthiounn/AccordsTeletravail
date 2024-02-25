@@ -1,2 +1,11 @@
 Q_TTSEM:
-Yes, there is at least one mention of the number of days of telework authorized, recommended, limited or maximum per week. According to Article 4 of the document, the organization of telework is based on two (2) days per week, from Tuesday to Friday for full-time and part-time employees working at least 80%. However, the Monday is necessarily worked on site for team cohesion.
+Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Selon l'article 4 de l'accord, l'organisation alternative de l'activité domicile / entreprise se fait sur la base de deux (2) jours ouvrés par semaine, du mardi au vendredi pour les salariés à plein temps et les salariés à temps partiel ou à forfait jours réduit travaillant au moins à 80%.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* Article 4. Répartition du temps de travail entre domicile et entreprise : "L’organisation alternative de l’activité domicile / entreprise se fait sur la base de deux (2) jours ouvrés par semaine, du mardi au vendredi pour les salariés à plein temps et les salariés à temps partiel ou à forfait jours réduit travaillant au moins à 80%."
+
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+Je me suis basé sur l'article 4 qui stipule que l'organisation alternative de l'activité se fait sur la base de deux jours ouvrés par semaine, du mardi au vendredi.

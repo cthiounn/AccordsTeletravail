@@ -1,23 +1,11 @@
-Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés, recommandés ou limités explicitement exprimés par semaine dans les documents fournis. Voici quelques exemples :
+Q_TTSEM:
+Yes, there are several mentions of the number of days of telework authorized or recommended per week in the documents. Here are some examples:
 
-* "De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise"
-* "De 1 à 3 jours flottants par semaine"
-* "Un forfait mensuel de 6 jours"
-* "Un forfait annuel de 30 jours"
-* "1 jour supplémentaire de télétravail pourra être accordé en plus hebdomadairement (ou 20% de jours supplémentaires sur les forfaits mensuels ou annuels)" (pour les seniors, les femmes enceintes et les collaborateurs en RQTH)
+* "De 1 à 3 days fixed by week for all the company's employees"
+* "1 to 3 days floating by week"
+* "A forfait monthly of 6 days"
+* "A forfait annual of 30 days"
+* "1 day supplementary of telework can be granted weekly"
+* "20% of additional days on the monthly or annual forfeits"
 
-Il est important de noter que ces nombres de jours peuvent varier en fonction de certaines conditions ou situations particulières, telles que l'âge, l'état de santé ou les fonctions du collaborateur.
-Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-    "De 1 à 3 jours fixes par semaine pour tous les collaborateurs de l’entreprise"
-    
-    "De 1 à 3 jours flottants par semaine"
-
-* Ma réponse après raisonnement ci-dessous :
-
-    nombrejourdeteletravailmaxparsemaine=3
-
-* Mon raisonnement :
-
-    Les paragraphes extraits indiquent clairement qu'un collaborateur peut télétravailler de 1 à 3 jours par semaine, ce qui correspond aux instructions données. La variable 'nombrejourdeteletravailmaxparsemaine' est donc affectée à la valeur 3.
+Therefore, the answer is yes, there is at least one mention of a number of days of telework authorized or recommended per week in the documents.

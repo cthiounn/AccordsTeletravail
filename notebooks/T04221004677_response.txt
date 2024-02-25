@@ -1,13 +1,19 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Selon l'article 5.2, le salarié sédentaire doit être au minimum 2 jours par semaine en présentiel au bureau, ce qui implique qu'il peut faire jusqu'à 3 jours de télétravail par semaine.
-Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:
+Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés ou recommandés dans les documents fournis :
 
-Document(page\_content='Article 5.2 Télétravail sur la base du volontariat\n\nPour un salarié dont les missions sont éligibles au télétravail, la mise en place du télétravail revêt un caractère volontaire à l’initiative du salarié. Le passage à une situation de télétravail n’est à ce titre pas subordonné à l’accord du responsable hiérarchique.\nLe salarié sédentaire choisit un des 2 modèles suivants en accord avec son responsable hiérarchique.\n\nModèle hebdomadaire\nLe salarié doit être au minimum 2 jours par semaine en présentiel au bureau (soit 1 à 3 jours de télétravail par semaine)', metadata={'source': 'T04221004677.txt'})
-
-* Ma réponse après raisonnement ci-dessous :
-
-nombrejourdeteletravailmaxparsemaine=3
-
+- Dans le document d'identifiant 2, il est spécifié que pour le modèle hebdomadaire, le salarié doit être au minimum 2 jours par semaine en présentiel au bureau, soit 1 à 3 jours de télétravail par semaine.
+- Pour le modèle mensuel, le salarié doit être au minimum 8 jours par mois en présentiel au bureau, soit 4 à 12 jours de télétravail par mois.
+- Dans le document d'identifiant 5, il est mentionné que pour le modèle forfaitaire itinérant, il n'y a pas de limite en nombre de jours de télétravail.
+- Dans le document d'identifiant 0, il est également spécifié que pour le modèle forfaitaire itinérant, il n'y a pas de limite en nombre de jours de télétravail. Cependant, dans le cas du modèle mensuel, les jours de télétravail doivent être saisis avant le début de chaque mois dans le portail RH.
+Q_TTSEM_NOMBRE:* Extraits pertinents :
+	+ "Le salarié doit être au minimum 2 days par semaine in presentiel au bureau (soit 1 to 3 days of teletravail by semaine)"
+	+ "Dans the case of the monthly model, the days of telework must be entered before the beginning of each month in the HR portal."
+	+ "The employee can change the model during the year or the number of days worked remotely, and only at the beginning of the month, after consultation and agreement with his hierarchical manager."
+* Ma réponse :
+	+ nombrejourdeteletravailmaxparsemaine=3
 * Mon raisonnement :
-
-Le document mentionne explicitement le nombre de jours de télétravail par semaine dans le paragraphe "Modèle hebdomadaire" où il est stipulé que "Le salarié doit être au minimum 2 jours par semaine en présentiel au bureau (soit 1 à 3 jours de télétravail par semaine)". Donc, le nombre maximum de jours de télétravail par semaine est de 3 jours.
+	+ Selon le premier extrait, le salarié doit être présent au moins 2 jours par semaine au bureau, ce qui signifie qu'il peut travailler à distance entre 1 et 3 jours par semaine.
+	+ Dans le deuxième extrait, il est mentionné que les jours de télétravail doivent être enregistrés avant le début de chaque mois dans le portail RH, mais cela ne fournit aucune information sur le nombre maximal de jours de télétravail par semaine.
+	+ Le troisième extrait indique que le salarié peut changer de modèle en cours d'année ou de nombre de jours travaillés à distance, mais cela ne fournit pas non plus d'information sur le nombre maximal de jours de télétravail par semaine.
+	+ Comme le télétravail à 100% ou le full-remote n'est pas explicitement mentionné dans les extraits, je ne peux pas affecter la variable nombrejourdeteletravailmaxparsemaine à la valeur 5.
+	+ Par conséquent, je conclus que le nombre maximal de jours de télétravail par semaine est de 3.

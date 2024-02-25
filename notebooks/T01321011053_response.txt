@@ -1,6 +1,11 @@
-Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés par semaine dans les documents fournis. Pour le personnel non-cadre, le nombre de jours de télétravail est limité à un jour par semaine (peut être modulé en deux demi-journées), tandis que pour le personnel cadre, le nombre de jours télétravaillés est limité à deux jours par semaine (peut aussi être modulé en demi-journées). Ces limites ne peuvent être dépassées sauf exceptions telles qu'un commun accord des parties ou un délai de prévenance de trois jours calendaires pour le manager.
-Q_TTSEM_NOMBRE:* Extraits pertinents des documents :
-    * "Le nombre de jours de télétravail est donc limité à un jour par semaine." (Document 1, Personal non-cadre)
-    * "Le nombre de jours télétravaillés est donc limité à deux jours par semaine." (Document 1, Personal cadre)
-* Ma réponse : nombrejourdeteletravailmaxparsemaine = 2
-* Mon raisonnement : Les extraits pertinents montrent clairement que les employés non-cadres peuvent télétravailler un jour par semaine, tandis que les employés cadres peuvent télétravailler deux jours par semaine. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 2.
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés par semaine dans les documents fournis. Pour le personnel non-cadre, le nombre de jours de télétravail est limité à un jour par semaine. Pour le personnel cadre, le nombre de jours de télétravail est limité à deux jours par semaine. Ces limites sont explicitement exprimées dans les documents.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents:
+
+* "Le temps de présence dans les locaux devra être au minimum de 4 days or worked per week... The number of days of telework is therefore limited to one day per week."
+* "The time spent at the office must be a minimum of 3 days or worked per week... The number of days of remote work is therefore limited to two days per week."
+
+My response after reasoning:
+nombrejourdeteletravailmaxparsemaine = 1
+
+My reasoning:
+The first paragraph states that non-cadre employees are allowed to telework for one day per week, and the second paragraph states that cadre employees are allowed to telework for two days per week. Therefore, the maximum number of days of telework per week is 1 for non-cadre employees and 2 for cadre employees. I will assign the maximum value to the variable 'nombrejourdeteletravailmaxparsemaine'.
