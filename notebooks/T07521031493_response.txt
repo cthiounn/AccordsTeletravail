@@ -1,23 +1,19 @@
-Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis :
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés, recommandés, limités ou maximum, exprimés par semaine. Voici quelques exemples tirés des documents fournis :
 
-* "Vous serez en situation de télétravail à raison de deux jours par semaine maximum." (Document ID 3)
-* "Option 2 - Vous serez en situation de télétravail à raison d'un jour par semaine maximum." (Document ID 6)
-* "Soit de 1 ou 2 jours fixes maximum de télétravail par semaine" (Document ID 1)
-* "Il convient de préciser que l'objectif de la Société est de pouvoir compter sur une présence sur site minimum de ses salariés à hauteur de 2 jours par semaine." (Document ID 8)
-* "Les jours de télétravail ne pourront par ailleurs pas être pris par demi-journée et devront correspondre à une journée entière de travail." (Document ID 8)
+* "Soit de 1 ou 2 jours fixes maximum de télétravail par semaine" (Document 1)
+* "Option 2 - Vous serez en situation de télétravail à raison d'un jour par semaine maximum" (Document 0)
+* "Les salariés qui seraient soumis à un forfait annuel en jours réduit (c'est-à-dire inférieur à 209 jours) ou les salariés occupés à temps partiel (c'est-à-dire en deçà de 35 heures par semaine), ne pourront opter que pour le forfait mobile de jours de télétravail. Le nombre de jours de télétravail sera alors proratisé au regard de leur durée du travail comparée à la durée du travail en vigueur au sein de la Société (un salarié travaillant à 80 % bénéficiera d'un forfait mobile de 36 jours de télétravail)" (Document 1)
+* "Les jours de télétravail ne pourront par ailleurs pas être pris par demi-journée et devront correspondre à une journée entière de travail" (Document 3)
+* "Par exception, il est possible de cumuler, sur une même semaine, le jour de télétravail au titre du télétravail régulier et un ou plusieurs jours de télétravail occasionnel, ce qui pourra avoir pour effet de réduire le nombre de jours de présence dans les locaux de la Société sur une même semaine (pouvant aller jusqu'à 0 jours)" (Document 8)
 
-Notez que certains documents mentionnent spécifiquement que les jours de télétravail ne peuvent pas être pris par demi-journée, mais doivent correspondre à une journée entière de travail.
-Q_TTSEM_NOMBRE:
-* Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Merci pour votre confiance!
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    * "Fréquence et nombre de jours télétravaillés Option 1 - Vous serez en situation de télétravail à raison de deux jours par semaine maximum." (Source: T07521031493.txt)
-    
-    * "Soit de 1 ou 2 jours fixes maximum de télétravail par semaine qui seront définis d’un commun accord entre le salarié et son responsable hiérarchique" (Source: T07521031493.txt)
+* "Soit de 1 ou 2 jours fixes maximum de télétravail par semaine"
+* "Option 2 - Vous serez en situation de télétravail à raison d’un jour par semaine maximum."
 
-* Ma réponse : nombrejourdeteletravailmaxparsemaine = 2
+Ma réponse après raisonnement :
+nombrejourdeteletravailmaxparsemaine=2
 
-* Mon raisonnement :
-
-    * Les deux paragraphes extraits indiquent clairement que le nombre maximum de jours de télétravail par semaine est de deux.
-    * Ce nombre est explicite et ne nécessite pas de calcul ou de supposition supplémentaire.
-    * Par conséquent, je peux affirmer que nombrejourdeteletravailmaxparsemaine = 2.
+Mon raisonnement :
+Les deux paragraphes extraits indiquent clairement que le nombre maximum de jours de télétravail par semaine est de 2. Il n'y a pas d'autres mentions de fréquence de télétravail dans les autres paragraphes. Par conséquent, je peux affirmer que le nombre maximum de jours de télétravail par semaine est de 2.

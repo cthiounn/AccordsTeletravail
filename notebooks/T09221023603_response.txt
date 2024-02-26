@@ -1,11 +1,33 @@
-Q_TTSEM:Oui, plusieurs documents mentionnent un nombre de jours de télétravail autorisés ou limités par semaine. Selon le document 0, le télétravail régulier s'effectue à raison de deux jours par semaine maximum. De même, selon le document 1, le télétravail occasionnel s'effectue à raison de deux jours par semaine maximum. Enfin, selon le document 3, le télétravail occasionnel peut être accordé aux salariés dans la limite de deux journées par semaine et de 10 jours par année civile.
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
 
 * "Le télétravail régulier s’effectue à raison de deux jours par semaine maximum"
+* "Chaque manager d’équipe déterminera ce ou ces jours après concertation avec son équipe. [...] étant entendu que le mercredi est télétravaillable dans la limite de deux fois dans le mois"
+* "Le salarié devra également être présent physiquement dans les locaux de l’entreprise 3 jours minimum par semaine."
+* "les salarié(e)s occupant un poste éligible (à titre régulier ou occasionnel) pourront télétravailler [dans le cas de circonstances exceptionnelles]. Cette organisation ne pourra être mise en œuvre qu’en cas d’information préalable diffusée par la Direction à tous les salariés. Les jours de télétravail pour circonstance exceptionnelle ne sont pas déductibles du compteur de jours de télétravail occasionnel."
 * "Le télétravail occasionnel peut être accordé aux salariés qui remplissent les conditions d’éligibilité prévues à l’article III du présent accord dans la limite de deux journées par semaine et de 10 jours par année civile."
+* "Le télétravail occasionnel s’effectue à raison de deux jours par semaine maximum (sauf circonstance exceptionnelle)"
+* "Cette forme d’organisation du travail n’est pas compatible avec le télétravail régulier"
 
-My response after reasoning is:
-nombrejourdeteletravailmaxparsemaine=2
+Il est important de noter que ces mentions peuvent varier en fonction des circonstances et des modalités de télétravail (régulier, occasionnel, circonstances exceptionnelles).
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-My reasoning is:
-The first paragraph states that the regular telework is done for a maximum of two days per week. The second paragraph also mentions the same limit of two days per week for occasional telework. Therefore, based on the information provided in the documents, the maximum number of days an employee can telework regularly per week is two. Hence, nombrejourdeteletravailmaxparsemaine=2.
+* "Le télétravail occasionnel peut être accordé aux salariés qui remplissent les conditions d’éligibilité prévues à l’article III du présent accord dans la limite de deux journées par semaine et de 10 jours par année civile."
+* "Le télétravail régulier s’effectue à raison de deux  jours par semaine maximum (sauf circonstance exceptionnelle visée au §V 3) : Du lundi au vendredi,"
+
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+* Dans le premier paragraphe, il est indiqué que le télétravail occasionnel peut être accordé dans la limite de deux journées par semaine.
+* Dans le deuxième paragraphe, il est indiqué que le télétravail régulier s’effectue à raison de deux jours par semaine maximum.
+* Je ne trouve pas d'autres informations dans les autres paragraphes qui permettent de modifier cette réponse.
+* Je ne tiens pas compte des informations sur le télétravail occasionnel car la question porte sur le télétravail régulier.
+* Je ne tiens pas compte des informations sur les jours de présence minimum sur site car la question porte sur le nombre de jours de télétravail.
+* Je ne tiens pas compte des informations sur le télétravail à 100% ou le full-remote car la question porte sur le nombre de jours de télétravail.
+* Je ne tiens pas compte des informations sur les jours de l'année, du trimestre ou du mois car la question porte sur le nombre de jours de télétravail par semaine.
+* Je ne tiens pas compte des informations sur les jours fériés, les week-ends ou les congés payés car la question porte sur le nombre de jours de télétravail par semaine.
+* Je ne tiens pas compte des informations sur les horaires de travail car la question porte sur le nombre de jours de télétravail par semaine.
+* Je ne tiens pas compte des informations sur les modalités d'organisation du télétravail car la question porte sur le nombre de jours de télétravail par semaine.
+* Je ne tiens pas compte des informations sur les conditions matérielles de télétravail car la question porte sur le nombre de jours de télétravail par semaine.

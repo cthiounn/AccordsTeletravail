@@ -1,1 +1,17 @@
-Q_TTSEM:Non, il n'y a pas de mention d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans ces documents. Les mentions concernent uniquement le nombre de jours de télétravail par semestre ou par année civile.
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés, recommandés, limités ou maximum, exprimés par semaine. Voici quelques exemples tirés des documents fournis :
+
+* Selon le document 0, le salarié dispose de 48 jours de télétravail possibles par année civile, qu'il peut mobiliser en journée entière. Les jours de télétravail comme les jours de travail dans les locaux de L’APUR peuvent inclure des rendez-vous ou des réunions à l’extérieur prévus sur l’agenda électronique. Le télétravail pour le salarié à temps complet ou titulaire d’un forfait annuel en jours ou titulaire d’un forfait jours réduit ne pourra être exercé que pour un maximum de 24 jours par semestre civil, soit une enveloppe de 48 jours par année civile, reportable d’un semestre à l’autre.
+* Selon le document 1, le nombre de jours annuels possible de télétravail flexible convenu dans cet accord est de 48 par année civile pour un salarié à temps plein ou pour un salarié en forfait jour ou un salarié en forfait jour réduit.
+* Selon le document 8, pour un salarié à temps partiel, le nombre de jours de télétravail possible par semestre sera proratisé selon le pourcentage de temps de travail et avec une limite dans tous les cas d’un jour par semaine non reportable. Le nombre de jours est arrondi au 0,5 jour supérieur le plus proche. Par exemple, pour un salarié travaillant à 90%, le télétravail ne pourra être exercé que pour un maximum de 22 jours par semestre civil, soit une enveloppe de 44 jours par année civile reportable d’un semestre à l’autre. Pour un salarié travaillant à 80%, le télétravail ne pourra être exercé que pour un maximum de 20 jours par semestre civil, soit une enveloppe de 40 jours par année civile, reportable d’un semestre à l’autre.
+
+Il est donc mentionné à plusieurs reprises un nombre de jours de télétravail autorisés, recommandés, limités ou maximum, exprimés par semaine dans les documents fournis.
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Afin de maintenir le lien social du salarié et de le prévenir de l’isolement, le recours au télétravail flexible est limité, de sorte qu’il devra être présent dans les locaux de l’entreprise au moins trois jours par semaine." (Source : T07521028915.txt)
+* "Les horaires du télétravailleur sont établis sur des bases comparables à celles d’un travail accompli dans les locaux de L’APUR. Dans ces conditions, le télétravail ne saurait avoir pour conséquence de modifier l’activité et l’horaire habituels, la charge de travail ou l’amplitude du travail effectif applicable en temps normal lorsque le salarié effectue son activité au sein des locaux de l’employeur ou sur son lieu de mission" (Source : T07521028915.txt)
+
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine=3
+
+Mon raisonnement :
+Le premier paragraphe indique que le recours au télétravail flexible est limité de sorte que le salarié doit être présent dans les locaux de l'entreprise au moins trois jours par semaine. Cela signifie que le nombre maximum de jours de télétravail par semaine est de 3. Cette limite est confirmée dans le deuxième paragraphe qui précise que le télétravail ne doit pas modifier l'horaire habituel du salarié.

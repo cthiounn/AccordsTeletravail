@@ -1,14 +1,14 @@
-Q_TTSEM:
-Oui, le télétravail est limité à 2 jours maximum par semaine. Il est spécifié dans l'article 3-2.
+Q_TTSEM:Oui, le télétravail est limité à 2 jours maximum par semaine.
 Q_TTSEM_NOMBRE:
-* Extraits pertinents des documents :
-    * "Le télétravail est limité à 2 jours maximum par semaine" (T05721004198.txt)
-    * "chaque jour, un membre du service devra être présent" (T05721004198.txt)
-    
+* Extraits pertinents :
+    * "Le télétravail est limité à 2 jours maximum par semaine" (Source : T05721004198.txt, Article 3-2)
+    * "Le télétravail pourra être imposé au salarié pendant toute la durée de ces circonstances exceptionnelles" (Source : T05721004198.txt, Article 3-3)
+    * "La nouvelle organisation du travail est soumise à une période d'adaptation de 2 mois pendant laquelle chacune des parties peut librement mettre fin au télétravail" (Source : T05721004198.txt, Article 16-1)
+
 * Ma réponse :
     * nombrejourdeteletravailmaxparsemaine=2
 
 * Mon raisonnement :
-    * Le document spécifie clairement que le télétravail est limité à 2 jours maximum par semaine.
-    * Il n'y a aucune mention d'un télétravail à 100% ou full-remote dans le document.
-    * Il y a une obligation de présence sur site de 3 jours par semaine.
+    * Selon l'Article 3-2, le télétravail est limité à 2 jours maximum par semaine.
+    * Les Articles 3-3 et 16-1 précisent que le télétravail peut être imposé ou interrompu en cas de circonstances exceptionnelles ou de période d'adaptation, mais ils ne modifient pas la limitation hebdomadaire de 2 jours.
+    * Par conséquent, le nombre maximal de jours de télétravail par semaine est de 2.

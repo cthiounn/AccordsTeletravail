@@ -1,13 +1,15 @@
-Q_TTSEM:Oui, il y a une mention d'un quota annuel de jours de télétravail fixé à 85 jours pour les collaborateurs en forfait annuel 209 et 213 jours, et à 87 jours pour les collaborateurs au régime horaire à temps plein. Il est également mentionné que les collaborateurs doivent être présents physiquement dans les locaux de l'entreprise au minimum deux jours par semaine.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné un quota annuel de jours de télétravail pour les collaborateurs en forfait annuel et à temps plein.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
-* "Le temps de présence physique du collaborateur dans les locaux de l'entreprise devra être au minimum de deux jours jour pleins par semaine"
-* "Un quota annuel de jours de télétravail fixé à 85 jours pour les collaborateurs en forfait annuel 209 et 213 jours. Il est précisé que les collaborateurs au régime horaire à temps plein bénéficieront d’un quota annuel de jours de télétravail fixé à 87 jours"
+* "Le présent accord prévoit un quota annuel de jours de télétravail fixé à 85 jours pour les collaborateurs en forfait annuel 209 et 213 jours."
+* "Les collaborateurs en régime horaire pourront aussi bénéficier de cette dérogation, sous réserve de contraintes opérationnelles, qui pourra augmenter leur quota annuel de télétravail à 100 jours (87 jours + 13 jours de télétravail dérogatoire). Dans ce cadre, il sera possible de déroger à la présence sur site de 2 jours minimum."
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=2
+My response is:
 
-Mon raisonnement :
-Après analyse des documents, je constate que la première source indique que la présence physique du collaborateur dans les locaux de l'entreprise doit être d'au moins deux jours par semaine. Cependant, cela ne nous permet pas de déterminer le nombre maximal de jours de télétravail par semaine.
+* nombrejourdeteletravailmaxparsemaine=5
 
-En revanche, la deuxième source indique qu'un quota annuel de jours de télétravail est fixé à 85 jours pour les collaborateurs en forfait annuel 209 et 213 jours, et à 87 jours pour les collaborateurs au régime horaire à temps plein. Même si cela ne répond pas directement à la question, nous pouvons en déduire que le nombre de jours de télétravail par semaine ne peut excéder 5, car il y a cinq jours ouvrés dans une semaine. Par conséquent, je propose une réponse prudente en fixant le nombre maximal de jours de télétravail par semaine à 2, en cohérence avec la première source.
+My reasoning is:
+
+* The first paragraph states that the annual quota of telework days is 85 for certain employees. However, this does not directly answer the question about the number of telework days per week.
+* The second paragraph mentions that employees can have a quota of up to 100 telework days per year, which implies that they can telework every day of the week if needed. Additionally, it is stated that the requirement for two days of physical presence per week can be waived, which further supports the possibility of teleworking five days a week.
+* Therefore, based on the information provided in the second paragraph, I conclude that the maximum number of telework days per week is 5.

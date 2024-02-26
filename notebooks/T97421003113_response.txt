@@ -1,1 +1,14 @@
-Q_TTSEM:Non, il n'y a aucune mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est indiqué que le télétravail s'exerce à raison d'un jour non fractionnable par semaine.
+Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail. Le télétravail s'exerce à raison d'un jour non fractionnable par semaine.
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Le télétravail s’exercera à raison d’un jour non fractionnable par semaine, dans le respect des team days1." (Document(page\_content='ARTICLE 5	: ORGANISATION DU TÉLÉTRAVAIL'))
+* "Compte tenu de la spécificité des métiers et des organisations/contraintes des différentes équipes, il appartiendra au manager avec le support de la Direction des Ressources Humaines d’évaluer la capacité d’un salarié à télétravailler" (Document(page\_content='2.3 Conditions d’accès au télétravail'))
+
+Ma réponse :
+
+* nombrejourdeteletravailmaxparsemaine=1
+
+Mon raisonnement :
+
+* Le premier paragraphe indique que le télétravail s’exerce à raison d’un jour non fractionnable par semaine. Donc, le nombre maximum de jour de télétravail par semaine est de 1.

@@ -1,12 +1,17 @@
 Q_TTSEM:
-Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Il sera désormais possible d'effectuer du télétravail à raison de DEUX jours par semaine.
-Q_TTSEM_NOMBRE:Two paragraphes from the documents that answer the question are:
+Oui, il y a une mention d'un nombre de jour de télétravail autorisé par semaine. Il est précisé que "Il sera désormais possible d'effectuer du télétravail à raison de DEUX jours par semaine". Cette information se trouve dans le premier document, dans la partie intitulée "Article 1: Type de dispositifs de télétravail".
+Q_TTSEM_NOMBRE:
+* Extraits pertinents des documents :
+    * "le salarié à temps plein soit présent dans l’entreprise au moins 3 jours par semaine."
+    * "Temps partiel 80 % / 1 journée de télétravail possible, 3 jours sur site"
+    * "Temps partiel 60 % / 1 journée de télétravail possible, 2 days on site"
+    * "Temps partiel 40 % / pas de télétravail possible, 2 days on site"
+    * "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine"
 
-* "Il sera désormais possible d’effectuer du télétravail à raison de DEUX jours par semaine"
-* "Temps partiel 80 % / 1 journée de télétravail possible, 3 jours sur site"
-
-My response after reasoning is:
-nombrejourdeteletravailmaxparsemaine=2
-
-My reasoning is:
-The first paragraph states that teleworking is possible for two days per week. The second paragraph states that for a part-time worker with an 80% schedule, one day of teleworking is possible and three days must be spent on site. Therefore, the maximum number of days of telework per week is two.
+* Ma réponse :
+    * nombrejourdeteletravailmaxparsemaine=2
+* Mon raisonnement :
+    * Selon le premier extrait, un salarié à temps plein doit être présent dans l'entreprise au moins 3 jours par semaine, ce qui implique qu'il ne peut pas travailler plus de 2 jours en télétravail par semaine.
+    * Les extraits concernant les temps partiels ne précisent pas de limite supérieure pour le nombre de jours de télétravail, ils mentionnent simplement qu'un jour de télétravail est possible pour chaque type de temps partiel.
+    * Le dernier extrait précise qu'il sera possible d'effectuer du télétravail à raison de deux jours par semaine.
+    * Compte tenu de ces éléments, je conclus que le nombre maximum de jours de télétravail par semaine est de 2.

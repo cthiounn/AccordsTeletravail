@@ -1,1 +1,15 @@
-Q_TTSEM:Non, il n'y a pas de mention d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné que le salarié doit être présent dans la société au moins 4 jours par semaine, donc cela implique que le télétravail peut être exercé jusqu'à 3 jours par semaine.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné que pour maintenir le lien social avec la société et ses collaborateurs, le télétravail flexible est limité de sorte que le salarié soit présent dans la société au moins 4 jours par semaine (du lundi au vendredi). En ce qui concerne les personnes à temps partiel, le temps de présence effectué sur le lieu de travail ne doit pas être inférieur à 3 jours.
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Le salarié dispose d’un volume de 18 jours de télétravail par an (du 1er janvier au 31 décembre) qu’il pourra mobiliser en journée entière ou demi-journée. Pour les années non complètes, le nombre de jour à disposition sera calculé prorata temporis (soit 1 jour et demi par mois complet entre la date de signature et le 31 décembre)"
+* "Afin de maintenir le lien social avec la société et ses collaborateurs, le télétravail flexible est limité de sorte que le salarié soit présent dans la société au moins 4 jours par semaine (du lundi au vendredi)"
+
+Ma réponse :
+
+* nombrejourdeteletravailmaxparsemaine=4
+
+Mon raisonnement :
+
+* Selon le premier paragraphe, le salarié dispose de 18 jours de télétravail par an. Cependant, ce nombre correspond au télétravail occasionnel ou ponctuel, car il est inférieur à 52 jours par an.
+* Selon le deuxième paragraphe, le télétravail est limité de sorte que le salarié soit présent dans la société au moins 4 jours par semaine. Donc, le nombre maximum de jours de télétravail par semaine est de 4.

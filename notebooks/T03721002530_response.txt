@@ -1,1 +1,6 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans ces documents. Cependant, il est mentionné que le télétravail se fait sur des jours fixes et qu'une personne cadre doit être présente dans l'entreprise au moins trois jours par semaine.
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés, recommandés ou limités dans les documents fournis :
+
+- Pour les collaborateurs non-cadres, le télétravail est limité de manière à ce qu'ils soient présents dans l'entreprise au moins trois jours par semaine (Document 8).
+- Pour les collaborateurs cadres, le télétravail est également limité de manière à ce qu'ils soient présents dans l'entreprise au moins trois jours par semaine. Toutefois, ces jours sont flexibles selon les nécessités liées à leurs fonctions (Document 7).
+- Pour les collaborateurs commerciaux, ils doivent être présents sur site au minimum quatre jours par mois (Document 3).
+- Dans le document annexé, il est recommandé de ne pas télétravailler plus de 5 jours par semaine (Document 4).

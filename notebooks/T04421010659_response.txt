@@ -1,16 +1,20 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé par semaine. Lorsque le salarié est à temps complet, il peut effectuer jusqu'à deux journées de télétravail par semaine, et lorsque le salarié est à temps partiel avec une durée du travail supérieure ou égale à 80 %, il peut effectuer une seule journée par semaine en situation de télétravail.
-Q_TTSEM_NOMBRE:
-**Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question:**
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé et limité par semaine dans les documents fournis.
 
-* "Le planning du salarié bénéficiant du télétravail pourra prévoir soit une journée, soit au maximum deux journées, par semaine en situation de télétravail lorsque le salarié est à temps complet, et une seule journée par semaine en situation de télétravail lorsque que le salarié est à temps partiel avec une durée du travail supérieure ou égale à 80 %."
-* "Le télétravail pourra être ponctuellement suspendu, partiellement ou totalement, à l’initiative du supérieur hiérarchique, avec un délai de prévenance de 3 jours calendaires avant cette suspension ponctuelle, dans les cas suivants : Surcharge ponctuelle d’activité au sein de l’équipe"
+Voici quelques exemples :
 
-**Ma réponse après raisonnement ci-dessous :**
+* "Le planning du salarié bénéficiant du télétravail pourra prévoir soit une journée, soit au maximum deux journées, par semaine en situation de télétravail" (document 1)
+* "Le télétravail pourra être organisé en demi-journée à la seule condition que la demi-journée de télétravail soit couplée avec une demi-journée de RTT ou de récupération pour les salariés non forfaitaires, et avec une demi-journée de repos supplémentaire lié au forfait pour les salariés soumis à un forfait. En aucun cas, la demi-journée de télétravail ne pourra être couplée avec une demi-journée de congé payé" (document 0)
+* "Le télétravail pourra être ponctuellement suspendu, partiellement ou totalement, à l’initiative du salarié sans justificatif ni délai de prévenance... Toutes les journées de télétravail non effectuées dans une semaine, que ce soit à l’initiative du supérieur hiérarchique ou à celle du salarié, ne feront l’objet d’aucun report sur les semaines suivantes." (document 7)
+* "La planification du ou des deux jours de télétravail se fera sur proposition du salarié et validation de son supérieur hiérarchique... Afin de ne pas complexifier la gestion du planning de l’équipe, la planification du ou des deux jours de télétravail par semaine, pour les salariés demandant à bénéficier du télétravail, devra être établie au minimum sur une période de 6 mois" (document 2)
+* "La situation normale est une planification d’un ou de deux jours fixes en télétravail par semaine pendant cette période de 6 mois... Il est rappelé que le télétravail ne peut constituer un mode récurrent de garde d’enfant(s) ni un moyen pour le salarié de prendre des rendez-vous personnels." (document 3)
 
+En résumé, il est clair que le nombre de jours de télétravail par semaine est limité à un maximum de deux jours dans la plupart des cas, et que ces jours doivent être planifiés à l'avance et ne peuvent pas être reportés sur les semaines suivantes.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
+
+* "Le planning du salarié bénéficiant du télétravail pourra prévoir soit une journée, soit au maximum deux journées, par semaine en situation de télétravail"
+* "La situation normale est une planification d’un ou de deux jours fixes en télétravail par semaine pendant cette période de 6 mois."
+
+My response is:
 nombrejourdeteletravailmaxparsemaine=2
 
-**Mon raisonnement :**
-
-Après avoir analysé les documents fournis, je n'ai trouvé aucune information indiquant que le télétravail à 100% ou le full-remote est autorisé ou fortement positivement évoqué sans jour de présence minimum sur site. Par conséquent, je me base sur les informations relatives au nombre de jours de télétravail possibles par semaine.
-
-Le premier paragraphe indique que pour un salarié à temps complet, le planning du télétravail peut prévoir "soit une journée, soit au maximum deux journées, par semaine". Comme il n'y a pas d'autres informations contradictoires ou restrictives dans les autres paragraphes, je conclus que le nombre maximum de jours de télétravail par semaine est de 2.
+My reasoning is that the documents state that the maximum number of days a salarié can telework per week is two, and this is reinforced by the statement about the "situation normale" being one or two days per week. Therefore, based on the information provided in the documents, the maximum number of days a salarié can telework per week is 2.

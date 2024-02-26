@@ -1,1 +1,10 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Il y a une mention d'un nombre maximal de jours de télétravail par année civile, mais cela ne correspond pas à une base hebdomadaire.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné que le travail occasionnel à distance est cumulable avec les dispositifs de télétravail existants, dans la limite de 2 jours par semaine.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Il est précisé que le travail occasionnel à distance est cumulable avec les dispositifs de télétravail cités ci-dessus, dans la limite de 2 jours par semaine." (Document(page\_content='En complément des dispositifs de télétravail en vigueur au titre des accords Groupe et Entreprise, les Parties s’accordent pour permettre davantage de souplesse et de flexibilité dans l’organisation du travail en permettant le recours au travail occasionnel à distance. [...]', metadata={'source': 'T06421003671.txt'}))
+
+Ma réponse après raisonnement ci-dessous :
+nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+Le paragraphe pertinent indique que le travail occasionnel à distance est cumulable avec les dispositifs de télétravail existants, dans la limite de 2 jours par semaine. Cependant, il n'est pas précisé si cette limite s'applique également aux autres formes de télétravail. En l'absence d'autres informations, je dois déconnecter les liens entre les périodicités et ne faire aucune supposition ou hypothèse. Je ne peux donc pas déduire si cette limite s'applique également aux autres formes de télétravail. Par conséquent, je ne peux pas exclure la possibilité que le nombre de jours de télétravail par semaine soit supérieur à 2. Cependant, je ne peux pas non plus affirmer avec certitude que le nombre de jours de télétravail par semaine est supérieur à 2. Par conséquent, je dois me conformer aux instructions et retourner la valeur minimale de 2 jours de télétravail par semaine.

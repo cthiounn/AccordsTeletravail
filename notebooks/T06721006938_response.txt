@@ -1,17 +1,16 @@
-Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
 
-* Selon le document avec l'identifiant 0, les parties signataires conviennent d'un rythme de 2 jours maximum de télétravail par semaine et par salarié.
-* D'après le document avec l'identifiant 4, les parties signataires conviennent d'un rythme de 2 jours maximum de télétravail par semaine et par salarié, avec deux options possibles : 1 jour/semaine/salarié ou 2 jours/semaine/salarié.
-* En se basant sur le document avec l'identifiant 9, l'Accord-Cadre de Groupe prévoit deux formules de rythme de télétravail possible, dont une qui prévoit un rythme de 1 jour de télétravail par semaine et par salarié.
+* Selon l'article 2-3-1, le rythme de télétravail est fixé à 1 jour par semaine et par salarié, mais les parties signataires ont la possibilité de fixer un nombre de jours supérieur, qui ne peut excéder 2 jours par semaine et par salarié.
+* Selon l'article 2-6, certaines journées de travail spécifiques, telles que les journées TARGET et les permanences, peuvent être effectuées en télétravail, mais cela n'est pas limité à un certain nombre de jours par semaine.
+* Selon l'article 2-3-2, l'exercice du télétravail n'a aucune incidence sur la durée du travail applicable aux salariés, qui restent soumis aux dispositions de l'accord de Groupe sur le temps de travail actuellement en vigueur.
+* Selon l'article 2-3-3, le télétravail s'effectue au domicile du salarié, mais il peut également être exercé à distance depuis un autre site de Crédit Mutuel Alliance Fédérale plus proche du domicile du salarié, avec l'accord préalable du manager du salarié et celui du manager de l'entité accueillante.
 
-Par conséquent, la réponse à votre question est oui.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Il est important de noter que les règles concernant le télétravail peuvent varier en fonction de divers facteurs, tels que la convention collective applicable, l'accord d'entreprise ou de branche, et les stipulations du contrat de travail individuel. Il est donc important de se référer aux sources pertinentes pour obtenir des informations précises et à jour sur le sujet.
+Q_TTSEM_NOMBRE:
+* Extraits pertinents des documents :
+    * "L’Accord-Cadre de Groupe prévoit deux formules de rythme de télétravail possible. Les parties signataires conviennent de mettre en place la formule 2 (rythme de 1 jour de télétravail par semaine et par salarié). Toutefois, cet Accord-Cadre prévoit la possibilité de fixer un nombre de jours de télétravail supérieur à 1 jour par semaine et par salarié. A cet effet, les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié."
+    * "Pour les semaines où le salarié use de sa faculté de télétravailler, il devra être présent au minimum 2 jours par semaine sur son ou ses lieu(x) de travail habituel(s)."
+    * "les salariés ont exprimé leurs attentes en matière d’équilibre vie professionnelle et vie personnelle notamment au travers de la mise en place du télétravail. [...] La Direction de Crédit Mutuel Alliance Fédérale et de Crédit Mutuel Titres ont donc souhaité prendre des engagements forts en la matière et ont inscrit cette ambition dans leur plan stratégique ensemble#nouveaumonde."
 
-* "Les parties signataires conviennent d’un rythme de 2 jours maximum de télétravail par semaine et par salarié" (T06721006938.txt)
-* "Pour permettre aux salariés de maintenir un lien collectif et de prévenir le risque d’isolement, les parties au présent accord d’entreprise conviennent qu’en tout état de cause, pour les semaines où le salarié use de sa faculté de télétravail, il devra être présent au minimum 2 jours par semaine sur son ou ses lieu(x) de travail habituel(s)" (T06721006938.txt)
-
-Ma réponse après raisonnement ci-dessous :
-nombrejourdeteletravailmaxparsemaine=2
-
-Mon raisonnement :
-Le premier paragraphe indique que le nombre maximum de jours de télétravail par semaine et par salarié est de 2. Cependant, le deuxième paragraphe indique que les salariés doivent être présents au minimum 2 jours par semaine sur leur lieu de travail habituel, ce qui implique que les jours de télétravail ne peuvent excéder 3 jours par semaine. Compte tenu des instructions données, je retiens le nombre maximum de jours de télétravail par semaine et par salarié, soit 2 jours.
+* Ma réponse : nombrejourdeteletravailmaxparsemaine = 2
+* Mon raisonnement : Les documents mentionnent explicitement qu'un rythme de 2 jours maximum de télétravail par semaine et par salarié est mis en place. De plus, il est stipulé que les salariés doivent être présents au minimum 2 jours par semaine sur leur lieu de travail habituel, impliquant que le télétravail ne peut excéder 3 jours par semaine. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 2.

@@ -1,20 +1,22 @@
-Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés par semaine dans les documents fournis. Voici un résumé :
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés ou recommandés par semaine dans les documents fournis. Voici quelques exemples :
 
-- Pour un collaborateur travaillant à temps complet, il est possible de télétravailler **un à deux jours fixes par semaine**, ainsi que **3 jours supplémentaires annuels modulables**.
-- Pour un collaborateur travaillant à temps partiel d'au moins 80%, il est possible de télétravailler **1 jour fixe par semaine**, ainsi que **2 jours supplémentaires annuels modulables**.
-- Pendant la grossesse, une salariée peut demander à télétravailler **jusqu'à 3 jours par semaine** et, deux semaines avant son départ en congé prénatal, **5 jours par semaine**.
-- Il n'y a pas de mention d'un nombre maximal de jours de télétravail hebdomadaires pour les situations exceptionnelles ou en cas de grève des transports en commun, d'incidents techniques exceptionnels, ou d'activation du plan de continuité d'activité.
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
+* Deux semaines avant la date de départ en congé prénatal, les salariées peuvent demander à télétravailler 5 jours par semaine.
+* Les salariés télétravailleurs bénéficient de 3 jours de télétravail supplémentaire par mois, en sus des dispositions visées à l'article 7 du présent accord.
+* Pour un collaborateur exerçant son activité à temps complet, la direction propose les principes suivants : "Un à deux jours fixes par semaine de télétravail."
+* Pour un collaborateur exerçant son activité dans le cadre d'un temps partiel d'une durée supérieure ou égale à 80%, la direction propose les principes suivants : "1 jour fixe de télétravail par semaine."
+* Les journées de télétravail sont prises par journée entière.
+* Les salariés en situation de télétravail, peuvent s'ils le souhaitent et en accord avec leur responsable hiérarchique, poser une demi-journée d’absence (congé, RTT, récupération…), le jour télétravaillé, dans les mêmes conditions qu’un salarié travaillant dans les locaux de l’entreprise.
+* Le collaborateur et sa hiérarchie ont la possibilité de modifier le jour de télétravail fixe exceptionnellement après un délai de prévenance d’une semaine sauf en cas de force majeure.
 
-* "Un à deux jours fixes par semaine de télétravail." (Source: T07521028203.txt)
-* "1 jour fixe de télétravail par semaine." (Source: T07521028203.txt)
+Cependant, il n'y a pas de mention explicite d'un nombre de jours de télétravail limité ou maximum par semaine.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-My response after reasoning is:
+* "Un à deux jours fixes par semaine de télétravail." (Document(page\_content='Tenant compte de ces éléments, la Direction propose les principes suivants :... Pour un collaborateur exerçant son activité à temps complet :... Un à deux jours fixes par semaine de télétravail....', metadata={'source': 'T07521028203.txt'}))
+
+Ma réponse après raisonnement ci-dessous :
 
 * nombrejourdeteletravailmaxparsemaine=2
 
-My reasoning is:
+Mon raisonnement :
 
-* The first paragraph states that there can be "Un à deux jours fixes par semaine de télétravail". This means that the maximum number of days an employee can telework per week is two.
-* The second paragraph states that there can be "1 jour fixe de télétravail par semaine". This also means that the maximum number of days an employee can telework per week is one.
-* However, since the first paragraph takes precedence over the second and it mentions that the number of days can be up to two, I will set the value of 'nombrejourdeteletravailmaxparsemaine' to 2.
+* Dans le document, il est indiqué que "Un à deux jours fixes par semaine de télétravail" sont proposés pour un collaborateur exerçant son activité à temps complet. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

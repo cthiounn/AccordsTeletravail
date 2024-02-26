@@ -1,12 +1,14 @@
-Q_TTSEM:Oui, il y a une mention à un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Selon le document fourni, à partir du 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Oui, il est mentionné que « Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance ».
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* "Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance." (Document(page\_content='T05721004723.txt'))
+* Article 4 : TRAVAIL À DISTANCE, page_content = 'Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance.'
+* Ce dispositif, basé sur le volontariat, est une possibilité offerte aux collaborateurs de travailler hors de leur lieu de travail habituel, à raison de 2 jours maximum par semaine.
 
-Ma réponse après raisonnement ci-dessous :
+Ma réponse :
 
 * nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
 
-* Le document mentionne explicitement que "Au 1er juin 2021, tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance". Donc, le nombre maximum de jours de télétravail par semaine est de 2 jours.
+* Dans le premier paragraphe, il est clairement indiqué que "tous les collaborateurs pourront bénéficier de 2 jours / semaine de travail à distance". Cette information est confirmée dans le deuxième paragraphe où il est mentionné que les collaborateurs ont la possibilité de travailler hors de leur lieu de travail habituel, à raison de 2 jours maximum par semaine. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.

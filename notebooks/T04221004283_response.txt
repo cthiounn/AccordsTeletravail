@@ -1,23 +1,21 @@
-Q_TTSEM:Yes, there are multiple mentions of the number of days allowed for telework per week in the documents. Here are some examples:
+Q_TTSEM:
+Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé ou recommandé par semaine dans les documents fournis. Voici quelques exemples :
 
-* "The telework is organized by full day, up to two (2) days per week" (Document 3)
-* "one and a half days per week, fixed with the agreement of the hierarchical superior" (Document 5)
-* "one day and a half per week, fixed with the agreement of the hierarchical superior, for employees at 90% with a half-day not worked every week" (Document 5)
-* "The telework is organized by full day, up to one (1) day per week" (Document 3)
+* Selon le document avec l'ID 0, le télétravail récurrent s'organise par journée complète dans la limite de deux (2) jours par semaine.
+* Selon le document avec l'ID 3, pour les alternants (apprentissage et contrat de professionnalisation) et stagiaires de six (6) mois et plus, ainsi que pour les salariés à temps partiel à 80%, le télétravail est organisé à hauteur d'un jour par semaine. Pour les salariés à temps partiel à 90% avec une demi-journée non travaillée par semaine, le télétravail est organisé à hauteur d'un jour et demi par semaine. Pour le personnel à 90% avec une journée non travaillée toutes les deux semaines, le télétravail est organisé à hauteur d'un jour une semaine et deux jours la semaine qui suit.
+* Selon le document avec l'ID 8, il existe deux méthodes d'organisation du télétravail, l'une offrant la possibilité de télétravailler 1, 1,5 ou 2 jours par semaine, et l'autre offrant la possibilité de télétravailler 1, 1,5 ou 2 jours par semaine avec un délai de prévenance d'au moins 48 heures.
 
-Therefore, the answer to your question is yes, there are several mentions of the number of days allowed for telework per week in the documents.
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Il est donc fait mention d'un nombre de jours de télétravail autorisé ou recommandé par semaine dans les documents fournis.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
 
-* "Méthode 1 : 1, 1,5 ou 2 jours (selon les règles évoquées au paragraphe précédent « Rythme de télétravail ») par semaine fixes"
-* "Méthode 2 : 1, 1,5 ou 2 jours (selon les règles évoquées au paragraphe précédent « Rythme de télétravail ») par semaine flexibles"
+* "Le télétravail récurrent s’organise par journée complète dans la limite de deux (2) jours par semaine, fixé avec l’accord du supérieur hiérarchique, en vue de garantir trois (3) jours par semaine au sein des locaux"
+* "un jour par semaine, fixé avec l’accord du supérieur hiérarchique, pour les alternants (apprentissage et contrat de professionnalisation) et stagiaires de six (6) mois et plus, à condition d’être présents à minima quatre (4) jours en entreprise sur la semaine, ainsi que pour les salariés à temps partiel à 80%"
 
-Ma réponse après raisonnement ci-dessous :
+My response after reasoning is:
 
-* nombrejourdeteletravailmaxparsemaine = 2
+* nombrejourdeteletravailmaxparsemaine=2
 
-Mon raisonnement :
+My reasoning is:
 
-* Les deux méthodes d'organisation du télétravail proposées permettent de télétravailler 1, 1,5 ou 2 jours par semaine.
-* Je ne trouve pas de mention de limitation plus basse que 1 jour par semaine, ni de mention de possibilité de télétravailler plus de 2 jours par semaine.
-* Je ne trouve pas non plus de mention de télétravail à 100% ou de full-remote autorisé sans jour de présence minimum sur site.
-* Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 2.
+* From the first paragraph, we can see that the maximum number of days for teleworking per week is two (2) days. This is explicitly stated in the paragraph and is within the context of regular teleworking, not occasional or punctual. Therefore, the value of 'nombrejourdeteletravailmaxparsemaine' is 2.
+* The second paragraph also supports this finding, as it mentions one day of teleworking per week, which is less than the maximum found in the first paragraph.

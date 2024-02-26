@@ -1,2 +1,16 @@
-Q_TTSEM:
-Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés par semaine dans les documents fournis. Voici quelques exemples :
+
+* Dans le document d'identifiant 2, il est indiqué que les salariés éligibles peuvent bénéficier du télétravail dans la limite de xx jours par semaine.
+* Dans le document d'identifiant 4, il est précisé que les exceptions au nombre standard de jours de télétravail par semaine concernent les salariés en CDI ayant validé leur période d'essai mais ayant moins de 6 mois d'ancienneté, ainsi que les alternants à compter de la 2e de présence dans l'entreprise.
+* Dans le document d'identifiant 7, il est mentionné que le télétravail pour circonstances exceptionnelles peut être considéré comme un aménagement ponctuel du poste de travail, sans précision explicite de la durée maximale de télétravail.
+
+Notez que le symbole "xx" est utilisé dans certains documents pour représenter un nombre qui n'a pas été spécifié dans le texte.
+Q_TTSEM_NOMBRE:### Extraits pertinents :
+* Article 2.1 – Nombre de jours télétravaillés et souplesse de l’organisation du télétravail
+    * Principe : "Les salariés éligibles peuvent, avec accord du manager, bénéficier du télétravail dans la limite de xx jours par semaine."
+* Article 2.2.1 – Nombre de jours de télétravail
+    * Spécificité du Centre Contact Client (CCC) : "les salariés du CCC peuvent bénéficier du télétravail dans la limite de 50% de leur temps de travail. Ces jours seront répartis en accord avec le service planification."
+
+### Réponse :
+* Ma réponse : **nombrejourdeteletravailmaxparsemaine=5**
+* Mon raisonnement : Dans le premier extrait, il est mentionné que les salariés éligibles peuvent bénéficier du télétravail dans la limite de xx jours par semaine. Cependant, aucun nombre n'est associé à xx. Dans le deuxième extrait, il est mentionné que les salariés du CCC peuvent bénéficier du télétravail dans la limite de 50% de leur temps de travail. Comme il y a cinq jours ouvrés dans une semaine, cela signifie que les salariés du CCC peuvent bénéficier de 2,5 jours de télétravail par semaine. Or, comme le stipule l'instruction 2G, je dois arrondir à l'entier inférieur. Donc, les salariés du CCC peuvent bénéficier de 2 jours de télétravail par semaine. Mais rien n'empêche qu'un salarié non-CCC puisse bénéficier de 5 jours de télétravail par semaine.

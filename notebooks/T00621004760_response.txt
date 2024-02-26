@@ -1,8 +1,8 @@
-Q_TTSEM:
-Oui, il y a une mention d'une limite de 1 journée par semaine pour le télétravail régulier à jour fixe (document 0). De plus, les jours de télétravail occasionnel ne peuvent pas dépasser 5 jours par an (document 5).
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné que le télétravail occasionnel peut être accordé jusqu'à 5 jours par an, et que les jours de télétravail ne peuvent être cumulés ou fractionnés, et ne sont pas reportables l'année suivante. Pour le télétravail régulier, il est mentionné que le choix du jour de télétravail est un jour fixe de la semaine, mais sans précision du nombre maximum de jours par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine." (Document(page\_content='Le télétravail pourra être mis en œuvre, par journée entière de travail, dans la limite de 1 journée par semaine.'))
+* "Le choix du jour de télétravail est un jour fixe de la semaine, établit sur proposition du salarié et décision du manager." (T00621004760.txt)
+* "Ponctuellement, avec l’accord préalable par mail du manager, pour des raisons d’organisation professionnelle (déplacement professionnel, réunion sur site la journée télétravaillée…) ou personnelle (hors congés payés ou RTT sur la semaine)." (T00621004760.txt)
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -10,4 +10,4 @@ Ma réponse : nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
 
-Le document mentionne clairement que le télétravail est possible "par journée entière de travail" et que la limite est de "1 journée par semaine". Donc, le nombre maximum de jours de télétravail par semaine est de 1.
+Le premier paragraphe indique que le choix du jour de télétravail est un jour fixe de la semaine, ce qui signifie qu'un salarié ne peut télétravailler qu'un seul jour par semaine. Cependant, le deuxième paragraphe mentionne la possibilité de télétravailler ponctuellement pour des raisons d'organisation professionnelle ou personnelle, ce qui implique que le salarié peut dépasser le nombre de jours de télétravail autorisé dans certaines circonstances. Cependant, cela ne modifie pas le fait que le nombre maximum de jours de télétravail par semaine est de 1. Par conséquent, nombrejourdeteletravailmaxparsemaine=1.

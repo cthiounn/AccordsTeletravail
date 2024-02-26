@@ -1,19 +1,22 @@
-Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum exprimé par semaine dans les documents fournis :
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
 
-* Pour le télétravail fixe et régulier, il est organisé dans un cadre hebdomadaire à raison de 1 à 2 jours maximum par semaine (Document 0, relevance score : 0.9684731).
-* Pour le télétravail occasionnel sous forme d'enveloppe annuelle maximale, il est spécifié qu'il peut être réalisé au minimum par journée entière, mais le nombre total de jours ne peut excéder 35 jours ouvrés par année civile, par salarié (Documents 1 and 4, relevance scores : 0.9676396 and 0.9676396).
-* Il est également mentionné qu'en tout état de cause, l'exercice du télétravail ne peut conduire à une présence sur site inférieure à trois jours par semaine de présence sur le lieu de travail quel que soit le temps de travail hebdomadaire réalisé (Document 9, relevance score : 0.96911097).
-* Enfin, il est spécifié que le nombre de jours exercés en télétravail occasionnel ne pourra excéder 6 jours par mois, 2 jours consécutifs de télétravail par mois seront dans ce cadre possibles (Document 8, relevance score : 0.96440715).
-Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* Dans le document d'identifiant 2, il est indiqué que dans les entités du groupe où l'organisation hebdomadaire du travail comporte moins de 5 jours travaillés, le nombre de jours télétravaillés est limité à 1 par semaine.
+* Dans le même document, il est également mentionné que le télétravail fixe et régulier ne peut se faire que par journée entière et que le nombre de jour fixe et régulier de télétravail est d'un ou deux jours.
+* Dans le document d'identifiant 4, il est indiqué que le télétravail occasionnel pourra être réalisé au minimum par journée entière et qu'un maximum de 35 jours ouvrés par année civile, par salarié, est accepté pour ces situations de télétravail occasionnel.
+* Dans le document d'identifiant 5, il est mentionné que le nombre de jours exercés en télétravail occasionnel ne pourra excéder 6 jours par mois, 2 jours consécutifs de télétravail par mois seront dans ce cadre possibles.
 
-* "Le télétravail fixe et régulier qui s’organise dans un cadre hebdomadaire à raison de 1 à 2 jours maximum par semaine, fixé(s) en concertation avec le manager" (Titre 3)
-* "En tout état de cause, l’exercice du télétravail ne peut conduire à une présence sur site inférieure à trois jours par semaine de présence sur le lieu de travail quel que soit le temps de travail hebdomadaire réalisé."
+Merci pour votre confiance. N'hésitez pas à me poser d'autres questions!
+Q_TTSEM_NOMBRE:
+Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-Ma réponse après raisonnement ci-dessous :
+* "le nombre de jours télétravaillés est limité à 1 par semaine" (Document(page\_content="A contrario, dans les entités du groupe dans lesquelles l’organisation hebdomadaire du travail comporte moins de 5 jours travaillés, à raison d’un minimum de 7 heures par jour, le nombre de jours télétravaillés est limité à 1 par semaine..."))
+* "Le nombre de jour fixe et régulier de télétravail est d’un ou deux jours." (Document(page\_content="A contrario, dans les entités du groupe dans lesquelles l’organisation hebdomadaire du travail comporte moins de 5 days travaillés, à raison d’un minimum of 7 hours par day, the number of days teleworked is limited to 1 par semaine..."))
 
-* nombrejourdeteletravailmaxparsemaine=2
+Ma réponse :
+
+* nombrejourdeteletravailmaxparsemaine = 2
 
 Mon raisonnement :
 
-* Le premier paragraphe indique que le télétravail fixe et régulier s'organise dans un cadre hebdomadaire à raison de 1 à 2 jours maximum par semaine. Donc, le nombre maximum de jours de télétravail par semaine est de 2.
-* Le deuxième paragraphe indique qu'en tout état de cause, la présence sur site doit être d'au moins trois jours par semaine. Cela signifie que le nombre maximum de jours de télétravail par semaine est de 2.
+* Dans le premier paragraphe, il est clairement indiqué que le nombre de jours télétravaillés est limité à 1 par semaine.
+* Dans le deuxième paragraphe, il est indiqué que le nombre de jour fixe et régulier de télétravail est d’un ou deux jours. Donc, le maximum de jours de télétravail par semaine est de 2.

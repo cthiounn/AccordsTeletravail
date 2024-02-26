@@ -1,16 +1,9 @@
-Q_TTSEM:
-Oui, il y a une mention d'un nombre de jours de télétravail autorisé par semaine dans le document 0. Les salariés à temps plein ne peuvent travailler plus de 2 jours par semaine en télétravail et les salariés à temps partiel ne peuvent travailler qu'une seule journée par semaine en télétravail. Cependant, il est précisé que des dérogations sont possibles pour certaines personnes ou situations visées à l'article 3.2 de l'accord.
-Q_TTSEM_NOMBRE:
-* Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisé par semaine dans le document. Les salariés à temps plein ne peuvent travailler plus de 2 jours par semaine en télétravail et les salariés à temps partiel ne peuvent travailler qu'un seul jour par semaine en télétravail (article 9). Il y a également une mention selon laquelle il est possible de déroger à ces rythmes de travail pour les personnes et situations visées à l'article 3.2 de l'accord (article 9).
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+* ARTICLE 9. RYTHME DE TELETRAVAIL : "Afin notamment de préserver une certaine cohésion au sein des effectifs de la Société, les Salariés à temps plein ne travailleront qu'au maximum 2 jours par semaine en télétravail et 1 seule journée pour les Salariés à temps partiel."
 
-    * "Les Salariés à temps plein ne travailleront qu'au maximum 2 jours par semaine en télétravail" (Source: T09221022859.txt)
-    
-    * "Pour son bien-être, le télétravailleur pourra s'inspirer de la fiche technique portant sur l'ergonomie du poste de télétravail [...] notamment la fiche proposée par l'APSAM et qui sera distribuée à tout nouveau téletravailleur." (Source: T09221022859.txt)
+Ma réponse après raisonnement ci-dessous :
+* nombrejourdeteletravailmaxparsemaine=2
 
-* Ma réponse : nombrejourdeteletravailmaxparsemaine = 2
-
-* Mon raisonnement :
-
-    * Dans le premier paragraphe, il est stipulé que les salariés à temps plein ne peuvent travailler plus de 2 jours par semaine en télétravail. Cette information est claire et explicite, elle ne nécessite pas de calcul ou d'interprétation supplémentaire.
-    
-    * Les autres paragraphes ne contiennent pas d'information pertinente pour répondre à la question posée.
+Mon raisonnement :
+* Les salariés à temps plein ne peuvent pas travailler plus de 2 jours par semaine en télétravail. Donc, même si le document mentionne positivement le télétravail à 100% ou le full-remote, il y a une limitation de 2 jours de télétravail par semaine.

@@ -1,9 +1,1 @@
-Q_TTSEM:Yes, there is a mention of a specific number of days for teleworking per week in the document. The allocation for teleworking is provided at a rate of 50 euros per month for 5 days of teleworking per week.
-Q_TTSEM_NOMBRE:
-* Extraits pertinents :
-    * "le plafond d’allocations que percevra un collaborateur sera de 50 € par mois pour 5 jours de télétravail par semaine."
-    * "Tant que les pouvoirs publics préconiseront un recours massif au télétravail, Mutex accordera une allocation forfaitaire calculée au prorata du temps télétravaillé. Ce dernier aura comme référence le mois."
-* Réponse :
-    * nombrejourdeteletravailmaxparsemaine=5
-* Raisonnement :
-    * Dans le premier extrait, il est clairement indiqué que le plafond d'allocations est atteint lorsque le collaborateur travaille 5 jours en télétravail par semaine. Donc, même si ce n'est pas explicitement mentionné, nous pouvons en déduire que le maximum de jours de télétravail par semaine est de 5. Cette information est confirmée dans le deuxième extrait, où il est dit que l'allocation est calculée au prorata du temps télétravaillé, avec comme référence le mois. Cela implique qu'un collaborateur peut travailler 5 jours en télétravail chaque semaine du mois.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.

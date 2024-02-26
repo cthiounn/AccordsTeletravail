@@ -1,1 +1,1 @@
-Q_TTSEM:Non, il n'y a aucune mention d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné que la fréquence et le nombre de jours télétravaillés sont fixés dans un avenant au contrat du télétravailleur, avec la possibilité de les modifier par commun accord moyennant un délai de prévenance de 1 (une) semaine.

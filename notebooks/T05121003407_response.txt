@@ -1,1 +1,9 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans ces documents.
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisé explicitement exprimé par semaine. Selon le document 3.3, les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine.
+Q_TTSEM_NOMBRE:Extraction pertinente des documents :
+* "Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine" (Document(page\_content='3.3 - Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine, et à 10 jours par mois. Les jours télé-travaillés ne sont ni cumulables ni reportables d’un mois sur l’autre. ', metadata={'source': 'T05121003407.txt'}))
+
+Ma réponse :
+* nombrejourdeteletravailmaxparsemaine=4
+
+Mon raisonnement :
+* Dans le document, il est spécifié que "Les jours télé-travaillés ne peuvent être supérieurs à 4 jours par semaine". Donc, un employé ne peut pas télétravailler plus de 4 jours par semaine.

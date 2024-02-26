@@ -1,12 +1,13 @@
-Q_TTSEM:Oui, il est mentionné que le nombre de jours de télétravail est fixé à 1 jour par semaine. Cela est spécifié dans plusieurs documents fournis.
+Q_TTSEM:Oui, il est mentionné que "Les jours de télétravail seront fixés selon les modalités suivantes : 1 jour par semaine" (Document avec id=3).
 Q_TTSEM_NOMBRE:
 * Extraits pertinents des documents :
-    * "Les jours de télétravail seront fixés selon les modalités suivantes : 1 jour par semaine." (T01321011558.txt)
+    * "Les jours de télétravail seront fixés selon les modalités suivantes : 1 jour par semaine" (T01321011558.txt)
     * "la fréquence du télétravail qui sera au maximum d’un jour par semaine;" (T01321011558.txt)
 
 * Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine = 1
+    * nombrejourdeteletravailmaxparsemaine=1
 
 * Mon raisonnement :
-    * Dans le premier extrait, il est clairement stipulé que "Les jours de télétravail seront fixés selon les modalités suivantes : 1 jour par semaine." Cela signifie qu'un employé ne peut télétravailler qu'un jour par semaine.
-    * Dans le deuxième extrait, il est mentionné que "la fréquence du télétravail qui sera au maximum d’un jour par semaine;" Ce qui confirme que le maximum de jours de télétravail par semaine est de 1.
+    * Dans le premier extrait, il est clairement stipulé que les jours de télétravail seront fixés à un jour par semaine. Bien que cela ne soit pas explicitement mentionné comme une limite, il s'agit néanmoins d'une restriction implicite.
+    * Le deuxième extrait confirme cette limitation à un jour par semaine.
+    * Par conséquent, je conclus que le nombre maximal de jours de télétravail par semaine est de 1.

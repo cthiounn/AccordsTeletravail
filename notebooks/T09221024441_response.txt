@@ -1,13 +1,1 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé par semaine. Selon le document 0, le temps au cours duquel le salarié pourra être en situation de télétravail à domicile ne devra pas dépasser deux jours par semaine.
-Q_TTSEM_NOMBRE:
-Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "Afin d’éviter l’isolement des salariés et permettre aux équipes de conserver une bonne cohésion de groupe, les Parties conviennent que le temps au cours duquel le salarié pourra être en situation de télétravail à domicile ne devra pas dépasser deux jours par semaine." (T09221024441.txt)
-
-Ma réponse après raisonnement ci-dessous :
-
-* nombrejourdeteletravailmaxparsemaine=2
-
-Mon raisonnement :
-
-* Dans le premier paragraphe extrait, il est clairement stipulé que le temps de télétravail à domicile ne doit pas dépasser deux jours par semaine. Par conséquent, le nombre maximal de jours de télétravail par semaine est de 2.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.

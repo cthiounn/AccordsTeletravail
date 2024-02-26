@@ -1,18 +1,11 @@
-Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés et recommandés. Selon l'article 1.2.1, les salariés éligibles peuvent bénéficier de 2 ou 3 jours de télétravail par semaine. Les 2 jours sont de droit et les 3 jours peuvent dépendre de l'organisation du service. Ces jours peuvent être pris en journée entière ou demi-journée. En outre, les salariés qui bénéficient de la formule de télétravail standard disposent d'une enveloppe de 35 jours complémentaires maximum, par année civile, qui peuvent être positionnés en journée ou en demi-journée.
-Q_TTSEM_NOMBRE:
-* Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Les documents mentionnent seulement que les salariés peuvent bénéficier de 2 ou 3 jours de télétravail par semaine, sans cumul d'une semaine sur l'autre, mais cela ne constitue pas une limitation stricte car cela dépend des souhaits du salarié et de l'organisation du service.
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-> Article 1. 2. 1. Formule de télétravail standard
-> 2 ou 3 days of telework per week
-> The employee can benefit, according to his wishes, from 2 or 3 days of telework per week (without cumulating one week over the other) knowing that the 2 days are a right and the 3 days may depend on the organization of the department.
+* "Tout salarié éligible peut bénéficier, selon ses souhaits, de 2 ou 3 jours de télétravail par semaine" (Source: T09221026409.txt, Article 1. 2. 1.)
+* "les parties ont fait le choix de ne pas circonscrire le lieu de télétravail. Ce faisant, le salarié est donc libre de télétravailler où il le souhaite en France mais également, pour une durée limitée en dehors du pays. Ainsi, les parties s’accordent sur le fait d’ouvrir la possibilité de télétravail à partir de l’étranger à hauteur de 30 jours/an" (Source: T09221026409.txt, Article 1. 3. 2.)
 
-> Processus de mise en œuvre
-> Each employee can make a request to be registered as a teleworker via the dedicated workflow. He indicates the number of desired days (2 or 3) and confirms the acknowledgment of mandatory information such as the telework and disconnection charters, as well as the e-learning training on telework.
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine = 3
 
-* Ma réponse après raisonnement ci-dessous :
-
-> nombrejourdeteletravailmaxparsemaine=3
-
-* Mon raisonnement :
-
-> Les articles 1.2.1 et 1.2.2 indiquent que les salariés peuvent bénéficier de 2 ou 3 jours de télétravail par semaine. L'article 1.2.1 précise que les 2 jours sont un droit et que les 3 jours peuvent dépendre de l'organisation du service. L'article 1.2.2 indique que les salariés qui ne peuvent pas prendre la formule de télétravail standard mais qui ont des activités télétravaillables peuvent bénéficier de 35 jours de télétravail par année civile, qui peuvent être en journée ou demi-journée. Cependant, ces 35 jours ne sont pas exprimés en jours par semaine, mais en jours par année civile. Par conséquent, je me base sur les informations de l'article 1.2.1 pour répondre à la question. Ainsi, le nombre maximum de jours de télétravail par semaine est de 3.
+Mon raisonnement :
+Après avoir analysé les documents fournis, je constate que les salariés éligibles peuvent bénéficier de 2 ou 3 jours de télétravail par semaine. Cependant, il n'est pas fait mention d'une limitation ou d'une augmentation de ce nombre de jours, et aucune information ne permet de conclure qu'il s'agit d'une limite maximale. Néanmoins, en prenant en compte les informations fournies, je peux affirmer que le nombre maximum de jours de télétravail par semaine est de 3.

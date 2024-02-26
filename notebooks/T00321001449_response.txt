@@ -1,1 +1,8 @@
 Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.
+Q_TTSEM_NOMBRE:* Extraits pertinents :
+    * "L’employeur accorde un jour de télétravail par semaine"
+    * "Les dispositions du présent accord ont pour objet de définir les règles allégées du télétravail pendant la période du 14/06/2021 jusqu’au 31/08/2021"
+* Réponse :
+    * nombrejourdeteletravailmaxparsemaine=1
+* Raisonnement :
+    * Selon l'article 3, l'employeur accorde un jour de télétravail par semaine. Cette information est confirmée dans le préambule de l'accord, qui précise que le télétravail est allégé pendant la période du 14/06/2021 jusqu'au 31/08/2021. Il n'y a pas d'autres mentions de fréquence hebdomadaire ou de limitation supérieure à un jour de télétravail par semaine.

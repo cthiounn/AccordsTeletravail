@@ -1,1 +1,18 @@
-Q_TTSEM:Non, il n'y a pas de mention d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans ces documents. Cependant, il y a des mentions de nombres de jours de télétravail autorisés, recommandés, limités ou maximum par année civile.
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour(s) de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Voici quelques exemples :
+
+- Dans le document d'identifiant 1, il est indiqué que le télétravail occasionnel est limité à un maximum de 10 jours par année civile.
+- Dans le même document, il est également mentionné que le télétravail habituel de type Configuration A est limité à 1 jour par semaine.
+- Dans le document d'identifiant 8, il est indiqué que le nombre maximum de jours télétravaillés par semaine est de 1.
+
+Il convient de noter que ces limites peuvent varier en fonction de divers facteurs, tels que la nature du poste occupé par le salarié, la durée de son contrat de travail, etc.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Afin de maintenir le lien social, la cohésion et le bon fonctionnement des équipes, le nombre maximum de jours télétravaillés par semaine sera de 1." (Document(page\_content='Dans cette hypothèse, l’employeur pourra étendre le champ d’application des salariés concernés pour préserver la continuité de l’activité en dépit de la réalisation d’une activité en mode dégradé.\n5.2 Modalités de prise des jours de télétravail\nAfin de maintenir le lien social, la cohésion et le bon fonctionnement des équipes, le nombre maximum de jours télétravaillés par semaine sera de 1. \nCes jours de télétravail ne pourront en aucun cas être fractionnés en demi-journées.   \nDans le respect de ce principe, et compte tenu des contraintes d’organisation du service, les salariés éligibles au télétravail pourront, en accord avec leur responsable, définir le jour télétravaillé. \nDans l’hypothèse où un seul jour est travaillé sur le site de rattachement sur la semaine (déplacement, absence et congés) le jour restant ne peut pas être télétravaillé', metadata={'source': 'T00821001063.txt'}))
+
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine=1
+
+Mon raisonnement :
+
+* Dans le document fourni, il y a une indication claire du nombre maximum de jours de télétravail par semaine, qui est de 1 jour. Cette information est donnée dans le paragraphe "Modalités de prise des jours de télétravail" et est exprimée en termes de semaine. Par conséquent, je peux conclure que le nombre maximum de jours de télétravail par semaine est de 1 jour.

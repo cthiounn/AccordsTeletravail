@@ -1,8 +1,14 @@
-Q_TTSEM:Oui, il est mentionné que "les salariés ne pourront télétravailler que 2 jours maximum par semaine".
-Q_TTSEM_NOMBRE:* Extraits pertinents :
-    * "Le télétravail peut être mis en œuvre de manière non consécutive, par journée entière ou demi-journée de travail. Le nombre de jours de télétravail doit être limité, il est donc interdit d’être en télétravail à 100% de son temps de travail. Il est convenu que les salariés ne pourront télétravailler que 2 jours maximum par semaine"
-    * "Le volume mensuel de jours télétravaillés sera déterminé en accord avec le manager et sera précisé dans l’avenant au contrat de travail, étant précisé que le nombre maximum de jours télétravaillés sera de 4 par mois."
-* Réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
-* Raisonnement :
-    * Selon le premier extrait, le nombre maximal de jours de télétravail par semaine est de 2. Cette information est confirmée dans le deuxième extrait, qui précise que le nombre maximal de jours télétravaillés par mois est de 4, ce qui correspond à environ 1 jour par semaine.
+Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé par semaine. Les salariés ne peuvent télétravailler que 2 jours maximum par semaine.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "le nombre et le positionnement des jours en télétravail (le salarié devra être à minima 3 jours par semaine sur site ou en déplacement, sauf semaine au cours de laquelle le salarié serait absent pour cause de congés payés, JNT, arrêt maladie etc.)"
+* "Le télétravail peut être mis en œuvre de manière non consécutive, par journée entière ou demi-journée de travail. Le nombre de jours de télétravail doit être limité, il est donc interdit d’être en télétravail à 100% de son temps de travail. Il est convenu que les salariés ne pourront télétravailler que 2 jours maximum par semaine (ce nombre devra permettre d’etre sur site ou en déplacement 3 jours par semaine sauf semaine au cours de laquelle le salarié serait absent pour cause de CP, JNT, AM, …)"
+
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+* Selon le premier paragraphe, le salarié doit être présent sur site ou en déplacement au moins 3 jours par semaine, ce qui implique que le nombre maximum de jours de télétravail par semaine est de 2.
+* Ce résultat est confirmé par le deuxième paragraphe qui indique que les salariés ne peuvent télétravailler plus de 2 jours par semaine.

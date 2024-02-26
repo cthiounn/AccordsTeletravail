@@ -1,20 +1,18 @@
-Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisés par semaine dans les documents fournis. Selon l'article 6-1, le nombre de jours de télétravail par semaine est de 2, ce qui représente 40% du temps de travail hebdomadaire pour les salariés à temps plein. De plus, il est mentionné que "ultérieurement, il pourra être décidé d’augmenter le télétravail à hauteur de 60%, soit 3 jours de télétravail par semaine pour les salariés travaillant à temps plein". Par ailleurs, le télétravail peut s'organiser jusqu'à 2 jours par semaine, et jusqu'à 3 jours par semaine ultérieurement. Enfin, il est précisé que le télétravail ne peut pas être reporté d'une semaine sur l'autre, ce qui suggère une limite hebdomadaire.
-Q_TTSEM_NOMBRE:* Extraits pertinents :
-    * "Le nombre de jours de télétravail par semaine est de 2" (Source: T09221024750.txt)
-    * "Le télétravail prend la forme de jours entiers à positionner par semaine." (Source: T09221024750.txt)
-    * "Le télétravail pouvant s’organiser jusqu’à 2 jours par semaine (et jusqu’à 3 ultérieurement)" (Source: T09221024750.txt)
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
-* Mon raisonnement :
-    * Selon l'article 6-1 du document, le nombre de jours de télétravail par semaine est de 2.
-    * L'expression "par semaine" indique que nous sommes dans le cadre d'une périodicité hebdomadaire.
-    * Les règles 2A et 2B m'empêchent de connecter les liens entre les périodicités, je dois donc considérer que les semaines sont des concepts indépendants. Ainsi, même si le texte mentionne la possibilité d'augmenter le télétravail à 3 jours par semaine, cela ne signifie pas que les jours de télétravail sont distribués sur une base mensuelle ou trimestrielle.
-    * La règle 2C m'interdit de faire des calculs de proratisation, donc je ne peux pas déduire le nombre de jours de télétravail par semaine à partir du nombre de jours de télétravail par mois ou par trimestre.
-    * La règle 2D stipule qu'il n'y a pas de lien entre l'effectif d'un service et le nombre de jours de télétravail, donc je ne peux pas déduire un nombre de jours de télétravail par semaine à partir de l'effectif d'un service.
-    * La règle 2E mentionne que si le document mentionne positivement le télétravail à 100%, alors 5 jours de télétravail sont possibles par semaine. Cependant, dans ce cas, le document ne mentionne pas explicitement le télétravail à 100%.
-    * La règle 2F stipule que si le document ne mentionne pas explicitement le nombre de jours de télétravail par semaine, je ne peux pas en déduire un nombre a priori. Or, dans ce cas, le document mentionne explicitement que le nombre de jours de télétravail par semaine est de 2.
-    * La règle 2G stipule qu'il n'y a pas plus de 5 jours ouvrés dans une semaine. Or, dans ce cas, le nombre de jours de télétravail par semaine est de 2, ce qui est inférieur à 5.
-    * La règle 2H stipule qu'il faut arrondir à l'entier inférieur si le nombre de jours de télétravail par semaine est un nombre réel. Or, dans ce cas, le nombre de jours de télétravail par semaine est de 2, qui est déjà un entier.
-    * La règle 2I stipule qu'un nombre de jours de télétravail par semaine inférieur à 52 concerne du télétravail occasionnel. Or, dans ce cas, le nombre de jours de télétravail par semaine est de 2, qui est inférieur à 52.
-    * La règle 2J stipule qu'un nombre de jours de télétravail par trimestre inférieur à 13 concerne du télétravail occasionnel. Or, dans ce cas, le document ne mentionne pas explicitement le nombre de jours de télétravail par trimestre.
-    * La règle 2K stipule qu'un nombre de jours de télétravail par mois inférieur à 4 concerne du télétravail occasionnel. Or, dans ce cas, le document ne mentionne pas explicitement le nombre de jours de télétrav
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisés par semaine dans les documents fournis. Selon l'article 6.1, le nombre de jours de télétravail par semaine est de 2 pour les salariés à temps plein, sauf exceptions. De plus, il est mentionné à l'article 6.6 que les collaborateurs qui bénéficient de jours de télétravail en application d'autres accords d'entreprise continuent de bénéficier de ces jours, auxquels s'ajoute 1 ou 2 jour(s) flexible(s) de télétravail complémentaire(s) à la demande du collaborateur, en application du présent accord, pour atteindre le nombre de jours maximum de télétravail par semaine sans pouvoir déroger à la règle des 2 jours de présence obligatoire sur site. Enfin, il est mentionné à l'article 6.5 que dans le cas de circonstances exceptionnelles, l'employeur pourra décider de mettre en place de façon temporaire le télétravail à 100%.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Le nombre de jours de télétravail par semaine est de 2 soit à hauteur de 40% par semaine pour les salariés à temps plein." (Source: T09221024750.txt)
+* "Ultérieurement, il pourra être décidé d’augmenter le télétravail à hauteur de 60%, soit 3 jours de télétravail par semaine pour les salariés travaillant à temps plein." (Source: T09221024750.txt)
+
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine=3
+
+Mon raisonnement :
+
+* Les paragraphes indiquent clairement que le nombre de jours de télétravail par semaine est de 2 ou 3, selon les cas.
+* Je ne fais aucune supposition ni d'hypothèses, je me base uniquement sur les informations fournies dans les documents.
+* Je ne fais aucun calcul de proratisation, je me base uniquement sur les nombres indiqués dans les documents.
+* Il n'y a pas de lien entre l'effectif d'un service et le nombre de jour de télétravail, je me base donc uniquement sur les informations fournies dans les documents.
+* Le télétravail à 100% ou le full-remote n'est pas autorisé ou fortement positivement évoqué dans les documents, je ne peux donc pas affecter la variable nombrejourdeteletravailmaxparsemaine à la valeur 5.
+* Les informations fournies dans les documents permettent de déterminer la valeur de la variable nombrejourdeteletravailmaxparsemaine, qui est donc de 3.

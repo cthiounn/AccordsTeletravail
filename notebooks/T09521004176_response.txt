@@ -1,20 +1,18 @@
 Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés, recommandés, limités ou maximum par semaine dans les documents fournis. Voici quelques exemples :
 
-* Selon l'article 7.1, le télétravail régulier peut être de 1 ou 2 jours par semaine, et peut être porté à un maximum de 3 jours par semaine pour des salariés en forte autonomie de travail.
-* Selon l'article 8, le nombre de jour télétravaillable est limité à 1 jour par semaine civile pour certaines populations, et à un maximum de 2 jours par semaine civile pour d'autres.
-* Selon l'article 11.1, tout salarié demandeur au télétravail, en situation d'éligibilité et remplissant les conditions d'accessibilité matérielle au télétravail, peut disposer automatiquement durant la période de réversibilité d'une journée de télétravail hebdomadaire.
+* Les salariés sont limités à 1 jour par semaine civile de télétravail, sauf pour certaines populations spécifiques qui peuvent aller jusqu'à 2 jours par semaine civile (document 0).
+* Le télétravail régulier peut être de 1 ou 2 jours par semaine, et peut être porté à un maximum de 3 jours par semaine pour des salariés en forte autonomie de travail (document 1).
+* Les salariés en situation de télétravail sur avis médical ou en temps partiel thérapeutique peuvent cumuler cette situation avec le télétravail prévu au présent accord, sous réserve d'être présent dans les locaux de l'entreprise au moins 1 jour par semaine (document 9).
+* Les salariés sous lettre de mission qui exercent une activité majoritairement afférente à une population éligible au télétravail sont éligibles au télétravail dans les mêmes conditions que celle-ci, au titre de la mission considérée (document 9).
+* Tout salarié éligible, mais non-utilisateur du télétravail hebdomadaire régulier, peut demander à télétravailler exceptionnellement sur accord de son manager (document 5).
 
-Il est important de noter que ces limites peuvent varier en fonction des circonstances et des accords entre le salarié et le manager.
-Q_TTSEM_NOMBRE:
-**Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question:**
+Cependant, il convient de noter que ces règles peuvent varier en fonction de divers facteurs tels que la nature de l'emploi, les besoins de l'entreprise, les contraintes personnelles du salarié, etc. Il est donc important de se référer aux politiques et procédures spécifiques de l'entreprise pour obtenir des informations actualisées et précises.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
-* "7.1) Le télétravail hebdomadaire régulier (le ou les mêmes jours de chaque semaine civile)"
-* "Le télétravail régulier peut-être de 1 ou de 2 jours par semaine. Il peut être porté à un maximum de 3 jours par semaine pour des salariés en forte autonomie de travail"
+* "Le nombre de jour télétravaillable est limité à 1 jour par semaine civile pour les populations suivantes: Formateurs Conseil/tradi; ASAV and CAF VPI; Fifties PORTABLE"
+* "7.1) Le télétravail hebdomadaire régulier (le ou les mêmes jours de chaque semaine civile) [...] Le télétravail régulier peut-être de 1 ou de 2 jours par semaine."
 
-**Ma réponse après raisonnement ci-dessous :**
+My response is:
 
-nombrejourdeteletravailmaxparsemaine=3
-
-**Mon raisonnement :**
-
-Après avoir analysé les documents fournis, je peux conclure que le nombre maximum de jours de télétravail par semaine est de 3. En effet, selon le paragraphe "7.1) Le télétravail hebdomadaire régulier (le ou les mêmes jours de chaque semaine civile)", le télétravail régulier peut être de 1 ou 2 jours par semaine, mais il peut être porté à un maximum de 3 jours par semaine pour des salariés en forte autonomie de travail. Par conséquent, nombrejourdeteletravailmaxparsemaine=3.
+* Ma réponse: nombrejourdeteletravailmaxparsemaine=2
+* Mon raisonnement: The first paragraph states that the number of days teleworkable is limited to 1 day per week. The second paragraph states that regular telework can be done for 1 or 2 days per week. Therefore, the maximum number of days an employee can telework regularly is 2 days per week.

@@ -1,14 +1,11 @@
-Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail maximum par semaine dans les documents fournis. Selon le document avec l'identifiant 8, le plafond de deux jours par semaine constitue un maximum qui ne pourra être dépassé par les accords d'entreprise ou chartes de télétravail des entreprises du Groupe. De plus, selon le document avec l'identifiant 0, le plafond de trois jours ne vaudra que pour certains cas exceptionnels et sauf situations spécifiques. Enfin, selon le document avec l'identifiant 5, le responsable hiérarchique veillera à un traitement égalitaire quant à l'attribution des jours de semaine "télétravaillable" et pourra organiser un roulement dans l'attribution des jours de semaines en établissant un planning des journées "télétravaillées" et non "télétravaillées".
-Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné qu'un salarié ne peut pas être en télétravail plus de 3 jours sur une même semaine dans certaines circonstances spécifiques (document avec id 0), et qu'une absence des locaux de l'entreprise supérieure à 2 jours par semaine ne doit pas être conduite grâce aux journées de télétravail volantes (document avec id 5).
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
-* "Ce plafond de deux jours par semaine constitue un maximum qui ne pourra être dépassé par les accords d’entreprise ou chartes de télétravail des entreprises du Groupe." (T09321006380.txt)
-* "Ces journées pourront être posées librement par le salarié sous réserve de la validation de sa hiérarchie et sans pour autant conduire à une absence des locaux de l’entreprise supérieure à 2 jours par semaine selon le plafond précisé au premier alinéa de l’article précédent." (T09321006380.txt)
+* "Ce plafond de 3 days will only apply to this specific case and unless there is an exceptional situation mentioned in articles 5.2 and 5.3 of the agreement or specific situations as mentioned in article 4."
+* "The daily telework is carried out within the framework of the collective working hours displayed by the company and/or establishment and respects the applicable rules in terms of rest periods, weekly rest, breaks, and if applicable, maximum duration of work time."
 
-Ma réponse :
+My response after reasoning:
+nombrejourdeteletravailmaxparsemaine = 3
 
-nombrejourdeteletravailmaxparsemaine=2
-
-Mon raisonnement :
-
-En analysant les documents fournis, je me suis concentré sur les informations relatives au nombre de jours de télétravail par semaine. J'ai identifié deux passages pertinents qui abordent ce point. Selon le premier passage, le plafond de télétravail par semaine est fixé à deux jours. Ce plafond ne peut pas être dépassé par les accords d'entreprise ou les chartes de télétravail des entreprises du groupe. Le deuxième passage confirme que les journées de télétravail ne doivent pas entraîner une absence des locaux de l'entreprise supérieure à deux jours par semaine. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 2. Cela correspond à la variable 'nombrejourdeteletravailmaxparsemaine' que j'ai affectée à la valeur 2.
+My reasoning:
+The first paragraph mentions a cap of 3 days of telework per week, but this applies only to a specific case and not in general. The second paragraph does not provide any information about the number of days of telework allowed per week. Therefore, based on the information provided, the maximum number of days of telework allowed per week is 3.

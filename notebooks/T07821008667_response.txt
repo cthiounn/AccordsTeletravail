@@ -1,7 +1,7 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisé par semaine. Dans le document 0, il est spécifié que pour les salariés à temps plein, le télétravail fonctionne sur un schéma d'alternance de périodes travaillées en présentiel et de période où l'activité est réalisée au domicile du salarié, et que les parties conviennent de limiter la situation de télétravail à 2 (deux) jours par semaine. Pour les salariés travaillant à temps partiel et dans la mesure où ce temps partiel est supérieur ou égal à 80% d'un temps plein, le télétravail est limité à 1 (un) jour par semaine.
+Q_TTSEM:Oui, il y a une mention d'un nombre de jours de télétravail autorisés par semaine. Le document spécifie que les salariés à temps plein peuvent télétravailler deux jours par semaine, tandis que les salariés travaillant à temps partiel et dont le temps partiel est supérieur ou égal à 80% d'un temps plein peuvent télétravailler un jour par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les parties conviennent de limiter la situation de télétravail à 2 (deux) jours par semaine pour les salariés à temps plein et à 1 (un) jour par semaine pour les salariés travaillant à temps partiel et dans la mesure où ce temps partiel est supérieur ou égal à 80% d’un temps plein, de telle sorte que le lien social soit maintenu avec l’équipe de travail et l’encadrement."
+* "Le télétravail fonctionne sur un schéma d’alternance de périodes travaillées en présentiel et de période où l’activité est réalisée au domicile du salarié. Les parties conviennent de limiter la situation de télétravail à 2 (deux) jours par semaine pour les salariés à temps plein et à 1 (un) jour par semaine pour les salariés travaillant à temps partiel et dans la mesure où ce temps partiel est supérieur ou égal à 80% d’un temps plein, de telle sorte que le lien social soit maintenu avec l’équipe de travail et l’encadrement"
 
 Ma réponse après raisonnement ci-dessous :
 
@@ -9,9 +9,4 @@ Ma réponse après raisonnement ci-dessous :
 
 Mon raisonnement :
 
-* Je me suis concentré sur les paragraphes qui concernent le télétravail régulier et non exceptionnel ou ponctuel.
-* J'ai recherché dans ces paragraphes les mentions de la fréquence de télétravail par semaine.
-* J'ai trouvé dans le premier paragraphe extrait une limitation du nombre de jours de télétravail par semaine à 2 pour les salariés à temps plein et à 1 pour les salariés à temps partiel travaillant au moins 80% d'un temps plein.
-* Je n'ai pas trouvé d'autres mentions de la fréquence de télétravail par semaine dans les autres paragraphes extraits.
-* Je n'ai pas trouvé de mention du télétravail à 100% ou du full-remote dans les paragraphes extraits.
-* Donc, je conclus que le nombre maximum de jours de télétravail par semaine est de 2 pour les salariés à temps plein et de 1 pour les salariés à temps partiel travaillant au moins 80% d'un temps plein.
+* Le paragraphe indique clairement que le nombre maximum de jours de télétravail par semaine est limité à 2 pour les salariés à temps plein et à 1 pour les salariés travaillant à temps partiel (supérieur ou égal à 80% d’un temps plein). Donc, en prenant en compte les instructions données, je peux affirmer que le nombre maximum de jours de télétravail par semaine est de 2.

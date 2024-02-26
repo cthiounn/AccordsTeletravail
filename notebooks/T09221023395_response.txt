@@ -1,11 +1,14 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Dans le document avec l'ID 3, il est indiqué que le télétravail régulier "vise les situations dans lesquelles le salarié et l’employeur fixent à l’avance le nombre de jours maximums par semaine avec signature d’un avenant au contrat de travail. Ce nombre de jours peut être d’une à deux journées par semaine."
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question:
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé et recommandé dans les documents fournis. Selon l'article 4.1, le principe de base de fonctionnement du télétravail régulier est de travailler jusqu'à deux journées par semaine à domicile, par journée entière. De plus, selon l'article 3.5, l'avenant au contrat de travail déterminera le jour de télétravail choisi dans la semaine. Enfin, selon l'article 1, il est possible de travailler plus de deux journées par semaine, mais cela nécessite l'accord exprès de son N+1, N+2 et du service des Ressources Humaines.
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* "Le principe de base de fonctionnement du télétravail régulier est de travailler jusqu’à deux journées par semaine à domicile, par journée entière, de manière à préserver le lien social avec l’entreprise et son groupe de travail." (Source: T09221023395.txt)
-* "Le télétravail régulier. Il constitue le cadre général du télétravail organisé dans l’UES Viveris et vise les situations dans lesquelles le salarié et l’employeur fixent à l’avance le nombre de jours maximums par semaine avec signature d’un avenant au contrat de travail. Ce nombre de jours peut être d’une à deux journées par semaine." (Source: T09221023395.txt)
+* "Le télétravail régulier. Il constitue le cadre général du télétravail organisé dans l’UES Viveris et vise les situations dans lesquelles le salarié et l’employeur fixent à l’avance le nombre de jours maximums par semaine avec signature d’un avenant au contrat de travail. Ce nombre de jours peut être d’une à deux journées par semaine." (Document(page\_content='T09221023395.txt'))
+* "Travailler à temps plein (possibilité de télétravailler jusqu’à deux jours par semaine)" (Document(page\_content='T09221023395.txt'))
 
-My response after reasoning:
-nombrejourdeteletravailmaxparsemaine=2
+Ma réponse :
 
-My reasoning:
-The principle of the regular telework is to work up to two days per week at home, by full day, in order to preserve the social link with the company and its working group. The regular telework framework applies to situations where the employee and the employer agree in advance on the number of days per week, with a contract amendment. This number of days can be one or two days per week. Therefore, based on the information provided in the documents, the maximum number of days of regular telework per week is two.
+* nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+* Dans le premier paragraphe, il est clairement indiqué que le télétravail régulier peut se faire jusqu'à deux jours par semaine.
+* Dans le deuxième paragraphe, il est mentionné que les salariés à temps plein peuvent télétravailler jusqu'à deux jours par semaine.

@@ -1,16 +1,23 @@
-Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre maximal de jours de télétravail autorisés par semaine :
+Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés, recommandés, limités ou maximum, exprimés par semaine dans les documents fournis. Voici quelques exemples :
 
-* Dans le document d'identifiant 1, il est indiqué que les salariés d'un service spécifique peuvent bénéficier d'une autorisation de télétravail par semaine entière, dans la limite de 9 semaines par an, soit 45 jours par an.
-* Dans le document d'identifiant 2, il est précisé que le salarié ne peut pas faire plus de deux jours de télétravail par semaine.
-* Dans le document d'identifiant 3, il est indiqué que les salariés qui pratiquent déjà un télétravail régulier ou occasionnel ne verront pas ces jours comptabilisés dans la limite maximale autorisée de 1 jour par semaine.
-* Dans le document d'identifiant 5, il est mentionné que la gestion des demandes de journées en télétravail ne peut pas dépasser 45 jours par an.
+* Les salariés peuvent effectuer jusqu'à 45 jours de télétravail par année civile, ce qui correspond à environ 1 jour par semaine (document 1).
+* Par exception, certains salariés peuvent bénéficier d'une autorisation de télétravail par semaine entière dans la limite de 9 semaines par an, ce qui correspond à 9 jours de télétravail par semaine (document 1).
+* Le télétravail ne peut pas être accolé à une journée de RTT, de congé payé ou tout autre type d'absence (document 2).
+* En cas de présence réduite à moins de 3 jours sur la semaine, la journée de télétravail sera supprimée (document 2).
+* Exceptionnellement et sur demande motivée, le salarié pourra solliciter une annulation ou un report de la journée de télétravail avec accord du supérieur hiérarchique donné au regard de l'organisation dans son équipe avec un délai de prévenance de 2 jours et sous réserve de respecter la limite de deux jours de télétravail par semaine maximum (document 1).
+* Un salarié peut être amené à se déplacer pendant sa journée de télétravail ou à l'interrompre pour le besoin de son service, mais il devra au préalable demander l'aval de son supérieur hiérarchique par écrit et attendre sa validation avant toute action (document 8).
+
+Il est donc précisé à plusieurs reprises que le télétravail ne peut excéder une journée par semaine, sauf exceptions mentionnées dans les documents.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Les salariés d’un service spécifique, notamment les personnels rattachés aux bureaux d’études des entreprises AXIANS Fibre Sud-ouest et AXIANS Pylône services France, pourront bénéficier d’une autorisation de télétravail par semaine entière dans la limite de 9 semaines par an (9 semaines x 5 jours/semaine =45 jours)"
-* "Le Salarié pourra effectuer jusqu’à 45 jours de télétravail par année civile. La répartition de ces jours sur l’année civile s’effectuera par journée entière sur la base d’une journée par semaine."
+* "Le Salarié pourra effectuer jusqu’à 45 jours de télétravail par année civile. La répartition de ces jours sur l’année civile s’effectuera par journée entière sur la base d’une journée par semaine." (Source: T03121008748.txt)
+* "Par exception, les salariés d’un service spécifique, notamment les personnels rattachés aux bureaux d’études des entreprises AXIANS Fibre Sud-ouest et AXIANS Pylône services France, pour lesquels organiser une journée de télétravail par semaine peut s’avérer plus complexe pour des raisons de matériel et logiciel informatiques, pourront bénéficier d’une autorisation de télétravail par semaine entière dans la limite de 9 semaines par an (9 semaines x 5 jours/semaine =45 jours)." (Source: T03121008748.txt)
 
-Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=1
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine=1
 
 Mon raisonnement :
-Dans le premier paragraphe, il est mentionné que les salariés d'un service spécifique peuvent bénéficier d'une autorisation de télétravail par semaine entière dans la limite de 9 semaines par an, soit 45 jours. Cependant, il n'est pas précisé si cette limite correspond à une limite hebdomadaire. Dans le deuxième paragraphe, il est mentionné que le salarié peut effectuer jusqu'à 45 jours de télétravail par année civile, avec une répartition par journée entière sur la base d'une journée par semaine. Cela signifie qu'un salarié peut télétravailler jusqu'à 1 jour par semaine pendant une année civile, dans la limite de 45 jours. Par conséquent, le nombre maximum de jours de télétravail par semaine est de 1.
+
+* Selon le premier paragraphe, la répartition des jours de télétravail se fait sur la base d'une journée par semaine. Donc, le nombre maximum de jours de télétravail par semaine est de 1.
+* Cependant, selon le deuxième paragraphe, certains salariés d'un service spécifique peuvent bénéficier d'une autorisation de télétravail par semaine entière dans la limite de 9 semaines par an. Mais cela ne concerne pas tous les salariés, donc je ne peux pas prendre en compte cette information pour répondre à la question posée.

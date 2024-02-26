@@ -1,11 +1,15 @@
-Q_TTSEM:Oui, selon le document 2, le nombre de jours de télétravail autorisé par semaine est jusqu'à deux jours.
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents:
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné que le télétravail peut être exercé jusqu'à deux jours par semaine pour une semaine de travail standard, mais cela ne constitue pas une limite stricte car des dérogations temporaires sont possibles pour permettre un télétravail jusqu'à 100%.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-* "Pour maintenir le lien social avec la communauté de travail, le présent accord prévoit jusqu’à deux jours de télétravail par semaine pour une semaine de travail ‘standard’ (avec cinq jours ouvrés)." (Source: T09321006658.txt)
-* "Des dérogations temporaires sont possibles afin de permettre un télétravail jusqu’à 100%. Ces dérogations ne sont possibles que pour les salariés éligibles au télétravail et... Dans tous les cas il s’agit de journées entières en télétravail." (Source: T09321006658.txt)
+* "Pour maintenir le lien social avec la communauté de travail, le présent accord prévoit jusqu’à deux jours de télétravail par semaine pour une semaine de travail ‘standard’ (avec cinq jours ouvrés)"
+* "Si le document mentionne positivement le Télétravail à 100%, ou le full-remote, ET qu’il n’y a pas de jour de présence minimum sur site, alors 5 jours de télétravail est possible par semaine!"
 
-My response after reasoning:
-nombrejourdeteletravailmaxparsemaine = 2
+Ma réponse après raisonnement ci-dessous :
 
-My reasoning:
-The first paragraph clearly states that there are up to two days of telework per week. The second paragraph does not provide any additional information about the number of days of telework per week, but it confirms that telework can be done for full days at a time. Since there is no indication of a higher limit or exception to this rule, I conclude that the maximum number of days of telework per week is indeed two. Therefore, nombrejourdeteletravailmaxparsemaine is set to 2.
+* nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+* Les informations pertinentes sont contenues dans le premier paragraphe extrait.
+* Selon ce paragraphe, le nombre maximal de jours de télétravail par semaine est de deux.
+* Par conséquent, nombrejourdeteletravailmaxparsemaine=2.

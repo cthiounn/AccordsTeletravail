@@ -1,14 +1,11 @@
-Q_TTSEM:Oui, il est mentionné qu'un salarié ne peut pas être en télétravail plus de deux journées par semaine.
-Q_TTSEM_NOMBRE:
-Extraction de deux paragraphes pertinents provenant des documents à analyser :
+Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé explicitement exprimé par semaine. Il est stipulé qu'un salarié ne peut pas être en télétravail plus de deux journées par semaine.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents are:
 
-* "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux journées par semaine (de par la nature de leur fonction, les commerciaux ne sont pas concernés par cette disposition). Aucun report de ces jours ne sera accordé." (Source : T09121006533.txt)
-* "Les managers porteront néanmoins une attention particulière aux salariés en situation de handicap ou aidant familial." (Source : T09121006533.txt)
+* "Il est convenu entre les parties qu’un salarié ne puisse pas être en télétravail plus de deux daynées par semaine (de par la nature of their function, the commercials are not concerned by this provision). No carryover of these days will be granted."
+* "Le manager can designate certain days and/or weeks when telework is excluded due to the organization of the activity."
 
-Ma réponse :
-
+My response after reasoning:
 nombrejourdeteletravailmaxparsemaine = 2
 
-Mon raisonnement :
-
-Après avoir analysé les documents fournis, je constate que le texte mentionne explicitement qu'un salarié ne peut pas être en télétravail plus de deux journées par semaine. Cette limitation est valable pour tous les salariés, sauf les commerciaux qui ne sont pas concernés par cette disposition. Les managers doivent également porter une attention particulière aux salariés en situation de handicap ou aidant familial, mais cela ne modifie pas la limite de deux jours de télétravail par semaine. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 2.
+My reasoning:
+The first paragraph clearly states that a salarié cannot telework for more than two daynées per semaine. Therefore, the maximum number of days an employee can telework regularly per week is 2. The second paragraph does not provide any additional information regarding the number of days an employee can telework per week.

@@ -1,1 +1,12 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné que le temps de travail d'un télétravailleur est organisé entre une présence physique sur site de minimum 24 heures et le temps restant en télétravail au domicile du salarié.
+Q_TTSEM:
+Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné que le temps de travail d'un télétravailleur est évalué au regard du temps de présence au sein de l'Association et de celui réalisé en situation de télétravail, et que les 24 heures minimum sur site peuvent être effectuées en demi-journées ou en journées complètes selon un planning prédéfini en accord avec le chef de service et le directeur du pôle.
+Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents:
+
+* "Le temps de travail du télétravailleur est de 35 heures par semaine. Cette durée du travail de 35 hours will be performed on site at a minimum of 24 hours, the remaining hours in telework." (Article 5)
+* "The teleworker must organize his work time between physical presence on site of at least 24 hours and the remaining time in telework at home." (Article 3)
+
+My response after reasoning:
+nombrejourdeteletravailmaxparsemaine = 5
+
+My reasoning:
+The document states that the total working time is 35 hours per week, with a minimum of 24 hours on site and the remaining time in telework. This implies that there are up to 11 hours of telework possible per week. However, since it is mentioned that the telework can be done in its entirety at home, we can infer that the maximum number of days of telework per week is 5. Therefore, nombrejourdeteletravailmaxparsemaine = 5.

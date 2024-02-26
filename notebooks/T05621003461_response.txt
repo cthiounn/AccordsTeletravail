@@ -1,1 +1,15 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans ces documents. Cependant, il est mentionné que le télétravail volontaire est limité à 20 jours par an, mais cela ne précise pas si cela s'applique spécifiquement à la semaine.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné qu'au-delà de 20 jours par an, un accord écrit de la Direction sera nécessaire (Document 1, 3.3), et que le télétravail s'exerce dans les mêmes conditions et horaires que le travail au sein des locaux de l'EPCC (Document 0, 2.4).
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Le télétravail s’exerce dans les mêmes conditions et horaires que le travail au sein des locaux de l’EPCC." (T05621003461.txt)
+* "Le télétravail s’effectue au domicile déclaré du.de la salarié.e ou dans un lieu de travail à distance, dès lors que ces lieux offrent un environnement propice au travail et à la concentration." (T05621003461.txt)
+
+Ma réponse après raisonnement ci-dessous :
+
+* nombrejourdeteletravailmaxparsemaine=5
+
+Mon raisonnement :
+
+* Les informations fournies ne permettent pas d'extraire un nombre de jours de télétravail maximum par semaine.
+* Cependant, d'après les instructions données, si le télétravail à 100% ou le full-remote est autorisé ou fortement positivement évoqué ET qu'il n'y a pas de jour de présence minimum sur site, alors le nombre de jours de télétravail maximum par semaine est de 5. Or, dans le document, il est mentionné que "Le télétravail s’exerce dans les mêmes conditions et horaires que le travail au sein des locaux de l’EPCC.", ce qui implique que le télétravail peut être effectué à temps plein, soit 5 jours par semaine. De plus, il est également mentionné que "Le télétravail s’effectue au domicile déclaré du.de la salarié.e ou dans un lieu de travail à distance, dès lors que ces lieux offrent un environnement propice au travail et à la concentration.", ce qui confirme que le télétravail peut être effectué à temps plein. Par conséquent, je conclus que le nombre de jours de télétravail maximum par semaine est de 5.

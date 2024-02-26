@@ -1,17 +1,16 @@
-Q_TTSEM:Oui, il est mentionné que le télétravail peut être mis en œuvre "par journée entière de travail, dans la limite de 3 jours par semaine et de façon régulière" (document avec id 5).
+Q_TTSEM:
+Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisés par semaine dans les documents. Selon le document 0, le nombre de jours de télétravail par semaine peut être fixé par le manager et peut être fixe ou variable. Le document 1 mentionne également que le salarié peut télétravailler certains jours de la semaine, sans préciser exactement combien. Enfin, le document 7 indique que le télétravail est mis en œuvre par accord des parties, sur initiative du salarié, et que le salarié qui souhaite se placer en situation de télétravail doit en formuler la demande écrite auprès de son manager. Par conséquent, le nombre de jours de télétravail par semaine peut être convenu entre le salarié et le manager.
 Q_TTSEM_NOMBRE:
-* Extraction de deux paragraphes pertinents provenant des documents à analyser :
+* Deux paragraphes pertinents provenant des documents à analyser qui répondent à la question :
 
-    * "Le télétravail peut être mis en œuvre, par journée entière de travail, dans la limite de 3 jours par semaine et de façon régulière." (Source: T06921015778.txt)
-    
-    * "Les jours de télétravail ne sont pas reportables ou cumulables d’une semaine à l’autre." (Source: T06921015778.txt)
+    Article 3 du document T06921015778.txt : "Le télétravail peut être mis en œuvre, par journée entière de travail, dans la limite de 3 jours par semaine et de façon régulière."
+
+    Événement interne et formation du document T06921015778.txt : "Dans ce cas et pour les salariés ayant des jours fixes de télétravail, un délai de prévenance minimum de 3 jours ouvrés devra être respecté"
 
 * Ma réponse après raisonnement :
 
-    * nombrejourdeteletravailmaxparsemaine=3
+    nombrejourdeteletravailmaxparsemaine = 3
 
 * Mon raisonnement :
 
-    * Selon le premier paragraphe extrait, le télétravail peut être mis en œuvre jusqu'à 3 jours par semaine de manière régulière.
-    * Le deuxième paragraphe extrait confirme que les jours de télétravail ne sont pas cumulables d'une semaine à l'autre, ce qui signifie qu'un salarié ne peut pas travailler plus de 3 jours en télétravail par semaine.
-    * Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 3.
+    Selon l'article 3 du document T06921015778.txt, le télétravail peut être mis en œuvre dans la limite de 3 jours par semaine et de manière régulière. Cependant, l'événement interne et formation du même document stipule que le salarié doit se rendre dans les locaux de l'entreprise pendant les jours de télétravail pour participer notamment aux réunions ou pour tout autre motif justifié par le bon fonctionnement du service. Ce point implique que le nombre de jours de télétravail par semaine peut être inférieur à 3, mais ne peut pas dépasser 3 jours. Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 3.

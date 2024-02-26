@@ -1,1 +1,13 @@
-Q_TTSEM:Non, il n'y a pas de mention d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Les seules mentions de nombres de jours concernent le nombre de jours de télétravail par mois, qui est de 4 jours non consécutifs.
+Q_TTSEM:Non, il n'y a pas de mention d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Les documents mentionnent uniquement que le nombre de journées de télétravail est de 4 par mois mais non consécutives.
+Q_TTSEM_NOMBRE:
+Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Un accord de télétravail a été signé le 16 novembre 2016. Cette accord permet au salarié, dont le poste est compatible avec une organisation en télétravail, de pouvoir travailler à distance. Une procédure spécifique est défini dans l’accord de télétravail, pour rappel Les personnes éligibles au télétravail et souhaitant bénéficier de ce dispositif doit faire une demande à son manager. Une fois la demande de télétravail validé par son manager, le collaborateur doit faire suivre sa demande au service Ressources Humaines accompagnée d’une attestation d’assurance multirisque habitation Un avenant au contrat de travail est ensuite établi pour formaliser le fonctionnement du télétravail et le nombre de jours par mois de télétravail Le nombre de journée de travail est de 4 par mois mais non consécutives Chaque journée de télétravail doit être effectuée au domicile principal du salarié, c’est-à-dire à l’adresse indiquée sur l’attestation d’assurance multirisque habitation"
+
+Ma réponse après raisonnement ci-dessous :
+
+nombrejourdeteletravailmaxparsemaine=4
+
+Mon raisonnement :
+
+Selon le paragraphe extrait, le nombre maximum de jours de télétravail par mois est de 4, ce qui correspond à une limite de 4/5=0.8 jours par semaine. Cependant, comme il n'est pas spécifié que les jours peuvent tomber n'importe quel jour de la semaine, je ne peux pas conclure qu'il s'agit d'une limite hebdomadaire. Par conséquent, je dois retourner la valeur 0 car il n'y a pas suffisamment d'informations pour répondre à la question.

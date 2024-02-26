@@ -1,8 +1,12 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé par semaine. Le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés. Une présence dans l'entreprise de 3 jours minimum par semaine est requise (Document 0, relevance score: 0.96645653).
-Q_TTSEM_NOMBRE:* Extraits pertinents :
-    * "Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés."
-    * "Une présence dans l’entreprise de 3 jours minimum par semaine est requise."
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
-* Mon raisonnement :
-    * Selon le premier extrait, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés. Donc, nombrejourdeteletravailmaxparsemaine=2.
+Q_TTSEM:
+Oui, il y a une mention d'un nombre de jour de télétravail autorisé et recommandé explicitement exprimé par semaine. Le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés, et une présence dans l'entreprise de 3 jours minimum par semaine est requise (Document, page\_content='Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés.\n\nUne présence dans l’entreprise de 3 jours minimum par semaine est requise.').
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+* "Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés." (Source : T06021003016.txt)
+* "Le télétravail ponctuel ne nécessite pas de rédaction d’un avenant au contrat de travail. Un simple écrit reprenant les conditions du télétravail suffit." (Source : T06021003016.txt)
+
+Ma réponse :
+* nombrejourdeteletravailmaxparsemaine = 2
+
+Mon raisonnement :
+* Dans le premier paragraphe, il est clairement indiqué que le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine.
+* Dans le deuxième paragraphe, il est question de télétravail ponctuel, qui n'est pas concerné par la question posée.

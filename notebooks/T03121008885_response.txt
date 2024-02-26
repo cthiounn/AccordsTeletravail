@@ -1,15 +1,14 @@
-Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés et limités par semaine dans les documents fournis. Le télétravail régulier s'effectue dans la limite de 2 jours maximum par semaine (Chapitre 5, Article 10), et le télétravail occasionnel s'effectue dans la limite de 10 jours maximum dans l'année (Chapitre 5, Article 10). De plus, lors de l'examen de la demande du salarié, le responsable hiérarchique et/ou chef d'équipe et/ou chef d'équipe adjoint pourra proposer au salarié d'opter pour des modalités différentes de télétravail régulier, y compris un nombre de jours télétravaillés moindre (Document avec id=5).
-Q_TTSEM_NOMBRE:
-* Extraits pertinents :
+Q_TTSEM:
+Oui, il y a une mention d'un nombre de jour de télétravail autorisé. Selon l'article 11, le jour de télétravail régulier peut être fixé sur un des trois jours (mardi, jeudi ou vendredi) et le télétravail occasionnel peut être fixé sur n'importe quel jour ouvré de la semaine. De plus, le télétravail occasionnel ne peut excéder 10 jours maximum dans l'année.
+Q_TTSEM_NOMBRE:> Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
-    Article 10 : « Le télétravail régulier s’effectue dans la limite de 2 jours maximum par semaine. » (T03121008885.txt)
+* Article 11 : « Le (les) jour(s) de télétravail régulier peu(ven)t être fixé(s) au choix, dans la limite prévue à l’article 10 précité, le mardi, le jeudi ou le vendredi. »
+* Aucun autre paragraphe ne précise le nombre de jours de télétravail par semaine.
 
-    Article 3 : « Sont éligibles tous les salariés en contrat à durée indéterminée ou déterminée à temps plein ou à temps partiel au moins égal à 80% ayant une durée d’ancienneté de 3 mois dans l’entreprise. » (T03121008885.txt)
+> Ma réponse après raisonnement ci-dessous :
 
-* Réponse :
+nombrejourdeteletravailmaxparsemaine=3
 
-    nombrejourdeteletravailmaxparsemaine=2
+> Mon raisonnement :
 
-* Raisonnement :
-
-    L’article 10 du document T03121008885.txt stipule clairement que le télétravail régulier s’effectue dans la limite de 2 jours maximum par semaine. Cependant, cet article ne précise pas si ce nombre est une limite minimale ou maximale. Néanmoins, l’article 3 indique que seuls les salariés en contrat à durée indéterminée ou déterminée à temps plein ou à temps partiel au moins égal à 80 % ayant une durée d’ancienneté de 3 mois dans l’entreprise sont éligibles au télétravail. Par conséquent, nous pouvons conclure que le nombre de jours de télétravail par semaine est plafonné à 2 jours, car il n’est fait aucune mention d’un télétravail à temps plein ou d’un full-remote dans le document.
+Le paragraphe extrait précise que le télétravail régulier peut être fixé trois jours par semaine, soit le mardi, le jeudi ou le vendredi. Il n'y a pas d'autres mentions de fréquence hebdomadaire dans les autres paragraphes. Par ailleurs, il n'est pas fait mention d'un télétravail à 100% ou full-remote sans jour de présence minimum sur site.

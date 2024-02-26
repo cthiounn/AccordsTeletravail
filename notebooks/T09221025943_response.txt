@@ -1,11 +1,1 @@
-Q_TTSEM:
-Yes, there are several mentions of the number of days of telework authorized or recommended per week in the documents. Here are some examples:
-
-* "De 1 à 3 days fixed by week for all the company's employees"
-* "1 to 3 days floating by week"
-* "A forfait monthly of 6 days"
-* "A forfait annual of 30 days"
-* "1 day supplementary of telework can be granted weekly"
-* "20% of additional days on the monthly or annual forfeits"
-
-Therefore, the answer is yes, there is at least one mention of a number of days of telework authorized or recommended per week in the documents.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.

@@ -1,11 +1,15 @@
-Q_TTSEM:
-Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé et limité par semaine dans les documents fournis. Selon l'accord collectif sur l'organisation du télétravail, le télétravail est possible "à concurrence de 0 à 2 jours ouvrés maximum par semaine, non consécutifs, sous condition de présence de 3 jours sur site (non reportable, non cumulable)". Cette limitation s'applique à tous les salariés, sauf ceux à temps partiel qui ne peuvent télétravailler qu'un jour par semaine.
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé et limité par semaine dans les documents fournis. Selon le document 0, le télétravail est possible "à concurrence de 0 à 2 jours ouvrés maximum par semaine, non consécutifs, sous condition de présence de 3 jours sur site (non reportable, non cumulable)". De plus, le document 1 précise que le télétravail est possible "à concurrence de 0 à 2 jours ouvrés maximum par semaine, non consécutifs". Enfin, le document 8 indique que la limite de jours de télétravail par semaine est fixée à 2 jours, et que les salariés doivent être présents sur site pendant 3 jours.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
 * "Le télétravail est possible, si cela est compatible avec la durée du travail des salariés concernés, à concurrence de 0 à 2 jours ouvrés maximum par semaine, non consécutifs, sous condition de présence de 3 jours sur site (non reportable, non cumulable)."
+* "Le télétravail n’est pas une mesure envisagée de manière permanente mais seulement de manière ponctuelle, à la demande des salariés éligibles."
 
 Ma réponse après raisonnement ci-dessous :
+
 * nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-* Dans le document, il est indiqué que "Le télétravail est possible, si cela est compatible avec la durée du travail des salariés concernés, à concurrence de 0 à 2 jours ouvrés maximum par semaine, non consécutifs, sous condition de présence de 3 jours sur site (non reportable, non cumulable)."
-* Par conséquent, le nombre maximum de jours de télétravail par semaine est de 2.
+
+* Je me base sur le premier paragraphe extrait qui indique que le télétravail est possible à concurrence de 0 à 2 jours ouvrés maximum par semaine.
+* Cette information est confirmée par le deuxième paragraphe qui indique que le télétravail n'est pas envisagé de manière permanente mais seulement de manière ponctuelle, ce qui implique une limitation dans le temps et donc un nombre maximal de jours de télétravail par semaine.
+* Ainsi, je peux conclure que le nombre maximum de jours de télétravail par semaine est de 2.

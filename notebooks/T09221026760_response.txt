@@ -1,22 +1,20 @@
 Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés, recommandés, limités ou maximum par semaine dans les documents fournis. Voici quelques exemples :
 
-* "rythme de télétravail de 2 jours au maximum par semaine et par salarié" (Document 1)
-* "le salarié ne pourra pas exercer plus de 2 journées de télétravail par semaine" (Document 3)
-* "plus de 3 journées de télétravail par semaine" (Document 3)
-* "rythme forfaitaire de 22 jours maximum par an" (Document 4)
+* "rythme de télétravail de 2 jours au maximum par semaine et par salarié" (Document 2-3-1)
+* "le personnel bénéficiant d’un avenant entérinant un rythme d’une journée maximum de télétravail" (Document page\_content)
+* "le personnel bénéficiant d’un avenant entérinant un rythme de deux journées maximum de télétravail" (Document page\_content)
+* "Toutefois, le salarié et le manager peuvent, d’un commun accord, convenir que le télétravail soit organisé dans certains cas sur la demi-journée (exemples : congé ou repos sur l’autre demi-journée, temps partiel). Dans ce cas, la demi-journée de télétravail compte pour une journée complète." (Document page\_content)
 
 Par conséquent, la réponse à la question est oui.
-Q_TTSEM_NOMBRE:
-* Extraits pertinents :
-    * "rythme de télétravail de 2 jours au maximum par semaine et par salarié." (Source: T09221026760.txt)
-    * "plus de 2 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme d’une journée maximum de télétravail" (Source: T09221026760.txt)
-    * "plus de 3 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme de deux journées maximum de télétravail" (Source: T09221026760.txt)
+Q_TTSEM_NOMBRE:> Extraction de deux paragraphes pertinents provenant des documents à analyser :
 
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
+* "L’accord-cadre de Groupe prévoit deux formules de rythme de télétravail possible. Les parties au présent accord retiennent la formule de télétravail suivante pour le personnel dont les postes sont éligibles conformément à l’article 2-1-2 : rythme de télétravail de 2 jours au maximum par semaine et par salarié." (Source : T09221026760.txt)
+* "Le manager peut exceptionnellement annuler un jour de télétravail. [...] En tout état de cause le salarié ne pourra pas exercer : plus de 2 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme d’une journée maximum de télétravail Plus de 3 journées de télétravail par semaine, pour le personnel bénéficiant d’un avenant entérinant un rythme de deux journées maximum de télétravail" (Source : T09221026760.txt)
 
-* Mon raisonnement :
-    * Selon l'extrait pertinent du premier document, le rythme de télétravail est de 2 jours maximum par semaine et par salarié.
-    * Cependant, selon les extraits pertinents des deuxième et troisième documents, le nombre maximal de jours de télétravail par semaine peut être de 2, 3 ou plus en fonction des accords individuels.
-    * Cependant, en raison de la règle 2G, le nombre maximal de jours de télétravail par semaine ne peut pas dépasser 5.
-    * Par conséquent, je conclus que le nombre maximum de jours de télétravail par semaine est de 2, sauf indication contraire dans un accord individuel.
+> Ma réponse :
+
+nombrejourdeteletravailmaxparsemaine = 2
+
+> Mon raisonnement :
+
+Le premier paragraphe indique que le rythme de télétravail est de 2 jours au maximum par semaine et par salarié. Le deuxième paragraphe confirme cette limite et ajoute qu'en cas d'annulation d'un jour de télétravail, le salarié ne pourra pas exercer plus de 2 journées de télétravail par semaine si son rythme initial était d'une journée maximum, et plus de 3 journées de télétravail par semaine si son rythme initial était de deux journées maximum. Par conséquent, la limite de télétravail par semaine est de 2 jours.

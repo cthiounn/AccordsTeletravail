@@ -1,2 +1,11 @@
-Q_TTSEM:
-Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans ces documents. Cependant, il est mentionné que pour le télétravail régulier, le nombre de jours télétravaillés ne peut pas être supérieur à 10 par mois de travail effectif pour les salariés à temps plein et à temps partiel, sans possibilité de report d'un mois à l'autre. Pour le télétravail occasionnel, il n'y a pas de limitation explicite du nombre de jours.
+Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Cependant, il est mentionné que pour le télétravail régulier, le nombre de jours télétravaillés ne peut pas être supérieur à 10 par mois de travail effectif pour les salariés à temps plein et à temps partiel, sans possibilité de report d'un mois à l'autre. Les jours fixés sont également modifiables avec l'accord du manager.
+Q_TTSEM_NOMBRE:Extraction de deux paragraphes pertinents provenant des documents à analyser :
+
+* "Le nombre de jours télétravaillés ne pourra pas être supérieur à 10 par mois de travail effectif pour les salariés à temps plein et à temps partiel." (Source : T02121003194.txt)
+* "Le télétravail s’organise par jour entier en référence à l’horaire de travail contractuel du salarié." (Source : T02121003194.txt)
+
+Ma réponse :
+nombrejourdeteletravailmaxparsemaine = 0
+
+Mon raisonnement :
+Après analyse des documents fournis, je n'ai pas trouvé de mention explicite du nombre de jours de télétravail autorisés par semaine. De plus, rien n'indique que le télétravail à 100% ou le full-remote est autorisé ou fortement positivement évoqué sans jour de présence minimum sur site. Par conséquent, conformément aux instructions données, je retourne la variable 'nombrejourdeteletravailmaxparsemaine' à 0.

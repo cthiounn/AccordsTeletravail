@@ -1,13 +1,12 @@
-Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé par semaine dans les documents fournis. Selon l'article 2, le formulaire d'autorisation individuelle de télétravail doit indiquer le nombre de journées de télétravail autorisées par semaine. De plus, selon l'article 6, le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d'un salarié, hors prises de congés.
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jour de télétravail autorisé par semaine dans les documents. Selon l'article 6, le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d'un salarié, hors prises de congés. De plus, chaque salarié doit être présent dans les locaux de l'association, a minima 2 fois par semaine pour des plages d'au moins une demi-journée. Enfin, selon l'article 7, le nombre de journées ou demi-journées autorisées en télétravail ne représente pas un droit de tirage pour le salarié bénéficiaire de l'autorisation, mais un nombre maximal de journées ou demi-journées de télétravail autorisées par semaine.
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
-
-* "Le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d’un salarié, hors prises de congés."
+* "Le télétravail s’organise par journée, voire demi-journée de travail. Il ne pourra pas être pris en compte d’heures isolées de télétravail. Le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d’un salarié, hors prises de congés."
 * "Chaque salarié doit être présent dans les locaux de l’association, a minima 2 fois par semaine pour des plages d’au moins une demi-journée"
 
 Ma réponse après raisonnement :
-nombrejourdeteletravailmaxparsemaine=2
+* nombrejourdeteletravailmaxparsemaine=2
 
 Mon raisonnement :
-Selon le premier paragraphe, le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d’un salarié, hors prises de congés. Comme il y a 4 semaines dans un mois en moyenne, cela signifie que le nombre de jours de télétravail par semaine ne peut pas dépasser 1/3 x 1/4 = 1/12 du temps de travail. Or, comme il y a 5 jours ouvrés dans une semaine, cela signifie que le nombre de jours de télétravail par semaine ne peut pas dépasser 1/12 x 5 = 0,42 jour, soit 0, 1 ou 2 jours de télétravail par semaine.
-Selon le deuxième paragraphe, chaque salarié doit être présent dans les locaux de l’association, a minima 2 fois par semaine pour des plages d’au moins une demi-journée. Cela signifie qu'il ne peut pas y avoir plus de 3 jours de télétravail par semaine.
-Donc, en combinant ces deux informations, le nombre maximum de jours de télétravail par semaine est de 2.
+* Selon le premier paragraphe, le total des jours télétravaillés dans un mois ne peut pas excéder 1/3 du temps de travail d’un salarié, hors prises de congés. Comme il y a 4 semaines dans un mois, cela signifie que le nombre maximum de jours de télétravail par semaine est de 1/3 * (5 jours / 4 semaines) = 0.42 jour, soit environ 2 jours par semaine.
+* Le deuxième paragraphe précise que chaque salarié doit être présent dans les locaux de l’association, a minima 2 fois par semaine pour des plages d’au moins une demi-journée. Cela implique que le nombre maximum de jours de télétravail par semaine est de 5 - 2 = 3 jours.
+* Compte tenu de ces deux éléments, je retiens la limite la plus basse, soit 2 jours de télétravail par semaine.

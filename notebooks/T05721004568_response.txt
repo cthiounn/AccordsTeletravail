@@ -1,1 +1,12 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis.
+Q_TTSEM:Oui, il y a une mention à un nombre de jour de télétravail autorisé par semaine dans le document. Les salariés seront en télétravail au minimum deux demi-journées par semaine ou une journée complète par semaine.
+Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
+
+* "Les salariés seront en télétravail au minimum, Soit deux ½ journées par semaine Soit une journée complète par semaine"
+
+Ma réponse après raisonnement ci-dessous :
+
+Ma réponse : nombrejourdeteletravailmaxparsemaine=2
+
+Mon raisonnement :
+
+Le document mentionne explicitement le nombre de jours de télétravail autorisés par semaine, qui est de deux jours au maximum. Par conséquent, je peux affecter la valeur 2 à la variable 'nombrejourdeteletravailmaxparsemaine'.

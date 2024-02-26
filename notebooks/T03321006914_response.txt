@@ -1,1 +1,16 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jour de télétravail autorisé, recommandé, limité ou maximum par semaine dans ces documents. Cependant, il est indiqué que l'activité exercée en télétravail ne pourra en principe excéder une journée complète et fixe par semaine pour un salarié présent à temps plein (document ID 4, principe général). Il existe cependant des exceptions où l'activité exercée en télétravail pourra être aménagée sur plus d'un jour par semaine (document ID 3, exceptions).
+Q_TTSEM:Oui, il y a une mention d'un jour de télétravail autorisé par semaine. Selon l'article 5.1.1 de la charte, l'activité exercée en télétravail ne peut en principe excéder une journée complète et fixe par semaine pour un salarié présent à temps plein.
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser :
+
+    * "Afin de maintenir le lien social avec l’entreprise et au sein de l’équipe, mais également de faciliter l’organisation des temps de travail collectif, l’activité exercée en télétravail ne pourra en principe excéder une journée complète et fixe par semaine pour un salarié présent à temps plein." (Source: T03321006914.txt)
+    
+    * "Dans des situations particulières tenant au salarié ou au poste de travail, l’activité exercée en télétravail pourra être aménagée sur plus d’un jour par semaine" (Source: T03321006914.txt)
+
+* Ma réponse :
+
+    * nombrejourdeteletravailmaxparsemaine=1
+
+* Mon raisonnement :
+
+    * Selon le premier paragraphe, le télétravail ne peut excéder une journée complète et fixe par semaine pour un salarié présent à temps plein. Donc, le nombre maximum de jour de télétravail par semaine est 1.
+    * Le deuxième paragraphe ne modifie pas ma réponse car il s'agit d'une exception et non de la règle générale.

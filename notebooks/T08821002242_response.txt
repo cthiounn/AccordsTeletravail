@@ -1,15 +1,15 @@
-Q_TTSEM:Oui, il y a une mention à un nombre de jour de télétravail autorisé par semaine. Pour un collaborateur à temps plein, le nombre maximum de jours en télétravail est fixé à 2 jours par semaine. Pour les collaborateurs à temps partiel, le nombre maximum en télétravail est fixé à 1 jour par semaine.
-Q_TTSEM_NOMBRE:Two relevant paragraphs from the documents analyzed that answer the question are:
+Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé et limité explicitement exprimé par semaine. Le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein et à 1 jour par semaine pour les collaborateurs à temps partiel.
+Q_TTSEM_NOMBRE:
+* Deux paragraphes pertinents provenant des documents à analyser :
 
-* "The number of days maximum in telework is fixed at 2 days per week for a full-time employee."
-* "Unless there are exceptional circumstances, working time is organized by full days."
+    * "6-1 Rythme du télétravail : De sorte à éviter le risque d’une « distanciation » avec l’entreprise, le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein."
+    
+    * "Le temps de présence physique du collaborateur dans les locaux de l’entreprise devra donc être au minimum de 3 jours par semaine pour un temps plein."
 
-My response after reasoning is:
+* Ma réponse :
 
-* nombrejourdeteletravailmaxparsemaine=2
+    * nombrejourdeteletravailmaxparsemaine=2
 
-My reasoning is:
+* Mon raisonnement :
 
-* The document states that the maximum number of days in telework is 2 days per week for a full-time employee.
-* There is no mention of any other arrangement or possibility for more days of telework per week.
-* Therefore, the maximum number of days of telework per week is 2.
+    * Selon le premier paragraphe pertinent, le nombre de jours maximum en télétravail est fixé à 2 jours par semaine pour un collaborateur à temps plein. Par conséquent, je peux affirmer que le nombre maximal de jours de télétravail par semaine est de 2.

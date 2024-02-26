@@ -1,18 +1,19 @@
-Q_TTSEM:Oui, il y a plusieurs mentions de nombres de jours de télétravail autorisés, recommandés, limités ou maximum, explicitement exprimés par semaine dans les documents fournis. Voici quelques exemples :
+Q_TTSEM:Oui, il y a plusieurs mentions d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis :
 
-* Les collaborateurs qui demandent le télétravail régulier ont 3 choix dans la limite de 2 jours de présence au siège en fonction de leur temps contractuel (1 jour, 2 jours ou 3 jours).
-* Le télétravail défini par cet accord pourra être régulier, forfaitaire ou occasionnel, mais dans tous les cas, 2 jours de présence au siège seront obligatoires quel que soit le télétravail et le temps contractuel.
-* Sur proposition de la Direction, sur les personnels exclus ou n’ayant pas demandé le bénéfice du télétravail, et avec accord du salarié, une situation de télétravail ponctuelle pourra être mise en place pour faciliter la réalisation de tâches particulières. Ce mode d’organisation reste dans la règle des 3 jours de télétravail au maximum dans une semaine.
-* Les Agents de Direction au forfait bénéficieront de cette formule.
-
-Notez que ces exemples ne constituent pas une liste exhaustive de toutes les mentions de nombres de jours de télétravail dans les documents fournis.
+* Dans le document avec `id` 0, il est indiqué que "le mode d'organisation [du télétravail occasionnel] reste dans la règle des 3 jours de télétravail au maximum dans une semaine".
+* Dans le document avec `id` 1, il est indiqué que les collaborateurs qui demandent le télétravail régulier ont 3 choix dans la limite de 2 jours de présence au siège en fonction de leur temps contractuel.
+* Dans le document avec `id` 3, il est indiqué que le télétravail est fondé sur le volontariat du salarié et que les demandes seront examinées collégialement par le Comité de Direction, après avis de l’encadrement, et la décision de l’employeur fait l’objet d’une notification au salarié dans un délai maximum de 45 jours (sauf circonstances exceptionnelles) après la date limite de dépôt des demandes.
+* Dans le document avec `id` 4, il est indiqué que "2 jours de présence au siège seront obligatoires quel que soit le télétravail (régulier, forfaitaire, occasionnel) et le temps contractuel" et que "la durée dans ces cas précis ne peut être supérieure à 3 mois".
+* Dans le document avec `id` 6, il est indiqué que "de manière à éviter l’isolement du télétravailleur de sa communauté de travail, 2 jours de présence sur le lieu de travail sont obligatoires quel que soit le temps de travail afin de conserver le collectif de travail" et que "le nombre de jours de télétravail dans une semaine est donc porté à 3j au maximum selon le temps contractuel".
 Q_TTSEM_NOMBRE:Mon extraction de deux paragraphes max pertinents provenant des documents à analyser qui répondent à la question :
 
 * "Les collaborateurs qui demandent le télétravail régulier ont 3 choix dans la limite de 2 jours de présence au siège en fonction de leur temps contractuel : 1 jour, 2 jours, 3 jours"
-* "5- Mise en place du télétravail 2 jours de présence au siège seront obligatoires quel que soit le télétravail (régulier, forfaitaire, occasionnel) et le temps contractuel."
+* "La Direction se réserve la possibilité d’étudier toute adaptation du forfait en fonction d’une situation particulière. Ce crédit sera libre d’utilisation dans la limite de 3j par semaine, tout en tenant compte des contraintes de l’activité, et sera soumis à accord du manager sous forme dématérialisée par le N+1"
 
 Ma réponse après raisonnement :
 nombrejourdeteletravailmaxparsemaine=3
 
 Mon raisonnement :
-Le document mentionne que les collaborateurs qui demandent le télétravail régulier ont 3 choix dans la limite de 2 jours de présence au siège en fonction de leur temps contractuel : 1 jour, 2 jours, 3 jours. Ceci implique que le nombre maximum de jours de télétravail par semaine est de 3 jours, car il y a 2 jours de présence obligatoire au siège. Cette information est confirmée dans la section "5- Mise en place du télétravail" où il est mentionné que "2 jours de présence au siège seront obligatoires quel que soit le télétravail (régulier, forfaitaire, occasionnel) et le temps contractuel". Par conséquent, le nombre maximum de jours de télétravail par semaine est de 3 jours.
+Dans le premier paragraphe, il est mentionné que les collaborateurs qui demandent le télétravail régulier ont 3 choix dans la limite de 2 jours de présence au siège en fonction de leur temps contractuel : 1 jour, 2 jours, 3 jours. Cela signifie que le nombre maximum de jours de télétravail par semaine est de 3.
+Dans le deuxième paragraphe, il est mentionné que "ce crédit sera libre d’utilisation dans la limite de 3j par semaine". Cela confirme que le nombre maximum de jours de télétravail par semaine est de 3.
+Donc, nombrejourdeteletravailmaxparsemaine=3
