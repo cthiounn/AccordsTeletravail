@@ -1,8 +1,0 @@
-Q_TTSEM:Oui, il y a une mention d'un nombre de jour de télétravail autorisé par semaine. Le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés. Une présence dans l'entreprise de 3 jours minimum par semaine est requise (Document 0, relevance score: 0.96645653).
-Q_TTSEM_NOMBRE:* Extraits pertinents :
-    * "Afin de préserver le lien avec l’entreprise et d’éviter les périodes d’isolement, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés."
-    * "Une présence dans l’entreprise de 3 jours minimum par semaine est requise."
-* Ma réponse :
-    * nombrejourdeteletravailmaxparsemaine=2
-* Mon raisonnement :
-    * Selon le premier extrait, le télétravail régulier peut être organisé à raison de 2 jours maximum par semaine entière de 5 jours ouvrés. Donc, nombrejourdeteletravailmaxparsemaine=2.

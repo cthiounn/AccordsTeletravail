@@ -1,1 +1,0 @@
-Q_TTSEM:Non, il n'y a pas de mention explicite d'un nombre de jours de télétravail autorisé, recommandé, limité ou maximum par semaine dans les documents fournis. Il y a une mention d'un nombre maximal de jours de télétravail par année civile, mais cela ne correspond pas à une base hebdomadaire.
